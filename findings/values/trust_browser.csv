@@ -1,0 +1,7 @@
+value,n,pct
+,14551617,99.6113
+"{""mozilla"": true, ""apple"": true, ""microsoft"": true}",49461,0.3386
+"{""mozilla"": true, ""apple"": false, ""microsoft"": true}",5737,0.0393
+"{""mozilla"": false, ""apple"": true, ""microsoft"": true}",1461,0.01
+"{""mozilla"": false, ""apple"": true, ""microsoft"": false}",78,0.0005
+"{""mozilla"": false, ""apple"": false, ""microsoft"": true}",52,0.0004

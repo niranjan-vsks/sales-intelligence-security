@@ -1,0 +1,15 @@
+value,n,pct
+,13617815,93.219
+sha256WithRSAEncryption,750519,5.1376
+ecdsa-with-SHA256,114791,0.7858
+ecdsa-with-SHA384,88307,0.6045
+sha1WithRSAEncryption,18906,0.1294
+sha384WithRSAEncryption,12442,0.0852
+md5WithRSAEncryption,2862,0.0196
+sha512WithRSAEncryption,2516,0.0172
+ecdsa-with-SHA512,136,0.0009
+ED25519,54,0.0004
+sha1WithRSA,29,0.0002
+ecdsa-with-SHA1,19,0.0001
+rsassaPss,8,0.0001
+ED448,2,0.0

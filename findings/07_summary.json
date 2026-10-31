@@ -1,0 +1,78 @@
+{
+ "tag": "FULL",
+ "rows": 14608406,
+ "entities": 485089,
+ "banners_attributed": 1074635,
+ "pop_rates": {
+  "r_vuln": 0.031996920129410425,
+  "r_cvss7": 0.029562842106113426,
+  "r_http": 0.29515013479225594,
+  "r_ssl": 0.06780452295753554,
+  "r_selfsigned": 0.009387745658218974,
+  "r_certexpired": 0.0036860284414329666,
+  "r_cloud": 0.2854418202779961,
+  "r_waf": 0.10721210787816275,
+  "r_cpe": 0.209097214302505,
+  "r_banner_text": 0.4355360879208861,
+  "r_eol": 0.01672509649581207
+ },
+ "entity_pop_rates": {
+  "r_vuln": 0.16288969652991514,
+  "r_cvss7": 0.14996217189010677,
+  "r_http": 0.8449624708043266,
+  "r_ssl": 0.6671744772608738,
+  "r_selfsigned": 0.037135453494101085,
+  "r_certexpired": 0.06142377996615054,
+  "r_cloud": 0.18139970191037108,
+  "r_waf": 0.208248383286366,
+  "r_cpe": 0.7020278752971104,
+  "r_banner_text": 0.9762414732141936,
+  "r_eol": 0.09074004976406391
+ },
+ "peer_module_country_rows_in_undersized_groups": 0.004132072999614058,
+ "peer_groups_ge30": 3266,
+ "peer_spread": [
+  {
+   "feature": "uptime",
+   "median_within_peer_iqr": 37546.25,
+   "overall_iqr": 37129.0,
+   "peer_groups": 1349
+  },
+  {
+   "feature": "n_vulns",
+   "median_within_peer_iqr": 0.0,
+   "overall_iqr": 0.0,
+   "peer_groups": 3266
+  },
+  {
+   "feature": "n_headers",
+   "median_within_peer_iqr": 3.0,
+   "overall_iqr": 4.0,
+   "peer_groups": 572
+  },
+  {
+   "feature": "n_components",
+   "median_within_peer_iqr": 1.0,
+   "overall_iqr": 2.0,
+   "peer_groups": 573
+  },
+  {
+   "feature": "data_len",
+   "median_within_peer_iqr": 49.0,
+   "overall_iqr": 203.0,
+   "peer_groups": 3266
+  },
+  {
+   "feature": "cert_age_days",
+   "median_within_peer_iqr": 299.5,
+   "overall_iqr": 124.0,
+   "peer_groups": 617
+  },
+  {
+   "feature": "cert_days_to_expiry",
+   "median_within_peer_iqr": 150.0,
+   "overall_iqr": 98.0,
+   "peer_groups": 617
+  }
+ ]
+}

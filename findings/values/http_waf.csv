@@ -1,0 +1,77 @@
+value,n,pct
+,13042208,89.2788
+Incapsula (Imperva Inc.),519798,3.5582
+Cloudflare (Cloudflare Inc.),349918,2.3953
+Cloudfront (Amazon),310736,2.1271
+Kona SiteDefender (Akamai),159032,1.0886
+AWS Elastic Load Balancer (Amazon),132281,0.9055
+FortiWeb (Fortinet),31161,0.2133
+CacheWall (Varnish),15289,0.1047
+SonicWall (Dell),8099,0.0554
+NetScaler AppFirewall (Citrix Systems),4614,0.0316
+Azure Front Door (Microsoft),3992,0.0273
+LiteSpeed (LiteSpeed Technologies),3857,0.0264
+Fastly (Fastly CDN),3766,0.0258
+360WangZhanBao (360 Technologies),3586,0.0245
+Squarespace (Squarespace),3222,0.0221
+Shadow Daemon (Zecure),2155,0.0148
+BIG-IP AppSec Manager (F5 Networks),2146,0.0147
+DDoS-GUARD (DDOS-GUARD CORP.),1806,0.0124
+BIG-IP Local Traffic Manager (F5 Networks),1727,0.0118
+Open-Resty Lua Nginx (FLOSS),1421,0.0097
+DataPower (IBM),1305,0.0089
+ZScaler (Accenture),1054,0.0072
+Sucuri CloudProxy (Sucuri Inc.),923,0.0063
+WTS-WAF (WTS),556,0.0038
+Jiasule (Jiasule),523,0.0036
+BIG-IP AP Manager (F5 Networks),445,0.003
+Qrator (Qrator),389,0.0027
+ASP.NET Generic (Microsoft),359,0.0025
+ModSecurity (SpiderLabs),285,0.002
+Safeline (Chaitin Tech.),236,0.0016
+pkSecurity IDS (pkSec),147,0.001
+BitNinja (BitNinja),141,0.001
+ArvanCloud (ArvanCloud),127,0.0009
+Imunify360 (CloudLinux),106,0.0007
+ISA Server (Microsoft),96,0.0007
+AliYunDun (Alibaba Cloud Computing),91,0.0006
+AzionCDN (AzionCDN),88,0.0006
+Barracuda (Barracuda Networks),83,0.0006
+SquidProxy IDS (SquidProxy),72,0.0005
+DOSarrest (DOSarrest Internet Security),63,0.0004
+SecureSphere (Imperva Inc.),47,0.0003
+Comodo cWatch (Comodo CyberSecurity),45,0.0003
+Huawei Cloud Firewall (Huawei),41,0.0003
+NSFocus (NSFocus Global Inc.),37,0.0003
+Expression Engine (EllisLab),37,0.0003
+Cloudbric (Penta Security),35,0.0002
+Edgecast (Verizon Digital Media),28,0.0002
+Zenedge (Zenedge),26,0.0002
+UEWaf (UCloud),26,0.0002
+Wordfence (Defiant),22,0.0002
+Safedog (SafeDog),21,0.0001
+Secure Entry (United Security Providers),17,0.0001
+UTM Web Protection (Sophos),16,0.0001
+SiteGuard (Sakura Inc.),15,0.0001
+WebSEAL (IBM),14,0.0001
+Yunjiasu (Baidu Cloud Computing),11,0.0001
+YXLink (YxLink Technologies),9,0.0001
+TransIP Web Firewall (TransIP),8,0.0001
+WatchGuard (WatchGuard Technologies),8,0.0001
+KeyCDN (KeyCDN),6,0.0
+OnMessage Shield (BlackBaud),4,0.0
+Alert Logic (Alert Logic),4,0.0
+Airlock (Phion/Ergon),4,0.0
+Reblaze (Reblaze),3,0.0
+Malcare (Inactiv),2,0.0
+Janusec Application Gateway (Janusec),2,0.0
+NinjaFirewall (NinTechNet),2,0.0
+WebKnight (AQTRONIX),2,0.0
+GoDaddy Website Protection (GoDaddy),2,0.0
+Yundun (Yundun),2,0.0
+Yunsuo (Yunsuo),2,0.0
+LimeLight CDN (LimeLight),1,0.0
+BlockDoS (BlockDoS),1,0.0
+BulletProof Security Pro (AITpro Security),1,0.0
+Anquanbao (Anquanbao),1,0.0
+Nemesida (PentestIt),1,0.0

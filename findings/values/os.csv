@@ -1,0 +1,2491 @@
+value,n,pct
+,14010008,95.9037
+Ubuntu,125641,0.8601
+Linux 3.x,113064,0.774
+Windows,93506,0.6401
+Linux,70387,0.4818
+Windows 7 or 8,41762,0.2859
+Linux 2.6.x,34261,0.2345
+FreeBSD 9.x,20899,0.1431
+MikroTik RouterOS,9454,0.0647
+Windows Server 2022 (build 10.0.20348),7999,0.0548
+Windows XP,6650,0.0455
+Windows (build 10.0.17763),4807,0.0329
+Windows 11 (build 10.0.26100),4331,0.0296
+Windows (build 10.0.19041),4114,0.0282
+ASUSWRT,3268,0.0224
+Unix,3023,0.0207
+Windows (build 10.0.14393),2838,0.0194
+Debian,2619,0.0179
+IOS,1957,0.0134
+Linux 2.4.x,1928,0.0132
+Linux 2.4-2.6,1773,0.0121
+Windows (build 6.3.9600),1655,0.0113
+Fortigate v5,1439,0.0099
+IOS 12.3/12.4,1142,0.0078
+Red Hat Enterprise Linux,1078,0.0074
+HP-UX 11.x,1056,0.0072
+PIX OS 7.0.x,1005,0.0069
+FreeBSD,947,0.0065
+Freebox OS,895,0.0061
+Windows Server 2019 (version 1809) (build 10.0.17763),832,0.0057
+Windows Server 2012 R2 (build 6.3.9600),815,0.0056
+Red Hat Enterprise Linux 7,733,0.005
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-136-generic),709,0.0049
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-144-generic),669,0.0046
+Synology DiskStation Manager (DSM) 7.4.1-90080,661,0.0045
+Windows Server 2012 R2,572,0.0039
+Red Hat Enterprise Linux 8,555,0.0038
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-124-generic),541,0.0037
+MikroTik RouterOS 6.49.19,540,0.0037
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-161-generic),515,0.0035
+MikroTik RouterOS 6.48.6,508,0.0035
+HP-UX,430,0.0029
+Windows Server 2016 (version 1607) (build 10.0.14393),419,0.0029
+Windows 8,408,0.0028
+Synology DiskStation Manager (DSM) 7.1.1-42962,397,0.0027
+PAN-OS,395,0.0027
+Ubiquiti AirOS,394,0.0027
+FreeBSD 8.x-9.x,386,0.0026
+RB750Gr3,385,0.0026
+Synology DiskStation Manager (DSM) 7.3.2-86009,331,0.0023
+Rocky Linux 9.8 (Blue Onyx) (Linux 5.14.0-427.13.1.el9_4.x86_64),328,0.0022
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-113-generic),323,0.0022
+Synology DiskStation Manager (DSM) 7.2.2-72806,313,0.0021
+MikroTik RouterOS 6.49.17,306,0.0021
+QTS,305,0.0021
+RB4011iGS+,273,0.0019
+MikroTik RouterOS 6.49.18,273,0.0019
+Windows (build 6.1.7601),271,0.0019
+LG webOS,270,0.0018
+Synology DiskStation Manager (DSM) 6.2.4-25556,270,0.0018
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-136-generic),256,0.0018
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-216-generic),255,0.0017
+Synology DiskStation Manager (DSM),250,0.0017
+MikroTik RouterOS 6.49.23,243,0.0017
+MikroTik RouterOS 6.49.7,241,0.0016
+RB3011UiAS,230,0.0016
+MikroTik RouterOS 6.49.21,227,0.0016
+MikroTik RouterOS 6.49.10,224,0.0015
+Mac OS X,222,0.0015
+FreeBSD 8.x,220,0.0015
+Windows 11 (version 22H2) (build 10.0.22621),218,0.0015
+Windows (build 10.0.26100),215,0.0015
+MikroTik RouterOS 6.49.13,210,0.0014
+Synology DiskStation Manager (DSM) 7.2.1-69057,202,0.0014
+MikroTik RouterOS 6.49.22,183,0.0013
+MikroTik RouterOS 6.49.8,175,0.0012
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-198-generic),169,0.0012
+MikroTik RouterOS 6.49.6,165,0.0011
+MikroTik RouterOS 6.49.15,163,0.0011
+Windows CE,158,0.0011
+MikroTik RouterOS 6.45.9,156,0.0011
+Linux 3.x 7.1.1-42962,153,0.001
+MikroTik RouterOS 6.47.10,151,0.001
+Linux 3.x 6.2.4-25556,148,0.001
+Debian-Security,148,0.001
+Linux 4.9.118 (armv7l),147,0.001
+Red Hat Enterprise Linux 6,141,0.001
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-110-generic),140,0.001
+MikroTik RouterOS 6.49.20,137,0.0009
+Dell SonicWALL SonicOS 5.x,134,0.0009
+RB450Gx4,126,0.0009
+MikroTik RouterOS 6.49.11,124,0.0008
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-160-generic),123,0.0008
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-157-generic),118,0.0008
+Windows Server 2012 R2 Datacenter 9600,118,0.0008
+MikroTik RouterOS 6.47.9,115,0.0008
+RB760iGS,114,0.0008
+Ubuntu 24.04 LTS (Noble Numbat) (Linux 6.8.0-39-generic),111,0.0008
+Windows 6.1,110,0.0008
+Windows (build 6.2.9200),110,0.0008
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-179-generic),108,0.0007
+RB1100x4,104,0.0007
+Sony Bravia Firmware,103,0.0007
+RB951Ui-2HnD,102,0.0007
+RB941-2nD,100,0.0007
+Asuswrt-Merlin,94,0.0006
+Linux 5.4.0-216-generic,94,0.0006
+Windows Server 2008 R2 Standard,94,0.0006
+MikroTik RouterOS 6.48.3,94,0.0006
+Mac OS X 10.x,90,0.0006
+Windows Server 2016 Standard 14393,90,0.0006
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-177-generic),85,0.0006
+RB2011UiAS,84,0.0006
+Linux 5.4.0-172-generic,84,0.0006
+RB750r2,83,0.0006
+RB1100AHx2,82,0.0006
+Windows Server 2012 R2 Standard 9600,81,0.0006
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-117-generic),81,0.0006
+Windows Server 2008,81,0.0006
+SonicWall SonicOS 5.x,81,0.0006
+Ubuntu 18.04 LTS (Bionic Beaver) (Linux 4.15.0-20-generic),78,0.0005
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-117-generic),73,0.0005
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-113-generic),73,0.0005
+MikroTik RouterOS 6.48.4,71,0.0005
+MikroTik RouterOS 6.48.1,71,0.0005
+MikroTik RouterOS 6.44.5,71,0.0005
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-90-generic),68,0.0005
+MikroTik RouterOS 6.49.2,66,0.0005
+RB2011UiAS-2HnD,66,0.0005
+RB5009UG+S+,66,0.0005
+PIX OS 7.1 or later,66,0.0005
+Windows Server 2016 Datacenter 14393,64,0.0004
+Windows Server 2008 R2,63,0.0004
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-168-generic),63,0.0004
+AlmaLinux 9.8 (Olive Jaguar) (Linux 5.14.0-687.51.1.el9_8.x86_64),61,0.0004
+RBD52G-5HacD2HnD,61,0.0004
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-147-generic),60,0.0004
+Junos OS,60,0.0004
+Linux 4.15.0-213-generic,59,0.0004
+Synology Router Manager (SRM) 1.2.5-8227,58,0.0004
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-185-generic),58,0.0004
+Linux 5.15.0-177-generic,58,0.0004
+RB951G-2HnD,55,0.0004
+Synology DiskStation Manager (DSM) 6.2.3-25426,55,0.0004
+Windows (build 10.0.18362),54,0.0004
+MikroTik RouterOS 6.47.8,54,0.0004
+Synology Router Manager (SRM) 1.3.2-9366,53,0.0004
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-131-generic),53,0.0004
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-190-generic),53,0.0004
+Linux 3.x 4.3.3,51,0.0003
+RB952Ui-5ac2nD,51,0.0003
+QTS 4.3.6,51,0.0003
+Linux 3.18.20 (armv7l),49,0.0003
+MikroTik RouterOS 6.47.1,49,0.0003
+Synology DiskStation Manager (DSM) 7.0.1-42218,49,0.0003
+NetScreen OS,48,0.0003
+Windows 11 (version 21H2) (build 10.0.22000),48,0.0003
+MikroTik RouterOS 6.48.7,48,0.0003
+Raspbian,48,0.0003
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-87-generic),48,0.0003
+Linux 6.8.0-124-generic,46,0.0003
+Synology Router Manager (SRM) 1.3.1-9346,46,0.0003
+MikroTik RouterOS 6.46.8,46,0.0003
+Linux 2.6.32-754.35.1.el6.x86_64,45,0.0003
+Synology DiskStation Manager (DSM) 7.2-64570,44,0.0003
+MikroTik RouterOS 6.49.5,43,0.0003
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-190-generic),43,0.0003
+MikroTik RouterOS 6.48.2,42,0.0003
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-140-generic),42,0.0003
+Ubuntu 24.04 LTS (Noble Numbat) (Linux 6.8.0-31-generic),42,0.0003
+MikroTik RouterOS 6.48,41,0.0003
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-151-generic),41,0.0003
+Windows Server 2012,41,0.0003
+Linux 2.6.x 6.2.4-25556,41,0.0003
+Windows Server (version 2004) (build 10.0.19041),39,0.0003
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-51-amd64),39,0.0003
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-138-generic),39,0.0003
+pSOS+,39,0.0003
+Linux 2.6.32.27 (mips),38,0.0003
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-164-generic),38,0.0003
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 6.8.0-138-generic),37,0.0003
+MikroTik RouterOS 6.47.7,36,0.0002
+RB1100Dx4,36,0.0002
+Red Hat Enterprise Linux 5,35,0.0002
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-186-generic),35,0.0002
+MikroTik RouterOS 6.47,35,0.0002
+MikroTik RouterOS 6.47.4,35,0.0002
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.13.19-1-pve),33,0.0002
+Windows Server 2008 R2 Enterprise,33,0.0002
+MikroTik RouterOS 6.49,33,0.0002
+MikroTik RouterOS 6.46.4,32,0.0002
+MikroTik RouterOS 6.45.8,32,0.0002
+MikroTik RouterOS 6.49.1,32,0.0002
+MikroTik RouterOS 6.43.4,32,0.0002
+MikroTik RouterOS 6.46.6,32,0.0002
+RB951Ui-2nD,31,0.0002
+Windows Server 2003 (build 5.2.3790),31,0.0002
+Ubuntu 20.04.1 LTS (Focal Fossa) (Linux 5.4.0-216-generic),31,0.0002
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.el7.x86_64),31,0.0002
+QTS 4.3.3,31,0.0002
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-71-generic),31,0.0002
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-173-generic),31,0.0002
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-106-generic),30,0.0002
+RB960PGS,30,0.0002
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-133-generic),30,0.0002
+Ubuntu 18.04.6 LTS (Bionic Beaver) (Linux 4.15.0-213-generic),30,0.0002
+Debian GNU/Linux 12 (bookworm) (Linux 6.8.0-136-generic),30,0.0002
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-111-generic),30,0.0002
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-173-generic),30,0.0002
+MikroTik RouterOS 6.49.16,30,0.0002
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-139-generic),29,0.0002
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-53-amd64),28,0.0002
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-191-generic),28,0.0002
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-142-generic),28,0.0002
+RB2011iL,28,0.0002
+MikroTik RouterOS 6.44.3,28,0.0002
+Linux 3.10.0 (armv7l),28,0.0002
+Ubuntu 20.04.4 LTS (Focal Fossa) (Linux 5.4.0-216-generic),27,0.0002
+MikroTik RouterOS 6.46.1,27,0.0002
+RB450G,27,0.0002
+CentOS Linux 7 (Core) (Linux 3.10.0-957.el7.x86_64),27,0.0002
+Ubuntu 20.04 LTS (Focal Fossa) (Linux 5.4.0-48-generic),27,0.0002
+MikroTik RouterOS 6.42.7,27,0.0002
+Synology DiskStation Manager (DSM) 6.2.2-24922,27,0.0002
+Synology DiskStation Manager (DSM) 7.3.1-86003,26,0.0002
+DD-WRT,26,0.0002
+SonicWall SonicOS,26,0.0002
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-181-generic),26,0.0002
+Windows Server 2008 R2 (build 6.1.7601),26,0.0002
+MikroTik RouterOS 6.43.8,26,0.0002
+RBD53iG-5HacD2HnD,25,0.0002
+Linux 5.10.194 (x86_64),25,0.0002
+Linux 3.x 7.0.1-42218,25,0.0002
+Windows (build 10.0.22621),25,0.0002
+Linux 6.8.0-110-generic,25,0.0002
+Linux 2.6.32.71 (mips),25,0.0002
+Linux 6.1.188-233.393.amzn2023.x86_64 (x86_64),24,0.0002
+Windows Server 2008 R2 Datacenter,24,0.0002
+MikroTik RouterOS 6.49.14,24,0.0002
+NetBSD,24,0.0002
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-124-generic),24,0.0002
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-134-generic),24,0.0002
+Windows 7,24,0.0002
+Linux 2.6.32.68 (mips),23,0.0002
+MikroTik RouterOS 6.43.2,23,0.0002
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-142-generic),23,0.0002
+Synology DiskStation Manager (DSM) 7.1-42661,23,0.0002
+Windows Server 2003,23,0.0002
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-134-generic),23,0.0002
+MikroTik RouterOS 6.47.6,22,0.0002
+Ubuntu 22.04 (Jammy Jellyfish) (Linux 5.15.0-153-generic),22,0.0002
+MikroTik RouterOS 6.46.3,22,0.0002
+Darwin,22,0.0002
+JUNOS,22,0.0002
+MikroTik RouterOS 6.44.6,22,0.0002
+Linux 5.15.0-105-generic,21,0.0001
+Ubuntu 26.04.1 LTS (Resolute Raccoon) (Linux 7.0.0-38-generic),21,0.0001
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.119.1.el7.x86_64),21,0.0001
+RB750,21,0.0001
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-88-generic),21,0.0001
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-198-generic),21,0.0001
+MikroTik RouterOS 6.45.6,21,0.0001
+MikroTik RouterOS 6.42.12,20,0.0001
+MikroTik RouterOS 6.45.7,20,0.0001
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 6.5.0-21-generic),20,0.0001
+Linux 3.x 6.2.3-25426,20,0.0001
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-39-generic),20,0.0001
+MikroTik RouterOS 6.42.1,20,0.0001
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-139-generic),19,0.0001
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-33-amd64),19,0.0001
+MikroTik RouterOS 6.48.5,19,0.0001
+Windows 7 Professional,19,0.0001
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-117-generic),19,0.0001
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-124-generic),19,0.0001
+RB750Gr3 7.24.5 (stable),18,0.0001
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-147-generic),18,0.0001
+QTS 5.0.0,18,0.0001
+RBLHG-5nD,18,0.0001
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-130-generic),18,0.0001
+MikroTik RouterOS 6.44.1,18,0.0001
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-9-amd64),18,0.0001
+Linux 3.13.11-1-amd64-vyos,18,0.0001
+MikroTik RouterOS 6.49.3,18,0.0001
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-170-generic),18,0.0001
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-23-amd64),18,0.0001
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-187-generic),18,0.0001
+RB SXT 5nD r2,18,0.0001
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-153-generic),17,0.0001
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-146-generic),17,0.0001
+SonicOS,17,0.0001
+MikroTik RouterOS 6.47.3,17,0.0001
+MikroTik RouterOS 6.48rc2,17,0.0001
+Windows Server 2008 R2 Standard 7601 Service Pack 1,17,0.0001
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-52-amd64),17,0.0001
+RB4011iGS+ 7.24.5 (stable),17,0.0001
+Synology DiskStation Manager (DSM) 6.1.7-15284,17,0.0001
+Playstation 4,17,0.0001
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-121-generic),17,0.0001
+Windows Server (version 1903) (build 10.0.18362),17,0.0001
+Debian GNU/Linux 13 (trixie) (Linux 6.12.101+deb13-cloud-amd64),16,0.0001
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.11.22-1-pve),16,0.0001
+RB3011UiAS 7.24.5 (stable),16,0.0001
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-194-generic),16,0.0001
+RB750Gr3 7.24.2 (stable),16,0.0001
+Windows Server 2008 Standard,16,0.0001
+MikroTik RouterOS 6.47.2,16,0.0001
+MikroTik RouterOS 6.43.16,16,0.0001
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-85-generic),16,0.0001
+OneOS,16,0.0001
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-137-generic),16,0.0001
+Debian GNU/Linux 13 (trixie) (Linux 6.12.95+deb13-cloud-amd64),16,0.0001
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-37-amd64),16,0.0001
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-171-generic),15,0.0001
+Windows 11 (build 10.0.28000),15,0.0001
+MikroTik RouterOS 6.42.6,15,0.0001
+IOS 15.4(3)M3,15,0.0001
+Windows 10 Pro 19045,15,0.0001
+Windows (build 6.0.6003),15,0.0001
+Meraki MX,15,0.0001
+Windows (build 10.0.17134),15,0.0001
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-54-amd64),15,0.0001
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-191-generic),15,0.0001
+RB4011iGS+ 7.24.4 (stable),15,0.0001
+Linux 5.15.0-164-generic,15,0.0001
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-71-generic),15,0.0001
+CentOS Linux 7 (Core) (Linux 3.10.0-957.1.3.el7.x86_64),15,0.0001
+MikroTik RouterOS 6.42.3,15,0.0001
+Linux 3.x 4.3.4,15,0.0001
+Linux 3.14.28-Prod_18.2 (armv7l),14,0.0001
+Debian GNU/Linux 13 (trixie) (Linux 6.12.111+deb13-amd64),14,0.0001
+RB5009UG+S+ 7.24.4 (stable),14,0.0001
+Linux 5.15.0-60-generic,14,0.0001
+RB4011iGS+5HacQ2HnD,14,0.0001
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-10-amd64),14,0.0001
+MikroTik RouterOS 6.46.2,14,0.0001
+Linux 4.19.0-27-amd64,14,0.0001
+Linux 4.9.138 (armv7l),14,0.0001
+Debian GNU/Linux 13 (trixie) (Linux 6.12.95+deb13-amd64),14,0.0001
+Debian GNU/Linux 13 (trixie) (Linux 6.12.107+deb13-amd64),14,0.0001
+Debian GNU/Linux 13 (trixie) (Linux 6.12.113+deb13-cloud-amd64),14,0.0001
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-136-generic),14,0.0001
+Container-Optimized OS 125 (Linux 6.12.94+),13,0.0001
+Debian GNU/Linux 13 (trixie) (Linux 6.12.113+deb13-amd64),13,0.0001
+Linux 4.15.0-197-generic,13,0.0001
+Synology DiskStation Manager (DSM) 7.4-90075,13,0.0001
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-156-generic),13,0.0001
+Debian GNU/Linux 13 (trixie) (Linux 6.12.101+deb13-amd64),13,0.0001
+Linux 4.14.109-99.92.amzn2.x86_64 x86_64,13,0.0001
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-40-amd64),13,0.0001
+Dell SonicWALL SonicOS,13,0.0001
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-18-amd64),13,0.0001
+IOS 15.5(3)S2,13,0.0001
+Linux 3.10.0-1160.119.1.el7.x86_64,13,0.0001
+Linux 3.10.0-1160.119.1.el7.x86_64 (x86_64),13,0.0001
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-144-generic),13,0.0001
+MikroTik RouterOS 6.45.3,13,0.0001
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-174-generic),13,0.0001
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-179-generic),12,0.0001
+CentOS Linux 7 (Core) (Linux 4.19.188-10.el7.ucloud.x86_64),12,0.0001
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-125-generic),12,0.0001
+Linux 3.14.77 (armv7l),12,0.0001
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-35-amd64),12,0.0001
+MikroTik RouterOS 6.44.4,12,0.0001
+Linux 6.8.0-147-generic,12,0.0001
+Synology DiskStation Manager (DSM) 7.0-41890,12,0.0001
+Linux 3.0.8 (armv7l),12,0.0001
+MikroTik RouterOS 6.49rc2,12,0.0001
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-142-generic),12,0.0001
+RB962UiGS-5HacT2HnT,12,0.0001
+Windows Server 2008 R2 Enterprise 7601 Service Pack 1,12,0.0001
+Synology,12,0.0001
+MikroTik RouterOS 6.45.1,12,0.0001
+RB5009UG+S+ 7.24.2 (stable),12,0.0001
+Linux 6.8.0-117-generic,12,0.0001
+RB2011iLS,12,0.0001
+Linux 4.19.148 (armv7l),12,0.0001
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-191-generic),12,0.0001
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-52-cloud-amd64),12,0.0001
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-164-generic),11,0.0001
+IOS 15.5(3)S4b,11,0.0001
+RB4011iGS+ 7.24.2 (stable),11,0.0001
+Ubuntu 18.04.4 LTS (Bionic Beaver) (Linux 4.15.0-180-generic),11,0.0001
+Debian GNU/Linux 10 (buster) (Linux 4.19.0-26-amd64),11,0.0001
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-142-generic),11,0.0001
+Talos (Linux 6.18.57-talos),11,0.0001
+Windows Server 2012 (build 6.2.9200),11,0.0001
+Linux 5.15.0-124-generic,11,0.0001
+Debian GNU/Linux 13 (trixie) (Linux 6.12.74+deb13+1-amd64),11,0.0001
+RB750GL,11,0.0001
+Linux 4.19.148 (aarch64),11,0.0001
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-41-generic),11,0.0001
+Ubuntu 26.04 (Resolute Raccoon) (Linux 7.0.0-14-generic),11,0.0001
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-51-generic),11,0.0001
+RBD53GR-5HacD2HnD,11,0.0001
+Ubuntu 20.04.5 LTS (Focal Fossa) (Linux 5.4.0-216-generic),11,0.0001
+Windows Server 2019 Standard 17763,11,0.0001
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-43-amd64),11,0.0001
+Linux 6.12.59-linuxkit,11,0.0001
+ZyNOS,11,0.0001
+Linux 4.9.232-Prod_21.1 (armv7l),11,0.0001
+MikroTik RouterOS 7.2.3,11,0.0001
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-156-generic),10,0.0001
+Linux 4.4.0-210-generic,10,0.0001
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.99.1.el7.x86_64),10,0.0001
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-153-generic),10,0.0001
+Synology Router Manager (SRM),10,0.0001
+RBLHGG-5acD,10,0.0001
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-146-generic),10,0.0001
+RB5009UG+S+ 7.24.5 (stable),10,0.0001
+Synology DiskStation Manager (DSM) 7.3-81180,10,0.0001
+Debian GNU/Linux 13 (trixie) (Linux 6.12.96+deb13-amd64),10,0.0001
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-60-generic),10,0.0001
+MikroTik RouterOS 6.42.5,10,0.0001
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-87-generic),10,0.0001
+Linux 6.8.0-88-generic,10,0.0001
+MikroTik RouterOS 6.49.4,10,0.0001
+Windows Web Server 2008 R2,10,0.0001
+MikroTik RouterOS 6.45.5,10,0.0001
+Windows 7 Ultimate,10,0.0001
+Linux 6.8.0-87-generic,10,0.0001
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-28-amd64),10,0.0001
+MikroTik RouterOS 6.43.7,10,0.0001
+Linux 3.10.0-1160.83.1.el7.x86_64,10,0.0001
+Linux 6.1.0-53-cloud-amd64,10,0.0001
+MikroTik RouterOS 6.49.9,10,0.0001
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.46-scaleway),10,0.0001
+Linux 4.18.0-348.el8.0.2.x86_64,10,0.0001
+Linux 2.6.31 (mips),10,0.0001
+Linux 2.6.32-754.30.2.el6.x86_64,10,0.0001
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.81.1.el7.x86_64),9,0.0001
+RBLHG5nD,9,0.0001
+RB1100x4 7.24.2 (stable),9,0.0001
+RB750Gr3 7.24.4 (stable),9,0.0001
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-143-generic),9,0.0001
+Ubuntu 20.04.3 LTS (Focal Fossa) (Linux 5.4.0-216-generic),9,0.0001
+Linux 2.6.36 (mips),9,0.0001
+Windows Server 2008 R2 Datacenter 7601 Service Pack 1,9,0.0001
+IOS 12.2(33)SRE14,9,0.0001
+Linux 4.9.44 (armv7l),9,0.0001
+MikroTik RouterOS 6.42.11,9,0.0001
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-142-generic),9,0.0001
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-136-generic),9,0.0001
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-36-cloud-amd64),9,0.0001
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-1071-kvm),9,0.0001
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.45.1.el7.x86_64),9,0.0001
+Linux 5.15.0-198-generic,9,0.0001
+QTS 4.3.4,9,0.0001
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-196-generic),9,0.0001
+MikroTik RouterOS 7.3.1,9,0.0001
+MikroTik RouterOS 6.44,9,0.0001
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-94-generic),9,0.0001
+Ubuntu 24.04 LTS (Noble Numbat) (Linux 6.8.0-55-generic),9,0.0001
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-177-generic),9,0.0001
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-173-generic),9,0.0001
+AlmaLinux 9.5 (Teal Serval) (Linux 5.14.0),9,0.0001
+MikroTik RouterOS 6.42.10,8,0.0001
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-191-generic),8,0.0001
+RB5009UG+S+ 7.22.3 (stable),8,0.0001
+Linux 3.x 6.2-23739,8,0.0001
+Linux 4.19.0-14-amd64,8,0.0001
+Linux 3.x 7.2.2-72806,8,0.0001
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-44-amd64),8,0.0001
+IOS 15.3(3)M6,8,0.0001
+Ubuntu 20.04.5 LTS (Focal Fossa) (Linux 5.4.0-137-generic),8,0.0001
+RB951Ui-2HnD 7.24.5 (stable),8,0.0001
+MikroTik RouterOS 6.49.12,8,0.0001
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-101-generic),8,0.0001
+Rocky Linux 8.10 (Green Obsidian) (Linux 4.18.0-553.el8_10.x86_64),8,0.0001
+Linux 6.8.0-138-generic,8,0.0001
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.15.0-1081-oracle),8,0.0001
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-194-generic),8,0.0001
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-208-generic),8,0.0001
+Linux 4.15.0-209-generic,8,0.0001
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-46-amd64),8,0.0001
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-174-generic),8,0.0001
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.88.1.el7.x86_64),8,0.0001
+Rocky Linux 8.10 (Green Obsidian) (Linux 4.18.0-553.134.1.el8_10.x86_64),8,0.0001
+CentOS Linux 8 (Linux 4.18.0-348.7.1.el8_5.x86_64),8,0.0001
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-31-amd64),8,0.0001
+MikroTik RouterOS 6.44.2,8,0.0001
+OpenBSD 5.x,8,0.0001
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-41-amd64),8,0.0001
+Talos (Linux 6.18.51-talos),8,0.0001
+Linux 4.9.0-16-amd64,8,0.0001
+RB750UPr2,8,0.0001
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-125-generic),8,0.0001
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-193-generic),8,0.0001
+RBSXT5HacD2nr2,8,0.0001
+Linux 6.8.0-136-generic,8,0.0001
+Linux 5.4.0-1123-kvm,8,0.0001
+MikroTik RouterOS 6.43.12,8,0.0001
+Ubuntu 26.04 LTS (Resolute Raccoon) (Linux 7.0.0-22-generic),8,0.0001
+Linux 6.1.0-23-amd64 (PREEMPT_DYNAMIC),8,0.0001
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-147-generic),8,0.0001
+MikroTik RouterOS 6.46,8,0.0001
+Linux 3.3.8 (mips),7,0.0
+Windows Server 2008 Enterprise,7,0.0
+Ubuntu 20.04.1 LTS (Focal Fossa) (Linux 5.4.0-42-generic),7,0.0
+AlmaLinux 8.10 (Cerulean Leopard) (Linux 4.18.0-553.el8_10.x86_64),7,0.0
+Linux 3.x 4.2.6,7,0.0
+Linux 3.x 5.1.0,7,0.0
+Linux 5.15.0-139-generic,7,0.0
+MikroTik RouterOS 6.43,7,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.90+deb13.1-amd64),7,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-176-generic),7,0.0
+Ubuntu 23.04 (Lunar Lobster) (Linux 6.2.0-39-generic),7,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-88-generic),7,0.0
+Linux 5.15.95-xanmod1 (x86_64),7,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.86+deb13-amd64),7,0.0
+CentOS Linux 7 (Core) (Linux 6.9.10-1.el7.x86_64),7,0.0
+RB911G-5HPnD,7,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-139-generic),7,0.0
+Linux 6.12.96+deb13-amd64,7,0.0
+IOS 15.3(2)S2,7,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-176-generic),7,0.0
+AlmaLinux 8.9 (Midnight Oncilla) (Linux 4.18.0-513.24.1.el8_9.x86_64),7,0.0
+Ubuntu 22.04.1 LTS (Jammy Jellyfish) (Linux 5.15.0-181-generic),7,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-138-generic),7,0.0
+MikroTik RouterOS 6.32.4,7,0.0
+Debian GNU/Linux 9 (stretch) (Linux 4.9.0-19-amd64),7,0.0
+MikroTik RouterOS 6.40.8,7,0.0
+Linux 2.6.32-754.35.1.el6.x86_64 (x86_64),7,0.0
+Linux 3.x 4.3.6,7,0.0
+Ubuntu 20.04.3 LTS (Focal Fossa) (Linux 5.4.0-200-generic),7,0.0
+RBLHG-5HPnD,7,0.0
+RB4011iGS+ 7.23.2 (stable),7,0.0
+Windows Server 2019 Datacenter 17763,7,0.0
+QTS 4.2.6,7,0.0
+Linux 5.4.0-216-generic (x86_64),7,0.0
+RB5009UG+S+ 7.23.1 (stable),7,0.0
+Linux 5.4.0-1133-kvm,7,0.0
+RB5009UG+S+ 7.22.2 (stable),7,0.0
+Linux 6.12.113+deb13-cloud-amd64,6,0.0
+RB3011UiAS 7.25,6,0.0
+RB SXT 5HPnD,6,0.0
+RB4011iGS+ 7.23.8 (long-term),6,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-47-cloud-amd64),6,0.0
+Rocky Linux 9.5 (Blue Onyx) (Linux 5.14.0-611.55.1.el9_7.x86_64),6,0.0
+AsyncOS,6,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-138-generic),6,0.0
+MikroTik RouterOS 7.1.1,6,0.0
+RB1100AH,6,0.0
+Linux 6.8.0-147-generic x86_64,6,0.0
+AlmaLinux 9.8 (Olive Jaguar) (Linux 5.14.0-427.42.1.el9_4.x86_64),6,0.0
+Linux 6.8.0-137-generic,6,0.0
+IOS 15.1(4)M4,6,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-1062.9.1.el7.x86_64),6,0.0
+Solaris 6,6,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.90+deb13.1-cloud-amd64),6,0.0
+Linux 3.x 5.1.6,6,0.0
+IOS 16.9.2,6,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-185-generic),6,0.0
+Synology DiskStation Manager (DSM) 6.2-23739,6,0.0
+Linux 5.15.0-136-generic,6,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-162-generic),6,0.0
+Ubuntu 24.10 (Oracular Oriole) (Linux 6.11.0-29-generic),6,0.0
+RB931-2nD,6,0.0
+Talos (Linux 6.18.39-talos),6,0.0
+Linux 6.12.105+deb13-amd64,6,0.0
+Linux 3.x 5.2-5644,6,0.0
+Linux 3.x 7.4-90075,6,0.0
+Linux 4.14.93-rt50 (armv7l),6,0.0
+Ubuntu 20.04 LTS (Focal Fossa) (Linux 5.4.0-216-generic),6,0.0
+RB4011iGS+ 7.23.7 (long-term),6,0.0
+RB5009UG+S+ 7.23.5 (long-term),6,0.0
+MikroTik RouterOS 6.42.4,6,0.0
+RB750Gr3 7.25,6,0.0
+Red Hat Enterprise Linux Server 7.9 (Maipo) (Linux 3.10.0-1160.49.1.el7.x86_64),6,0.0
+Talos (Linux 6.18.24-talos),6,0.0
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-100-generic),6,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-110-generic),6,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-198-generic),6,0.0
+Ubuntu 22.04 LTS (Jammy Jellyfish) (Linux 5.15.0-151-generic),6,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-20-amd64),6,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-204-generic),6,0.0
+RB912UAG-5HPnD,5,0.0
+Windows (build 6.0.6002),5,0.0
+RB850Gx2,5,0.0
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 7.0.0-28-generic),5,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.220-0515220-generic),5,0.0
+Fedora Linux 38.20230527.3.0 (CoreOS) (Linux 6.2.15-300.fc38.x86_64),5,0.0
+Dell SonicWALL SonicOS 6.x,5,0.0
+Linux 3.14.77 (mips),5,0.0
+FreeBSD 13.3-RELEASE-p8 (FreeBSD 13.3-RELEASE-p7),5,0.0
+Linux 3.x 7.4.1-90080,5,0.0
+MikroTik RouterOS 6.45.2,5,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-111-generic),5,0.0
+Ubuntu 18.04.5 LTS (Bionic Beaver) (Linux 4.15.0-213-generic),5,0.0
+AlmaLinux 10.0 (Purple Lion) (Linux 6.12.0-55.32.1.el10_0.x86_64),5,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-37-amd64),5,0.0
+Windows Server 2016 Standard Evaluation 14393,5,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.107+deb13-cloud-amd64),5,0.0
+RB750Gr2,5,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-43-generic),5,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.74+deb13+1-cloud-amd64),5,0.0
+AOS,5,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-119-generic),5,0.0
+Linux 5.14.0-427.106.1.vz9.90.3 (x86_64),5,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.71.1.el7.x86_64),5,0.0
+RB760iGS 7.24.5 (stable),5,0.0
+Ubuntu 24.04 LTS (Noble Numbat) (Linux 6.8.0-90-generic),5,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-89-generic),5,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-34-amd64),5,0.0
+QTS 4.5.2,5,0.0
+MikroTik RouterOS 6.42.2,5,0.0
+IOS 15.8(3)M6,5,0.0
+MikroTik RouterOS 6.43.9,5,0.0
+RB3011UiAS 7.24.4 (stable),5,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-105-generic),5,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.41+deb13-amd64),5,0.0
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-107-generic),5,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-21-cloud-amd64),5,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-134-generic),5,0.0
+Windows XP 5.x,5,0.0
+Synology DiskStation Manager (DSM) 7.2-64561,5,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-13-amd64),5,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-134-generic),5,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-25-cloud-amd64),5,0.0
+Linux 3.x 7.3.1-86003,5,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.111+deb13-cloud-amd64),5,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.8.12-16-pve),5,0.0
+IOS 15.5(3)S2b,5,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-43-cloud-amd64),5,0.0
+CentOS Linux 7 (Core) (Linux 6.18.57-pwnescape),5,0.0
+RB5009UPr+S+ 7.24.5 (stable),5,0.0
+Linux 4.15.0-213-generic (x86_64),5,0.0
+Linux 3.10.0-1160.59.1.el7.x86_64,5,0.0
+Ubuntu 26.04 LTS (Resolute Raccoon) (Linux 7.0.0-30-generic),5,0.0
+Linux 5.15.0-179-generic,5,0.0
+Linux 5.15.200 (mips),5,0.0
+Synology DiskStation Manager (DSM) 5.2-5967,5,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-147-generic),5,0.0
+Windows 7 Professional 7601 Service Pack 1,5,0.0
+Linux 6.8.0-134-generic,5,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-122-generic),5,0.0
+RB2011UAS,5,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.15.0-139-generic),5,0.0
+MikroTik RouterOS 6.18,5,0.0
+RB5009UPr+S+,5,0.0
+Ubuntu 22.04.1 LTS (Jammy Jellyfish) (Linux 5.15.0-46-generic),5,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-15-amd64),5,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-43-cloud-amd64),5,0.0
+Red Hat Enterprise Linux 8.10 (Ootpa) (Linux 4.18.0-553.40.1.el8_10.x86_64),5,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-51-cloud-amd64),5,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.90.1.el7.x86_64),5,0.0
+RB2011UiAS 7.24.2 (stable),5,0.0
+Linux 5.15.0-187-generic,5,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-161-generic),5,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-200-generic),5,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-90-generic),5,0.0
+Ubuntu 20.04.1 LTS (Focal Fossa) (Linux 5.4.0-215-generic),5,0.0
+Fedora Linux 40.20240616.3.0 (CoreOS) (Linux 6.8.11-300.fc40.x86_64),5,0.0
+MikroTik RouterOS 7.1.3,5,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-100-generic),5,0.0
+QTS 5.1.0,5,0.0
+IOS 15.4(2)S,5,0.0
+Linux 4.15.0-142-generic,5,0.0
+IOS 15.4(3)M1,5,0.0
+MikroTik RouterOS 6.46.5,5,0.0
+Linux 3.10.0-1062.4.3.el7.x86_64,5,0.0
+Linux 5.15.0-105-generic x86_64,5,0.0
+Linux 3.10.0-1062.el7.x86_64 (x86_64),5,0.0
+FreeBSD 11.1-RELEASE-p2,5,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-22-amd64),5,0.0
+RB2011UiAS-2HnD 7.24.2 (stable),5,0.0
+Linux 2.6.32-696.16.1.el6.x86_64 (x86_64),5,0.0
+IOS 15.2(4)M6,5,0.0
+Ubuntu 26.04 (Resolute Raccoon) (Linux 7.0.0-22-generic),4,0.0
+Red Hat Enterprise Linux 8.10 (Ootpa) (Linux 4.18.0-553.87.1.el8_10.x86_64),4,0.0
+Windows (build 10.0.21996),4,0.0
+MikroTik RouterOS 6.46.7,4,0.0
+RB4011iGS+ 7.22.1 (stable),4,0.0
+Ubuntu 20.04.4 LTS (Focal Fossa) (Linux 5.4.0-100-generic),4,0.0
+RBSXTsq5HPnD,4,0.0
+IOS 15.5(3)S10,4,0.0
+Windows Server 2019,4,0.0
+QTS 5.1.1,4,0.0
+Linux 3.10.0-957.el7.x86_64,4,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-137-generic),4,0.0
+IOS 15.9(3)M3,4,0.0
+IOS 16.6.4,4,0.0
+Linux 5.4.111 (mips),4,0.0
+Linux 2.6.32-358.6.2.el6.x86_64 (x86_64),4,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-105-generic),4,0.0
+MikroTik RouterOS 6.43.5,4,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-63-generic),4,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-164-generic),4,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-86-generic),4,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-50-cloud-amd64),4,0.0
+Debian GNU/Linux 10 (buster) (Linux 4.19.0-27-amd64),4,0.0
+RB951Ui-2HnD 7.24.2 (stable),4,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-177-generic),4,0.0
+Red Hat Enterprise Linux 8.10 (Ootpa) (Linux 4.18.0-553.75.1.el8_10.x86_64),4,0.0
+MikroTik RouterOS 6.42.9,4,0.0
+Linux 5.15.0-198-generic (x86_64),4,0.0
+RBSXTsq5nD,4,0.0
+Linux 3.x 7.3.2-86009,4,0.0
+Ubuntu 22.04.1 LTS (Jammy Jellyfish) (Linux 5.15.0-60-generic),4,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-151-generic),4,0.0
+Windows 7 Professional 7600,4,0.0
+RB2011UiAS 7.24.5 (stable),4,0.0
+Karl-OS 1.7.0 (Linux 6.8.0-124-generic),4,0.0
+Linux 3.x 7.2.1-69057,4,0.0
+MikroTik RouterOS 6.43.13,4,0.0
+Ubuntu 22.10 (Kinetic Kudu) (Linux 5.19.0-46-generic),4,0.0
+RB921UAGS-5SHPacD,4,0.0
+Linux 3.4.110 (armv7l),4,0.0
+Linux 5.15.186 (mips),4,0.0
+RB760iGS 7.24.2 (stable),4,0.0
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-185-generic),4,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-190-generic),4,0.0
+Windows Server 2022 Standard 20348,4,0.0
+Arch Linux (Linux 6.18.58-1-lts),4,0.0
+IOS 15.6(2)SP4,4,0.0
+Linux 4.1.6 (armv7l),4,0.0
+Linux 3.x 6.1.7-15284,4,0.0
+Linux 5.4.0-205-generic,4,0.0
+Linux 4.4.60 (armv7l),4,0.0
+Ubuntu 20.04 LTS (Focal Fossa) (Linux 5.4.0-29-generic),4,0.0
+RB911G-5HPacD,4,0.0
+MikroTik RouterOS 6.45.4,4,0.0
+RB1100x4 7.24.5 (stable),4,0.0
+Ubuntu 26.04 LTS (Resolute Raccoon) (Linux 7.0.0-29-generic),4,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-42-amd64),4,0.0
+Linux 5.15.0-138-generic,4,0.0
+Rocky Linux 9.8 (Blue Onyx) (Linux 5.14.0-687.58.1.el9_8.x86_64),4,0.0
+Linux 5.15.0-176-generic,4,0.0
+RB760iGS 7.24.4 (stable),4,0.0
+Ubuntu 20.04.3 LTS (Focal Fossa) (Linux 5.4.0-88-generic),4,0.0
+AlmaLinux 9.8 (Olive Jaguar) (Linux 5.14.0-611.5.1.el9_7.x86_64),4,0.0
+IOS 17.9.3a,4,0.0
+Linux 4.15.0-112-generic,4,0.0
+RB951-2n,4,0.0
+RB750Gr3 7.23.7 (long-term),4,0.0
+Linux 3.10.0_hi3536 (armv7l),4,0.0
+CentOS Linux 8 (Linux 4.18.0-240.el8.x86_64),4,0.0
+RB4011iGS+ 7.22.2 (stable),4,0.0
+IOS 16.9.5,4,0.0
+Windows 10 Enterprise 2016 LTSB 14393,4,0.0
+Windows Web Server 2008 R2 7601 Service Pack 1,4,0.0
+IOS 16.9.3,4,0.0
+Red Hat Enterprise Linux Server 7.7 (Maipo) (Linux 3.10.0-1062.12.1.el7.x86_64),4,0.0
+Linux 5.10.46-scaleway,4,0.0
+Synology Router Manager (SRM) 1.2.4-8081,4,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-195-generic),4,0.0
+MikroTik RouterOS 6.43.11,4,0.0
+RBSXTsqG-5acD,4,0.0
+Linux 6.8.0-94-generic,4,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-49-amd64),4,0.0
+RB4011iGS+ 7.23.1 (stable),4,0.0
+RBD52G-5HacD2HnD 7.24.4 (stable),4,0.0
+AlmaLinux 9.8 (Olive Jaguar) (Linux 5.14.0-687.54.1.el9_8.x86_64),4,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.0-111-generic),4,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-181-generic),4,0.0
+Linux 3.14.65 (armv7l),4,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-78-generic),4,0.0
+Linux 2.6.x 5.2-5967,4,0.0
+Windows Server 2008 R2 Foundation,4,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-157-generic),4,0.0
+Ubuntu 26.04.1 LTS (Resolute Raccoon) (Linux 7.0.0-29-generic),4,0.0
+SonicWall SonicOS 6.x,4,0.0
+RB4011iGS+ 7.23.5 (long-term),4,0.0
+Ubuntu 22.04 (Jammy Jellyfish) (Linux 5.15.0-179-generic),4,0.0
+Linux 6.8.0-117-generic x86_64,4,0.0
+AlmaLinux 9.8 (Olive Jaguar) (Linux 5.14.0),4,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-101-generic),4,0.0
+Linux 6.8.0-51-generic,4,0.0
+Linux 4.18.0-553.123.1.el8_10.x86_64,4,0.0
+RB4011iGS+5HacQ2HnD 7.24.2 (stable),4,0.0
+IOS 15.4(2)S0a,4,0.0
+Ubuntu 20.04.2 LTS (Focal Fossa) (Linux 5.4.0-216-generic),4,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-44-generic),4,0.0
+Windows (build 10.0.10240),4,0.0
+Linux 6.1.0-44-amd64,4,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-957.10.1.el7.x86_64),3,0.0
+QTS 5.1.6,3,0.0
+"IOS 03.07.03.E RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems",3,0.0
+FreeBSD 14.0-RELEASE (FreeBSD 14.0-RELEASE),3,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-117-generic),3,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-192-generic),3,0.0
+iLO 4,3,0.0
+AlmaLinux 9.8 (Olive Jaguar) (Linux 5.14.0-687.59.1.el9_8.x86_64),3,0.0
+Talos (Linux 6.12.57-talos),3,0.0
+Ubuntu 24.04 LTS (Noble Numbat) (Linux 6.8.0-147-generic),3,0.0
+RB750Gr3 7.23.2 (stable),3,0.0
+IOS 15.3(3)M4,3,0.0
+Linux 6.8.0-71-generic,3,0.0
+Linux 3.x 7.2-64570,3,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-49-cloud-amd64),3,0.0
+QTS 5.1.5,3,0.0
+Ubuntu 18.04.1 LTS (Bionic Beaver) (Linux 4.15.0-20-generic),3,0.0
+IOS 16.6.2,3,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-163-generic),3,0.0
+RB760iGS 7.23.7 (long-term),3,0.0
+Android,3,0.0
+Linux 3.x 1.2.5-8227,3,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.63+deb13-amd64),3,0.0
+FreeBSD 14.3-RELEASE-p7 (FreeBSD 14.3-RELEASE-p7),3,0.0
+Microsoft Azure Linux 3.0.20250910 (Linux 6.6.96.2-2.azl3),3,0.0
+RB3011UiAS 7.23.8 (long-term),3,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.48+deb13-cloud-amd64),3,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-79-generic),3,0.0
+Gentoo (Linux 6.1.53-gentoo-r1),3,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.17.4-2-pve),3,0.0
+Fedora Linux 44.20260928.3.2 (CoreOS) (Linux 7.2.7-200.fc44.x86_64),3,0.0
+MikroTik RouterOS 5.25,3,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-179-generic),3,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-187-generic),3,0.0
+Rocky Linux 9.5 (Blue Onyx) (Linux 5.14.0-611.54.1.el9_7.x86_64),3,0.0
+Linux 6.8.0-86-generic,3,0.0
+RB5009UPr+S+ 7.24.2 (stable),3,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-126-generic),3,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.102.1.el7.x86_64),3,0.0
+Linux 6.8.0-111-generic x86_64,3,0.0
+Oracle Linux Server 9.4 (Linux 5.15.0-205.149.5.1.el9uek.x86_64),3,0.0
+IOS 15.2(3)T,3,0.0
+RB3011UiAS 7.24.2 (stable),3,0.0
+RB1100x4 7.24.4 (stable),3,0.0
+Linux 5.14.0-284.11.1.el9_2.x86_64 (x86_64),3,0.0
+Linux 5.15.0-119-generic,3,0.0
+RBD52G-5HacD2HnD 7.24.2 (stable),3,0.0
+Linux 4.15.0-212-generic,3,0.0
+Linux 3.10.0-1160.41.1.el7.x86_64,3,0.0
+AlmaLinux 9.8 (Olive Jaguar) (Linux 5.14.0-687.57.1.el9_8.x86_64),3,0.0
+Linux 3.10.0-962.3.2.lve1.5.88.el7.x86_64,3,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-25-amd64),3,0.0
+Ubuntu 24.04 LTS (Noble Numbat) (Linux 6.8.0-40-generic),3,0.0
+Windows 7 Home Premium 7601 Service Pack 1,3,0.0
+Linux 3.10.0-1160.119.1.vz7.224.4 (x86_64),3,0.0
+Linux 5.15.0-191-generic,3,0.0
+QTS 4.4.1,3,0.0
+Linux 3.10.0-uc0 (armv7l),3,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.5.11-8-pve),3,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.48+deb13-amd64),3,0.0
+Linux 5.14.0-611.54.3.el9_7.x86_64 (x86_64),3,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-53-cloud-amd64),3,0.0
+CentOS Linux 7 (Core) (Linux 5.4.199-200.el7.x86_64),3,0.0
+RB951G-2HnD 7.24.4 (stable),3,0.0
+Ubuntu 22.04 LTS (Jammy Jellyfish) (Linux 5.15.0-190-generic),3,0.0
+CloudLinux 8.10 (Vladimir Aksyonov) (Linux 4.18.0-553.84.1.lve.el8.x86_64),3,0.0
+PIX OS 6.3.x,3,0.0
+Windows 10 Enterprise 19045,3,0.0
+Windows Server 2022 Datacenter 20348,3,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-47-amd64),3,0.0
+RBDiscG-5acD,3,0.0
+Linux 5.15.0-171-generic,3,0.0
+IOS 15.5(3)M4a,3,0.0
+Windows Server 2012 R2 Standard Evaluation 9600,3,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-53-generic),3,0.0
+RB1100Dx4 7.24.5 (stable),3,0.0
+Windows 10 Pro 26200,3,0.0
+Windows 10 Home 19045,3,0.0
+MikroTik RouterOS 6.41.3,3,0.0
+Linux 4.4.60 (aarch64),3,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-33-amd64),3,0.0
+RB1100Dx4 7.24.2 (stable),3,0.0
+Ubuntu 24.04 LTS (Noble Numbat) (Linux 6.8.0-41-generic),3,0.0
+RB750Gr3 7.23.1 (stable),3,0.0
+IOS 15.2(4)M4,3,0.0
+Synology DiskStation Manager (DSM) 6.2.1-23824,3,0.0
+Fedora 34.20210427.3.0 (CoreOS) (Linux 5.11.15-300.fc34.x86_64),3,0.0
+AlmaLinux 8.10 (Cerulean Leopard) (Linux 4.18.0-553.172.1.el8_10.x86_64),3,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.11.1.el7.x86_64),3,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-134-generic),3,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.88+deb13-amd64),3,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.5.0-45-generic),3,0.0
+IOS 16.9.4,3,0.0
+RBD53iG-5HacD2HnD 7.25,3,0.0
+RB3011UiAS 7.22.1 (stable),3,0.0
+CentOS Linux 7 (Core) (Linux 4.11.8-1.el7.elrepo.x86_64),3,0.0
+Ubuntu 24.04 LTS (Noble Numbat) (Linux 6.8.0-137-generic),3,0.0
+RB1200,3,0.0
+Linux 6.8.0-1054-gcp,3,0.0
+Rocky Linux 9.5 (Blue Onyx) (Linux 5.14.0-503.14.1.el9_5.x86_64),3,0.0
+RB2011L,3,0.0
+Linux 5.15.0-161-generic,3,0.0
+Synology Router Manager (SRM) 1.2.1-7779,3,0.0
+RB912R-2nD,3,0.0
+IOS 15.2(4)M5,3,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-32-amd64),3,0.0
+Linux 2.6.32-358.14.1.el6.x86_64 (x86_64),3,0.0
+Windows Server 2012 Standard 9200,3,0.0
+MikroTik RouterOS 7.1.5,3,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 5.10.28-scaleway),3,0.0
+Ubuntu 20.04.2 LTS (Focal Fossa) (Linux 5.4.0-65-generic),3,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-48-generic),3,0.0
+Linux 5.15.0-140-lowlatency,3,0.0
+IOS 15.1(4)M3,3,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.105.1.el7.x86_64),3,0.0
+IOS 16.7.1,3,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-214-generic),3,0.0
+RB2011UiAS 7.23.8 (long-term),3,0.0
+Samsung Tizen,3,0.0
+Linux 3.x 5.1.3,3,0.0
+RB5009UG+S+ 7.25,3,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-38-amd64),3,0.0
+Ubuntu 22.04.1 LTS (Jammy Jellyfish) (Linux 5.15.0-198-generic),3,0.0
+RB5009UG+S+ 7.23.7 (long-term),3,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-185-generic),3,0.0
+Linux 5.14.0-570.55.1.el9_6.x86_64,3,0.0
+Ubuntu 24.04 LTS (Noble Numbat) (Linux 6.8.0-36-generic),3,0.0
+Linux 5.4.55 (2025-11-20_18:29:17),3,0.0
+Windows 8 9200,3,0.0
+Linux 2.6.30.9 (rlx),3,0.0
+IOS 15.1(4)M2,3,0.0
+RB750Pr2,3,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-138-generic),3,0.0
+Linux 4.18.0,3,0.0
+Ubuntu 26.04.1 LTS (Resolute Raccoon) (Linux 7.0.0-31-generic),3,0.0
+Synology DiskStation Manager (DSM) 5.0-4493,3,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.85+deb13-amd64),3,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-100-generic),3,0.0
+Red Hat Enterprise Linux Server 7.6 (Maipo) (Linux 3.10.0-957.12.1.el7.x86_64),3,0.0
+Linux 7.0.14-24-pve (7.0.14-24),3,0.0
+RB911-5HacD,3,0.0
+RBLHG5HPnD-XL,3,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-146-generic),3,0.0
+IOS 16.12.3,3,0.0
+Linux 3.x 7.1-42661,3,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-150-generic),3,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-94-generic),3,0.0
+Linux 2.4.x 4.2-3259,3,0.0
+CentOS Stream 8 (Linux 4.18.0-408.el8.x86_64),3,0.0
+AlmaLinux 9.8 (Olive Jaguar) (Linux 5.14.0-611.54.3.el9_7.x86_64),3,0.0
+Linux 7.0.0-1017-azure,3,0.0
+Linux 3.x 6.2.2-24922,3,0.0
+Rocky Linux 10.1 (Red Quartz) (Linux 6.12.0-124.56.1.el10_1.x86_64),3,0.0
+Linux 3.x 5.1.1,3,0.0
+Linux 6.8.0-139-generic,3,0.0
+Linux 6.8.0-138-generic x86_64,3,0.0
+RB952Ui-5ac2nD 7.24.4 (stable),3,0.0
+RB2011UiAS 7.24.4 (stable),3,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 5.15.0-157-generic),3,0.0
+Ubuntu 22.04.1 LTS (Jammy Jellyfish) (Linux 5.15.0-142-generic),3,0.0
+IOS 15.1(4)M7,3,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-147-generic),3,0.0
+RBSXTR,3,0.0
+Linux 6.12.94 (x86_64),3,0.0
+Linux 6.8.0-142-generic,3,0.0
+CentOS Linux 7 (Core) (Linux 5.14.9-1.el7.elrepo.x86_64),3,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-186-generic),3,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-170-generic),3,0.0
+IOS 12.2(33)SXH7,3,0.0
+RB493G,3,0.0
+Ubuntu 16.04.7 LTS (Xenial Xerus) (Linux 4.4.0-210-generic),3,0.0
+Ubuntu 22.04.1 LTS (Jammy Jellyfish) (Linux 5.15.0-185-generic),3,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-18-cloud-amd64),3,0.0
+Talos (Linux 6.18.54-talos),3,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-60-generic),3,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.15.0-117-generic),3,0.0
+RB433AH,3,0.0
+Linux 5.15.0-186-generic,3,0.0
+Linux 5.15.196 (mips),3,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-179-generic),3,0.0
+RB750r2 7.24.2 (stable),3,0.0
+Ubuntu 22.04 (Jammy Jellyfish) (Linux 5.15.0-144-generic),3,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-90-generic),3,0.0
+FreeBSD 14.1-RELEASE-p5 (amd64),3,0.0
+Linux 5.15.151 (x86_64),3,0.0
+IOS 15.5(3)M5,3,0.0
+Linux 4.9.16-hp3 (x86_64),2,0.0
+Linux 4.18.0-553.177.1.el8_10.x86_64,2,0.0
+Linux 4.18.0-553.174.1.el8_10.x86_64 x86_64,2,0.0
+Linux 4.18.0-513.5.1.el8_9.x86_64 (x86_64),2,0.0
+Ubuntu 16.04.7 LTS (Xenial Xerus) (Linux 4.4.0-258-generic),2,0.0
+Linux 3.x 4.2.0,2,0.0
+Ubuntu 24.04 LTS (Noble Numbat) (Linux 6.8.0-106-generic),2,0.0
+Linux 5.4.0-208-generic,2,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-228-generic),2,0.0
+Linux 3.10.0-1160.45.1.el7.x86_64,2,0.0
+Ubuntu 22.04 LTS (Jammy Jellyfish) (Linux 5.15.0-160-generic),2,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.6.3-64),2,0.0
+Linux 4.19.193 (aarch64),2,0.0
+Linux 3.10.104 (armv7l),2,0.0
+IOS 15.2(4)M2,2,0.0
+RB2011UiAS 7.23.1 (stable),2,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-54-cloud-amd64),2,0.0
+IOS 15.2(4)M3,2,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-194-generic),2,0.0
+Linux 3.10.0 (x86_64),2,0.0
+Ubuntu 20.04.2 LTS (Focal Fossa) (Linux 5.4.0-74-generic),2,0.0
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-176-generic),2,0.0
+Synology Router Manager (SRM) 1.3-9193,2,0.0
+CloudLinux 8.10 (Vladimir Aksyonov) (Linux 4.18.0-553.111.1.lve.el8.x86_64),2,0.0
+Linux 5.10.0-33-amd64 (Debian),2,0.0
+RB750Gr3 7.23.3 (stable),2,0.0
+Windows Server 2012 R2 Datacenter Evaluation 9600,2,0.0
+Linux 3.x 6.0.3-8754,2,0.0
+Linux 6.6.126 (armv7l),2,0.0
+RB750Gr3 7.23.5 (long-term),2,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-177-generic),2,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.8.12-13-pve),2,0.0
+RB450Gx4 7.23.1 (stable),2,0.0
+CloudLinux 9.8 (Talgat Musabayev) (Linux 5.14.0-611.49.1.el9_7.x86_64),2,0.0
+Linux 6.8.0-101-generic x86_64,2,0.0
+Linux 2.4.25-LSDK-5.3.1.48 (mips),2,0.0
+RB750Gr3 7.22.3 (stable),2,0.0
+Linux 4.18.0-553.89.1.el8_10.x86_64,2,0.0
+Alpine Linux (Linux 6.1.140-0-virt),2,0.0
+Rocky Linux 9.4 (Blue Onyx) (Linux 5.14.0-427.13.1.el9_4.x86_64),2,0.0
+RBD53iG-5HacD2HnD 7.24.5 (stable),2,0.0
+Linux 5.15.0-157-generic,2,0.0
+Linux 3.10.14 (mips),2,0.0
+Windows (build 10.0.15063),2,0.0
+Linux 3.x 5.2-5967,2,0.0
+QTS 4.2.2,2,0.0
+RBD52G-5HacD2HnD 7.24.1 (stable),2,0.0
+Ubuntu 26.04 (Resolute Raccoon) (Linux 7.0.0-zl-4-generic),2,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-56-generic),2,0.0
+RB Metal 5SHPn,2,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-190-generic),2,0.0
+RB5009UPr+S+ 7.23.5 (long-term),2,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-135-generic),2,0.0
+Linux 6.8.0-85-generic,2,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.0-134-generic),2,0.0
+Linux 4.19.0-8-amd64,2,0.0
+Linux 6.8.0-124-generic x86_64,2,0.0
+Linux 5.4.0-89-generic,2,0.0
+Linux 3.10.0-1160.53.1.el7.x86_64 (x86_64),2,0.0
+Linux 5.15.0-102-generic,2,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.0-87-generic),2,0.0
+Linux 2.6.32-71.el6.x86_64 (x86_64),2,0.0
+RB951Ui-2HnD 7.25,2,0.0
+Rocky Linux 8.9 (Green Obsidian) (Linux 4.18.0-513.11.1.el8_9.x86_64),2,0.0
+Linux 3.x 6.1.4-15217,2,0.0
+RB750Gr3 7.23.8 (long-term),2,0.0
+Arch Linux (Linux 7.2.11-arch1-1),2,0.0
+RB911-5Hn,2,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-63-generic),2,0.0
+Linux 5.4.225-1.ant.2.el4.x86_64 (x86_64),2,0.0
+Linux 5.15.167.4 x86_64,2,0.0
+RB3011UiAS 7.23.5 (long-term),2,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-187-generic),2,0.0
+Synology DiskStation Manager (DSM) 4.2-3259,2,0.0
+Linux 6.12.63 (x86_64),2,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-112-generic),2,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-71-generic),2,0.0
+MikroTik RouterOS 6.41.2,2,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-168-generic),2,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.8.12-43-pve),2,0.0
+MikroTik RouterOS 6.27,2,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-136-generic),2,0.0
+RB2011iL 7.24.4 (stable),2,0.0
+MikroTik RouterOS 6.43rc68,2,0.0
+RBOmniTikPG-5HacD,2,0.0
+Fabric OS,2,0.0
+Linux 3.10.0-1160.102.1.el7.x86_64,2,0.0
+Linux 4.15.0-50-generic (x86_64),2,0.0
+RB1100x4 7.23.7 (long-term),2,0.0
+RBLHG5HPnD,2,0.0
+IOS 12.2(55)SE12,2,0.0
+Linux 2.6.x 6.0.3-8754,2,0.0
+RB760iGS 7.23.5 (long-term),2,0.0
+Linux 2.6.34CS4_xen (x86_64),2,0.0
+Synology DiskStation Manager (DSM) 6.0.3-8754,2,0.0
+Linux 4.19.72-gentoo-rt26-tl7 (armv7l),2,0.0
+ILOM,2,0.0
+Synology Router Manager (SRM) 1.1.4-6509,2,0.0
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-190-generic),2,0.0
+RB450Gx4 7.24.4 (stable),2,0.0
+Ubuntu 22.04 (Jammy Jellyfish) (Linux 5.15.0-25-generic),2,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.0-1060-oracle),2,0.0
+Ubuntu 26.04 LTS (Resolute Raccoon) (Linux 7.0.0-38-generic),2,0.0
+Ubuntu 20.04.3 LTS (Focal Fossa) (Linux 5.4.0-1123-kvm),2,0.0
+Windows 5.1,2,0.0
+IOS 16.9.8,2,0.0
+Debian GNU/Linux 10 (buster) (Linux 4.19.0-14-amd64),2,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-85-generic),2,0.0
+RB450Gx4 7.24.5 (stable),2,0.0
+QTS 4.3.5,2,0.0
+Linux 4.14.275 (mips),2,0.0
+RB5009UG+S+ 7.23.2 (stable),2,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.8.12-30-pve),2,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-127-generic),2,0.0
+IOS 15.7(3)M9,2,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-1044-azure),2,0.0
+Linux 3.2.0 (armv7l),2,0.0
+CentOS Linux 7 (Core) (Linux 4.14.129-bbrplus),2,0.0
+Linux 5.4.291 (mips),2,0.0
+Linux 6.12.107+deb13-amd64,2,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-110-generic),2,0.0
+IOS 16.9.6,2,0.0
+RB760iGS 7.23.8 (long-term),2,0.0
+Windows 11 (build 10.0.25110),2,0.0
+IOS 12.4(12),2,0.0
+Linux 5.4.0-200-generic,2,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-23-amd64),2,0.0
+Linux 3.10.49 (mips64),2,0.0
+AlmaLinux 9.8 (Olive Jaguar) (Linux 5.14.0-687.20.1.el9_8.x86_64),2,0.0
+RB2011UiAS 7.25,2,0.0
+RB433,2,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-78-generic),2,0.0
+Linux 5.10.0-46-amd64,2,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-152-generic),2,0.0
+Rocky Linux 9.2 (Blue Onyx) (Linux 5.14.0-362.13.1.el9_3.x86_64),2,0.0
+Linux 6.8.0-137-generic x86_64,2,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-21-amd64),2,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-88-generic),2,0.0
+MikroTik RouterOS 6.44rc3,2,0.0
+Linux 6.1.0-54-cloud-amd64,2,0.0
+Ubuntu 18.04.4 LTS (Bionic Beaver) (Linux 4.15.0-213-generic),2,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-138-generic),2,0.0
+MikroTik RouterOS 6.43.14,2,0.0
+Linux 7.0.0-38-generic,2,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-137-generic),2,0.0
+Rocky Linux 8.10 (Green Obsidian) (Linux 4.18.0-553.168.1.el8_10.x86_64),2,0.0
+Linux 5.4.201-prod-24.1-240409-pd (armv7l),2,0.0
+Linux 5.14.0-687.49.1.el9_8.x86_64 (x86_64),2,0.0
+Linux 3.10.0-1160.88.1.el7.x86_64,2,0.0
+Linux 4.15.0-130-generic,2,0.0
+Rocky Linux 9.5 (Blue Onyx) (Linux 5.14.0-503.26.1.el9_5.x86_64),2,0.0
+Ubuntu 20.04.2 LTS (Focal Fossa) (Linux 5.4.0-162-generic),2,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-1042-azure),2,0.0
+Linux 2.6.37 (armv7l),2,0.0
+Windows Server 2012 R2 Foundation 9600,2,0.0
+Linux 3.10.0-1160.108.1.el7.x86_64 x86_64,2,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-100-generic),2,0.0
+Linux 6.1.0-54-amd64 (PREEMPT_DYNAMIC),2,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.0-90-generic),2,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-19-amd64),2,0.0
+MikroTik RouterOS 7.1.2,2,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-215-generic),2,0.0
+Linux 2.6.32-754.22.1.el6.x86_64,2,0.0
+PAN-OS 8.1.10,2,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-79-generic),2,0.0
+Linux 4.9.135-Prod_19.3 (armv7l),2,0.0
+AlmaLinux 9.5 (Teal Serval) (Linux 5.14.0-503.14.1.el9_5.x86_64),2,0.0
+RB952Ui-5ac2nD 7.22.1 (stable),2,0.0
+Linux 4.14.22-armada-18.09.3 (ga-18.09.3),2,0.0
+Ubuntu 24.04 LTS (Noble Numbat) (Linux 7.0.0-1014-aws),2,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.49.1.el7.x86_64),2,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.15.0-1083-gcp),2,0.0
+TencentOS Server 4.4 (Linux 6.6.110-42.4.tl4.x86_64),2,0.0
+RBDisc-5nD,2,0.0
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-31-generic),2,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish),2,0.0
+RB922UAGS-5HPacD,2,0.0
+Linux ce8.2.2.3263c59,2,0.0
+Linux 3.x 6.1.3-15152,2,0.0
+IOS 15.1(4)M1,2,0.0
+Ubuntu 18.04.6 LTS (Bionic Beaver) (Linux 4.15.0-167-generic),2,0.0
+Linux 6.8.0-31-generic x86_64,2,0.0
+Linux 6.8.0-111-generic,2,0.0
+RB2011iLS 7.24.5 (stable),2,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-78-generic),2,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-189-generic),2,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.8.4-2-pve),2,0.0
+Rocky Linux 8.10 (Green Obsidian) (Linux 4.18.0-553.174.1.el8_10.x86_64),2,0.0
+Ubuntu 20.04 LTS (Focal Fossa) (Linux 5.4.0-65-generic),2,0.0
+Rocky Linux 9.8 (Blue Onyx) (Linux 5.14.0-503.14.1.el9_5.x86_64),2,0.0
+RB952Ui-5ac2nD 7.23.8 (long-term),2,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-45-generic),2,0.0
+Oracle Linux Server 8.10 (Linux 5.15.0-322.203.3.5.el8uek.x86_64),2,0.0
+Ubuntu 22.04.1 LTS (Jammy Jellyfish) (Linux 5.15.0-164-generic),2,0.0
+MikroTik RouterOS 6.15,2,0.0
+Debian GNU/Linux 10 (buster) (Linux 4.19.0-21-amd64),2,0.0
+Ubuntu 22.04 (Jammy Jellyfish) (Linux 5.15.0-164-generic),2,0.0
+IOS 15.6(2)T1,2,0.0
+RBwAPR-2nD 7.24.5 (stable),2,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.0-79-generic),2,0.0
+Linux 5.15.0-122-generic,2,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-30-amd64),2,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-50-amd64),2,0.0
+RB1100,2,0.0
+RB750r2 7.23.5 (long-term),2,0.0
+Windows 8.1 Pro 9600,2,0.0
+Linux 4.18.0-477.27.1.el8_8.x86_64 (x86_64),2,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 7.0.14-15-pve),2,0.0
+FreeBSD 14.2-RELEASE (FreeBSD 14.2-RELEASE),2,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-26-amd64),2,0.0
+Windows Small Business Server 2011 Standard,2,0.0
+Ubuntu 22.04 LTS (Jammy Jellyfish) (Linux 5.15.0-30-generic),2,0.0
+FreeBSD 13.1-RELEASE-p9 (FreeBSD 13.3-RELEASE-p7),2,0.0
+RB4011iGS+ 7.24.1 (stable),2,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-119-generic),2,0.0
+Windows 8.1 9600,2,0.0
+Ubuntu 26.04.1 LTS (Resolute Raccoon) (Linux 7.0.0-30-generic),2,0.0
+Windows 7 Enterprise,2,0.0
+Windows (build 10.0.16299),2,0.0
+Linux 5.4.0-165-generic,2,0.0
+Linux 4.18.0-553.66.1.el8_10.x86_64,2,0.0
+Linux 6.8.0-139-generic x86_64,2,0.0
+Debian GNU/Linux 9 (stretch) (Linux 4.9.0-12-amd64),2,0.0
+Windows 7 Ultimate 7601 Service Pack 1,2,0.0
+IOS 17.12.4a,2,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-62-generic),2,0.0
+Linux 3.10.70 (armv7l),2,0.0
+Linux 4.1.38 (armv7l),2,0.0
+RB952Ui-5ac2nD 7.24.2 (stable),2,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-106-generic),2,0.0
+IOS XR,2,0.0
+SonicOS 6.5.4.5-53n,2,0.0
+Ubuntu 22.04 (Jammy Jellyfish) (Linux 6.8.12-2-pve),2,0.0
+RBLtAP-2HnD 7.24.2 (stable),2,0.0
+AlmaLinux 9.3 (Shamrock Pampas Cat) (Linux 5.14.0-362.13.1.el9_3.x86_64),2,0.0
+Linux 3.10.0-514.26.2.el7.x86_64,2,0.0
+Linux 6.8.0-79-generic,2,0.0
+Synology DiskStation Manager (DSM) 7.2.2-72803,2,0.0
+Ubuntu 26.04 LTS (Resolute Raccoon) (Linux 7.0.0-28-generic),2,0.0
+Linux 7.0.14-8-pve,2,0.0
+CentOS Linux 7 (Core) (Linux 4.18.9-1.el7.elrepo.x86_64),2,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-957.27.2.el7.x86_64),2,0.0
+MikroTik RouterOS 6.46rc3,2,0.0
+IOS 16.6.5,2,0.0
+Linux 6.2.16-8-pve (6.2.16-8),2,0.0
+Ubuntu 22.04.1 LTS (Jammy Jellyfish) (Linux 5.15.0-179-generic),2,0.0
+Linux 2.6.32-696.13.2.el6.x86_64 (x86_64),2,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.94+deb13-amd64),2,0.0
+Linux 6.17.13-2-pve (6.17.13-2),2,0.0
+Windows Server 2012 R2 Essentials 9600,2,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.8.12-17-pve),2,0.0
+IOS 12.4(15)T9,2,0.0
+IOS 15.4(3)S2,2,0.0
+QTS 4.5.4,2,0.0
+Oracle Linux Server 9.7 (Linux 6.12.0-106.55.4.2.el9uek.x86_64),2,0.0
+Container-Optimized OS 125 (Linux 6.12.105+),2,0.0
+RB951Ui-2HnD 7.23.1 (stable),2,0.0
+Linux 7.0.0-22-generic x86_64,2,0.0
+Linux 6.6.73 (x86_64),2,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-86-generic),2,0.0
+Linux 6.8.0-55-generic,2,0.0
+Ubuntu 26.04 (Resolute Raccoon) (Linux 7.0.0-34-generic),2,0.0
+RB4011iGS+ 7.25,2,0.0
+RB1100Dx4 7.24.4 (stable),2,0.0
+MikroTik RouterOS 6.19,2,0.0
+Linux 3.x 5.0-4493,2,0.0
+Linux 6.6.126 (mips),2,0.0
+Linux 5.15.0-135-generic,2,0.0
+Talos (Linux 6.12.25-talos),2,0.0
+RBwAPR-2nD,2,0.0
+MikroTik RouterOS 7.0.5,2,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-55-generic),2,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-111-generic),2,0.0
+Linux 6.12.101+deb13-amd64 (PREEMPT_DYNAMIC),2,0.0
+Rocky Linux 9.8 (Blue Onyx) (Linux 5.14.0-687.10.1.el9_8.0.1.x86_64),2,0.0
+MikroTik RouterOS 6.1,2,0.0
+Linux 4.15.0-156-generic,2,0.0
+Windows Server 2016 Essentials 14393,2,0.0
+Cisco IOS XR 6.1.4,2,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-147-generic),2,0.0
+Linux 2.6.x 4.2-3259,2,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.17.13-2-pve),2,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-94-generic),2,0.0
+AlmaLinux 8.10 (Cerulean Leopard) (Linux 4.18.0-553.123.1.el8_10.x86_64),2,0.0
+Linux 5.15.0-163-generic,2,0.0
+Windows Server 2008 (build 6.0.6100),2,0.0
+Linux 5.4.0-216-generic x86_64,2,0.0
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-177-generic),2,0.0
+IOS 15.5(1)T2,2,0.0
+SLES 15-SP7 (Linux 6.4.0-150700.53.25-default),2,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.0-138-generic),2,0.0
+RB960PGS-PB,2,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-152-generic),2,0.0
+Debian GNU/Linux 7 (wheezy) (Linux 3.16.0-4-amd64),2,0.0
+Red Hat Enterprise Linux Server 7.6 (Maipo) (Linux 3.10.0-957.21.3.el7.x86_64),2,0.0
+RB2011UiAS-2HnD r2,2,0.0
+MikroTik RouterOS 6.43.10,2,0.0
+Rocky Linux 8.7 (Green Obsidian),2,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.0-124-generic),2,0.0
+RB5009UG+S+ 7.23.8 (long-term),2,0.0
+Linux 4.18.0-553.176.1.el8_10.x86_64,2,0.0
+AlmaLinux 9.8 (Olive Jaguar) (Linux 5.14.0-687.5.3.el9_8.x86_64),2,0.0
+Ubuntu 26.04.1 LTS (Resolute Raccoon) (Linux 7.0.0-34-generic),2,0.0
+Synology DiskStation Manager (DSM) 5.2-5644,2,0.0
+SonicOS 6.5.5.2-28n,2,0.0
+RB750Gr3 7.22.2 (stable),2,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-49-cloud-arm64),2,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.95.1.el7.x86_64),2,0.0
+Synology DiskStation Manager (DSM) 4.0-2228,2,0.0
+Linux 3.2.0-4-amd64 (Debian),2,0.0
+Linux 6.8.0-71-generic x86_64,2,0.0
+Windows Server 2016 Datacenter Evaluation 14393,2,0.0
+RB OmniTIK U-5HnD,2,0.0
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.17.0-35-generic),2,0.0
+Ubuntu 24.04 LTS (Noble Numbat) (Linux 6.8.0-139-generic),2,0.0
+Linux 3.10.25-aufs-rt23-tl4 (be),2,0.0
+IOS 16.6.8,2,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-48-amd64),2,0.0
+Talos (Linux 6.18.48-talos),2,0.0
+Rocky Linux 8.9 (Green Obsidian) (Linux 4.18.0-513.9.1.el8_9.x86_64),2,0.0
+RB4011iGS+ 7.24 (stable),2,0.0
+Linux 5.4.119-19-0006 (x86_64),2,0.0
+RB3011UiAS 7.24.1 (stable),2,0.0
+Linux 6.11.0-29-generic x86_64,2,0.0
+AlmaLinux 10.2 (Lavender Lion) (Linux 6.12.0-211.31.1.el10_2.x86_64),2,0.0
+2530-8G-PoEP YA.16.06.0006,2,0.0
+Linux 4.9.248-prod-21.2 (armv7l),2,0.0
+RBwAPGR-5HacD2HnD 7.24.4 (stable),2,0.0
+Linux 5.4.259 (mips),2,0.0
+Linux 3.10.0-1160.80.1.vz7.191.4 (x86_64),2,0.0
+Linux 7.0.0-38-generic x86_64,2,0.0
+RB450Gx4 7.23.3 (stable),2,0.0
+Linux 3.x 7.0-41890,2,0.0
+Linux 5.4.0-131-generic,2,0.0
+Linux 3.10.0-1160.114.2.el7.x86_64 (x86_64),2,0.0
+Linux 2.6.32-042stab139.1 (x86_64),2,0.0
+Linux 3.10.0-862.14.4.el7.x86_64 (x86_64),2,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-105-generic),2,0.0
+CentOS Linux 7 (Core) (Linux 5.16.8-1.el7.elrepo.x86_64),2,0.0
+MikroTik RouterOS 6.10,2,0.0
+AlmaLinux 9.8 (Olive Jaguar) (Linux 5.14.0-687.24.1.el9_8.x86_64),1,0.0
+RB4011iGS+ 7.23.3 (stable),1,0.0
+RB2011UiAS-2HnD 7.25,1,0.0
+Linux 3.10.0-1160.42.2.el7.x86_64 (x86_64),1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-57-generic),1,0.0
+Linux 6.8.0-1053-gcp,1,0.0
+Linux 5.10.0-30-amd64 (Debian),1,0.0
+Linux 6.1.67-lsp-2.6.1-0,1,0.0
+Linux 4.18.0-553.27.1.el8_10.x86_64 (x86_64),1,0.0
+Linux 5.15.184 (mips),1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-142-generic),1,0.0
+Rocky Linux 8.10 (Green Obsidian) (Linux 4.18.0-553.56.1.el8_10.x86_64),1,0.0
+OpenWrt GDQ (Linux 5.4.122),1,0.0
+RB4011iGS+ 7.24.3 (stable),1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.57+deb13-cloud-amd64),1,0.0
+RBM11G 7.22.2 (stable),1,0.0
+IOS 15.9(3)M5,1,0.0
+Ubuntu 26.04.1 LTS (Resolute Raccoon) (Linux 7.0.0-1007-oracle),1,0.0
+Ubuntu 25.04 (Plucky Puffin) (Linux 6.14.0-37-generic),1,0.0
+Ubuntu 22.04.1 LTS (Jammy Jellyfish) (Linux 6.8.0-60-generic),1,0.0
+Alibaba Cloud Linux 4 (Linux 6.6.102-5.3.1.alnx4.x86_64),1,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.17.0-1013-gcp),1,0.0
+Linux 6.1.0-53-amd64,1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.100+deb13-amd64),1,0.0
+CentOS Stream 9 (Linux 5.14.0-691.el9.x86_64),1,0.0
+Debian GNU/Linux 9 (stretch) (Linux 4.9.0-8-amd64),1,0.0
+Linux 6.12.88+deb13-amd64,1,0.0
+Linux 3.10.0-1160.118.1.el7.x86_64 (x86_64),1,0.0
+Linux 5.15.0-76-generic,1,0.0
+AlmaLinux 10.2 (Lavender Lion) (Linux 6.12.0-211.32.1.el10_2.x86_64),1,0.0
+RB3011UiAS 7.22.2 (stable),1,0.0
+AlmaLinux 8.10 (Cerulean Leopard) (Linux 4.18.0-553.74.1.el8_10.x86_64),1,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-139-generic),1,0.0
+RBSXTsqG-5acD 7.24.2 (stable),1,0.0
+IOS 15.3(2)T3,1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.12-2-pve),1,0.0
+Linux 5.10.229 (mips),1,0.0
+IOS 15.5(3)M,1,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-26-amd64),1,0.0
+Linux 5.15.0-25-generic,1,0.0
+RB2011iLS 7.22.1 (stable),1,0.0
+Linux TC7.3.2.14ad7cc,1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-131-generic),1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-130-generic),1,0.0
+RB3011UiAS 7.23.3 (stable),1,0.0
+Linux 3.10.0-1160.71.1.el7.x86_64 (x86_64),1,0.0
+Linux 3.10.0-1127.el7.x86_64,1,0.0
+Linux 7.0.0-28-generic,1,0.0
+Linux 4.4.0-148-generic (x86_64),1,0.0
+Debian GNU/Linux 10 (buster) (Linux 5.10.0-0.deb10.20-rt-amd64),1,0.0
+RB951Ui-2HnD 7.23.3 (stable),1,0.0
+MikroTik RouterOS 7.1,1,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-117-generic),1,0.0
+Linux 5.15.0-1081-oracle,1,0.0
+FreeBSD 14.2-RELEASE-p3 (amd64),1,0.0
+QTS 4.2.3,1,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 7.0.0-38-generic),1,0.0
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.17.0-23-generic),1,0.0
+RBSXTG-5HPacD,1,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.15.0-1079-azure),1,0.0
+IOS 15.6(2)SP6,1,0.0
+Talos (Linux 6.18.18-talos),1,0.0
+CentOS Linux 7 (Core) (Linux 5.7.7-1.el7.elrepo.x86_64),1,0.0
+Linux 6.1.158.2-microsoft-standard x86_64,1,0.0
+Linux 4.18.0-553.47.1.el8_10.x86_64 (x86_64),1,0.0
+CentOS Linux 8 (Linux 4.18.0-305.19.1.el8_4.x86_64),1,0.0
+PAN-OS 8.1.12,1,0.0
+CentOS Stream 9 (Linux 6.18.10-1.el9.elrepo.x86_64),1,0.0
+Linux 4.19.0-18-amd64,1,0.0
+IOS 15.0(2)SG11,1,0.0
+Linux 2.6.30 (sh4a),1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 7.0.2-2-pve),1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 7.0.14-24-pve),1,0.0
+Linux 5.4.0-186-generic,1,0.0
+IOS 15.2(4)S3,1,0.0
+Linux 6.8.12-11-pve (6.8.12-11),1,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 6.8.0-1020-gcp),1,0.0
+Linux 6.12.96+deb13-amd64 x86_64,1,0.0
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-187-generic),1,0.0
+Linux 3.x 5.0.3,1,0.0
+TencentOS Server 4 (Linux 6.6.117-45.11.3.tl4.x86_64),1,0.0
+Synology Router Manager (SRM) 1.2.3-8017,1,0.0
+Linux 4.18.0-425.13.1.el8_7.x86_64 (x86_64),1,0.0
+Linux 5.10.0-20-amd64,1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.12.27+bpo-amd64),1,0.0
+Ubuntu 22.04 LTS (Jammy Jellyfish) (Linux 6.8.0-136-generic),1,0.0
+FreeBSD 15.1-RELEASE-p4,1,0.0
+Comware 5.20,1,0.0
+Linux 3.x 5.1-5022,1,0.0
+Linux 5.15.0-170-generic (x86_64),1,0.0
+IOS 15.2(1)SY1,1,0.0
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-78-generic),1,0.0
+VxWorks 5.4.2,1,0.0
+RB450G 7.25,1,0.0
+Linux 3.14.26-COMBA_V020104-g07d13c6-dirty (armv7l),1,0.0
+Linux 5.4.0-81-generic,1,0.0
+Linux 6.1.0-39-amd64,1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-111-generic),1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-97-generic),1,0.0
+Ubuntu 24.04 LTS (Noble Numbat) (Linux 6.8.0-134-generic),1,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 7.0.0-1017-azure),1,0.0
+RBD52G-5HacD2HnD 7.23.8 (long-term),1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 3.13.0-37-generic),1,0.0
+Unraid OS 7.3.0 2026-05-12 (Linux 6.18.29-Unraid),1,0.0
+Windows 10 Pro for Workstations 22631,1,0.0
+Linux 2.6.32-37-pve (x86_64),1,0.0
+Linux 6.1.0-54-amd64,1,0.0
+Linux 4.4.0-186-generic (x86_64),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.8.12-9-pve),1,0.0
+Linux 5.4.0-169-generic,1,0.0
+RB1100AHx2 7.24.3 (stable),1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-71-generic),1,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-229.14.1.el7.x86_64),1,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 7.2.11-x86_64-linode177),1,0.0
+Linux 6.17.4-1-pve (6.17.4-1),1,0.0
+Linux 3.10.0-1160.90.1.el7.x86_64,1,0.0
+RB2011iL 7.23.7 (long-term),1,0.0
+Ubuntu 18.04.6 LTS (Bionic Beaver) (Linux 4.15.0-191-generic),1,0.0
+IOS 15.1(4)M3a,1,0.0
+Linux 6.12.86+deb13-cloud-arm64,1,0.0
+Linux 6.1.0-35-amd64,1,0.0
+Linux 3.10.0-957.10.1.el7.x86_64,1,0.0
+Ubuntu 26.04 LTS (Resolute Raccoon) (Linux 7.0.0-1005-gcp),1,0.0
+Linux 4.18.0-348.7.1.el8_5.x86_64 (x86_64),1,0.0
+Linux 5.10.194 (aarch64),1,0.0
+Ubuntu 24.04 LTS (Noble Numbat) (Linux 6.8.0-71-generic),1,0.0
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-124-generic),1,0.0
+Ubuntu 20.04 LTS (Focal Fossa) (Linux 5.4.0-189-generic),1,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-122-generic),1,0.0
+Rocky Linux 9.5 (Blue Onyx) (Linux 5.14.0-503.16.1.el9_5.x86_64),1,0.0
+Linux 4.14.151-OpenNetworkLinux (x86_64),1,0.0
+QTS 4.5.3,1,0.0
+Linux 4.19.0-9-amd64 (Debian),1,0.0
+IOS 17.6.3a,1,0.0
+AlmaLinux 9.0 (Emerald Puma) (Linux 5.14.0-503.40.1.el9_5.x86_64),1,0.0
+Linux 4.15.0-74-generic (x86_64),1,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-60-generic),1,0.0
+RB4011iGS+ 7.23.6 (long-term),1,0.0
+Linux 3.10.0-1160.90.1.el7.x86_64 (x86_64),1,0.0
+Linux 5.4.0-195-generic,1,0.0
+Linux 6.12.105+,1,0.0
+Linux 6.1.0-9-amd64 (PREEMPT_DYNAMIC),1,0.0
+RB1100AHx2 7.24.5 (stable),1,0.0
+Linux 4.15.0-163-generic,1,0.0
+Ubuntu 20.04.1 LTS (Focal Fossa) (Linux 5.4.0-45-generic),1,0.0
+Rocky Linux 9.8 (Blue Onyx) (Linux 5.14.0-687.46.1.el9_8.x86_64),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-20-cloud-amd64),1,0.0
+Linux 2.6.32.9 (mips),1,0.0
+RB750GL 7.24.5 (stable),1,0.0
+Karl-OS 1.7.1 (Linux 6.8.0-124-generic),1,0.0
+IOS 15.6(3)M3a,1,0.0
+RBD53iG-5HacD2HnD 7.23.2 (stable),1,0.0
+Linux 5.15.180 (mips),1,0.0
+AlmaLinux 9.7 (Moss Jungle Cat) (Linux 5.14.0-611.42.1.el9_7.x86_64),1,0.0
+CloudLinux 9.8 (Talgat Musabayev) (Linux 5.14.0-687.53.1.el9_8.x86_64),1,0.0
+Windows Server 2003 3790 Service Pack 2,1,0.0
+Linux 5.10.226-1-bb-amd64 (x86_64),1,0.0
+Windows Server 2022 Standard,1,0.0
+XOS 15.3.1.4,1,0.0
+Rocky Linux 9.3 (Blue Onyx) (Linux 5.14.0-362.18.1.el9_3.0.1.x86_64),1,0.0
+Linux 4.18.0-240.15.1.el8_3.x86_64 (x86_64),1,0.0
+Windows XP SP2 (build 5.1.2600),1,0.0
+IOS 16.6.3,1,0.0
+RBMetalG-52SHPacn,1,0.0
+Windows Server 2012 Datacenter 9200,1,0.0
+Linux 4.4.0-116-generic,1,0.0
+Linux 6.8.0-55-generic x86_64,1,0.0
+MikroTik RouterOS 7.3,1,0.0
+Linux 2.6.15 (mips),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-26-cloud-amd64),1,0.0
+Linux 5.15.0-181-generic,1,0.0
+IOS 12.2(25)SEB4,1,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-57-generic),1,0.0
+Ubuntu 18.04.3 LTS (Bionic Beaver) (Linux 4.15.0-58-generic),1,0.0
+Linux 5.15.80-200.el7.x86_64,1,0.0
+IOS 12.4(24)T5,1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 6.12.113),1,0.0
+Linux 6.14.0-36-generic,1,0.0
+NixOS 26.11 (Zokor) (Linux 6.18.26),1,0.0
+Ubuntu 18.04.5 LTS (Bionic Beaver) (Linux 5.4.0-1095-azure),1,0.0
+RB1100Dx4 7.25,1,0.0
+Red Hat Enterprise Linux 8.8 (Ootpa) (Linux 4.18.0-477.27.1.el8_8.x86_64),1,0.0
+Linux 6.6.119 (aarch64),1,0.0
+Linux 6.4.0-150600.23.103-default ((52e00eb)),1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-107-generic),1,0.0
+Linux 6.8.12-15-pve (6.8.12-15),1,0.0
+Linux 3.10.0-1160.6.1.el7.x86_64,1,0.0
+Linux ce9.14.0.44a3904313a,1,0.0
+RBSXTG-5HPnDr2,1,0.0
+Linux 2.6.x 6.2.2-24922,1,0.0
+OpenBSD 7.9,1,0.0
+IOS 12.2(46)SE,1,0.0
+Linux 4.9.0-14-amd64 (Debian),1,0.0
+IOS 15.2(4)S6,1,0.0
+Data ONTAP,1,0.0
+PAN-OS 9.1.4,1,0.0
+Linux 3.12.59-74-etna2-kmi1-AM335x-PD15.1.1 (armv7l),1,0.0
+NX-OS 9.3(12),1,0.0
+Linux 4.18.0-553.171.1.lve.el8.x86_64,1,0.0
+Linux 6.8.0-134-generic x86_64,1,0.0
+Linux 6.8.0-90-generic,1,0.0
+Ubuntu 20.04.3 LTS (Focal Fossa) (Linux 5.15.0-139-generic),1,0.0
+Linux 6.12.74+deb13+1-amd64 (PREEMPT_DYNAMIC),1,0.0
+Linux 2.6.32-431.11.2.el6.x86_64 (x86_64),1,0.0
+RBLHG5nD 7.23.1 (stable),1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-138-generic),1,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.15.2.el7.x86_64),1,0.0
+Linux 5.15.19 (x86_64),1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.17.9-1-pve),1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-1042-azure),1,0.0
+Linux 5.4.0-189-generic,1,0.0
+IOS 15.4(1)T,1,0.0
+Linux 5.10.0-33-amd64,1,0.0
+Gentoo 2.18 (Linux 7.1.5-gentoo),1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-140-generic),1,0.0
+Rocky Linux 9.6 (Blue Onyx) (Linux 5.14.0-687.36.1.el9_8.x86_64),1,0.0
+IOS 15.4(3)M,1,0.0
+Linux 6.2.0-1017-gcp x86_64,1,0.0
+Linux 3.10.0-962.3.2.lve1.5.88.el7.x86_64 (x86_64),1,0.0
+Linux 5.4.0-193-generic,1,0.0
+FreeBSD 13.1-RELEASE-p5 (FreeBSD 13.1-RELEASE-p3),1,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-79-fips),1,0.0
+Linux 5.19.0-43-generic (2),1,0.0
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-136-generic),1,0.0
+IOS 15.8(3)M4,1,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.15.35-1-pve),1,0.0
+Linux 2.6.32-754.17.1.el6.x86_64 (x86_64),1,0.0
+Rocky Linux 9.3 (Blue Onyx) (Linux 5.14.0-362.8.1.el9_3.x86_64),1,0.0
+Linux 6.8.0-57-generic,1,0.0
+RB5009UG+S+ 7.23.4 (long-term),1,0.0
+Ubuntu 18.04.6 LTS (Bionic Beaver) (Linux 4.15.0-163-generic),1,0.0
+RB4011iGS+ 7.22.3 (stable),1,0.0
+Rocky Linux 9.6 (Blue Onyx) (Linux 5.14.0-570.23.1.el9_6.x86_64),1,0.0
+RBD52G-5HacD2HnD 7.23.3 (stable),1,0.0
+AlmaLinux 9.5 (Teal Serval) (Linux 5.14.0-503.38.1.el9_5.x86_64),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-48-cloud-amd64),1,0.0
+Ubuntu 20.04.4 LTS (Focal Fossa) (Linux 5.4.0-62-generic),1,0.0
+Linux 4.19.0-13-amd64,1,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 7.0.0-30-generic),1,0.0
+OpenCloudOS 9.2 (Linux 6.6.68-20.oc9.x86_64),1,0.0
+Linux 4.4.41 (armv7l),1,0.0
+IOS 15.4(3)S4,1,0.0
+MikroTik RouterOS 6.6,1,0.0
+CloudLinux 9.8 (Talgat Musabayev) (Linux 5.14.0-611.54.3.el9_7.x86_64),1,0.0
+Linux 5.3.5 (x86_64),1,0.0
+Linux 5.15.0-161-generic (x86_64),1,0.0
+Linux 2.6.11 (ppc),1,0.0
+Linux 6.12.95+deb13-cloud-amd64 x86_64,1,0.0
+RBD53GR-5HacD2HnD 7.23.8 (long-term),1,0.0
+CloudLinux 9.8 (Talgat Musabayev) (Linux 5.14.0-687.54.1.el9_8.x86_64),1,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-153-generic),1,0.0
+RB941-2nD 7.24.2 (stable),1,0.0
+RB951Ui-2HnD 7.24.4 (stable),1,0.0
+QTS 4.4.3,1,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-187-generic),1,0.0
+RB750r2 7.22.3 (stable),1,0.0
+IOS 15.2(3)T4,1,0.0
+Linux 5.8.0-63-generic,1,0.0
+Linux 3.10.0-1160.49.1.el7.x86_64,1,0.0
+Linux 6.8.0-52-generic,1,0.0
+FreeBSD 15.1-RELEASE-p6 (FreeBSD 15.1-RELEASE-p5),1,0.0
+Linux 3.10.0-1127.13.1.el7.x86_64,1,0.0
+Linux 3.16.0-11-amd64 (Debian),1,0.0
+Gentoo 2.18 (Linux 6.18.12-gentoo-digitaloceanvm),1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-116-generic),1,0.0
+2530-24G-PoEP YA.16.11.0031,1,0.0
+Linux 4.18.0-553.6.1.el8.x86_64 (x86_64),1,0.0
+Cisco IOS XR 6.2.3,1,0.0
+CentOS Stream 9 (Linux 5.14.0-580.el9.x86_64),1,0.0
+Linux 6.1.0-41-amd64 (PREEMPT_DYNAMIC),1,0.0
+CentOS Linux 8 (Linux 4.18.0-240.10.1.el8_3.x86_64),1,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-34-amd64),1,0.0
+IOS 15.4(3)S10,1,0.0
+Linux 5.10.0-26-amd64 (Debian),1,0.0
+Linux 4.19.0-0.bpo.1-amd64,1,0.0
+RB3011UiAS 7.24.3 (stable),1,0.0
+Linux 2.6.32-573.18.1.el6.x86_64 (x86_64),1,0.0
+IOS 15.4(1)S1,1,0.0
+Linux 6.8.0-142-generic x86_64,1,0.0
+IOS 17.2.1r,1,0.0
+NixOS 26.05 (Yarara) (Linux 7.1.2),1,0.0
+Linux 5.10.0-36-amd64 x86_64,1,0.0
+Linux 4.19.0-0.bpo.9-amd64,1,0.0
+Linux 5.2.0,1,0.0
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-105-generic),1,0.0
+RB4011iGS+5HacQ2HnD 7.23.2 (stable),1,0.0
+Linux 4.14.76-9.0.0-A0-R006-20191118 (aarch64),1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-86-generic),1,0.0
+Linux 5.15.0-117-generic,1,0.0
+Rocky Linux 9.5 (Blue Onyx) (Linux 5.14.0-503.33.1.el9_5.x86_64),1,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-118-generic),1,0.0
+RB951Ui-2HnD 7.23.8 (long-term),1,0.0
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-153-generic),1,0.0
+PAN-OS 9.1.8,1,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-37-arm64),1,0.0
+Ubuntu 18.04.2 LTS (Bionic Beaver) (Linux 4.15.0-50-generic),1,0.0
+EOS 4.28.6.1M,1,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-211-generic),1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-94-generic),1,0.0
+OpenVMS,1,0.0
+Linux 7.1.9-x86_64-linode176,1,0.0
+IOS 12.2(55)SE,1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-1090-kvm),1,0.0
+Linux 5.4.279 (mips),1,0.0
+RB1100x4 7.22.1 (stable),1,0.0
+Linux 6.8.12-5-pve,1,0.0
+NX-OS 10.3(4a),1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 7.0.3-x86_64-linode172),1,0.0
+RB750r2 7.24.5 (stable),1,0.0
+Linux 5.15.0-1084-kvm,1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.38+deb13-cloud-amd64),1,0.0
+"Linux 3.9.1.13, (2020)",1,0.0
+Ubuntu Core 24 (Linux 5.15.0-198-generic),1,0.0
+Linux 5.10.0-32-amd64,1,0.0
+Linux 3.10.0-957.27.2.el7.x86_64 (x86_64),1,0.0
+IOS 15.0(1)M4,1,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.17.0-1007-oracle),1,0.0
+RBwAPG-60ad,1,0.0
+IOS 15.8(3)M5,1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-127-generic),1,0.0
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-181-generic),1,0.0
+QTS 4.2.0,1,0.0
+IOS 15.1(4)M6,1,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-35-generic),1,0.0
+EOS 4.18.9M,1,0.0
+IOS 12.2(53)SE,1,0.0
+MikroTik RouterOS 6.39.3,1,0.0
+Linux 3.10.0-1160.el7.x86_64 (x86_64),1,0.0
+RB SXT G-2HnD r2,1,0.0
+Linux 3.10.0-1160.53.1.el7.x86_64,1,0.0
+IOS 15.5(3)S3,1,0.0
+Talos (Linux 6.18.9-talos),1,0.0
+Linux 5.4.0-150-generic (x86_64),1,0.0
+Linux 2.6.32-573.el6.x86_64 (x86_64),1,0.0
+RBD53GR-5HacD2HnD 7.23.5 (long-term),1,0.0
+IOS 15.8(3)M2,1,0.0
+Linux 3.x 4.2.2,1,0.0
+Ubuntu 20.04.4 LTS (Focal Fossa) (Linux 5.4.0-105-generic),1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-171-generic),1,0.0
+Linux 5.10.233 (armv7l),1,0.0
+MikroTik RouterOS 6.41,1,0.0
+Red Hat Enterprise Linux Server 7.8 (Maipo) (Linux 3.10.0-1127.el7.x86_64),1,0.0
+IOS 16.8.1b,1,0.0
+MikroTik RouterOS 2.9.46,1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-106-generic),1,0.0
+Linux 4.18.0-553.22.1.el8_10.x86_64,1,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 7.0.0-34-generic),1,0.0
+Linux 5.15.37 (x86_64),1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.0-1066-gcp),1,0.0
+Linux 4.12.10-1.el7.elrepo.x86_64,1,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-45-cloud-amd64),1,0.0
+Linux 4.18.0-553.81.1.el8_10.x86_64,1,0.0
+RB1100x4 7.23.8 (long-term),1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.17.13-21-pve),1,0.0
+RBD22UGS-5HPacD2HnD,1,0.0
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-67-generic),1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-124-generic),1,0.0
+IOS 17.3.4a,1,0.0
+SLES 15-SP4 (Linux 5.14.21-150400.14.46-azure),1,0.0
+VersaLink B7030,1,0.0
+Linux 2.6.x 6.2.3-25426,1,0.0
+RB411,1,0.0
+Linux 5.15.0-112-generic,1,0.0
+Talos (Linux 6.18.34-talos),1,0.0
+Linux 4.14.32 (i686),1,0.0
+Ubuntu 25.10 (Questing Quokka) (Linux 6.17.0-41-generic),1,0.0
+Linux 4.19.57-v8+,1,0.0
+Linux 5.15.26 (x86_64),1,0.0
+CloudLinux 8.10 (Vladimir Aksyonov) (Linux 4.18.0-553.121.1.lve.el8.x86_64),1,0.0
+Linux 5.4.128-1-pve (16:20:02),1,0.0
+RB1100Hx2 7.24.5 (stable),1,0.0
+Linux 5.10.0-29-amd64 (Debian),1,0.0
+Linux 5.4.241-30.0017.19 x86_64,1,0.0
+Linux 6.1.0-52-amd64 x86_64,1,0.0
+IOS 12.2(55)SE5,1,0.0
+Linux 3.10.0-1160.31.1.el7.x86_64 (x86_64),1,0.0
+Ubuntu 20.04.2 LTS (Focal Fossa) (Linux 5.4.0-200-generic),1,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-111-generic),1,0.0
+Linux 6.6.119-49.23.oc9.x86_64,1,0.0
+IOS 15.4(1)S,1,0.0
+Linux 4.19.235,1,0.0
+Linux 5.2.10.3577,1,0.0
+AlmaLinux 8.10 (Cerulean Leopard) (Linux 4.18.0-553.148.1.el8_10.x86_64),1,0.0
+FreeBSD 14.3-RELEASE-p16 (FreeBSD 14.4-RELEASE-p8),1,0.0
+Linux 3.10.17-gentoo,1,0.0
+Linux 3.10.0-1160.105.1.vz7.214.3 (x86_64),1,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-124-generic),1,0.0
+RB760iGS 7.23.3 (stable),1,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.17.0-20-generic),1,0.0
+FreeBSD 13.1-RELEASE (FreeBSD 13.2-RELEASE-p1),1,0.0
+Linux 5.15.0-190-generic x86_64,1,0.0
+Linux 3.18.44 (mips),1,0.0
+Linux 6.8.0-146-generic,1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 5.15.0-139-generic),1,0.0
+RB751U-2HnD,1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 7.0.0-3-pve),1,0.0
+Synology DiskStation Manager (DSM) 6.1.4-15217,1,0.0
+Linux 4.15.0-101-generic,1,0.0
+Linux 2.6.19 (mips),1,0.0
+Rocky Linux 9.8 (Blue Onyx) (Linux 5.14.0-687.42.1.el9_8.x86_64),1,0.0
+IOS 15.5(2)S1c,1,0.0
+RB2011UiAS 7.23.2 (stable),1,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 6.2.0-1016-azure),1,0.0
+RB2011iL 7.22.3 (stable),1,0.0
+Linux 4.15.0-42-generic,1,0.0
+Linux 5.10.55+ (aarch64),1,0.0
+Linux 6.6.115 (armv7l),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.5.0-1-amd64),1,0.0
+Linux 5.4.290 (mips),1,0.0
+Ubuntu 22.04 (Jammy Jellyfish) (Linux 5.15.0-191-generic),1,0.0
+Linux 4.19.0-gvisor x86_64,1,0.0
+Linux 3.13.0-110-generic,1,0.0
+RB922UAGS-5HPacT,1,0.0
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-140-generic),1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-54-generic),1,0.0
+Linux 2.6.32-32-pve (x86_64),1,0.0
+Linux 4.15.0-202-generic,1,0.0
+Oracle Linux Server 9.7 (Linux 6.12.0-108.64.6.3.el9uek.x86_64),1,0.0
+Linux 5.15.0-173-generic,1,0.0
+Linux 4.14.40-V020422-g4796173fc5 (armv7l),1,0.0
+RB4011iGS+5HacQ2HnD 7.24.5 (stable),1,0.0
+MikroTik RouterOS 5.24,1,0.0
+Linux 4.4.59+ (x86_64),1,0.0
+Linux 5.10.0-24.el7.ucloud.x86_64,1,0.0
+Rocky Linux 9.6 (Blue Onyx) (Linux 5.14.0-570.55.1.el9_6.x86_64),1,0.0
+Linux 5.4.0-222-tuxcare.els4-generic (x86_64),1,0.0
+Onyx 3.8.1208,1,0.0
+Linux 6.8.0-87-generic (x86_64),1,0.0
+Rocky Linux 9.7 (Blue Onyx) (Linux 5.14.0-611.5.1.el9_7.x86_64),1,0.0
+Ubuntu 22.04.1 LTS (Jammy Jellyfish) (Linux 5.15.0-57-generic),1,0.0
+Windows Server 2016 (version 1511) (build 10.0.10586),1,0.0
+Linux 4.14.69-v7+ (armv7l),1,0.0
+IOS 15.1(1)T,1,0.0
+Linux 7.0.0-38-generic (2),1,0.0
+RB4011iGS+ 7.22 (stable),1,0.0
+EOS 4.21.0F,1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-139-generic),1,0.0
+NixOS 26.11 (Zokor) (Linux 6.18.37),1,0.0
+RB2011UiAS-2HnD 7.24.3 (stable),1,0.0
+Linux 6.1.0-42-cloud-amd64 (PREEMPT_DYNAMIC),1,0.0
+Linux 3.10.0-229.4.2.el7.x86_64 (x86_64),1,0.0
+Linux 4.19.84-amd64-vyos,1,0.0
+Linux 6.1.0-44-amd64 (PREEMPT_DYNAMIC),1,0.0
+Debian GNU/Linux 10 (buster) (Linux 5.4.0-215-generic),1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.11.0-24-generic),1,0.0
+Linux 6.8.0-124-generic (PREEMPT_DYNAMIC),1,0.0
+Oracle Linux Server 8.9 (Linux 5.15.0-200.131.27.el8uek.x86_64),1,0.0
+IOS 16.9.5f,1,0.0
+Synology DiskStation Manager (DSM) 4.0-2233,1,0.0
+Linux 5.10.0-31-amd64 (Debian),1,0.0
+Linux 5.4.251 (mips),1,0.0
+RBLHG5HPnD 7.24.5 (stable),1,0.0
+QTS 4.4.2,1,0.0
+Linux 6.14.0-37-generic,1,0.0
+Linux 3.10.0-1160.24.1.el7.x86_64,1,0.0
+RBD25G-5HPacQD2HPnD,1,0.0
+Linux 5.15.0-67-generic (x86_64),1,0.0
+Linux 3.16.0-4-amd64 (Debian),1,0.0
+MikroTik RouterOS 6.49beta26,1,0.0
+Alibaba Cloud Linux 3 (Soaring Falcon) (Linux 5.10.134-16.1.al8.x86_64),1,0.0
+Linux 5.14.0-570.17.1.el9_6.x86_64 (x86_64),1,0.0
+Linux 5.4.0-187-generic,1,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-242-generic),1,0.0
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-49-generic),1,0.0
+Linux 2.6.32-220.23.1.el6.x86_64 (x86_64),1,0.0
+Linux 4.18.0-147.8.1.el8_1.x86_64,1,0.0
+Linux 6.12.111+deb13-cloud-amd64,1,0.0
+Linux 6.8.0-147-generic (x86_64),1,0.0
+Linux 6.12.94+deb13-amd64 (PREEMPT_DYNAMIC),1,0.0
+Linux 6.8.0-138-generic (PREEMPT_DYNAMIC),1,0.0
+Linux 5.10.210 (armv7l),1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-102-generic),1,0.0
+TencentOS Server 3.1 (Final) (Linux 5.4.119-19.0009.65.1),1,0.0
+EOS 4.29.1F,1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 7.2.7-x64v3-xanmod1),1,0.0
+Linux 2.6.35 (ppc),1,0.0
+Linux 5.4.230 (mips),1,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-176-generic),1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 7.0.0-31-generic),1,0.0
+Linux 4.9.0-8-amd64,1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 7.0.2-6-pve),1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-136-generic),1,0.0
+Linux 5.4.52-1-lts (x86_64),1,0.0
+Ubuntu 18.04.4 LTS (Bionic Beaver) (Linux 4.15.0-88-generic),1,0.0
+Windows 8.1 Connected 9600,1,0.0
+Linux 5.4.213 (armv7l),1,0.0
+Linux 4.18.0-553.30.1.el8_10.x86_64,1,0.0
+Linux 6.6.119 (armv7l),1,0.0
+AlmaLinux 9.8 (Olive Jaguar) (Linux 5.14.0-611.36.1.el9_7.x86_64),1,0.0
+RB953GS-5HnT,1,0.0
+Linux 5.4.0-150-generic,1,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-28-generic),1,0.0
+Fedora Linux 41.20250117.3.0 (CoreOS) (Linux 6.12.9-200.fc41.x86_64),1,0.0
+Linux 3.18.67 (x86_64),1,0.0
+Debian GNU/Linux 10 (buster) (Linux 5.4.106-1-pve),1,0.0
+Linux 3.10.0-1160.81.1.el7.x86_64,1,0.0
+PAN-OS 8.1.18,1,0.0
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-72-generic),1,0.0
+RB QRT G-2SHPnD,1,0.0
+Linux 4.4.57 (armv7l),1,0.0
+IOS 15.4(3)M2,1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 7.0.14-25-pve),1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-76-generic),1,0.0
+MikroTik RouterOS 5.19,1,0.0
+Linux 3.16.61 (x86_64),1,0.0
+Linux 5.15.0-127-generic,1,0.0
+Linux 2.6.32-696.30.1.el6.x86_64 (x86_64),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 5.15.0-156-generic),1,0.0
+freebsd (16.0),1,0.0
+RB951Ui-2nD 7.24.5 (stable),1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-143-generic),1,0.0
+Linux 2.6.32-220.2.1.el6.x86_64 (x86_64),1,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-169-generic),1,0.0
+Linux 2.6.30 (x86_64),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.8.12-1-pve),1,0.0
+Rocky Linux 8.9 (Green Obsidian) (Linux 4.18.0-477.27.1.el8_8.x86_64),1,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-30-amd64),1,0.0
+Linux 6.12.41+deb13-amd64,1,0.0
+Windows 10 Pro 26300,1,0.0
+RBSXTsq5nD 7.25rc1,1,0.0
+Linux 6.12.0-233.el10.x86_64 (x86_64),1,0.0
+IOS 12.2(55)SE11,1,0.0
+IOS 15.2(2)T1,1,0.0
+RB750 7.24.3 (stable),1,0.0
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.17.0-40-generic),1,0.0
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.17.0-1011-oracle),1,0.0
+Linux 5.15.0-164-generic (x86_64),1,0.0
+Linux 5.14.0-611.41.1.el9_7.x86_64,1,0.0
+Windows (build 10.0.29667),1,0.0
+Talos (Linux 6.12.28-talos),1,0.0
+Talos (Linux 6.18.36-talos),1,0.0
+Linux 5.15.0-134-generic,1,0.0
+IOS 15.0(1)M7,1,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-176-generic),1,0.0
+RB433 7.23.8 (long-term),1,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-136-generic),1,0.0
+Linux 2.6.32-220.el6.x86_64 (x86_64),1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 7.1.13+deb13-amd64),1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-91-generic),1,0.0
+Linux 5.15.0-130-generic,1,0.0
+Linux 4.18.0-305.3.1.el8.x86_64,1,0.0
+Linux 4.4.140 (mips),1,0.0
+Flatcar Container Linux by Kinvolk 4757.2.2 (Linux 6.12.113-flatcar),1,0.0
+Linux 4.18.0-408.el8.x86_64 (x86_64),1,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-138-generic),1,0.0
+Windows Embedded Standard 7601 Service Pack 1,1,0.0
+Linux 3.4.20-rt31-dvf-v1.2.6.1-rc2 (armv5tejl),1,0.0
+PAN-OS 9.0.4,1,0.0
+Plan 9,1,0.0
+RB Groove 52HPn r2,1,0.0
+Linux 3.10.0-957.27.2.el7.x86_64,1,0.0
+IOS 15.1(4)M9,1,0.0
+IOS 15.2(4)S0b,1,0.0
+Windows (build 10.0.22000),1,0.0
+CentOS Linux 7 (Core) (Linux 5.15.60-1.el7.x86_64),1,0.0
+TencentOS Server 3.1 (Final) (Linux 5.4.119-19.0009.32),1,0.0
+Linux 4.9.118 armv7l,1,0.0
+Linux 4.18.0-553.70.1.el8_10.x86_64 (x86_64),1,0.0
+IOS 15.0(1)M2,1,0.0
+Linux 5.15.0-139-generic (x86_64),1,0.0
+FreeBSD 15.1-RELEASE-p1 (FreeBSD 15.1-RELEASE-p1),1,0.0
+Container-Optimized OS 125 (Linux 6.12.85+),1,0.0
+Rocky Linux 8.10 (Green Obsidian) (Linux 4.18.0-553.162.1.el8_10.x86_64),1,0.0
+IOS 15.4(3)S,1,0.0
+Ubuntu 20.04.3 LTS (Focal Fossa) (Linux 5.4.0-144-generic),1,0.0
+RB5009UPr+S+ 7.25,1,0.0
+Debian GNU/Linux 10 (buster) (Linux 4.19.0-8-amd64),1,0.0
+Linux 4.19.59-g5f8c1c6121 (armv7l),1,0.0
+Ubuntu 20.04.4 LTS (Focal Fossa) (Linux 5.4.0-113-generic),1,0.0
+Linux 5.14.0-687.13.1.el9_8.x86_64 (x86_64),1,0.0
+RB5009UPr+S+ 7.23.2 (stable),1,0.0
+IOS 12.4(3f),1,0.0
+IOS 15.1(2)SG8,1,0.0
+Linux 5.15.0-91-generic (x86_64),1,0.0
+RBwAPR-2nD 7.24.2 (stable),1,0.0
+Linux 3.10.0-1062.18.1.el7.x86_64,1,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-32-cloud-amd64),1,0.0
+Linux 5.15.116 (x86_64),1,0.0
+PAN-OS 8.1.15-h3,1,0.0
+RB951Ui-2HnD 7.24 (stable),1,0.0
+RB5009UG+S+ 7.22.1 (stable),1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.0-1044-oracle),1,0.0
+Ubuntu 24.10 (Oracular Oriole) (Linux 6.11.0-25-generic),1,0.0
+Linux 5.4.0-1092-gcp,1,0.0
+IOS 12.2(33.0.88)SCJ4_ES_171013,1,0.0
+Linux 5.14.0-605.el9.x86_64,1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-133-generic),1,0.0
+Rocky Linux 8.7 (Green Obsidian) (Linux 4.18.0-425.19.2.el8_7.x86_64),1,0.0
+Linux 2.6.15.4-ami (armv5tejl),1,0.0
+AOS-S 16.11.0012,1,0.0
+Linux 6.1.0-50-cloud-amd64,1,0.0
+IOS 16.12.5,1,0.0
+Linux 4.9.44+ (armv7l),1,0.0
+Linux 4.14.76-g5b2ebba9e (aarch64),1,0.0
+PAN-OS 9.0.9,1,0.0
+Linux 2.6.32-573.el6.x86_64,1,0.0
+Linux 3.10.108 (mips),1,0.0
+RBLHGG-60ad 7.25,1,0.0
+Linux 6.12.95+deb13-amd64 (PREEMPT_DYNAMIC),1,0.0
+RBcAPGi-5acD2nD 7.25,1,0.0
+RB4011iGS+ 7.23 (stable),1,0.0
+Linux 4.18.0-553.45.1.el8_10.x86_64 (x86_64),1,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-52-generic),1,0.0
+Ubuntu 22.04 (Jammy Jellyfish) (Linux 5.15.0-198-generic),1,0.0
+RBDynaDishG-5HacDr3,1,0.0
+Linux 5.14.0-570.12.1.el9_6.x86_64 (x86_64),1,0.0
+Linux 3.19.8 (x86_64),1,0.0
+Linux 5.10.0-30-amd64,1,0.0
+RB3011UiAS 7.25beta4,1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-142-generic),1,0.0
+AlmaLinux 9.5 (Teal Serval) (Linux 5.14.0-503.23.1.el9_5.x86_64),1,0.0
+Linux 7.0.0-27-generic x86_64,1,0.0
+IOS 15.9(3)M2,1,0.0
+Linux 5.15.167.4-microsoft-standard-WSL2 x86_64,1,0.0
+IOS 15.4(3)M9,1,0.0
+AlmaLinux 8.4 (Electric Cheetah) (Linux 4.18.0-305.25.1.el8_4.x86_64),1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-139-generic),1,0.0
+RB2011iLS 7.24.4 (stable),1,0.0
+Linux 3.6.11+ (armv7l),1,0.0
+AlmaLinux 9.4 (Seafoam Ocelot) (Linux 5.14.0-687.59.1.el9_8.x86_64),1,0.0
+Linux 5.4.0-193-generic (x86_64),1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.19.10-051910-generic),1,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 7.1.9-x86_64-linode176),1,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-26-cloud-amd64),1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.5.11-7-pve),1,0.0
+Linux 3.18.20 (mips),1,0.0
+Linux 7.0.14-25-pve (7.0.14-25),1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.63+deb13-cloud-amd64),1,0.0
+Linux 6.1.0-25-amd64,1,0.0
+IOS 17.12.3a,1,0.0
+Rocky Linux 9.8 (Blue Onyx) (Linux 5.14.0-611.55.1.el9_7.x86_64),1,0.0
+Linux 5.15.0-91-generic x86_64,1,0.0
+Linux 2.6.32-431.el6.x86_64 (x86_64),1,0.0
+Windows 10 Pro 19044,1,0.0
+Linux 6.1.0-20-amd64 (PREEMPT_DYNAMIC),1,0.0
+Ubuntu 18.04.6 LTS (Bionic Beaver) (Linux 5.4.0-1106-gcp),1,0.0
+AlmaLinux 10.2 (Lavender Lion) (Linux 6.12.0-211.50.1.el10_2.x86_64),1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-79-generic),1,0.0
+Linux 2.6.32-642.el6.x86_64 (x86_64),1,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-1062.18.1.el7.x86_64),1,0.0
+RB450Gx4 7.22 (stable),1,0.0
+Linux 6.8.12-16-pve,1,0.0
+PAN-OS 8.1.13,1,0.0
+RB435G,1,0.0
+RBD53iG-5HacD2HnD 7.22.1 (stable),1,0.0
+Ubuntu 22.04.1 LTS (Jammy Jellyfish) (Linux 5.15.0-122-generic),1,0.0
+Linux 5.14.0-611.27.1.el9_7.x86_64 (x86_64),1,0.0
+RBD52G-5HacD2HnD 7.23.2 (stable),1,0.0
+RB1100x4 7.25,1,0.0
+Linux 5.10.194 (i686),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-45-amd64),1,0.0
+RBD52G-5HacD2HnD 7.24.5 (stable),1,0.0
+Linux 4.14.248 (armv7l),1,0.0
+Ubuntu 22.04 (Jammy Jellyfish) (Linux 5.15.0-185-generic),1,0.0
+RB941-2nD 7.24.5 (stable),1,0.0
+RB2011UiAS 7.24.3 (stable),1,0.0
+Linux 4.9.0-3-amd64 (Debian),1,0.0
+IM C3000,1,0.0
+Linux 4.18.0-553.64.1.el8_10.x86_64 (x86_64),1,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 7.0.0-31-generic),1,0.0
+RBD53iG-5HacD2HnD 7.24.2 (stable),1,0.0
+RB750r2 7.22.1 (stable),1,0.0
+IOS 12.4(16),1,0.0
+QTS 5.0.3,1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-67-generic),1,0.0
+NX-OS 9.3(10),1,0.0
+Linux 6.8.0-124-generic (x86_64),1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.5.0-1016-azure),1,0.0
+Debian GNU/Linux 10 (buster) (Linux 4.19.0-11-amd64),1,0.0
+Linux 5.4.189-2-pve (09:39:53),1,0.0
+IOS 12.4(15)T2,1,0.0
+MikroTik RouterOS 6.41.4,1,0.0
+RBDynaDishG-5HacDr3 7.24.2 (stable),1,0.0
+RBSXTR 7.24.4 (stable),1,0.0
+IOS 15.1(1)T2,1,0.0
+Linux 4.15.0-91-generic,1,0.0
+AlmaLinux 9.6 (Sage Margay) (Linux 5.14.0-611.13.1.el9_7.x86_64),1,0.0
+Oracle Linux Server 9.7 (Linux 5.14.0-611.5.1.el9_7.x86_64),1,0.0
+Ubuntu 20.04.4 LTS (Focal Fossa) (Linux 5.4.0-94-generic),1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.0-1059-oracle),1,0.0
+Rocky Linux 9.4 (Blue Onyx) (Linux 5.14.0-427.33.1.el9_4.x86_64),1,0.0
+Linux 4.14.76-release-1.3.0 (aarch64),1,0.0
+Linux 5.15.21-rt30-qsc (x86_64),1,0.0
+Linux 4.19.0-17-cloud-amd64 (Debian),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-40-cloud-amd64),1,0.0
+Linux 6.12.76-linuxkit x86_64,1,0.0
+Linux 6.8.0-1070-azure,1,0.0
+MikroTik RouterOS 6.7,1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-13-amd64),1,0.0
+Linux 6.12.48+deb13-cloud-amd64 (PREEMPT_DYNAMIC),1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.0-1028-azure),1,0.0
+Linux 6.1.0-38-amd64,1,0.0
+Linux 3.10.0-229.el7.x86_64 (x86_64),1,0.0
+Linux 5.15.0-107-generic x86_64,1,0.0
+RB SXT 5HnD,1,0.0
+Linux 2.6.32-220.el6.j6k.113.x86_64 (x86_64),1,0.0
+IOS 12.2(25)SEE2,1,0.0
+Linux 3.x 5.0-4528,1,0.0
+Linux 4.14.155 (mips),1,0.0
+Linux 6.8.0-106-generic x86_64,1,0.0
+Linux 3.16.0-6-amd64,1,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-186-generic),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.8.12-15-pve),1,0.0
+RB750r2 7.23.2 (stable),1,0.0
+Linux 3.x 6.1-15047,1,0.0
+Linux 4.9.78-ltsi (armv7l),1,0.0
+Linux 3.12.74-0.488498678.g51a53d8.rb5-smp64 (x86_64),1,0.0
+Linux 4.4.0-210-generic (x86_64),1,0.0
+Linux 5.15.0-151-generic x86_64,1,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-44-amd64),1,0.0
+Synology DiskStation Manager (DSM) 6.1.3-15152,1,0.0
+Linux 5.14.0-427.42.1.el9_4.x86_64 (x86_64),1,0.0
+Linux 5.15.0-52-generic x86_64,1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.14.0-37-generic),1,0.0
+RB2011iL 7.23.3 (stable),1,0.0
+RB1100Dx4 7.24.1 (stable),1,0.0
+Linux 2.6.18-194.8.1.v5PAE (i686),1,0.0
+Linux 6.1.0-28-amd64 (PREEMPT_DYNAMIC),1,0.0
+Linux 5.14.0-427.22.1.el9_4.x86_64,1,0.0
+MikroTik RouterOS 6.24rc1,1,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 6.8.0-106-generic),1,0.0
+Linux 4.19.0-6-amd64 (Debian),1,0.0
+Ubuntu 24.10 (Oracular Oriole) (Linux 6.11.0-9-generic),1,0.0
+Linux TC7.0.2.aecf2d9,1,0.0
+Linux 3.10.105 (x86_64),1,0.0
+Red Hat Enterprise Linux 9.8 (Plow) (Linux 6.6.137-1.el9.x86_64),1,0.0
+Linux 2.6.32-431.23.3.el6.x86_64,1,0.0
+AlmaLinux 8.10 (Cerulean Leopard) (Linux 4.18.0-553.109.1.el8_10.x86_64),1,0.0
+RBLHGR 7.24.3 (stable),1,0.0
+Synology DiskStation Manager (DSM) 6.0.2-8451,1,0.0
+RB450G 7.24.3 (stable),1,0.0
+Debian GNU/Linux 10 (buster) (Linux 5.10.0-0.deb10.19-amd64),1,0.0
+Linux 5.15.0-1083-gcp,1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 7.0.14-6-pve),1,0.0
+Linux 3.10.0-1160.108.1.el7.x86_64 (x86_64),1,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.15.0-89-generic),1,0.0
+RB951Ui-2HnD 7.26beta1,1,0.0
+Ubuntu 26.04 LTS (Resolute Raccoon) (Linux 7.0.0-15-generic),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.8.12-14-pve),1,0.0
+Rocky Linux 9.7 (Blue Onyx) (Linux 5.14.0-503.15.1.el9_5.x86_64),1,0.0
+Linux 3.12.19-rt30 (ppc),1,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-31-generic),1,0.0
+RB4011iGS+5HacQ2HnD 7.24.4 (stable),1,0.0
+Java,1,0.0
+Linux 6.14.0-37-generic (x86_64),1,0.0
+Linux 2.6.32-696.23.1.el6.x86_64 (x86_64),1,0.0
+Ubuntu 20.04.4 LTS (Focal Fossa) (Linux 5.4.0-110-generic),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.12.113+deb13-amd64),1,0.0
+Linux 6.6.119-49.22.oc9.x86_64 x86_64,1,0.0
+Linux 3.10.0-1160.36.2.el7.x86_64 (x86_64),1,0.0
+IOS 16.12.4,1,0.0
+Linux 6.8.0-62-generic,1,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-100-generic),1,0.0
+Linux ce9.4.0.62bc0aa4505,1,0.0
+RB951G-2HnD 7.24.5 (stable),1,0.0
+IOS 15.7(3)M5,1,0.0
+RB2011iL 7.24.2 (stable),1,0.0
+RB912UAG-2HPnD,1,0.0
+IOS 16.3.5,1,0.0
+Linux 4.15.0-200-generic,1,0.0
+Alpine Linux (Linux 7.0.14-25-pve),1,0.0
+Linux 4.19.0-23-amd64,1,0.0
+Windows (build 10.0.20324),1,0.0
+Windows 10 IoT Enterprise LTSC 2021 19044,1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.0-85-generic),1,0.0
+RB1100AHx2 7.24.4 (stable),1,0.0
+Linux 6.8.0-64-generic,1,0.0
+Linux 2.6.32-431.el6.x86_64,1,0.0
+Linux 3.10.0-1160.66.1.el7.x86_64 (x86_64),1,0.0
+RBD52G-5HacD2HnD 7.23.5 (long-term),1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.0-52-generic),1,0.0
+Linux 3.x 6.2.1-23824,1,0.0
+Linux 2.6.18-371.12.1.el5 (x86_64),1,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-957.21.3.el7.x86_64),1,0.0
+Linux 2.6.32-754.18.2.el6.x86_64 (x86_64),1,0.0
+Fedora Linux 44 (Forty Four) (Linux 7.2.7-200.fc44.x86_64),1,0.0
+Linux 4.18.0-147.3.1.el8_1.x86_64,1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-160-generic),1,0.0
+NX-OS 7.0(3)I2(2d),1,0.0
+AOS-S 16.03.0005,1,0.0
+Linux 5.15.0-94-generic,1,0.0
+Cumulus Linux Cumulus Linux 5.15.1 (Linux 6.1.0-cl-1-amd64),1,0.0
+Linux 5.4.0-146-generic,1,0.0
+Ubuntu 22.04.1 LTS (Jammy Jellyfish) (Linux 5.15.0-140-generic),1,0.0
+IOS 15.0(2)SE5,1,0.0
+RB931-2nDr2,1,0.0
+Ubuntu 18.04.6 LTS (Bionic Beaver) (Linux 4.15.0-173-generic),1,0.0
+RBDisc5nD,1,0.0
+Ubuntu 26.04 LTS (Resolute Raccoon) (Linux 7.0.0-27-generic),1,0.0
+Windows 10 Enterprise LTSC 2019 17763,1,0.0
+Linux 6.6.117-45.1.oc9.x86_64 x86_64,1,0.0
+RBOmniTIKG-5HacD,1,0.0
+Linux 3.10.0-1160.25.1.el7.x86_64,1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.57+deb13-amd64),1,0.0
+Linux 3.10.0-957.el7.x86_64 (x86_64),1,0.0
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-57-generic),1,0.0
+Linux 3.10.0-957.1.3.el7.x86_64 (x86_64),1,0.0
+Linux 5.15.0-58-generic,1,0.0
+Linux 3.x 6.0.2-8451,1,0.0
+EpochOS 4.23.08 (equuleus) (Linux 5.4.243-amd64-vyos),1,0.0
+freebsd (15.0),1,0.0
+IOS 17.3.2,1,0.0
+Ubuntu 20.04.1 LTS (Focal Fossa) (Linux 5.4.0-144-generic),1,0.0
+Ubuntu 21.10 (Impish Indri) (Linux 5.13.0-52-generic),1,0.0
+CentOS Stream 9 (Linux 5.14.0-639.el9.x86_64),1,0.0
+Linux 3.x 6.1.6-15266,1,0.0
+Linux 4.19.0-9-amd64,1,0.0
+Linux 5.15.0-179-generic (x86_64),1,0.0
+Ubuntu 24.04.5 LTS (Noble Numbat) (Linux 6.8.0-137-generic),1,0.0
+Linux 4.19.205 (aarch64),1,0.0
+Linux 2.6.32-504.30.3.el6.x86_64,1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-87-generic),1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.0-117-lowlatency),1,0.0
+Windows Server (R) 2008 Standard 6003 Service Pack 2,1,0.0
+Linux 6.1.0-42-amd64 (PREEMPT_DYNAMIC),1,0.0
+Linux 6.8.0-1070-gcp x86_64,1,0.0
+IOS 17.15.6,1,0.0
+Debian GNU/Linux 10 (buster) (Linux 4.19.0-13-amd64),1,0.0
+Linux 2.6.32-504.el6.x86_64 (x86_64),1,0.0
+Linux 5.4.0-214-generic,1,0.0
+Linux 5.10.0-43-amd64,1,0.0
+Linux 3.10.0-957.21.3.el7.x86_64 (x86_64),1,0.0
+Ubuntu 20.04.3 LTS (Focal Fossa) (Linux 5.4.0-84-generic),1,0.0
+MikroTik RouterOS 6.23,1,0.0
+AlmaLinux 9.7 (Moss Jungle Cat) (Linux 5.14.0-611.45.1.el9_7.x86_64),1,0.0
+Linux 5.4.0-149-generic,1,0.0
+IOS 12.4(3i),1,0.0
+Linux 4.4.0+10 (x86_64),1,0.0
+RB750r2 7.23.7 (long-term),1,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-85-generic),1,0.0
+Linux 3.x 7.3-81180,1,0.0
+Linux 4.19.0-27-cloud-amd64,1,0.0
+Linux 4.4.0-142-generic,1,0.0
+CentOS Stream 9 (Linux 5.14.0-722.el9.x86_64),1,0.0
+IOS 16.8.1,1,0.0
+Linux 6.8.0-136-generic (x86_64),1,0.0
+Ubuntu 18.04.5 LTS (Bionic Beaver) (Linux 5.4.0-132-generic),1,0.0
+Linux 3.10.0-862.14.4.el7.x86_64,1,0.0
+Linux 4.18.0-348.7.1.el8_5.x86_64,1,0.0
+Ubuntu 23.10 (Mantic Minotaur) (Linux 6.5.0-9-generic),1,0.0
+Linux 5.4.0-66-generic,1,0.0
+Linux 3.10.0-1062.9.1.el7.x86_64,1,0.0
+AlmaLinux 8.10 (Cerulean Leopard) (Linux 5.14.0-687.59.1.el9_8.x86_64),1,0.0
+Linux 6.12.0-211.68.1.el10_2.x86_64 (x86_64),1,0.0
+Linux 6.8.12-20-pve (6.8.12-20),1,0.0
+RB5009UPr+S+ 7.23.1 (stable),1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.17.0-1018-oracle),1,0.0
+Windows (build 6.1.7600),1,0.0
+IOS 15.2(3)E1,1,0.0
+IOS 16.9.1,1,0.0
+RBOmniTikPG-5HacD 7.22.1 (stable),1,0.0
+Linux 3.10.0-1160.36.2.el7.x86_64,1,0.0
+Cisco IOS XR 6.7.3,1,0.0
+Linux 6.12.91-ophub aarch64,1,0.0
+RB951G-2HnD 7.22 (stable),1,0.0
+RB951G-2HnD 7.23.5 (long-term),1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 6.8.0-1070-azure),1,0.0
+RB921GS-5HPacD r2,1,0.0
+Linux 6.8.0-54-generic,1,0.0
+Debian GNU/Linux 8 (jessie) (Linux 3.16.0-6-amd64),1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-101-generic),1,0.0
+AOS-S 16.07.0003,1,0.0
+Linux ce8.2.1.e9daf06,1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.11.0-29-generic),1,0.0
+Linux 3.10.0-1062.18.1.el7.x86_64 (x86_64),1,0.0
+IOS 15.2(4)M9,1,0.0
+Linux 5.15.0-100-generic,1,0.0
+Linux 5.4.0-135-generic,1,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-957.5.1.el7.x86_64),1,0.0
+AlmaLinux 9.8 (Olive Jaguar) (Linux 5.14.0-687.36.1.el9_8.x86_64),1,0.0
+MikroTik RouterOS 2.9.6,1,0.0
+Linux 4.19.2-200.fc28.x86_64,1,0.0
+Red Hat Enterprise Linux 8.10 (Ootpa) (Linux 4.18.0-553.83.1.el8_10.x86_64),1,0.0
+Linux 6.12.113+deb13-amd64,1,0.0
+RB750UPr2 7.24.4 (stable),1,0.0
+2920-48G-POE+ WB.16.10.0025,1,0.0
+Linux 5.4.122 (x86_64),1,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.15.74-1-pve),1,0.0
+IOS 15.5(3)M1,1,0.0
+Ubuntu Core 24 (Linux 5.4.0-216-generic),1,0.0
+NixOS 26.05 (Yarara) (Linux 7.3.0),1,0.0
+Linux 3.10.0-957.12.1.el7.x86_64,1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.8.12-24-pve),1,0.0
+Ubuntu 26.04 (Resolute Raccoon) (Linux 7.0.6-2-pve),1,0.0
+Linux 6.8.0-58-generic (x86_64),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 5.10.0-45-amd64),1,0.0
+Linux 3.3.8 (i686),1,0.0
+Linux 2.6.24 (i686),1,0.0
+Linux 6.17.2-1-pve,1,0.0
+RB2011LS,1,0.0
+Linux 5.15.0-170-generic x86_64,1,0.0
+Linux 6.8.12-9-pve (6.8.12-9),1,0.0
+NetWare,1,0.0
+RB960PGS 7.23.5 (long-term),1,0.0
+Linux 5.15.0-185-generic,1,0.0
+Linux 3.0.35-rBOX630-007 (armv7l),1,0.0
+IOS 12.4(1c),1,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-198-generic),1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 6.8.0-101-generic),1,0.0
+Linux 5.10.0-32-amd64 (Debian),1,0.0
+linux_kernel (CpeValue.ANY),1,0.0
+Linux 4.18.0-372.41.1.el8_6.x86_64 (x86_64),1,0.0
+Arch Linux (Linux 6.13.8-arch1-1),1,0.0
+RB4011iGS+5HacQ2HnD 7.25,1,0.0
+Linux 2.6.30.10-105.2.23.fc11.i686.PAE (i686),1,0.0
+Rocky Linux 10.2 (Red Quartz) (Linux 6.12.0-211.49.1.el10_2.x86_64),1,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-36-amd64),1,0.0
+Rocky Linux 9.6 (Blue Onyx) (Linux 5.14.0-570.25.1.el9_6.x86_64),1,0.0
+RB1100AHx2 7.24.2 (stable),1,0.0
+Linux 2.6.32-642.11.1.el6.centos.plus.x86_64 (x86_64),1,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 6.2.0-1015-azure),1,0.0
+IOS 12.2(50)SE5,1,0.0
+IOS 15.2(4)S,1,0.0
+Linux 6.1.0smp-alb165.16-albva (x86_64),1,0.0
+Linux 3.16.0-10-amd64,1,0.0
+RB952Ui-5ac2nD 7.23 (stable),1,0.0
+Linux 3.10.0,1,0.0
+Linux 4.18.0-193.28.1.el8_2.x86_64 x86_64,1,0.0
+Linux 4.9.0-6-amd64 (Debian),1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.38+deb13-amd64),1,0.0
+IOS 15.0(2)SE2,1,0.0
+Linux 3.10.0-1160.114.2.el7.x86_64,1,0.0
+Red Hat Enterprise Linux 9.6 (Plow) (Linux 5.14.0-570.33.2.el9_6.x86_64),1,0.0
+IOS 15.6(3)M4,1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-135-generic),1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 7.0.14-4-pve),1,0.0
+RB1100x4 7.23.5 (long-term),1,0.0
+FreeBSD 13.1-RELEASE (FreeBSD 13.2-RELEASE-p2),1,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 3.10.0-1160.99.1.el7.x86_64),1,0.0
+RB5009UPr+S+ 7.24.1 (stable),1,0.0
+Ubuntu 16.04.7 LTS (Xenial Xerus) (Linux 4.15.0-133-generic),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-35-amd64),1,0.0
+MikroTik RouterOS 5.26,1,0.0
+Linux 2.6.32-642.4.2.el6.x86_64,1,0.0
+Talos (Linux 6.18.15-talos),1,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-212-generic),1,0.0
+CloudLinux 7.9 (Boris Yegorov) (Linux 4.18.0-348.12.2.lve.el7h.x86_64),1,0.0
+NixOS 25.05 (Warbler) (Linux 6.12.32),1,0.0
+AlmaLinux 10.2 (Lavender Lion) (Linux 6.12.0-211.30.1.el10_2.x86_64),1,0.0
+Linux 6.1.0-28-amd64,1,0.0
+Linux 5.15.0-187-generic (x86_64),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-18-amd64),1,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.15.0-1052-gcp),1,0.0
+Linux 2.6.36.4brcmarm (armv7l),1,0.0
+Linux 5.4.0-88-generic (x86_64),1,0.0
+Linux 3.14.43 (armv7l),1,0.0
+RB450Gx4 7.22.1 (stable),1,0.0
+Linux 5.10.0-45-cloud-amd64,1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.8.0-85-generic),1,0.0
+Linux 4.4.0-179-generic,1,0.0
+AlmaLinux 8.10 (Cerulean Leopard) (Linux 4.18.0-553.174.2.el8_10.x86_64),1,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 5.15.0-051500-generic),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-42-cloud-amd64),1,0.0
+MikroTik RouterOS 3.30,1,0.0
+Rocky Linux 9.6 (Blue Onyx) (Linux 5.14.0-611.41.1.el9_7.x86_64),1,0.0
+RB nRAYG-60ad,1,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 6.5.0-1014-gcp),1,0.0
+Linux 5.4.225-1.el7.elrepo.x86_64 (x86_64),1,0.0
+Ubuntu 26.04 (Resolute Raccoon) (Linux 7.0.0-1011-gcp),1,0.0
+CentOS Linux 8 (Linux 4.18.0-305.3.1.el8.x86_64),1,0.0
+RB SXT 5HPnD r2,1,0.0
+Linux 5.4.0-173-generic,1,0.0
+IOS 12.3(9a)BC,1,0.0
+Linux 5.15.0-1096-azure x86_64,1,0.0
+Linux 4.18.0-553.16.1.el8_10.x86_64 (x86_64),1,0.0
+Windows (build 5.0.2195),1,0.0
+Linux 3.10.82-aufs-rt89-tl4 (be),1,0.0
+Linux 5.14.0-570.60.1.el9_6.x86_64 (x86_64),1,0.0
+Linux 4.18.0-147.8.1.el8_1.x86_64 (x86_64),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.1.0-28-cloud-amd64),1,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-137-generic),1,0.0
+Linux 3.4.35_hi3535 (armv7l),1,0.0
+RBM33G 7.22 (stable),1,0.0
+Linux 3.10.0-514.16.1.el7.x86_64,1,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-49-generic),1,0.0
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.18.38-061838-generic),1,0.0
+Synology Router Manager (SRM) 1.1.1-6414,1,0.0
+Linux 3.10.12 (armv7l),1,0.0
+PAN-OS 9.1.7,1,0.0
+Linux 6.12.94+deb13-amd64 x86_64,1,0.0
+Linux 7.0.0-30-generic x86_64,1,0.0
+Rocky Linux 9.6 (Blue Onyx) (Linux 5.14.0-570.17.1.el9_6.x86_64),1,0.0
+Linux 5.14.0-284.25.1.vz9.27.4 (x86_64),1,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-27-amd64),1,0.0
+QTS 4.1.0,1,0.0
+Debian GNU/Linux 10 (buster) (Linux 5.4.78-2-pve),1,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-39-cloud-amd64),1,0.0
+Linux 4.19.0-26-amd64 (Debian),1,0.0
+AlmaLinux 9.8 (Olive Jaguar) (Linux 5.14.0-687.39.1.el9_8.x86_64),1,0.0
+Debian GNU/Linux 10 (buster) (Linux 4.19.0-17-amd64),1,0.0
+IOS 12.3(24a),1,0.0
+Ubuntu 22.04 LTS (Jammy Jellyfish) (Linux 5.15.0-191-generic),1,0.0
+Rocky Linux 8.10 (Green Obsidian) (Linux 4.18.0-553.141.1.el8_10.x86_64),1,0.0
+Linux 6.8.0-146-generic (x86_64),1,0.0
+IOS 15.0(2)SG8,1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 7.2.9+deb13-amd64),1,0.0
+RB960PGS 7.24 (stable),1,0.0
+RBD52G-5HacD2HnD 7.23.1 (stable),1,0.0
+Linux 6.8.0-117-generic (x86_64),1,0.0
+Linux 4.4.0-151-generic x86_64,1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-126-generic),1,0.0
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) (Linux 5.15.0-101-generic),1,0.0
+Ubuntu 16.04.6 LTS (Xenial Xerus) (Linux 4.4.0-210-generic),1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.8.12-4-pve),1,0.0
+Linux 2.6.28.10-ami (armv5tejl),1,0.0
+Ubuntu 18.04.2 LTS (Bionic Beaver) (Linux 4.15.0-197-generic),1,0.0
+Linux 4.4.195 (i686),1,0.0
+Linux 7.0.0-31-generic x86_64,1,0.0
+Linux 6.1.0-40-amd64 (PREEMPT_DYNAMIC),1,0.0
+Rocky Linux 9.4 (Blue Onyx) (Linux 5.14.0-427.28.1.el9_4.x86_64),1,0.0
+Linux 4.4.0-142-generic (x86_64),1,0.0
+Linux 2.6.24-ami (armv5tejl),1,0.0
+Windows (build 6.6.1200),1,0.0
+RBLHG-5nD 7.23.8 (long-term),1,0.0
+Rocky Linux 9.6 (Blue Onyx) (Linux 5.14.0-570.32.1.el9_6.x86_64),1,0.0
+Linux 5.4.113 (x86_64),1,0.0
+Ubuntu 22.04 (Jammy Jellyfish) (Linux 6.8.12-18-pve),1,0.0
+Linux 4.4.194 (mips),1,0.0
+TencentOS Server 3.1 (Final) (Linux 5.4.241-19-0023.2_plus),1,0.0
+Linux 6.12.0-124.45.1.el10_1.x86_64,1,0.0
+Linux 5.14.0-611.49.2.el9_7.x86_64,1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 5.15.0-72-generic),1,0.0
+RB750Gr3 7.22.1 (stable),1,0.0
+Synology DiskStation Manager (DSM) 6.2.3-25423,1,0.0
+Ubuntu 24.04.1 LTS (Noble Numbat) (Linux 6.8.0-134-generic),1,0.0
+Debian GNU/Linux 10 (buster) (Linux 5.4.103-1-pve),1,0.0
+Linux 2.6.18-308.16.1.el5 (i686),1,0.0
+IOS 15.7(3)M,1,0.0
+NetsweeperOS 8.7 (Linux 4.18.0-425.10.1.el8_7.x86_64),1,0.0
+Linux 6.8.0-136-generic x86_64,1,0.0
+MikroTik RouterOS 7.2,1,0.0
+RB411GL,1,0.0
+Debian GNU/Linux 13 (trixie) (Linux 6.12.105+deb13-amd64),1,0.0
+Linux 4.9.0-9-amd64,1,0.0
+Windows 10 Enterprise LTSC,1,0.0
+NixOS 26.11 (Zokor) (Linux 6.18.57),1,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.92.1.el7.x86_64),1,0.0
+RB750GL 7.24.2 (stable),1,0.0
+Linux 7.0.0-31-generic,1,0.0
+RB4011iGS+5HacQ2HnD 7.23.1 (stable),1,0.0
+Linux 2.6.32-358.el6.x86_64 (x86_64),1,0.0
+Linux 3.10.0-1160.76.1.el7.x86_64 (x86_64),1,0.0
+Linux 3.10.0-1160.31.1.el7.x86_64,1,0.0
+Linux 6.8.0-49-generic (x86_64),1,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.118.1.rn1.el7.x86_64),1,0.0
+EOS 4.29.7M,1,0.0
+RB2011UiAS-2HnD 7.24.4 (stable),1,0.0
+Linux 5.4.285 (mips),1,0.0
+Ubuntu 24.04.3 LTS (Noble Numbat) (Linux 7.0.0-34-generic),1,0.0
+Linux 5.15.0-160-generic,1,0.0
+VMware ESXi Server 8.0.3 (x86_64),1,0.0
+Linux 7.0.0-29-generic,1,0.0
+CentOS Linux 7 (Core) (Linux 6.4.2-1.el7.elrepo.x86_64),1,0.0
+Linux 4.15.0-118-generic (x86_64),1,0.0
+Proxmox VE 9.1.9 (Linux 6.17.2-1-pve),1,0.0
+Ubuntu 22.04.1 LTS (Jammy Jellyfish) (Linux 5.15.0-130-generic),1,0.0
+IOS 12.2(17f),1,0.0
+Linux 7.0.2-6-pve (7.0.2-6),1,0.0
+Linux 3.10.0-957.5.1.el7.x86_64,1,0.0
+RBLHGR,1,0.0
+Fedora Linux 43 (Cloud Edition) (Linux 6.18.9-200.fc43.x86_64),1,0.0
+Linux 5.4.0-144-generic,1,0.0
+MikroTik RouterOS 7.2.1,1,0.0
+RB850Gx2 7.25rc2,1,0.0
+IOS 15.0(2)SG7,1,0.0
+IOS 15.5(3)M7,1,0.0
+Linux 3.x 7.2.2-72803,1,0.0
+Ubuntu 18.04.4 LTS (Bionic Beaver) (Linux 5.4.0-1095-azure),1,0.0
+IOS 15.0(2)SE11,1,0.0
+Linux 3.10.108 (x86_64),1,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.15.0-1089-azure),1,0.0
+VxWorks,1,0.0
+AlmaLinux 10.0 (Purple Lion) (Linux 6.12.0-55.38.1.el10_0.x86_64),1,0.0
+PAN-OS 8.0.7,1,0.0
+EOS 4.30.3M,1,0.0
+Linux 5.4.140-1-pve (16:21:59),1,0.0
+Linux 2.6.32-696.el6.x86_64 (x86_64),1,0.0
+Linux 3.10.0-1160.15.2.el7.x86_64 (x86_64),1,0.0
+Linux 6.8.0-31-generic,1,0.0
+EOS 4.20.9M,1,0.0
+Linux 4.9.198-Prod_20.2 (armv7l),1,0.0
+Linux 3.12.10-divelk-2.0.0-dirty (armv7l),1,0.0
+Linux 4.14.83-ZS (i686),1,0.0
+Linux 3.18.29 (mips),1,0.0
+CentOS Stream 9 (Linux 5.14.0-514.el9.x86_64),1,0.0
+Ubuntu 20.04.5 LTS (Focal Fossa) (Linux 5.4.0-132-generic),1,0.0
+Linux 4.18.0-553.111.1.el8_10.x86_64 (x86_64),1,0.0
+Linux 2.6.32-754.el6.x86_64 (x86_64),1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-136-generic),1,0.0
+Linux 6.8.0-138-generic (x86_64),1,0.0
+Linux 2.6.20-GWIMv6 (ppc),1,0.0
+Oracle Linux Server 8.10 (Linux 4.18.0-553.164.1.el8_10.x86_64),1,0.0
+Linux 6.12.74+deb13+1-amd64,1,0.0
+OpenBSD 7.0,1,0.0
+Ubuntu 22.04 LTS (Jammy Jellyfish) (Linux 5.15.0-194-generic),1,0.0
+Ubuntu 18.04.5 LTS (Bionic Beaver) (Linux 4.15.0-143-generic),1,0.0
+OS/400,1,0.0
+Fedora Linux 43 (Forty Three) (Linux 7.0.4-100.fc43.x86_64),1,0.0
+IRIX,1,0.0
+RBLHGG-60ad,1,0.0
+EOS 4.24.3M,1,0.0
+Linux 4.18.0-500.el8.x86_64,1,0.0
+IOS 15.7(3)M8,1,0.0
+SonicOS 6.2.7.1-24n,1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 6.7.12+bpo-amd64),1,0.0
+RBDisc5nD 7.24.4 (stable),1,0.0
+Linux 4.12.8 (armv7l),1,0.0
+Linux 4.18.0-553.34.1.el8_10.x86_64 (x86_64),1,0.0
+Synology DiskStation Manager (DSM) 5.1-5022,1,0.0
+NX-OS 7.0(3)I7(9),1,0.0
+Linux 2.6.32-5-686 (i686),1,0.0
+Rocky Linux 9.6 (Blue Onyx) (Linux 5.14.0-570.37.1.el9_6.x86_64),1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 6.5.0-26-generic),1,0.0
+Linux 5.14.0-427.33.1.vz9.72.5 (x86_64),1,0.0
+Linux 3.2.0-6-amd64 (Debian),1,0.0
+IOS 15.4(3)M7,1,0.0
+Linux 6.8.0-101-generic,1,0.0
+IOS 15.0(1)M8,1,0.0
+Linux 4.18.0-553.121.1.lve.el8.x86_64 (x86_64),1,0.0
+Linux 3.10.72-72EXINDAsmp (@1484583999),1,0.0
+Linux 4.19.183 (aarch64),1,0.0
+Linux 6.1.0-53-cloud-amd64 (PREEMPT_DYNAMIC),1,0.0
+IOS 12.4(15)T13,1,0.0
+Linux 5.10.0-13-amd64,1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-56-generic),1,0.0
+AlmaLinux 9.8 (Olive Jaguar) (Linux 5.14.0-687.26.1.el9_8.x86_64),1,0.0
+Linux 4.14.195 (armv7l),1,0.0
+IOS 15.6(3)M7,1,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-1160.83.1.el7.x86_64),1,0.0
+CentOS Linux 7 (Core) (Linux 3.10.0-1127.8.2.el7.x86_64),1,0.0
+MikroTik RouterOS 6.43.3,1,0.0
+Linux 6.12.0-211.34.1.el10_2.x86_64 (x86_64),1,0.0
+RB951Ui-2nD 7.23.7 (long-term),1,0.0
+RB962UiGS-5HacT2HnT 7.22.2 (stable),1,0.0
+IOS 12.2(33)SCF5,1,0.0
+RB450G 7.24.4 (stable),1,0.0
+NX-OS 9.3(6),1,0.0
+Linux 5.15.0-198-generic x86_64,1,0.0
+Linux 4.1.13+ (armv7l),1,0.0
+Ubuntu 22.04 (Jammy Jellyfish) (Linux 5.15.0-186-generic),1,0.0
+RB750UPr2 7.25,1,0.0
+Ubuntu 24.04.2 LTS (Noble Numbat) (Linux 6.8.0-36-generic),1,0.0
+Linux 6.4.7-1.el7.elrepo.x86_64 (x86_64),1,0.0
+Ubuntu 22.04.4 LTS (Jammy Jellyfish) (Linux 6.8.0-49-generic),1,0.0
+Linux 3.18.29 (rlx),1,0.0
+CloudLinux 8.10 (Vladimir Aksyonov) (Linux 4.18.0-553.22.1.lve.1.el8.x86_64),1,0.0
+Linux 4.19.0-12-amd64 (Debian),1,0.0
+IOS 15.6(2)SP3,1,0.0
+Debian GNU/Linux (Linux 7.2.12+deb14-amd64),1,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-8-amd64),1,0.0
+Ubuntu 20.04.6 LTS (Focal Fossa) (Linux 5.4.0-88-generic),1,0.0
+Debian GNU/Linux 11 (bullseye) (Linux 5.10.0-32-amd64),1,0.0
+Ubuntu 22.04.2 LTS (Jammy Jellyfish) (Linux 5.15.0-76-generic),1,0.0
+Linux 4.14.328 (armv7l),1,0.0
+Linux 6.1.0-38-amd64 (PREEMPT_DYNAMIC),1,0.0
+VersaLink C7125,1,0.0
+Linux 4.19-ovh-xxxx-std-ipv6-64,1,0.0
+RB5009UPr+S+ 7.24.4 (stable),1,0.0
+CYGWIN_NT-10.0-20348 3.6.4-1.x86_64 x86_64,1,0.0
+Linux 4.18.0-425.10.1.el8_7.x86_64 (x86_64),1,0.0
+Linux 5.15.0-41-generic,1,0.0
+Linux 4.14.336 (armv7l),1,0.0
+Linux 5.14.0-687.36.1.el9_8.x86_64 (x86_64),1,0.0
+Windows 10 Pro 26100,1,0.0
+IOS 17.3.5,1,0.0
+AlmaLinux 10.2 (Lavender Lion) (Linux 6.12.0-211.65.1.el10_2.x86_64),1,0.0
+Ubuntu 24.04.4 LTS (Noble Numbat) (Linux 6.8.0-88-generic),1,0.0
+Linux 3.10.0-1062.4.1.el7.x86_64,1,0.0
+Debian GNU/Linux 9 (stretch) (Linux 4.9.0-11-amd64),1,0.0
+Linux 4.4.302+ (x86_64),1,0.0
+Linux 2.6.32-358.23.2.el6.x86_64 (x86_64),1,0.0
+Linux 5.15.0-91-generic,1,0.0
+SonicOS 6.5.5.1-6n,1,0.0
+Rocky Linux 9.6 (Blue Onyx) (Linux 5.14.0-570.42.2.el9_6.x86_64),1,0.0
+EZELINK EZEOS v2.1 v2.1 (Linux 4.18.0-553.el8_10.x86_64),1,0.0
+Linux 3.14.32-xxxx-grs-ipv6-64 (x86_64),1,0.0
+Windows 10 Pro 18363,1,0.0
+Linux 4.18.0-553.123.2.el8_10.x86_64 (x86_64),1,0.0
+Linux 5.15.0-46-generic x86_64,1,0.0
+Ubuntu 22.04.3 LTS (Jammy Jellyfish) (Linux 5.15.0-135-generic),1,0.0
+RB951Ui-2HnD 7.23.7 (long-term),1,0.0
+Linux 5.4.203-1-pve,1,0.0
+Linux 3.10.0-1160.15.2.el7.x86_64,1,0.0
+Debian GNU/Linux 12 (bookworm) (Linux 5.15.158-2-pve),1,0.0
+Linux 5.15.55-200.el8.7004AB_SOPNET.x86_64 (x86_64),1,0.0
+Linux 6.6.52 (x86_64),1,0.0
+Linux 6.1.0-40-amd64,1,0.0
+Linux 4.19.0-27-amd64 (Debian),1,0.0

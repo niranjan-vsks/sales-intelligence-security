@@ -1,0 +1,257 @@
+===== 20 random org groups (FULL)
+
+--- org='Structured Communications Customers' banners=6 ips=6 orgs=1 first_domains=1
+  ('31.169.114.83', 8080, 'http-simple-new', 'Structured Communications Customers', 'AS199283', ['structuredcommunications.co.uk'], None)
+  ('31.169.114.61', 80, 'http', 'Structured Communications Customers', 'AS199283', ['structuredcommunications.co.uk'], None)
+  ('185.87.208.25', 2000, 'ikettle', 'Structured Communications Customers', 'AS199283', ['structuredcommunications.co.uk'], None)
+  ('185.87.211.45', 80, 'http', 'Structured Communications Customers', 'AS199283', ['structuredcommunications.co.uk'], None)
+  ('31.169.115.4', 5060, 'sip', 'Structured Communications Customers', 'AS199283', ['structuredcommunications.co.uk'], None)
+  ('185.87.211.37', 80, 'http', 'Structured Communications Customers', 'AS199283', ['structuredcommunications.co.uk'], None)
+
+--- org='Shriju Computer Center' banners=2 ips=2 orgs=1 first_domains=0
+  ('103.110.245.35', 90, 'auto', 'Shriju Computer Center', 'AS151690', [], None)
+  ('103.110.244.49', 161, 'snmp_v3', 'Shriju Computer Center', 'AS151690', [], None)
+
+--- org='Universidad Nacional de Rosario' banners=11 ips=11 orgs=1 first_domains=2
+  ('200.3.126.0', 161, 'snmp_v3', 'Universidad Nacional de Rosario', 'AS262156', [], None)
+  ('200.3.124.33', 123, 'ntp', 'Universidad Nacional de Rosario', 'AS262156', [], None)
+  ('200.3.125.14', 80, 'http', 'Universidad Nacional de Rosario', 'AS262156', [], None)
+  ('200.3.121.16', 80, 'http', 'Universidad Nacional de Rosario', 'AS262156', [], None)
+  ('200.3.127.193', 161, 'snmp_v3', 'Universidad Nacional de Rosario', 'AS262156', [], None)
+  ('200.3.121.22', 80, 'http', 'Universidad Nacional de Rosario', 'AS262156', [], None)
+
+--- org='Nicolás Chiarini' banners=11 ips=9 orgs=1 first_domains=6
+  ('190.105.235.32', 80, 'http', 'Nicolás Chiarini', 'AS52270', ['controlinterno.com.ar'], None)
+  ('190.105.225.46', 80, 'http', 'Nicolás Chiarini', 'AS52270', ['xvserver.com'], None)
+  ('190.105.235.70', 443, 'https', 'Nicolás Chiarini', 'AS52270', [], '*.sigamm.com.ar')
+  ('190.105.225.43', 2087, 'https-simple-new', 'Nicolás Chiarini', 'AS52270', ['webmatter9.com.ar'], 'server.webmatter9.com.ar')
+  ('190.105.235.33', 80, 'http', 'Nicolás Chiarini', 'AS52270', ['xvserver.com'], None)
+  ('190.105.235.200', 80, 'http', 'Nicolás Chiarini', 'AS52270', ['outservers.net'], None)
+
+--- org='Global Blue Holdings Aktiebolag' banners=6 ips=6 orgs=1 first_domains=1
+  ('195.177.228.169', 2443, 'auto', 'Global Blue Holdings Aktiebolag', 'AS44757', [], None)
+  ('195.177.228.83', 443, 'https', 'Global Blue Holdings Aktiebolag', 'AS44757', [], '*.st.globalblue.com')
+  ('195.177.228.160', 13443, 'auto', 'Global Blue Holdings Aktiebolag', 'AS44757', [], None)
+  ('195.177.228.37', 80, 'http', 'Global Blue Holdings Aktiebolag', 'AS44757', [], None)
+  ('195.177.228.123', 443, 'https', 'Global Blue Holdings Aktiebolag', 'AS44757', ['shift4.com'], '*.globalblue.com')
+  ('195.177.228.47', 13443, 'auto', 'Global Blue Holdings Aktiebolag', 'AS44757', [], None)
+
+--- org='WIRELINE COMMUNICATION INDIA PRIVATE LIMITED' banners=3 ips=3 orgs=1 first_domains=0
+  ('103.115.236.87', 23, 'telnet', 'WIRELINE COMMUNICATION INDIA PRIVATE LIMITED', 'AS151164', [], None)
+  ('103.115.236.17', 80, 'http', 'WIRELINE COMMUNICATION INDIA PRIVATE LIMITED', 'AS151164', [], None)
+  ('103.115.236.37', 80, 'http', 'WIRELINE COMMUNICATION INDIA PRIVATE LIMITED', 'AS151164', [], None)
+
+--- org='Cambridge_Fibre_Networks Cambridge Fibre Networks Ltd.' banners=4 ips=4 orgs=1 first_domains=1
+  ('185.219.109.61', 80, 'http', 'Cambridge_Fibre_Networks Cambridge Fibre Networks Ltd.', 'AS205311', ['camfibre.uk'], None)
+  ('185.219.110.47', 7547, 'http-simple-new', 'Cambridge_Fibre_Networks Cambridge Fibre Networks Ltd.', 'AS205311', ['camfibre.uk'], None)
+  ('185.219.110.248', 53, 'dns-tcp', 'Cambridge_Fibre_Networks Cambridge Fibre Networks Ltd.', 'AS205311', ['camfibre.uk'], None)
+  ('185.219.109.145', 7547, 'http-simple-new', 'Cambridge_Fibre_Networks Cambridge Fibre Networks Ltd.', 'AS205311', ['camfibre.uk'], None)
+
+--- org='Minh Tu Telecom Limited Company' banners=27 ips=24 orgs=1 first_domains=4
+  ('182.237.20.144', 161, 'snmp_v3', 'Minh Tu Telecom Limited Company', 'AS55309', [], None)
+  ('112.109.94.158', 445, 'smb', 'Minh Tu Telecom Limited Company', 'AS55309', [], None)
+  ('182.237.23.162', 8443, 'https', 'Minh Tu Telecom Limited Company', 'AS55309', [], 'NB12229000051')
+  ('112.109.88.128', 161, 'snmp_v3', 'Minh Tu Telecom Limited Company', 'AS55309', [], None)
+  ('103.235.210.58', 161, 'snmp_v3', 'Minh Tu Telecom Limited Company', 'AS55309', [], None)
+  ('112.109.93.110', 179, 'auto', 'Minh Tu Telecom Limited Company', 'AS55309', [], None)
+
+--- org='omnidat-as omnidat GmbH' banners=4 ips=4 orgs=1 first_domains=1
+  ('185.156.157.46', 5060, 'sip', 'omnidat-as omnidat GmbH', 'AS202707', ['omnidat.net'], None)
+  ('185.156.156.90', 8089, 'https-simple-new', 'omnidat-as omnidat GmbH', 'AS202707', ['omnidat.net'], None)
+  ('185.156.158.32', 80, 'http', 'omnidat-as omnidat GmbH', 'AS202707', ['omnidat.net'], None)
+  ('185.156.157.98', 161, 'snmp_v3', 'omnidat-as omnidat GmbH', 'AS202707', ['omnidat.net'], None)
+
+--- org='Synerity Systems Jasper Bongertz' banners=8 ips=8 orgs=1 first_domains=1
+  ('81.209.179.28', 80, 'http', 'Synerity Systems Jasper Bongertz', 'AS31197', [], None)
+  ('81.209.179.73', 80, 'http', 'Synerity Systems Jasper Bongertz', 'AS31197', [], None)
+  ('81.209.179.103', 80, 'http', 'Synerity Systems Jasper Bongertz', 'AS31197', [], None)
+  ('81.209.179.101', 80, 'http', 'Synerity Systems Jasper Bongertz', 'AS31197', [], None)
+  ('81.209.179.72', 80, 'http', 'Synerity Systems Jasper Bongertz', 'AS31197', [], None)
+  ('81.209.179.120', 80, 'http', 'Synerity Systems Jasper Bongertz', 'AS31197', ['nexilio.de'], None)
+
+--- org='Nigerian Communications Commission (NCC)' banners=4 ips=4 orgs=1 first_domains=1
+  ('102.219.96.8', 25, 'smtp', 'Nigerian Communications Commission (NCC)', 'AS328905', ['ncc.gov.ng'], 'mail.ncc.gov.ng')
+  ('102.219.96.6', 161, 'snmp_v3', 'Nigerian Communications Commission (NCC)', 'AS328905', [], None)
+  ('102.219.97.92', 25, 'smtp', 'Nigerian Communications Commission (NCC)', 'AS328905', ['ncc.gov.ng'], 'mail.ncc.gov.ng')
+  ('102.219.97.206', 587, 'smtp', 'Nigerian Communications Commission (NCC)', 'AS328905', ['ncc.gov.ng'], 'mail.ncc.gov.ng')
+
+--- org='Suraj Network' banners=22 ips=22 orgs=1 first_domains=0
+  ('43.230.37.209', 53, 'dns-udp', 'Suraj Network', 'AS132974', [], None)
+  ('43.230.38.27', 80, 'http', 'Suraj Network', 'AS132974', [], None)
+  ('43.230.39.40', 80, 'http', 'Suraj Network', 'AS132974', [], None)
+  ('43.230.39.19', 80, 'http', 'Suraj Network', 'AS132974', [], None)
+  ('103.243.54.18', 80, 'http', 'Suraj Network', 'AS132974', [], None)
+  ('43.230.39.46', 80, 'http', 'Suraj Network', 'AS132974', [], None)
+
+--- org='"Telekomunikacije Republike Srpske" akcionarsko drustvo Banja Luka' banners=102 ips=86 orgs=1 first_domains=4
+  ('94.250.73.40', 161, 'snmp_v3', '"Telekomunikacije Republike Srpske" akcionarsko drustvo Banja Luka', 'AS21107', [], None)
+  ('45.131.118.208', 500, 'ike', '"Telekomunikacije Republike Srpske" akcionarsko drustvo Banja Luka', 'AS25144', [], None)
+  ('94.250.95.175', 161, 'snmp_v3', '"Telekomunikacije Republike Srpske" akcionarsko drustvo Banja Luka', 'AS21107', [], None)
+  ('94.250.115.15', 161, 'snmp_v3', '"Telekomunikacije Republike Srpske" akcionarsko drustvo Banja Luka', 'AS21107', [], None)
+  ('94.250.91.203', 8123, 'http-simple-new', '"Telekomunikacije Republike Srpske" akcionarsko drustvo Banja Luka', 'AS21107', [], None)
+  ('81.93.78.160', 161, 'snmp_v3', '"Telekomunikacije Republike Srpske" akcionarsko drustvo Banja Luka', 'AS25144', [], None)
+
+--- org='AGENCE PROPAL' banners=3 ips=3 orgs=1 first_domains=1
+  ('185.236.56.23', 80, 'http', 'AGENCE PROPAL', 'AS50954', ['eyona.com'], None)
+  ('185.236.56.28', 80, 'http', 'AGENCE PROPAL', 'AS50954', [], None)
+  ('185.236.56.19', 80, 'http', 'AGENCE PROPAL', 'AS50954', [], None)
+
+--- org='COMPSYCH EMPLOYEE ASSISTANCE PROGRAMS, INC.' banners=5 ips=5 orgs=1 first_domains=1
+  ('204.62.190.15', 443, 'https', 'COMPSYCH EMPLOYEE ASSISTANCE PROGRAMS, INC.', 'AS33088', ['attdns.com', 'guidanceresources.com'], '*.guidanceresources.com')
+  ('204.62.190.36', 80, 'http', 'COMPSYCH EMPLOYEE ASSISTANCE PROGRAMS, INC.', 'AS33088', ['attdns.com'], None)
+  ('204.62.190.16', 80, 'http', 'COMPSYCH EMPLOYEE ASSISTANCE PROGRAMS, INC.', 'AS33088', ['attdns.com'], None)
+  ('204.62.191.2', 161, 'snmp_v3', 'COMPSYCH EMPLOYEE ASSISTANCE PROGRAMS, INC.', 'AS33088', ['attdns.com'], None)
+  ('204.62.190.17', 80, 'http', 'COMPSYCH EMPLOYEE ASSISTANCE PROGRAMS, INC.', 'AS33088', ['attdns.com'], None)
+
+--- org='Polska Press Sp. z o.o.' banners=2 ips=2 orgs=1 first_domains=2
+  ('195.8.99.31', 80, 'http', 'Polska Press Sp. z o.o.', 'AS34409', ['grtech.pl'], None)
+  ('77.252.212.160', 161, 'snmp_v3', 'Polska Press Sp. z o.o.', 'AS12741', ['netia.com.pl'], None)
+
+--- org='Small Private Enterprise Kvant-II' banners=17 ips=14 orgs=1 first_domains=2
+  ('91.230.25.103', 80, 'http', 'Small Private Enterprise Kvant-II', 'AS57049', ['kvant.if.ua'], None)
+  ('91.230.25.84', 80, 'http', 'Small Private Enterprise Kvant-II', 'AS57049', ['kvant.if.ua'], None)
+  ('91.230.25.155', 80, 'http', 'Small Private Enterprise Kvant-II', 'AS57049', ['kvant.if.ua'], None)
+  ('92.118.76.84', 80, 'http', 'Small Private Enterprise Kvant-II', 'AS57049', ['kvant.if.ua'], None)
+  ('92.118.76.96', 80, 'http', 'Small Private Enterprise Kvant-II', 'AS57049', ['kvant.if.ua'], None)
+  ('92.118.78.40', 80, 'http', 'Small Private Enterprise Kvant-II', 'AS57049', ['kvant.if.ua'], None)
+
+--- org='Ahrefs Pte Ltd' banners=9 ips=9 orgs=1 first_domains=1
+  ('103.150.140.84', 22, 'ssh', 'Ahrefs Pte Ltd', 'AS140577', ['ahrefs.net'], None)
+  ('61.16.25.200', 22, 'ssh', 'Ahrefs Pte Ltd', 'AS140577', ['ahrefs.net'], None)
+  ('168.100.151.11', 22, 'ssh', 'Ahrefs Pte Ltd', 'AS140577', ['ahrefs.net'], None)
+  ('61.16.24.77', 22, 'ssh', 'Ahrefs Pte Ltd', 'AS140577', ['ahrefs.net'], None)
+  ('168.100.146.163', 22, 'ssh', 'Ahrefs Pte Ltd', 'AS140577', ['ahrefs.net'], None)
+  ('103.150.140.204', 22, 'ssh', 'Ahrefs Pte Ltd', 'AS140577', ['ahrefs.net'], None)
+
+--- org='Lone Star Cable Network LLC' banners=6 ips=6 orgs=1 first_domains=1
+  ('206.83.8.103', 1723, 'pptp', 'Lone Star Cable Network LLC', 'AS139686', [], None)
+  ('206.83.8.128', 4500, 'ike-nat-t', 'Lone Star Cable Network LLC', 'AS139686', [], None)
+  ('206.83.8.5', 443, 'https', 'Lone Star Cable Network LLC', 'AS139686', ['ipaddr.is'], '*.10vpn.net')
+  ('206.83.8.47', 500, 'ike', 'Lone Star Cable Network LLC', 'AS139686', [], None)
+  ('142.202.90.22', 80, 'http', 'Lone Star Cable Network LLC', 'AS215003', [], None)
+  ('142.202.90.19', 80, 'http', 'Lone Star Cable Network LLC', 'AS215003', [], None)
+
+--- org='Sociedad de Usuarios de Redes de Informacion S.C.' banners=5 ips=3 orgs=1 first_domains=2
+  ('200.23.144.17', 500, 'ike', 'Sociedad de Usuarios de Redes de Informacion S.C.', 'AS28425', ['orb.mx'], None)
+  ('200.23.144.17', 500, 'ike', 'Sociedad de Usuarios de Redes de Informacion S.C.', 'AS28425', ['orb.mx'], None)
+  ('200.23.144.142', 8081, 'https-simple-new', 'Sociedad de Usuarios de Redes de Informacion S.C.', 'AS28425', ['ddns.net', 'orb.mx'], 'masterfuel-gaspeed.ddns.net')
+  ('200.23.144.17', 500, 'ike', 'Sociedad de Usuarios de Redes de Informacion S.C.', 'AS28425', ['orb.mx'], None)
+  ('200.23.144.173', 8090, 'http-simple-new', 'Sociedad de Usuarios de Redes de Informacion S.C.', 'AS28425', ['orb.mx'], None)
+===== 20 random domain groups (FULL)
+
+--- domain='ejot.cz' banners=2 ips=2 orgs=1 first_domains=1
+  ('2600:1406:3a00:33::170b:cfe7', 443, 'https', 'Akamai Technologies, Inc.', 'AS20940', ['ejot-industries.jp', 'ejot.de', 'ejot.dk'], 'ejot.com')
+  ('2600:1406:3a00:33::170b:cff3', 443, 'https', 'Akamai Technologies, Inc.', 'AS20940', ['ejot-industries.jp', 'ejot.de', 'ejot.dk'], 'ejot.com')
+
+--- domain='mercedes-benz-mito.jp' banners=4 ips=2 orgs=1 first_domains=1
+  ('35.157.228.228', 443, 'https', 'A100 ROW GmbH', 'AS16509', ['mercedes-benz-ise.jp', 'mercedes-benz-kohoku-newtown.jp', 'mercedes-benz-gifu.jp'], 'mercedes-benz-adachi.jp')
+  ('3.127.120.127', 443, 'https', 'A100 ROW GmbH', 'AS16509', ['mercedes-benz-ise.jp', 'mercedes-benz-kohoku-newtown.jp', 'mercedes-benz-gifu.jp'], 'mercedes-benz-adachi.jp')
+  ('35.157.228.228', 443, 'https', 'A100 ROW GmbH', 'AS16509', ['mercedes-benz-ise.jp', 'mercedes-benz-kohoku-newtown.jp', 'mercedes-benz-gifu.jp'], 'mercedes-benz-adachi.jp')
+  ('3.127.120.127', 443, 'https', 'A100 ROW GmbH', 'AS16509', ['mercedes-benz-ise.jp', 'mercedes-benz-kohoku-newtown.jp', 'mercedes-benz-gifu.jp'], 'mercedes-benz-adachi.jp')
+
+--- domain='bennigans.com' banners=16 ips=2 orgs=1 first_domains=1
+  ('2606:4700:3035::6815:1c6f', 443, 'https', 'Cloudflare, Inc.', 'AS13335', ['bennigans.com'], 'bennigans.com')
+  ('2606:4700:3035::6815:1c6f', 443, 'https', 'Cloudflare, Inc.', 'AS13335', ['bennigans.com'], 'bennigans.com')
+  ('2606:4700:3035::6815:1c6f', 80, 'http', 'Cloudflare, Inc.', 'AS13335', ['bennigans.com'], None)
+  ('2606:4700:3035::6815:1c6f', 443, 'https', 'Cloudflare, Inc.', 'AS13335', ['bennigans.com'], 'bennigans.com')
+  ('2606:4700:3035::6815:1c6f', 80, 'http', 'Cloudflare, Inc.', 'AS13335', ['bennigans.com'], None)
+  ('2606:4700:3035::6815:1c6f', 80, 'http', 'Cloudflare, Inc.', 'AS13335', ['bennigans.com'], None)
+
+--- domain='etapanet.net' banners=22 ips=16 orgs=1 first_domains=1
+  ('191.100.21.1', 21, 'ftp', 'ETAPA EP', 'AS27668', ['etapanet.net'], None)
+  ('200.55.224.30', 80, 'http', 'ETAPA EP', 'AS27668', ['etapanet.net'], None)
+  ('191.100.24.95', 6359, 'auto', 'ETAPA EP', 'AS27668', ['etapanet.net'], None)
+  ('191.100.29.174', 9443, 'https', 'ETAPA EP', 'AS27668', ['etapanet.net'], None)
+  ('191.100.0.30', 443, 'https', 'ETAPA EP', 'AS27668', ['etapanet.net'], 'MORDOR VPN Certificate')
+  ('191.100.26.32', 5222, 'xmpp', 'ETAPA EP', 'AS27668', ['etapanet.net'], None)
+
+--- domain='scituate-light.com' banners=2 ips=1 orgs=1 first_domains=1
+  ('199.16.173.44', 443, 'https', 'Pressable', 'AS2635', ['somnail.no', 'engenheiromanoel.com', 'greslab.com'], 'tls.automattic.com')
+  ('199.16.173.44', 443, 'https', 'Pressable', 'AS2635', ['somnail.no', 'engenheiromanoel.com', 'greslab.com'], 'tls.automattic.com')
+
+--- domain='ip-51-210-112.eu' banners=7 ips=5 orgs=1 first_domains=1
+  ('51.210.112.102', 8069, 'http-simple-new', 'OVH SAS', 'AS16276', ['ip-51-210-112.eu'], None)
+  ('51.210.112.48', 80, 'http', 'OVH SAS', 'AS16276', ['ip-51-210-112.eu'], None)
+  ('51.210.112.19', 14344, 'remcos-pro-rat', 'OVH SAS', 'AS16276', ['ip-51-210-112.eu'], None)
+  ('51.210.112.62', 80, 'http', 'OVH SAS', 'AS16276', ['ip-51-210-112.eu'], None)
+  ('51.210.112.107', 80, 'http', 'OVH SAS', 'AS16276', ['ip-51-210-112.eu'], None)
+  ('51.210.112.102', 1027, 'auto', 'OVH SAS', 'AS16276', ['ip-51-210-112.eu'], None)
+
+--- domain='vortexcloudsolutions.net' banners=3 ips=1 orgs=1 first_domains=1
+  ('38.100.105.132', 3389, 'rdp', 'Cogent Communications, LLC', 'AS400810', ['vortexcloudsolutions.net'], 'WIN-CU20TF4417L')
+  ('38.100.105.132', 3389, 'rdp', 'Cogent Communications, LLC', 'AS400810', ['vortexcloudsolutions.net'], 'WIN-CU20TF4417L')
+  ('38.100.105.132', 3389, 'rdp', 'Cogent Communications, LLC', 'AS400810', ['vortexcloudsolutions.net'], 'WIN-CU20TF4417L')
+
+--- domain='unfcu.org' banners=6 ips=2 orgs=1 first_domains=1
+  ('45.60.45.196', 9943, 'https-simple-new', 'Incapsula Inc', 'AS19551', ['unfcu.org', 'unfcu.com', 'imperva.com'], 'imperva.com')
+  ('45.60.49.196', 55443, 'https-simple-new', 'Incapsula Inc', 'AS19551', ['unfcu.org', 'unfcu.com', 'imperva.com'], 'imperva.com')
+  ('45.60.45.196', 7443, 'https-simple-new', 'Incapsula Inc', 'AS19551', ['unfcu.org', 'unfcu.com', 'imperva.com'], 'imperva.com')
+  ('45.60.45.196', 9000, 'https-simple-new', 'Incapsula Inc', 'AS19551', ['unfcu.org', 'unfcu.com', 'imperva.com'], 'imperva.com')
+  ('45.60.45.196', 9398, 'https-simple-new', 'Incapsula Inc', 'AS19551', ['unfcu.org', 'unfcu.com', 'imperva.com'], 'imperva.com')
+  ('45.60.45.196', 9000, 'https-simple-new', 'Incapsula Inc', 'AS19551', ['unfcu.org', 'unfcu.com', 'imperva.com'], 'imperva.com')
+
+--- domain='cf-control.cz' banners=3 ips=2 orgs=2 first_domains=1
+  ('89.221.217.212', 443, 'https', 'WEDOS Internet, a.s.', 'AS197019', ['cf-control.cz'], 'licence.cf-control.cz')
+  ('89.221.217.212', 80, 'http', 'WEDOS Internet, a.s.', 'AS197019', ['cf-control.cz'], None)
+  ('91.221.149.8', 80, 'http', 'COMFEEL s.r.o.', 'AS197444', ['cf-control.cz'], None)
+
+--- domain='tamura-men.com' banners=3 ips=1 orgs=1 first_domains=2
+  ('183.181.88.25', 443, 'https', 'XServer Cloud Inc.', 'AS131965', ['tamura-men.com', 'xserver.jp'], 'www.tamura-men.com')
+  ('183.181.88.25', 80, 'http', 'XServer Cloud Inc.', 'AS131965', ['xserver.jp', 'tamura-men.com'], None)
+  ('183.181.88.25', 443, 'https', 'XServer Cloud Inc.', 'AS131965', ['tamura-men.com', 'xserver.jp'], 'www.tamura-men.com')
+
+--- domain='fantasyfeet.fun' banners=2 ips=2 orgs=1 first_domains=1
+  ('199.16.173.18', 443, 'https', 'Pressable', 'AS2635', ['fantasyfeet.fun', 'marvideanna.com', 'daviddricourt.fr'], 'tls.automattic.com')
+  ('199.16.172.50', 443, 'https', 'Pressable', 'AS2635', ['fantasyfeet.fun', 'marvideanna.com', 'daviddricourt.fr'], 'tls.automattic.com')
+
+--- domain='tomisuya.jp' banners=2 ips=1 orgs=1 first_domains=2
+  ('202.226.39.177', 80, 'http', 'XServer Cloud Inc.', 'AS131965', ['xserver.jp', 'tomisuya.jp'], None)
+  ('202.226.39.177', 443, 'https', 'XServer Cloud Inc.', 'AS131965', ['tomisuya.jp', 'xserver.jp'], 'www.tomisuya.jp')
+
+--- domain='paperculture.com' banners=2 ips=1 orgs=1 first_domains=1
+  ('172.66.40.111', 80, 'http', 'Cloudflare, Inc.', 'AS13335', ['paperculture.com'], None)
+  ('172.66.40.111', 80, 'http', 'Cloudflare, Inc.', 'AS13335', ['paperculture.com'], None)
+
+--- domain='msd.pt' banners=6 ips=5 orgs=3 first_domains=3
+  ('23.8.53.194', 443, 'https', 'Akamai Technologies, Inc.', 'AS16625', ['fultonbank.com', 'wingstop.com', 'suzannesfashions.ca'], 'akamai-san87.exacttarget.com')
+  ('23.223.77.211', 443, 'https', 'Akamai Technologies, Inc.', 'AS16625', ['msdonline.com.br', 'dulera.com', 'msd.pt'], 'www.mercktrials.com')
+  ('192.0.66.136', 443, 'https', 'Automattic, Inc', 'AS2635', ['msd.pt'], 'msd.pt')
+  ('195.22.14.232', 443, 'https', 'Claranet Portugal', 'AS5533', ['msd.pt'], 'profissionais.msd.pt')
+  ('192.0.66.136', 443, 'https', 'Automattic, Inc', 'AS2635', ['msd.pt'], 'msd.pt')
+  ('23.60.220.153', 443, 'https', 'Akamai Technologies, Inc.', 'AS16625', ['msdonline.com.br', 'dulera.com', 'msd.pt'], 'www.mercktrials.com')
+
+--- domain='45-236-87-159.in-addr.arpa' banners=5 ips=1 orgs=1 first_domains=1
+  ('45.236.87.159', 4500, 'ike-nat-t', 'PROTEK INFORMATICA EIRELI ME', 'AS268227', ['45-236-87-159.in-addr.arpa'], None)
+  ('45.236.87.159', 4500, 'ike-nat-t', 'PROTEK INFORMATICA EIRELI ME', 'AS268227', ['45-236-87-159.in-addr.arpa'], None)
+  ('45.236.87.159', 4500, 'ike-nat-t', 'PROTEK INFORMATICA EIRELI ME', 'AS268227', ['45-236-87-159.in-addr.arpa'], None)
+  ('45.236.87.159', 4500, 'ike-nat-t', 'PROTEK INFORMATICA EIRELI ME', 'AS268227', ['45-236-87-159.in-addr.arpa'], None)
+  ('45.236.87.159', 4500, 'ike-nat-t', 'PROTEK INFORMATICA EIRELI ME', 'AS268227', ['45-236-87-159.in-addr.arpa'], None)
+
+--- domain='dutch.nl' banners=2 ips=1 orgs=1 first_domains=1
+  ('95.217.194.21', 80, 'http', 'Hetzner Online GmbH', 'AS24940', ['dutch.nl'], None)
+  ('95.217.194.21', 80, 'http', 'Hetzner Online GmbH', 'AS24940', ['dutch.nl'], None)
+
+--- domain='adyl.net.br' banners=72 ips=34 orgs=2 first_domains=2
+  ('187.0.0.229', 9148, 'auto', 'Adylnet Telecom', 'AS28283', ['adyl.net.br'], None)
+  ('187.0.0.229', 2130, 'auto', 'Adylnet Telecom', 'AS28283', ['adyl.net.br'], None)
+  ('187.0.0.229', 9458, 'auto', 'Adylnet Telecom', 'AS28283', ['adyl.net.br'], None)
+  ('187.103.246.206', 2000, 'ikettle', 'Adylnet Telecom', 'AS28283', ['adyl.net.br'], None)
+  ('187.0.0.229', 5246, 'auto', 'Adylnet Telecom', 'AS28283', ['adyl.net.br'], None)
+  ('187.0.0.229', 3793, 'auto', 'Adylnet Telecom', 'AS28283', ['adyl.net.br'], None)
+
+--- domain='ip-158-69-14.net' banners=2 ips=2 orgs=1 first_domains=1
+  ('158.69.14.16', 80, 'http', 'OVH Hosting, Inc.', 'AS16276', ['ip-158-69-14.net'], None)
+  ('158.69.14.29', 80, 'http', 'OVH Hosting, Inc.', 'AS16276', ['ip-158-69-14.net'], None)
+
+--- domain='webhouse.sk' banners=6 ips=6 orgs=1 first_domains=1
+  ('86.110.243.69', 80, 'http', 'VNET a.s.', 'AS29405', ['webhouse.sk'], None)
+  ('86.110.243.199', 80, 'http', 'VNET a.s.', 'AS29405', ['webhouse.sk'], None)
+  ('86.110.243.198', 80, 'http', 'VNET a.s.', 'AS29405', ['webhouse.sk'], None)
+  ('86.110.243.172', 80, 'http', 'VNET a.s.', 'AS29405', ['webhouse.sk'], None)
+  ('86.110.243.175', 80, 'http', 'VNET a.s.', 'AS29405', ['webhouse.sk'], None)
+  ('86.110.243.47', 80, 'http', 'VNET a.s.', 'AS29405', ['webhouse.sk'], None)
+
+--- domain='glwb.net' banners=3 ips=3 orgs=1 first_domains=1
+  ('216.137.128.20', 80, 'http', 'GLW Broadband Inc.', 'AS174', ['glwb.net'], None)
+  ('216.137.128.18', 80, 'http', 'GLW Broadband Inc.', 'AS174', ['glwb.net'], None)
+  ('216.137.128.66', 8089, 'https-simple-new', 'GLW Broadband Inc.', 'AS174', ['glwb.net'], 'gvvoip.glwb.net')

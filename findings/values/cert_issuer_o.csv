@@ -1,0 +1,5005 @@
+value,n,pct
+,13725637,93.9571
+Amazon,209876,1.4367
+Let's Encrypt,183540,1.2564
+GlobalSign nv-sa,119150,0.8156
+Google Trust Services,91597,0.627
+DigiCert Inc,53812,0.3684
+Sectigo Limited,39984,0.2737
+Google Inc,24026,0.1645
+Microsoft Corporation,11186,0.0766
+GoDaddy.com,6498,0.0445
+"GoDaddy.com, Inc.",6100,0.0418
+"TrustAsia Technologies, Inc.",5667,0.0388
+HTTPS Management Certificate for SonicWALL (self-signed),4912,0.0336
+Plesk,3737,0.0256
+Acme Co,3543,0.0243
+Fortinet,3318,0.0227
+Huawei,3258,0.0223
+Incapsula,3241,0.0222
+ZeroSSL GmbH,3046,0.0209
+"DigiCert, Inc.",2501,0.0171
+SSL Corporation,2404,0.0165
+"CloudFlare, Inc.",2303,0.0158
+Symantec Corporation,2249,0.0154
+"Japan Registry Services Co., Ltd.",2203,0.0151
+SANGFOR,1844,0.0126
+DrayTek Corp.,1825,0.0125
+"Huawei Technologies Co., Ltd",1727,0.0118
+BT-PANEL,1722,0.0118
+COMODO CA Limited,1592,0.0109
+Asseco Data Systems S.A.,1515,0.0104
+Internet2,1435,0.0098
+Default Company Ltd,1429,0.0098
+Synology Inc.,1408,0.0096
+WoTrus CA Limited,1388,0.0095
+nazwa.pl Sp. z o.o.,1320,0.009
+Hellenic Academic and Research Institutions CA,1316,0.009
+SSL Corp,1248,0.0085
+Starfield Technologies,1222,0.0084
+Gehirn Inc.,1206,0.0083
+CloudSecure Corporation,1189,0.0081
+Internet Widgits Pty Ltd,1095,0.0075
+Ubiquiti Networks Inc.,1061,0.0073
+XX,1007,0.0069
+Fortinet Ltd.,1001,0.0069
+DigiCert Ireland Limited,987,0.0068
+Dis,987,0.0068
+Hestia Control Panel,901,0.0062
+Entrust Limited,895,0.0061
+NA,852,0.0058
+Tacitine,826,0.0057
+ZTE,811,0.0056
+MyCompany,800,0.0055
+TAIWAN-CA,779,0.0053
+SomeOrganization,776,0.0053
+IdenTrust,733,0.005
+"VeriSign, Inc.",706,0.0048
+Apple Inc.,704,0.0048
+"InCommon, LLC",690,0.0047
+WatchGuard,679,0.0046
+"Entrust, Inc.",643,0.0044
+Key-Systems GmbH,606,0.0041
+"Cybertrust Japan Co., Ltd.",605,0.0041
+Ubiquiti Inc.,557,0.0038
+Unspecified,554,0.0038
+UGREEN,533,0.0036
+FIT2CLOUD,533,0.0036
+Corporation Service Company,514,0.0035
+GoGetSSL,510,0.0035
+AWS EKS,503,0.0034
+Technicolor,481,0.0033
+LANCOM Systems,470,0.0032
+WILDIX SRL,439,0.003
+Deutsche Telekom Security GmbH,417,0.0029
+hw,399,0.0027
+Gandi SAS,394,0.0027
+"Beijing Xinchacha Credit Management Co., Ltd.",391,0.0027
+none,368,0.0025
+"Cradlepoint, Inc.",365,0.0025
+Waf,361,0.0025
+LTD,354,0.0024
+"Starfield Technologies, Inc.",318,0.0022
+VMware Installer,310,0.0021
+ZeroSSL,302,0.0021
+Parallels,300,0.0021
+None,297,0.002
+Vesta Control Panel,295,0.002
+sangfor,287,0.002
+CyberGhost S.A.,286,0.002
+Organization,274,0.0019
+ZyXEL,274,0.0019
+CentOS Web Panel,269,0.0018
+Lao Yu Soft,261,0.0018
+Actalis S.p.A.,261,0.0018
+"QNAP Systems, Inc.",261,0.0018
+HW,248,0.0017
+Certainly,243,0.0017
+Ruckus Wireless Inc.,238,0.0016
+Certera LLC,234,0.0016
+testCompany,234,0.0016
+unknown,232,0.0016
+FASTPANEL,231,0.0016
+Imperva,226,0.0015
+CompanyName,225,0.0015
+Private Internet Access,222,0.0015
+"Beijing Knownsec Information Technology Co., Ltd",216,0.0015
+"SECOM Trust Systems Co., Ltd.",213,0.0015
+GeoTrust Inc.,206,0.0014
+"cPanel, Inc.",206,0.0014
+FH,199,0.0014
+pfSense webConfigurator Self-Signed Certificate,198,0.0014
+Network Solutions L.L.C.,197,0.0013
+SwissSign AG,189,0.0013
+Super Micro Computer,186,0.0013
+"DNSPod, Inc.",186,0.0013
+Dell Inc.,186,0.0013
+DirectAdmin Self-Signed,186,0.0013
+global,185,0.0013
+CIG,184,0.0013
+D-Trust GmbH,184,0.0013
+Freebox SA,182,0.0012
+"Nijimo, Inc.",181,0.0012
+My Company,180,0.0012
+Sony Computer Entertainment Inc.,163,0.0011
+Hillstone Networks,160,0.0011
+kiloview,159,0.0011
+ispgateway,153,0.001
+ddos-guard,152,0.001
+sslTrus Inc.,149,0.001
+bb-in,148,0.001
+Kong,146,0.001
+sslTrus,143,0.001
+"Google, Inc",138,0.0009
+"Sierra Wireless, Inc.",137,0.0009
+Odin,136,0.0009
+ssl_redirect,135,0.0009
+"Roku, Inc.",135,0.0009
+Stormshield,131,0.0009
+Soluciones Corporativas IP SL,131,0.0009
+"Cloudflare, Inc.",127,0.0009
+Trust Provider B.V.,127,0.0009
+common,127,0.0009
+PerfectSSL,126,0.0009
+Unizeto Technologies S.A.,125,0.0009
+iKuai,119,0.0008
+SSL2BUY EMEA LLC,119,0.0008
+D-LINK,119,0.0008
+CambiumNetworks,118,0.0008
+AlphaSSL,115,0.0008
+TEST - BBS Infrastruktur AS,114,0.0008
+iCatch Inc.,113,0.0008
+The Trustico Group Ltd,113,0.0008
+"Zhejiang Dahua Technology Co.,Ltd.",112,0.0008
+"SECOM Trust Systems CO.,LTD.",110,0.0008
+LG Electronics Inc.,109,0.0007
+CA,108,0.0007
+EX530v,108,0.0007
+China Financial Certification Authority,106,0.0007
+"Soluciones Corporativas IP, SL",106,0.0007
+mailcow,105,0.0007
+Calix Inc,104,0.0007
+SSL.com,104,0.0007
+Bitnami,104,0.0007
+Gandi,103,0.0007
+localhost,102,0.0007
+Nokia-DHBU,101,0.0007
+CERTIFICATE,101,0.0007
+netfox,99,0.0007
+D-Link Corporation,98,0.0007
+netart.com sp. z o.o.,98,0.0007
+Grandstream,97,0.0007
+"Arris Group, Inc.",96,0.0007
+Anonymous,96,0.0007
+mail server,95,0.0007
+pfSense GUI default Self-Signed Certificate,95,0.0007
+Broadcom,93,0.0006
+Bubblewrapp,92,0.0006
+U.S. Government,91,0.0006
+VIETTEL GROUP,90,0.0006
+CTI,90,0.0006
+"Cisco Systems, Inc.",89,0.0006
+testexample,88,0.0006
+Google LLC,88,0.0006
+Google Trust Services LLC,87,0.0006
+NordVPN,86,0.0006
+DahuaTech,82,0.0006
+Avigilon Corp.,82,0.0006
+宝塔面板,82,0.0006
+LucidLink Corp.,82,0.0006
+Hewlett Packard Enterprise,82,0.0006
+My Company Ltd,81,0.0006
+Microhard Systems Inc.,80,0.0005
+"Yealink Network Technology Co.,Ltd.",80,0.0005
+Akamai CPS Defense Edge,80,0.0005
+Telia Company AB,79,0.0005
+HX510,78,0.0005
+"Salesforce, Inc.",78,0.0005
+LiteSpeedCommunity,78,0.0005
+Fortinet Inc.,77,0.0005
+Mekdam Holding Group.,77,0.0005
+home.pl S.A.,77,0.0005
+Zeabur Pte. Ltd.,77,0.0005
+RS,76,0.0005
+Google DevOps,75,0.0005
+Courier Mail Server,75,0.0005
+Unknown,74,0.0005
+QY,73,0.0005
+"Vitalwerks Internet Solutions, LLC",73,0.0005
+Companyname,73,0.0005
+cyber_Folks S.A.,72,0.0005
+billionmail.com,71,0.0005
+"LG Electronics U.S.A, Inc.",71,0.0005
+Netgear,70,0.0005
+"GuangZhou Robustel Technologies Co., Limited",70,0.0005
+Grandstream Networks,69,0.0005
+Orange,69,0.0005
+BUAVI SISTEMAS DE SEGURIDAD Y CONTROL S.L.,68,0.0005
+econet,68,0.0005
+"cPanel, LLC",67,0.0005
+IT,66,0.0005
+UBNT INC.,66,0.0005
+OPNsense self-signed web certificate,66,0.0005
+"Snake Oil, Ltd",66,0.0005
+New Dream Network LLC dba Dreamhost,66,0.0005
+"Network Solutions, LLC",65,0.0004
+Hetzner Online AG,65,0.0004
+fw-domecqbodegas..yx6392,65,0.0004
+NetX Security Solutions,65,0.0004
+Dovecot mail server,64,0.0004
+Oracle,63,0.0004
+Home Systems Consulting S.p.A.,63,0.0004
+Tridium,63,0.0004
+Rockerbox INC,63,0.0004
+yunohost,62,0.0004
+QuoVadis Limited,61,0.0004
+BIC,61,0.0004
+TorGuard,61,0.0004
+CapRover.com,59,0.0004
+SAP,59,0.0004
+WHALEXA,58,0.0004
+cVuUnit,58,0.0004
+EX220,57,0.0004
+service@watchfiresigns.com,56,0.0004
+Check Point,56,0.0004
+XUI.one,56,0.0004
+Sophos,56,0.0004
+zte,56,0.0004
+SAP CX,55,0.0004
+realtek,55,0.0004
+Example Org,55,0.0004
+Ubiquiti Networks,55,0.0004
+Comarch S.A.,54,0.0004
+Alpiro s.r.o.,54,0.0004
+"Crestron Electronics, Inc.",53,0.0004
+KAGOYA-JAPAN,53,0.0004
+Archer VR1210v,53,0.0004
+Carel Industries S.p.A.,53,0.0004
+TMC,52,0.0004
+myVesta Control Panel,52,0.0004
+127.0.0.1,52,0.0004
+Dropcam,52,0.0004
+empty,51,0.0003
+KoGIs Bremen,51,0.0003
+TestOrganization,50,0.0003
+"Grandstream Networks, Inc.",50,0.0003
+TPRI,50,0.0003
+UniTrust,50,0.0003
+Draytek,49,0.0003
+Telia Finland Oyj,49,0.0003
+ExpressVPN,48,0.0003
+huawei,48,0.0003
+LG Electronics,48,0.0003
+Hanwha,47,0.0003
+sh,47,0.0003
+"Ruckus Wireless, Inc.",46,0.0003
+Blah,46,0.0003
+Cisco Systems Inc.,46,0.0003
+TilginAB,43,0.0003
+Brainy,43,0.0003
+RunCloud Sdn. Bhd.,42,0.0003
+Axis Communications AB,42,0.0003
+EC230-G1,42,0.0003
+Aruba Networks,42,0.0003
+GEANT Vereniging,42,0.0003
+fnOS,42,0.0003
+Zixi LLC,42,0.0003
+bintec elmeg GmbH,42,0.0003
+Xin Net Technology Corp.,41,0.0003
+hikvision,41,0.0003
+HX220,41,0.0003
+Sagemcom Ca,41,0.0003
+ ,40,0.0003
+XYZ Corporation,40,0.0003
+NETGEAR,39,0.0003
+eMudhra Technologies Limited,39,0.0003
+Smartlock,38,0.0003
+EMQ,38,0.0003
+EUNETIC GmbH,37,0.0003
+Meta Platforms Inc.,37,0.0003
+FASTVPS,37,0.0003
+Digital Watchdog,37,0.0003
+"iTrusChina Co., Ltd.",36,0.0002
+"Zhejiang Dahua Technology Co.,Ltd.",36,0.0002
+Uplevel Systems Inc,36,0.0002
+Company,36,0.0002
+Palo Alto Networks,36,0.0002
+NSFOCUS Ltd,35,0.0002
+MSXJQGWJLXTUKXVOQ,35,0.0002
+Archer C5,35,0.0002
+Philips Hue,35,0.0002
+Issabel,35,0.0002
+fiberhome,35,0.0002
+TP-Link,35,0.0002
+Verizon,35,0.0002
+ABUS Security-Center GmbH Und Co. KG,35,0.0002
+the-company-for-self-certificates,34,0.0002
+imuslab.com,34,0.0002
+VX230v,34,0.0002
+OrgName,34,0.0002
+Hanwha Techwin,34,0.0002
+SOLUTI - SOLUCOES EM NEGOCIOS INTELIGENTES S/A,34,0.0002
+Plume Design Inc.,34,0.0002
+"Chaitin Co., Ltd.",33,0.0002
+Google,33,0.0002
+Network Optix,32,0.0002
+Samsung Electronics,32,0.0002
+Verokey,32,0.0002
+"CommuniGate Systems, Inc.",32,0.0002
+Realtek,32,0.0002
+EX221-G2u,32,0.0002
+OVH,31,0.0002
+Solidicon,30,0.0002
+Dell Inc,30,0.0002
+Microsec Ltd.,30,0.0002
+OmniPCX Office,30,0.0002
+Coloriuris,30,0.0002
+OpenBanking,30,0.0002
+Curtain,30,0.0002
+ipacct.com,30,0.0002
+INTELBRAS S/A,30,0.0002
+TuringSign Global SA,30,0.0002
+xdevops,30,0.0002
+BUFFALO INC.,30,0.0002
+"GeoTrust, Inc.",30,0.0002
+UM,29,0.0002
+"Pantheon Systems, Inc.",29,0.0002
+Default,29,0.0002
+SUV999,28,0.0002
+REDE NACIONAL DE ENSINO E PESQUISA - RNP,28,0.0002
+Apache Traffic Control,28,0.0002
+VNPTT,28,0.0002
+"Company, INC.",28,0.0002
+British Broadcasting Corporation,28,0.0002
+Cisco,28,0.0002
+Interplanetary Org,28,0.0002
+Buffalo Inc.,27,0.0002
+Speco Technologies,27,0.0002
+"ARRIS Group, Inc.",27,0.0002
+Exim Developers,27,0.0002
+Ruijie,27,0.0002
+"Aliyun Computing Co, Ltd.",27,0.0002
+Archer VR2100v,27,0.0002
+Alibaba Cloud Computing Ltd.,27,0.0002
+Archer VR400,27,0.0002
+AxGate,27,0.0002
+XC220-G3v,27,0.0002
+Lenel,27,0.0002
+Unknonwn ,27,0.0002
+kubernetes,27,0.0002
+PRTG Demo Certificate,26,0.0002
+Heroku,26,0.0002
+Poste.io,26,0.0002
+Cyberoam,26,0.0002
+PVE Cluster Manager CA,26,0.0002
+NETASQ - Secure Internet Connectivity,26,0.0002
+HP,26,0.0002
+ALM,25,0.0002
+cintra,25,0.0002
+Sangfor,25,0.0002
+"Compal Broadband Networks, Inc",25,0.0002
+Webmin,25,0.0002
+Self-Signed,25,0.0002
+BogusIA,25,0.0002
+Archer VR1200v,25,0.0002
+CentralNic Luxembourg Sàrl,25,0.0002
+ForRecoveryPurposes,25,0.0002
+Genetec Security Center,24,0.0002
+Avaya Inc,24,0.0002
+iXsystems,24,0.0002
+company,24,0.0002
+RaiolaCP Control Panel,24,0.0002
+Zyxel,24,0.0002
+x,24,0.0002
+Argo CD,23,0.0002
+Wazuh,23,0.0002
+NONE,23,0.0002
+"SECOM Co., Ltd.",23,0.0002
+Cambium Networks Inc,23,0.0002
+SECUI,23,0.0002
+Asustor,23,0.0002
+-,23,0.0002
+"Acme, Inc.",23,0.0002
+Panabit,23,0.0002
+Mini Webservice Ltd,22,0.0002
+Webhosting,22,0.0002
+Keentech Solutions,22,0.0002
+Hewlett-Packard Company,22,0.0002
+innovaphone,22,0.0002
+reo-link,22,0.0002
+K7Computing,22,0.0002
+Interhive OÜ,22,0.0002
+Robert Bosch GmbH,22,0.0002
+Samsung SERI,22,0.0002
+"Chunghwa Telecom Co., Ltd.",22,0.0002
+Software,21,0.0001
+Vivotek.Inc,21,0.0001
+Netgate pfSense Plus GUI default Self-Signed Certificate,21,0.0001
+Dasan Networks Solution,21,0.0001
+nsfocus,21,0.0001
+"Nintendo of America, Inc.",21,0.0001
+Deutsche Post AG,21,0.0001
+Veeder-Root,21,0.0001
+GreenWave Systems,21,0.0001
+Control4,21,0.0001
+Forcepoint LLC,21,0.0001
+"Zhejiang Huluwa Digital Certification Co., Ltd.",21,0.0001
+Netflix,21,0.0001
+Droplet,20,0.0001
+INFOSEC,20,0.0001
+ASIP-SANTE,20,0.0001
+EX221-G5,20,0.0001
+"Arcadia Technology, LLC",20,0.0001
+Unify,20,0.0001
+General Electric Company,20,0.0001
+GLiNet,20,0.0001
+fallbkcrt.com,20,0.0001
+Ebee Smart Technologies GmbH,20,0.0001
+nil1,19,0.0001
+Advantech Czech s.r.o.,19,0.0001
+Barracuda Networks,19,0.0001
+IT Systems,19,0.0001
+SERVER,19,0.0001
+MOBOTIX AG,19,0.0001
+mkcert development CA,19,0.0001
+localhost.localdomain,18,0.0001
+KOGIS,18,0.0001
+INSIDE Secure Corporation,18,0.0001
+Amazon Inc.,18,0.0001
+Zimbra Collaboration Server,18,0.0001
+"Eagle Eye Networks, Inc.",18,0.0001
+pure-ftpd,18,0.0001
+Klick-Tipp Ltd.,18,0.0001
+Lenovo,18,0.0001
+Untangle,18,0.0001
+Majlis Perbandaran Manjung,18,0.0001
+ZTE Corporation,18,0.0001
+JoySSL Limited,17,0.0001
+"I-O DATA DEVICE, INC.",17,0.0001
+WoSign CA Limited,17,0.0001
+OpenSSL Group,17,0.0001
+VOIP Solutions,17,0.0001
+authentik,17,0.0001
+Shanghai Wangsu Science & Technology Co. Ltd,17,0.0001
+Linuxserver.io,17,0.0001
+CDN Data Center,16,0.0001
+"Beijing Topsec Network Security Technology Co., Ltd.",16,0.0001
+IZENPE S.A.,16,0.0001
+Dummy,16,0.0001
+Thecus Technology Corp.,16,0.0001
+KeyHelp,16,0.0001
+Apache Friends,16,0.0001
+Valid Certificadora Digital LTDA,16,0.0001
+home.pl sp. z o.o.,16,0.0001
+Cloud,16,0.0001
+VMware Inc,16,0.0001
+"Henan Fierce Fire Network Technology Co., Ltd.",16,0.0001
+test,16,0.0001
+XC220-G3,16,0.0001
+Avigilon,16,0.0001
+Honeywell,16,0.0001
+Digi International Inc.,15,0.0001
+Passepatout s.p.a.,15,0.0001
+AI Company,15,0.0001
+OPSSHIELD LLP,15,0.0001
+Hongkong Post,15,0.0001
+CN,15,0.0001
+GuardiCore,15,0.0001
+SMA Solar Technology AG,15,0.0001
+Netgate pfSense Plus webConfigurator Self-Signed Certificate,15,0.0001
+Axentraserver Default Certificate 863B4AB,15,0.0001
+Sagemcom,15,0.0001
+CERTSIGN SA,15,0.0001
+Suprema Inc.,15,0.0001
+Panasonic Corporation,15,0.0001
+The Ministry of Digital Development and Communications,15,0.0001
+"Sound United, LLC",15,0.0001
+Company Name,15,0.0001
+Intelbras SA,15,0.0001
+Philips,15,0.0001
+Cotdazr,15,0.0001
+"Lutron Electronics Co., Inc.",15,0.0001
+ZKTeco,14,0.0001
+Pallavi InfoTech,14,0.0001
+Webanizer AG,14,0.0001
+DrayTek,14,0.0001
+"Parallels, Inc.",14,0.0001
+GWS SW,14,0.0001
+DT,14,0.0001
+TP-LINK,14,0.0001
+VISA,14,0.0001
+ sangfor,14,0.0001
+Solutions,14,0.0001
+NetKlass Techonoloy Inc,14,0.0001
+example.com,14,0.0001
+goedge,14,0.0001
+COM,14,0.0001
+(STAGING) Let's Encrypt,14,0.0001
+CFTools Architect,14,0.0001
+E-SAFER CONSULTORIA EM TECNOLOGIA DA INFORMACAO LTDA,14,0.0001
+D-Link,14,0.0001
+"ADTRAN, Inc.",14,0.0001
+TemporaryDefaultCertificate,14,0.0001
+SEIKO EPSON CORP.,14,0.0001
+"Alibaba (China) Technology Co., Ltd.",13,0.0001
+bles_frontend_media,13,0.0001
+Technologies,13,0.0001
+Siemens,13,0.0001
+AXIS Communications AB,13,0.0001
+Siemens Schweiz AG,13,0.0001
+"VMware, Inc",13,0.0001
+Comtrend,13,0.0001
+ETIC Telecommunications,13,0.0001
+IBM,13,0.0001
+froxlor,13,0.0001
+TD-W9970,13,0.0001
+ServerAvatar,13,0.0001
+Bitrix,13,0.0001
+..,13,0.0001
+Super Micro Computer Inc.,13,0.0001
+Webmin Webserver on localhost.localdomain,13,0.0001
+American Megatrends International LLC (AMI),13,0.0001
+route,13,0.0001
+MATRIX COMSEC PVT. LTD.,13,0.0001
+"GeoSSL, Inc.",13,0.0001
+"thawte, Inc.",13,0.0001
+raysharp,13,0.0001
+QinSiGuanJia,13,0.0001
+Webdock,12,0.0001
+jitsi.org,12,0.0001
+Shanghai Huandu Info Tech Co. Ltd.,12,0.0001
+DVR,12,0.0001
+VIMAR Spa,12,0.0001
+edgewaternetworks,12,0.0001
+aapanel.com,12,0.0001
+"Fortinet Systems, Inc.",12,0.0001
+"EXAMPLE,INC",12,0.0001
+SpinupWP,12,0.0001
+"McAfee, LLC",12,0.0001
+ASUSWRT-Merlin,12,0.0001
+TL-MR6400,12,0.0001
+iomart,12,0.0001
+Dianfeng Digital Technology,12,0.0001
+EX141,12,0.0001
+Your Company,12,0.0001
+Wells Fargo & Company,12,0.0001
+iPhotonix,12,0.0001
+Zoho Corporation,12,0.0001
+YMIRLINK Inc.,12,0.0001
+haproxy,12,0.0001
+ubnt.com,12,0.0001
+Agenzia delle Entrate,12,0.0001
+mx_server,11,0.0001
+MyOrg,11,0.0001
+泰尔认证中心有限公司,11,0.0001
+FieldEffect,11,0.0001
+Silver Peak Systems Inc,11,0.0001
+Accedian Networks Inc.,11,0.0001
+Zultys,11,0.0001
+Nintendo of America Inc.,11,0.0001
+Test,11,0.0001
+na,11,0.0001
+Crestron Electronics,11,0.0001
+LUPUS Electronics GmbH,11,0.0001
+Some-org,11,0.0001
+FNMT-RCM,11,0.0001
+广东堡塔安全技术有限公司,11,0.0001
+"CLOUDFLARE, INC.",11,0.0001
+Claris International Inc.,11,0.0001
+Infoblox,11,0.0001
+"Red Hat, Inc.",11,0.0001
+oo,11,0.0001
+TOEJA,11,0.0001
+SWIFT SCRL,11,0.0001
+TransIP,11,0.0001
+DAS-Security Limited,11,0.0001
+"Nusoft System, Ltd",11,0.0001
+"Rhino Software, Inc.",11,0.0001
+Windstream,11,0.0001
+QuoVadis Trustlink B.V.,10,0.0001
+ScheidtuBachmann GmbH,10,0.0001
+OpenWrt76dc6ce8,10,0.0001
+HC220-G5,10,0.0001
+Ubiquiti. Inc.,10,0.0001
+Dassault Systèmes Biovia Corp,10,0.0001
+Microsoft,10,0.0001
+Archer VR1200,10,0.0001
+TP-Link India Pvt. Ltd.,10,0.0001
+"Ipswitch,Inc.",10,0.0001
+ABB,10,0.0001
+Wing FTP Server,10,0.0001
+5VT,10,0.0001
+dialis direct GmbH,10,0.0001
+HPE,10,0.0001
+Root,10,0.0001
+"Intuit, Inc.",10,0.0001
+Archer MR600,10,0.0001
+Command,10,0.0001
+Windscribe,10,0.0001
+TERENA,10,0.0001
+"Trustwave Holdings, Inc.",10,0.0001
+MitraStar,10,0.0001
+EC220-G5,10,0.0001
+VIVOTEK.INC,10,0.0001
+XX530v,10,0.0001
+Pi-hole,10,0.0001
+"Belkin International, Inc.",10,0.0001
+ExampleOrg,10,0.0001
+Bogus Inc,10,0.0001
+"RICOH COMPANY,LTD.",10,0.0001
+Certgen Development,10,0.0001
+SAP SE,10,0.0001
+Cisco Systems,10,0.0001
+Example.com,10,0.0001
+InhandNetworks,10,0.0001
+GE,9,0.0001
+Stackhero,9,0.0001
+EX230v,9,0.0001
+DOM Virtual CA,9,0.0001
+Jupiter Laminators,9,0.0001
+EXJAYJZNBMJOJHPSF,9,0.0001
+Communications,9,0.0001
+NLMVEDIRTAUIUKPJ,9,0.0001
+RG Nets,9,0.0001
+Forcepoint,9,0.0001
+Siemens AG,9,0.0001
+RAKwireless,9,0.0001
+PSS,9,0.0001
+Webmin Webserver on v133-130-76-78.myvps.jp,9,0.0001
+Nijimo K.K.,9,0.0001
+Comvive Servidores,9,0.0001
+"DataRemote, Inc",9,0.0001
+Huntington National Bank,9,0.0001
+Nginx Proxy Manager,9,0.0001
+Magyar Telekom Nyrt.,9,0.0001
+Atos,9,0.0001
+"Cisco Systems, Inc",9,0.0001
+"ZheJiang Dahua Technology CO.,LTD.",9,0.0001
+Samurai Factory Inc.,9,0.0001
+"Radware, Inc.",9,0.0001
+cwctest.com CA,9,0.0001
+Linux Containers,9,0.0001
+YVNEIVAWPPDL,9,0.0001
+Vaad Bilisim Teknolojileri,9,0.0001
+Internet Services,9,0.0001
+Prassel,9,0.0001
+ORACLE CORPORATION,9,0.0001
+WP,9,0.0001
+Kamie Cloud,9,0.0001
+gost,9,0.0001
+Archer C20,9,0.0001
+Kanmachi Inc.,9,0.0001
+Distech Controls Inc.,9,0.0001
+Netgear Inc.,9,0.0001
+Gophish,9,0.0001
+ADB sp. z o.o.,9,0.0001
+Buypass AS-983163327,9,0.0001
+Archer C50,9,0.0001
+SEIKO EPSON Corporation,9,0.0001
+The USERTRUST Network,9,0.0001
+StartCom Ltd.,9,0.0001
+lucky666CN,9,0.0001
+RTC Trust Service,9,0.0001
+Nusoft System Inc.,9,0.0001
+radius-as-a-service,8,0.0001
+Qno Technology Inc.,8,0.0001
+Sectigo (Europe) SL,8,0.0001
+Kramerica Industries,8,0.0001
+default,8,0.0001
+772424.hosting,8,0.0001
+MojoHost,8,0.0001
+MasterCard,8,0.0001
+"Red Lion Controls, Inc",8,0.0001
+POFCCCK,8,0.0001
+Intelidata InformÃ¡tica LTDA,8,0.0001
+Iliad,8,0.0001
+hangzhou,8,0.0001
+"Digi International, Inc",8,0.0001
+Bequant,8,0.0001
+INSYS Microelectronics GmbH,8,0.0001
+WQIKTLMA,8,0.0001
+XNsystems Co.,8,0.0001
+"CYBERNETICOS HOSTING, SL",8,0.0001
+Webmin Webserver on scw-anders-z2,8,0.0001
+Schneider Electric Buildings Operation server,8,0.0001
+Itech corp.,8,0.0001
+Org,8,0.0001
+InHand Networks,8,0.0001
+Tesla Motors,8,0.0001
+Bticino s.p.a.,8,0.0001
+wangsu,8,0.0001
+HRHUKWWOBPYG,8,0.0001
+KobeKobz,8,0.0001
+Nessus Users United,8,0.0001
+NetFoundry,8,0.0001
+SelfSigned,8,0.0001
+GK,8,0.0001
+Emerson,8,0.0001
+Hurricane Electric,8,0.0001
+"VMware, Inc.",8,0.0001
+UNESP,8,0.0001
+Tencent,8,0.0001
+Archer VR2100,8,0.0001
+My Company Name LTD.,8,0.0001
+YRLMTFSGJXOHMBLM,8,0.0001
+Telecom Italia Trust Technologies S.R.L.,8,0.0001
+"Global Digital Cybersecurity Authority Co., Ltd.",8,0.0001
+Akamai Technologies Inc.,7,0.0
+Fasthosts Internet Limited,7,0.0
+Oracle Corporation,7,0.0
+"Thawte, Inc.",7,0.0
+"Linksys, LLC.",7,0.0
+ICP-Brasil,7,0.0
+Schneider Electric,7,0.0
+Webmin Webserver on localhost,7,0.0
+EG Secure Solutions,7,0.0
+LenelS2,7,0.0
+Bicom Systems EURL,7,0.0
+Intelbras,7,0.0
+Domoticz,7,0.0
+BMMVQAI,7,0.0
+Infinity Shield,7,0.0
+EnVers Group SIA,7,0.0
+UXCCQGLSKM,7,0.0
+BICTHYPCWJYZ,7,0.0
+iboss Network Security,7,0.0
+Global Security,7,0.0
+KaonBroadband,7,0.0
+Laragon,7,0.0
+360,7,0.0
+Qmail Toaster Server,7,0.0
+Apache HTTP Server,7,0.0
+Aruba,7,0.0
+REO_LINK,7,0.0
+SmartFoxServer,7,0.0
+"EnGenius Technologies, Inc.",7,0.0
+Local,7,0.0
+MySSL,7,0.0
+AVTECH Inc.,7,0.0
+HB610V2,7,0.0
+Tarana Wireless,7,0.0
+Ctyun,7,0.0
+BJWWLAFQ,7,0.0
+EX820v,7,0.0
+Wispro,7,0.0
+RemoteLock,7,0.0
+"Netgear, Inc.",7,0.0
+gargoyle-router.com,7,0.0
+YXPHONHWKYGM,7,0.0
+NewMedia-NET GmbH,7,0.0
+JP01,7,0.0
+Networks,7,0.0
+kunshi,7,0.0
+WQLODMQO,7,0.0
+Webmin Webserver on box.leblogdenova.com,7,0.0
+QNAP Systems Inc.,7,0.0
+AgniGATE Technologies,7,0.0
+Valen Inc.,7,0.0
+Rochdale Village,7,0.0
+"PeerSec Networks, Inc.",7,0.0
+Modal vprox,7,0.0
+"Toollabo Co., Ltd.",7,0.0
+Archer VR1600v,7,0.0
+AVAYA,7,0.0
+"Ericsson-LG Enterprise Co., Ltd",7,0.0
+US,7,0.0
+Wago Kontakttechnik GmbH & Co. KG,7,0.0
+"Ubiquiti Networks, Inc",7,0.0
+Databricks,7,0.0
+ManageEngine,7,0.0
+Cosmo Group,7,0.0
+ASUSWRT-Merlin-KoolShare,7,0.0
+DVR Support Center,7,0.0
+Self-signed,7,0.0
+VPNUK,7,0.0
+ISTEC,7,0.0
+sundray,7,0.0
+LigoWave LLC,7,0.0
+OKGEMEPONFIHYEDND,6,0.0
+Mailtech,6,0.0
+Yokogawa,6,0.0
+"SBI Life Insurance Co.,Ltd.",6,0.0
+HITKPHMYKHIXG,6,0.0
+Wells Fargo WellsSecure,6,0.0
+"",6,0.0
+Johnson Controls Inc,6,0.0
+SxW Building Operations Server,6,0.0
+jpaas,6,0.0
+TXHGGBWJJLZOLH,6,0.0
+Extender,6,0.0
+Alibaba,6,0.0
+VENUSTECH,6,0.0
+Amcrest,6,0.0
+AXATOTLVD,6,0.0
+VLSDEP,6,0.0
+TPLINK,6,0.0
+SecureCore,6,0.0
+SERVICO FEDERAL DE PROCESSAMENTO DE DADOS (SERPRO),6,0.0
+oj-vc.cs.nthu.edu.tw,6,0.0
+"SonicWall, Inc.",6,0.0
+BJ,6,0.0
+Mail system,6,0.0
+Timeweb Cloud,6,0.0
+Pelco,6,0.0
+Amcrest Technologies LLC,6,0.0
+BQAVWCLU,6,0.0
+Spirion,6,0.0
+ACL,6,0.0
+LiteSpeed,6,0.0
+IPGLOBAL,6,0.0
+myloc,6,0.0
+agile-proxy,6,0.0
+Ezviz,6,0.0
+Nokia,6,0.0
+PBXware,6,0.0
+Cosmote,6,0.0
+OKI,6,0.0
+N,6,0.0
+Auerswald-PKI,6,0.0
+Default Sinkhole,6,0.0
+CODTFFHRKMKMMWXYH,6,0.0
+Anyconnect,6,0.0
+Webmin Webserver on Callisto,6,0.0
+Kubernetes,6,0.0
+Replibit,6,0.0
+RFOPQHWGMWTEAD,6,0.0
+BVFGHHKKFKPY,6,0.0
+OpenDJ RSA Self-Signed Certificate,6,0.0
+UECUUWYUJNFSJYE,6,0.0
+VK,6,0.0
+Aiphone,6,0.0
+PiKVM,6,0.0
+Example Inc,6,0.0
+AWS,6,0.0
+OFDWKVD,6,0.0
+DJPBOYCAFY,6,0.0
+LEDEe917df65,6,0.0
+AhnLab,6,0.0
+LXD,6,0.0
+Akamai Technologies,6,0.0
+SamsungTechwin,6,0.0
+Default Company Ltd.,6,0.0
+Webserver,6,0.0
+Mercury Security Products,6,0.0
+Certinomis,6,0.0
+zerto.local,6,0.0
+"iTrust, Inc",6,0.0
+Mitel Networks Corporation,6,0.0
+DRDMOXTWVDURRWZJP,6,0.0
+NAVER Cloud Trust Services Corp.,6,0.0
+MK-AUTH,6,0.0
+VPSSIM FTP,6,0.0
+Home,6,0.0
+JLEJZFEU,6,0.0
+StorageCraft Technology Corporation,6,0.0
+Vecima Networks Inc.,6,0.0
+SKSA Technology,6,0.0
+user1 Org,6,0.0
+Techwin,6,0.0
+PNQWZQHTQWEYHYS,6,0.0
+华为云安全,6,0.0
+LDJRJAJX,6,0.0
+ITBBF,6,0.0
+Savson Distil Pvt. Ltd.,6,0.0
+Proxy,6,0.0
+MyCompany.,6,0.0
+UUSEC,6,0.0
+Rackspace,6,0.0
+EC330-G5u,6,0.0
+CCPHFOWAUZDQ,6,0.0
+Controlid Industria e Comercio de Hardware e Servicos Ltda,6,0.0
+00:1C:7F:DC:6C:65..h7dynd,6,0.0
+MOGOIRLRDSLFCSH,6,0.0
+Panasonic,6,0.0
+Akamai,6,0.0
+OPNsense,6,0.0
+Netskope Inc.,6,0.0
+Veeam,6,0.0
+Webmin Webserver on scw-qsoar-d01,6,0.0
+Isimtescil Bilisim A.S.,6,0.0
+Mersive Technologies Inc,6,0.0
+openresty.inc,6,0.0
+HBPAYHUJMFMYSGTM,5,0.0
+BUFFALO,5,0.0
+Trusted Secure Certificate Authority,5,0.0
+TSGCZMPTW,5,0.0
+EnerSys,5,0.0
+Meraki,5,0.0
+ABUS Security-Center GmbH & Co. KG,5,0.0
+PRLLXEIHSDFR,5,0.0
+Archer MR400,5,0.0
+"MarketWare - Soluções para Mercados Digitais, Lda.",5,0.0
+EVDYOYAVGUREMLU,5,0.0
+YRVRUVT,5,0.0
+ocserv,5,0.0
+YYZRB,5,0.0
+MainStreaming SpA,5,0.0
+AIFIDA,5,0.0
+SUSE,5,0.0
+USXJQSEFDDTPFVMW,5,0.0
+GJWSFAP,5,0.0
+GEYHSEVI,5,0.0
+MLKFSPKFTVUHNIMX,5,0.0
+VAYNNVLY,5,0.0
+Teltonika426c8598,5,0.0
+Axema Access Control AB,5,0.0
+EOFNGOTON,5,0.0
+Teltonika5fad704f,5,0.0
+FXNMARNFFOQY,5,0.0
+FW,5,0.0
+KROYJWFG,5,0.0
+Electrolux,5,0.0
+JYIZKXZ,5,0.0
+Open-E,5,0.0
+Nosis Lab. de Inv. y Des. S.A.,5,0.0
+"Japan Digital Laboratory Co.,Ltd.",5,0.0
+Asseco Business SolutionsS.A.,5,0.0
+Samba Administration,5,0.0
+OSTEC,5,0.0
+PPM-HOU-CP-SMS..g6vqxp,5,0.0
+GUPCTBZQBMCEK,5,0.0
+FZIACBBOSYEU,5,0.0
+NetEvid,5,0.0
+ONCZUIXV,5,0.0
+SQSKFHIVIRFNUSPVWW,5,0.0
+Splunk Inc.,5,0.0
+Colruyt Group,5,0.0
+KZJFQLFVPAUQNWBXXD,5,0.0
+SMHKA,5,0.0
+CELEONET,5,0.0
+MJXNHKED,5,0.0
+ZPUARFNR,5,0.0
+STSIKEYABJHEXNRWA,5,0.0
+Net Insight,5,0.0
+Apple Inc,5,0.0
+Diehl Metering,5,0.0
+Comelit Group Spa,5,0.0
+PKKTKOOFPGBD,5,0.0
+NMTXASMM,5,0.0
+EADAGTZXDDEWZNTBAC,5,0.0
+AMIT,5,0.0
+LPFFNWPRQYHLPJCY,5,0.0
+Tiandy Technologies,5,0.0
+Lantronix,5,0.0
+UAPHLH,5,0.0
+muyuantest,5,0.0
+SVFOXTGJMVCWZNNWRA,5,0.0
+XILJPDCOBFORCLBYJH,5,0.0
+Rockwell Automation,5,0.0
+Alveonet,5,0.0
+alibaba cloud,5,0.0
+Webmin Webserver on sun-trails.com,5,0.0
+UGODBAYYZTQUXUYO,5,0.0
+Point S,5,0.0
+ZQUQVASEK,5,0.0
+XX530vV2,5,0.0
+AXWCLVMYGSYT,5,0.0
+philandro Software GmbH,5,0.0
+HIUMSQ,5,0.0
+UTC,5,0.0
+Txkj,5,0.0
+Toffstech,5,0.0
+Noction,5,0.0
+JLAWO,5,0.0
+PNNGD,5,0.0
+Altice Empresas,5,0.0
+KAGNNWYXFXQSQK,5,0.0
+POD Point Ltd,5,0.0
+NCNKBQMCJO,5,0.0
+ucs,5,0.0
+Honeywell International Inc.,5,0.0
+Brbyte Softwares,5,0.0
+EX710,5,0.0
+LJAEQH,5,0.0
+ENKMGPBN,5,0.0
+team.blue,5,0.0
+Palo Alto Networks Inc.,5,0.0
+WXZZHNOGONECTRF,5,0.0
+TXRVJPOFJ,5,0.0
+ARRIS Group Inc.,5,0.0
+.,5,0.0
+Workato,5,0.0
+EQGMYRYH,5,0.0
+CAcert Inc.,5,0.0
+RXDOWLIO,5,0.0
+TZKW,5,0.0
+SERVICO MUNICIPAL DE AGUA E ESGOTO DE PIRACICABA,5,0.0
+RPPXXUGEDADGPEOH,5,0.0
+Bancontact Payconiq Company nv/sa - BE0675 984 882,5,0.0
+"Raritan Americas, Inc.",5,0.0
+Schneider Electric Industries SAS,5,0.0
+FlowerBlog,5,0.0
+WKVRW,5,0.0
+Entreprise,5,0.0
+"Jelastic, Inc",5,0.0
+"About Time Software, Inc.",5,0.0
+VNAVRQIBPFTAMLIM,5,0.0
+ALUE,5,0.0
+RVZLGCQKLKDUQLLK,5,0.0
+Digital Arts Inc.,5,0.0
+IPphone,5,0.0
+BGPEC,5,0.0
+Webmin Webserver on tempahan.mbi.gov.my,5,0.0
+Bitrix Inc.,5,0.0
+Webmin Webserver on emaker,5,0.0
+wptangtoc ols,5,0.0
+PFFKNDXL,5,0.0
+Vodafone Group,5,0.0
+ACME,5,0.0
+Archer VR300,5,0.0
+"Sansay, Inc",5,0.0
+LH.pl Sp. z o.o.,5,0.0
+IBOFALIJ,5,0.0
+Example,5,0.0
+"Inhand Networking Co., Ltd.",5,0.0
+SSAOFUCBRCGINVYGZ,5,0.0
+YPTUFQPNFHAPRKJQ,5,0.0
+Teltonika9de9a93c,5,0.0
+ATX,5,0.0
+Westermo Teleindustri AB,5,0.0
+Sony Corporation,5,0.0
+DIJWETUHECPP,5,0.0
+"SWsoft, Inc.",5,0.0
+YYMUTMJZSPZM,5,0.0
+Velocix,5,0.0
+Webmin Webserver on dns.iihem.ac.ma,5,0.0
+VIVOTEK Inc.,5,0.0
+LDMCIGLP,5,0.0
+CatchAll,5,0.0
+HKXPUGJM,5,0.0
+CQPQKXQMP,5,0.0
+Hewlett-Packard Co.,5,0.0
+TL-MR100,5,0.0
+LYBRYPSG,5,0.0
+JXMHDKED,5,0.0
+GOST,5,0.0
+Self-signed for fqdn.example.com,5,0.0
+BMWGroup,5,0.0
+DUMRW,5,0.0
+QHDFDMJVZNTBX,5,0.0
+OpenStack,5,0.0
+Apache Haus Distribution Test Certificate,5,0.0
+UWSNWFUIOQFKP,5,0.0
+Accedian Networks inc,5,0.0
+SonicWall Inc.,5,0.0
+TREND,5,0.0
+Host default domain,5,0.0
+VBKWOJMXFGYYQ,5,0.0
+Optum,5,0.0
+Moxa Inc.,5,0.0
+HBXWQCI,5,0.0
+Hewlett Packard Enterprise Company,5,0.0
+Panda Security S.L.,5,0.0
+YourOrganization,5,0.0
+Hosting,5,0.0
+TUNHDP,5,0.0
+GMCert.org,5,0.0
+Bosch Security Systems,5,0.0
+OpenWrt16ef7d1c,5,0.0
+FRIXGPMWQTJQ,5,0.0
+KGUMKVXZSYXK,5,0.0
+A TLC SRL,5,0.0
+SLFMKZJSFIUWJIH,5,0.0
+natasha..8ye75g,5,0.0
+GIJTHYRJDG,5,0.0
+QCZDYQ,5,0.0
+KVNYEOFAIDMKJKNXA,5,0.0
+"TP-LINK Technologies CO., LTD.",5,0.0
+Enphase Energy,5,0.0
+k8s,5,0.0
+YTCRLUFREDVGJVR,5,0.0
+ZOJTZ,5,0.0
+LYUVBRFIJF,4,0.0
+ViciBox,4,0.0
+Yokogawa Electric Corporation,4,0.0
+CGLCUCZZ,4,0.0
+SIEMENS AG,4,0.0
+UZWNXIRVFACR,4,0.0
+Unipay Root CA,4,0.0
+Hoge Hoge Company,4,0.0
+TESTING CERTIFICATE,4,0.0
+IQZTRLNBNCWXIFGDWI,4,0.0
+WYRNGLIAUZVRP,4,0.0
+Wayfair Technology 2091,4,0.0
+Webmin Webserver on libapps,4,0.0
+Titus,4,0.0
+MUWBNHOTUESL,4,0.0
+JHBBKVRVBB,4,0.0
+KAXURMKNQFQ,4,0.0
+WHSPGXAG,4,0.0
+VXHFRPYWZKRAFY,4,0.0
+SonicWall,4,0.0
+KVRSOAPUMQTU,4,0.0
+Archer VR600,4,0.0
+MKBLTGRS,4,0.0
+FMG,4,0.0
+FPREKAG,4,0.0
+BQEFMJPMOCIJMCMIMO,4,0.0
+WXRSGUOKCVBRFOJ,4,0.0
+KQEKJOFT,4,0.0
+GTEZVMWZKZEML,4,0.0
+KUWYMUWRIZZMCSBX,4,0.0
+AELTDLZN,4,0.0
+ESCGGHFD,4,0.0
+VLENKZNLRDN,4,0.0
+Nitrado,4,0.0
+UFJNRUJZDBHY,4,0.0
+RT-AX86U_CA,4,0.0
+XQDHPMWUPGWSSGNZ,4,0.0
+SpiderPool,4,0.0
+ovipanel,4,0.0
+ETTPAILGVMNIIFI,4,0.0
+Jiajiasu,4,0.0
+Webmin Webserver on raspberrypi,4,0.0
+RCBVDNYUQTJLEX,4,0.0
+UAFIENQZCSUOU,4,0.0
+Azure Step CA Production,4,0.0
+LDLFZRLFXFIQACA,4,0.0
+DIVIJWBNNIMBYHSFA,4,0.0
+ZICQGGUXLI,4,0.0
+YKTQVOR,4,0.0
+"salesforce.com, inc.",4,0.0
+IGOMQ,4,0.0
+"Senao Networks, Inc.",4,0.0
+NPIIEEBXMTRJM,4,0.0
+Nuvyyo,4,0.0
+DNPLMO,4,0.0
+cy,4,0.0
+KOHSPZXTLMQNTEXC,4,0.0
+OFHBXIJR,4,0.0
+PJPMXMYQRDWXQ,4,0.0
+Yasho Industries Ltd,4,0.0
+Blue Wireless,4,0.0
+EIAPDCVNFIHQYU,4,0.0
+UMKIVTIBE,4,0.0
+Autoescuela Colchero,4,0.0
+Plesk Inc.,4,0.0
+HGSFTOHOZPLUD,4,0.0
+hgiga,4,0.0
+Tuya Inc.,4,0.0
+ZDZNERSXFHLJMXQ,4,0.0
+FNLFCMJQ,4,0.0
+Overkiz,4,0.0
+PEOSZCQBROZOMPFB,4,0.0
+HHMDNOGWMW,4,0.0
+DWKPVK,4,0.0
+American Express Company,4,0.0
+JVLGYJFO,4,0.0
+Webmin Webserver on icci,4,0.0
+POQUTNW,4,0.0
+Teltonika26fa6f77,4,0.0
+Elitt,4,0.0
+ESXPKP,4,0.0
+WIYAHCASXC,4,0.0
+AZKYFGVTFRJL,4,0.0
+NETGEAR Inc.,4,0.0
+Morgan Oakland Wireless Pty Ltd,4,0.0
+LFIWF,4,0.0
+OCMZISJIYQ,4,0.0
+Teltonikac1050986,4,0.0
+IXEXKRSDEDYKOBWO,4,0.0
+OCOSA,4,0.0
+OPMRA,4,0.0
+REDDOXX Appliance,4,0.0
+HanwhaTechwin,4,0.0
+Neat,4,0.0
+TIXMH,4,0.0
+TrustSign Certificadora Dig. & Solucoes Seguranca da Inf. Ltda.,4,0.0
+LEWWJXAKRBJUBHAQC,4,0.0
+EX511,4,0.0
+YZXPZOJ,4,0.0
+Airlock Digital Pty Ltd,4,0.0
+tplink,4,0.0
+The One Ring Ltd,4,0.0
+TL-WR850N,4,0.0
+TB,4,0.0
+SGURSFGA,4,0.0
+Cambium Networks Ltd.,4,0.0
+YSCVP,4,0.0
+INXMNTXVZISYJ,4,0.0
+MTMLB,4,0.0
+Allied-Telesis,4,0.0
+REJSABHQNJZM,4,0.0
+AO StalkerSoft,4,0.0
+IXEYCLNI,4,0.0
+server0.changeme.com Org,4,0.0
+RUJNKJPBI,4,0.0
+Acme Technologies,4,0.0
+HAJJVKYB,4,0.0
+AXIGEN Mail Server,4,0.0
+CrowdStrike Inc.,4,0.0
+SBJPMFWIWV,4,0.0
+Atempo,4,0.0
+CNYKBTUJNTQTGYRPSL,4,0.0
+TXUKWJSMRQYUYWY,4,0.0
+XKKSORCBHD,4,0.0
+VKYVAWPORNVL,4,0.0
+McAfee,4,0.0
+Actiontec,4,0.0
+Australian Competition and Consumer Commission,4,0.0
+FCDN,4,0.0
+ZCTTKQCF,4,0.0
+GTranslate Inc,4,0.0
+ARFIQLBCB,4,0.0
+NX510v,4,0.0
+deepsoft,4,0.0
+EQVHVL,4,0.0
+UIGCKPNYKKHLHW,4,0.0
+MoodMedia.com,4,0.0
+SSL Limited,4,0.0
+TSMX,4,0.0
+VWGBNX,4,0.0
+Toishi Inc.,4,0.0
+"Electronic Arts, Inc.",4,0.0
+ITZLPONPBVHZWILL,4,0.0
+ShoreTel,4,0.0
+MDWNWMYXN,4,0.0
+Tiandy Tech Ltd,4,0.0
+DCRAGVCGLLX,4,0.0
+Motorola_Solutions Inc,4,0.0
+VCOIJPQVEL,4,0.0
+Solo Sistem Bilgi Teknolojileri Ticaret Ltd. Sti,4,0.0
+Mackenzie Crop,4,0.0
+PKFVWZLM,4,0.0
+FWYPE,4,0.0
+zkteco,4,0.0
+CDN,4,0.0
+Vaion,4,0.0
+QARMTZYKWNM,4,0.0
+Synamedia,4,0.0
+HJFWXSEFZ,4,0.0
+Trellix,4,0.0
+PTVKS,4,0.0
+UBISBNUCSCMLETORW,4,0.0
+WNBYQCTR,4,0.0
+adidas AG,4,0.0
+HOQSWJKBSGTKE,4,0.0
+FPT,4,0.0
+bigo,4,0.0
+"Regery, https://regery.com",4,0.0
+Team John Long Software,4,0.0
+UBHALHDAZGNYOGBNMB,4,0.0
+EWDPVHH,4,0.0
+LIZJSTGEWAJA,4,0.0
+UIIOEY,4,0.0
+Merlin-Koolshare-rtac86u,4,0.0
+CCE Technologies,4,0.0
+TDUODMPQPHZZHYKCZ,4,0.0
+MDU Network Technologies,4,0.0
+CDN UA Ltd,4,0.0
+XDEYFLFV,4,0.0
+JGZUZ,4,0.0
+FRTHBYDWVJETCWBV,4,0.0
+LJADHUAQOBXFLRKAI,4,0.0
+Fronius International GmbH,4,0.0
+SNNOHCTHPT,4,0.0
+Octtel,4,0.0
+Gameye,4,0.0
+TOCFRGFCW,4,0.0
+alibb,4,0.0
+QCLYDEJR,4,0.0
+IOXGRIUPIGLPFXOFK,4,0.0
+AMH,4,0.0
+KPN B.V.,4,0.0
+HMXTHFYHCJEX,4,0.0
+ Org,4,0.0
+AAVJDZEYZPGLQ,4,0.0
+NFRANCE CA ADMIN,4,0.0
+Equifax,4,0.0
+PVNAZZVPXRXBVRJ,4,0.0
+Google TESTING,4,0.0
+Impinj Inc.,4,0.0
+BYUTUBP,4,0.0
+JLKJLFGY,4,0.0
+TSGVEYFCEZVCD,4,0.0
+Telefonica,4,0.0
+CAAAVCUVA,4,0.0
+IRMZQGIYWLDAUD,4,0.0
+GPIHRVYM,4,0.0
+ROAKKDNVYNY,4,0.0
+eero,4,0.0
+IceWarp Ltd,4,0.0
+MPYGLYIB,4,0.0
+Nsfocus,4,0.0
+"BeiJing Baidu Netcom Science Technology Co., Ltd",4,0.0
+IONOS SE,4,0.0
+appfast_server,4,0.0
+SDS,4,0.0
+Maildata,4,0.0
+ISVDRQAUL,4,0.0
+ZUSNGPUCTCPLHWY,4,0.0
+ILCABQPDKN,4,0.0
+SSLVPN,4,0.0
+TI Trust Technologies S.R.L.,4,0.0
+EJIIL,4,0.0
+BWIMJRYFP,4,0.0
+GPLPEP,4,0.0
+Webmin Webserver on csit,4,0.0
+ZPDMATBERSD,4,0.0
+Abelko Innovation,4,0.0
+NNZHBCYE,4,0.0
+LSI,4,0.0
+CODIZE,4,0.0
+"DataRemote, Inc.",4,0.0
+SNUM,4,0.0
+Lionic Corporation,4,0.0
+VWTNJESGWUAK,4,0.0
+VM-0-13-centos,4,0.0
+KJCJVRUQHRDDW,4,0.0
+SEBKHVZPDZTPPY,4,0.0
+SiteHost,4,0.0
+all in one solution inc.,4,0.0
+YMAZRN,4,0.0
+Private,4,0.0
+Cerberus FTP Server,4,0.0
+OpenSpeedTest,4,0.0
+NLGNITFZHUXM,4,0.0
+vpn4ever,4,0.0
+BHETTHSDL,4,0.0
+Mathematica Policy Research,4,0.0
+ATT,4,0.0
+DELKOG,4,0.0
+YNWMSITLVCBEGNR,4,0.0
+icctv,4,0.0
+LOATXHTRRKRDWK,4,0.0
+RJECS,4,0.0
+SPQCYOL,4,0.0
+Medilab,4,0.0
+CXWSJ,4,0.0
+LocalDev,4,0.0
+"Mimosa Networks, Inc",4,0.0
+XBSKQHDWKWJ,4,0.0
+"IDIS Co., Ltd.",4,0.0
+google,4,0.0
+NPQKAYRAGICMGFF,4,0.0
+HVZCASGT,4,0.0
+DTKQMJDIMVJXEIHV,4,0.0
+IRTEWIKOOOV,4,0.0
+BLSECKHUOAH,4,0.0
+ZONER,4,0.0
+KEMP Technologies,4,0.0
+RQAGLEDOD,4,0.0
+VWASZBTXAC,4,0.0
+PDFJKZUEAWXJJ,4,0.0
+XFBTUUCDB,4,0.0
+PT TARUNA ANUGERAH MANDIRI,4,0.0
+BDWBVZAFIKU,4,0.0
+TJEHWFUVA,4,0.0
+OpenWrt635294ad,4,0.0
+VTFPVPCD,4,0.0
+Trane Company,4,0.0
+DRJUVIWHPNI,4,0.0
+QXGNTMBWQIHKNVNNYI,4,0.0
+The Dun & Bradstreet Corporation,4,0.0
+XNJGMYONG,4,0.0
+IHLNCCLTEIS,4,0.0
+RWYEQSLWOBMNOLNOU,4,0.0
+VCAVEKISCHHHYJDUDM,4,0.0
+UCloud,4,0.0
+WAGEFDBPCWHJAI,4,0.0
+RRMYNBMFANPB,4,0.0
+HTNBVXYUSGQRKTGE,4,0.0
+UVZEJNYTEEPVY,4,0.0
+QPEMV,4,0.0
+YMPHACZD,4,0.0
+home,4,0.0
+H3C,4,0.0
+G DATA CyberDefense AG,4,0.0
+O,4,0.0
+"CrushFTP, LLC",4,0.0
+NQMNYJRKALVWD,4,0.0
+KHIMF,4,0.0
+RDYRHQ,4,0.0
+WFAOR,4,0.0
+go_fan,4,0.0
+MDOZKSICKL,4,0.0
+HOCIETJCKWHUAHGQP,4,0.0
+TEHTRI-Security,4,0.0
+EJGQADLGK,4,0.0
+AIVFALP,4,0.0
+VIVOTEK INC.,4,0.0
+REJHISMYAZCBKKLV,4,0.0
+DirectTrust.org,4,0.0
+BQVNQMLU,4,0.0
+OZXEVBYR,4,0.0
+KYOCERA MITA,4,0.0
+Hostmar,4,0.0
+BTBVJEHIC,4,0.0
+"CREW SYSTEMS, INC.",4,0.0
+IGTGIGJM,4,0.0
+Option NV,4,0.0
+Mercury Security Corp.(Auth-1),4,0.0
+Sri Ramakrishna Eng'g Coll.,4,0.0
+TCWQOIOSSXS,4,0.0
+ZLUJK,4,0.0
+JFXRSMYUZEHKU,4,0.0
+MTQCEFMAMCRZPKHSR,4,0.0
+CLVFVNSELGCA,4,0.0
+Palo-Alto-Networks-Inc.,4,0.0
+LXUQCV,4,0.0
+IXOFPNJ,4,0.0
+TFCGSVMUYYEI,4,0.0
+CRPTNMTBTFNSG,4,0.0
+FGILAIARVUF,4,0.0
+UEMIWIVOE,4,0.0
+Motorola-Mobility Corp.,4,0.0
+Webmin Webserver on srv2.yourhostname.de,4,0.0
+PKDLMPI,4,0.0
+FJUOB,4,0.0
+PXDFMYLAS,4,0.0
+Ingersoll-Rand Company,4,0.0
+ESL,4,0.0
+dev.kobz.stunnel,4,0.0
+GYAAWRDUX,4,0.0
+FCRODOK,3,0.0
+KEXYHGNXSI,3,0.0
+ZSFOR,3,0.0
+RRJKJSXYAMZTAMBSPR,3,0.0
+PLE,3,0.0
+VAIFURN,3,0.0
+"IT dep. 
+       ",3,0.0
+KBNVZECVAGPSJRA,3,0.0
+Webmin Webserver on gradrep,3,0.0
+customer.sharktech.net,3,0.0
+RXZUGQR,3,0.0
+LMNPZUULBABPICL,3,0.0
+QQVTVZFEGMOSMRGWQG,3,0.0
+RT-AX58U,3,0.0
+BSAJXZOJHDXYQND,3,0.0
+VGYALVIJPIKTIHR,3,0.0
+BBMAKNWRVSIESUKSXK,3,0.0
+Carma Corp,3,0.0
+TWAWZKTXDWK,3,0.0
+TCG,3,0.0
+XMDXU,3,0.0
+S. Siedle & Soehne OHG,3,0.0
+YDDEPBPMSYLFHZ,3,0.0
+kimchi-project.org,3,0.0
+Gira Giersiepen GmbH & Co. KG,3,0.0
+cbn,3,0.0
+CCTSL Root Authority,3,0.0
+Webmin Webserver on toymall.easyportals.com,3,0.0
+private,3,0.0
+GMBUHPPLYVEYONOFNC,3,0.0
+EC120-F5,3,0.0
+INCM,3,0.0
+DGLWRDZWHBDTDDXJR,3,0.0
+YRLLWSPEIMBODLRS,3,0.0
+TDGHKJBKWQM,3,0.0
+PKI(Chongqing) Limited,3,0.0
+EnterpriseManager on localhost,3,0.0
+Traefik-test,3,0.0
+QKKYYART,3,0.0
+VJHGT,3,0.0
+PKCZYJAU,3,0.0
+GEANT Association,3,0.0
+ServerBackup. CA,3,0.0
+QJKTDAOZJWORY,3,0.0
+ubuntu18,3,0.0
+"Iwaki America, Inc.",3,0.0
+Cyna,3,0.0
+VTP Cluster Manager CA,3,0.0
+EFMLDYJBJEDWC,3,0.0
+BRBJHAEY,3,0.0
+Genious Communications,3,0.0
+QNAP,3,0.0
+UUSZXSLRONKUDGZ,3,0.0
+RisingWave Inc,3,0.0
+HGCRWMRNXJELP,3,0.0
+DWMCBEWTTCFDWZPNC,3,0.0
+RODWQEJT,3,0.0
+Postfix Mail Server,3,0.0
+NetNam,3,0.0
+FOZVZYNYN,3,0.0
+RXSAVDLRBGKCUBLOA,3,0.0
+DJHEVKRHCDKYAL,3,0.0
+WMABBIGW,3,0.0
+Mail,3,0.0
+"Cyclic Marsh Analytics AB, s.r.o.",3,0.0
+Mayasoft,3,0.0
+DDNXERDD,3,0.0
+linuxcontainers.org,3,0.0
+CradlePoint Technology,3,0.0
+DBYSZ,3,0.0
+PKQELHYE,3,0.0
+Ferrari S.p.A.,3,0.0
+DAIMLER,3,0.0
+LGHYRHFUA,3,0.0
+"All Nippon Airways Co.,Ltd",3,0.0
+RuggedCom.com,3,0.0
+LUBUKCAKHEPU,3,0.0
+UDQBB,3,0.0
+Self-signed certificate,3,0.0
+OVPLIWEPEANKKAZY,3,0.0
+ClearFoundation,3,0.0
+Webmin Webserver on ns2,3,0.0
+Hostvn,3,0.0
+ODLLR,3,0.0
+DBM,3,0.0
+Polycom,3,0.0
+MSQICRXLIIPAQW,3,0.0
+MRDBDFTP,3,0.0
+HARMAN International Industries,3,0.0
+Open Access Technology International Inc,3,0.0
+LPWQINLPIRYQEIAXC,3,0.0
+KJAKPNQFSS,3,0.0
+TylerTech,3,0.0
+Perle Systems Limited,3,0.0
+HSYCO S.r.l.,3,0.0
+dynamiclistener-org,3,0.0
+KSRLIO,3,0.0
+NRPXBLCLRPQMWZTT,3,0.0
+LUYSJBVYIIQN,3,0.0
+FYNFL,3,0.0
+Jovision,3,0.0
+ZM132S014560,3,0.0
+UEEUEBETBFN,3,0.0
+HUAKUORQ,3,0.0
+Durudere Inc.,3,0.0
+KMSHRBPTVLYAVYVIN,3,0.0
+Inuits,3,0.0
+NZPYIXDT,3,0.0
+Beadmin private instance,3,0.0
+Tejas Networks,3,0.0
+Honeywell International Inc,3,0.0
+XMFENCEK,3,0.0
+tencent,3,0.0
+UKKRUGAZCTTUKTSWM,3,0.0
+Organisation,3,0.0
+CERTINOMIS,3,0.0
+NoEnv,3,0.0
+AGRI EXIM,3,0.0
+NROYIQTKYOEPOIWNIU,3,0.0
+ZDTEQNXMGH,3,0.0
+FYLZOCY,3,0.0
+Developer,3,0.0
+CGOUUAFYMXDML,3,0.0
+HUNTHUDWCCFFMIT,3,0.0
+SAP Trust Community,3,0.0
+"FutureSpirits CO.,Ltd.",3,0.0
+HJHNWA,3,0.0
+Alarm.com,3,0.0
+Bouygues Construction,3,0.0
+Jasmeet,3,0.0
+OJFTWWE,3,0.0
+University of Washington,3,0.0
+VGEM Tech,3,0.0
+NXJEPX,3,0.0
+RQCZGBA,3,0.0
+MQBHVTQSHIEF,3,0.0
+IUPMXYNOZYVQK,3,0.0
+root,3,0.0
+HID Global,3,0.0
+NTT,3,0.0
+seeyon,3,0.0
+TUBITAK Kamu Sertifikasyon Merkezi,3,0.0
+WHCompany,3,0.0
+UURBH,3,0.0
+KZRRT,3,0.0
+ORG,3,0.0
+'',3,0.0
+VFIWNYVNCXSBW,3,0.0
+TitanHQ,3,0.0
+Wangsu,3,0.0
+lucky default CA,3,0.0
+VYSOFT,3,0.0
+ZZ,3,0.0
+Dentalsoft,3,0.0
+Moxa,3,0.0
+Universal Electronics Inc.,3,0.0
+HCI Cluster Manager CA,3,0.0
+"Ubicom, Inc",3,0.0
+Richemont International SA,3,0.0
+Inim Electronics,3,0.0
+N/A,3,0.0
+MicroFocus,3,0.0
+Product Center,3,0.0
+VIGEXINDMOJ,3,0.0
+Gemtek V2D2-Router,3,0.0
+UMDTRCK,3,0.0
+Takims,3,0.0
+Internews Sistemas de Automacao Empresarial LTDA,3,0.0
+FCTIBGXZYR,3,0.0
+Webmin Webserver on CSRDIWSERV-1,3,0.0
+Bubblesoft,3,0.0
+JBVBMADFIW,3,0.0
+VCWGNV,3,0.0
+restaurants.com,3,0.0
+MAX PUBLICITY & COMMUNICATION PVT LTD,3,0.0
+MOAOIDMGFVJXTSJCW,3,0.0
+HB810,3,0.0
+organization,3,0.0
+Tensor,3,0.0
+Big Corp,3,0.0
+ZCGFPWNJCMHPOV,3,0.0
+Tekirdag Otopark Ulasim A.S.,3,0.0
+VOQGVRJWY,3,0.0
+VCFRDRFBEILNGGMCGR,3,0.0
+IBVTOHDQ,3,0.0
+TELE2,3,0.0
+QYZOUHOC,3,0.0
+Eastvale Logistics,3,0.0
+TUQPJNXKWQNBCDGBBP,3,0.0
+QRSRJRQMUW,3,0.0
+UT San Antonio,3,0.0
+FAOLUIFX,3,0.0
+QYJIUCZ,3,0.0
+QXPCWYUEDECRG,3,0.0
+Darkmay s.r.o.,3,0.0
+CSIRT-FR Airbus,3,0.0
+PBORFWSVXVXVDNKLG,3,0.0
+Airspan,3,0.0
+WXKOT,3,0.0
+Dev,3,0.0
+VAGCDKYPW,3,0.0
+Cruzio,3,0.0
+FCZWYJYPYHOI,3,0.0
+IXKIT,3,0.0
+FBWJLABUAFLOWFESXQ,3,0.0
+ONBCYLYTHQR,3,0.0
+PNHJQFGUY,3,0.0
+ZWVUGFWQHPNOTSJWX,3,0.0
+GYVCZTUA,3,0.0
+MEYBBE,3,0.0
+VYMYHHMHAFBOYGJVY,3,0.0
+Katello,3,0.0
+Site Blindado S.A.,3,0.0
+Firmaprofesional S.A.,3,0.0
+ILOEEIJGXEINRIQ,3,0.0
+UPNEI,3,0.0
+QJWWHWJFZCJPOO,3,0.0
+NPMUGOUFQNRLSRYRCK,3,0.0
+System X,3,0.0
+WFICD,3,0.0
+Amazon.com Svcs,3,0.0
+Trendy Eco,3,0.0
+KJYBWAHJZN,3,0.0
+Volcengine,3,0.0
+Entersekt (Pty) Ltd,3,0.0
+Intego,3,0.0
+FVZFYJJLBZPVH,3,0.0
+PXDVMH,3,0.0
+JGPMDGNPHBK,3,0.0
+MVWMPBTOSISHSNFE,3,0.0
+"Fuzhou Quyun Technology Co., Ltd.",3,0.0
+RQCZQXLSA,3,0.0
+TAVVYTHK,3,0.0
+Exaforce,3,0.0
+Araknis Networks,3,0.0
+LSZUNOZP,3,0.0
+SXXCUYBTGESJK,3,0.0
+SofaWare,3,0.0
+AORSGWPRUXYNXIOQX,3,0.0
+BlueCat,3,0.0
+LCBPQDFDVU,3,0.0
+Protee United,3,0.0
+Izenpe,3,0.0
+GvServer,3,0.0
+muyun,3,0.0
+BLMYMHPV,3,0.0
+"Allied Telesis, Inc.",3,0.0
+"SolarWinds Worldwide, LLC",3,0.0
+IXCProvedor,3,0.0
+YouCorp,3,0.0
+cdn,3,0.0
+PAGMFPY,3,0.0
+SUKQHDEX,3,0.0
+QZTYH,3,0.0
+Askey,3,0.0
+INET_mgmt.srv.bergenkom.no.bbfaic,3,0.0
+DAZSBJ,3,0.0
+CKAXLPM,3,0.0
+CJSS Technologies,3,0.0
+JYLQYG,3,0.0
+JCHEQ,3,0.0
+AZIKMYEBKJ,3,0.0
+JMSFAILZR,3,0.0
+EMSYS Design LLC,3,0.0
+HKGFQBWR,3,0.0
+LGE,3,0.0
+Veritas,3,0.0
+EPEJNHJJDZKN,3,0.0
+YMWZSKDATMA,3,0.0
+GUPFEFIWDQYN,3,0.0
+RSI Informatique,3,0.0
+Ministere Education Nationale (MENESR),3,0.0
+MSTC,3,0.0
+Amazon.com,3,0.0
+Domeneshop AS,3,0.0
+RNPDFDAO,3,0.0
+00:1C:7F:B6:C1:92..tbpad2,3,0.0
+ILVFRYV,3,0.0
+RNE,3,0.0
+MQRPGAYPT,3,0.0
+AWUYNNUMNDSSFUXB,3,0.0
+Made4it,3,0.0
+Media Commerce Partners,3,0.0
+LSPPM,3,0.0
+Panel,3,0.0
+RZTLBMQYIWNOM,3,0.0
+SATO Techno Lab Europe AB,3,0.0
+DFVTILXQ,3,0.0
+RFCJXPZGQONPWEFGBT,3,0.0
+AC,3,0.0
+QPNKYITWQ,3,0.0
+Altera,3,0.0
+YKVVSACHVDIVNOOLPK,3,0.0
+LANCOM Systems GmbH,3,0.0
+IISXBSEEDQYZUPBX,3,0.0
+MJHHSTXSGN,3,0.0
+Powerdale,3,0.0
+NMAOTWEAMMWGEVELHL,3,0.0
+PINC,3,0.0
+ISKJPTTRXONBWIG,3,0.0
+Ubicloud,3,0.0
+NAGSFRHBHLUHUOQXVA,3,0.0
+TLD,3,0.0
+Xray Inc,3,0.0
+SDMJUGDFWVVLUFU,3,0.0
+Secuwiz,3,0.0
+BTICINO,3,0.0
+QNEIFPCE,3,0.0
+"Novum Global, a.s.",3,0.0
+HashiCorp Inc.,3,0.0
+LCNSGENGPOYAFQRUM,3,0.0
+Abitab S.A.,3,0.0
+Kollin Mediengesellschaft mbH,3,0.0
+DOFCNCYMTRPSPONHJJ,3,0.0
+EEICK,3,0.0
+TELMEX,3,0.0
+HydrantID (Avalanche Cloud Corporation),3,0.0
+HMEHZPMO,3,0.0
+ATLMYOZNUT,3,0.0
+WSNCCQV,3,0.0
+SOTI RIL,3,0.0
+GVM Users,3,0.0
+GTA Realm,3,0.0
+touming1.wafqax.top,3,0.0
+Test Company,3,0.0
+EYPLGVRWDYNC,3,0.0
+SVJJXGJDZHB,3,0.0
+Cartes Bancaires,3,0.0
+Self-signed TLS Certificate for ProFTPD,3,0.0
+KRUBWDCSVV,3,0.0
+HRJEJ,3,0.0
+PTWNWUMR,3,0.0
+JYBHAGB,3,0.0
+YXYBKWYE,3,0.0
+No,3,0.0
+CashDro,3,0.0
+ODETTE International Ltd.,3,0.0
+IDY Corp,3,0.0
+Private HTTPS root CA,3,0.0
+MOGWJBYE,3,0.0
+WFDYPREKQQPPX,3,0.0
+CXKIP,3,0.0
+GeoSSL,3,0.0
+ZDNPXGP,3,0.0
+CHANJET,3,0.0
+Leadsec,3,0.0
+Avaya,3,0.0
+Your Organization Ltd,3,0.0
+JADKUCLSJL,3,0.0
+Tiandy Tech,3,0.0
+Nginx,3,0.0
+OGSYZEKKVFMG,3,0.0
+Circutor,3,0.0
+EW200,3,0.0
+TrustOcean Limited,3,0.0
+OWUTOHLPTQS,3,0.0
+KFTALUYJYOALP,3,0.0
+SLMZOMZTTXXU,3,0.0
+UA,3,0.0
+00:1C:7F:97:3C:36..b3j5ao,3,0.0
+SODXP,3,0.0
+ACC Default CA,3,0.0
+SecWorld,3,0.0
+SMGEE,3,0.0
+MKAFH,3,0.0
+AERPWLFGWNBZ,3,0.0
+"Pearl Dorset Protective Sdn Bhd, SL",3,0.0
+MTDTD,3,0.0
+Datrium Inc.,3,0.0
+RACOM s.r.o.,3,0.0
+Hewlett Packard Enterprise Development,3,0.0
+QMSJVYWDLHVQXOLUV,3,0.0
+QINELDKQQILODZ,3,0.0
+DUBYGXCC,3,0.0
+mpc networks GmbH,3,0.0
+BZCSUWUBJYSTAFG,3,0.0
+OPJQLMYE,3,0.0
+Geneko,3,0.0
+Webmin Webserver on ns10,3,0.0
+OpenPath Security,3,0.0
+Roon Labs LLC,3,0.0
+Cool.revo Inc.,3,0.0
+Pomerium,3,0.0
+UCGVOPG,3,0.0
+ACC369,3,0.0
+00:1C:7F:B7:E5:96..33r74r,3,0.0
+None L=None,3,0.0
+GECWTSAPRBUQZAVWT,3,0.0
+Port Cities,3,0.0
+Optergy,3,0.0
+FHBPJDQYLY,3,0.0
+Global,3,0.0
+DATACOM,3,0.0
+FJSFSWMFN,3,0.0
+Clever Cloud SAS,3,0.0
+dahua,3,0.0
+BPYENJKXGMWIVJLK,3,0.0
+SE,3,0.0
+Greek Universities Network (GUnet),3,0.0
+AADDIO,3,0.0
+"Aardvark, LP",3,0.0
+AllRounderSystem,3,0.0
+OPS,3,0.0
+Appello Ltd,3,0.0
+NComputing,3,0.0
+SYBZWKTLCYKXWI,3,0.0
+LimTec GmbH,3,0.0
+"Beijing Topsec Network Security Technology Co., Ltd.
+",3,0.0
+GYVFWZ,3,0.0
+a,3,0.0
+AirVPN,3,0.0
+Acme Corp,3,0.0
+FUJITSU,3,0.0
+Rhombus Systems,3,0.0
+FireBrick Ltd,3,0.0
+XBIKTTCBBQUGSFZNK,3,0.0
+iTranswarp,3,0.0
+PUYXUNXSLHPZNZCMG,3,0.0
+ZQDNESEXUTYFNT,3,0.0
+CNR,3,0.0
+HVRSWCFBXVXI,3,0.0
+MyCompany Inc.,3,0.0
+ICNNLMRYK,3,0.0
+UOPNHKUHACWVFJWGOE,3,0.0
+TNZFHMNGR,3,0.0
+BAOXPICAHFYEDHULUK,3,0.0
+JumpMind,3,0.0
+Reltio,3,0.0
+GAC Group,3,0.0
+Domotica Labs,3,0.0
+PCNYUJKUXPK,3,0.0
+"Zoom Video Communications, Inc.",3,0.0
+HNQXNYBIFZEXV,3,0.0
+"Viking Cloud, Inc.",3,0.0
+CPE,3,0.0
+VTYPWIJVRWZYYW,3,0.0
+SDIAOKHTQBPEJF,3,0.0
+FYCVM,3,0.0
+DAHUA,3,0.0
+EQARZMTTLLZU,3,0.0
+INXRWDDJ,3,0.0
+UYWGBNIQMYWPUZO,3,0.0
+Attix5 Ltd,3,0.0
+CableLabs,3,0.0
+DNPanel,3,0.0
+Araknis Network (TM),3,0.0
+Archer VR600v,3,0.0
+UTPFDFLS,3,0.0
+IKGBMRKRSMHTGF,3,0.0
+Mail Server,3,0.0
+KSXPXZPH,3,0.0
+AVXCKE,3,0.0
+ZULAJXHDYBYEFUWKJI,3,0.0
+RORXUBGWNFMODFIUVC,3,0.0
+PBCAVDEXSOLAH,3,0.0
+WirelessMundi,3,0.0
+Trimble,3,0.0
+LKNONYQFU,3,0.0
+ICFRYOEO,3,0.0
+KEDWYAUGJHR,3,0.0
+Veeam Software,3,0.0
+"Autonomic, LLC",3,0.0
+EZPKH,3,0.0
+IPTV,3,0.0
+WPTKBWYVXGJIURIPAZ,3,0.0
+QOXXI,3,0.0
+FRWJYMGLLNHDI,3,0.0
+XMIVCCBLZVM,3,0.0
+DIRECTV,3,0.0
+CBIVATQLPOBRZ,3,0.0
+CDVHULPNY,3,0.0
+Upvantage Management And Advisory Sdn Bhd,3,0.0
+RNAJNMFT,3,0.0
+"Sonos, Inc",3,0.0
+Webmin Webserver on ubuntu,3,0.0
+Tanium,3,0.0
+ETQAPHYSGTVYCUCO,3,0.0
+MLUKVENMURNHZLJIE,3,0.0
+FRQFNUUVZZKWTW,3,0.0
+ABB Ltd,3,0.0
+Grupo Telefonica,3,0.0
+Archer MR200,3,0.0
+Telstra,3,0.0
+--,3,0.0
+Sun Life,3,0.0
+Govt,3,0.0
+Scaleway,3,0.0
+Microprogram,3,0.0
+VX231,3,0.0
+Thales,3,0.0
+Deltapath,3,0.0
+Mitel Networks,3,0.0
+relab SENAI Joinville,3,0.0
+PKTTLNASEXDJPINRV,3,0.0
+LPYCYLLKFFGDNAYFNV,3,0.0
+HLQXLHUPBIQBNKQS,3,0.0
+TDEOMKKYXREFSAGE,3,0.0
+Webmin Webserver on synergia,3,0.0
+AMDZRXDG,3,0.0
+SQTech,3,0.0
+Digikala,3,0.0
+Emerson Electric Co.,3,0.0
+BMM Ispat,3,0.0
+HTGAOKRXB,3,0.0
+Advantech B+B SmartWorx s.r.o.,3,0.0
+IMEDL,3,0.0
+LAIBQY,3,0.0
+QIRYRNAEFARF,3,0.0
+Syncthing,3,0.0
+MNCNXMLTCGDSLUKWA,3,0.0
+PGXENMBBQACRWRSFH,3,0.0
+KZZYVHZUJRGR,3,0.0
+NCPLFCI,3,0.0
+PDWUBTNXN,3,0.0
+FQIXTRRBHYZC,3,0.0
+Aerohive,3,0.0
+FKBKEQJKCUJ,3,0.0
+SimpleX,3,0.0
+"AhnLab, Inc.",3,0.0
+Disig a.s.,3,0.0
+DAOU TECHNOLOGY INC,3,0.0
+SecureSign Inc,3,0.0
+LenovoEMC,3,0.0
+"Interactive Intelligence,Inc",3,0.0
+Youwe,3,0.0
+IceWarp Software,3,0.0
+SXZZEO,3,0.0
+INAKFPZT,3,0.0
+QJQZPRWAXYQTRZALE,3,0.0
+ZOUQEQUPXZXJAWVZR,3,0.0
+KDWWFEXWTXWHKC,3,0.0
+SeeTec AG,3,0.0
+KAMSOFT S.A.,3,0.0
+VJBVVSBSSDZHPEBLJO,3,0.0
+Cyberoo S.p.A.,3,0.0
+IMJRRX,3,0.0
+Merloz,3,0.0
+Enhance,3,0.0
+FDYKYVPLD,3,0.0
+FNJTUYKMZCKRJ,3,0.0
+MLAWAA,3,0.0
+YGVXHDAKENX,3,0.0
+WIISRIRTYXBNUVUBTH,3,0.0
+CIVENTICHEM INDIA PRIVATE LIMITED,3,0.0
+NICOAOPPAJQHIH,3,0.0
+Mitsubishi Electric Corporation,3,0.0
+LRJVTIAF,3,0.0
+ZOCHJVCBIANUYHSRE,3,0.0
+MARRQXVLPTPVMXCINC,3,0.0
+Gigaset Communications ,3,0.0
+HERRAWUHTIQUIUUFG,2,0.0
+PIT,2,0.0
+KVBFUAPPZAOPDGBNV,2,0.0
+AR,2,0.0
+Blink,2,0.0
+00:1C:7F:AF:EF:DA..rpj32x,2,0.0
+Banani International School,2,0.0
+Sangfor Technologies Inc.,2,0.0
+Tahesab,2,0.0
+Cloudforge KK,2,0.0
+"Syncplify, Inc.",2,0.0
+PZFQNASIVWUDCV,2,0.0
+ca,2,0.0
+HCLKDK,2,0.0
+CP-MGMT.orbisfinancial.in.jbkkdg,2,0.0
+vcenter-server.hc.cust.edu.tw,2,0.0
+RFDHCFAKAQPXJSURV,2,0.0
+MJONLTBCSKNE,2,0.0
+NISZ Nemzeti Infokommunikációs Szolgáltató Zrt.,2,0.0
+CDTZTD,2,0.0
+"Vivint, Inc.",2,0.0
+HHISLBQJIOPHEY,2,0.0
+xx,2,0.0
+XIGWXLLDYNGLIHAZU,2,0.0
+Delta Dore,2,0.0
+VT,2,0.0
+OMCnet,2,0.0
+GMO Pepabo,2,0.0
+Topex,2,0.0
+br,2,0.0
+Opera Software ASA,2,0.0
+HUB Parking Technology,2,0.0
+zenointel,2,0.0
+LYBWYOF,2,0.0
+Cedar Grove Systems,2,0.0
+XBWQBOVPRMEBX,2,0.0
+HIKVISION,2,0.0
+CYGKWJHHYRN,2,0.0
+COYLXANW,2,0.0
+Araknis Networks (TM),2,0.0
+ng-mgt..3nbbqp,2,0.0
+LOYTEC electronics GmbH,2,0.0
+FatPipe Networks,2,0.0
+ATlc srl,2,0.0
+Teltonika718a3f43,2,0.0
+PFHRUVZX,2,0.0
+TOIUDRZEGJ,2,0.0
+WebEasyMail,2,0.0
+IDNYFXJRYYKYZT,2,0.0
+vps-a09.bigdealandsurprises.com,2,0.0
+TPL Systemes,2,0.0
+SUFTLYBCCG,2,0.0
+Webmin Webserver on eis-virtual-machine,2,0.0
+AHWVSZAZTFMVOXA,2,0.0
+MuleSoft,2,0.0
+OAQVVAKNDVEO,2,0.0
+AQMKORXBQINMZMFY,2,0.0
+Discador,2,0.0
+LatinCloud,2,0.0
+secui.com,2,0.0
+KAMP Netzwerkdienste GmbH,2,0.0
+ä¸æµ·å¹»çµä¿¡æ¯ç§ææéå¬å¸,2,0.0
+FireWall.agri.gov.il.e2yvgq,2,0.0
+T-Systems International GmbH,2,0.0
+ISPManger,2,0.0
+IT7 Networks Inc,2,0.0
+OTOWQX,2,0.0
+Moustic,2,0.0
+Example Brooklyn Company,2,0.0
+RAK,2,0.0
+Comexio,2,0.0
+APS,2,0.0
+QUTFN,2,0.0
+STAZHBDIQEAXDYO,2,0.0
+SEVJZLWKE,2,0.0
+EFNYWMZX,2,0.0
+Coolify,2,0.0
+DHAIEGKKNOGFWEG,2,0.0
+ODAPYBLBQ,2,0.0
+SmartThings Inc.,2,0.0
+CJYGKPAC,2,0.0
+factor happiness GmbH,2,0.0
+WMBGY,2,0.0
+WCPAYYFK,2,0.0
+DuckCorp,2,0.0
+ARTEIA.XYZ,2,0.0
+JMailerPro,2,0.0
+00:1C:7F:AD:8A:EE..foa24h,2,0.0
+ELBKXEPGYMMZPX,2,0.0
+IPdiva cloudops-mediation-2023,2,0.0
+HXCMFWCQ,2,0.0
+WTRRIHLAZMKRTKQYZ,2,0.0
+HGDBT,2,0.0
+RT-AC86U,2,0.0
+Smart1-MD.corp.districtphoto.com.3j3hdb,2,0.0
+ASSA ABLOY,2,0.0
+"Current Lighting Solutions, LLC",2,0.0
+Koso,2,0.0
+VAWWPCFZFAJWWF,2,0.0
+SAXA,2,0.0
+ONYPHE SAS,2,0.0
+PVCZB,2,0.0
+MYDODNPNXGYCFNRVS,2,0.0
+Carlo Gavazzi Controls,2,0.0
+CGOFRSWQHDWQCS,2,0.0
+ODVUWDKXJQ,2,0.0
+Such AG,2,0.0
+TKCUAUWEZYQNWUJS,2,0.0
+Classic Application SecureSign,2,0.0
+Happytimes,2,0.0
+IOQAXAJKBVSLIE,2,0.0
+VAZEGWVCSXP,2,0.0
+TEKNOLOGKAREN.SE,2,0.0
+Comnect,2,0.0
+OALWZGYAB,2,0.0
+backpack,2,0.0
+"CrowdStrike, Inc.",2,0.0
+BCX,2,0.0
+GuangZhou HongShi CA Inc,2,0.0
+vpncoama.softether.net,2,0.0
+STL-Solution,2,0.0
+Uflex Ltd,2,0.0
+SQCIJDQ,2,0.0
+General,2,0.0
+ZoTrus Technology Limited,2,0.0
+EchoStar Technologies LLC,2,0.0
+RROXGSRXYVCWD,2,0.0
+Vyatta Inc.,2,0.0
+KAGOYA Japan Ltd,2,0.0
+XDGXVYAGMTXWSRMP,2,0.0
+GEMS,2,0.0
+LeaseQuery,2,0.0
+Springfield,2,0.0
+EHCBFUWYUWOHZNFSJ,2,0.0
+Radio-IP,2,0.0
+CrossCert,2,0.0
+XRUQYJJDYECHGDYFA,2,0.0
+StrongDM,2,0.0
+Main Org.,2,0.0
+Heniarth Inc.,2,0.0
+Central_Console..9rkdmx,2,0.0
+"Netflix, Inc.",2,0.0
+New Media Parents,2,0.0
+YL Corporation,2,0.0
+iopsys Software Solutions AB,2,0.0
+ZNWCXXNHSZQ,2,0.0
+"Sansay, Inc.",2,0.0
+JMKXCIGCXD,2,0.0
+mx51 pty ltd,2,0.0
+HEREYJCFSN,2,0.0
+JGKCVBBZM,2,0.0
+Pasadena Interactive Sdn Bhd,2,0.0
+Intel(R) Client Setup Certificate,2,0.0
+HOECRRSIWXWBABLKMO,2,0.0
+Welpinghus,2,0.0
+NZNSDFRSF,2,0.0
+HQNWMTUP,2,0.0
+Castus,2,0.0
+TD-W9960,2,0.0
+GJXCVYFZBBANRNFOFW,2,0.0
+2Wire,2,0.0
+"CableLabs, Inc.",2,0.0
+FutSniperWeb,2,0.0
+Development Department,2,0.0
+vps-club06.vinnerhotline.com,2,0.0
+KFWVVQH,2,0.0
+Arista,2,0.0
+KGBABUWN,2,0.0
+LMNGAYMRXBPEA,2,0.0
+Verge.io,2,0.0
+City of Clinton,2,0.0
+AQMBSKLDMKXN,2,0.0
+FutureSystems,2,0.0
+HKUST,2,0.0
+open-public-records.com,2,0.0
+10.1.5.254,2,0.0
+Senec GmbH,2,0.0
+ICYLYUVSIDGIISPP,2,0.0
+Lark Technologies Inc,2,0.0
+SPECO,2,0.0
+"SOASTA, Inc.",2,0.0
+SFZJKSQ,2,0.0
+DWCEVTFZHFRSMDK,2,0.0
+Schaeffler,2,0.0
+SDOPJAKFJMTJTILQE,2,0.0
+studcpmgt.studenac.local.7hen3m,2,0.0
+"Alpha Technologies Services, Inc.",2,0.0
+gl-inet,2,0.0
+SNVHDBLPKCS,2,0.0
+JWTZHIMVGVDHBR,2,0.0
+NEC Corporation,2,0.0
+weber.digital GmbH,2,0.0
+BAB TECHNOLOGIE GmbH,2,0.0
+LARI CZ s.r.o.,2,0.0
+Buckeye Innovation LLC,2,0.0
+ALEXANDER ROA,2,0.0
+pitcom GmbH,2,0.0
+LastMile Retail Inc.,2,0.0
+QSZPZHFANHQNF,2,0.0
+FJIGJA,2,0.0
+Customer,2,0.0
+Bird Home Automation,2,0.0
+Internet Corporation For Assigned Names and Numbers,2,0.0
+VEQCEYZRYKIZLQFVW,2,0.0
+00:1C:7F:73:E5:10..3x27np,2,0.0
+WTPXOTTU,2,0.0
+ANMNWLAXZCM,2,0.0
+UOULTCNW,2,0.0
+ZBJITETE,2,0.0
+PVETBGZU,2,0.0
+OpenWrt00C792D6744AA0A3,2,0.0
+"Ericsson-LG Enterprise Co.,Ltd",2,0.0
+RESWGDBNJWPZQ,2,0.0
+CrowdANALYTIX,2,0.0
+YAVXANSX,2,0.0
+PAVXPYLFOXMXUMO,2,0.0
+DAJUCY,2,0.0
+SAXA.Inc.,2,0.0
+"McAfee, Inc.",2,0.0
+SuperProject,2,0.0
+Polycom Inc.,2,0.0
+Ceph,2,0.0
+IEZJVSTLQNBX,2,0.0
+Huawei BPIT,2,0.0
+Zinkler & Brandes GmbH,2,0.0
+VMW,2,0.0
+BXDQCDNIB,2,0.0
+Yahoo,2,0.0
+parspack,2,0.0
+MQCRMQF,2,0.0
+"HARP co., ltd.",2,0.0
+CACSUOEGVOXNDGPVZ,2,0.0
+NOC,2,0.0
+Agat-Release,2,0.0
+PiiGAB,2,0.0
+CQBKHUWSJWI,2,0.0
+Management_Service..kasv5c,2,0.0
+RT-AX88U-52B0_CA,2,0.0
+SdV Plurimedia,2,0.0
+L68h8m9clwionw,2,0.0
+TPV Technology Limited,2,0.0
+CSCB05..6js6w7,2,0.0
+rss-srv.local,2,0.0
+ASPEED Technology Inc.,2,0.0
+ZQPUJPFPMU,2,0.0
+Webmin Webserver on web02.apco.co.jp,2,0.0
+"Nintendo Co., Ltd.",2,0.0
+00:1C:7F:93:BB:EE..p52xz3,2,0.0
+"Parallels, GmbH.",2,0.0
+UWC Holdings Sdn Bhd,2,0.0
+Webmin Webserver on mail,2,0.0
+Tobit.Labs,2,0.0
+SXJKYAGIMDFNVB,2,0.0
+NEXG_FW,2,0.0
+BeyondTrust,2,0.0
+Certera,2,0.0
+Invenium Data Insights GmbH,2,0.0
+UXLNOXGPTRTN,2,0.0
+WTGSVXBVIRT,2,0.0
+Verifone,2,0.0
+Dormakaba,2,0.0
+FCA NV,2,0.0
+Splunk,2,0.0
+RoiNet,2,0.0
+truen.,2,0.0
+leagsoft,2,0.0
+BR2T,2,0.0
+Netflix Inc,2,0.0
+BUKGDIP,2,0.0
+SHIELD-JUENGER.juenger.at.gjax9v,2,0.0
+ZGYALTAU,2,0.0
+DKDVGVWVYBTIPM,2,0.0
+VTFYQVG,2,0.0
+1703,2,0.0
+FYEOVHG,2,0.0
+European Commission,2,0.0
+EULLYSLS,2,0.0
+UY-VMFWMGMT01..amnjj9,2,0.0
+Sipwise GmbH,2,0.0
+Teltonikab8611318,2,0.0
+OWKFRTX,2,0.0
+HTKWK,2,0.0
+Vaisala Oyj,2,0.0
+NetApp,2,0.0
+TCGCVPXYGQQ,2,0.0
+Finanz Informatik,2,0.0
+access_networks,2,0.0
+Webmin Webserver on chttl-8fd1e5b8a56ce7e2,2,0.0
+kapweb,2,0.0
+PUBG Corp,2,0.0
+Webmin Webserver on snkserv,2,0.0
+LEDE703d203b,2,0.0
+00:1C:7F:AD:46:26..ueb94v,2,0.0
+cam technology company,2,0.0
+UZVPDUBGVS,2,0.0
+EAA,2,0.0
+ASKEY Computer Corporation,2,0.0
+Consistem Sistemas LTDA,2,0.0
+n/a,2,0.0
+SKY,2,0.0
+QUALCOMM,2,0.0
+LargeHostCollider,2,0.0
+WIUSK,2,0.0
+ROOT,2,0.0
+VUBBDQIZ,2,0.0
+Linkplay Technology Inc.,2,0.0
+KILOVIEW Co Ltd,2,0.0
+Sphera-Domain..vttmiq,2,0.0
+EMRI HEALTH SERVICES,2,0.0
+SQGVKYWQCSSGT,2,0.0
+Webmin web server on ans03.89grad.ch,2,0.0
+LX,2,0.0
+zhanqun,2,0.0
+LAUXHJPDLKVBYUKVSD,2,0.0
+Internal,2,0.0
+Hgiga Inc,2,0.0
+OMGGSEXA,2,0.0
+GridPane,2,0.0
+Wiline Networks,2,0.0
+raw,2,0.0
+Amano,2,0.0
+JP-Secure,2,0.0
+Webmin Webserver on hemis,2,0.0
+"PortaOne, Inc.",2,0.0
+Future Sprits,2,0.0
+Intelliport Solutions Ltd,2,0.0
+KSYun,2,0.0
+Rsupport,2,0.0
+Management_Service..vhero3,2,0.0
+"OCLC, Inc.",2,0.0
+BangOlufsen,2,0.0
+Proxmox Datacenter Manager,2,0.0
+AB Hur Oy,2,0.0
+Online Solutions Oy,2,0.0
+Webmin Webserver on reverse-203-172-40-186.csloxinfo.net,2,0.0
+Nexus SDV,2,0.0
+MISKXCIB,2,0.0
+"FileMaker, Inc",2,0.0
+Crenein,2,0.0
+ZSYJEPEOBSQSAA,2,0.0
+FXMCUQJN,2,0.0
+PinnalceWorks Infotech Pvt. Ltd.,2,0.0
+JNC VirtualServer,2,0.0
+TWEKYDU,2,0.0
+PZXWAMGLQAZEMVP,2,0.0
+Fetel,2,0.0
+Networks & More!,2,0.0
+Philips Healthcare Informatics RI,2,0.0
+InterWorx,2,0.0
+Ben Software Ltd,2,0.0
+WCHISMNTYIECXV,2,0.0
+Adyen B.V.,2,0.0
+justgoodluck.com,2,0.0
+天翼云科技有限公司,2,0.0
+XX230v,2,0.0
+AgoraVita,2,0.0
+Ally,2,0.0
+"Hennessy & Roach, P.C.",2,0.0
+hvacc,2,0.0
+"i-PRO Co., Ltd.",2,0.0
+Genesis IT AB,2,0.0
+"Cisco System, Inc",2,0.0
+Ponton Consulting GmbH,2,0.0
+SystemZone,2,0.0
+Right Networks Proxy,2,0.0
+INNIHUZENIPUCH,2,0.0
+OUK,2,0.0
+Beijing,2,0.0
+NNYZENGBCCMNIXZ,2,0.0
+AIEXWKWZQY,2,0.0
+Webmin Webserver on plesk.frandonseafoods.ca,2,0.0
+Volkswagen Group of America,2,0.0
+Orange Polska S.A.,2,0.0
+IPA.P3LAB.COM,2,0.0
+UTVOXWRDEARMXVII,2,0.0
+"Teradek, LLC",2,0.0
+Chatman Design,2,0.0
+A. K. Tulsyan & Associates,2,0.0
+RZNLMFKLBC,2,0.0
+Stub Ceritficates Inc.,2,0.0
+_,2,0.0
+FreshTomato,2,0.0
+host.offersareraining.com,2,0.0
+00:1C:7F:DA:DC:20..4txqp8,2,0.0
+dinstar,2,0.0
+SVBOMVDLTKTKJRAD,2,0.0
+Global UGREEN CA Inc,2,0.0
+INSYS icom GmbH,2,0.0
+Allianz Polska,2,0.0
+XDWVINZP,2,0.0
+WCHKUBOCQVUJSYGC,2,0.0
+photon-machine,2,0.0
+Keeling,2,0.0
+WBCRLURM,2,0.0
+AS,2,0.0
+Zimbra Collaboration Suite,2,0.0
+convox,2,0.0
+iPORTO,2,0.0
+Ksenia Security srl,2,0.0
+Web Hosting Services,2,0.0
+Johnson Controls,2,0.0
+Wedos Internet a.s.,2,0.0
+PLLRNAJ,2,0.0
+BitTorrent,2,0.0
+SDMGTUOKDRPSVY,2,0.0
+Resideo Technologies Inc.,2,0.0
+Eniris,2,0.0
+DYITS,2,0.0
+Viecelli,2,0.0
+LEDE13095778,2,0.0
+Crafty Controller,2,0.0
+Webmin Webserver on s1,2,0.0
+vps-d81608c7.vps.ovh.net,2,0.0
+Eisoo,2,0.0
+Seeweb s.r.l.,2,0.0
+1955,2,0.0
+PingCAP,2,0.0
+RT-AX3000-1B58_CA,2,0.0
+ArrayNetworks Inc.,2,0.0
+00:1C:7F:B7:32:1C..dqrndk,2,0.0
+NBTASSGZKZHIL,2,0.0
+DZHNOUPDAJIGJ,2,0.0
+Teltonika8a6160da,2,0.0
+4Ws Netdesign GbR,2,0.0
+TLROOMHSKFS,2,0.0
+Ammux,2,0.0
+FedEx,2,0.0
+MobileIron,2,0.0
+Digi International Inc,2,0.0
+HUTBPICNTNBYL,2,0.0
+InTouch,2,0.0
+NRBPIYTSGAL,2,0.0
+SG,2,0.0
+FXBO,2,0.0
+LiteLLM Gateway,2,0.0
+Sendmail,2,0.0
+Mbit,2,0.0
+IWSMFNSBTTBP,2,0.0
+v-solution,2,0.0
+PGIWKYOIIQWGRY,2,0.0
+ENDOR.PL,2,0.0
+Immoscope,2,0.0
+XRIDLV,2,0.0
+EOQECDBSUXH,2,0.0
+LTASBLAF,2,0.0
+"Internet Widgets, Inc.",2,0.0
+ScalarX,2,0.0
+Carlo Gavazzi Controls S.p.a.,2,0.0
+DGCUZEOWCQFWUOW,2,0.0
+XUMSNFDTV,2,0.0
+checkpoint-mgmt..ojydri,2,0.0
+Whitecode,2,0.0
+Self-signed for v1735313169.v-server.me,2,0.0
+kaze,2,0.0
+Check Point Software Technologies Ltd.,2,0.0
+Security,2,0.0
+DFORZDFM,2,0.0
+Juniper Networks,2,0.0
+BSOCUM,2,0.0
+ExtronElectronics,2,0.0
+GGOZHNJBKNMMQN,2,0.0
+UOSBWMVMC,2,0.0
+China,2,0.0
+Router,2,0.0
+MYJXVIPGZLAJLEQ,2,0.0
+Acme Corporation,2,0.0
+TW,2,0.0
+alpitronic,2,0.0
+10_1_8_11,2,0.0
+example inc,2,0.0
+cdn.tvteka.com,2,0.0
+行政院,2,0.0
+KPKZWSQ,2,0.0
+Trivore,2,0.0
+Lotus Tech,2,0.0
+Positive Software,2,0.0
+KYUXHXWFHN,2,0.0
+Alaska Communications Systems Inc,2,0.0
+ESAAONDZQEI,2,0.0
+Netshield Limited,2,0.0
+XUVBRVRW,2,0.0
+SWLJWOXH,2,0.0
+Wallbox,2,0.0
+Teradici Corporation,2,0.0
+Teltonikae7dafc5d,2,0.0
+Snap One LLC,2,0.0
+MySelf,2,0.0
+WUDZQTFUOPRIFHETC,2,0.0
+ZLTFALLCD,2,0.0
+ELECOM,2,0.0
+Alcatel,2,0.0
+ICN,2,0.0
+Tesla Inc.,2,0.0
+LJNAXRXN,2,0.0
+VIDEOR E. Hartig GmbH,2,0.0
+K Ramakrishnan Colege of Engineering,2,0.0
+Webmin Webserver on CYBERCONIQ01.sitedudes.com,2,0.0
+RISE GmbH,2,0.0
+VergeOS,2,0.0
+Lammer IT,2,0.0
+WIYSMIQFMV,2,0.0
+SQGSBEBSOGDZDMMJF,2,0.0
+GDVYQOVD,2,0.0
+Wiesemann & Theis GmbH,2,0.0
+AZRoad,2,0.0
+KWRVSVTRKL,2,0.0
+Elitecore,2,0.0
+Tech,2,0.0
+UEVAD,2,0.0
+RDNDYLUIIBHIQXIMXS,2,0.0
+KONAMIDigitalEntertainmentCoLtd,2,0.0
+DP,2,0.0
+MaxMD,2,0.0
+iPECS,2,0.0
+NNPUTPPEFMBP,2,0.0
+HJDRMLEYIXDSKRDIK,2,0.0
+VINFAST LLC,2,0.0
+SOMXGFZXYDP,2,0.0
+Acquia,2,0.0
+Streisand,2,0.0
+Hitron Technologies,2,0.0
+LKOFCZWPQGWVZQ,2,0.0
+ymer..f6h9ig,2,0.0
+DOMENY.PL sp. z o.o,2,0.0
+Cloudflare Inc,2,0.0
+MIVBTECSPIFQFBXU,2,0.0
+formotion GmbH,2,0.0
+MGMT-VSX-EPM..wfb84r,2,0.0
+AGH University of Science and Technology,2,0.0
+IPCam,2,0.0
+OpenWrt033069ECC99757EA,2,0.0
+Polycom DMA 7000,2,0.0
+TiVo Inc.,2,0.0
+Benocs,2,0.0
+Littera,2,0.0
+Remote Access,2,0.0
+FWTPAKT,2,0.0
+XC_VM,2,0.0
+JFDZMDNYWUSFQPZIX,2,0.0
+Demo,2,0.0
+POSVEMESQLBCYFKGDF,2,0.0
+"QZ Industries, LLC",2,0.0
+UCLA,2,0.0
+Passepartout s.p.a,2,0.0
+"Alibaba Cloud Computing Co., Ltd.",2,0.0
+centos7-custom,2,0.0
+SWIFT,2,0.0
+XCYLRK,2,0.0
+BMNDOPWQMF,2,0.0
+YLUJVRTIGDFJGQAHAF,2,0.0
+Internet Initiative Japan Inc.,2,0.0
+EYMBZQZRJTX,2,0.0
+OpenWrt1B23177A7ADFB9E9,2,0.0
+Penta Security Systems Inc.,2,0.0
+CPISA Ltd.,2,0.0
+GGSJLVYC,2,0.0
+SelfSignedCertificate,2,0.0
+FEZTCLBHLCMUAJJF,2,0.0
+gabia,2,0.0
+RCJLJJNUTXPDON,2,0.0
+pfSense,2,0.0
+Troling LTD,2,0.0
+ODS,2,0.0
+mgmtfw01..a2eam2,2,0.0
+HUOXCCXO,2,0.0
+cloudbackup.management,2,0.0
+QYWGS,2,0.0
+International Business Machines Corporation,2,0.0
+Storm Black,2,0.0
+KRDPDBAEJD,2,0.0
+Keynet,2,0.0
+WLHMLUYAG,2,0.0
+MyOrganization,2,0.0
+mgd-data,2,0.0
+Management_Service..hxqy2i,2,0.0
+OpenWrt254be2a6,2,0.0
+BXSZJXCFMVX,2,0.0
+00:1C:7F:9C:2B:ED..seterd,2,0.0
+Netmedia,2,0.0
+TQKYBKLEKJMDYVHBJC,2,0.0
+UAB IT Solutions,2,0.0
+RT-AX88U-F8D0_CA,2,0.0
+TFFWSBNT,2,0.0
+ROJCOWJT,2,0.0
+CloudStick LLC,2,0.0
+Stonebridge Associates,2,0.0
+one,2,0.0
+Konfido,2,0.0
+Intel Corporation,2,0.0
+Root CA,2,0.0
+PIMMBXLNZGAFLSU,2,0.0
+KeyTrak,2,0.0
+XKRAJH,2,0.0
+Stanley Zenith Innovation S.A.,2,0.0
+DZXXJIMEMUHXIVA,2,0.0
+RRFBIOG,2,0.0
+Personal,2,0.0
+DPIYEMDGSL,2,0.0
+Webstion Netwroks,2,0.0
+"PortaOne, Inc. 296_1633",2,0.0
+Epsoft Srl,2,0.0
+PROGICA,2,0.0
+KON-Network,2,0.0
+PointWild Inc,2,0.0
+LIOFJYHUWHWR,2,0.0
+Nextgen,2,0.0
+ASKEY,2,0.0
+00:1C:7F:B2:BD:AA..esrgkx,2,0.0
+QLBH3,2,0.0
+NetLock Kft.,2,0.0
+Automatically created by Exceed TurboX Install,2,0.0
+MGFPWQFFT,2,0.0
+KXTHBJXK,2,0.0
+GN&C Ltda.,2,0.0
+Arakis,2,0.0
+QM,2,0.0
+Viditis,2,0.0
+RAXQCYHFTNSVVSSW,2,0.0
+JHQWTCIRXETXNAFAC,2,0.0
+generic,2,0.0
+Clearswift,2,0.0
+FGYEFRJXYQLQ,2,0.0
+KEBESWXNOF,2,0.0
+webadmin,2,0.0
+Webmin Webserver on bkp-forms,2,0.0
+RFUXIAO,2,0.0
+Entrust Inc,2,0.0
+LuCId Keymaster,2,0.0
+VNPT,2,0.0
+Debian SMTP,2,0.0
+RWI,2,0.0
+XTHGUULD,2,0.0
+XTALNUCPDZEED,2,0.0
+"Com Net, Inc.",2,0.0
+"QNAP Systems, Inc",2,0.0
+IQHNUG,2,0.0
+WSVBNPUYLEMWFG,2,0.0
+"Philips Healthcare Informatics, Inc",2,0.0
+Rapid7,2,0.0
+00:1C:7F:B6:DC:69..jbpnpj,2,0.0
+Mythic,2,0.0
+CDAITSystems,2,0.0
+00:1C:7F:B8:0B:2D..dyfgg3,2,0.0
+ioBroker GmbH,2,0.0
+RBSPTTEBLL,2,0.0
+Active Backup for Business,2,0.0
+ESA,2,0.0
+Empresa,2,0.0
+OAISQNX,2,0.0
+Waga,2,0.0
+Tripleplay Services,2,0.0
+Getflix,2,0.0
+Conauto,2,0.0
+QVREJT,2,0.0
+VAZMOCS,2,0.0
+XGSYUXHWMHSRBOD,2,0.0
+ICANN,2,0.0
+vcenter65.cs.nccu.edu.tw,2,0.0
+Payara Foundation,2,0.0
+ADB Broadband S.p.A.,2,0.0
+Velociraptor CA,2,0.0
+ADFCCPRRJKDPPVNWM,2,0.0
+OneinStack,2,0.0
+Soluciones Corporativas IP,2,0.0
+KKDLPFPVWZHOMSRC,2,0.0
+QGJXDPXX,2,0.0
+TP,2,0.0
+TAE Power Solutions,2,0.0
+Webmin Webserver on server,2,0.0
+ZenWiFi_XD4-27E0_CA,2,0.0
+RT-AX55-C0D0_CA,2,0.0
+ProFtpd,2,0.0
+Teiron,2,0.0
+Clavister AB,2,0.0
+Sipco,2,0.0
+RCNNMGFBKLSEELPLCB,2,0.0
+EMC Corporation,2,0.0
+AKUVOX,2,0.0
+SomeCompany,2,0.0
+YPBUYF,2,0.0
+ChillyRoom,2,0.0
+WireGuard VPN,2,0.0
+"Visual Japan Co., Ltd.",2,0.0
+Foobar Systems,2,0.0
+"Fuzhou Quyun Information Technology Co., Ltd",2,0.0
+"Haivision Network Video, Inc.",2,0.0
+Octohide,2,0.0
+dainik Jagran,2,0.0
+NUJXC,2,0.0
+"DBAppSecurity.,Ltd.",2,0.0
+THEZWNAITQBLXGAAYT,2,0.0
+RXFZVVQAOUMRDIYJBK,2,0.0
+Claranet,2,0.0
+TWEYCBCCJVU,2,0.0
+EKYZXQMVFLRW,2,0.0
+A,2,0.0
+ZDXWHZTZVZCQRY,2,0.0
+Aditya Infotech Ltd.,2,0.0
+RIEQSWEY,2,0.0
+EYCCCINZKOS,2,0.0
+DBZPEQQXTX,2,0.0
+HYUOJMOMDJUVGSMYA,2,0.0
+WJLUWNDZO,2,0.0
+KVQHQDY,2,0.0
+DUZFVTIDKTKLRZRU,2,0.0
+IKWZEQHIWEBLPXNAS,2,0.0
+Webmin Webserver on toymall.easyaccounts.com,2,0.0
+Webmin Webserver on router1-pe300.efonianet.com,2,0.0
+SURJPKDZRD,2,0.0
+Mesto Lom,2,0.0
+REDNNJQYDLLNVS,2,0.0
+OpenWrt67043015,2,0.0
+WEVMGEBDDIUGUXUTL,2,0.0
+JVDIMU,2,0.0
+Telco Tech GmbH,2,0.0
+CZDHDTWTZODUSFP,2,0.0
+QABDSBMEXFORHYSDS,2,0.0
+YourOrg,2,0.0
+RSA Engineering Inc,2,0.0
+Hefame,2,0.0
+Praim Srl,2,0.0
+XUXEXJMSS,2,0.0
+IUZCRQ,2,0.0
+QYODPYHFHOSXG,2,0.0
+RT-AX58U-E7A8_CA,2,0.0
+DBEYGSKKVHZJU,2,0.0
+BBSHXUGUGIAFZN,2,0.0
+EE,2,0.0
+ICFOSS,2,0.0
+OMICRONelectronicsGmbH,2,0.0
+asc,2,0.0
+CAMEO,2,0.0
+Webmin Webserver on photo,2,0.0
+Mesh,2,0.0
+NetModule,2,0.0
+"ACTIVE 24, s.r.o.",2,0.0
+Guardian Inc.,2,0.0
+Paxton Access Ltd,2,0.0
+"Tesla, Inc.",2,0.0
+VM-0-5-ubuntu,2,0.0
+LNS Services PL Sp. z o.o,2,0.0
+Tuya Global Inc.,2,0.0
+Mikro + Repro AG,2,0.0
+VAHHZGIGUEEBW,2,0.0
+Resource Data Management Ltd,2,0.0
+TL-MR150,2,0.0
+IBBUWXOIDFIJGLWVWH,2,0.0
+ICBC International Futures Limited,2,0.0
+Firehose,2,0.0
+SweetConnect GmbH,2,0.0
+Salt Protection LLC.,2,0.0
+QLDPTKEKONOV,2,0.0
+"Company, Inc.",2,0.0
+snom technology AG,2,0.0
+SAVGIHBVGH,2,0.0
+tomcom GmbH,2,0.0
+srv5.galnov.uk,2,0.0
+CheckWatt,2,0.0
+SHHXETTUIWYL,2,0.0
+SOAEDPQEJPZ,2,0.0
+XFWEDSBFTRGBMXB,2,0.0
+CRA-MON-CP-MGT-1..frihrg,2,0.0
+北京新网数码信息技术有限公司,2,0.0
+EX520v,2,0.0
+ad,2,0.0
+maipu,2,0.0
+WAVBMMQL,2,0.0
+ht,2,0.0
+Petrolink,2,0.0
+JQEPFWEGIOSEIW,2,0.0
+Artefactual Systems Inc,2,0.0
+ShareTech,2,0.0
+MetaQuotes Software Corp.,2,0.0
+0,2,0.0
+TrafficVision,2,0.0
+FITOSQBUORDVSI,2,0.0
+MSRINZ,2,0.0
+alarm.com,2,0.0
+ESQTDU,2,0.0
+WILIBOX UAB,2,0.0
+Axon Networks,2,0.0
+OPWDVUXGSUDGCHD,2,0.0
+Webmin Webserver on cubieHomeSrv,2,0.0
+RT-AX58U-0890_CA,2,0.0
+SRW.CZ,2,0.0
+X9 Financial PKI,2,0.0
+GROUPWISE-SYSTEM,2,0.0
+CHS Electronics Kft,2,0.0
+00:1C:7F:B7:31:88..ghhjhs,2,0.0
+Dxdo1g5q4..tnvo5p,2,0.0
+QTTMRBJCQYRI,2,0.0
+ansit-com GmbH,2,0.0
+StarCharge,2,0.0
+AZYCQZAXXAKYQSWX,2,0.0
+NBELNSKXKUWVOTHYC,2,0.0
+United SSL Deutschland GmbH,2,0.0
+Fujitsu Technology Solutions GmbH,2,0.0
+Wind Tre S.p.A.,2,0.0
+REVI Engineering srl,2,0.0
+Ergo,2,0.0
+Sophos Ltd,2,0.0
+holcma..9x3fhq,2,0.0
+ZenWiFi_XT8_CA,2,0.0
+ZyXEL Communications Corporation,2,0.0
+GFRDDZOMZKZ,2,0.0
+UNAM,2,0.0
+YMWOASUTFYZLALIZ,2,0.0
+fwmgmt.vector-network.co.nz.k9qet3,2,0.0
+Default Server,2,0.0
+Rochester Institute of Technology,2,0.0
+IWXASLLLT,2,0.0
+cel tech,2,0.0
+ANB,2,0.0
+NAGQUYAWKQSIDHOIX,2,0.0
+XNBIRKHGDNDZROT,2,0.0
+"ATEN INTERNATIONAL CO.,LTD",2,0.0
+WPTKQCHDANKZH,2,0.0
+grabdish,2,0.0
+BEIJING,2,0.0
+NICENOVA,2,0.0
+King,2,0.0
+ntback99..6jwthj,2,0.0
+SecureLink,2,0.0
+vcenter,2,0.0
+EZLJKOCKTTCCWAF,2,0.0
+ByteDance SPIFFE EDGE-CN,2,0.0
+myGayPlaces,2,0.0
+British Telecommunications plc,2,0.0
+Google Test,2,0.0
+host.bigdealandsurprises.com,2,0.0
+Webmin Webserver on scw-diablo-basic,2,0.0
+Zoho,2,0.0
+Hao Quang Viet Software Company Limited,2,0.0
+BNMCY,2,0.0
+CapWIN,2,0.0
+RIXYQCHCWEDVTQFJ,2,0.0
+"Foo Bar, Inc",2,0.0
+Teltonika74772674,2,0.0
+CA 030325,2,0.0
+RT-AX86U-47C0_CA,2,0.0
+XLGOFDOTRTV,2,0.0
+MercaNet LTDA,2,0.0
+SKPWY,2,0.0
+Fr. Sauter AG,2,0.0
+DTMNMKULPIYLAP,2,0.0
+D-Link Ltd,2,0.0
+CRBTLAJLTRHXOETCAI,2,0.0
+lancable,2,0.0
+cs1.BG,2,0.0
+CHM-VPN,2,0.0
+Fortinet Inc,2,0.0
+Servisys di Temporini Matteo,2,0.0
+THPGODMNZHPBAAQAEF,2,0.0
+Webmin Webserver on vms_control_1,2,0.0
+QZUMHWOFAVH,2,0.0
+Windy Hill Farm,2,0.0
+CSIOZ,2,0.0
+Broadleaf Technologies,2,0.0
+Red Hat,2,0.0
+LeadSec,2,0.0
+Buffalo,2,0.0
+Auerswald GmbH & Co. KG,2,0.0
+Bosch Sicherheitssysteme GmbH,2,0.0
+Daimler AG,2,0.0
+Pronet Bilisim,2,0.0
+Microsemi Inc,2,0.0
+VPN,2,0.0
+QWGAALO,2,0.0
+EQOIYOBNDLOAOOOMR,2,0.0
+Teltonika57f58b67,2,0.0
+QMCCDBSGDMOYGOIOI,2,0.0
+AUZLLGIGTRNJXCTU,2,0.0
+WNUWBUZNQDTVXW,2,0.0
+SIZRVIFWZFBQJ,2,0.0
+JXMAV,2,0.0
+Slican sp. z o.o.,2,0.0
+GMS,2,0.0
+EfficientIP,2,0.0
+jv-net.net,2,0.0
+KEK,2,0.0
+BH Tech,2,0.0
+AGVEY,2,0.0
+ASU,2,0.0
+origin,2,0.0
+Axigen,2,0.0
+FlowFact AG,2,0.0
+FHFCPCZC,2,0.0
+Porteus Solutions,2,0.0
+KEBA,2,0.0
+XN020-G3v,2,0.0
+Makati City Hall,2,0.0
+JCSCIKJYNYCOORVA,2,0.0
+Webmin Webserver on servizim3,2,0.0
+Netone,2,0.0
+RT-AX3000-1C90_CA,2,0.0
+Management_Service..hbiu7w,2,0.0
+MyCompany LLC,2,0.0
+CanWeb Internet Services Ltd,2,0.0
+Sooma.com Web Services Lda,2,0.0
+Mimecast Services Ltd,2,0.0
+DPEOGKMV,2,0.0
+BlueWave Technologies,2,0.0
+MKBiT,2,0.0
+奇安信科技集团股份有限公司,2,0.0
+ZenWiFi_XT8-3B90_CA,2,0.0
+VLFTIJQT,2,0.0
+ddss,2,0.0
+AYCDXMDMMCWNK,2,0.0
+Swadesh Mohanty,2,0.0
+isufwm..5yhyz5,2,0.0
+fw-mgmt..8oqb3y,2,0.0
+LOZFCKFZUPBANRSQA,2,0.0
+LCEVYYLITHUSUEVM,2,0.0
+VLBVPCXH,2,0.0
+YHBAEVDZABBE,2,0.0
+Celocore GmbH,2,0.0
+MYKRIS ASIA SDN BHD,2,0.0
+Ouman Group,2,0.0
+THOMSON,2,0.0
+paltechno.com,2,0.0
+QUVDF,2,0.0
+AIVQOMUP,2,0.0
+QDWXFP,2,0.0
+00:1C:7F:B6:EB:AC..nhvqu8,2,0.0
+CMA-granarolo..bunufk,2,0.0
+TJQWZW,2,0.0
+OJODLDHHOJL,2,0.0
+Asguard,2,0.0
+Joshco,2,0.0
+Panther User,2,0.0
+BIYRRWHYOKWOPYMA,2,0.0
+login,2,0.0
+cyberneticos,2,0.0
+AAA,2,0.0
+REOLINK,2,0.0
+Diskominfo,2,0.0
+ZUIBSTWEKLC,2,0.0
+UFIHC,2,0.0
+Webmin Webserver on ix-standard-template,2,0.0
+ThamesWater,2,0.0
+sazcpmngt01..yysddz,2,0.0
+Webmin Webserver on iav.ac.ma,2,0.0
+ip198.ip-192-99-207.net,2,0.0
+LigaHosting,2,0.0
+Opex ehf,2,0.0
+AKAMAI,2,0.0
+Self-signed for example.com,2,0.0
+XITHILCHNB,2,0.0
+HDE,2,0.0
+Pydio Cells CA,2,0.0
+Comm_Sense_Ltd,2,0.0
+Webmin Webserver on gamma,2,0.0
+YWNTLJYRT,2,0.0
+Orb,2,0.0
+ISFNVXZENKSQI,2,0.0
+FIJGWRUCKHWP,2,0.0
+ccmx-fw..ekrcvq,2,0.0
+Lefty,2,0.0
+FedEx Corporation,2,0.0
+DVYZTYA,2,0.0
+LiteServer,2,0.0
+IT4CARE.CZ,2,0.0
+JVZUEF,2,0.0
+EHLCKUBQCZ,2,0.0
+Mellon Technologies,2,0.0
+ZenWiFi_XT8-AA20_CA,2,0.0
+Radio Westerwolde,2,0.0
+Webmin Webserver on kvm.billvpn.com,2,0.0
+WTDTDHCWT,2,0.0
+Private_CA,2,0.0
+ISKRATEL,2,0.0
+Ezadmin Server,2,0.0
+sh.sh,2,0.0
+CYBERSOFT,2,0.0
+mdp.edu.ar,2,0.0
+Allworx,2,0.0
+GLEISGR,2,0.0
+bouilhac.net,2,0.0
+YCLAKPYSDOR,2,0.0
+Invalid,2,0.0
+DDVYCLV,2,0.0
+ICEFLOW,2,0.0
+PL CA,2,0.0
+TP-Link Systems Inc.,2,0.0
+eVorsorge Systems GmbH,2,0.0
+Pebble Camden Micro SpA,2,0.0
+GeoWebServer,2,0.0
+00:1C:7F:7D:3F:63..avtaeb,2,0.0
+RT-AX3000-0E10_CA,1,0.0
+gw-2a6b6b..kpofaa,1,0.0
+IRB,1,0.0
+IP Address,1,0.0
+modpro.be,1,0.0
+RT-AX3000-4190_CA,1,0.0
+Teltonikad655dcfc,1,0.0
+Bunkyo Univ.,1,0.0
+ZenWiFi_XT8-A050_CA,1,0.0
+Sai Service Pvt Ltd,1,0.0
+SPC CONSULTANTS,1,0.0
+29663.bigscoots-wpo.com,1,0.0
+VigilanzaGroup,1,0.0
+RT-AX3000P-DE00_CA,1,0.0
+RT-AX86U-F360_CA,1,0.0
+Zhopped,1,0.0
+Oleas,1,0.0
+TASSTA GmbH,1,0.0
+SMS_CTIC_01..9nxy5r,1,0.0
+CHIME POLYMERS P LTD,1,0.0
+19908.bigscoots-wpo.com,1,0.0
+Rheumatism Medical and Regional Network Association,1,0.0
+BULiGL_Radom,1,0.0
+Pasadena Supply AS,1,0.0
+JWQQQNBQ,1,0.0
+Winning Form Pty Ltd,1,0.0
+LMSL,1,0.0
+mail.purecloud.icu,1,0.0
+PAU,1,0.0
+Webmin Webserver on lnxsrv01.southeastnetworks.com,1,0.0
+Webmin Webserver on ns20820.ovh.net,1,0.0
+Evertz,1,0.0
+SuperEffort,1,0.0
+RT-BE92U-C1F0_CA,1,0.0
+Tel-On,1,0.0
+Email Marketing One stop SAAS portal,1,0.0
+adacpmp01..ibo4pe,1,0.0
+Doreiku,1,0.0
+00:1C:7F:9B:A0:59..ckqw48,1,0.0
+China Mobile Group Sichuan Sub-Company,1,0.0
+Game Center,1,0.0
+9059.bigscoots-wpo.com,1,0.0
+ALMEIDA PARENTE,1,0.0
+00:1C:7F:B2:2D:B6..x9gxuv,1,0.0
+pop3d,1,0.0
+DroNet,1,0.0
+mailsapi.sapi.gob.ve,1,0.0
+aktivkonzepte,1,0.0
+cyy,1,0.0
+Alef,1,0.0
+Claro Chile S.A.,1,0.0
+HX141,1,0.0
+uzbconnect.syntomax.com,1,0.0
+GT-AXE16000-2A38_CA,1,0.0
+NVFHLDOVB,1,0.0
+sparkinter.com,1,0.0
+Privat,1,0.0
+Teltonika44acd277,1,0.0
+EksperciMarketingu.pl,1,0.0
+GraphicBomb LLC,1,0.0
+"Graematter, Inc.",1,0.0
+LSO.ALERTPAGE.US,1,0.0
+00:1C:7F:2D:A8:8A..fa5kbn,1,0.0
+Connellsville Area School District,1,0.0
+Dahl Auto,1,0.0
+Ashburton Dental Centre,1,0.0
+GBIO,1,0.0
+Sweat Family,1,0.0
+Wish,1,0.0
+Confident Dental Equipments Pvt Ltd,1,0.0
+CPMGMT_MAX..y43pht,1,0.0
+Takshashila Unviversity,1,0.0
+FASTLANE S.r.l.,1,0.0
+sehosts.com,1,0.0
+ZenWiFi_XD4-BD70_CA,1,0.0
+backstage,1,0.0
+RT-AX86U-6638_CA,1,0.0
+ANSP,1,0.0
+Origia,1,0.0
+Gatekeeper Self-Signed,1,0.0
+Schiller AG,1,0.0
+Management_Service..siydi3,1,0.0
+HwaCom Systems Inc.,1,0.0
+BlueMind,1,0.0
+Totalizator Sportowy,1,0.0
+ACM solution s.r.l.,1,0.0
+BM Creative Solutions Inc,1,0.0
+MTSI,1,0.0
+Hedy,1,0.0
+SK,1,0.0
+iZmj7hbm564iopkpeir444Z,1,0.0
+Secretaria Nacional de Turismo,1,0.0
+Lespin Sp. z o.o.,1,0.0
+OpenSandbox,1,0.0
+00:1C:7F:B9:F1:1E..f2sekd,1,0.0
+Paynet,1,0.0
+Teltonika0617cc09,1,0.0
+Liberdus,1,0.0
+AHDX,1,0.0
+a1474f7e9d8976259d589a25d20ec375,1,0.0
+Self-signed for mail.proleadsinfo.com,1,0.0
+TUF-AX5400-BB58_CA,1,0.0
+"PlumbingSupply Group, LLC",1,0.0
+Management_Service..kwopog,1,0.0
+SeoSamba,1,0.0
+Medleypharma,1,0.0
+"Centric Software, Inc.",1,0.0
+RT-AX57-1E10_CA,1,0.0
+FileCap,1,0.0
+ANTEL-STG-VM01,1,0.0
+Sloan Basin Instruments Pte Ltd,1,0.0
+Ekinops,1,0.0
+Aurascape Inc.,1,0.0
+sophie-matthieu.eu,1,0.0
+GT-AX11000-7240_CA,1,0.0
+Clavister,1,0.0
+PUSPENERBAD,1,0.0
+berqnet,1,0.0
+max,1,0.0
+GT-AX6000-8510_CA,1,0.0
+Bluemix,1,0.0
+LEHMANNS-MM.cp.hlkomm.net.cp.hlkomm.net.f4ovka,1,0.0
+scc63255f.fastvps-server.com Org,1,0.0
+Webmin Webserver on atom029.my-simplyroot.de,1,0.0
+Chess-Results,1,0.0
+f126fry11209..mz63rv,1,0.0
+Zapen,1,0.0
+wecifwm01.winbond.com.tw.ebaksm,1,0.0
+Mulesoft,1,0.0
+ip&more GmbH,1,0.0
+RT-AX82U-4528_CA,1,0.0
+ZenWiFi_XT8-1460_CA,1,0.0
+EtherTek Circuits,1,0.0
+s2e24db9c.fastvps-server.com Org,1,0.0
+OpenWrt9dff798e,1,0.0
+Private Person,1,0.0
+brcsfpmng01..qviwxz,1,0.0
+SMS..izqos7,1,0.0
+Microsoft Windows Azure Marketplace,1,0.0
+Amphitales,1,0.0
+RT-AX58U-2B60_CA,1,0.0
+OpenWrtb246802a,1,0.0
+GT-AXE16000-07BC_CA,1,0.0
+RT-AX57-3648_CA,1,0.0
+RT-AX86U-7B20_CA,1,0.0
+Adnet,1,0.0
+VMNIFEHPT,1,0.0
+i-cpmgmt1..nk9nvy,1,0.0
+GT-AX6000-F190_CA,1,0.0
+TRAUTZ,1,0.0
+ZenWiFi_XT8-E140_CA,1,0.0
+RT-AX58U-9A78_CA,1,0.0
+Simone Randazzo,1,0.0
+s989e0d0c.fastvps-server.com Org,1,0.0
+GT-AX11000_Pro-81B0_CA,1,0.0
+Colorado,1,0.0
+Sony Music Solutions Inc.,1,0.0
+YISZBP,1,0.0
+BBKETVLTBQNFN,1,0.0
+Piotavola,1,0.0
+IBWYUF,1,0.0
+CIMCON Lighting,1,0.0
+ZenWiFi_XD4-99B0_CA,1,0.0
+MOFI4500a8f66cfd,1,0.0
+Soborka,1,0.0
+Self-signed for debian.c.lotus-hebergement.internal.,1,0.0
+Crazy Tech India,1,0.0
+Professional Automotive,1,0.0
+GS7_Pro-1A90_CA,1,0.0
+RT-AX3000-C4A8_CA,1,0.0
+GT-AX11000-A590_CA,1,0.0
+GT-AX6000-28A0_CA,1,0.0
+HPHOUMRIOX,1,0.0
+Loadbalancer.org,1,0.0
+28040.bigscoots-wpo.com,1,0.0
+srv30496.blue.kundencontroller.de,1,0.0
+Maddy Self-Signed,1,0.0
+NCR,1,0.0
+Abbott Labs,1,0.0
+00:1C:7F:97:95:C4..aqjojs,1,0.0
+Verizon Enterprise Solutions,1,0.0
+Webmin Webserver on Debian-70-wheezy-64-minimal,1,0.0
+Cisco Small Business,1,0.0
+"INTERNET CZ, a.s.",1,0.0
+Fanvil,1,0.0
+provider.mknod.com.br,1,0.0
+Sheber,1,0.0
+GT-AX11000-7FF0_CA,1,0.0
+GT-AX6000-9030_CA,1,0.0
+ChunghwaPost,1,0.0
+RT-AX82U-52E0_CA,1,0.0
+RT-AX55-E878_CA,1,0.0
+INDUSTRIA,1,0.0
+AlphaIBC,1,0.0
+GT-AX11000-36F0_CA,1,0.0
+vpn672152509.softether.net,1,0.0
+RT-AXE7800-51E0_CA,1,0.0
+ Unify,1,0.0
+LEDEfe4297e7,1,0.0
+JRPSSQHM,1,0.0
+FW-MGMT.LOUWMAN.o64mzw,1,0.0
+"Antik Telecom, s.r.o.",1,0.0
+Koffiedanmaar,1,0.0
+Webmin Webserver on sd-88725,1,0.0
+RT-BE86U-EF68_CA,1,0.0
+EnderBoxHosting,1,0.0
+HTTPS-Self-Signed-Certificatea23e05eb,1,0.0
+YellowSolutions,1,0.0
+RT-AX89X-E490_CA,1,0.0
+OpenWrtdfe4c677,1,0.0
+scenic-lagoon,1,0.0
+GDG Crypt S.L.,1,0.0
+Blip,1,0.0
+my-vaultwarden,1,0.0
+Sterling,1,0.0
+Ministerio da Saude,1,0.0
+labuhanbatukab.go.id,1,0.0
+SH+C GmbH,1,0.0
+00:1C:7F:B7:C0:F0..yraosd,1,0.0
+XLOG Firewall,1,0.0
+00:1C:7F:DD:01:D0..p63ph4,1,0.0
+Koron,1,0.0
+RT-BE92U-E580_CA,1,0.0
+"Recurly, Inc",1,0.0
+Iroquois West CUSD 10,1,0.0
+Seppim-Cuba,1,0.0
+EX521,1,0.0
+Pape Group,1,0.0
+Stryke,1,0.0
+Netasq,1,0.0
+Land Hessen,1,0.0
+ZenWiFi_XD4-AA90_CA,1,0.0
+DuiZhan.Inc,1,0.0
+Lounge_CA,1,0.0
+HaL0_Un1V3r53_CA,1,0.0
+Teltonika8335ce8f,1,0.0
+SYTUH,1,0.0
+daikyoseiko,1,0.0
+SWIAT,1,0.0
+"Zhejiang Geely Holding Group Co., Ltd",1,0.0
+94-46-186-162.as42831.net,1,0.0
+RT-AX86U-B7A8_CA,1,0.0
+IPdiva stokomani,1,0.0
+ContentKeeper Technologies,1,0.0
+MGT-MIT-IL-01.redit.com.6346dw,1,0.0
+f9321556f71bcd4bbb434ffe2bfc6465,1,0.0
+fina,1,0.0
+ZenWiFi_XD5-7C00_CA,1,0.0
+ZenWiFi_XT9-EB20_CA,1,0.0
+VM-4-14-centos,1,0.0
+Wayne Kerr,1,0.0
+GT-AX11000-F3B0_CA,1,0.0
+s6ab15a8d.fastvps-server.com Org,1,0.0
+Bytec,1,0.0
+RT-AX3000-8990_CA,1,0.0
+iZj6c2irgouvtgghzfimfbZ,1,0.0
+Alsenz Apotheke,1,0.0
+Opera,1,0.0
+"Liquidware Labs, Inc.",1,0.0
+bpacaman,1,0.0
+上海仲尼软件有限公司,1,0.0
+MPKJ,1,0.0
+VOICT B.V.,1,0.0
+RT-AX58U-EDC0_CA,1,0.0
+YOQDHCUT,1,0.0
+ZenWiFi_XT8-2C10_CA,1,0.0
+ZenWiFi_XT8-3A60_CA,1,0.0
+Samana Businessmen Services,1,0.0
+Licel,1,0.0
+Studio Carmanello,1,0.0
+LDI,1,0.0
+Netvlies,1,0.0
+LGCCDLFB,1,0.0
+SSSKRGSW,1,0.0
+Seemeshna,1,0.0
+Arokiait pvt Ltd,1,0.0
+a7.net.br,1,0.0
+vpn-private629,1,0.0
+fdcfwmgmt01.flyfrontier.com.6wtyou,1,0.0
+"Kaonmedia Co., Ltd.",1,0.0
+HCS,1,0.0
+WINNINGTON METAL COMPANY,1,0.0
+kmfwmgmt.kobie.com.3et26f,1,0.0
+GT-AX11000-C3A0_CA,1,0.0
+RT-AX59U-5F0E_CA,1,0.0
+1808785.xorek.cloud,1,0.0
+AWRT,1,0.0
+Telenia,1,0.0
+Ikhlas Studio,1,0.0
+OpenWrt7AFDC9C8073199EB,1,0.0
+Estore Corporation,1,0.0
+Terms of use at www.verisign.com/rpa (c)05,1,0.0
+Netcombb,1,0.0
+"OpenWrt4904*
+da",1,0.0
+nrezzz4vpn164606939.softether.net,1,0.0
+certa-vpn-c5.softether.net,1,0.0
+Keysight Inc,1,0.0
+HHTZSLTDTYJHD,1,0.0
+SCE Informproject,1,0.0
+00:1C:7F:7B:7D:53..za8hug,1,0.0
+RT-AX55-BD50_CA,1,0.0
+CHU Guadeloupe,1,0.0
+ABI,1,0.0
+lkpo,1,0.0
+RT-AX58U-7738_CA,1,0.0
+Ceramiche virginia,1,0.0
+Self-signed for vmi2294040.contaboserver.net,1,0.0
+ECN Solution Limited,1,0.0
+ECoCoMS Ltd,1,0.0
+Typo3Buero,1,0.0
+Interato,1,0.0
+TurnKey GNU/Linux,1,0.0
+THBCGJCYPQETIYSX,1,0.0
+ZenWiFi_XT8-42E0_CA,1,0.0
+City of Edwardsville,1,0.0
+UAUEICNDKNYMUNGLSC,1,0.0
+Web,1,0.0
+vpshelper,1,0.0
+Self-signed for host.worldbricks.com,1,0.0
+"Shenyang Neusoft Systems Integration Co., Ltd.",1,0.0
+Centro Business,1,0.0
+team.visiun.ir,1,0.0
+Merlin-Koolshare,1,0.0
+Webmin Webserver on eudoramuteq.uteq.edu.ec,1,0.0
+00:1C:7F:B9:56:B1..yzuufx,1,0.0
+Agrow allied ventures p ltd,1,0.0
+TFO,1,0.0
+AgilCRM Demo,1,0.0
+GROUPE JAMAINBACO,1,0.0
+NOANET,1,0.0
+Worknet Ltd,1,0.0
+saas.opsserver.ch,1,0.0
+PLATAFORMA INFORMATICA S.A.S.,1,0.0
+OSS0PLVFM15.akqui.net.etdz5h,1,0.0
+K.K. IIDA,1,0.0
+TUF-AX5400-8800_CA,1,0.0
+Sercomm,1,0.0
+CHANEL,1,0.0
+RT-AX55-B2D8_CA,1,0.0
+ZenWiFi_XD5-EAD0_CA,1,0.0
+GT-AX11000-5E10_CA,1,0.0
+flareon,1,0.0
+S-W SERVER,1,0.0
+RT-AX86U-CE30_CA,1,0.0
+ae-e-ckps.arianespace.fr.mi2dib,1,0.0
+RT-AX88U-7A18_CA,1,0.0
+Fenix Digital,1,0.0
+KPMG POC,1,0.0
+Sergio Rossi,1,0.0
+2blabelselche.softether.net,1,0.0
+LG Electronics Inc,1,0.0
+数据库审计,1,0.0
+OSG,1,0.0
+Slugnoodle,1,0.0
+RT-AX82U-6F68_CA,1,0.0
+WtTech,1,0.0
+TL-MR100-Outdoor,1,0.0
+00:1C:7F:7E:28:D9..k79zzb,1,0.0
+13831.bigscoots-wpo.com,1,0.0
+OpenWrt81A519CA024FE4A6,1,0.0
+lxlabs,1,0.0
+"DSSI, Lda.",1,0.0
+Narodowy Bank Polski,1,0.0
+ZenWiFi_XD4-6740_CA,1,0.0
+Seatankers Management,1,0.0
+mycompany.local,1,0.0
+vps-ccom05.vinnarmail.com,1,0.0
+Shipco.com,1,0.0
+Webmin Webserver on vps1935.directvps.nl,1,0.0
+RT-AX82U-6E28_CA,1,0.0
+Government Transaction Services,1,0.0
+PNETLab,1,0.0
+RT-AX86U_Pro-9EC0_CA,1,0.0
+UMail,1,0.0
+Get2world Systems GmbH,1,0.0
+Iagetec,1,0.0
+Teltonikadd064284,1,0.0
+user,1,0.0
+BLACKBOARD,1,0.0
+NCCS,1,0.0
+Teltonika6a55675c,1,0.0
+ccy,1,0.0
+CIMEX SERVICES,1,0.0
+00:1C:7F:B6:AF:29..cj2o9d,1,0.0
+Clinaris GmbH,1,0.0
+sms-prod-saude-01.saude.ma.gov.br.xr6s5z,1,0.0
+guest,1,0.0
+Lightspeed Systems,1,0.0
+REGO,1,0.0
+duality.nol.ag,1,0.0
+Painel Financeiro,1,0.0
+RT-AX82U-A700_CA,1,0.0
+correofoip.dongee.com,1,0.0
+s9542287b.fastvps-server.com Org,1,0.0
+RT-AX82U-3A00_CA,1,0.0
+79.188.176.142,1,0.0
+j-grab.co.jp,1,0.0
+e-zustellung.at,1,0.0
+CON.SAR. S.r.l.,1,0.0
+SBXGHA,1,0.0
+ibm,1,0.0
+Tripleone Tech,1,0.0
+Teltonika51c85b1e,1,0.0
+OpenWrt4332cf82,1,0.0
+RT-AX86U-ED58_CA,1,0.0
+RT-AX55-E5E8_CA,1,0.0
+Computer-Service-Buchholz GmbH,1,0.0
+Webmin web server on bacula,1,0.0
+Teltonika081de6aa,1,0.0
+mail.grono.com.ua,1,0.0
+MoreFTPd User,1,0.0
+iZt4n3heaznbihki0e3gbgZ,1,0.0
+eNiX,1,0.0
+Sandnes Kommune,1,0.0
+use1-cp-sms01.corp.climate.com.nbtu6b,1,0.0
+AppNova,1,0.0
+Data2Bio LLC,1,0.0
+Ebenyx,1,0.0
+OECD,1,0.0
+OpenWrtC3D5B9954AEFA36F,1,0.0
+fw-mgm-ng..2asfik,1,0.0
+groucho.klinikum-mannheim.de.e8defy,1,0.0
+Webmin Webserver on ns1.wf.net,1,0.0
+CGI CZ s.r.o.,1,0.0
+21523.bigscoots-wpo.com,1,0.0
+fwmgmt.digilabra.fi.q66v2v,1,0.0
+Drone,1,0.0
+RT-AX86S-0040_CA,1,0.0
+proxy-online,1,0.0
+00:1C:7F:B5:1F:5E..i6odpk,1,0.0
+"Polymer Innovations (Singleton, NSW)",1,0.0
+freepbx.sangoma.local,1,0.0
+CAG,1,0.0
+Self-signed for vmi2709424.contaboserver.net,1,0.0
+FreeSoft,1,0.0
+Johnny Was,1,0.0
+Public Prosecution,1,0.0
+maya.mondosoft.ro,1,0.0
+Locus,1,0.0
+DONAU RHEIN LOGISTIK,1,0.0
+SAS,1,0.0
+RT-AX82U-11B8_CA,1,0.0
+Gnet,1,0.0
+1710,1,0.0
+ComDoCh GmbH,1,0.0
+"Audidata Sistemas, S.L.",1,0.0
+GT-AX11000-CCC0_CA,1,0.0
+RT-AX86S-8150_CA,1,0.0
+Triple L,1,0.0
+Tejar,1,0.0
+SOCOM,1,0.0
+ZenWiFi_Pro_ET12-11A0_CA,1,0.0
+Switchvox UUID:40921a89-7184-42f0-ae28-c92affd2d2a5,1,0.0
+RT-AC68U-7298_CA,1,0.0
+TX-AX6000-1FCA_CA,1,0.0
+Tenaya Design,1,0.0
+Katholischer Hospitalverbund Hellweg,1,0.0
+TMMXFPOJKSG,1,0.0
+Delta Air Lines Inc,1,0.0
+Nasuni,1,0.0
+iZ6we2a5ltr94rajf4lb7oZ,1,0.0
+MGMT..q7gqkx,1,0.0
+Avi Networks,1,0.0
+RT-AC1900P-D3F0_CA,1,0.0
+TUF-AX5400-2D78_CA,1,0.0
+Checkmk Site fvits,1,0.0
+VCSDS.drukkerdv.com,1,0.0
+Teltonika87ea5f44,1,0.0
+Yosemite Central,1,0.0
+ISQMMIM,1,0.0
+Redenlaces SA,1,0.0
+LLC Mail.Ru,1,0.0
+RT-AX58U-7018_CA,1,0.0
+CJ,1,0.0
+Embryolisse,1,0.0
+fwmgmt.suminet.com.ezrxij,1,0.0
+KeyBalance,1,0.0
+00:1C:7F:AC:D7:A6..yutk8n,1,0.0
+RT-AX88U-89A8_CA,1,0.0
+CTCloud,1,0.0
+ACME Inc.,1,0.0
+FOCUS_AI,1,0.0
+cpmanage.farragut.com.6juxpz,1,0.0
+tx.34986x2.co,1,0.0
+Webmin Webserver on newgravite,1,0.0
+......,1,0.0
+XnBay,1,0.0
+Flexim Security Oy,1,0.0
+AmazingThings,1,0.0
+MyProxy,1,0.0
+HO-CPMGT.nigeria.firstbank.local.v2nnbo,1,0.0
+AWiND,1,0.0
+Webmin Webserver on webserver2,1,0.0
+shield-krems..46rsa3,1,0.0
+Pt. Kencana Gemilang,1,0.0
+Capella Systems LLC,1,0.0
+ctf.com.tn,1,0.0
+Mycronic AB,1,0.0
+RT-AX82U-0498_CA,1,0.0
+ZenWiFi_XT8-BF50_CA,1,0.0
+obptest,1,0.0
+Vedcoma Finance Ltd,1,0.0
+Sushi Sushi Pty. Ltd.,1,0.0
+pegaso..i3jx3m,1,0.0
+Asian-United Food Service,1,0.0
+Self-signed for server.autoparts.com,1,0.0
+247Hire,1,0.0
+Allegro Senior Living,1,0.0
+Freepbx,1,0.0
+Z,1,0.0
+00:1C:7F:BB:3E:30..hacmix,1,0.0
+Webmin web server on vmi815192.contaboserver.net,1,0.0
+Teltonika2477e7cc,1,0.0
+Government of the Province of British Columbia,1,0.0
+"EEG Enterprises, Inc.",1,0.0
+occrp,1,0.0
+Cisco System,1,0.0
+Webmin Webserver on syskodow,1,0.0
+MULTILEARNING,1,0.0
+00:1C:7F:73:59:A3..b5ay4e,1,0.0
+TCNNTVSOYVSVDZTAFG,1,0.0
+SCA,1,0.0
+"Ebocom,LLC",1,0.0
+RT-AX86U-6A98_CA,1,0.0
+RT-AX86U-0000_CA,1,0.0
+softkali360,1,0.0
+Phoenix Contact GmbH & Co. KG,1,0.0
+Teltonika3ebce401,1,0.0
+NewTrafik Group,1,0.0
+sa080d6af.fastvps-server.com Org,1,0.0
+GenieATM,1,0.0
+Total World Travel,1,0.0
+STIPE Servers Australia,1,0.0
+kubesre,1,0.0
+RT-AX86U-AB30_CA,1,0.0
+"DAITO TRUST CONSTRUCTION CO.,LTD.",1,0.0
+Radius Gateway,1,0.0
+RT-AXE7800-5930_CA,1,0.0
+Teltonika06e66192,1,0.0
+BASCOPCO,1,0.0
+GT-AX6000-3128_CA,1,0.0
+Designhouse,1,0.0
+mendelson-e-commerce GmbH,1,0.0
+Techordev,1,0.0
+Zevenet SL,1,0.0
+fw-mgmt..itgnj2,1,0.0
+StreamBond MHUB,1,0.0
+MAENDELEO BANK PLC,1,0.0
+Teltonikac6eec715,1,0.0
+Self-signed for do11.huraapps.com,1,0.0
+Spillvert.no,1,0.0
+Changeable Worlds,1,0.0
+ZenWiFi_XT8-7520_CA,1,0.0
+Rafamet S.A.,1,0.0
+RT-AX86U-43D8_CA,1,0.0
+asopcpmgmt01.llbnet.li.llbnet.li.j9jgob,1,0.0
+00:1C:7F:AC:E0:02..dvo6tu,1,0.0
+RT-AX57-1B98_CA,1,0.0
+TRILOCHAN NETRALAYA,1,0.0
+LEDEa615d02f,1,0.0
+21145.bigscoots-wpo.com,1,0.0
+Webmin Webserver on artrage,1,0.0
+mensch.softether.net,1,0.0
+Nosto Solutions Oy,1,0.0
+00:1C:7F:B8:95:37..iw5ayv,1,0.0
+Công ty điện lực Bắc Ninh,1,0.0
+galaxy,1,0.0
+Teltonikac8269e8e,1,0.0
+ZenWiFi_XT8-E230_CA,1,0.0
+FCHBZGMO,1,0.0
+smPGJDF.pgj.pgjdf.gob.mx.rk96kk,1,0.0
+Teltonika5b91139e,1,0.0
+Self-signed for mail.riskgratis.com,1,0.0
+Airbly,1,0.0
+CBJX-FWMG1..sizmin,1,0.0
+Darkrose,1,0.0
+orimi.com.ua,1,0.0
+RT-AX88U-01F0_CA,1,0.0
+SC Transylvania Consulting SRL,1,0.0
+Depo KFT,1,0.0
+"Self-signed for cloud2.tukihost.com
+",1,0.0
+SoftENGINE GmbH,1,0.0
+TUF-AX5400-4CA8_CA,1,0.0
+00:1C:7F:B5:5A:C3..yz4bie,1,0.0
+RT-AX58U-85B0_CA,1,0.0
+Brawn Laboratories Ltd,1,0.0
+sjaluminios.softether.net,1,0.0
+Acqueon,1,0.0
+ZenWiFi_XT8-4660_CA,1,0.0
+ZenWiFi_XD4-BB00_CA,1,0.0
+Tobit.Software,1,0.0
+Gon,1,0.0
+s8b9355d4.fastvps-server.com Org,1,0.0
+Gr,1,0.0
+Valencia,1,0.0
+The University of Alabama in Huntsville,1,0.0
+RSA,1,0.0
+RT-AX86U-ABB8_CA,1,0.0
+CITI-Smart-1-210..66uern,1,0.0
+PSIran,1,0.0
+Cato Networks Ltd.,1,0.0
+FB Local Proxy,1,0.0
+306ebd67d87b,1,0.0
+advance.zprocure.com,1,0.0
+Elaborazione Paghe,1,0.0
+SANSEC,1,0.0
+kiyozato.softether.net,1,0.0
+Nerkin Games,1,0.0
+VECC,1,0.0
+Dyris IT Services,1,0.0
+STIKes Mitra Husada Medan,1,0.0
+nokiaip520..kyt3qr,1,0.0
+OpenWrtc5413ecb,1,0.0
+00:1C:7F:BA:8C:64..6nh5ib,1,0.0
+ghost,1,0.0
+MCNetworks,1,0.0
+INI TECHNOLOGIES PVT LTD,1,0.0
+Magna Group,1,0.0
+ZenWiFi_XT9-BBD0_CA,1,0.0
+MLBCM,1,0.0
+Thirdlane LLC,1,0.0
+Self-signed for vpsok.cz,1,0.0
+TUF-AX5400-8D68_CA,1,0.0
+mail.q-tex.kz,1,0.0
+Company Ltd,1,0.0
+DCD Protected Mobility,1,0.0
+TeliaSonera,1,0.0
+OpenWrtCB2ED7C5D7AE9D87,1,0.0
+Sage,1,0.0
+TUF-AX5400-2DA8_CA,1,0.0
+RT-AX58U-7B50_CA,1,0.0
+EATON Industries GmbH,1,0.0
+Webmin web server on proteusgmk,1,0.0
+mail.srv-sim.voxcon.net,1,0.0
+Panjiva,1,0.0
+Imerco,1,0.0
+OPENRURAL,1,0.0
+mail.xeme.com.cn,1,0.0
+Basco Products Uganda Limited,1,0.0
+CODETAY. ,1,0.0
+Self-signed for vps-c7231616.vps.ovh.net,1,0.0
+RRDGMJAUBOIC,1,0.0
+Basin Street Properties,1,0.0
+Garage Viet,1,0.0
+gig,1,0.0
+ZenWiFi_XT8-B050_CA,1,0.0
+Actility,1,0.0
+Unisoft Engineering Ltd.,1,0.0
+WebHolder,1,0.0
+OpenWrt931EFC9EB22BD374,1,0.0
+QRTYXB,1,0.0
+SOCOTEC,1,0.0
+Gingerlily,1,0.0
+9203864,1,0.0
+extnet-mgmt..noxkne,1,0.0
+SCBPP..cneahp,1,0.0
+Data2,1,0.0
+mediaire,1,0.0
+intkomp.pl,1,0.0
+Landary,1,0.0
+NXN Software,1,0.0
+s8e20ec84.fastvps-server.com Org,1,0.0
+ZenWiFi_XT8-2160_CA,1,0.0
+Alcon Vision LLC,1,0.0
+Zennio Avance y TecnologÃ­a S.L.,1,0.0
+OpenWrt90426e94,1,0.0
+host.vipposti.com,1,0.0
+se06cb88a.fastvps-server.com Org,1,0.0
+Self-signed for vps287354.vps.ovh.ca,1,0.0
+Iger inc.,1,0.0
+Company Inc.,1,0.0
+IHE Europe,1,0.0
+HOICSVVPSI,1,0.0
+Augsburg University,1,0.0
+ZenWiFi_XT8-6420_CA,1,0.0
+PKI-1-Verwaltung,1,0.0
+TUF-AX5400-4C10_CA,1,0.0
+Refuah Health Center,1,0.0
+GT-AXE16000-DF98_CA,1,0.0
+Anona,1,0.0
+3731ec50bba25649059665217999a98a,1,0.0
+LEDEc05f9c5a,1,0.0
+centeronibus.com.br,1,0.0
+TriDanim,1,0.0
+ovo,1,0.0
+Italstock,1,0.0
+DDPP,1,0.0
+RT-AX86U-7BC0_CA,1,0.0
+ZenWiFi_XT8-3240_CA,1,0.0
+RT-BE82U-8038_CA,1,0.0
+Webmin Webserver on SRV-MIKROMOTOR-BONIS,1,0.0
+one.com,1,0.0
+datasystems.fr,1,0.0
+sophos,1,0.0
+knecht-strassenbau.de,1,0.0
+Miro Distribution,1,0.0
+DSL-AX82U-AF58_CA,1,0.0
+JAWBRBBVYNFK,1,0.0
+Boriana Ltd.,1,0.0
+bt electronics,1,0.0
+RT-AX86U-2F28_CA,1,0.0
+RT-AX82U-82B0_CA,1,0.0
+donati-group.com,1,0.0
+vcenter.bx0.lacak.io,1,0.0
+YMCA of Greater Nashua,1,0.0
+ZenWiFi_XT8-1230_CA,1,0.0
+ABON Dharmasraya,1,0.0
+Trust,1,0.0
+ZenWiFi_XD4-AFD0_CA,1,0.0
+Clownshoes,1,0.0
+Vindhya Telelinks Ltd,1,0.0
+NetElastic Systems Inc,1,0.0
+snackball..n5pwiw,1,0.0
+Scaleway Inference,1,0.0
+Paul-Simmel-Grundschule,1,0.0
+Skyflow Inc,1,0.0
+Kissu,1,0.0
+RT-AX88U-A610_CA,1,0.0
+E SIA,1,0.0
+Luckychicks Ltd,1,0.0
+RT-AX88U-6DA0_CA,1,0.0
+AlphaSonic Technologies (pvt) ltd,1,0.0
+Comservgroup,1,0.0
+Alphemy,1,0.0
+Seiler und Karatag GbR,1,0.0
+epcan GmbH,1,0.0
+Rijkswaterstaat,1,0.0
+RT-AX88U-91F8_CA,1,0.0
+RT-AX82U-7248_CA,1,0.0
+AGESIC,1,0.0
+fw061131ckp.etesa.com.pa.dib9zu,1,0.0
+BTC AD,1,0.0
+ZenWiFi_XT8-4C10_CA,1,0.0
+Exclusief.net B.V.,1,0.0
+Propellerhead,1,0.0
+ZenWiFi_XT8-EC70_CA,1,0.0
+00:1C:7F:B3:3C:B2..n4eqt9,1,0.0
+ByteMaster,1,0.0
+RINUX,1,0.0
+PorsuSalud,1,0.0
+LEDE4f346333,1,0.0
+00:1C:7F:B5:10:53..xiizx7,1,0.0
+OpenWrt5f4f5f3c,1,0.0
+B2368_192.168.99.1,1,0.0
+"Okta, Inc.",1,0.0
+fwmgmt.miko.be.i9v43j,1,0.0
+IS,1,0.0
+GT-AX11000_Pro-FF10_CA,1,0.0
+Motadata,1,0.0
+ZenWiFi_XD4-99D0_CA,1,0.0
+Antioch,1,0.0
+boss,1,0.0
+RT-AX3000-1EB0_CA,1,0.0
+Wand Local Development,1,0.0
+00:1C:7F:DC:3C:8B..gi4yd8,1,0.0
+RT-AX86U-8FD0_CA,1,0.0
+Webmin Webserver on vps-43cf69e5,1,0.0
+RT-AX86U-6550_CA,1,0.0
+11099.bigscoots-wpo.com,1,0.0
+Valued Meinberg Customer,1,0.0
+mail3.smej.org,1,0.0
+启明星辰,1,0.0
+RT-AX86U-0210_CA,1,0.0
+SynergySKY,1,0.0
+Dewsbury-FWA..4rar88,1,0.0
+QAX,1,0.0
+colhousedesigns.com,1,0.0
+19077.bigscoots-wpo.com,1,0.0
+Whitby Group,1,0.0
+Mailerlite,1,0.0
+PHYS.COLUMBIA.EDU,1,0.0
+Educadvisor S.L.,1,0.0
+UIA,1,0.0
+Management_Service..2x8g9t,1,0.0
+Hongmeng,1,0.0
+Independent Living Institute,1,0.0
+RT-BE82U-9948_CA,1,0.0
+InterNetX GmbH,1,0.0
+cce9236fcc7af43e3bc52bd65026418ed,1,0.0
+NATIONAL PAYMENTS CORPORATION OF INDIA,1,0.0
+VHT Corp,1,0.0
+北京中万网络科技有限责任公司,1,0.0
+Yooo,1,0.0
+Nes-New Energy Systems Ltd.,1,0.0
+RT-BE92U-5EB0_CA,1,0.0
+TCERS,1,0.0
+GT-BE98-94A0_CA,1,0.0
+CA Company Ltd,1,0.0
+Management_Service..jsh9fk,1,0.0
+DAQIVBHHJADPEQ,1,0.0
+Webmin Webserver on Sheconnect,1,0.0
+f34cb1e66e75b9216763d1a51e719763,1,0.0
+INPGI,1,0.0
+RT-AX58U-4490_CA,1,0.0
+TUF-AX5400-1350_CA,1,0.0
+Local Developement,1,0.0
+RTZN,1,0.0
+Digium,1,0.0
+higashimatsuyama-onodera.softether.net,1,0.0
+K Girdharlal International Pvt. Ltd.,1,0.0
+Best One Service s.r.o.,1,0.0
+Novacore (self-signed demo),1,0.0
+Teltonika9d81f9c1,1,0.0
+STP,1,0.0
+BRIGHT.GDN,1,0.0
+CDON,1,0.0
+Sobitsch GmbH,1,0.0
+ZenWiFi_XT8-6140_CA,1,0.0
+SManSoft,1,0.0
+bsmart.co.il,1,0.0
+London's Source for Sports,1,0.0
+00:1C:7F:B4:27:A1..9noekk,1,0.0
+My Network,1,0.0
+Teltonika697a06ee,1,0.0
+Self-signed for vps-6cc4ac8c.openstacklocal,1,0.0
+00:1C:7F:B2:E7:33..rpz53d,1,0.0
+Noku Phuket,1,0.0
+WOLF-HSW,1,0.0
+vpn524429832.softether.net,1,0.0
+00:1C:7F:B9:87:18..vash3u,1,0.0
+mail.f-alliance.com.ua,1,0.0
+Webmin Webserver on vps-2381695-x,1,0.0
+Palazzo Torlonia S.p.A.,1,0.0
+packer-5cd57e21-9f7a-3e3b-5291-5d68d5767314,1,0.0
+joinApps AG,1,0.0
+Konietzko,1,0.0
+RT-BE92U-0CF0_CA,1,0.0
+无线产品研发部,1,0.0
+"Sainet Corporation Co.,Ltd",1,0.0
+limant01.ill.co.at.yysorf,1,0.0
+FEEGOZJF,1,0.0
+BOSS-Recruiter,1,0.0
+Self,1,0.0
+Armex,1,0.0
+CUI,1,0.0
+RT-AX86U-8FD8_CA,1,0.0
+Landesmedienzentrum BW,1,0.0
+Vatoz,1,0.0
+WVDIQLXMZ,1,0.0
+vm1.revboot.com,1,0.0
+Vietkent,1,0.0
+Hdfc Bank Ltd,1,0.0
+Chery CA,1,0.0
+Debian,1,0.0
+cpsc..h5kybh,1,0.0
+Ecoservice,1,0.0
+game,1,0.0
+Self-signed for server.hydrigital.com,1,0.0
+"NIHON TECHNO CO.,LTD.",1,0.0
+Standard Bank of South Africa Limited,1,0.0
+Naldeo Digital for Climate,1,0.0
+Gemeindeverwaltung Schoenwald im Schwarzwald,1,0.0
+Acronis International GmbH,1,0.0
+Example Co,1,0.0
+zegin_test..pxatca,1,0.0
+Webmin Webserver on ns3020237,1,0.0
+Soft&Systems,1,0.0
+Esconet Technologies Ltd.,1,0.0
+RT-AX58U-D738_CA,1,0.0
+ANDRITZ GROUP,1,0.0
+AbacOWuerzburg,1,0.0
+Ilnet Transit AS,1,0.0
+Jenoov,1,0.0
+Etslink,1,0.0
+RT-AX58U-6DB8_CA,1,0.0
+NXG,1,0.0
+relay01.comtradecloud.com,1,0.0
+EHG opticonsulting Ltd,1,0.0
+DSH self-signed,1,0.0
+WestJet,1,0.0
+Hrider,1,0.0
+TUF-AX5400-F588_CA,1,0.0
+proradius,1,0.0
+CPMGMT..jb7mv8,1,0.0
+TUF-AX5400-53F0_CA,1,0.0
+DLINK,1,0.0
+s60fe4351.fastvps-server.com Org,1,0.0
+RT-AX3000-6880_CA,1,0.0
+ArchimedesRx,1,0.0
+UEMJGESG,1,0.0
+CFQGQLDOFOCGK,1,0.0
+GT-AX11000-D620_CA,1,0.0
+Holde AG,1,0.0
+Teltonikaaaea33f3,1,0.0
+eMudhra Limited,1,0.0
+Kaadas IoT,1,0.0
+mail.kyobashi-naika.com,1,0.0
+ZenWiFi_XT8-2AF0_CA,1,0.0
+localhost.localdom,1,0.0
+Goldrichtig,1,0.0
+Wißner-Verlag,1,0.0
+Lobster,1,0.0
+Zeitsprung Infotainment GmbH,1,0.0
+Webmin Webserver on academic.cmru.ac.th,1,0.0
+vpn966422969.softether.net,1,0.0
+ces.local,1,0.0
+PCSG01C2Z007..8frexs,1,0.0
+Allen Enginerring Corporation,1,0.0
+Laksmi-Do Corp.,1,0.0
+ESP Platform,1,0.0
+BDIWXNRQKUOFQBU,1,0.0
+Adamsclan,1,0.0
+BRK KV Rosenheim,1,0.0
+Teltonika6ff31c7e,1,0.0
+TUF-AX5400-7A98_CA,1,0.0
+RT-AX55-A468_CA,1,0.0
+Evri,1,0.0
+frankie..azmdin,1,0.0
+Global Interface Solutions Inc.,1,0.0
+bazoshop,1,0.0
+"FreeBit Co., Ltd.",1,0.0
+s33438db9.fastvps-server.com Org,1,0.0
+AliveServer,1,0.0
+Intervision,1,0.0
+00:1C:7F:9B:FE:85..yr8jwq,1,0.0
+Ardinova Consulting S.L.,1,0.0
+00:1C:7F:7E:19:1C..yngnix,1,0.0
+Cybertec Pty Ltd,1,0.0
+ZenWiFi_XT8-AB60_CA,1,0.0
+riranew.softether.net,1,0.0
+BDSJ,1,0.0
+netCORE Solutions Pvt Ltd,1,0.0
+TAMISEMI,1,0.0
+Hawera Finance,1,0.0
+Smart Systems LTD,1,0.0
+TONNET TELECOMMUNICATION INTERNATIONAL CORP.,1,0.0
+USUOAVICCYRKY,1,0.0
+UVRGRFLVMUVOIWPDZK,1,0.0
+Rudolph Cars,1,0.0
+Self-signed for hiesys.in,1,0.0
+8572.bigscoots-wpo.com,1,0.0
+00:1C:7F:7B:E4:F1..czer3e,1,0.0
+CHINASSL Inc,1,0.0
+RT-AX82U-3670_CA,1,0.0
+Rede Nacional de Ensino e Pesquisa - RNP,1,0.0
+Xi An Realor Co.Ltd.,1,0.0
+Centena Intl Services Pvt Ltd,1,0.0
+RT-AX3000-60A8_CA,1,0.0
+Ubiquiti2bd4806d,1,0.0
+dc223.kdata.vn,1,0.0
+Sander-Delmenhorst-Net,1,0.0
+mail.globomediatech.info,1,0.0
+OWS Vietnam,1,0.0
+TUF-AX5400-F750_CA,1,0.0
+DMUTAUDMISX,1,0.0
+Teltonika59343817,1,0.0
+RT-AX86S-D198_CA,1,0.0
+PassionCode,1,0.0
+OpenWrt3b6de518,1,0.0
+NECTA,1,0.0
+ISH,1,0.0
+"VOON, ONG & ASSOCIATES PLT",1,0.0
+OpenWrt5b3eb992,1,0.0
+RC.FM,1,0.0
+Ouyun Mail Bootstrap,1,0.0
+system:masters,1,0.0
+Actiontec Electronics,1,0.0
+RT-AX86S-B1D0_CA,1,0.0
+ZenWiFi_BT10-2FA0_CA,1,0.0
+Self-signed for host.l33d.be,1,0.0
+Webmin Webserver on orem.uteq.edu.ec,1,0.0
+Sun Capital Markets Ltd.,1,0.0
+RT-BE88U-22C0_CA,1,0.0
+00:1C:7F:B8:86:8F..2ymem9,1,0.0
+00:1C:7F:DC:F2:05..4wwfgi,1,0.0
+RT-AX58U-FD38_CA,1,0.0
+EKYYDPIB,1,0.0
+00:1C:7F:B7:08:2C..dhx26u,1,0.0
+1c_ua,1,0.0
+mybica AG,1,0.0
+MH-West..iek66z,1,0.0
+dagemaonline.de,1,0.0
+7Apples,1,0.0
+Stevens County,1,0.0
+a3d9197b765643568af09eb2bd3e5ce7,1,0.0
+vmi1468295.contaboserver.net,1,0.0
+CRO,1,0.0
+qihoo,1,0.0
+vpn891828738.softether.net,1,0.0
+Sorceti Expeditii si Transporturi,1,0.0
+SPX Serial,1,0.0
+GT-AX6000-3378_CA,1,0.0
+krang.enjoy.local,1,0.0
+WINS,1,0.0
+Peremba Malaysia Sdn Bhd,1,0.0
+RT-AX82U-2618_CA,1,0.0
+Netevia DEV,1,0.0
+easy-m.de,1,0.0
+Osoigo,1,0.0
+00:1C:7F:B9:FA:3B..xnvks6,1,0.0
+GT-AX11000-6020_CA,1,0.0
+nazwa.pl sp. z o.o.,1,0.0
+Core Technology Systems,1,0.0
+Computer Systems Plus,1,0.0
+RT-AX58U-3C00_CA,1,0.0
+Executive Office of the State of North Carolina,1,0.0
+CoSoSys Ltd.,1,0.0
+Bank GPB (JSC),1,0.0
+UVXIXB,1,0.0
+ZenWiFi_XT8-EB60_CA,1,0.0
+Supper,1,0.0
+RT-AX58U-6170_CA,1,0.0
+ZenWiFi_XD4-C7C0_CA,1,0.0
+Mullers-Home_CA,1,0.0
+hydrozoal GmbH,1,0.0
+WSFX_FW..5izx8g,1,0.0
+Endor.PL,1,0.0
+RT-AX88U-97F0_CA,1,0.0
+Transportes Quintanilla,1,0.0
+consitio.com,1,0.0
+NOSTRA,1,0.0
+BQ Internet Corporation,1,0.0
+ZenWiFi_XT8-A360_CA,1,0.0
+CP-MGMT..xhguuz,1,0.0
+RT-AX58U-2BD0_CA,1,0.0
+RT-AX3000S-CBCC_CA,1,0.0
+Alisal Union School District,1,0.0
+LumenSoft CA,1,0.0
+150-95-135-175,1,0.0
+Liquid Robotics,1,0.0
+SZPInet-MSK-CMA1.corp.suek.ru.2pnfi6,1,0.0
+C&O Tractors,1,0.0
+Solinfo Lighting,1,0.0
+American Family Mutual Holding Company,1,0.0
+RT-AX58U-4C28_CA,1,0.0
+RT-AX3000-BE90_CA,1,0.0
+gerencia-gazin.gazin.com.br.3z23v9,1,0.0
+Access,1,0.0
+filobu.com,1,0.0
+EJBCA Container Quickstart,1,0.0
+CP-SMS.magnetic.local.s79wkb,1,0.0
+"Amazon.com, Inc.",1,0.0
+$companyFullName,1,0.0
+dipano,1,0.0
+motami.net,1,0.0
+RT-AX86U_Pro-CD10_CA,1,0.0
+s3590ac90.fastvps-server.com Org,1,0.0
+Ardon,1,0.0
+teapay,1,0.0
+Self-signed for core.run.app.br,1,0.0
+Gunstig Fischen,1,0.0
+Aligned Solutions,1,0.0
+Librepago,1,0.0
+hf.vmware.corp,1,0.0
+LEITWERK FRANCE,1,0.0
+CITY POLICE TRAINING CENTER,1,0.0
+Webmin Webserver on portalsof,1,0.0
+s9b6fe175.fastvps-server.com Org,1,0.0
+MGE,1,0.0
+Webmin Webserver on ns3026340,1,0.0
+bpvpn001,1,0.0
+fwpolserv.pcc.local.g4pgna,1,0.0
+anc24 inc,1,0.0
+bcex,1,0.0
+Teltonika8178d47b,1,0.0
+Webmin Webserver on vmd88772.contaboserver.net,1,0.0
+RT-AX82U-5EC8_CA,1,0.0
+sec-fwmgt-01..p9jmuc,1,0.0
+sieva,1,0.0
+Camera Crew Services,1,0.0
+Nordhandwerk,1,0.0
+RT-AX58U-2480_CA,1,0.0
+Ecessa Corp.,1,0.0
+ingenuitygaming,1,0.0
+TRN,1,0.0
+ClickHouse Server,1,0.0
+BCJWA,1,0.0
+medicovip.local,1,0.0
+FQXXVNYBHXESJSQ,1,0.0
+Teltonika719a063f,1,0.0
+TAGGRS B.V.,1,0.0
+Poly Clariti Core/Edge,1,0.0
+PromoFirenze,1,0.0
+Alpha Technologies,1,0.0
+RT-AX86U_Pro-B3F0_CA,1,0.0
+JWTime,1,0.0
+OpenWrt5d313cf8,1,0.0
+MPS,1,0.0
+srv2.coka.ls.gov.rs,1,0.0
+Zahnarztpraxis Dr. Hiller,1,0.0
+The Noon Company,1,0.0
+VEI ITALIA,1,0.0
+cpmodule-DR.halkbank.local.v4rty7,1,0.0
+RT-AX59U-848C_CA,1,0.0
+tsuneo,1,0.0
+rednmoon,1,0.0
+33813.bigscoots-wpo.com,1,0.0
+MCST,1,0.0
+ZenWiFi_BD5-A360_CA,1,0.0
+Yola,1,0.0
+LaCie SA,1,0.0
+HKU CCMR,1,0.0
+RT-AC88U-3108_CA,1,0.0
+Ever Energy GmbH,1,0.0
+ZenWiFi_XT8-3470_CA,1,0.0
+Vemer SpA,1,0.0
+"CradlePoint, Inc.",1,0.0
+ZenWiFi_XT8-9A80_CA,1,0.0
+Notary Learning Center,1,0.0
+0cab9ece8ade0af5e068e905f47a0ad5,1,0.0
+ANTAGONIST.NL,1,0.0
+Management_Service..8kygb7,1,0.0
+live19.reviewpen.com,1,0.0
+dionaea.carnivore.it,1,0.0
+RT-AX58U-1538_CA,1,0.0
+Webmin Webserver on mits-server-1,1,0.0
+Grupo Dominus,1,0.0
+Comtec Enterprises Ltd,1,0.0
+aws,1,0.0
+Webmin Webserver on angstec.com,1,0.0
+SOPHOS TECHNOLOGIES pVT lTD,1,0.0
+TUF-AX5400-3078_CA,1,0.0
+Belooga inc,1,0.0
+Sayari,1,0.0
+RT-AX58U-AC88_CA,1,0.0
+MindOfJoe,1,0.0
+Volvo Group,1,0.0
+LightningIQ,1,0.0
+Nebul,1,0.0
+Solo.io,1,0.0
+aurora technical services,1,0.0
+Varie Valves private limited,1,0.0
+FAW-HQ,1,0.0
+OpenWrt2797cf99,1,0.0
+dfs-unmikdms-53.dpko.un.org.or2pgd,1,0.0
+00:1C:7F:7C:FB:C4..eb5fgv,1,0.0
+Xytronix Research & Design Inc.,1,0.0
+Cyberneticos,1,0.0
+RDBAOGRTVBPFU,1,0.0
+DigitalOcean,1,0.0
+LLC,1,0.0
+iZd7oh3lk2mkonnterv0daZ,1,0.0
+T&RB,1,0.0
+Webmin Webserver on IDBPMS,1,0.0
+"GLUESYS Co., Ltd.",1,0.0
+RT-AX57-2078_CA,1,0.0
+Aker Security Solutions,1,0.0
+WPLab,1,0.0
+1111,1,0.0
+Kelly Wearstler Lifestyle LLLP,1,0.0
+Network Box Corporation Ltd,1,0.0
+sobey,1,0.0
+docsync,1,0.0
+B J P Case Administration Management System,1,0.0
+GRID,1,0.0
+Win.Ltd,1,0.0
+Igreja Batista Capital,1,0.0
+Lecom Tecnologia S/A,1,0.0
+IDVAULT_TREE,1,0.0
+XiaopengMotors Ltd,1,0.0
+Merisis Technology Ltd,1,0.0
+Edwards Brothers,1,0.0
+MLC,1,0.0
+"Actran Systems Co., Ltd.",1,0.0
+cu,1,0.0
+IHC.RU,1,0.0
+VM-4-11-centos,1,0.0
+Difft Ltd,1,0.0
+POLARBEAR.GROUP,1,0.0
+RT-AX86U-6420_CA,1,0.0
+EU2..3wwtko,1,0.0
+XBERAPJEPXO,1,0.0
+NodeMedia,1,0.0
+SWS-DR-CP-SMS01..hynkp5,1,0.0
+Webmin Webserver on ns3364981,1,0.0
+Webmin Webserver on v157-7-133-108.myvps.jp,1,0.0
+Amatic Industries,1,0.0
+00:1C:7F:90:1E:6A..rohs6x,1,0.0
+ONELAN Ltd,1,0.0
+MDS_Unistar.unistarlc.local.ojhpn6,1,0.0
+Insero Air Traffic Solutions A/S,1,0.0
+Technosoft Hongkong Ltd,1,0.0
+Ajax Systems,1,0.0
+Panasonic Eco Solutions,1,0.0
+Teltonika5c88fe28,1,0.0
+ZenWiFi_Pro_ET12-1DF0_CA,1,0.0
+owariya-gakki,1,0.0
+Webmin Webserver on web04.linktelcorp.com,1,0.0
+Stellantis N.V.,1,0.0
+TIH,1,0.0
+RT-AX88U-13F8_CA,1,0.0
+RT-AXE7800_CA,1,0.0
+Unicompra,1,0.0
+Risio,1,0.0
+wldns.nl,1,0.0
+00:1C:7F:BA:90:7C..kpsgc5,1,0.0
+ZenWiFi_XT8-0090_CA,1,0.0
+RT-AX55-A8A0_CA,1,0.0
+DreamTec Ltd.,1,0.0
+AgroTi,1,0.0
+00:1C:7F:B3:A4:1B..973roc,1,0.0
+Samsung,1,0.0
+Management_Service..8ahac5,1,0.0
+RT-AX82U-36E8_CA,1,0.0
+Centro de Proc Dados de MT - Cepromat,1,0.0
+ZenWiFi_ET8-E340_CA,1,0.0
+RT-AX82U-86B0_CA,1,0.0
+CariadProxy,1,0.0
+L3IA,1,0.0
+ZenWiFi_XD4-0DA0_CA,1,0.0
+TUF-AX5400-3970_CA,1,0.0
+TNG Stadtnetz GmbH,1,0.0
+Teltonika60ef04b0,1,0.0
+humanoide,1,0.0
+rockenstein AG,1,0.0
+ZenWiFi_Pro_XT12-C8A0_CA,1,0.0
+SpinnerTech,1,0.0
+Self-signed for srv.limfjord.net,1,0.0
+nn,1,0.0
+Self-signed for vps.local,1,0.0
+honeybooboo limited,1,0.0
+OpenWrtb334edcf,1,0.0
+Logical Net,1,0.0
+RT-AX82U-6768_CA,1,0.0
+Hosting Endpoint,1,0.0
+GT-AX6000-9F00_CA,1,0.0
+Webmin Webserver on li1447-9.members.linode.com,1,0.0
+hv.local,1,0.0
+Mimecast Ltd,1,0.0
+fly.dev,1,0.0
+Hetzner Online GmbH,1,0.0
+OpenWrt2aac019f,1,0.0
+ZenWiFi_Pro_ET12-EF40_CA,1,0.0
+"Indomarco Prismatama, pt",1,0.0
+dangerously.softether.net,1,0.0
+ZenWiFi_BQ16-B258_CA,1,0.0
+676fdcb46d89746f74e80c8bc88ca9ff,1,0.0
+Schubert CleanTech GmbH,1,0.0
+Teltonika7602576c,1,0.0
+itexa,1,0.0
+TUF-BE6500-9EC4_CA,1,0.0
+RT-AX3000-3F08_CA,1,0.0
+mgcp18..d5mtzf,1,0.0
+IT Consulting Braunwalder,1,0.0
+PartaNetworks,1,0.0
+Glotech Sdn. Bhd.,1,0.0
+LEDE3a798a7d,1,0.0
+ZenWiFi_XD4-8AD0_CA,1,0.0
+00:1C:7F:97:7E:8E..fedz8o,1,0.0
+Teltonikaa5c84d6a,1,0.0
+RT-AX88U_Pro-BAA8_CA,1,0.0
+IKI,1,0.0
+OpenWrt60e349bc,1,0.0
+SkillBridgeAI,1,0.0
+"Calcbench, Inc.",1,0.0
+TMUK_SDMZ_BECKTON.oam.eeint.co.uk.iyg9or,1,0.0
+Cisco Virtual Wireless LAN Controller,1,0.0
+HIBJHITDAU,1,0.0
+LEDEd30cee04,1,0.0
+RT-AX58U-2300_CA,1,0.0
+_unregistered_vpn129148262.softether.net,1,0.0
+DoverFS,1,0.0
+ASMENT CAMPANIA,1,0.0
+server197166.igo.vn,1,0.0
+Teltonika423d38c6,1,0.0
+RT-AX58U-9FF0_CA,1,0.0
+00:1C:7F:B0:24:98..nm2mmf,1,0.0
+AgSigma,1,0.0
+FBS Markets Inc.,1,0.0
+Ecopia,1,0.0
+Vedanta Software,1,0.0
+"NGL Energy Partners, L.P.",1,0.0
+pc-halle GmbH,1,0.0
+CASA SYSTEMS,1,0.0
+setcomtech,1,0.0
+00:1C:7F:B7:F5:6E..seonij,1,0.0
+Odin Research Center LTD,1,0.0
+shs,1,0.0
+Digital Aviation Services,1,0.0
+RT-AX3000-9F98_CA,1,0.0
+intelli-building Control and Solutions LLC,1,0.0
+Dantax s.r.o.,1,0.0
+Remote Spark Corp.,1,0.0
+OpenWrta0b4fa52,1,0.0
+World Syntech Pte Ltd,1,0.0
+OnTarget,1,0.0
+CapValue,1,0.0
+RT-AX86U-F2E0_CA,1,0.0
+Mega Company,1,0.0
+Madar Group Egypt,1,0.0
+O2,1,0.0
+pornkasem,1,0.0
+ZenWiFi_Pro_XT12-41B0_CA,1,0.0
+MainStreaming,1,0.0
+P6N WAW,1,0.0
+Bechtle GmbH Dortmund / Meschede,1,0.0
+RT-AX86U-0500_CA,1,0.0
+Webmin Webserver on vmi234696.contaboserver.net,1,0.0
+it-s.lv,1,0.0
+Management_Service..njvod4,1,0.0
+RT-AX3000-8E28_CA,1,0.0
+ETN,1,0.0
+OpenWrtE9BC21E5764C4B6A,1,0.0
+OFTEC,1,0.0
+Credex Alarm Systems,1,0.0
+Digital Shelter BBS,1,0.0
+"AZIA Co.,Ltd.",1,0.0
+AAIT,1,0.0
+RT-AX3000P-3298_CA,1,0.0
+Learning at Cisco,1,0.0
+Self-signed for vm.jim-halpert.uniquetech.net,1,0.0
+WCNFRTVJQX,1,0.0
+Gobierno de Colima,1,0.0
+dianyutech,1,0.0
+ukazfwm01..9vv8hj,1,0.0
+TT,1,0.0
+Jasper County School District,1,0.0
+SBDS,1,0.0
+39117,1,0.0
+QBDQT,1,0.0
+Newfold Digital,1,0.0
+VFX,1,0.0
+QArti,1,0.0
+rami.io,1,0.0
+Vimar S.p.A.,1,0.0
+KIK,1,0.0
+OVHcloud,1,0.0
+status.com.tw,1,0.0
+GioraGur,1,0.0
+Metropolitan Market,1,0.0
+RT-AX82U-2808_CA,1,0.0
+Palm City Ltd,1,0.0
+Metropoliceguard,1,0.0
+DionPOS,1,0.0
+MyOpenSys,1,0.0
+CS Technologies s.r.o.,1,0.0
+EXC Markets LLC,1,0.0
+Deutsche Bahn AG,1,0.0
+cpmanagement..skvanw,1,0.0
+00:1C:7F:B7:33:A0..k9fot6,1,0.0
+ExpertWiFi_EBG15-9BE6_CA,1,0.0
+Androworks s.r.o.,1,0.0
+Foxstream,1,0.0
+Seobility,1,0.0
+Teldat GmbH,1,0.0
+FirewMng..boqyo8,1,0.0
+RURGD,1,0.0
+SWCJWNROGTTUHW,1,0.0
+Manxweb Design,1,0.0
+RT-AX86S-B1C0_CA,1,0.0
+GT-AX11000-ADA0_CA,1,0.0
+Tattersalls,1,0.0
+RT-AX86U-6D28_CA,1,0.0
+Prime Logistics and Projects,1,0.0
+Customerly,1,0.0
+TUF-AX4200-1326_CA,1,0.0
+Hewalex,1,0.0
+RT-AX58U-4B90_CA,1,0.0
+XK72 Ltd,1,0.0
+ASUSTeK COMPUTER INC.,1,0.0
+TP-LinkBox 7 Pro,1,0.0
+MMF,1,0.0
+Acuna Net,1,0.0
+ADC,1,0.0
+PESJA  A & A,1,0.0
+Boundary Fallback,1,0.0
+VOLPE,1,0.0
+ZSZ1,1,0.0
+global-network ltd.,1,0.0
+WGOZQDABSJ,1,0.0
+GCIFWMGT.greencross.com.ph.oz5iqk,1,0.0
+iZmj7ej515o0ncl7m65iaqZ,1,0.0
+reduno.com.bo,1,0.0
+UK-NPT-CHK-MG01..rp2kp6,1,0.0
+Default SSL Certificate,1,0.0
+icbcps,1,0.0
+BZ-CP-MGMT-SRV..84h6hf,1,0.0
+secureOS,1,0.0
+Mehmetoglu SecOps Root CA,1,0.0
+Teltonika1a37e781,1,0.0
+RT-AC66U_B1-ED58_CA,1,0.0
+Stealthpath,1,0.0
+Intuicom Inc.-batch,1,0.0
+Jeitto,1,0.0
+Fachschule Gotha,1,0.0
+RT-AX88U_Pro-D360_CA,1,0.0
+FRLGV,1,0.0
+omega-cpmgmt..nbms4a,1,0.0
+RT-AX86U-F2E8_CA,1,0.0
+OpenWrt72120B7787695531,1,0.0
+Enlighted Inc.,1,0.0
+RT-AX86U-85B8_CA,1,0.0
+Teltonika3b3004c5,1,0.0
+Turkiye Haber-Is Sendikasi,1,0.0
+Accelrys Software Inc.,1,0.0
+Management_Service..mkco6c,1,0.0
+ABC,1,0.0
+s1e723a76.fastvps-server.com Org,1,0.0
+ZenWiFi_XT8-90E0_CA,1,0.0
+Cloudflare,1,0.0
+Fifteen Group Limited,1,0.0
+TUF-AX4200-12E8_CA,1,0.0
+Lodh Project,1,0.0
+REYEE,1,0.0
+Bomonte TecnologÃ­as S.L.,1,0.0
+TradeMire SAS,1,0.0
+ZenWiFi_ET8-1870_CA,1,0.0
+blankbox,1,0.0
+ZenWiFi_XT8-B9D0_CA,1,0.0
+JJTDYBG,1,0.0
+PortSwigger,1,0.0
+IPA.ROBOTS.ORG.UK,1,0.0
+"Česká pošta, s.p.",1,0.0
+RT-AX3000-0AD8_CA,1,0.0
+Airties,1,0.0
+Harman Kardon,1,0.0
+INetSim,1,0.0
+OpenWrtEEE2CB4719D6FA95,1,0.0
+Grupo Acerero,1,0.0
+CMA_EUROGRUAS..5k2fhc,1,0.0
+Webmin Webserver on netfinity.internatsu.edu.rs,1,0.0
+Teltonikacffc9593,1,0.0
+Beklas-FS1,1,0.0
+MHC,1,0.0
+Edgegap,1,0.0
+RT-BE58U-AE90_CA,1,0.0
+Self-signed for vmi1392848.contaboserver.net,1,0.0
+Hong Kong School Net Ltd.,1,0.0
+RT-AX86U-FDC8_CA,1,0.0
+amazon.kz,1,0.0
+RAKWireless,1,0.0
+DTL,1,0.0
+PDYWT,1,0.0
+sks,1,0.0
+cmsmartmex..awjot5,1,0.0
+LimaPanel,1,0.0
+jiWebHosting,1,0.0
+ginsp,1,0.0
+Banque de France,1,0.0
+Very Small ICT,1,0.0
+Telecom Italia Sparkle S.P.A,1,0.0
+Self-signed for server.continentaltoolgroup.com,1,0.0
+Gulfdomain OY,1,0.0
+Radian Generation,1,0.0
+fwvijosa..kcg9vo,1,0.0
+HEOIBILB,1,0.0
+GT-AXE16000-6F84_CA,1,0.0
+HM Werke Bispingen,1,0.0
+RT-AX86U-3068_CA,1,0.0
+YVUMOKNZYRTEPPGSSR,1,0.0
+ZenWiFi_XT8-85B0_CA,1,0.0
+MARINE.USF.EDU,1,0.0
+HPL Technology GmbH,1,0.0
+A1 Bulgaria,1,0.0
+Propeller Health,1,0.0
+LVTHKXCBI,1,0.0
+Cyan Inc,1,0.0
+Ubuntu We Size Two Four Seven (Pty) Ltd,1,0.0
+XS,1,0.0
+Webmin Webserver on onxmicro,1,0.0
+Scotties Forklift Hire,1,0.0
+ZenWiFi_BQ16-A038_CA,1,0.0
+RT-AX88U-6268_CA,1,0.0
+hysuk.com,1,0.0
+NKGFQRQO,1,0.0
+LFZ am Deich,1,0.0
+BlackRock,1,0.0
+RT-AX86S-A848_CA,1,0.0
+Teltonika423517aa,1,0.0
+XCDN,1,0.0
+FUNDACION UNIVERSITARIA BAUTISTA,1,0.0
+Teltonika57e9b098,1,0.0
+vps572569,1,0.0
+BVTech,1,0.0
+GDC,1,0.0
+ZenWiFi_XD4-7710_CA,1,0.0
+Software Design GmbH,1,0.0
+OpenWrta33f6c9d,1,0.0
+RT-AX82U-9488_CA,1,0.0
+SNX CA,1,0.0
+Factor-y S.r.l.,1,0.0
+Sicep srl,1,0.0
+Biza Pty Ltd,1,0.0
+Ninja,1,0.0
+TUF-AX5400-E1B0_CA,1,0.0
+Hermes Agent,1,0.0
+Meproco SL,1,0.0
+1Point Interactive,1,0.0
+Neo4j,1,0.0
+NFCKIAY,1,0.0
+QLAFQUHSFNEDC,1,0.0
+00:1C:7F:B6:22:93..asp7xk,1,0.0
+Super Colchones,1,0.0
+SAS Jacquin et AssociÃ©s,1,0.0
+PLANNING_NETWORK,1,0.0
+Signoz Inc.,1,0.0
+Sunny Ahuja,1,0.0
+vpn130649600.softether.net,1,0.0
+Enovation Solutions Ltd.,1,0.0
+HYPERFILTER,1,0.0
+Teltonika077db73d,1,0.0
+Higeco s.r.l.,1,0.0
+Kriogas-CMA..ib5efw,1,0.0
+OpenWrt41984F37B3BD17EE,1,0.0
+Epygi Technologies Ltd,1,0.0
+Arianespace,1,0.0
+00:1C:7F:B0:45:50..wqw5fu,1,0.0
+Zscaler,1,0.0
+Kirkendoll Management,1,0.0
+NerveSocket,1,0.0
+Lepida S.c.p.A.,1,0.0
+GT-AX11000-D4D0_CA,1,0.0
+CeneMedia,1,0.0
+ZenWiFi_Pro_XT12-10A0_CA,1,0.0
+TMT GmbH & Co KG,1,0.0
+Attractsoft,1,0.0
+SECIOSS Inc.,1,0.0
+TL-MR105,1,0.0
+"Campillo Palmera, S.L.",1,0.0
+Webmin Webserver on urbantreemanagement.teiep.gr,1,0.0
+xCALLY,1,0.0
+Webmin Webserver on pagewebserver,1,0.0
+RT-AX86U_Pro-6538_CA,1,0.0
+RT-AX3000-39D8_CA,1,0.0
+Archer-C5,1,0.0
+Indus Motors,1,0.0
+IKENOUE,1,0.0
+RT-AX82U-2180_CA,1,0.0
+ITT Corp,1,0.0
+AttHost Sp z o.o.,1,0.0
+ZenWiFi_XT9-8610_CA,1,0.0
+Argonos,1,0.0
+RT-AX88U-1828_CA,1,0.0
+ip-172-31-41-158.ap-northeast-1.compute.internalwwsgit-g2.com,1,0.0
+OpenWrt5333370A7D3275CA,1,0.0
+birra.nexor.it,1,0.0
+GT-AX11000_Pro-1CD0_CA,1,0.0
+CHR Creative,1,0.0
+Nagabot,1,0.0
+Fournier-Sniehotta,1,0.0
+RT-AX82U-88E8_CA,1,0.0
+"Intuicom, Inc.",1,0.0
+mail.akts.eu,1,0.0
+Beget,1,0.0
+Marnet,1,0.0
+Consolidated Braincells Inc.,1,0.0
+RT-AX82U-9068_CA,1,0.0
+Demand Side Instruments,1,0.0
+example,1,0.0
+ZenWiFi_BD4_CA,1,0.0
+a378-neth-01.youneed.local,1,0.0
+MKPawar,1,0.0
+Honeywelkl,1,0.0
+data integral GmbH,1,0.0
+Experian,1,0.0
+"Regzilla, Inc.",1,0.0
+ZenWiFi_XD6-FA90_CA,1,0.0
+THUWWFKJ,1,0.0
+imppacto.softether.net,1,0.0
+MgmrWiit..ciufuf,1,0.0
+Berichtly Server,1,0.0
+Mitel,1,0.0
+ZenWiFi_XT8-6CF0_CA,1,0.0
+cosama,1,0.0
+LogRhythm Inc.,1,0.0
+AKN Eisenbahn AG,1,0.0
+00:1C:7F:9B:E3:1B..6dptmd,1,0.0
+Westdeutsche Lotterie,1,0.0
+azweusrvsecmgmt..wo9o5o,1,0.0
+ARQMVDLEM,1,0.0
+Intuit,1,0.0
+SHA-CP-SMS.sha.net.62v5s9,1,0.0
+mail.compsoft.pl,1,0.0
+RT-AX82U-7D98_CA,1,0.0
+Gemalto,1,0.0
+Webmin web server on top-vpn,1,0.0
+UNITAU,1,0.0
+vcenter.ait.catbb.net,1,0.0
+RT-AX88U-9770_CA,1,0.0
+RT-AX82U-8BE8_CA,1,0.0
+SEAC SIL,1,0.0
+RT-AX88U-0678_CA,1,0.0
+GT-AX6000-F9B8_CA,1,0.0
+OZONIO TELECOM,1,0.0
+nonasoft ltd.,1,0.0
+nooStance,1,0.0
+CodeSuite,1,0.0
+ZenWiFi_XT8-4330_CA,1,0.0
+caliana.cloud,1,0.0
+EzPanel Self-Signed,1,0.0
+00:1C:7F:AC:FB:E3..reeabo,1,0.0
+Quarks Solutions,1,0.0
+MSP01-MG01..zbsipd,1,0.0
+Bit & Brain Technologies,1,0.0
+Innominds Software,1,0.0
+CAISSE DE CREDIT MUNICIPAL DE LYON,1,0.0
+GH-SMS-01..rhnpbd,1,0.0
+LEDEb7338011,1,0.0
+sd51b3081.fastvps-server.com Org,1,0.0
+sms.akkk.local.9zfvk7,1,0.0
+obour,1,0.0
+vpn623665228.softether.net,1,0.0
+GAS,1,0.0
+HLJAFLZKHH,1,0.0
+Webmin Webserver on KPWEB,1,0.0
+RT-AX82U-0E78_CA,1,0.0
+CY,1,0.0
+c8cbbe49715a7a7f1570d44096fa274b,1,0.0
+Soonr,1,0.0
+Webmin web server on ns1.tjbroadband.in,1,0.0
+ZenWiFi_BD4-2B70_CA,1,0.0
+Webblize,1,0.0
+HP Anyware,1,0.0
+Mercedes-Benz Group AG,1,0.0
+DataSign,1,0.0
+Default Random Certification,1,0.0
+LIJIL,1,0.0
+aru,1,0.0
+26a.net,1,0.0
+double-D-IT-RZ,1,0.0
+Acerits,1,0.0
+aa,1,0.0
+Webmin Webserver on vmi828345.contaboserver.net,1,0.0
+EGT,1,0.0
+OrionVM,1,0.0
+avantagejp.softether.net,1,0.0
+DSL-AX82U-71E8_CA,1,0.0
+9aa32e998c236142f8e8542944774d87,1,0.0
+CP-fw1..vc66t4,1,0.0
+ISB Schweiz AG,1,0.0
+CMA-A-EXT..zuncs6,1,0.0
+00:1C:7F:B8:84:7D..htqhon,1,0.0
+ff-grossklein,1,0.0
+RT-AX58U-0AF8_CA,1,0.0
+Self-signed for mail1.pingroute.org,1,0.0
+Elalan,1,0.0
+ZenWiFi_XT8-1D00_CA,1,0.0
+GARO E-mobility AB,1,0.0
+Andre Schmidt Softwareentwicklung,1,0.0
+Sitesell Inc.,1,0.0
+SelfSigner Inc.,1,0.0
+RT-AX88U-E408_CA,1,0.0
+c9f02078e7dae3a43ba32ad3caca83db,1,0.0
+Tonga Communications Corporation,1,0.0
+vpn262412623.softether.net,1,0.0
+OpenWrtA174BD7230CCCD40,1,0.0
+Picortex,1,0.0
+RT-AX55-10A0_CA,1,0.0
+Evertz Microsystems,1,0.0
+vpn-server303,1,0.0
+Lag Com,1,0.0
+TAK_5600,1,0.0
+46-165-236-166.local,1,0.0
+Future Computers Ltd,1,0.0
+s50d8f938.fastvps-server.com Org,1,0.0
+RT-AX58U-2820_CA,1,0.0
+Call2ru,1,0.0
+MCR Textiles Pvt. Ltd.,1,0.0
+IMS Health,1,0.0
+RT-AX58U-A1E8_CA,1,0.0
+RT-BE92U-4420_CA,1,0.0
+Webmin Webserver on vmd55676.contaboserver.net,1,0.0
+axibis-portal-ran,1,0.0
+RT-AX3000P-7030_CA,1,0.0
+NMLegis-SM205.legis.g2ufrc,1,0.0
+RT-AX3000-27C0_CA,1,0.0
+00:1C:7F:AC:F5:BE..8ytz9s,1,0.0
+AI-Media-Platform,1,0.0
+Jurispect,1,0.0
+RT-AX55-6840_CA,1,0.0
+"Teradek, LLC.",1,0.0
+SLC,1,0.0
+"trekaroo, inc.",1,0.0
+SpliceCom Limited,1,0.0
+TASFrance,1,0.0
+Topcon,1,0.0
+HCMX,1,0.0
+Ambiter Srl,1,0.0
+GT-AX11000-3330_CA,1,0.0
+Teltonikac86ba5d0,1,0.0
+billrex,1,0.0
+lxitcpcma-it.chiesigroup.lan.taejne,1,0.0
+Securaa,1,0.0
+Start9,1,0.0
+00:1C:7F:7A:AE:68..ymmevd,1,0.0
+Tutor,1,0.0
+TUF-AX5400-6590_CA,1,0.0
+o3si.com CA,1,0.0
+Radar Broker,1,0.0
+Brandeis Verlag und Medien,1,0.0
+Amac B.V.,1,0.0
+chroyal international,1,0.0
+Webmin Webserver on sip.ttc-auto.ru,1,0.0
+valhalla..odb3xz,1,0.0
+Teltonikaa5258769,1,0.0
+OS Braga,1,0.0
+_unregistered_vpn802252734.softether.net,1,0.0
+RT-AX59U-BEDA_CA,1,0.0
+RT-AX55-18D0_CA,1,0.0
+00:1C:7F:9B:D5:60..tio3ph,1,0.0
+Neuer Weg,1,0.0
+s236452c4.fastvps-server.com Org,1,0.0
+PrivateRegistry,1,0.0
+NETSYSTEM,1,0.0
+NX220v,1,0.0
+Montrat Ltd,1,0.0
+custwall1..y8ggvr,1,0.0
+ARUMOVISTAR,1,0.0
+PT Media Solusi Sukses,1,0.0
+Broadcom Inc,1,0.0
+s0a4167f5.fastvps-server.com Org,1,0.0
+RT-AX3000-A890_CA,1,0.0
+Webmin Webserver on server.inovarsistemas.info,1,0.0
+Walgreen Co.,1,0.0
+00:1C:7F:7C:66:2A..o4x9wg,1,0.0
+fwmanage.minolta.com.hco58z,1,0.0
+Pangea,1,0.0
+ZenWiFi_XT8-1280_CA,1,0.0
+WOOT-IT,1,0.0
+%D6f0e1a73,1,0.0
+DVS,1,0.0
+CEN,1,0.0
+MBPHADTX,1,0.0
+Self-signed for admin2.tateyoung.com,1,0.0
+DWFWM1..c5b33m,1,0.0
+Notaio Csare Franco,1,0.0
+GadenDemo,1,0.0
+ZenWiFi_XT8-3860_CA,1,0.0
+Webmin Webserver on misuoc5_HP.admin.uoc.gr,1,0.0
+HIIROBGWHEEN,1,0.0
+RT-AX86U-B6F8_CA,1,0.0
+webinar,1,0.0
+ Company suysghshsj,1,0.0
+Cosfi,1,0.0
+Castle-in-the-Sky,1,0.0
+Webmin Webserver on www,1,0.0
+Trading,1,0.0
+HGGBJRST,1,0.0
+JD Ltd,1,0.0
+OPTILOG CIE DE GESTION INC,1,0.0
+"PortaOne, Inc. 518_1581",1,0.0
+GT-AX11000-2650_CA,1,0.0
+OVI,1,0.0
+RT-AX86S-8F58_CA,1,0.0
+ZenWiFi_XT8-2BC0_CA,1,0.0
+nuvant.asersoftware.co,1,0.0
+Ecole de Musique des Deux Rives,1,0.0
+BPEDV u. Netzwerktechnik,1,0.0
+SyslogTLS_Server,1,0.0
+d1a2691c8337a556003715a3389d8760,1,0.0
+GeriConnect,1,0.0
+GT-AX6000-1618_CA,1,0.0
+Webmin Webserver on forms2,1,0.0
+Bourdette.com,1,0.0
+Lexmark,1,0.0
+Trust Payments,1,0.0
+MailCleaner,1,0.0
+"Zhuhai Xinda Jiuzhou Technology Co., Ltd.",1,0.0
+Management_Service..xptjb3,1,0.0
+Self-signed for new5.dztenders.com,1,0.0
+CUSTOMS & BORDERS,1,0.0
+Honest Buildings,1,0.0
+Webmin Webserver on template-centos-7-x86_64-webmin,1,0.0
+RT-AX55-21A8_CA,1,0.0
+QtNetworkNg,1,0.0
+"MarketWare - Soluções para Mercados Digitais, Lda.",1,0.0
+se4.be,1,0.0
+mail.chensveg.com.tw,1,0.0
+GT-AXE16000-C9F8_CA,1,0.0
+Workspace,1,0.0
+caileme,1,0.0
+Berenberg,1,0.0
+Trust Marketing,1,0.0
+Agency,1,0.0
+00:1C:7F:98:BA:D2..jda9zg,1,0.0
+KYKSV,1,0.0
+ubuntu-Frankfurt-1gb,1,0.0
+Freedom IRAN,1,0.0
+11,1,0.0
+1141-neth-00,1,0.0
+ZenWiFi_XD5-DA60_CA,1,0.0
+Gertran Gerenciamento de Riscos ,1,0.0
+Dovecot Mailserver,1,0.0
+Monitor,1,0.0
+RT-AX3000-CB08_CA,1,0.0
+CloudFlare Inc,1,0.0
+ZenWiFi_XT8-C790_CA,1,0.0
+ATTITUDE,1,0.0
+Telkonet,1,0.0
+TUF-AX6000-9164_CA,1,0.0
+Welfare,1,0.0
+Bristol Capital Inc,1,0.0
+Management_Service..kt42p8,1,0.0
+AKEY.ME,1,0.0
+EHVPN,1,0.0
+CashDesk BV,1,0.0
+RT-AX86U-7B98_CA,1,0.0
+RT-AX58U-F0B0_CA,1,0.0
+Self-signed for hosting.mlnk.net,1,0.0
+Sochengyi,1,0.0
+AI Center,1,0.0
+svr248d22.zenhub.vn,1,0.0
+Sefox,1,0.0
+SCOO Corporation,1,0.0
+Agent CA,1,0.0
+Teltonikad6601e29,1,0.0
+"KADOKAWA ASCII Research Laboratories, Inc.",1,0.0
+RT-BE88U-71A0_CA,1,0.0
+Co,1,0.0
+Magnoliatrue SARL,1,0.0
+Profit Switch,1,0.0
+"Exacta Systems, LLC",1,0.0
+PFORTNER Pty Ltd,1,0.0
+"Signal Messenger, LLC",1,0.0
+OpenWrt28472A7A131749E7,1,0.0
+Value,1,0.0
+Republika Slovenija,1,0.0
+NFOservers.com,1,0.0
+Hiv And Aids Department,1,0.0
+Undefined,1,0.0
+Webmin Webserver on product.nutztechnovation,1,0.0
+fric.softether.net,1,0.0
+RT-AX86U-3F30_CA,1,0.0
+RT-AX5400-00C0_CA,1,0.0
+Devon Bank,1,0.0
+Yeastar,1,0.0
+ZenWiFi_XT8-E340_CA,1,0.0
+ProxyDesk,1,0.0
+RT-AX82U-6950_CA,1,0.0
+"Citrix Systems, Inc.",1,0.0
+hera.qx360.works.e5e36n,1,0.0
+FET,1,0.0
+RT-AX55-8680_CA,1,0.0
+Blackline,1,0.0
+RT-AX82U-B608_CA,1,0.0
+Starhub Ltd,1,0.0
+VLab,1,0.0
+DXC Technology,1,0.0
+OpenWrt151D49F23C9F63F4,1,0.0
+Self-signed for ec3d.co.za,1,0.0
+E&V,1,0.0
+Mail.kingforce.com.hk,1,0.0
+ALFR02DMS64..7gtfce,1,0.0
+LifeSize Communications Inc.,1,0.0
+00:1C:7F:8F:5C:27..om8zzw,1,0.0
+ZenWiFi_XD4-1910_CA,1,0.0
+STC,1,0.0
+FAHRENDER_HAUSWART_GMBH,1,0.0
+jointree,1,0.0
+FWIntFACMP..f9hwfn,1,0.0
+INT-M100358a8969,1,0.0
+KedaCom,1,0.0
+ZenWiFi_XT8-96C0_CA,1,0.0
+RT-AX3000-5718_CA,1,0.0
+Envirogreen Technologies,1,0.0
+CircusVOIP,1,0.0
+ZenWiFi_XT8-B100_CA,1,0.0
+Secward,1,0.0
+V06-CPMGMT..fsx8j9,1,0.0
+"QSC, LLC",1,0.0
+USB,1,0.0
+s341a77d0.one.solutions Org,1,0.0
+RT-AX58U-6BD0_CA,1,0.0
+"OOO""NEFTGAZMONTAJ""",1,0.0
+Self-signed for linux.a0f442.com,1,0.0
+confluent,1,0.0
+SIGAINT.AU,1,0.0
+point Z,1,0.0
+DataSvar AS,1,0.0
+Conecta Empreendimentos,1,0.0
+Winnbroker,1,0.0
+tmp.DOMAINS,1,0.0
+UNIV-NKC.MR,1,0.0
+HKT,1,0.0
+Yalantis,1,0.0
+Self-signed for sanshiro.absyx.fr,1,0.0
+pardyline,1,0.0
+GT-AX11000-F8E0_CA,1,0.0
+Trustwave Holdings Inc,1,0.0
+CQ,1,0.0
+iZj6cgjb69m1oni6iziqykZ,1,0.0
+aitservis,1,0.0
+AWS Cloud Service,1,0.0
+jd,1,0.0
+Webmin Webserver on vps-1050875-x.dattaweb.com,1,0.0
+Avassa,1,0.0
+iNet Data Services,1,0.0
+00:1C:7F:B6:22:D7..xuquri,1,0.0
+Siemens Schweiz AG (self-signed-certs),1,0.0
+ZenWiFi_XT8-5A50_CA,1,0.0
+00:1C:7F:73:08:DF..ykv25g,1,0.0
+MeikoSoft,1,0.0
+nerez-sk.local,1,0.0
+s56a43939.myhosting.works Org,1,0.0
+RT-AX3000-EA20_CA,1,0.0
+IT Department,1,0.0
+RT-AX86U_Pro-F1E8_CA,1,0.0
+Devdata,1,0.0
+vSRV-vCenter,1,0.0
+RT-AX86U-0BD8_CA,1,0.0
+Xenon Systems Pty Ltd,1,0.0
+OpenWrtF71B383DCC100D89,1,0.0
+Blue Otter,1,0.0
+Vessel,1,0.0
+Seculution,1,0.0
+ns4.insalud.gob.ve,1,0.0
+Self-signed for mail.niil.com.bd,1,0.0
+Teltonika17e23717,1,0.0
+Everett,1,0.0
+Webmin Webserver on web1,1,0.0
+omnibud inc taiwan,1,0.0
+"Schweitzer Engineering Laboratories, Inc.",1,0.0
+IT Security Network,1,0.0
+FLXSPR,1,0.0
+Self-signed for green.standard-e.net,1,0.0
+Alico Egypt,1,0.0
+niwotah,1,0.0
+Teltonikaa2253643,1,0.0
+spware,1,0.0
+RT-AX88U-B490_CA,1,0.0
+Management_Service..cnupe4,1,0.0
+RT-AX5400-9EC8_CA,1,0.0
+Information Services JSC,1,0.0
+Secretaria de Gobernacion,1,0.0
+YAMAHA MOTOR SOLUTIONS,1,0.0
+GB Consulting,1,0.0
+Main Site and DB,1,0.0
+University of Kashmir,1,0.0
+Precision Air Services,1,0.0
+ZenWiFi_XT9-CCC0_CA,1,0.0
+æ­å·åäºæ°æ®ææ¯æéå¬å¸,1,0.0
+RT-AX82U-9C20_CA,1,0.0
+EShare Tech,1,0.0
+BROOKE,1,0.0
+fwm.vvs.de.k2w92g,1,0.0
+Ungaro s.r.l.,1,0.0
+Dovecot,1,0.0
+Teltonika4b4d55d1,1,0.0
+SMC_CDA..mm8v9g,1,0.0
+fw01..bnmvjw,1,0.0
+RT-AX86U-1590_CA,1,0.0
+Self-signed for lightnet.kz,1,0.0
+ZenWiFi_XT8-C3D0_CA,1,0.0
+"Security, Inc",1,0.0
+vpn151287378.softether.net,1,0.0
+hosting2.autobranka.cz,1,0.0
+MAIL,1,0.0
+Crustissimo,1,0.0
+MyTest,1,0.0
+OpenWrtD1334BD5CBB4640A,1,0.0
+ip96.23-29-136.static.steadfastdns.net,1,0.0
+JKA MEA,1,0.0
+XXeon IT Solutions,1,0.0
+Infocom,1,0.0
+41742.bigscoots-wpo.com,1,0.0
+TUF-AX5400-4A88_CA,1,0.0
+Webmin Webserver on mesin,1,0.0
+VN020-F3,1,0.0
+pcap.crebit.ee..cga3je,1,0.0
+RICON,1,0.0
+OpenLAN Studio,1,0.0
+31562.bigscoots-wpo.com,1,0.0
+Nasstar,1,0.0
+Teknologiia,1,0.0
+ZenWiFi_XT8-8F40_CA,1,0.0
+WISeKey,1,0.0
+"Draytek, C3 82 C2 A0 Inc.",1,0.0
+Self-signed for mail.technoleadsolution.com,1,0.0
+sd1539e12.fastvps-server.com Org,1,0.0
+WOERNSCHI,1,0.0
+sb9ad81fa.one.solutions Org,1,0.0
+RT-AX86U_Pro-A360_CA,1,0.0
+kushishitsu.softether.net,1,0.0
+IBA BD,1,0.0
+RT-AX86U-6370_CA,1,0.0
+PT AKR Land Development,1,0.0
+Northbridge Business Services,1,0.0
+IPUL,1,0.0
+IPIPAN,1,0.0
+RT-AX58U-21E0_CA,1,0.0
+GT-AX11000-90B0_CA,1,0.0
+Shaggyowl,1,0.0
+Teltonikaa63ba277,1,0.0
+GT-AX11000-AAD0_CA,1,0.0
+RT-AX82U-A280_CA,1,0.0
+Cloudhub,1,0.0
+NoAccess,1,0.0
+nachtschule,1,0.0
+SUMANA,1,0.0
+DESKTOP-TD2TADN,1,0.0
+sun,1,0.0
+Norfolk State University,1,0.0
+RDRC,1,0.0
+ZenWiFi_XD4-FB60_CA,1,0.0
+PMC,1,0.0
+GE HealthCare,1,0.0
+Broke Spoke Community Bike Shop,1,0.0
+Cubet,1,0.0
+Hay,1,0.0
+ChungHwa Telecom,1,0.0
+Displaydata,1,0.0
+NIC-CP-DC-SMS..76fnsb,1,0.0
+IMLA.ironmountain.com.5rx8xd,1,0.0
+IFFarSVS,1,0.0
+Pub Pipeline,1,0.0
+ZenWiFi_XT8-3560_CA,1,0.0
+XB432v,1,0.0
+ZenWiFi_XT8-3AD0_CA,1,0.0
+Ansa Termoplastici,1,0.0
+VM-4-10-debian,1,0.0
+Ozone Financial Technology Limited,1,0.0
+sd50b250b.fastvps-server.com Org,1,0.0
+ZenWiFi_XT8-02F0_CA,1,0.0
+OpenWrt9A8ECDF8BBA3EC2F,1,0.0
+d,1,0.0
+NovaMed Health Systems,1,0.0
+PCP_Management_Server..39qc9b,1,0.0
+LEDE242df639,1,0.0
+COPELAND,1,0.0
+OpenWrt54AB6A6A50D3E59B,1,0.0
+RT-AX59U-AF94_CA,1,0.0
+HIGH-T GmbH,1,0.0
+vpn764840326.softether.net,1,0.0
+PTECHNOLOGY,1,0.0
+firem..q77rj4,1,0.0
+Teltonika284d0321,1,0.0
+s991be311.myhosting.works Org,1,0.0
+Espabau Eisenbahn Spar- und Bauverein Bremen,1,0.0
+Quantum FX Ltd.,1,0.0
+AOCDTF,1,0.0
+bls,1,0.0
+RT-AX88U-06B0_CA,1,0.0
+elshaddai1.softether.net,1,0.0
+vpn274111431.softether.net,1,0.0
+EXAMPLE,1,0.0
+ThunderPrint,1,0.0
+iZj6cab28qyhaaqitea3zqZ,1,0.0
+NetAngels,1,0.0
+MikkiMinni_CMA..kvki5f,1,0.0
+Innow,1,0.0

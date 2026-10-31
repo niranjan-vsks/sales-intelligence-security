@@ -1,0 +1,45 @@
+{
+ "tag": "FULL",
+ "per_mapping_rows": {
+  "W01": 1089388,
+  "W02": 476810,
+  "W03": 28342,
+  "W04": 586078,
+  "W05": 232028,
+  "W06": 127896,
+  "W07": 401994,
+  "P01": 989264,
+  "P02": 188512,
+  "P03": 56238,
+  "B01": 250530,
+  "B02": 36
+ },
+ "banner": {
+  "n": 14608406,
+  "sell": 1347800,
+  "substitute": 824207,
+  "prerequisite": 1216368,
+  "blocker": 250566,
+  "sell_and_sub": 70797,
+  "pre_without_sell": 1156042,
+  "pre_without_sell_or_sub": 945673,
+  "pre_and_blocker": 16053
+ },
+ "entity": {
+  "n": 485089,
+  "sell": 83779,
+  "substitute": 128750,
+  "prerequisite": 221369,
+  "blocker": 340,
+  "sell_and_sub": 18436,
+  "pre_without_sell": 201826,
+  "pre_without_sell_or_sub": 131104,
+  "pre_and_blocker": 225
+ },
+ "disqualifiers": {
+  "rows_no_domain": 3783508,
+  "rows_with_domain_but_only_operator_domains": 9750263,
+  "rows_tag_cdn": 5868128,
+  "rows_cloud_provider": 4169850
+ }
+}

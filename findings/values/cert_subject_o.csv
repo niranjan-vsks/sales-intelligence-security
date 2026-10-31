@@ -1,0 +1,5002 @@
+value,n,pct
+,14395587,98.5432
+Google Inc,24026,0.1645
+Microsoft Corporation,11692,0.08
+"Proofpoint, Inc.",7113,0.0487
+HTTPS Management Certificate for SonicWALL (self-signed),4912,0.0336
+Plesk,3737,0.0256
+Acme Co,3543,0.0243
+天翼云科技有限公司,3370,0.0231
+Incapsula,3241,0.0222
+Huawei,3196,0.0219
+"Akamai Technologies, Inc.",2962,0.0203
+YANDEX LLC,2631,0.018
+Fortinet,2486,0.017
+"CloudFlare, Inc.",2287,0.0157
+"Alibaba (China) Technology Co., Ltd.",1925,0.0132
+SANGFOR,1844,0.0126
+DrayTek Corp.,1825,0.0125
+"Salesforce, Inc.",1800,0.0123
+Fortinet Ltd.,1773,0.0121
+"Huawei Technologies Co., Ltd",1735,0.0119
+BT-PANEL,1722,0.0118
+"Huawei Software Technologies Co., Ltd.",1493,0.0102
+Default Company Ltd,1429,0.0098
+Synology Inc.,1409,0.0096
+"Cloudflare, Inc.",1266,0.0087
+"NTT DOCOMO BUSINESS, Inc.",1265,0.0087
+Adobe Inc.,1106,0.0076
+NA,1091,0.0075
+Ubiquiti Networks Inc.,1061,0.0073
+Internet Widgits Pty Ltd,1055,0.0072
+XX,1007,0.0069
+Dis,996,0.0068
+Hestia Control Panel,901,0.0062
+Tacitine,826,0.0057
+"Netlify, Inc",826,0.0057
+MyCompany,804,0.0055
+"Meta Platforms, Inc.",801,0.0055
+SomeOrganization,780,0.0053
+Oracle Corporation,770,0.0053
+"Medidata Solutions, Inc.",750,0.0051
+ZTE,711,0.0049
+"Incapsula, Inc.",704,0.0048
+Apple Inc.,703,0.0048
+Sony Corporation of America,702,0.0048
+WatchGuard,678,0.0046
+University of Wisconsin-Madison,662,0.0045
+Cisco Systems Inc.,625,0.0043
+Adyen N.V.,562,0.0038
+Ubiquiti Inc.,558,0.0038
+Unspecified,554,0.0038
+UGREEN,533,0.0036
+FIT2CLOUD,533,0.0036
+"PagerDuty, Inc.",518,0.0035
+Technicolor,485,0.0033
+Amazon.com Inc.,479,0.0033
+LANCOM Systems,470,0.0032
+system:nodes,444,0.003
+WILDIX SRL,439,0.003
+Nestle Japan Limited,431,0.003
+Shenzhen Tencent Computer Systems Company Limited,409,0.0028
+hw,399,0.0027
+"Palo Alto Networks, Inc.",398,0.0027
+Splunk LLC,390,0.0027
+none,369,0.0025
+"Cradlepoint, Inc.",365,0.0025
+Waf,361,0.0025
+"Imperva, Inc",357,0.0024
+LTD,356,0.0024
+"Zoom Communications, Inc.",351,0.0024
+None,345,0.0024
+University of Miami,341,0.0023
+"ServiceNow, Inc.",335,0.0023
+"VMware, Inc",322,0.0022
+Sony Latin America,322,0.0022
+Parallels,300,0.0021
+Vesta Control Panel,295,0.002
+"Fastly, Inc.",293,0.002
+sangfor,287,0.002
+Comcast Corporation,280,0.0019
+Register spa,277,0.0019
+Organization,276,0.0019
+ZyXEL,274,0.0019
+CentOS Web Panel,269,0.0018
+State of Minnesota,266,0.0018
+Lao Yu Soft,261,0.0018
+"QNAP Systems, Inc.",261,0.0018
+网宿科技股份有限公司厦门分公司,257,0.0018
+Netflix,256,0.0018
+SAP SE,256,0.0018
+"Zscaler, Inc.",256,0.0018
+Trend Micro Inc.,248,0.0017
+HW,247,0.0017
+DELOITTE & TOUCHE LLP,242,0.0017
+Ruckus Wireless Inc.,238,0.0016
+The Walt Disney Company,237,0.0016
+Australian Postal Corporation,237,0.0016
+The Royal Bank of Scotland Group Plc,235,0.0016
+testCompany,234,0.0016
+FASTPANEL,231,0.0016
+Imperva,226,0.0015
+Nova Southeastern University,225,0.0015
+CompanyName,225,0.0015
+Private Internet Access,222,0.0015
+NETS NORWAY AS,221,0.0015
+Government of the Province of Alberta,221,0.0015
+"Beijing Knownsec Information Technology Co., Ltd",216,0.0015
+WSO2 LLC,209,0.0014
+International Business Machines Corporation,209,0.0014
+Bouygues Telecom SA,207,0.0014
+FH,199,0.0014
+pfSense webConfigurator Self-Signed Certificate,198,0.0014
+"Squarespace, Inc.",191,0.0013
+The Dun & Bradstreet Corporation,187,0.0013
+DirectAdmin Self-Signed,186,0.0013
+Dell Inc.,186,0.0013
+Super Micro Computer,186,0.0013
+CIG,184,0.0013
+My Company,182,0.0012
+k3s,182,0.0012
+FedEx Corporation,182,0.0012
+"The PNC Financial Services Group, Inc.",177,0.0012
+"Lumen Technologies, Inc.",175,0.0012
+The Bank of Nova Scotia,174,0.0012
+Tencent Technology (Shenzhen) Company Limited,163,0.0011
+Hillstone Networks,160,0.0011
+AnchorFree,160,0.0011
+kiloview,159,0.0011
+BeyondTrust Corporation,155,0.0011
+"Unique Vacations, Inc.",154,0.0011
+ispgateway,153,0.001
+ddos-guard,152,0.001
+"Autodesk, Inc.",150,0.001
+Lloyds Banking Group PLC,150,0.001
+bb-in,148,0.001
+TOYOTA MOTOR CORPORATION,147,0.001
+"IBOSS, INC.",147,0.001
+Kong,146,0.001
+Citigroup Inc.,145,0.001
+SMP_Portals,144,0.001
+Sony Interactive Entertainment Inc.,143,0.001
+"ThoughtSpot, Inc.",140,0.001
+"Google, Inc",138,0.0009
+"Sierra Wireless, Inc.",137,0.0009
+Odin,136,0.0009
+"Samsung SDS Co., Ltd.",135,0.0009
+ssl_redirect,135,0.0009
+unknown,135,0.0009
+Intuit Inc.,135,0.0009
+"Roku, Inc.",134,0.0009
+NCR VOYIX CORPORATION,134,0.0009
+"South Carolina Interactive, LLC",134,0.0009
+中国电信国际有限公司,133,0.0009
+Indusface Private Limited,131,0.0009
+Stormshield,131,0.0009
+common,127,0.0009
+Hewlett Packard Enterprise Company,127,0.0009
+Yahoo Holdings Inc.,126,0.0009
+COOPERATIEVE SPAAR- EN KREDIETBANK GODO G.A.,126,0.0009
+Vtex,125,0.0009
+esecuritel.com,125,0.0009
+*.esecuritel.com,124,0.0008
+Nationwide Mutual Insurance Company,123,0.0008
+North Carolina Bar Foundation,123,0.0008
+LPL Financial LLC,122,0.0008
+Robert Bosch GmbH,122,0.0008
+"Grandstream Networks, Inc.",120,0.0008
+Queensland Government,119,0.0008
+iKuai,119,0.0008
+D-LINK,119,0.0008
+LG Electronics Inc.,118,0.0008
+CambiumNetworks,118,0.0008
+Confidela Ltd,118,0.0008
+"UnionPay International Co., Ltd.",117,0.0008
+AssetWorks Inc,115,0.0008
+Endress and Hauser AG,114,0.0008
+iCatch Inc.,113,0.0008
+Incapsula Inc,112,0.0008
+Verizon Data Services LLC,112,0.0008
+"NovoEd, Inc.",111,0.0008
+Macquarie University,111,0.0008
+SuperWebs Ltd,110,0.0008
+Danske Bank A/S,109,0.0007
+咪咕视讯科技有限公司,109,0.0007
+"Advanced Micro Devices, Inc.",108,0.0007
+NorthShore University HealthSystem,108,0.0007
+HUAWEI,107,0.0007
+University of South Carolina,106,0.0007
+Sony Interactive Entertainment LLC,105,0.0007
+mailcow,105,0.0007
+"SAMSUNG ELECTRONICS CO,.LTD",105,0.0007
+Bitnami,104,0.0007
+Calix Inc,104,0.0007
+TOYOTA Connected Corporation,104,0.0007
+"Komerční banka, a.s.",103,0.0007
+NSB,101,0.0007
+zte,100,0.0007
+netfox,99,0.0007
+"Cisco Systems, Inc.",99,0.0007
+Deloitte & Touche LLP,98,0.0007
+D-Link Corporation,98,0.0007
+Charles Darwin University,98,0.0007
+The Corporation of the Town of Oakville,97,0.0007
+Grandstream,97,0.0007
+"Arris Group, Inc.",96,0.0007
+"BEIJING JINGDONG SHANGKE INFORMATION TECHNOLOGY CO., LTD.",96,0.0007
+Salesforce.com Inc.,96,0.0007
+Fidelity Bank Plc,96,0.0007
+Anonymous,96,0.0007
+pfSense GUI default Self-Signed Certificate,95,0.0007
+mail server,95,0.0007
+Google LLC,95,0.0007
+Broadcom,93,0.0006
+Dataport AöR,93,0.0006
+Stadt Essen,93,0.0006
+U.S. Government,91,0.0006
+BUBBLEWRAPP,91,0.0006
+VIETTEL GROUP,90,0.0006
+UnitedHealth Group Inc.,90,0.0006
+CTI,90,0.0006
+Internet Corporation For Assigned Names and Numbers,89,0.0006
+testexample,88,0.0006
+Avature Limited,88,0.0006
+The Cleveland Clinic Foundation,88,0.0006
+"Kumon Institute of Education Co., Ltd.",86,0.0006
+DAHUA,85,0.0006
+Oakland University,85,0.0006
+VMware,84,0.0006
+LLC CDN-video,83,0.0006
+Endress and Hauser InfoServe GmbH and Co. KG,83,0.0006
+Barclays PLC,82,0.0006
+Avigilon Corp.,82,0.0006
+Hewlett Packard Enterprise,82,0.0006
+LucidLink Corp,82,0.0006
+"salesforce.com, inc.",82,0.0006
+"Viasat, Inc.",82,0.0006
+My Company Ltd,81,0.0006
+Akamai,81,0.0006
+Microhard Systems Inc.,80,0.0005
+CERTIFICATE,80,0.0005
+openshift,78,0.0005
+localhost,78,0.0005
+LiteSpeedCommunity,78,0.0005
+Netgear,78,0.0005
+"Yealink Network Technology Co.,Ltd.",77,0.0005
+Zeabur Pte. Ltd.,77,0.0005
+Mekdam Holding Group.,77,0.0005
+Fortinet Inc.,77,0.0005
+CANON INC.,76,0.0005
+Morgan Stanley,76,0.0005
+Akamai Technologies Inc.,76,0.0005
+RS,76,0.0005
+HP Inc,76,0.0005
+Unknown,75,0.0005
+Courier Mail Server,75,0.0005
+Google DevOps,75,0.0005
+Andritz AG,73,0.0005
+Companyname,73,0.0005
+QY,73,0.0005
+NCR Voyix Corporation,72,0.0005
+"LG Electronics U.S.A, Inc.",71,0.0005
+TELEFONICA DE ESPAÑA SA,71,0.0005
+Acquia Inc.,71,0.0005
+billionmail.com,71,0.0005
+General Electric Company,70,0.0005
+"GuangZhou Robustel Technologies Co., Limited",70,0.0005
+University of the Arts London,69,0.0005
+Dassault Systemes,69,0.0005
+ÖBB-Business Competence Center GmbH,69,0.0005
+Ford Motor Company,68,0.0005
+Texas Christian University,68,0.0005
+econet,68,0.0005
+BUAVI SISTEMAS DE SEGURIDAD Y CONTROL S.L.,68,0.0005
+Outsystems - Software Em Rede S.A.,68,0.0005
+Masonic Homes of California,67,0.0005
+Intel Corporation,67,0.0005
+UBNT INC.,66,0.0005
+New Dream Network LLC dba Dreamhost,66,0.0005
+OPNsense self-signed web certificate,66,0.0005
+JPMorgan Chase & Co.,66,0.0005
+Synchrony Financial,65,0.0004
+fw-domecqbodegas..yx6392,65,0.0004
+Tridium,65,0.0004
+"Equinix, Inc.",65,0.0004
+NetX Security Solutions,65,0.0004
+Hetzner Online AG,65,0.0004
+Dovecot mail server,64,0.0004
+IT,64,0.0004
+127.0.0.1,64,0.0004
+The Kroger Co.,63,0.0004
+athenahealth,63,0.0004
+Rockerbox INC,63,0.0004
+Home Systems Consulting S.p.A.,63,0.0004
+Oracle,63,0.0004
+BNP PARIBAS SA,62,0.0004
+Georgia State University,62,0.0004
+KEYWORDS STUDIOS UNLIMITED COMPANY,62,0.0004
+NTT DOCOMO BUSINESS Inc,62,0.0004
+Waterbury School District,62,0.0004
+SAP,61,0.0004
+Pearson PLC,61,0.0004
+Sky UK Limited,61,0.0004
+L7FW,61,0.0004
+E.ON SE,61,0.0004
+I-Shou University,61,0.0004
+北京百度网讯科技有限公司,60,0.0004
+cluster_manager,60,0.0004
+"Fiserv, Inc.",60,0.0004
+"University of California, Berkeley",60,0.0004
+"Fandango Media, LLC",60,0.0004
+Walmart Inc.,60,0.0004
+CapRover.com,59,0.0004
+Deutsche Telekom AG,59,0.0004
+realtek,59,0.0004
+Schweizerische Mobiliar Versicherungsgesellschaft AG,58,0.0004
+"Broadridge Financial Solutions, Inc.",58,0.0004
+WHALEXA,58,0.0004
+Tesco PLC,58,0.0004
+Mercer University,58,0.0004
+cVuUnit,58,0.0004
+"Fatco Holdings, LLC",57,0.0004
+N-ABLE TECHNOLOGIES LTD,57,0.0004
+"Rakuten Group, Inc.",57,0.0004
+"AssetWorks, Inc",57,0.0004
+XUI.one,56,0.0004
+Open Text Corporation,56,0.0004
+Hostpoint AG,56,0.0004
+STARFACE GmbH,56,0.0004
+video,56,0.0004
+Check Point,56,0.0004
+service@watchfiresigns.com,56,0.0004
+INTUIT INC.,55,0.0004
+GEOTAB INC.,55,0.0004
+Orange,55,0.0004
+Ubiquiti Networks,55,0.0004
+SAP CX,55,0.0004
+"Amazon.com, Inc.",55,0.0004
+Comarch S.A.,54,0.0004
+Example Org,54,0.0004
+"FAST RETAILING CO., LTD.",53,0.0004
+KAGOYA-JAPAN,53,0.0004
+"Crestron Electronics, Inc.",53,0.0004
+Carel Industries S.p.A.,53,0.0004
+Hdfc Bank Limited,52,0.0004
+Dropcam,52,0.0004
+myVesta Control Panel,52,0.0004
+Deh Yu College of Nursing and Health,52,0.0004
+TSB Bank Plc,52,0.0004
+IT Davivienda,51,0.0003
+Royal Bank of Canada,51,0.0003
+Atruvia AG,51,0.0003
+Telia Company AB,51,0.0003
+KoGIs Bremen,51,0.0003
+empty,51,0.0003
+"NetEase (Hangzhou) Network Co., Ltd",51,0.0003
+"RYTECH, INC.",51,0.0003
+"Beijing Baidu Netcom Science Technology Co., Ltd.",50,0.0003
+kubernetes,50,0.0003
+T-Mobile Polska S.A.,50,0.0003
+TestOrganization,50,0.0003
+"Shanghai Blue Cloud Technology Co., Ltd.",50,0.0003
+TPRI,50,0.0003
+President Securities Corporation,49,0.0003
+Microsoft,49,0.0003
+Draytek,49,0.0003
+AZION TECHNOLOGIES,49,0.0003
+"Wyndham Hotels & Resorts, Inc.",49,0.0003
+Overseas Chinese University,49,0.0003
+Broadcom Inc.,49,0.0003
+Aviva PLC,48,0.0003
+Hudu Technologies Inc,48,0.0003
+Sony Computer Entertainment Inc.,48,0.0003
+GROUPAMA SUPPORTS ET SERVICES GIE,48,0.0003
+"Nintendo Co., Ltd.",48,0.0003
+ExpressVPN,48,0.0003
+Vodafone Group Services Limited,48,0.0003
+Starbucks Coffee Company,47,0.0003
+Fidelity National Information Services,47,0.0003
+sh,47,0.0003
+Bell Canada,47,0.0003
+TMC,47,0.0003
+Loyola Press,47,0.0003
+"Rollins, Inc.",47,0.0003
+Liberty Mutual Insurance Company,47,0.0003
+Hanwha,47,0.0003
+Broadcom Inc,46,0.0003
+Brain Capital GmbH,46,0.0003
+Bank of Montreal,46,0.0003
+UKG Inc.,46,0.0003
+Telus Corporation,46,0.0003
+Cybereason Inc,46,0.0003
+Bayerische Motoren Werke AG,46,0.0003
+LY Corporation,46,0.0003
+Blah,46,0.0003
+Otis Elevator Company,46,0.0003
+S&P Global Inc.,46,0.0003
+Vidéotron ltée,45,0.0003
+National Open University,45,0.0003
+"Deloitte Touche Tohmatsu Services, LLC",45,0.0003
+"Sonos, Inc.",45,0.0003
+"McKinsey & Company, Inc.",45,0.0003
+Amazon,44,0.0003
+Mercedes-Benz Group AG,44,0.0003
+General Motors LLC,44,0.0003
+"Thermo Fisher Scientific, Inc",44,0.0003
+National University Corporation Shizuoka University,44,0.0003
+CVS Pharmacy Inc,43,0.0003
+Brainy,43,0.0003
+"Citrix Systems, Inc.",43,0.0003
+TilginAB,43,0.0003
+Aruba Networks,43,0.0003
+"QVC, Inc.",42,0.0003
+Navy Federal Credit Union,42,0.0003
+bintec elmeg GmbH,42,0.0003
+"Netfortris Acquisition Co., Inc.",42,0.0003
+"COX COMMUNICATIONS, Inc",42,0.0003
+"Skechers U.S.A., Inc",42,0.0003
+fnOS,42,0.0003
+Axis Communications AB,42,0.0003
+"Ruckus Wireless, Inc.",42,0.0003
+smp_portals,41,0.0003
+Gen Digital Inc.,41,0.0003
+Centers for Disease Control and Prevention,41,0.0003
+SONY INTERACTIVE ENTERTAINMENT LLC,41,0.0003
+Nagasaki University,41,0.0003
+"Fortinet, Inc.",41,0.0003
+Drexel University,41,0.0003
+Sagemcom Ca,41,0.0003
+中国冶金科工集团有限公司,40,0.0003
+University of Massachusetts Medical School,40,0.0003
+Accenture LLP,40,0.0003
+ ,40,0.0003
+National Taiwan Library,40,0.0003
+hikvision,40,0.0003
+RunCloud Sdn. Bhd.,40,0.0003
+XYZ Corporation,40,0.0003
+"Connectwise, LLC",40,0.0003
+Swisscom (Schweiz) AG,40,0.0003
+Absolute Software Corporation,40,0.0003
+Sophos,39,0.0003
+"American Honda Motor Co., Inc.",39,0.0003
+Palo Alto Networks,39,0.0003
+Lee-Ming Institute of Technology,39,0.0003
+"NBCUniversal Media, LLC",39,0.0003
+NETGEAR,39,0.0003
+ING Groep N.V.,39,0.0003
+Siemens AG,39,0.0003
+Smartlock,38,0.0003
+"Okta, Inc.",38,0.0003
+Tradesmarter Holdings LTD,38,0.0003
+Trans Union LLC,38,0.0003
+SoftBank Corp.,38,0.0003
+EMQ,38,0.0003
+TP-Link,38,0.0003
+Digital Watchdog,37,0.0003
+Keyfactor Inc.,37,0.0003
+Kang Chiao International School,37,0.0003
+"Renaissance Learning, Inc.",37,0.0003
+University of Lancashire,37,0.0003
+Eurofins International Support Services LUX,37,0.0003
+Volkswagen Financial Services AG,37,0.0003
+FASTVPS,37,0.0003
+Daiwa Securities Co. Ltd.,37,0.0003
+U.S. Bank National Association,36,0.0002
+Uplevel Systems Inc,36,0.0002
+University of Iowa,36,0.0002
+"MUFG Bank, Ltd.",36,0.0002
+Mynavi Corporation,36,0.0002
+Verizon,35,0.0002
+ABUS Security-Center GmbH Und Co. KG,35,0.0002
+NSFOCUS Ltd,35,0.0002
+fiberhome,35,0.0002
+LMALPBEPRHRSJRCC,35,0.0002
+HERE Global B.V.,35,0.0002
+Issabel,35,0.0002
+Bloomberg LP,35,0.0002
+BYTEPLUS PTE. LTD.,35,0.0002
+Philips Hue,35,0.0002
+MICHAEL PAGE RECRUITMENT GROUP LIMITED,35,0.0002
+Ring LLC,35,0.0002
+"DH Dental Business Services, LLC",35,0.0002
+Citizens Financial Group Inc,34,0.0002
+BRITISH BROADCASTING CORPORATION,34,0.0002
+BOUYGUES CONSTRUCTION IT SAS,34,0.0002
+OrgName,34,0.0002
+FUJIFILM Business Innovation Corp.,34,0.0002
+"Cloud Software Group, Inc.",34,0.0002
+Plume Design Inc.,34,0.0002
+百胜咨询（上海）有限公司,34,0.0002
+Marriott International Inc.,34,0.0002
+the-company-for-self-certificates,34,0.0002
+imuslab.com,34,0.0002
+Tunghai University,33,0.0002
+TECHNOLOGY INNOVATION INSTITUTE - SOLE PROPRIETORSHIP L.L.C.,33,0.0002
+"Nike, Inc.",33,0.0002
+"TESLA, INC.",33,0.0002
+Hanwha Techwin,33,0.0002
+"Chaitin Co., Ltd.",33,0.0002
+MATRIMONY.COM LIMITED,32,0.0002
+"QGenda, LLC",32,0.0002
+company,32,0.0002
+Instituto Nacional De Capacitacion Profesional (INACAP),32,0.0002
+American Sportsman Holdings Co.,32,0.0002
+"RealPage, Inc.",32,0.0002
+Google,32,0.0002
+"Samsung Electronics CO., LTD.",32,0.0002
+Ferrari S.p.A.,32,0.0002
+Network Optix,32,0.0002
+CommuniGate Systems Customer,32,0.0002
+"The Shinkin Banks Information System Center Co.,Ltd.",32,0.0002
+Natwest Group Plc,31,0.0002
+"DigiCert, Inc.",31,0.0002
+The University of North Carolina at Chapel Hill,31,0.0002
+OVH,31,0.0002
+Samsung Electronics,31,0.0002
+"Best Buy Co., Inc.",31,0.0002
+"Fresenius Medical Care Holdings, Inc.",30,0.0002
+xdevops,30,0.0002
+University of Florida,30,0.0002
+Sangoma Technologies Corporation,30,0.0002
+Department of Government Enablement,30,0.0002
+buffalo,30,0.0002
+Solace Corporation,30,0.0002
+Curtain,30,0.0002
+ipacct.com,30,0.0002
+TorGuard,30,0.0002
+"Akamai Technologies, Inc",30,0.0002
+Com2uS Corporation,30,0.0002
+四川汇金商贸有限公司,30,0.0002
+Sompo Japan Insurance Inc.,30,0.0002
+Chienkuo Technology University,30,0.0002
+United Services Automobile Association,30,0.0002
+Dell Inc,30,0.0002
+OmniPCX Office,30,0.0002
+British Broadcasting Corporation,30,0.0002
+MasterCard International Incorporated,29,0.0002
+Forcepoint LLC,29,0.0002
+Cheng Shiu University,29,0.0002
+UniCredit S.p.A.,29,0.0002
+Index Exchange USA LLC,29,0.0002
+BNP Paribas SA,29,0.0002
+McKesson Corp,29,0.0002
+Hilton International Holding LLC,29,0.0002
+"AT&T Services, Inc.",29,0.0002
+Yandex LLC,29,0.0002
+reo-link,29,0.0002
+UM,29,0.0002
+"Johnson Controls, Inc.",29,0.0002
+Default,29,0.0002
+"vivo Mobile Communication Co., Ltd.",29,0.0002
+Capital One Financial Corporation,29,0.0002
+Bayer AG,28,0.0002
+"Company, INC.",28,0.0002
+COMPAÑIA DE DISTRIBUCION INTEGRAL LOGISTA SA,28,0.0002
+Wolters Kluwer United States Inc.,28,0.0002
+"Electronic Arts, Inc.",28,0.0002
+Akamai Technologies,28,0.0002
+DT,28,0.0002
+Interplanetary Org,28,0.0002
+VNPTT,28,0.0002
+Jorte Inc.,28,0.0002
+CLUB ATLETICO DE MADRID SAD,28,0.0002
+INTELBRAS S/A,28,0.0002
+Realtek,28,0.0002
+"Macy's Systems and Technology, Inc.",28,0.0002
+Apache Traffic Control,28,0.0002
+"The Home Depot, Inc.",28,0.0002
+AIR LIQUIDE SA POUR ETUDE EXPLOIT DES PROCEDES GEORGES CLAUDE,28,0.0002
+"CrownPeak Technology, Inc.",28,0.0002
+"Japan Airlines Co., Ltd.",27,0.0002
+Thomson Reuters Corporation,27,0.0002
+Lenel,27,0.0002
+ChargeBee Inc.,27,0.0002
+Japan National Tourism Organization,27,0.0002
+Rogers Communications Inc.,27,0.0002
+Buffalo Inc.,27,0.0002
+Unknonwn ,27,0.0002
+BANCO RIBEIRAO PRETO S/A,27,0.0002
+AxGate,27,0.0002
+Exim Developers,27,0.0002
+"Samsung Life Insurance Co., Ltd.",27,0.0002
+"F5, Inc.",27,0.0002
+Ruijie,27,0.0002
+Speco Technologies,27,0.0002
+"All Nippon Airways Co.,Ltd.",27,0.0002
+"ARRIS Group, Inc.",27,0.0002
+Consiglio Nazionale delle Ricerche,27,0.0002
+Cyberoam,26,0.0002
+Meraki LLC,26,0.0002
+University of Vermont,26,0.0002
+McDonald's Corporation,26,0.0002
+NETASQ - Secure Internet Connectivity,26,0.0002
+HP,26,0.0002
+PRTG Demo Certificate,26,0.0002
+University of Maryland-College Park,26,0.0002
+Société des loteries du Québec,26,0.0002
+Schaeffler Technologies AG & Co. KG,26,0.0002
+Poste.io,26,0.0002
+Proxmox Virtual Environment,26,0.0002
+Centers For Disease Control and Prevention,26,0.0002
+SCHNEIDER ELECTRIC INDUSTRIES SAS,26,0.0002
+-,26,0.0002
+FUNDACAO GETULIO VARGAS,26,0.0002
+"SQUARE ENIX CO., LTD.",26,0.0002
+BANCO BRADESCO S.A.,26,0.0002
+"WatchGuard Technologies, Inc.",25,0.0002
+"Rackspace US, Inc.",25,0.0002
+"NTT DOCOMO, Inc.",25,0.0002
+ALM,25,0.0002
+The Queen's University of Belfast,25,0.0002
+READYFOR INC.,25,0.0002
+Voyager Sopris Learning,25,0.0002
+"United Parcel Service, Inc.",25,0.0002
+Falck Danmark A/S,25,0.0002
+Self-Signed,25,0.0002
+"Datadog, Inc.",25,0.0002
+Cox Automotive Inc.,25,0.0002
+"Equifax Workforce Solutions, LLC",25,0.0002
+Sangfor,25,0.0002
+IQVIA Holdings Inc,25,0.0002
+UK Research and Innovation,25,0.0002
+ForRecoveryPurposes,25,0.0002
+"Compal Broadband Networks, Inc",25,0.0002
+cintra,25,0.0002
+Avaya Inc,25,0.0002
+DANONE,25,0.0002
+Webmin,25,0.0002
+Bogus,25,0.0002
+Global Industrial Distribution Inc.,25,0.0002
+Infocamere S.C.p.A.,24,0.0002
+RaiolaCP Control Panel,24,0.0002
+Yelp Inc.,24,0.0002
+kube-master,24,0.0002
+Genetec Security Center,24,0.0002
+APPLIED TECHNOLOGIES INTERNET S.A.S.,24,0.0002
+MSCI Inc.,24,0.0002
+x,24,0.0002
+"SECOM Co., Ltd.",24,0.0002
+Panabit,24,0.0002
+iXsystems,24,0.0002
+LucaNet AG,24,0.0002
+Ameriprise Financial Inc,24,0.0002
+Infoblox Inc.,24,0.0002
+Canadian Imperial Bank of Commerce,24,0.0002
+Polycom Inc.,24,0.0002
+"Mattel, Inc.",24,0.0002
+American Airlines Inc,24,0.0002
+Company,24,0.0002
+阿里巴巴（中国）网络技术有限公司,24,0.0002
+"Samsung Electronics Co.,Ltd.",24,0.0002
+Zyxel,24,0.0002
+"Staples, Inc.",24,0.0002
+Grundfos Holding A/S,23,0.0002
+Argo CD,23,0.0002
+中国平安保险（集团）股份有限公司,23,0.0002
+Stellantis N.V.,23,0.0002
+"Covenant Medical Center, Inc.",23,0.0002
+Sumitomo Mitsui Banking Corporation,23,0.0002
+American Express Company,23,0.0002
+BANCO DE CREDITO DEL PERU,23,0.0002
+Asustor,23,0.0002
+Aruba S.p.A.,23,0.0002
+NAVER Cloud Corp.,23,0.0002
+"Acme, Inc.",23,0.0002
+"A CITY DISCOUNT, INC.",23,0.0002
+Johnson & Wales University,23,0.0002
+NONE,23,0.0002
+"Centric Software, Inc.",23,0.0002
+Trnavská univerzita v Trnave,23,0.0002
+"BeiJing Baidu Netcom Science Technology Co., Ltd",23,0.0002
+National Tsing Hua University,22,0.0002
+Ministry of Foreign Affairs,22,0.0002
+Samsung SERI,22,0.0002
+Hewlett-Packard Company,22,0.0002
+BANK OF AYUDHYA PUBLIC COMPANY LIMITED,22,0.0002
+Keentech Solutions,22,0.0002
+Webhosting,22,0.0002
+Wazuh,22,0.0002
+innovaphone,22,0.0002
+Tech Mahindra Ltd,22,0.0002
+"Taiwan Shin Kong Commercial Bank Co., Ltd.",22,0.0002
+"Red Hat, Inc.",22,0.0002
+K7Computing,22,0.0002
+DIRECTION GÉNÉRALE DU TRÉSOR ET DE LA COMPTABILITÉ PUBLIQUE,22,0.0002
+"ControlUp, Inc.",22,0.0002
+Mini Webservice Ltd,22,0.0002
+INTERNET SOLUTIONS LLC,22,0.0002
+"NTT DOCOMO, INC.",22,0.0002
+"NBCUniversal, LLC",22,0.0002
+Breville Pty Limited,22,0.0002
+Interhive OÜ,22,0.0002
+"CoStar Group, Inc.",21,0.0001
+CNTEE Transelectrica SA,21,0.0001
+Software,21,0.0001
+Netgate pfSense Plus GUI default Self-Signed Certificate,21,0.0001
+CEGID SAS,21,0.0001
+SEWAN,21,0.0001
+"Disney Enterprises, Inc",21,0.0001
+Sky Limited,21,0.0001
+Abbott Laboratories,21,0.0001
+GreenWave Systems,21,0.0001
+certificate,21,0.0001
+"Joh. Berenberg, Gossler & Co. KG",21,0.0001
+Dasan Networks Solution,21,0.0001
+极兔国际物流有限公司,21,0.0001
+Veeder-Root,21,0.0001
+HARVEST SAS,21,0.0001
+Historic Royal Palaces,21,0.0001
+Deutsche Post AG,21,0.0001
+Control4,21,0.0001
+nsfocus,21,0.0001
+HTC Corporation,21,0.0001
+mkcert development certificate,21,0.0001
+Velera Solutions LLC,21,0.0001
+Vivotek.Inc,21,0.0001
+Ebee Smart Technologies GmbH,20,0.0001
+"Arlo Technologies, Inc.",20,0.0001
+Västra Götalandsregionen,20,0.0001
+"Automatic Data Processing, Inc.",20,0.0001
+咪咕互动娱乐有限公司,20,0.0001
+London Stock Exchange Group plc,20,0.0001
+Koninklijke Philips N.V.,20,0.0001
+"NBA Properties, Inc.",20,0.0001
+Unify,20,0.0001
+"",20,0.0001
+United States Department of State,20,0.0001
+SpaceWeb LLC,20,0.0001
+Hijos de Rivera S.A.,20,0.0001
+"American Airlines, Inc.",20,0.0001
+Administrative Office of the United States Courts,20,0.0001
+Wells Fargo & Company,20,0.0001
+GLiNet,20,0.0001
+FUJITSU LIMITED,20,0.0001
+58.63.83.179,20,0.0001
+"Arcadia Technology, LLC",20,0.0001
+"ELECTRIC VINE, INC.",20,0.0001
+Las Vegas Sands Corp.,20,0.0001
+"Canadian Tire Corporation, Limited",20,0.0001
+fallbkcrt.com,20,0.0001
+Droplet,20,0.0001
+"inContact, Inc.",20,0.0001
+"PayPal, Inc.",20,0.0001
+"Pfizer, Inc.",20,0.0001
+CDN,20,0.0001
+ekom21 - KGRZ Hessen K.d.oe.R.,20,0.0001
+"SEDGWICK CLAIMS MANAGEMENT SERVICES, INC",20,0.0001
+IBM,20,0.0001
+Uniwersytet Papieski Jana Pawła II w Krakowie,19,0.0001
+City of Philadelphia,19,0.0001
+Kubernetes,19,0.0001
+MOBOTIX AG,19,0.0001
+BALEARIA EUROLINEAS MARITIMAS SA,19,0.0001
+"Tokio Marine & Nichido Fire Insurance Co., Ltd.",19,0.0001
+"Beijing Topsec Network Security Technology Co., Ltd.",19,0.0001
+Advantech Czech s.r.o.,19,0.0001
+IT Systems,19,0.0001
+INSTITUTO CERVANTES,19,0.0001
+"Algolia, Inc.",19,0.0001
+KOÇ FİNANSMAN ANONİM ŞİRKETİ,19,0.0001
+Tucows Inc,19,0.0001
+"GoTo Technologies USA, LLC",19,0.0001
+Cambium Networks Inc,19,0.0001
+BARILLA G. E R. FRATELLI SPA,19,0.0001
+T.C. Ziraat Bankası A.Ş.,19,0.0001
+nil2,19,0.0001
+London School of Hygiene & Tropical Medicine,19,0.0001
+Heroku,19,0.0001
+"Eligible, Inc.",19,0.0001
+HSBC Group Management Services Limited,19,0.0001
+G DATA CyberDefense AG,19,0.0001
+SERVER,19,0.0001
+Mensch und Maschine Management AG,19,0.0001
+Paramount Global,19,0.0001
+OTSUKA CORPORATION,19,0.0001
+Epic Systems Corporation,19,0.0001
+Costco Wholesale Corporation,19,0.0001
+Lenovo Technology Sdn. Bhd.,19,0.0001
+Barracuda Networks,19,0.0001
+DOCAPOSTE SAS,18,0.0001
+"The Hanover Insurance Group, Inc.",18,0.0001
+Lenovo,18,0.0001
+"BJ's Wholesale Club, Inc.",18,0.0001
+Cisco,18,0.0001
+Avis Budget Services Ltd,18,0.0001
+RAKsmart,18,0.0001
+北京京东尚科信息技术有限公司,18,0.0001
+KOGIS,18,0.0001
+Honeywell International Inc.,18,0.0001
+Gouvernement du Québec,18,0.0001
+Dell Technologies Inc.,18,0.0001
+OpenBanking,18,0.0001
+State Farm Mutual Automobile Insurance Company,18,0.0001
+Klick-Tipp Ltd.,18,0.0001
+NTT DOCOMO.INC,18,0.0001
+Ernst & Young LLP,18,0.0001
+"Infor (US), LLC",18,0.0001
+"Eagle Eye Networks, Inc.",18,0.0001
+localhost.localdomain,18,0.0001
+STD Petrovich,18,0.0001
+pure-ftpd,18,0.0001
+First Republic Bank,18,0.0001
+Rogers Communications Inc,18,0.0001
+"MSC Industrial Direct Co., Inc.",18,0.0001
+Amazon Inc.,18,0.0001
+Quest Diagnostics Incorporated,18,0.0001
+INSIDE Secure Corporation,18,0.0001
+Ochsner Clinic Foundation,18,0.0001
+ZTE Corporation,18,0.0001
+Community Hospitals of Central California,18,0.0001
+Daimler Truck AG,18,0.0001
+Banco Bilbao Vizcaya Argentaria S.A.,18,0.0001
+Industrial Safety Training Council,18,0.0001
+REFINITIV US LLC,18,0.0001
+Forcepoint,18,0.0001
+Husqvarna AB,18,0.0001
+BANCO BILBAO VIZCAYA ARGENTARIA SOCIEDAD ANONIMA,17,0.0001
+"Netskope, Inc.",17,0.0001
+EasyAppsOnline,17,0.0001
+Aqua Security Software Ltd,17,0.0001
+"Fidelity National Financial, Inc.",17,0.0001
+VMware Inc,17,0.0001
+VOIP Solutions,17,0.0001
+CAINCO,17,0.0001
+Shanghai Wangsu Science & Technology Co. Ltd,17,0.0001
+EARTHLINK LLC,17,0.0001
+Coupang Corp.,17,0.0001
+AGENCE DU NUMERIQUE EN SANTE,17,0.0001
+Credit Karma LLC,17,0.0001
+Orange SA,17,0.0001
+SICK AG,17,0.0001
+海信集团控股股份有限公司,17,0.0001
+Equifax Inc.,17,0.0001
+Linuxserver.io,17,0.0001
+"T-Mobile USA, Inc.",17,0.0001
+OpenSSL Group,17,0.0001
+"Autel Intelligent Technology Corp.,Ltd.",17,0.0001
+Musarubra US LLC,17,0.0001
+authentik,17,0.0001
+H & M Hennes & Mauritz AB,17,0.0001
+"I-O DATA DEVICE, INC.",17,0.0001
+"DMM.com Securities Co.,Ltd.",17,0.0001
+Bank of America Corporation,17,0.0001
+Cardiff and Vale College,16,0.0001
+MONEYGRAM PAYMENT SYSTEMS INC,16,0.0001
+AppDynamics LLC,16,0.0001
+University of Virginia,16,0.0001
+test,16,0.0001
+"WORKFORCE DEVELOPMENT AGENCY, MINISTRY OF LABOR",16,0.0001
+Teltonika9939082b,16,0.0001
+青岛农业大学,16,0.0001
+Valeo Management SAS,16,0.0001
+ASR Nederland N.V.,16,0.0001
+深圳市欢太科技有限公司,16,0.0001
+Province of Nova Scotia,16,0.0001
+SUV999,16,0.0001
+KeyHelp,16,0.0001
+"Activision Publishing, Inc.",16,0.0001
+"Dropbox, Inc",16,0.0001
+Thecus Technology Corp.,16,0.0001
+Informatica LLC,16,0.0001
+"Warner Bros. Discovery, Inc.",16,0.0001
+Dummy,16,0.0001
+Nordea Bank Abp,16,0.0001
+Apache Friends,16,0.0001
+Huntington University,16,0.0001
+广东欢太科技有限公司,16,0.0001
+ON24,16,0.0001
+Lexisnexis Risk Solutions Inc.,16,0.0001
+Wärtsilä Oyj Abp,16,0.0001
+"Delta Air Lines, Inc.",16,0.0001
+Infosys Limited,16,0.0001
+The University Of Adelaide,16,0.0001
+SentinelOne,16,0.0001
+Global Payments,16,0.0001
+Avigilon,16,0.0001
+Esko,16,0.0001
+"Environmental Systems Research Institute, Inc.",16,0.0001
+City of Dallas,16,0.0001
+Cloud,16,0.0001
+Investitionsbank Schleswig-Holstein,16,0.0001
+"Dayforce, Inc.",16,0.0001
+WellStar Health System Inc,16,0.0001
+Columbia University,16,0.0001
+KELLANOVA,16,0.0001
+Pentana Solutions Pty Ltd,16,0.0001
+Camelot UK Bidco Limited,16,0.0001
+SUPRICORP SUPRIMENTOS LTDA,16,0.0001
+"Bon Secours Mercy Health, Inc.",16,0.0001
+Digi International Inc.,15,0.0001
+Axentraserver Default Certificate 863B4AB,15,0.0001
+guardicore,15,0.0001
+Central 1 Credit Union,15,0.0001
+北京火山引擎科技有限公司,15,0.0001
+YMCA of the USA,15,0.0001
+Nokia Oyj,15,0.0001
+Netgate pfSense Plus webConfigurator Self-Signed Certificate,15,0.0001
+"NetApp, Inc.",15,0.0001
+Next PLC,15,0.0001
+Intelbras SA,15,0.0001
+OPSSHIELD LLP,15,0.0001
+"Rackspace Technology, Inc.",15,0.0001
+TeamViewer Germany GmbH,15,0.0001
+One 97 Communications Limited,15,0.0001
+Delcredere,15,0.0001
+AI Company,15,0.0001
+United Brotherhood of Carpenters and Joiners of America,15,0.0001
+株式会社中日新聞社,15,0.0001
+"Blackbaud, Inc.",15,0.0001
+Google Trust Services LLC,15,0.0001
+ECCO Sko A/S,15,0.0001
+"Lutron Electronics Co., Inc.",15,0.0001
+"Beijing Kuaishou Technology Co.,Ltd.",15,0.0001
+Transform SR Brands LLC,15,0.0001
+Brightcove Inc,15,0.0001
+"Solera Holdings, LLC",15,0.0001
+Suprema Inc.,15,0.0001
+Carlson Craft Inc,15,0.0001
+"BLACKROCK CAPITAL MANAGEMENT, INC.",15,0.0001
+Cotdazr,15,0.0001
+U.S. Department of Agriculture,15,0.0001
+Deutsche Lufthansa Aktiengesellschaft,15,0.0001
+TUI AG,15,0.0001
+au Jibun Bank Corporation,15,0.0001
+BioMérieux,15,0.0001
+Tencent,15,0.0001
+Institutul de Fizică și Inginerie Nucleară Horia Hulubei,15,0.0001
+"Sound United, LLC",15,0.0001
+PTC Inc.,15,0.0001
+k8s,15,0.0001
+SMA Solar Technology AG,15,0.0001
+"Mansfield Oil Company of Gainesville, Inc.",15,0.0001
+Company Name,15,0.0001
+"Versant Media Group, Inc.",15,0.0001
+"VMware, Inc.",15,0.0001
+"Datto, LLC",15,0.0001
+Fujitsu Services Ltd,15,0.0001
+"Nasdaq, Inc.",15,0.0001
+Exxon Mobil Corporation,15,0.0001
+hamburg.de GmbH,15,0.0001
+CN,15,0.0001
+Empower Annuity Insurance Company of America,15,0.0001
+RHB Bank Berhad,15,0.0001
+Sagemcom,15,0.0001
+Toll Collect GmbH,15,0.0001
+Passepatout s.p.a.,15,0.0001
+"WORKS HUMAN INTELLIGENCE CO., LTD.",14,0.0001
+"McAfee, LLC",14,0.0001
+"Alipay Payment Technology Co., Ltd",14,0.0001
+Long & Foster,14,0.0001
+D-Link,14,0.0001
+"Kiteworks USA, LLC",14,0.0001
+El Corte Ingles S.A.,14,0.0001
+Centers for Medicare & Medicaid Services,14,0.0001
+COM,14,0.0001
+goedge,14,0.0001
+"Parallels, Inc.",14,0.0001
+AstraZeneca Pharmaceuticals LP,14,0.0001
+Honeywell,14,0.0001
+Michigan Technological University,14,0.0001
+GWS SW,14,0.0001
+CMC Markets UK PLC,14,0.0001
+Deloitte LLP,14,0.0001
+"Canon U.S.A., INC.",14,0.0001
+"RICOH COMPANY,LTD.",14,0.0001
+Amgen Inc.,14,0.0001
+TP-LINK GLOBAL INC.,14,0.0001
+pCloud AG,14,0.0001
+Stensul Inc.,14,0.0001
+AXIS Communications AB,14,0.0001
+FM LOGISTIC VOSTOK JSC,14,0.0001
+example.com,14,0.0001
+Lamar University,14,0.0001
+Sun Life Assurance Company of Canada,14,0.0001
+NVIDIA Corporation,14,0.0001
+ONWABA S.R.L,14,0.0001
+ebm-papst Mulfingen GmbH & Co. KGaA & Co. KG,14,0.0001
+United States Postal Service,14,0.0001
+TemporaryDefaultCertificate,14,0.0001
+日本事務器株式会社,14,0.0001
+Macomb ISD,14,0.0001
+Solutions,14,0.0001
+Booking.com BV,14,0.0001
+Întreprinderea Mixtă ORANGE MOLDOVA S.A.,14,0.0001
+Druva Inc.,14,0.0001
+KINGFISHER PLC,14,0.0001
+TP-LINK,14,0.0001
+SEIKO EPSON CORP.,14,0.0001
+DrayTek,14,0.0001
+"Nomura Holdings,Inc.",14,0.0001
+NetKlass Techonoloy Inc,14,0.0001
+"ADTRAN, Inc.",14,0.0001
+CFTools Architect,14,0.0001
+Stats Perform,14,0.0001
+ sangfor,14,0.0001
+State of California,14,0.0001
+Twilio Inc.,14,0.0001
+Canadian Broadcasting Corporation,14,0.0001
+Hyosung Corporation,14,0.0001
+ZKTeco,14,0.0001
+Webanizer AG,14,0.0001
+Lumen Technologies Inc,14,0.0001
+联通数字科技有限公司,14,0.0001
+Pallavi InfoTech,14,0.0001
+route,13,0.0001
+"Commvault Systems, Inc.",13,0.0001
+"eBay, Inc.",13,0.0001
+"JI Accident & Fire insurance Co., Ltd.",13,0.0001
+ITAU UNIBANCO S.A.,13,0.0001
+Fraunhofer,13,0.0001
+Technologies,13,0.0001
+University Corporation For Advanced Internet Development,13,0.0001
+Emirates,13,0.0001
+QinSiGuanJia,13,0.0001
+Shop Direct Home Shopping Limited,13,0.0001
+Zimbra Collaboration Server,13,0.0001
+ServerAvatar,13,0.0001
+"Early Warning Services, LLC",13,0.0001
+Safran,13,0.0001
+National Australia Bank Limited,13,0.0001
+Caterpillar Inc.,13,0.0001
+Biesse Spa,13,0.0001
+National Chengchi University,13,0.0001
+..,13,0.0001
+raysharp,13,0.0001
+MATRIX COMSEC PVT. LTD.,13,0.0001
+Department of Education,13,0.0001
+Verizon Connect Inc.,13,0.0001
+"ČEZ ICT Services, a. s.",13,0.0001
+UbiSoft Entertainment Inc,13,0.0001
+Keio University,13,0.0001
+Super Micro Computer Inc.,13,0.0001
+Lineage Logistics,13,0.0001
+"Epic Games, Inc.",13,0.0001
+Together Financial Services Limited,13,0.0001
+Truist Bank,13,0.0001
+Tungsten Automation Corporation,13,0.0001
+Max-Planck-Gesellschaft,13,0.0001
+Channel Four Television Company Limited,13,0.0001
+Bitrix,13,0.0001
+cleverbridge GmbH,13,0.0001
+Tiffany and Company,13,0.0001
+"Fidelity National Financial, Inc",13,0.0001
+Strategy Inc,13,0.0001
+bles_frontend_media,13,0.0001
+ETIC Telecommunications,13,0.0001
+McMaster University,13,0.0001
+HYUNDAI MOTOR COMPANY,13,0.0001
+froxlor,13,0.0001
+Carl Zeiss AG,13,0.0001
+Malayan Banking Berhad,13,0.0001
+adidas AG,13,0.0001
+Siemens Schweiz AG,13,0.0001
+RELX INC.,13,0.0001
+Merchant Warrior (SR Global Solutions Pty Ltd),13,0.0001
+Comtrend,13,0.0001
+Radford University,13,0.0001
+"Khoros, LLC",13,0.0001
+JAGUAR LAND ROVER LIMITED,13,0.0001
+Ellucian Company LLC,13,0.0001
+Macquarie Group LTD,13,0.0001
+Fox Entertainment Group,13,0.0001
+Fujitsu Limited,13,0.0001
+PCCW-HKT DataCom Services Limited,13,0.0001
+Webmin Webserver on localhost.localdomain,13,0.0001
+Royal Institute Of British Architects,13,0.0001
+Humana Inc.,13,0.0001
+Memority SAS,13,0.0001
+Universidad de los Andes,12,0.0001
+iPhotonix,12,0.0001
+Rotary International,12,0.0001
+iomart,12,0.0001
+MRI Software LLC,12,0.0001
+"Verifone, Inc.",12,0.0001
+"Recruit Co., Ltd.",12,0.0001
+"American Eagle Outfitters, Inc.",12,0.0001
+Capgemini,12,0.0001
+BlackBerry Limited,12,0.0001
+Akamai technologies,12,0.0001
+Internet Initiative Japan Inc.,12,0.0001
+CDW LLC,12,0.0001
+"Farmers Group, Inc.",12,0.0001
+ubnt.com,12,0.0001
+Zoho Corporation,12,0.0001
+YMIRLINK Inc.,12,0.0001
+Siemens,12,0.0001
+DZ Bank AG Deutsche Zentral-Genossenschaftsbank,12,0.0001
+Aruba Business S.r.l.,12,0.0001
+CWT PTE Limited,12,0.0001
+"Kaiser Foundation Health Plan, Inc.",12,0.0001
+ELIOR DATA,12,0.0001
+Berliner Hochschule fuer Technik,12,0.0001
+KDDI CORPORATION,12,0.0001
+"Stanley Black & Decker, Inc.",12,0.0001
+"Dick's Sporting Goods, Inc.",12,0.0001
+jitsi.org,12,0.0001
+"Yum Brands, Inc.",12,0.0001
+edgewaternetworks,12,0.0001
+SystemServer,12,0.0001
+University of California Davis,12,0.0001
+Dianfeng Digital Technology,12,0.0001
+Unilever PLC,12,0.0001
+haproxy,12,0.0001
+National Taiwan University,12,0.0001
+"Full Compass Systems, Ltd.",12,0.0001
+"EXAMPLE,INC",12,0.0001
+NTT CARD SOLUTION CORP.,12,0.0001
+EUSKO JAURLARITZA / GOBIERNO VASCO,12,0.0001
+"Haworth, Inc",12,0.0001
+DVR,12,0.0001
+Signum International AG,12,0.0001
+The Toronto-Dominion Bank,12,0.0001
+Your Company,12,0.0001
+"Altisource Solutions, Inc.",12,0.0001
+ASUSWRT-Merlin,12,0.0001
+Hyundai Motor Company,12,0.0001
+Agenzia delle Entrate,12,0.0001
+Universitas Katolik Indonesia Atma Jaya,12,0.0001
+TECHNOVA IMAGING SYSTEMS PRIVATE LIMITED,12,0.0001
+"NBA Media Ventures, LLC",12,0.0001
+CAE S.P.A.,12,0.0001
+SEIKO EPSON Corporation,12,0.0001
+"C.H. Robinson Worldwide, Inc.",12,0.0001
+"SCVNGR, Inc.",12,0.0001
+UCI Medical Center,12,0.0001
+Schneider Electric Industries SAS,12,0.0001
+Goldman Sachs & Co. LLC,12,0.0001
+"The Gap, Inc.",12,0.0001
+D-MARKET ELEKTRONIK HIZMETLER VE TICARET ANONIM SIRKETI,12,0.0001
+Specsavers Optical Group Limited,12,0.0001
+VIMAR Spa,12,0.0001
+Houston Independent School District,12,0.0001
+M-Files Oy,12,0.0001
+Monash University,12,0.0001
+Boat Race Promotion Association,12,0.0001
+SpinupWP,12,0.0001
+MTI Ltd.,12,0.0001
+Kirkland & Ellis LLP,12,0.0001
+The University of Texas at Austin,12,0.0001
+"Iboss, Inc.",12,0.0001
+"Fortinet Systems, Inc.",12,0.0001
+Korea Deposit Insurance Corporation,12,0.0001
+Webdock,12,0.0001
+"KRAFTON, Inc.",11,0.0001
+Frost Bank,11,0.0001
+FieldEffect,11,0.0001
+PVH CORP,11,0.0001
+Test,11,0.0001
+Newell Brands,11,0.0001
+Broward County,11,0.0001
+宝山钢铁股份有限公司,11,0.0001
+Paysafe Group Limited,11,0.0001
+"PREMIER, INC.",11,0.0001
+Snowflake Inc.,11,0.0001
+"Nusoft System, Ltd",11,0.0001
+Fonds de la Recherche Scientifique-Fnrs,11,0.0001
+Crestron Electronics,11,0.0001
+"Cequint, Inc.",11,0.0001
+Australia and New Zealand Banking Group Ltd,11,0.0001
+Monzo Bank Limited,11,0.0001
+"Afore Sura,  S.A. de C.V.",11,0.0001
+DIOT SIACI TECHNOLOGIES SAS,11,0.0001
+Veeva Systems Inc.,11,0.0001
+Carnival Corporation,11,0.0001
+Safaricom PLC,11,0.0001
+"Rhino Software, Inc.",11,0.0001
+Phillips 66 Company,11,0.0001
+Design Print Banner LLC,11,0.0001
+National Kidney and Transplant Institute,11,0.0001
+Infoblox,11,0.0001
+"Tesla, Inc.",11,0.0001
+CareCredit LLC,11,0.0001
+BLUEMAX,11,0.0001
+Belmond Limited,11,0.0001
+US Department of Transportation,11,0.0001
+ACCESS Council,11,0.0001
+Sears Holdings Management Corporation,11,0.0001
+Safe-Guard Products International LLC,11,0.0001
+"Avantor Performance Materials, LLC",11,0.0001
+Silver Peak Systems Inc,11,0.0001
+ABB Asea Brown Boveri Ltd,11,0.0001
+United Airlines Inc,11,0.0001
+Banco de Sabadell S.A.,11,0.0001
+SMBC Nikko Securities Inc.,11,0.0001
+"MediaPlatform, Inc.",11,0.0001
+HT Media Ltd.,11,0.0001
+VIRGIN ATLANTIC AIRWAYS LIMITED,11,0.0001
+First Bank of Nigeria Ltd.,11,0.0001
+Windstream,11,0.0001
+TransIP,11,0.0001
+Aurubis AG,11,0.0001
+"Cygames, Inc.",11,0.0001
+AMI,11,0.0001
+Cisco Systems,11,0.0001
+Johnson Controls Inc.,11,0.0001
+BP p.l.c.,11,0.0001
+State of Indiana,11,0.0001
+Some-org,11,0.0001
+NAVER Corporation,11,0.0001
+Criteo Technology SAS,11,0.0001
+LUPUS Electronics GmbH,11,0.0001
+Universidad Nacional Autónoma de México,11,0.0001
+Harris County,11,0.0001
+"Zhejiang Dahua Technology Co.,Ltd.",11,0.0001
+DENSO CORPORATION,11,0.0001
+Mitsubishi Electric Corporation,11,0.0001
+MERCER (US) LLC,11,0.0001
+Ville de La Louvière,11,0.0001
+北京三快科技有限公司,11,0.0001
+Associated Banc-Corp,11,0.0001
+N.V. PWN Waterleidingbedrijf Noord-Holland,11,0.0001
+mx_server,11,0.0001
+University of North Carolina Health Care System,11,0.0001
+Vietnam Joint Stock Commercial Bank of Industry and Trade,11,0.0001
+State of South Dakota,11,0.0001
+"Texas Instruments, Inc.",11,0.0001
+"Arrow Electronics, Inc.",11,0.0001
+National Taiwan University of Arts,11,0.0001
+BP P.L.C.,11,0.0001
+"Arista Networks, Inc.",11,0.0001
+SWIGGY LIMITED,11,0.0001
+Accedian Networks Inc.,11,0.0001
+Southern Westchester BOCES,11,0.0001
+"Multi Media, LLC",11,0.0001
+"BlackRock Financial Management, Inc.",11,0.0001
+"Medline Industries, LP",11,0.0001
+Claris International Inc.,11,0.0001
+SECUI,11,0.0001
+"University of California, Los Angeles",11,0.0001
+na,11,0.0001
+"Concur Technologies, Inc.",11,0.0001
+Internet Thailand Public Company Limited,11,0.0001
+Netgear Inc.,11,0.0001
+"Hithink RoyalFlush Information Network Co.,Ltd.",11,0.0001
+上海寻梦信息技术有限公司,11,0.0001
+DAS-Security Limited,11,0.0001
+TELUS Corporation,11,0.0001
+MyOrg,11,0.0001
+Grubhub Holdings Inc.,11,0.0001
+oo,11,0.0001
+FactSet Research Systems Inc.,11,0.0001
+Moody's Corporation,11,0.0001
+"Beijing IQIYI Science & Technology Co., Ltd.",11,0.0001
+MACQUARIE UNIVERSITY,11,0.0001
+"Salina Regional Health Center, Inc.",11,0.0001
+Greentube GmbH,11,0.0001
+Achmea Interne Diensten N.V.,11,0.0001
+"Monex, Inc.",10,0.0001
+AUSTRALIAN RAIL TRACK CORPORATION LIMITED,10,0.0001
+CYBERLINKS CO.LTD,10,0.0001
+"Česká spořitelna, a.s.",10,0.0001
+ELSEVIER INC.,10,0.0001
+5VT,10,0.0001
+HPE,10,0.0001
+Wittern Group,10,0.0001
+IBEROSTAR HOTELES Y APARTAMENTOS SL,10,0.0001
+ABB,10,0.0001
+"Ipswitch,Inc.",10,0.0001
+Korea Expressway Corporation,10,0.0001
+"Intuit, Inc.",10,0.0001
+"ZULTYS, INC",10,0.0001
+Gol Linhas Aereas S.A.,10,0.0001
+Dassault Systèmes Biovia Corp,10,0.0001
+LAND BANK OF TAIWAN,10,0.0001
+University of Houston,10,0.0001
+University of Wisconsin Hospitals and Clinics Authority,10,0.0001
+OpenWrt76dc6ce8,10,0.0001
+"Franchise World Headquarters, LLC",10,0.0001
+Certgen Development,10,0.0001
+Quotient Technology Inc,10,0.0001
+BKW AG,10,0.0001
+The Boeing Company,10,0.0001
+Virgin Australia Airlines Holdings PTY LTD,10,0.0001
+ScheidtuBachmann GmbH,10,0.0001
+GOODS AND SERVICES TAX NETWORK,10,0.0001
+"Experian Information Solutions, Inc.",10,0.0001
+BPJS Ketenagakerjaan,10,0.0001
+Amano Korea Corporation,10,0.0001
+aapanel.com,10,0.0001
+Safeway Inc.,10,0.0001
+"DELOITTE TOUCHE TOHMATSU SERVICES, LLC",10,0.0001
+DEXUS Holdings Pty Limited,10,0.0001
+The Governing Council of the University of Toronto,10,0.0001
+VIETTEL TELECOM CORPORATION - BRANCH OF VIETTEL GROUP,10,0.0001
+Santander UK PLC,10,0.0001
+Endress + Hauser InfoServe GmbH + Co. KG,10,0.0001
+Educational Testing Service,10,0.0001
+"Avis Budget Group, Inc.",10,0.0001
+"United Airlines, Inc.",10,0.0001
+"D. E. Shaw & Co., L.P.",10,0.0001
+Rogers Communications Canada Inc.,10,0.0001
+Monica,10,0.0001
+ExampleOrg,10,0.0001
+California Community Colleges Chancellor’s Office,10,0.0001
+Fooyin University,10,0.0001
+TPG Telecom Limited,10,0.0001
+Example.com,10,0.0001
+Bon Preu SAU,10,0.0001
+Stonebranch Inc.,10,0.0001
+"Parametrix, Inc.",10,0.0001
+Sidra Medicine,10,0.0001
+Giant Eagle Inc.,10,0.0001
+Old Dominion University,10,0.0001
+secunet Security Networks Aktiengesellschaft,10,0.0001
+"DigitalOcean, LLC",10,0.0001
+China Construction Bank Corporation,10,0.0001
+SV SparkassenVersicherung Holding AG,10,0.0001
+tv asahi corporation,10,0.0001
+QNAP,10,0.0001
+AB Electrolux,10,0.0001
+"Infinite Campus, Inc.",10,0.0001
+"SafeBreach, Inc.",10,0.0001
+"Global Custom Commerce, Inc.",10,0.0001
+MitraStar,10,0.0001
+Proximus NV,10,0.0001
+"Belkin International, Inc.",10,0.0001
+TVer INC.,10,0.0001
+GRUPO SANTANDER,10,0.0001
+Windscribe,10,0.0001
+Yotpo Ltd,10,0.0001
+VIVOTEK.INC,10,0.0001
+Bureau of Meteorology,10,0.0001
+ORANO SA,10,0.0001
+ReadyTech Corporation,10,0.0001
+ILF Consulting Engineers,10,0.0001
+"Oriental Trading Company, Inc.",10,0.0001
+Global Federal Credit Union,10,0.0001
+"RCC BROADCASTING CO.,LTD.",10,0.0001
+VILMORIN & CIE SAS,10,0.0001
+"Broadcast Music, Inc.",10,0.0001
+Wing FTP Server,10,0.0001
+InhandNetworks,10,0.0001
+DMM.com LLC,10,0.0001
+Landeshauptstadt Muenchen,10,0.0001
+Emerson Electric Co.,10,0.0001
+Hong Kong SAR Government,10,0.0001
+DB Systel GmbH,10,0.0001
+FRANCE MEDIAS MONDE SA,10,0.0001
+"United Cloud, inovacijski center, d.o.o.",10,0.0001
+Bogus Inc,10,0.0001
+dialis direct GmbH,10,0.0001
+3M Company,10,0.0001
+"Cornerstone Brands, Inc.",10,0.0001
+"Rodan & Fields, LLC",10,0.0001
+Orange County Library System,9,0.0001
+"PeopleStrategy, Inc.",9,0.0001
+Government Technology Agency,9,0.0001
+Southern Illinois University,9,0.0001
+TABOOLA.COM LTD,9,0.0001
+BLEU SAS,9,0.0001
+"BigCommerce, Inc.",9,0.0001
+Enablon Netherlands B.V.,9,0.0001
+RAKwireless,9,0.0001
+Alibaba Cloud Computing Ltd.,9,0.0001
+Agencia Estatal Consejo Superior de Investigaciones Científicas,9,0.0001
+LIXIL Corporation,9,0.0001
+"HashiCorp, Inc.",9,0.0001
+lucky666CN,9,0.0001
+The Home Depot,9,0.0001
+Cupid Media Pty Ltd,9,0.0001
+MHS Digital GmbH,9,0.0001
+d.vinci HR-Systems GmbH,9,0.0001
+World First UK Limited,9,0.0001
+"Jones Lang LaSalle IP, Inc.",9,0.0001
+ORACLE CORPORATION,9,0.0001
+"Rippe & Kingston Systems, Inc.",9,0.0001
+Oragroup SA,9,0.0001
+Vard Group AS,9,0.0001
+"Radware, Inc.",9,0.0001
+Airbus Defence and Space GmbH,9,0.0001
+"CNO SERVICES, LLC",9,0.0001
+ITK Engineering GmbH,9,0.0001
+Avaya Inc.,9,0.0001
+"BDO USA, P.C.",9,0.0001
+"THE TRAVELERS COMPANIES, INC.",9,0.0001
+Fair Isaac Corporation,9,0.0001
+AGCO LIMITED,9,0.0001
+"Nippon Jimuki Co., Ltd.",9,0.0001
+Air Canada,9,0.0001
+"CXD NEXT CO., LTD.",9,0.0001
+AmeriSave Mortgage Corporation,9,0.0001
+Prassel,9,0.0001
+Visma Software International AS,9,0.0001
+Samurai Factory Inc.,9,0.0001
+DISH Network Corporation,9,0.0001
+SECURA Insurance Company,9,0.0001
+"Ayla Networks, Inc.",9,0.0001
+"CyberAgent, Inc.",9,0.0001
+Elisa Oyj,9,0.0001
+WP,9,0.0001
+Riot Games Inc,9,0.0001
+INFO EDGE (INDIA) LIMITED,9,0.0001
+Selligent SA,9,0.0001
+"Panasonic Operational Excellence Co., Ltd.",9,0.0001
+Royal Caribbean Cruises Ltd.,9,0.0001
+gost,9,0.0001
+PayPay Bank Corporation,9,0.0001
+GE,9,0.0001
+Gibson Research Corporation,9,0.0001
+JD SPORTS FASHION PLC,9,0.0001
+Linux Containers,9,0.0001
+ELECTRICITE DE FRANCE SA,9,0.0001
+Comvive Servidores,9,0.0001
+RRR,9,0.0001
+ZIPREGZ,9,0.0001
+LITE-ON TECHNOLOGY CORPORATION,9,0.0001
+"ICF Consulting Group, Inc.",9,0.0001
+First Data Corporation,9,0.0001
+University of Washington,9,0.0001
+Western Union Holdings Inc.,9,0.0001
+Sony Bank Incorporated,9,0.0001
+Norlys Group A/S,9,0.0001
+Die Schweizerische Post AG,9,0.0001
+Magyar Telekom Nyrt.,9,0.0001
+Nginx Proxy Manager,9,0.0001
+University of South Carolina-Columbia,9,0.0001
+cc,9,0.0001
+TP ICAP FINANCE PLC,9,0.0001
+Kakao Corp.,9,0.0001
+"Henry Schein, Inc.",9,0.0001
+YIT Oyj,9,0.0001
+"AutoZone, Inc.",9,0.0001
+Astellas US LLC,9,0.0001
+Communications,9,0.0001
+Webmin Webserver on v133-130-76-78.myvps.jp,9,0.0001
+"Retail Cloud Technologies, LLC",9,0.0001
+Perusahaan Otomobil Kedua Sdn Bhd,9,0.0001
+Municipio del Distrito Metropolitano de Quito,9,0.0001
+SOBSEVL,9,0.0001
+TOYOTA FINANCE CORPORATION,9,0.0001
+SERVICO FEDERAL DE PROCESSAMENTO DE DADOS (SERPRO),9,0.0001
+Uvex Winter Holding GmbH & Co. KG,9,0.0001
+Kovoprojekta Brno a.s.,9,0.0001
+IDEWE - Externe dienst voor Preventie en Bescherming op het werk,9,0.0001
+"BDO Unibank, Inc.",9,0.0001
+Sun Hung Kai Properties Limited,9,0.0001
+UBS AG,9,0.0001
+DEUTSCHE BANK AG,9,0.0001
+"Cachenetworks, LLC",9,0.0001
+Kanmachi Inc.,9,0.0001
+顺丰科技有限公司,9,0.0001
+Booz Allen Hamilton Inc.,9,0.0001
+MindTickle Inc,9,0.0001
+The Absolut Company Aktiebolag,9,0.0001
+Kamie Cloud,9,0.0001
+EZGWPMWTLRFINQMCB,9,0.0001
+Gophish,9,0.0001
+"Dun & Bradstreet, Inc.",9,0.0001
+"Concord Hospital, Inc.",9,0.0001
+Mayo Foundation for Medical Education and Research,9,0.0001
+Distech Controls Inc.,9,0.0001
+Thames Water Limited,9,0.0001
+ICSYS COMPANY,9,0.0001
+Heraeus Consulting & IT Solutions GmbH,9,0.0001
+cwctest.com company,9,0.0001
+"MoneyMailerUSA, Inc.",9,0.0001
+RG Nets,9,0.0001
+The Hongkong and Shanghai Banking Corporation Limited,9,0.0001
+科大讯飞股份有限公司,9,0.0001
+default,9,0.0001
+OneStream Software LLC,9,0.0001
+"East Money Information Co., Ltd.",9,0.0001
+"SquareTrade, Inc.",9,0.0001
+PROSEGUR COMPAÑIA DE SEGURIDAD S.A.,9,0.0001
+DUCATI MOTOR HOLDING S.p.A.,9,0.0001
+"KOTOBUKI KIKAKU Co.,Ltd.",9,0.0001
+"RealPage, Inc",9,0.0001
+Army & Air Force Exchange Service,9,0.0001
+Nusoft System Inc.,9,0.0001
+Blue Yonder,9,0.0001
+"Beijing Didi Infinity Technology and Development Co., Ltd.",9,0.0001
+Technische Hochschule Aschaffenburg,9,0.0001
+"CJ OliveNetworks Co., Ltd",9,0.0001
+Deloitte Services LP,9,0.0001
+Woolworths Group Limited,9,0.0001
+Allina Health System,9,0.0001
+"AEON Bank, Ltd.",9,0.0001
+Bank of Nova Scotia,9,0.0001
+Vaad Bilisim Teknolojileri,9,0.0001
+GoDaddy Inc.,9,0.0001
+Internet Services,9,0.0001
+ADB sp. z o.o.,9,0.0001
+Stackhero,9,0.0001
+Iberostar Hoteles y Apartamentos SL,9,0.0001
+Maricopa County,9,0.0001
+videoarch.rtc.parker,9,0.0001
+NEURAL MARKETING CO. LTD.,9,0.0001
+Hyundai Autoever Corp.,9,0.0001
+"Cisco Systems, Inc",9,0.0001
+"DataRemote, Inc",9,0.0001
+Morgan Stanley at Work,9,0.0001
+"Accuweather, Inc.",8,0.0001
+IMPRIMERIE NATIONALE,8,0.0001
+Wilmer Cutler Pickering Hale and Dorr LLP,8,0.0001
+Canon Inc.,8,0.0001
+Iron Mountain Incorporated,8,0.0001
+INSYS Microelectronics GmbH,8,0.0001
+Axis Bank Ltd,8,0.0001
+Lenzing Aktiengesellschaft,8,0.0001
+MojoHost,8,0.0001
+"Red Lion Controls, Inc",8,0.0001
+"Fortra, LLC",8,0.0001
+KZGWO,8,0.0001
+Corewell Health,8,0.0001
+郑州电力职业技术学院,8,0.0001
+University of Birmingham,8,0.0001
+"Next Jump, Inc.",8,0.0001
+Paytm Payments Bank Ltd,8,0.0001
+"Cengage Learning, Inc.",8,0.0001
+CIMB Bank Berhad,8,0.0001
+News Digital Media Pty Limited,8,0.0001
+City of New Westminster,8,0.0001
+FREECHARGE PAYMENT TECHNOLOGIES PRIVATE LIMITED,8,0.0001
+My Company Name LTD.,8,0.0001
+Department of Health QLD,8,0.0001
+Intelidata InformÃ¡tica LTDA,8,0.0001
+Kramerica Industries,8,0.0001
+Progress Software Corporation,8,0.0001
+Nessus Users United,8,0.0001
+"The Institute of Electrical and Electronics Engineers, Inc.",8,0.0001
+Itech corp.,8,0.0001
+Jacobs Solutions Inc.,8,0.0001
+SOCIETE GENERALE SA,8,0.0001
+"SAS Institute, Inc.",8,0.0001
+NNGILKJTMAFDCGD,8,0.0001
+KENET,8,0.0001
+SOPHOS LIMITED,8,0.0001
+The Coca-Cola Company,8,0.0001
+Yapi Kredi Bank Nederland N.V.,8,0.0001
+"DELTEK, INC.",8,0.0001
+Prosegur Compañia de Seguridad SA,8,0.0001
+Generalitat de Catalunya,8,0.0001
+Gameservers.com,8,0.0001
+"Franklin Resources, Inc.",8,0.0001
+JAPAN BROADCASTING CORPORATION,8,0.0001
+"Marsh & McLennan Companies, Inc.",8,0.0001
+Celanese International Corporation,8,0.0001
+青岛海尔科技有限公司,8,0.0001
+NOVAC TECHNOLOGY SOLUTIONS PVT LTD,8,0.0001
+Let's Encrypt,8,0.0001
+Galenica AG,8,0.0001
+"Williams-Sonoma, Inc.",8,0.0001
+LG Corp.,8,0.0001
+Legal & General Resources Limited,8,0.0001
+GE HealthCare Inc.,8,0.0001
+Toyota Canada Inc,8,0.0001
+Baker Hughes Company,8,0.0001
+British Airways plc,8,0.0001
+Fordham University,8,0.0001
+Qno Technology Inc.,8,0.0001
+"Taiwan Mobile Co., Ltd.",8,0.0001
+TUEV Rheinland Service GmbH,8,0.0001
+上海幻电信息科技有限公司,8,0.0001
+Hurricane Electric,8,0.0001
+"BAMTECH, LLC",8,0.0001
+Telstra Limited,8,0.0001
+Schneider Electric Buildings Operation server,8,0.0001
+NetFoundry,8,0.0001
+Urban Outfitters Inc.,8,0.0001
+"ICE MORTGAGE TECHNOLOGY, INC.",8,0.0001
+"Discount Fashion Outlets, Inc.",8,0.0001
+XNsystems Co.,8,0.0001
+"Charter Communications Operating, LLC",8,0.0001
+Clydesdale Bank PLC,8,0.0001
+AUDI AG,8,0.0001
+"Augusta National, Inc.",8,0.0001
+"Kodiak Networks, Inc",8,0.0001
+Baxter Healthcare Corporation,8,0.0001
+National Railroad Passenger Corporation,8,0.0001
+Payoneer Inc.,8,0.0001
+Panasonic Corporation,8,0.0001
+"Herbalife International of America, Inc.",8,0.0001
+Altice USA,8,0.0001
+"Daiwa Next Bank, Ltd.",8,0.0001
+"Shenzhen Foscam Intelligent Technology Co.,Ltd",8,0.0001
+Emerson,8,0.0001
+Nanhua University,8,0.0001
+"CoreLogic, Inc.",8,0.0001
+FEIALG,8,0.0001
+DigiCert Inc,8,0.0001
+China Construction Bank,8,0.0001
+"ThreatLocker, Inc",8,0.0001
+Borden Ladner Gervais LLP,8,0.0001
+BVV Pension Management GmbH,8,0.0001
+UUJKDNKV,8,0.0001
+U A E DIRECCION DE IMPUESTOS Y ADUANAS NACIONALES,8,0.0001
+"Digi International, Inc",8,0.0001
+Qualtrics International Inc.,8,0.0001
+CREDIT IMMOBILIER ET HOTELIER S.A.,8,0.0001
+UNIMED BELO HORIZONTE COOPERATIVA DE TRABALHO MEDICO,8,0.0001
+Ally Financial Inc,8,0.0001
+Org,8,0.0001
+"THE WEATHER COMPANY MEDIA SOLUTIONS, LLC",8,0.0001
+QuickSign,8,0.0001
+Roblox Corporation,8,0.0001
+"Juniper Networks, Inc.",8,0.0001
+Toyota South Africa Motors (Pty) LTD,8,0.0001
+SHELL INFORMATION TECHNOLOGY INTERNATIONAL B.V.,8,0.0001
+"University of California, San Diego",8,0.0001
+V.F. Corporation,8,0.0001
+CLEARVIEW ADMINISTRATION SERVICES PTY LIMITED,8,0.0001
+Brightcove Inc.,8,0.0001
+"Department of Health, Disability and Ageing",8,0.0001
+Norgren Limited,8,0.0001
+"Digital Monitoring Products, Inc",8,0.0001
+University of New Mexico,8,0.0001
+Sony Pictures Entertainment Inc.,8,0.0001
+MBH Bank Nyrt.,8,0.0001
+Bentley Motors Limited,8,0.0001
+National Association of Realtors,8,0.0001
+STEM Learning Limited,8,0.0001
+"Streamguys, Inc.",8,0.0001
+Planon B.V.,8,0.0001
+The American College of Greece,8,0.0001
+Study.Net Corporation,8,0.0001
+NYU Langone Hospitals,8,0.0001
+Connells Residential,8,0.0001
+PROGRESSIVE CASUALTY INSURANCE COMPANY,8,0.0001
+Bleckmann België Nv,8,0.0001
+Universidad de Sevilla,8,0.0001
+Southwest Airlines Co.,8,0.0001
+The Canada Life Assurance Company,8,0.0001
+"Harman International Industries, Inc.",8,0.0001
+"Linode, LLC",8,0.0001
+JPS Health Network,8,0.0001
+"Assurant, Inc.",8,0.0001
+Bticino s.p.a.,8,0.0001
+InHand Networks,8,0.0001
+U.S. Senate,8,0.0001
+"Fighters Sports & Entertainment Co., Ltd.",8,0.0001
+MasOrange S.L.,8,0.0001
+"Docker, Inc.",8,0.0001
+Associated Newspapers Limited,8,0.0001
+Epic Hosting LLC,8,0.0001
+772424.hosting,8,0.0001
+Dinamalar,8,0.0001
+wangsu,8,0.0001
+The Descartes Systems Group Inc.,8,0.0001
+NEC Corporation,8,0.0001
+Enterprise Mobility,8,0.0001
+Webmin Webserver on scw-anders-z2,8,0.0001
+SKF Sverige Aktiebolag,8,0.0001
+Bank of Queensland Limited,8,0.0001
+"CYBERNETICOS HOSTING, SL",8,0.0001
+"Royal Holloway, University of London",8,0.0001
+Bombardier Recreational Products Inc.,8,0.0001
+"Amadeus Hospitality Americas, Inc.",8,0.0001
+Bequant,8,0.0001
+University of California San Francisco,8,0.0001
+UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL,8,0.0001
+"Moda Health Plan, INC",8,0.0001
+D2C Inc.,8,0.0001
+SelfSigned,8,0.0001
+KobeKobz,8,0.0001
+GK,8,0.0001
+Indian Institute of Technology Guwahati,8,0.0001
+Hawk Incentives Holdings Limited,8,0.0001
+National Health Insurance Company - Daman - PJSC,8,0.0001
+Momentum Telecom,8,0.0001
+The Auto Club Group,8,0.0001
+"Elevance Health, Inc.",8,0.0001
+Moxa Inc.,8,0.0001
+Etraveli Group AB,8,0.0001
+SOL Networks Limited,8,0.0001
+Ministry of Finance,8,0.0001
+AIR MILES Loyalty Inc,8,0.0001
+"Fourth Enterprises, LLC",8,0.0001
+"Kastle Systems, LLC",7,0.0
+Südwestrundfunk Anstalt des öffentlichen Rechts,7,0.0
+VBXZPDGUU,7,0.0
+"Sisense, Inc",7,0.0
+"Ericsson-LG Enterprise Co., Ltd",7,0.0
+Viacom International Inc.,7,0.0
+"Oriental Land Co., Ltd.",7,0.0
+Alberta Health Services,7,0.0
+KaonBroadband,7,0.0
+ENERGIA GROUP NI HOLDINGS LIMITED,7,0.0
+"Allscripts Healthcare, Llc.",7,0.0
+LendingClub Corporation,7,0.0
+JSC 1C GROUP,7,0.0
+eplus inc.,7,0.0
+Verein z. Foerderung eines Deutschen Forschungsnetzes DFN-Verein,7,0.0
+泰康保险集团股份有限公司,7,0.0
+Teachers Insurance & Annuity Association of America,7,0.0
+易達網股份有限公司,7,0.0
+South Washington County School District,7,0.0
+"Scientific Games International, Inc.",7,0.0
+Unisys Corporation,7,0.0
+Acronis International GmbH,7,0.0
+IVE - Ingenieurgesellschaft für Verkehrs- und Eisenbahnwesen mbH,7,0.0
+OpenStack Foundation,7,0.0
+Qualcomm Incorporated,7,0.0
+"Ubiquiti Networks, Inc",7,0.0
+Avery Dennison Corporation,7,0.0
+Axis Security Inc.,7,0.0
+Sky Deutschland Fernsehen GmbH & Co. KG,7,0.0
+iboss Network Security,7,0.0
+Ancoria Bank Ltd,7,0.0
+Swisscard AECS GmbH,7,0.0
+Land Hessen,7,0.0
+Worldline,7,0.0
+Bristol-Myers Squibb Company,7,0.0
+NRW.BANK,7,0.0
+COM2US HOLDINGS Corp.,7,0.0
+Mathrubhumi Printing & Publishing Co Ltd,7,0.0
+Future Dial Incorporated,7,0.0
+"Toyota Motor North America, Inc.",7,0.0
+Infinity Shield,7,0.0
+M&T Bank Corporation,7,0.0
+Softbank Corp.,7,0.0
+NHS England,7,0.0
+Networks,7,0.0
+Lexington Public Library,7,0.0
+kunshi,7,0.0
+RemoteLock,7,0.0
+AL JAZEERA INTERNATIONAL,7,0.0
+"Sage Software, Inc.",7,0.0
+"Omnissa, LLC",7,0.0
+AVTECH Inc.,7,0.0
+"EnGenius Technologies, Inc.",7,0.0
+sundray,7,0.0
+"China Minsheng Banking Corp., Ltd.",7,0.0
+Transnet,7,0.0
+"Tapestry, Inc",7,0.0
+CBS Corporation,7,0.0
+Tarana Wireless,7,0.0
+DVR Support Center,7,0.0
+M&G Investment Management Limited,7,0.0
+Fasthosts Internet Limited,7,0.0
+"Lawson Entertainment,Inc.",7,0.0
+"Gakken Holdings Co.,Ltd.",7,0.0
+"Banco Invest, SA",7,0.0
+Apache HTTP Server,7,0.0
+"Phreesia, Inc.",7,0.0
+Superintendencia Nacional de Migraciones,7,0.0
+Jupiter Laminators,7,0.0
+Binance Holdings Limited,7,0.0
+Valen Inc.,7,0.0
+LigoWave LLC,7,0.0
+广东盈世计算机科技有限公司,7,0.0
+"Paycor, Inc.",7,0.0
+UPKKGKRH,7,0.0
+"Yodobashi Camera Co.,Ltd.",7,0.0
+Wago Kontakttechnik GmbH & Co. KG,7,0.0
+QNAP Systems Inc.,7,0.0
+Aruba,7,0.0
+"PeerSec Networks, Inc.",7,0.0
+ASUSWRT-Merlin-KoolShare,7,0.0
+University of Illinois,7,0.0
+"University of New Haven, Incorporated",7,0.0
+Vail Resorts Inc.,7,0.0
+"Cornerstone OnDemand, Inc.",7,0.0
+University of Northern Iowa,7,0.0
+WQLODMQO,7,0.0
+Self-signed,7,0.0
+Media.Net Advertising FZ-LLC,7,0.0
+"EPARK, Inc.",7,0.0
+"Forever Living Products International, LLC",7,0.0
+"Panera, LLC",7,0.0
+Global Islami Bank PLC,7,0.0
+"Markit On Demand, Inc.",7,0.0
+SUNCORP CORPORATE SERVICES PTY LTD,7,0.0
+Curtiss-Wright Corporation,7,0.0
+THRON SPA,7,0.0
+University of Montana,7,0.0
+Sony Interactive Entertainment Inc,7,0.0
+i,7,0.0
+UNITY SMALL FINANCE BANK LIMITED,7,0.0
+オークマ株式会社,7,0.0
+Capital Region Health Care Corporation,7,0.0
+Mitel Networks Corporation,7,0.0
+Department of Homeland Security,7,0.0
+DOMINO'S PIZZA UK & IRELAND LIMITED,7,0.0
+"Service Lighting And Electrical Supplies, Inc.",7,0.0
+KPMG IT Service GmbH,7,0.0
+"Ministry of Health, Labour and Welfare",7,0.0
+"Ministère de l’Éduc. Nationale, Enseignement Sup. et Recherche",7,0.0
+New Concepts Development Corporation,7,0.0
+"The MathWorks, Inc.",7,0.0
+Wizards of the Coast LLC,7,0.0
+"Danske Bank A/S, Suomen sivuliike",7,0.0
+Rackspace US Inc.,7,0.0
+Vertex Pharmaceuticals Incorporated,7,0.0
+Indiana University-Bloomington,7,0.0
+"Linksys, LLC.",7,0.0
+Laragon,7,0.0
+"Toray Industries, Inc.",7,0.0
+Georgia Institute of Technology,7,0.0
+Cloudinary Ltd,7,0.0
+"MedImpact Healthcare Systems, Inc.",7,0.0
+City of Culver City,7,0.0
+KWC Group AG,7,0.0
+Autotask Corporation,7,0.0
+Fox Media LLC,7,0.0
+"URBAN OUTFITTERS, INC.",7,0.0
+AgniGATE Technologies,7,0.0
+Qmail Toaster Server,7,0.0
+LenelS2,7,0.0
+Gilead Sciences Inc.,7,0.0
+gargoyle-router.com,7,0.0
+Webmin Webserver on box.leblogdenova.com,7,0.0
+NewMedia-NET GmbH,7,0.0
+"The Mathworks, Inc.",7,0.0
+VPNUK,7,0.0
+Loblaws Inc,7,0.0
+Salem State University,7,0.0
+Domoticz,7,0.0
+CrashPlan Group LLC,7,0.0
+"L3Harris Technologies, Inc.",7,0.0
+"Plexuss, Inc.",7,0.0
+Intelbras,7,0.0
+Bicom Systems EURL,7,0.0
+VINGROUP JOINT STOCK COMPANY,7,0.0
+Wispro,7,0.0
+Connext Communication GmbH,7,0.0
+Cosmo Group,7,0.0
+"Distribuidora Liverpool, S.A. de C.V.",7,0.0
+NexTraq LLC,7,0.0
+"CenturyLink, Inc.",7,0.0
+"SEOmoz, Inc",7,0.0
+University of Kentucky,7,0.0
+360,7,0.0
+Rochester Institute of Technology,7,0.0
+"ADWAYS, INC .",7,0.0
+"Culture Convenience Club Co.,Ltd.",7,0.0
+Allied-Telesis,7,0.0
+Government of Ontario,7,0.0
+DLSNGUEHW,7,0.0
+"Virtual Picu Systems, LLC",7,0.0
+Rochdale Village,7,0.0
+Schneider Electric,7,0.0
+Domino's Pizza LLC,7,0.0
+Local,7,0.0
+"Discovery Communications, LLC",7,0.0
+Epicor Software Corporation,7,0.0
+PAYSAFE GROUP LIMITED,7,0.0
+Fyber GmbH,7,0.0
+"Meta Financial Group, Inc",7,0.0
+"HELLER INFORMATION SERVICES, INC.",7,0.0
+VALEO MANAGEMENT SERVICES GIE,7,0.0
+University of Mississippi Medical Center,7,0.0
+JP01,7,0.0
+"Compass Group USA, Inc.",7,0.0
+NEUROSOFT SOFTWARE PRODUCTION SOCIETE ANONYME,7,0.0
+ZPIQDIEFCI,7,0.0
+Bundesnotarkammer,7,0.0
+Sobeys Inc.,7,0.0
+State of Michigan,7,0.0
+GETNET ADQUIRENCIA SERV PARA MEIOS PAGAMENTO SA - INST PAGAMENTO,7,0.0
+Inetum Belgium,7,0.0
+"Globe Fintech Innovations, Inc.",7,0.0
+Solera Holdings LLC,7,0.0
+rke2,7,0.0
+HERE Global BV,7,0.0
+Ctyun,7,0.0
+ManageEngine,7,0.0
+"CardFlight, Inc.",7,0.0
+Avaya LLC,7,0.0
+"Intralinks, Inc.",7,0.0
+NEOVOTE,7,0.0
+Webmin Webserver on localhost,7,0.0
+British Columbia Hydro and Power Authority,7,0.0
+VIRTU FINANCIAL LLC,7,0.0
+NEXON Korea Corporation,7,0.0
+"Red Hat, LLC",7,0.0
+United States Department of Homeland Security,7,0.0
+Walsall Metropolitan Borough Council,7,0.0
+"Saba Software, Inc.",7,0.0
+Dirk Rossmann GmbH,7,0.0
+PEPPERFRY LIMITED,7,0.0
+American Express Global Business Travel,7,0.0
+BANCO BRADESCO SA,7,0.0
+"Cars.com, LLC",7,0.0
+eVenture Limited,7,0.0
+Palo Alto Networks Inc.,7,0.0
+"Six Continents Hotels, Inc.",7,0.0
+AS Watson (Europe) Holdings B.V.,7,0.0
+"Guitar Center, Inc.",7,0.0
+"Toollabo Co., Ltd.",7,0.0
+FOXTEL Management Pty Limited,7,0.0
+PLYQVRBTXHTIBJT,7,0.0
+Modal vprox,7,0.0
+"Rakuten Securities, Inc.",7,0.0
+ElectraWorks Limited,7,0.0
+"NetDocuments Software, Inc.",7,0.0
+EG Secure Solutions,7,0.0
+SmartFoxServer,7,0.0
+Adelaide University,7,0.0
+浪潮集团有限公司,7,0.0
+"TAG Heuer, Branch of LVMH Swiss Manufactures SA",7,0.0
+"Syn-Tech Systems, Inc.",7,0.0
+Atos SE,7,0.0
+SmarTone Mobile Communications Limited,6,0.0
+"Digital Turbine, Inc.",6,0.0
+Hubbl Pty Ltd,6,0.0
+"Fanatics, LLC",6,0.0
+MK-AUTH,6,0.0
+Department of Transportation,6,0.0
+华为云安全,6,0.0
+Winchester Consultancy Ltd,6,0.0
+Vecima Networks Inc.,6,0.0
+"Murata Manufacturing Co., Ltd.",6,0.0
+"Farmers Group, Inc",6,0.0
+KPMG LLP,6,0.0
+Mitsogo Inc,6,0.0
+Ericsson AB,6,0.0
+Sierra View Medical Center,6,0.0
+Tractor Supply Company,6,0.0
+user1 Org,6,0.0
+"Montepio Crédito - Instituição Financeira de Crédito, S.A.",6,0.0
+"TP-LINK Technologies CO., LTD.",6,0.0
+Home,6,0.0
+"American Institute For Foreign Study, Inc.",6,0.0
+RMNSFVDOVCPZKHWIFF,6,0.0
+Oisix Inc.,6,0.0
+TDPGIFBFS,6,0.0
+Global Security,6,0.0
+Anyconnect,6,0.0
+State of Tennessee,6,0.0
+Automattic Inc.,6,0.0
+MarketAxess Holdings Inc.,6,0.0
+WPODLVMCGNDYE,6,0.0
+Titan Company Ltd,6,0.0
+QZAOXX,6,0.0
+"Factual Data, Inc.",6,0.0
+PortaOne Customer,6,0.0
+BQAVWCLU,6,0.0
+Aargauische Kantonalbank,6,0.0
+British Airways Plc,6,0.0
+PC DEPOT CORPORATION,6,0.0
+Kantar LLC,6,0.0
+SamsungTechwin,6,0.0
+"Rutgers, The State University of New Jersey",6,0.0
+Perfios Software Solutions Private Limited,6,0.0
+"GitHub, Inc.",6,0.0
+J. Crew International Inc,6,0.0
+湖南快乐阳光互动娱乐传媒有限公司,6,0.0
+Whirlpool Corporation,6,0.0
+"Genesys Cloud Services, Inc.",6,0.0
+Northern Trust Corporation,6,0.0
+MyCompany.,6,0.0
+The Bank of New York Mellon,6,0.0
+LiteSpeed,6,0.0
+The Stock Exchange of Thailand,6,0.0
+GuardiCore,6,0.0
+TPLINK,6,0.0
+"The Aldo Group, Inc.",6,0.0
+Default Sinkhole,6,0.0
+XADJQQN,6,0.0
+IPGLOBAL,6,0.0
+上海米哈游天命科技有限公司,6,0.0
+PBXware,6,0.0
+Department of Primary Industries,6,0.0
+"Mead Johnson & Company, LLC",6,0.0
+Timeweb Cloud,6,0.0
+Federation des Caisses Desjardins Du Quebec,6,0.0
+"Assetworks, Inc.",6,0.0
+Manappuram Finance Limited,6,0.0
+CHLTBHMHARFFMM,6,0.0
+Acens Technologies SL,6,0.0
+US,6,0.0
+Henkel AG & Co. KGaA,6,0.0
+Amcrest,6,0.0
+LEDEe917df65,6,0.0
+Arçelik A.Ş.,6,0.0
+ぴあ株式会社,6,0.0
+Tenaga Nasional Berhad,6,0.0
+"RaceTrac, Inc.",6,0.0
+S&P Global Inc,6,0.0
+KFIN TECHNOLOGIES LIMITED,6,0.0
+"The Pep Boys - Manny, Moe & Jack",6,0.0
+"Rockstar Games, Inc.",6,0.0
+Adobe Inc,6,0.0
+LXD,6,0.0
+Extender,6,0.0
+Philips International B.V.,6,0.0
+Centre national de la recherche scientifique,6,0.0
+Institutul de Fizica si Inginerie Nucleara Horia Hulubei,6,0.0
+Vonage Business Inc.,6,0.0
+Sure (Guernsey) LTD,6,0.0
+Universiteit Utrecht,6,0.0
+"SAGAWA EXPRESS CO.,LTD.",6,0.0
+VK,6,0.0
+The University of New England,6,0.0
+"RSUPPORT Co., Ltd.",6,0.0
+"PALMETTO STATE ARMORY, LLC",6,0.0
+CAGMIHUXIJU,6,0.0
+ORANGE BUSINESS SERVICES SA,6,0.0
+VPSSIM FTP,6,0.0
+Default Company Ltd.,6,0.0
+Raintank Inc.,6,0.0
+"Duck Duck Go, Inc.",6,0.0
+"Don Quijote Co., Ltd.",6,0.0
+Mail system,6,0.0
+Spirion,6,0.0
+"Cohesity, Inc.",6,0.0
+"Entrust, Inc.",6,0.0
+JLEJZFEU,6,0.0
+CTS EVENTIM Solutions GmbH,6,0.0
+Amazon Connect Technology Services (Beijing) Co. Ltd.,6,0.0
+SUBARU CORPORATION,6,0.0
+"Dine Brands Global, Inc.",6,0.0
+CHECK POINT SOFTWARE TECHNOLOGIES LTD.,6,0.0
+"Salesforce.com, Inc",6,0.0
+Linde GmbH,6,0.0
+Loblaws Inc.,6,0.0
+UUSEC,6,0.0
+News Corp Australia Pty Limited,6,0.0
+myloc,6,0.0
+Zebra Technologies Corporation,6,0.0
+McKesson Corporation,6,0.0
+"Blue Jeans Network, Inc.",6,0.0
+State of Delaware,6,0.0
+Richemont International SA,6,0.0
+Kyushu Railway Company,6,0.0
+U S Office of Personnel Management,6,0.0
+GB GROUP PLC,6,0.0
+杭州萤石网络股份有限公司,6,0.0
+Alibaba,6,0.0
+openresty.inc,6,0.0
+"Onit, Inc.",6,0.0
+Plek,6,0.0
+Volkswagen AG,6,0.0
+Replibit,6,0.0
+"Eminent, Inc.",6,0.0
+ACL,6,0.0
+"Epsilon Data Management, LLC",6,0.0
+ZSVAAAIZ,6,0.0
+Dickinson College,6,0.0
+OPERA SOFTWARE INTERNATIONAL AS,6,0.0
+University of North Carolina at Chapel Hill,6,0.0
+"KAGOYA JAPAN,INC.",6,0.0
+Bewakoof Brands Private Limited,6,0.0
+"Agilent Technologies, Inc.",6,0.0
+"SK Broadband Co., Ltd.",6,0.0
+Banque Nationale du Canada,6,0.0
+Saxo Bank A/S,6,0.0
+LIFECELL LLC,6,0.0
+"FUKUOKA FINANCIAL GROUP, INC.",6,0.0
+"Global Shop Solutions, Inc.",6,0.0
+PiKVM,6,0.0
+Example Inc,6,0.0
+"Association for Computing Machinery, Inc.",6,0.0
+Viasat,6,0.0
+NETCORE CLOUD PRIVATE LIMITED,6,0.0
+Proxy,6,0.0
+agile-proxy,6,0.0
+Just dial Limited,6,0.0
+Angel One Limited,6,0.0
+MarketOne International LLP,6,0.0
+Illinois Tool Works Inc.,6,0.0
+zerto.local,6,0.0
+Enel Global Services,6,0.0
+NDTV CONVERGENCE LIMITED,6,0.0
+Los Rios Community College District,6,0.0
+University of Technology Sydney,6,0.0
+Panasonic,6,0.0
+"Active Network, LLC",6,0.0
+National Stock Exchange of India Ltd.,6,0.0
+"LATAM Airlines, S.A.",6,0.0
+DOCAPOST BPO,6,0.0
+University of Oxford,6,0.0
+北京云中融信网络科技股份有限公司,6,0.0
+Waitrose Limited,6,0.0
+N,6,0.0
+Sterling Financial Group,6,0.0
+Allegro sp. z o.o.,6,0.0
+PNHQXQFGXD,6,0.0
+Philippine National Bank,6,0.0
+Network18 Media & Investments Limited,6,0.0
+OPTIMIZELY OPERATIONS INC.,6,0.0
+"Euromarket Designs, Inc.",6,0.0
+WATCHES OF SWITZERLAND COMPANY LIMITED,6,0.0
+ACH COLOMBIA S A,6,0.0
+Weathernews Inc.,6,0.0
+KOZXJYKHASEPYM,6,0.0
+Quality Meat Renmans SA,6,0.0
+OKI,6,0.0
+Bayerischer Rundfunk,6,0.0
+Aiphone,6,0.0
+Insurance Australia Group Limited,6,0.0
+THE CEDARVILLE UNIVERSITY,6,0.0
+BJ,6,0.0
+"Pls Financial Services, Inc.",6,0.0
+JOLTQCFZWWCMABYJ,6,0.0
+Asahi Business Solutions Corp.,6,0.0
+"Advent Software, Inc.",6,0.0
+"Shutterfly, LLC",6,0.0
+YYGYKWUFX,6,0.0
+OpenDJ RSA Self-Signed Certificate,6,0.0
+Stadt Oldenburg (Oldb),6,0.0
+AARP,6,0.0
+Midasplayer.com Ltd.,6,0.0
+JT International SA,6,0.0
+FOXTEL MANAGEMENT PTY LIMITED,6,0.0
+DPtech,6,0.0
+"Twitter, Inc.",6,0.0
+Paedagogische Hochschule Schwaebisch Gmuend,6,0.0
+Viacom 18 Media Pvt. Ltd.,6,0.0
+"Chewy, Inc.",6,0.0
+Stats LLC,6,0.0
+"Pinterest, Inc.",6,0.0
+Teleflora LLC,6,0.0
+Techwin,6,0.0
+Nokia,6,0.0
+OPNsense,6,0.0
+"SBI Life Insurance Co.,Ltd.",6,0.0
+NHN Corporation,6,0.0
+JHANZ,6,0.0
+Holmen AB,6,0.0
+TELECOM ITALIA SPA,6,0.0
+サントリーホールディングス株式会社,6,0.0
+"Bullhorn, Inc.",6,0.0
+Hilti Aktiengesellschaft,6,0.0
+株式会社りそな銀行,6,0.0
+MSC Cruises SA,6,0.0
+"Paybook, Inc.",6,0.0
+TELEGRAPH MEDIA GROUP HOLDINGS LIMITED,6,0.0
+"Papa John's International, Inc",6,0.0
+Toyota Motor Corporation,6,0.0
+"DIRECTV, LLC.",6,0.0
+LOUIS VUITTON MALLETIER SAS,6,0.0
+Webmin Webserver on Callisto,6,0.0
+SxW Building Operations Server,6,0.0
+Webserver,6,0.0
+Veeam,6,0.0
+Pelco,6,0.0
+Yokogawa,6,0.0
+RED RIVER TECHNOLOGY LLC,6,0.0
+StorageCraft Technology Corporation,6,0.0
+"Hawaiian Airlines, Inc",6,0.0
+MV INFORMATICA NORDESTE LTDA,6,0.0
+COPY-SUD,6,0.0
+華碩雲端股份有限公司,6,0.0
+GL EVENTS SA,6,0.0
+Yokogawa Electric Corporation,6,0.0
+"HEIWADO CO.,LTD.",6,0.0
+SPIRE,6,0.0
+"Panasonic Entertainment & Communication  Co., Ltd.",6,0.0
+"Shenzhen Onething Technology Co., Ltd",6,0.0
+Forschungszentrum Juelich GmbH,6,0.0
+CLOUD-IT S.A.S.,6,0.0
+平安银行股份有限公司,6,0.0
+Maersk Line A/S,6,0.0
+"SonicWall, Inc.",6,0.0
+Johnson and Johnson,6,0.0
+Genting Malaysia Bhd,6,0.0
+St. John's University,6,0.0
+Webmin Webserver on scw-qsoar-d01,6,0.0
+"H.I.S. CO., LTD.",6,0.0
+"Charles Schwab & Co., Inc.",6,0.0
+SKSA Technology,6,0.0
+Banco Bradesco S.A.,6,0.0
+Ezviz,6,0.0
+Switchvox,6,0.0
+"Kaori Thermal Technology Co., Ltd.",6,0.0
+Subito.it S.R.L.,6,0.0
+C. Hoare & Co.,6,0.0
+Zee Entertainment Enterprises Limited,6,0.0
+"Genomic Health, Inc",6,0.0
+SOCIETE FRANCAISE DU RADIOTELEPHONE - SFR S.A.,6,0.0
+Specialpedagogiska skolmyndigheten,6,0.0
+CDWINRYL,6,0.0
+00:1C:7F:DC:6C:65..h7dynd,6,0.0
+International Game Technology,6,0.0
+AJDJVPIKA,6,0.0
+GNXYMUA,6,0.0
+Heartland Bank Limited,6,0.0
+SMCP Group SAS,6,0.0
+LATAM Airlines Group S.A.,6,0.0
+Kraft Heinz Foods Company,6,0.0
+QUIKR INDIA PRIVATE LIMITED,6,0.0
+ASUSTeK COMPUTER INC.,6,0.0
+Shift2 B.V.,6,0.0
+Cosmote,6,0.0
+AhnLab,6,0.0
+"MESOSCOPE TECHNOLOGY CO., LTD.",6,0.0
+"Intellectual Reserve, Inc",6,0.0
+Amcrest Technologies LLC,6,0.0
+"Datto, Inc.",6,0.0
+University of Oregon,6,0.0
+Polyplex Corporation Limited,6,0.0
+Splunk Inc.,6,0.0
+ALGECO SAS,6,0.0
+Coupa Software Inc.,6,0.0
+ING Bank Anonim Sirketi,6,0.0
+The Golden 1 Credit Union,6,0.0
+National Central University,6,0.0
+美的集团股份有限公司,6,0.0
+Mersive Technologies Inc,6,0.0
+Quantum Metric Inc,6,0.0
+Voya Services Company,6,0.0
+Revolut Ltd,6,0.0
+"Hypersonic Management, OPC",6,0.0
+"Sina.com Technology(China)Co.,ltd",6,0.0
+Telekom Malaysia Berhad,6,0.0
+BoondManager,6,0.0
+Nuvei Limited,6,0.0
+Zappos.com LLC,6,0.0
+Corel Corporation,6,0.0
+VENUSTECH,6,0.0
+"Mercury Security Products, LLC",6,0.0
+SBIホールディングス株式会社,6,0.0
+Adobe Systems Incorporated,6,0.0
+TQ-Systems GmbH,6,0.0
+The Bank Of New York Mellon,6,0.0
+L'EQUIPE SAS,6,0.0
+"I-Do Communications,Inc.",6,0.0
+State of Kansas,6,0.0
+HÉMA-QUÉBEC,6,0.0
+CEGID INC.,6,0.0
+Continental Aktiengesellschaft,6,0.0
+Mailtech,6,0.0
+北汽福田汽车股份有限公司,6,0.0
+CXEHWHOLTWDW,6,0.0
+Ontario Science Centre,5,0.0
+Rockwell Automation,5,0.0
+PVR INOX LIMITED,5,0.0
+VQYNNEHOUMGY,5,0.0
+SOCRAM BANQUE SA,5,0.0
+Digital Arts Inc.,5,0.0
+Nokia Corporation,5,0.0
+"HBS Systems, Inc.",5,0.0
+University of Pittsburgh-Pittsburgh Campus,5,0.0
+University of Oklahoma,5,0.0
+Ministerstvo spravedlnosti ČR,5,0.0
+"THE HOME DEPOT, INC",5,0.0
+"AXIMA, spol. s r.o.",5,0.0
+Comelit Group Spa,5,0.0
+Seismic Software Inc.,5,0.0
+Make-A-Wish Foundation of America,5,0.0
+Temple University-Of The Commonwealth System of Higher Education,5,0.0
+UHKZBM,5,0.0
+Banco de Chile,5,0.0
+BMWGroup,5,0.0
+Bayerische Staatsforsten AöR,5,0.0
+Keylane B.V.,5,0.0
+Viavi Solutions Inc,5,0.0
+Symplr Software LLC,5,0.0
+ADEVINTA PRODUCTS & TECHNOLOGY S.L,5,0.0
+JXMHDKED,5,0.0
+Servicio de Administración Tributaria,5,0.0
+OSTEC,5,0.0
+Natura Cosmeticos S/A,5,0.0
+The University of Texas M.D. Anderson Cancer Center,5,0.0
+"NTT DOCOMO,INC.",5,0.0
+Vilniaus universitetas,5,0.0
+AVIV Germany GmbH,5,0.0
+J. Choo Limited,5,0.0
+"St. Jude Children's Research Hospital, Inc.",5,0.0
+Moleskine S.R.L.,5,0.0
+Tangerine Bank,5,0.0
+"Wavedash Co., Ltd.",5,0.0
+"AutoDesk, Inc.",5,0.0
+KEMENTERIAN KEHUTANAN,5,0.0
+Bennett Coleman and Company Limited,5,0.0
+Northern Territory of Australia,5,0.0
+Yoox Net-a-porter Group S.P.A,5,0.0
+YJCXILNEAEKEH,5,0.0
+Accedian Networks inc,5,0.0
+"Zimbra Software, LLC",5,0.0
+NIKON CORPORATION,5,0.0
+SECRETARIA DE ESTADO DE FAZENDA DE MINAS GERAIS,5,0.0
+European Parliament,5,0.0
+"RingCentral, Inc.",5,0.0
+"Everbridge, Inc.",5,0.0
+team.blue,5,0.0
+"Planview, Inc",5,0.0
+ATX,5,0.0
+Rogers Media Inc,5,0.0
+Rackspace,5,0.0
+"GREEN WORLD FINTECH SERVICE CO., LTD.",5,0.0
+CIRCLUXE INC.,5,0.0
+TRENVCDGMNO,5,0.0
+SRGNCASJYZJAXBI,5,0.0
+Check Point Software Technologies Ltd,5,0.0
+Schlumberger Technology Corporation,5,0.0
+上海耶噗网络科技有限公司,5,0.0
+TEAM DIFFUSION SAS,5,0.0
+MCAXOYEYBLKVE,5,0.0
+GWMDRUHGWH,5,0.0
+ZPUARFNR,5,0.0
+PT Indosat Tbk,5,0.0
+Zweites Deutsches Fernsehen Anstalt des öffentlichen Rechts,5,0.0
+ITALGAS SPA,5,0.0
+WalkMe LTD,5,0.0
+OVSoftware B.V.,5,0.0
+"About Time Software, Inc.",5,0.0
+SECRETARIA DE RELACIONES EXTERIORES,5,0.0
+MTVIN,5,0.0
+ADMAN INTERACTIVE SL,5,0.0
+"Darden Restaurants, Inc.",5,0.0
+GXQEUNYSAPKCVOZBT,5,0.0
+SNTEWZWKHJLPQEJZ,5,0.0
+Channel Four Television Corporation,5,0.0
+IFS World Operations AB,5,0.0
+ARRIS Group Inc.,5,0.0
+Prometric LLC,5,0.0
+RECTORAT DE REGION ACADEMIQUE HAUTS-DE-FRANCE,5,0.0
+アカマイ・​テクノロジーズ合同会社,5,0.0
+Fisher Funds Management Limited,5,0.0
+GEYHSEVI,5,0.0
+"Optimizely, Inc.",5,0.0
+"X-Chem, Inc.",5,0.0
+YUAQSKZ,5,0.0
+METAORA TECNOLOGIA LTDA,5,0.0
+Linkoepings universitet,5,0.0
+Point S,5,0.0
+Johnson Controls Inc,5,0.0
+"Ivanti, Inc.",5,0.0
+Host default domain,5,0.0
+MANHATTAN TELECOMMUNICATIONS CORPORATION LLC,5,0.0
+"WebSmart Co., Ltd.",5,0.0
+"Great Tree Pharmacy Co., Ltd.",5,0.0
+2C2P Pte. Ltd.,5,0.0
+SUSE,5,0.0
+Heritage Banking Group,5,0.0
+"Expedia Group, Inc.",5,0.0
+SIVAY,5,0.0
+Department of Treasury,5,0.0
+Apache Haus Distribution Test Certificate,5,0.0
+"Shenzhen Foscam Intelligent Technology Co,Ltd",5,0.0
+system:masters,5,0.0
+LMHQHCRB,5,0.0
+"Scala Communications, Inc.",5,0.0
+Miele & Cie. KG,5,0.0
+"KOBO CO.,LTD.",5,0.0
+Credit Agricole SA,5,0.0
+RBYTXNCPKSEMJLXBG,5,0.0
+VIETTEL CYBER SECURITY COMPANY - BRANCH OF VIETTEL GROUP,5,0.0
+NLPTY,5,0.0
+Telecom Argentina S.A.,5,0.0
+google,5,0.0
+Entrust Corporation,5,0.0
+Komatsu Ltd.,5,0.0
+Lantronix,5,0.0
+Teltonika9de9a93c,5,0.0
+"Jelastic, Inc",5,0.0
+WNLIG,5,0.0
+SOGEI,5,0.0
+SANGFOR VMP,5,0.0
+Emirates Telecommunications Corporation - ETISALAT,5,0.0
+Medical Supply Distribution Corp,5,0.0
+ENKMGPBN,5,0.0
+WVZYWXTJFCL,5,0.0
+MainStreaming SpA,5,0.0
+GOST,5,0.0
+PZEJWVCOJUXVGBROV,5,0.0
+Net Insight,5,0.0
+JAPAN EDUCATIONAL EXCHANGES AND SERVICES,5,0.0
+EMYSRYHDPJRSSON,5,0.0
+PMWTVSEBPZCCC,5,0.0
+Webmin Webserver on emaker,5,0.0
+VAYNNVLY,5,0.0
+CrunchTime Information Systems,5,0.0
+"Samsung SDS Co.,Ltd.",5,0.0
+Cojali S.L.,5,0.0
+Volksbank Dettenhausen eG,5,0.0
+Gordon E. and Betty I. Moore Foundation,5,0.0
+Eni S.P.A.,5,0.0
+LDMCIGLP,5,0.0
+XZKHWKWAFQALQ,5,0.0
+Agoda Company Pte. Ltd.,5,0.0
+IDODQHIDEUZCR,5,0.0
+WELL Health Technologies Corp,5,0.0
+"Fiserv, Inc",5,0.0
+PRZBGTX,5,0.0
+Southwest Business Corporation,5,0.0
+Mintel International Group Limited,5,0.0
+University of Tennessee,5,0.0
+Webmin Webserver on tempahan.mbi.gov.my,5,0.0
+ABUS Security-Center GmbH & Co. KG,5,0.0
+"VeriSign, Inc.",5,0.0
+Canonical,5,0.0
+Teltonika426c8598,5,0.0
+Hewlett-Packard Co.,5,0.0
+MONSTER.COM (INDIA) PRIVATE LIMITED,5,0.0
+QuinStreet Inc,5,0.0
+"L. L. BEAN, INC",5,0.0
+Lim & Tan Securities Pte Ltd,5,0.0
+Aon Corporation,5,0.0
+PFEQUWJDECD,5,0.0
+JNTL CONSUMER HEALTH K.K.,5,0.0
+"CVS Pharmacy, Inc.",5,0.0
+"RAKUTEN GROUP,INC.",5,0.0
+Cencosud S.A.,5,0.0
+BANCO BBVA ARGENTINA S.A.,5,0.0
+DQOUXRXXUZACFGT,5,0.0
+YCSLT,5,0.0
+"Experlogix, LLC",5,0.0
+Stichting Saxion,5,0.0
+"Dealertrack, Inc",5,0.0
+Maryland Health Benefit Exchange,5,0.0
+"Pepsico, Inc",5,0.0
+Open-E,5,0.0
+HIKCVWRXONBFF,5,0.0
+Snap-on Incorporated,5,0.0
+KBC Group NV,5,0.0
+Fujitsu Australia Limited,5,0.0
+V-MART RETAIL LIMITED,5,0.0
+NetEvid,5,0.0
+CENIT AG,5,0.0
+Supership inc.,5,0.0
+"AU COMMERCE & LIFE, INC.",5,0.0
+"CareNet, Inc.",5,0.0
+Enphase Energy,5,0.0
+Issuer Direct Corporation,5,0.0
+MANCHESTER UNITED LIMITED,5,0.0
+FKOZIXDHXTJSMBRNH,5,0.0
+Panda Security S.L.,5,0.0
+Sinch Sweden AB,5,0.0
+Ingka Holding B.V.,5,0.0
+KZRUOR,5,0.0
+"Health Care Service Corporation, A Mutual Legal Reserve Company",5,0.0
+HPPHDWUYIRVE,5,0.0
+LOHKL,5,0.0
+"NCL (bahamas) Ltd., A Bermuda Company",5,0.0
+Teads Holdings Co.,5,0.0
+"Fisher Investments, Inc.",5,0.0
+CAISSE REGIONALE DE CREDIT AGRICOLE MUTUEL ALPES PROVENCE,5,0.0
+Wix.com Ltd.,5,0.0
+ESO European Southern Observatory,5,0.0
+SERVICO MUNICIPAL DE AGUA E ESGOTO DE PIRACICABA,5,0.0
+GESTION DE SEGURIDAD ELECTRONICA S.A,5,0.0
+GIOSIS LLC,5,0.0
+Electronic Arts Inc.,5,0.0
+Bouygues Telecom,5,0.0
+"Nutanix, Inc.",5,0.0
+"QVC Group, Inc",5,0.0
+"Thryv, Inc.",5,0.0
+Alveonet,5,0.0
+Quantum Corporation,5,0.0
+Sectigo Limited,5,0.0
+Aggreko Limited,5,0.0
+muyuan,5,0.0
+"Net Atlantic, Inc.",5,0.0
+Beretta USA Corp,5,0.0
+"Mortgage Research Center, LLC",5,0.0
+FGQAPUUDSMXASPOACT,5,0.0
+Eastern Kentucky University,5,0.0
+AIA Company Limited,5,0.0
+ocserv,5,0.0
+VERINT AMERICAS INC.,5,0.0
+OpenStack,5,0.0
+Paychex Inc.,5,0.0
+"MAX, K.K.",5,0.0
+CTT - CORREIOS DE PORTUGAL S.A.,5,0.0
+Abcam Limited,5,0.0
+Example,5,0.0
+Accenture Global Services Limited,5,0.0
+Martela Oyj,5,0.0
+Industrial and Commercial Bank of China Limited,5,0.0
+"SWsoft, Inc.",5,0.0
+"Sansay, Inc",5,0.0
+FW,5,0.0
+"Autotrader.com, Inc.",5,0.0
+BUFFALO,5,0.0
+Apple Inc,5,0.0
+Martin & Servera AB,5,0.0
+FLEVHOJ,5,0.0
+Future Electronics Inc.,5,0.0
+EDENRED SE,5,0.0
+POD Point Ltd,5,0.0
+JET2.COM LIMITED,5,0.0
+Progressive Direct Insurance Company,5,0.0
+"Vertafore, Inc.",5,0.0
+"2KDirect, Inc.",5,0.0
+UniCredit Bank GmbH,5,0.0
+"Kaizen Platform, Inc.",5,0.0
+FlowerBlog,5,0.0
+PT Indofood Sukses Makmur Tbk,5,0.0
+Telenor Norge AS,5,0.0
+"LANDAUER, INC.",5,0.0
+NMTXASMM,5,0.0
+"MONETA Money Bank, a.s.",5,0.0
+Noction,5,0.0
+Dickey Rural Telephone Cooperative,5,0.0
+RSZMQY,5,0.0
+TZKW,5,0.0
+Self-signed for fqdn.example.com,5,0.0
+ORIVZZ,5,0.0
+CATERPILLAR INC.,5,0.0
+HEWLETT PACKARD ENTERPRISE COMPANY,5,0.0
+securelogin.arubanetworks.com,5,0.0
+Westcon Group Inc,5,0.0
+JENVA,5,0.0
+Scotiabank Colpatria S.A.,5,0.0
+TD SYNNEX CORPORATION,5,0.0
+Webmin Webserver on sun-trails.com,5,0.0
+Australian Capital Territory Government,5,0.0
+Province of British Columbia,5,0.0
+XDYTZPEOG,5,0.0
+Xerox Corporation,5,0.0
+Axema Access Control AB,5,0.0
+"ARAMARK SERVICES, INC.",5,0.0
+SBF COMERCIO DE PRODUTOS ESPORTIVOS S.A.,5,0.0
+Diehl Metering,5,0.0
+MASERATI S.P.A.,5,0.0
+Global Intimates LLC,5,0.0
+Northern Essex Community College,5,0.0
+University of Haifa,5,0.0
+"KAMO Electric Cooperative, Inc.",5,0.0
+"Osaka Metro Co., Ltd.",5,0.0
+上海兆言网络科技有限公司,5,0.0
+CME Group Inc.,5,0.0
+W & W Steel Company,5,0.0
+Singapore Airlines Limited,5,0.0
+Christie's Inc.,5,0.0
+Institut Europ Administ Affair,5,0.0
+CENTRAL PROVIDENT FUND BOARD,5,0.0
+Communify on Demand Inc.,5,0.0
+Limited liability company KEH eCommerce,5,0.0
+TREND,5,0.0
+PRICEWATERHOUSECOOPERS IT SERVICES (US) LLC,5,0.0
+Tartu Ülikool,5,0.0
+Amobee INC,5,0.0
+North Dakota University System,5,0.0
+CARCO Group Inc.,5,0.0
+WLVQJYFR,5,0.0
+Crimsonlogic Pte Ltd,5,0.0
+OPERADOR NACIONAL DO SISTEMA ELETRICO ONS,5,0.0
+"GMO FINANCIAL HOLDINGS, INC.",5,0.0
+Marks and Spencer P.L.C.,5,0.0
+Florida State College at Jacksonville,5,0.0
+"Petco Animal Supplies Stores, Inc.",5,0.0
+Fedex Freight Corporation,5,0.0
+AESNNX,5,0.0
+Oregon State University,5,0.0
+"Raritan Americas, Inc.",5,0.0
+"Lands' End, Inc.",5,0.0
+Ulta Inc.,5,0.0
+gemeente Gouda,5,0.0
+CYBERARK SOFTWARE LTD.,5,0.0
+National Geographic Society,5,0.0
+Carnival Corporation Ltd,5,0.0
+Droom Technology Pvt. Ltd.,5,0.0
+WPAGMU,5,0.0
+Samba Administration,5,0.0
+Cushman & Wakefield Debenham Tie Leung Limited,5,0.0
+WPFINI,5,0.0
+Jaguar Cars limited,5,0.0
+CEGEDIM,5,0.0
+PSGBWOKWTLVT,5,0.0
+ADMINISTRADORA CLINICA RICARDO PALMA S.A.,5,0.0
+University of Warwick,5,0.0
+YOOX S.P.A,5,0.0
+SXRGIQF,5,0.0
+"MULTIMEDIA PLUS, INC.",5,0.0
+"Uptake Technologies, INC",5,0.0
+UTC,5,0.0
+"Papa John's International, Inc.",5,0.0
+G2A.COM Limited,5,0.0
+NBEJEMCILAAL,5,0.0
+Texas A & M University,5,0.0
+Logo Holdings II Corporation,5,0.0
+"Dun & Bradstreet, Inc",5,0.0
+"Wellmark, Inc.",5,0.0
+"BRIDGESTONE AMERICAS, INC.",5,0.0
+State of Utah,5,0.0
+P. C. RICHARD & SON LONG ISLAND CORPORATION,5,0.0
+ONIEARBFMAMXIYZHG,5,0.0
+Arvika kommun,5,0.0
+RBNWN,5,0.0
+OGLEDDZTP,5,0.0
+"AlphaPolis Co.,Ltd.",5,0.0
+Phoenix Contact GmbH & Co. KG,5,0.0
+Government Digital Service,5,0.0
+World First Netherlands B.V.,5,0.0
+"Amazon Web Services, Inc.",5,0.0
+Velocix,5,0.0
+Sarasota Memorial Hospital,5,0.0
+Brbyte Softwares,5,0.0
+"SAP National Security Services, Inc.",5,0.0
+New York State Office of Information Technology Services,5,0.0
+CELEONET,5,0.0
+AMIT,5,0.0
+philandro Software GmbH,5,0.0
+Shih Hsin University,5,0.0
+Stan Entertainment Pty Ltd,5,0.0
+FSUKHWEIMPSOP,5,0.0
+"Vast.com, Inc.",5,0.0
+Kaspersky Lab Switzerland GmbH,5,0.0
+Mercer (US) LLC,5,0.0
+Nutrisystem Inc.,5,0.0
+"Radiomóvil Dipsa, S.A. de C.V.",5,0.0
+.,5,0.0
+O'Reilly Media Inc.,5,0.0
+"Fifth Third Bank, National Association",5,0.0
+Spice Money Limited,5,0.0
+Würth IT GmbH,5,0.0
+ucs,5,0.0
+MatsukiyoCocokara & Co.,5,0.0
+Spielbank Berlin GmbH & Co. KG,5,0.0
+"Matsui Securities Co.,Ltd.",5,0.0
+H3C,5,0.0
+BLUE CAPITAL MARKETS LIMITED,5,0.0
+CYGNET INFOTECH PRIVATE LIMITED,5,0.0
+Webmin Webserver on dns.iihem.ac.ma,5,0.0
+"HRB Tax Group, Inc.",5,0.0
+"JSI Research And Training Institute, Inc",5,0.0
+natasha..8ye75g,5,0.0
+OQMQYQX,5,0.0
+Landsbond der Christelijke Mutualiteiten,5,0.0
+OpenWrt16ef7d1c,5,0.0
+INFOCOM CORPORATION,5,0.0
+WUIJVFSP,5,0.0
+BASF Digital Solutions GmbH,5,0.0
+Promega Corporation,5,0.0
+EGNLCHPEQM,5,0.0
+QYVMRWOZORBBERBYIC,5,0.0
+College of Charleston,5,0.0
+Zeppelin GmbH,5,0.0
+ICAHN School of Medicine At Mount Sinai,5,0.0
+宇通客车股份有限公司,5,0.0
+TSEBWYPTDODDTKX,5,0.0
+"Mouser Electronics, Inc.",5,0.0
+"Inhand Networking Co., Ltd.",5,0.0
+ING-DiBa AG,5,0.0
+CWTLVONDRSQPLFQ,5,0.0
+PPM-HOU-CP-SMS..g6vqxp,5,0.0
+Colruyt Group Services NV,5,0.0
+CECABANK SA,5,0.0
+"American Tire Distributors, Inc.",5,0.0
+"Tremor Video, Inc.",5,0.0
+Teltonika5fad704f,5,0.0
+"The Higo Bank, Ltd.",5,0.0
+Urban Renewal Authority,5,0.0
+"Netgear, Inc",5,0.0
+GDNKEXZHFYBTH,5,0.0
+RT-AX86U,5,0.0
+Netskope Inc.,5,0.0
+Liverpool Victoria Financial Services,5,0.0
+Altice Empresas,5,0.0
+WJYZLGLDJV,5,0.0
+A TLC SRL,5,0.0
+Bitrix Inc.,5,0.0
+"Box, Inc.",5,0.0
+"Dolby Laboratories, Inc",5,0.0
+Media Collections Inc,5,0.0
+Caesars License Company LLC,5,0.0
+Pinnacle Financial Services,5,0.0
+"GMO Aozora Net Bank, Ltd.",5,0.0
+CatchAll,5,0.0
+New York Medical College,5,0.0
+CBRE Group Inc.,5,0.0
+YVTAIPHG,5,0.0
+David Yurman Enterprises LLC,5,0.0
+Banco Mercantil do Brasil SA,5,0.0
+RZNODKWHFHNT,5,0.0
+Asseco Business SolutionsS.A.,5,0.0
+"BAC International Bank, Inc.",5,0.0
+Bursa Malaysia Berhad,5,0.0
+NHS Digital,5,0.0
+wptangtoc ols,5,0.0
+Farmers' and Fishermen's Association South Information Center,5,0.0
+U.S. DEPARTMENT OF VETERANS AFFAIRS,5,0.0
+Finanz Informatik GmbH & Co. KG,5,0.0
+Genius Sports Group Limited,5,0.0
+The Estée Lauder Companies Inc.,5,0.0
+Lockheed Martin Corporation,5,0.0
+"Medallia, Inc.",5,0.0
+Green Dot Corporation,5,0.0
+Queen Mary University of London,5,0.0
+"OCLC, Inc",5,0.0
+PNI Digital Media ULC,5,0.0
+ITV PLC,5,0.0
+ACME,5,0.0
+IPphone,5,0.0
+Commonwealth Office of Technology,5,0.0
+Akamai Technologies Ireland Ltd,5,0.0
+Citibank N.A.,5,0.0
+Coleg y Cymoedd,5,0.0
+Txkj,5,0.0
+COLRUYT GROUP SERVICES NV,5,0.0
+Europcar International SAS,5,0.0
+R1 RCM Inc.,5,0.0
+"Franklin Resources, INC.",5,0.0
+FXMFFWJV,5,0.0
+"Dow Jones & Company, Inc.",5,0.0
+OMGDL,5,0.0
+Aflac,5,0.0
+BRITISH TELECOMMUNICATIONS PLC,5,0.0
+CESNET,5,0.0
+EBETAVFWSJGOFBBQ,5,0.0
+BG Klinikum Unfallkrankenhaus Berlin gGmbH,5,0.0
+California Department of Justice,5,0.0
+TransUnion LLC,5,0.0
+DVCLUCY,5,0.0
+"Sumitomo Mitsui Financial Group, Inc.",5,0.0
+Land Transport Authority,5,0.0
+PFU Limited,5,0.0
+INRAE,5,0.0
+The Stepstone Group Deutschland GmbH,5,0.0
+LC International Limited,5,0.0
+Japan Broadcasting Corporation,5,0.0
+Tyler Technologies,5,0.0
+Bechtle AG,5,0.0
+"The Boston Consulting Group, Inc",5,0.0
+Special Broadcasting Service Corporation,5,0.0
+"China Merchants Bank Co., Ltd",5,0.0
+Communication Federal Credit Union,5,0.0
+EnerSys,5,0.0
+SIMMONS & SIMMONS LLP,5,0.0
+HZTYWPJJJLBJJEL,5,0.0
+Assa Abloy AB,5,0.0
+The Procter & Gamble Co,5,0.0
+TELEDATA IT-Lösungen GmbH,5,0.0
+Adyen - NL817154243B01,5,0.0
+"Best Western International, Inc.",5,0.0
+"SupplyFrame, Inc.",5,0.0
+GS Yuasa International Ltd.,5,0.0
+Teachers Insurance and Annuity Association of America,5,0.0
+Digi-Key Electronics,5,0.0
+"Bathroom Alternatives, Inc.",5,0.0
+"National Grid USA Service Company, Inc.",5,0.0
+Nosis Lab. de Inv. y Des. S.A.,5,0.0
+ALUE,5,0.0
+SPICE MONEY LIMITED,5,0.0
+Westermo Teleindustri AB,5,0.0
+"The Coryn Group II, LLC",5,0.0
+CMZXNIRIYA,5,0.0
+CNH INDUSTRIAL N.V.,5,0.0
+FQPZDJQ,5,0.0
+Hosting,5,0.0
+"Honor Device Co., Ltd.",5,0.0
+"University of California, Merced",5,0.0
+Toffstech,5,0.0
+Rheem Manufacturing Company,5,0.0
+Manulife Financial Corporation,5,0.0
+"Corpay, Inc.",5,0.0
+Sky Network Television Limited,5,0.0
+LPPCICCODBYIKLI,5,0.0
+LFIIXSBDEH,5,0.0
+Sony Corporation,5,0.0
+British Telecommunications Public Limited Company,5,0.0
+JustSystems Corporation,5,0.0
+YourOrganization,5,0.0
+LLKHNHVKDVFZFDUTR,5,0.0
+RN29NGIZ1US21,5,0.0
+"L3HARRIS TECHNOLOGIES, INC.",5,0.0
+Comerica Bank,5,0.0
+VMPMVLPC,5,0.0
+TJBRWMMJRBDV,4,0.0
+"NEW ERA CAP CO., INC.",4,0.0
+"Trustwave Holdings, Inc.",4,0.0
+MDU Network Technologies,4,0.0
+NCPBUWNVQBSJGRGLUE,4,0.0
+Bundesamt für Informatik und Telekommunikation (BIT),4,0.0
+Class Technologies Inc.,4,0.0
+go_fan,4,0.0
+UWUNRXORXMWWI,4,0.0
+GBGLHRIKIWALYD,4,0.0
+Nestlé Nespresso SA,4,0.0
+"Tokyo Chemical Industry Co., Ltd.",4,0.0
+Provincial Electricity Authority,4,0.0
+Webmin Webserver on csit,4,0.0
+"RTW Retailwinds, Inc.",4,0.0
+LSI,4,0.0
+"The Gunma Bank, Ltd.",4,0.0
+HEHSNBDL,4,0.0
+Tiandy Tech Ltd,4,0.0
+"UNION DE CREDITOS INMOBILIARIOS, S.A.,EFC",4,0.0
+HanwhaTechwin,4,0.0
+TESTING CERTIFICATE,4,0.0
+EARBQUZIPYAOGWD,4,0.0
+WVDIKKJY,4,0.0
+TMYRUDHSRWJCHVA,4,0.0
+WECHAIN FINTECH PTE LTD,4,0.0
+"Bullhorn, Inc",4,0.0
+Teads Holding Co.,4,0.0
+zkteco,4,0.0
+WWGUWDXTZ,4,0.0
+FRANCE TRAVAIL,4,0.0
+TCCIMSMXQ,4,0.0
+"eMoney Advisor, LLC",4,0.0
+UYJJTITTTUGRPJG,4,0.0
+ILYVCQQAFMYOULM,4,0.0
+KQEQQLRFHHXRSY,4,0.0
+Axon Enterprise Inc,4,0.0
+"FTD, LLC",4,0.0
+"Benetech, INC.",4,0.0
+Oklahoma Office of Management and Enterprise Services,4,0.0
+HJCIMOKXFP,4,0.0
+"Sprinklr, Inc.",4,0.0
+AT&T,4,0.0
+中国远洋海运集团有限公司,4,0.0
+LKYQKPFPTWSROH,4,0.0
+SITA INFORMATION NETWORKING COMPUTING USA INC.,4,0.0
+TB,4,0.0
+vpn4ever,4,0.0
+Consolidated Financial Corp,4,0.0
+Jiostar India Private Limited,4,0.0
+MAGAZINE LUIZA S/A,4,0.0
+SEDWUPYITNIOHFWNQ,4,0.0
+Instituto de Empresa SL,4,0.0
+C-III Capital Partners LLC,4,0.0
+TOIJHZKNZFAOSPRI,4,0.0
+WBHDGTCZVFDPEDNS,4,0.0
+JPMorgan Chase,4,0.0
+USEN-ALMEX INC.,4,0.0
+"EPS US, LLC",4,0.0
+AXA Konzern AG,4,0.0
+"Interspace Co.,Ltd.",4,0.0
+"The Shade Store, LLC",4,0.0
+ZHEIF,4,0.0
+DKXQSOHGIFRCEKFGG,4,0.0
+"Syncplify, Inc.",4,0.0
+SapphireHealth LLC,4,0.0
+RDCKSUUMBYH,4,0.0
+Innovative Systems,4,0.0
+Texas Tech University,4,0.0
+LWVTW,4,0.0
+IceWarp Ltd,4,0.0
+CREDSYSTEM INSTITUICAO DE PAGAMENTO LTDA,4,0.0
+Merck & Co. Inc,4,0.0
+FINDOMESTIC BANCA S.P.A.,4,0.0
+"Mimosa Networks, Inc",4,0.0
+UNIVERSIDADE DE SAO PAULO,4,0.0
+Central Japan Railway Company,4,0.0
+BYD Company Limited,4,0.0
+Toishi Inc.,4,0.0
+CIBG,4,0.0
+Federal Aviation Administration,4,0.0
+AJHLFZDEZTJQ,4,0.0
+Brady Worldwide Inc.,4,0.0
+Actiontec,4,0.0
+MoodMedia.com,4,0.0
+"Sovos Compliance, LLC",4,0.0
+UIWJR,4,0.0
+Inmar Inc,4,0.0
+Hyatt Hotels Corporation,4,0.0
+Sparbankernas Service AB,4,0.0
+Zooz Mobile LTD,4,0.0
+dev.kobz.stunnel,4,0.0
+European Commission,4,0.0
+La Banque National d'Algerie,4,0.0
+Hästens Sängar Aktiebolag,4,0.0
+Regione Toscana,4,0.0
+Chicago Public Schools,4,0.0
+TRMSULAWJZHG,4,0.0
+Cadence Design Systems Inc.,4,0.0
+上海吉祥航空股份有限公司,4,0.0
+REGPRWFOZGHSKSTW,4,0.0
+Tesco Personal Finance Limited,4,0.0
+Parfümerie Douglas GmbH & Co. KG,4,0.0
+北京世纪超星信息技术发展有限责任公司,4,0.0
+"MLB Advanced Media, L.P.",4,0.0
+RS components Limited,4,0.0
+KITAKYUSHU CITY,4,0.0
+"CircleCI, Inc.",4,0.0
+Silly Moose LLC,4,0.0
+"BQE Software, Inc.",4,0.0
+"Binary Defense Systems, LLC",4,0.0
+GLOBALSIGN VIETNAM JOINT STOCK COMPANY,4,0.0
+National Life Group,4,0.0
+Truworths Limited,4,0.0
+OCGOAQSJCRTLPIUU,4,0.0
+SERVICO FEDERAL DE PROCESSAMENTO DE DADOS SERPRO,4,0.0
+Kvika banki hf.,4,0.0
+KEMP Technologies,4,0.0
+SirsiDynix,4,0.0
+Gottfried Wilhelm Leibniz Universitaet Hannover,4,0.0
+PETROLEO BRASILEIRO S A PETROBRAS,4,0.0
+SWN Communications Inc,4,0.0
+苏宁易购集团股份有限公司,4,0.0
+Ecolab Inc.,4,0.0
+EBCBWPZVOKJLMCN,4,0.0
+Solo Sistem Bilgi Teknolojileri Ticaret Ltd. Sti,4,0.0
+"Nitori Co., Ltd.",4,0.0
+"Regery, https://regery.com",4,0.0
+Ingersoll-Rand Company,4,0.0
+OpenSpeedTest,4,0.0
+"8x8, Inc.",4,0.0
+AGENCE FRANCE PRESSE,4,0.0
+IGTGIGJM,4,0.0
+WYWTFXCAWWBZEW,4,0.0
+Nurd LLC,4,0.0
+NETGEAR Inc.,4,0.0
+Amplience (UK) Limited,4,0.0
+"Innovation First International, Inc",4,0.0
+"SOOP CO., LTD.",4,0.0
+KKDAY.COM INTERNATIONAL COMPANY LIMITED (TAIWAN),4,0.0
+Müller Holding GmbH & Co. KG,4,0.0
+FFZUJQZVUA,4,0.0
+"VIRTUAL MARKETING, LLC",4,0.0
+湖南微算互联信息技术有限公司,4,0.0
+REDDOXX Appliance,4,0.0
+"LG Household & Health Care, Ltd.",4,0.0
+"Baron Weather, Inc.",4,0.0
+"Tenable, Inc.",4,0.0
+Federated Mutual Insurance Company,4,0.0
+IKSLWAZGZTDKJHV,4,0.0
+ZCTTKQCF,4,0.0
+KHSNDGAIGHI,4,0.0
+EXTELIA,4,0.0
+Dow Inc.,4,0.0
+Hindustan Unilever Ltd,4,0.0
+DETECON AL SAUDIA DETASAD LIMITED,4,0.0
+"Leaf Group, LTD",4,0.0
+QHHQU,4,0.0
+EJIIL,4,0.0
+PLKVFUBQZKOAUGBBZR,4,0.0
+"Sumitomo Mitsui Card Company,Limited",4,0.0
+Interseguro Compañia de Seguros S.A.,4,0.0
+"Custom Computer Services, Inc.",4,0.0
+Tripadvisor LLC,4,0.0
+Electrocycling GmbH,4,0.0
+HVVXDXYIDLYACAGW,4,0.0
+College Board,4,0.0
+Telefonaktiebolaget LM Ericsson,4,0.0
+Team John Long Software,4,0.0
+FIRTL,4,0.0
+东丽（中国）投资有限公司,4,0.0
+SDS,4,0.0
+Massachusetts Institute of Technology,4,0.0
+"American Axle & Manufacturing, Inc",4,0.0
+"COMPAÑIA DE TRANVIAS DE LA CORUÑA, S.A.",4,0.0
+HH Global Limited,4,0.0
+HBURKZWRBTQ,4,0.0
+AVERY DENNISON CORPORATION,4,0.0
+Tokyo Metropolitan Government,4,0.0
+"CrushFTP, LLC",4,0.0
+ETH Zürich,4,0.0
+One Mobikwik Systems Ltd,4,0.0
+icctv,4,0.0
+T-MOBILE POLSKA S.A.,4,0.0
+Merck Sharp and Dohme Corp,4,0.0
+Pillbox38 (UK) Ltd,4,0.0
+NOVAC TECHNOLOGY SOLUTIONS PRIVATE LIMITED,4,0.0
+"AEON Financial Service Co.,Ltd.",4,0.0
+Tesla Motors,4,0.0
+CHZEM,4,0.0
+APMCCOUZAIQLPUUIQE,4,0.0
+Mathematica Inc.,4,0.0
+VAAITSMZ,4,0.0
+American Chemical Society,4,0.0
+Nuvyyo,4,0.0
+LSWXCJGXFPPLXMEVT,4,0.0
+University of Elmwood,4,0.0
+CANAL+ POLSKA SPÓŁKA AKCYJNA,4,0.0
+日立グローバルライフソリューションズ株式会社,4,0.0
+FIZRXSSBTGOYZ,4,0.0
+WHITBREAD PLC,4,0.0
+GENIUS SPORTS UK LIMITED,4,0.0
+Hoge Hoge Company,4,0.0
+BLXGCFGDLHOUO,4,0.0
+Control Systems Corporation,4,0.0
+INTESA SANPAOLO SPA,4,0.0
+"Gartner, Inc.",4,0.0
+SAIPEM S.P.A.,4,0.0
+JJEMNDYXN,4,0.0
+"Arbonne International, LLC",4,0.0
+ESA-ESAC (European Space Astronomy Centre),4,0.0
+"Hitachi, Ltd.",4,0.0
+"BBY Solutions, Inc.",4,0.0
+Bank of China Limited,4,0.0
+IAG (NZ) Holdings Limited,4,0.0
+中报国际文化传媒(北京)有限公司,4,0.0
+Follett Corporation,4,0.0
+Dev,4,0.0
+"Confluence Technologies, Inc.",4,0.0
+Rheinische Friedrich-Wilhelms-Universitaet Bonn,4,0.0
+ADBPIIXDILZ,4,0.0
+TRADING POINT HOLDINGS LIMITED,4,0.0
+Benesys Inc,4,0.0
+The One Ring Ltd,4,0.0
+VEKGBJSB,4,0.0
+Ascensia Diabetes Care Holdings AG,4,0.0
+Pibulsongkram Rajabhat University,4,0.0
+Tombola (International) Plc,4,0.0
+YSDKXFEZLMEBIRV,4,0.0
+PIMEC PETITA I MITJANA EMPRESA DE CATALUNYA,4,0.0
+University of Maine System,4,0.0
+BSFNTDBQEIFYTIRQKK,4,0.0
+UKUVZZRGTHUIEVJU,4,0.0
+CareCloud Corporation,4,0.0
+City of Fort Saskatchewan,4,0.0
+Honeycomb Group Ltd,4,0.0
+American Society for Testing and Materials,4,0.0
+PBGDIDGIJGSCDS,4,0.0
+R. R. Donnelley & Sons Company,4,0.0
+Infineon Technologies AG,4,0.0
+"BASS PRO, LLC",4,0.0
+SBKOVQPEPPTZKFRIL,4,0.0
+Concentrix Corporation,4,0.0
+中華電信股份有限公司資訊技術分公司,4,0.0
+AWMGZHYKOPBJMSK,4,0.0
+"DocuSign, Inc.",4,0.0
+MMWAJBTXH,4,0.0
+Domino's Pizza UK & Ireland Limited,4,0.0
+J2 Global,4,0.0
+SkyTouch Technology,4,0.0
+E-DIRECT CORPORATION,4,0.0
+"Manhattan Associates, Inc.",4,0.0
+IJMGEGIS,4,0.0
+BTXAEIQUAUFVPHLPTU,4,0.0
+WUHOUQHZZKSCIH,4,0.0
+AO StalkerSoft Customer,4,0.0
+TOHAN CORPORATION,4,0.0
+Judicial Council of California,4,0.0
+Zoner Oy,4,0.0
+VIVOTEK INC.,4,0.0
+TSMX,4,0.0
+WTKACOFZ,4,0.0
+比亚迪汽车工业有限公司,4,0.0
+"Yodlee, Inc.",4,0.0
+QuikTrip Corporation,4,0.0
+Shopify Inc.,4,0.0
+BDH-Klinik Braunfels gGmbH,4,0.0
+LOCAYVKENWECCZW,4,0.0
+PQNTASYIAHEWPVQMD,4,0.0
+CEGEDIM SA,4,0.0
+"TaskUS, Inc.",4,0.0
+"Universidad Iberoamericana, A.C.",4,0.0
+"Fragomen, Del Rey, Bernsen & Loewy, LLP",4,0.0
+SYQMQ,4,0.0
+EVRUEDHILPM,4,0.0
+Carnival (UK) Limited,4,0.0
+GOWTTGVTOWAFXXJULT,4,0.0
+Nets Branch Norway,4,0.0
+Yasho Industries Limited,4,0.0
+"KOCH CAPABILITIES, LLC",4,0.0
+"THE SHIZUOKA BANK, LTD.",4,0.0
+Cambium Networks Ltd.,4,0.0
+"Universal Payment Services, Inc.",4,0.0
+Nexi S.p.A.,4,0.0
+Charlotte Meentzen Kräutervital-Kosmetik GmbH Inst. f. Nat. Kos.,4,0.0
+CDN UA Ltd,4,0.0
+Avangrid Service Company,4,0.0
+LocalDev,4,0.0
+GEO HOLDINGS CORPORATION,4,0.0
+"Crump Life Insurance Services, Inc.",4,0.0
+WZFLEKQLOVVAJIHD,4,0.0
+"Tokyo Stock Exchange,Inc.",4,0.0
+FNYRITWLJVSK,4,0.0
+CRPTA,4,0.0
+PT Indosat TBK,4,0.0
+VTLSZVJHEA,4,0.0
+Jiajiasu,4,0.0
+AK SİGORTA A.Ş.,4,0.0
+ShoreTel,4,0.0
+Eli Lilly and Company,4,0.0
+FPT,4,0.0
+UCloud,4,0.0
+杭州网易竹书信息技术有限公司,4,0.0
+Crestview Financial Services,4,0.0
+Andreas STIHL AG & Co. KG,4,0.0
+Sri Ramakrishna Eng'g Coll.,4,0.0
+Acme Technologies,4,0.0
+"Rakuten Bank, Ltd.",4,0.0
+SpiderPool,4,0.0
+TVIRBNPCMXBYWEUO,4,0.0
+Amazon Web Services,4,0.0
+U.S. INTERNET LLC,4,0.0
+Quill LLC,4,0.0
+JPMKEUWMELFXRVYQ,4,0.0
+Kone Corporation,4,0.0
+Google TESTING,4,0.0
+"CrowdStrike, Inc.",4,0.0
+American Home Shield Corporation,4,0.0
+Panasonic Avionics Corporation,4,0.0
+Vita-Mix Corporation,4,0.0
+UUQAQDYNYLQMKLB,4,0.0
+Webmin Webserver on raspberrypi,4,0.0
+Blackboard Inc,4,0.0
+U.S. Geological Survey,4,0.0
+BCEQNHCTREZY,4,0.0
+Trellix,4,0.0
+"Olivela, Inc",4,0.0
+Česká spořitelna a.s.,4,0.0
+"Reddit, Inc.",4,0.0
+ICICI Lombard General Insurance Company Limited,4,0.0
+Wakefern Food Corp,4,0.0
+UMWAVBYNPJDCIYSTJ,4,0.0
+WILLIS NORTH AMERICA INC.,4,0.0
+"THE NIELSEN COMPANY (US), LLC",4,0.0
+VMware LLC,4,0.0
+SiteHost,4,0.0
+EIH Limited,4,0.0
+BBUZJWXPYNCJNVVZI,4,0.0
+Industrial Controls Inc.,4,0.0
+Johnson Controls,4,0.0
+HJKMMQOCVENWOULEXC,4,0.0
+平安付电子支付有限公司,4,0.0
+Autoescuela Colchero,4,0.0
+all in one solution inc.,4,0.0
+"Hyland Software, Inc.",4,0.0
+BMW of North America LLC,4,0.0
+VEKUZZYKB,4,0.0
+"Maui Jim, Inc.",4,0.0
+HERITAGE AND PEOPLE'S CHOICE LIMITED,4,0.0
+KHM-Museumsverband,4,0.0
+Defense Information Systems Agency,4,0.0
+"Cellular South, Inc.",4,0.0
+ZONER,4,0.0
+"Eckerd College, Inc.",4,0.0
+RSKHVORFD,4,0.0
+United Nations,4,0.0
+OMIBCOB,4,0.0
+IHRWAFMXNHWRAKHG,4,0.0
+Titus,4,0.0
+Neat,4,0.0
+"HITACHI, LTD.",4,0.0
+ABYEMIZDSSLS,4,0.0
+U.S. Department of Health and Human Services,4,0.0
+Motorola_Solutions_LMR,4,0.0
+B & E LTD,4,0.0
+RVBMKLZIJELKMORCT,4,0.0
+ANHROLACP,4,0.0
+Northern Arizona University,4,0.0
+ESL,4,0.0
+Maildata,4,0.0
+"Universal Music Group, Inc.",4,0.0
+MFLFBZCPZYUXZU,4,0.0
+"Senao Networks, Inc.",4,0.0
+IdomSoft Zrt.,4,0.0
+Tokyo Electron Limited,4,0.0
+Teltonika26fa6f77,4,0.0
+UBRRKZQXIJOYZC,4,0.0
+Option NV,4,0.0
+PT. PELABUHAN INDONESIA (PERSERO),4,0.0
+OPENFIND INFORMATION TECHNOLOGY INC.,4,0.0
+上海药明康德新药开发有限公司,4,0.0
+eero,4,0.0
+"Cardinal Health, Inc.",4,0.0
+deepsoft,4,0.0
+"World Co., Ltd.",4,0.0
+European Environment Agency (EEA),4,0.0
+"ConnectWise, LLC",4,0.0
+Cerberus FTP Server,4,0.0
+Hrvatska akademska i istraživačka mreža CARNET,4,0.0
+KXFJIJPQDLYG,4,0.0
+"Health Partners Plans, Inc",4,0.0
+Canon Europa N.V.,4,0.0
+HSZXYK,4,0.0
+"Academy, Ltd.",4,0.0
+OUKYCPQT,4,0.0
+CBXTNLKUXSURPBLC,4,0.0
+Vidéotron Ltée,4,0.0
+BCLQWVQJHI,4,0.0
+Universiteit Twente,4,0.0
+XEZDFXVUWHEKO,4,0.0
+PPWAWPJZTKZQ,4,0.0
+O,4,0.0
+VM-0-13-centos,4,0.0
+AAMKTQVWD,4,0.0
+NTT Data Inc.,4,0.0
+EUOCRXVOMMDT,4,0.0
+Omaha Steaks International Inc.,4,0.0
+Ville de Gatineau,4,0.0
+Santa Clara University,4,0.0
+CHINA CITIC BANK CORPORATION LIMITED,4,0.0
+SO THONG TIN VA TRUYEN THONG TPHCM,4,0.0
+Abelko Innovation,4,0.0
+AELTDLZN,4,0.0
+ID GROUP SAS,4,0.0
+ACDHCCASQMSM,4,0.0
+Progressive Broadcast Hire Ltd,4,0.0
+Nanyang Technological University,4,0.0
+"Mizuho Research & Technologies, Ltd.",4,0.0
+Grand Haven Area Public Schools,4,0.0
+hgiga,4,0.0
+Pacific Trust Bank Corporation,4,0.0
+National Institute of Diabetes and Digestive and Kidney Diseases,4,0.0
+BCX,4,0.0
+OTLRF,4,0.0
+TQTDV,4,0.0
+RADIOMOVIL DIPSA S.A. DE C.V.,4,0.0
+Medilab,4,0.0
+New Management Services LLC,4,0.0
+YMNUTO,4,0.0
+"Sephora USA, Inc.",4,0.0
+COMUNIDAD AUTONOMA REGION DE MURCIA,4,0.0
+"University of California, Davis",4,0.0
+VPGGI,4,0.0
+Business Standard Private Limited,4,0.0
+CRISIL LTD,4,0.0
+server,4,0.0
+Konica Minolta Business Solutions Europe GmbH,4,0.0
+BJDKIIEZKXSFFAXN,4,0.0
+"Ebates Performance Marketing, Inc.",4,0.0
+Publicis Groupe S.A.,4,0.0
+ASB Bank Limited,4,0.0
+Plesk Inc.,4,0.0
+Soochow University,4,0.0
+FXBOQZHPOTFLG,4,0.0
+U.S. Securities and Exchange Commission,4,0.0
+Blue Wireless,4,0.0
+Chichester School District,4,0.0
+ Org,4,0.0
+Process Automation Ltd.,4,0.0
+CODIZE,4,0.0
+AMH,4,0.0
+TEHTRI-Security,4,0.0
+Tesla Motors (Beijing) Co.Ltd,4,0.0
+"DataRemote, Inc.",4,0.0
+PGGM N.V.,4,0.0
+SSLVPN,4,0.0
+Community College of Allegheny County,4,0.0
+Nsfocus,4,0.0
+Lionic Corporation,4,0.0
+YMPHACZD,4,0.0
+"Gabia,Inc.",4,0.0
+"Beijing Dajia Internet Information Technology Co., Ltd.",4,0.0
+VUELING AIRLINES SA,4,0.0
+Albert-Ludwigs-Universitaet Freiburg,4,0.0
+The Northern Trust Company,4,0.0
+Hilton Grand Vacations Inc.,4,0.0
+"Deposco, Inc.",4,0.0
+cy,4,0.0
+server0.changeme.com Org,4,0.0
+XQYVUJHULAXRD,4,0.0
+GLCGOMMDOSXURZ,4,0.0
+AXA SA,4,0.0
+Louisiana State University,4,0.0
+ZXPQDLCEDP,4,0.0
+Tool World Discount,4,0.0
+INVOICE Inc.,4,0.0
+ESCGGHFD,4,0.0
+State Street Corporation,4,0.0
+REDECARD INSTITUICAO DE PAGAMENTO S.A.,4,0.0
+BVGRH,4,0.0
+Finning International Inc.,4,0.0
+Banco Bilbao Vizcaya Argentaria SA,4,0.0
+VWLVWHY,4,0.0
+MAYORAL MODA INFANTIL SA,4,0.0
+"SALESFORCE.COM, INC.",4,0.0
+PICOGLKUNFBX,4,0.0
+"Meiji Holdings Co., Ltd.",4,0.0
+"VF Services, LLC.",4,0.0
+Krung Thai Bank Public Company Limited,4,0.0
+NBT Inc.,4,0.0
+DX Network Services Limited,4,0.0
+Holland America Line Limited,4,0.0
+Padath Infotainment Pvt Ltd,4,0.0
+"Tokio Marine & Nichido Life Insurance Co.,Ltd.",4,0.0
+BSH Hausgeräte GmbH,4,0.0
+EYCOBZ,4,0.0
+Designflooring International Ltd.,4,0.0
+FCDN,4,0.0
+"BENESYS, INC.",4,0.0
+CCE Technologies,4,0.0
+POLICYBAZAAR INSURANCE BROKERS PRIVATE LIMITED,4,0.0
+Atempo,4,0.0
+GPIHRVYM,4,0.0
+JD Sports Fashion PLC,4,0.0
+"AEON S.S.Insurance CO., LTD.",4,0.0
+Asia Merchandising (H.K.) Limited,4,0.0
+TTMBMIWSHVCCMCFO,4,0.0
+EXCAFORQICCAS,4,0.0
+TECNOSYLVA SOCIEDAD LIMITADA,4,0.0
+MIRRAW ONLINE SERVICES PRIVATE LIMITED,4,0.0
+Webmin Webserver on libapps,4,0.0
+OCOSA,4,0.0
+California Polytechnic State University,4,0.0
+"THINCA CO., LTD.",4,0.0
+EmbodyVR Inc.,4,0.0
+"DATABRICKS, INC.",4,0.0
+"URBAN RESEARCH CO., LTD.",4,0.0
+Private,4,0.0
+MGSKWQMJDTFRFBAG,4,0.0
+Land Transport Authority of Singapore,4,0.0
+華豐橡膠工業股份有限公司,4,0.0
+"Airbnb, Inc.",4,0.0
+FFNXWCL,4,0.0
+New York University,4,0.0
+"Všeobecná úverová banka, a.s.",4,0.0
+Conduit LTD,4,0.0
+DFS GROUP LIMITED,4,0.0
+"EVERTEC, Inc.",4,0.0
+"Alipay Payment Technology Co., Ltd.",4,0.0
+Hostmar,4,0.0
+SILICON VALLEY BANK,4,0.0
+WHSPGXAG,4,0.0
+Kreilkamp Trucking Inc,4,0.0
+ABOUT YOU SE & Co. KG,4,0.0
+NWGTACOPXHFZJEFOWL,4,0.0
+AKAMAI TECHNOLOGIES GK,4,0.0
+"Populus Financial Group, Inc.",4,0.0
+FLOWTI TECNOLOGIA LTDA,4,0.0
+IBERIA LINEAS AEREAS DE ESPAÑA SOCIEDAD ANONIMA OPERADORA,4,0.0
+HRS Ragge Holding GmbH,4,0.0
+Getronics Global Services B.V.,4,0.0
+"Sumitomo Electric Industries, Ltd.",4,0.0
+euNetworks GmbH,4,0.0
+Ghana Revenue Authority,4,0.0
+BANCO PAN S.A.,4,0.0
+Motorola-Mobility Corp.,4,0.0
+OPPO广东移动通信有限公司,4,0.0
+ORSGAS,4,0.0
+"Auto Insurance Specialists, LLC",4,0.0
+VSQPYNWLOUBDONG,4,0.0
+"Central Department Stores, Inc.",4,0.0
+CrowdStrike Inc,4,0.0
+"Horry Electric Cooperative, Inc.",4,0.0
+RSKFHWYTAAED,4,0.0
+Gigamon Inc.,4,0.0
+Rocky View Schools,4,0.0
+QPQWAFIKUVZALPOEBU,4,0.0
+AKTHP,4,0.0
+RLAVIUVHU,4,0.0
+WCYELTVGAHABYHVFC,4,0.0
+EYVTDLVYNCJZ,4,0.0
+Linn-Benton Community College,4,0.0
+Norwegian Cruise Line Holdings Ltd.,4,0.0
+Axicorp Financial Services PTY LTD,4,0.0
+Bankhaus Ludwig Sperrer KG,4,0.0
+"Electronics for Imaging, Inc.",4,0.0
+Howden Group Limited,4,0.0
+YAYVFGRRKAJVAO,4,0.0
+DORO AB,4,0.0
+INDIAIDEAS COM LIMITED,4,0.0
+Jungheinrich AG,4,0.0
+Valentino S.p.A.,4,0.0
+PZZCACLD,4,0.0
+WGSCOXL,4,0.0
+TVCIJLE,4,0.0
+"T. Rowe Price Group, Inc.",4,0.0
+UMMCOJAWD,4,0.0
+"TP-LINK TECHNOLOGIES CO., LTD.",4,0.0
+Unipay Root CA,4,0.0
+EYUKP,4,0.0
+Rite Aid Corporation,4,0.0
+CDQRORU,4,0.0
+QWONBQASOQE,4,0.0
+WPFZSPDX,4,0.0
+"Sumitomo Heavy Industries, LTD.",4,0.0
+"Corsair Memory, Inc",4,0.0
+Luzerner Kantonsspital AG,4,0.0
+"AEON RETAIL Co.,Ltd.",4,0.0
+XCQBHUKOKSQMKJHL,4,0.0
+CJJPS,4,0.0
+Trading Point Holdings Ltd,4,0.0
+Zimmer Biomet,4,0.0
+BrainPad Inc.,4,0.0
+ViciBox,4,0.0
+U.S. Department of Veterans Affairs,4,0.0
+"Publix Super Markets, Inc.",4,0.0
+VERIFORCE HOLDINGS LIMITED,4,0.0
+FirstBase IT Limited,4,0.0
+"CarMax Business Services, LLC",4,0.0
+AXIGEN Mail Server,4,0.0
+SIGNURE TECHNOLOGIES PRIVATE LIMITED,4,0.0
+Farfetch UK Limited,4,0.0
+"Digital Arbitrage, Inc.",4,0.0
+"Blue Ridge Solutions, Inc",4,0.0
+Impinj Inc.,4,0.0
+Ministry of Defence,4,0.0
+CSC-Tieteen tietotekniikan keskus Oy,4,0.0
+Geoff Smith Associates Limited,4,0.0
+Barclays Bank UK plc,4,0.0
+"Kahua, Inc.",4,0.0
+AISIN CORPORATION,4,0.0
+Lennar Corporation,4,0.0
+Siegfried AG,4,0.0
+QATAR AIRWAYS GROUP Q.C.S.C.,4,0.0
+The University of Vermont Medical Center Inc.,4,0.0
+"CIRCANA, LLC",4,0.0
+独立行政法人自動車技術総合機構,4,0.0
+bigo,4,0.0
+AOPWZN,4,0.0
+Octtel,4,0.0
+XYQDSXHNBSLVJGEHHA,4,0.0
+Onto Innovation Inc.,4,0.0
+Gameye,4,0.0
+Zazzle Inc.,4,0.0
+Synamedia,4,0.0
+"HORIBA, Ltd.",4,0.0
+华硕电脑（上海）有限公司,4,0.0
+Comité International Olympique (CIO),4,0.0
+Texas Instruments,4,0.0
+Airlock Digital Pty Ltd,4,0.0
+Halliburton Company,4,0.0
+The University of Chicago,4,0.0
+U.S. Department of Homeland Security,4,0.0
+REDBUS INDIA PRIVATE LIMITED,4,0.0
+DIAMOND INFORMATION TECHNOLOGY PTY. LTD.,4,0.0
+Blue Cross and Blue Shield of Alabama,4,0.0
+上海复星高科技（集团）有限公司,4,0.0
+North Carolina State University,4,0.0
+"IDIS Co., Ltd.",4,0.0
+Jefferson County Commission,4,0.0
+GWA Group Limited,4,0.0
+RQGBU,4,0.0
+"RH US, LLC",4,0.0
+JRBEIQHBNKZGMOQD,4,0.0
+L.T.D. Commodities LLC,4,0.0
+Dyson Limited,4,0.0
+Customer Expressions Corp,4,0.0
+GVCNZ,4,0.0
+CHRISTUS Health,4,0.0
+Politecnico di Milano,4,0.0
+KYOCERA MITA,4,0.0
+NFRANCE CA ADMIN,4,0.0
+Silicon Laboratories Inc.,4,0.0
+Max Life Insurance Co. Ltd,4,0.0
+"CREW SYSTEMS, INC.",4,0.0
+BANCO RIPLEY,4,0.0
+SDSNSDLBXNYGKRDHO,4,0.0
+MYNTRA DESIGNS PRIVATE LIMITED,4,0.0
+Express Scripts Inc,4,0.0
+SNUM,4,0.0
+University of Illinois Chicago,4,0.0
+VCEDCJOSAGADLVELYW,4,0.0
+EPICOR SOFTWARE CORPORATION,4,0.0
+WNBYQCTR,4,0.0
+Affinity Water Ltd,4,0.0
+"Momentum Textiles, LLC",4,0.0
+Eurosport S.A.S,4,0.0
+GTranslate Inc,4,0.0
+SonicWall,4,0.0
+FASTNET - S.P.A.,4,0.0
+Verlagsgesellschaft Madsack GmbH & Co. KG,4,0.0
+Onefootball GmbH,4,0.0
+Star Flyer Inc.,4,0.0
+Nitrado,4,0.0
+University of Maryland Baltimore County,4,0.0
+Horiuchi Color Ltd.,4,0.0
+"CentralSquare Technologies, LLC",4,0.0
+Teltonikac1050986,4,0.0
+Lennox International,4,0.0
+"Taylor & Francis Group, LLC",4,0.0
+tplink,4,0.0
+LEM INTERNATIONAL SA,4,0.0
+Latvijas Investīciju un attīstības aģentūra,4,0.0
+Atos,4,0.0
+Fisia Comercio de Produtos Esportivos S.A.,4,0.0
+AGL Energy Limited,4,0.0
+OFHBXIJR,4,0.0
+STEMMER IMAGING AG,4,0.0
+"Dillard's, Inc.",4,0.0
+Yediot Information Technologies ltd,4,0.0
+Mackenzie Crop,4,0.0
+DVNOSEWXELLFQPLD,4,0.0
+Employment and Social Development Canada,4,0.0
+RTO GmbH,4,0.0
+"Keurig Green Mountain, Inc.",4,0.0
+PT TARUNA ANUGERAH MANDIRI,4,0.0
+SGURSFGA,4,0.0
+SNZIGPLYQGQUMU,4,0.0
+CIA DE PROCESSAMENTO DE DADOS DO ESTADO DE SAO PAULO - PRODESP,4,0.0
+Bajaj Finance Limited,4,0.0
+HFXHKB,4,0.0
+East Japan Railway Company,4,0.0
+FUJIFILM Corporation,4,0.0
+Adecco Group AG,4,0.0
+ZJKAUCVEFSFSVXZYBX,4,0.0
+First Horizon Bank,4,0.0
+JTB Corp.,4,0.0
+PYIMWYYDOUELCGEUV,4,0.0
+Ernst & Young Nederland LLP,4,0.0
+Zynga Inc.,4,0.0
+Agencia Brasileira de Conteúdo Digital Ltda,4,0.0
+Changi Airport Group (Singapore) Pte Ltd,4,0.0
+Universidade de Trás-os-Montes e Alto Douro,4,0.0
+HEYTAP PTE. LTD.,4,0.0
+"VCA, INC.",4,0.0
+IXEYCLNI,4,0.0
+Almaviva - The Italian Innovation Company S.P.A,4,0.0
+MUNDIPHARMA INTERNATIONAL LIMITED,4,0.0
+"Sabin, Bermant & Gould LLP",4,0.0
+LKFIZMEEFUVNHSDAH,4,0.0
+QXYIABY,4,0.0
+PXAZKJKNHDK,4,0.0
+ION Trading UK Limited,4,0.0
+Casa2 Stays Private Limited,4,0.0
+Zim integrated shipping services ltd,4,0.0
+Mercadolibre Inc,4,0.0
+Saudi Awwal Bank,4,0.0
+Akamai Technologies Inc,4,0.0
+"Keysight Technologies, Inc.",4,0.0
+Workato,4,0.0
+"Comcast Cable Communications, LLC",4,0.0
+Mississippi State University,4,0.0
+SQFGYFUAE,4,0.0
+Chinese Culture University,4,0.0
+OpenWrt635294ad,4,0.0
+"Plex, by Rockwell Automation",4,0.0
+"THE BANK OF FUKUOKA, LTD.",4,0.0
+"QUICK CO.,LTD.",4,0.0
+Webmin Webserver on icci,4,0.0
+SKUMM,4,0.0
+Peer39 Inc.,4,0.0
+"Tesla Motors, Inc.",4,0.0
+PSKW LLC,4,0.0
+KZUHEHNAINKCGDZQ,4,0.0
+MFBKSYREXVECPQV,4,0.0
+"DealLookup, LLC",4,0.0
+TMDTERNWNYLEKMZIMX,4,0.0
+PCCW OTT (Hong Kong) Limited,4,0.0
+Equiniti Ltd,4,0.0
+The Ohio State University,4,0.0
+Overkiz,4,0.0
+WSMAFZWZUDW,4,0.0
+Webmin Webserver on srv2.yourhostname.de,4,0.0
+"Enphase Energy, Inc.",4,0.0
+OMCnet Internet Service GmbH,4,0.0
+Cisco ,4,0.0
+FERROVIE DELLO STATO ITALIANE S.P.A.,4,0.0
+B. Braun SE,4,0.0
+Techno Jouhou System,4,0.0
+Trane Company,4,0.0
+Ava UK Ltd,4,0.0
+TOSHIBA TEC CORPORATION,4,0.0
+FMG,4,0.0
+AJHGEAIAJAFJHBG,4,0.0
+TP-LINK CORPORATION LIMITED,4,0.0
+Telefonica,4,0.0
+Morgan Oakland Wireless Pty Ltd,4,0.0
+"Aeon Smart Technology Co., Ltd.",4,0.0
+Akamai Technologies GK,4,0.0
+Eddie Bauer LLC,4,0.0
+The Governors of the University of Calgary,4,0.0
+Mercury Security Corp.,4,0.0
+Sony Interactive Entertainment Llc,4,0.0
+Quadax Inc.,4,0.0
+Potpourri Group Inc,4,0.0
+Penn Tank Lines,4,0.0
+SVPJEYESJBQXGI,4,0.0
+alibb,4,0.0
+Mesa Safe Company,4,0.0
+"INTERNET CZ, a.s.",4,0.0
+"SHINTEI CO., LTD.",4,0.0
+UPEWGOPVTTPFVAJTQ,4,0.0
+BAYXLUACIKTMOMC,4,0.0
+XTCAYFLHJDPUVK,4,0.0
+California Public Employees Retirement System,4,0.0
+National Ilan University,4,0.0
+CXRNQFGFAMCTPP,4,0.0
+Nationale-Nederlanden Nederland B.V.,4,0.0
+Deluxe Corporation,4,0.0
+Union des Associations Européennes de Football (UEFA),4,0.0
+"Lexmark International, Inc.",4,0.0
+National Taiwan Ocean University,4,0.0
+APL Logistics Ltd,4,0.0
+SVQZK,4,0.0
+Times Internet Limited,4,0.0
+VIVOTEK Inc.,4,0.0
+IONOS SE,4,0.0
+"Menlo Security, Inc.",4,0.0
+JLNGPITLQEX,4,0.0
+WHMKOU,4,0.0
+"McDermott, Inc.",4,0.0
+VZTKQUGZRO,4,0.0
+SIX Group Services AG,4,0.0
+ARLA FOODS AMBA,4,0.0
+The Hertz Corporation,4,0.0
+DIVERTISSEMENTS GAMELOFT INC,4,0.0
+IOSDZR,4,0.0
+XWXVBBAOSLAF,4,0.0
+"The Energy Authority, Inc",4,0.0
+CTWGRCRMZFM,4,0.0
+Xactly Corporation,4,0.0
+HETHPHB,4,0.0
+ICICI Securities Limited,4,0.0
+INNOVID MEDIA LTD,4,0.0
+The University of Alabama,4,0.0
+ENPFLDUQ,4,0.0
+Perth Airport Pty Ltd,4,0.0
+HYKXFYENUWMH,4,0.0
+"TEN Events, Inc",4,0.0
+ovipanel,4,0.0
+FPWALJ,4,0.0
+Check Point Software Technologies Ltd.,4,0.0
+appfast_server,4,0.0
+McAfee,4,0.0
+Pareto Securities AS,4,0.0
+MDKQYMSPWKQX,4,0.0
+Dedimax srl,4,0.0
+Hitron Technologies,4,0.0
+FIZ Karlsruhe - Leibniz-Institut fuer Informationsinfrastruktur,4,0.0
+Merlin-Koolshare-rtac86u,4,0.0
+Generali Operations Service Platform S.r.l.,4,0.0
+Mississippi Department of Information Technology Services,4,0.0
+Advocacia Geral da Uniao,4,0.0
+Prevas AB,4,0.0
+Activision Publishing Inc,4,0.0
+LMEIJIGLSJSUNNB,4,0.0
+"AMC EDUCATIONAL CO., LTD.",4,0.0
+Mount Mercy University,4,0.0
+TDUOGCMUGSSLGENEV,4,0.0
+VIVUKZJVAYAYU,4,0.0
+Lightera LatAm S.A.,4,0.0
+"PRINCESS CRUISE LINES, LTD",3,0.0
+PG Zorgholding B.V.,3,0.0
+OMRON corporation,3,0.0
+1WorldSync GmbH,3,0.0
+"Darkmay, s.r.o",3,0.0
+Paytm Payments Services Limited,3,0.0
+QYZOUHOC,3,0.0
+重庆长安汽车股份有限公司,3,0.0
+SAP Trust Community,3,0.0
+SVRNE MUTUA DE SEGUROS Y REASEGUROS A PRIMA FIJA,3,0.0
+"Vishay Intertechnology, Inc.",3,0.0
+RONZDFEJ,3,0.0
+UOZCJXITDDR,3,0.0
+Mercadona S.A.,3,0.0
+GvServer,3,0.0
+Eastvale Logistics,3,0.0
+"Constellation Energy Generation, LLC",3,0.0
+"B3 S.A. - Brasil, Bolsa, Balcao",3,0.0
+Sigos GmbH,3,0.0
+Leadsec,3,0.0
+China Medical University,3,0.0
+VGXGOTQC,3,0.0
+"Beijing Tendcloud Tianxia Technology Co., Ltd.",3,0.0
+Fourthirtythree Inc.,3,0.0
+City of Cincinnati,3,0.0
+The University of Alabama in Huntsville,3,0.0
+"Kunlun Tech Co., Ltd",3,0.0
+STATS LLC,3,0.0
+"Ministry of Land, Infrastructure, Transport and Tourism",3,0.0
+Shiseido Americas Corporation,3,0.0
+DIRECTV,3,0.0
+ACYWHLIUCMEDLTD,3,0.0
+Mobile Telephone Networks (Pty) Ltd,3,0.0
+Rödl Global Digital Services GmbH,3,0.0
+HSY Helsingin seudun ympäristöpalvelut -kuntayhtymä,3,0.0
+Keybank,3,0.0
+ACC369,3,0.0
+SecureSign Inc,3,0.0
+"Paychex, Inc.",3,0.0
+Win S.r.l.,3,0.0
+Service New Brunswick,3,0.0
+UORVXMQISFXGIQQTD,3,0.0
+Hochschule Konstanz Technik Wirtschaft und Gestaltung,3,0.0
+EMSYS Design LLC,3,0.0
+"GAC TOYOTA MOTOR CO.,LTD.",3,0.0
+Dentalsoft,3,0.0
+"eClinicalWorks, LLC",3,0.0
+Steelcase Inc.,3,0.0
+BWO Systems AG,3,0.0
+Teledyne Technologies Incorporated,3,0.0
+TietoEVRY Norway AS,3,0.0
+Luxembourg Institute of Science and Technology,3,0.0
+National Institute of Technology and Evaluation,3,0.0
+American Megatrends International LLC (AMI),3,0.0
+--,3,0.0
+Vera Bradley Designs Inc,3,0.0
+RS Components Limited,3,0.0
+Ephrata National Bank,3,0.0
+"Mizuho Bank, Ltd.",3,0.0
+Automation Solutions Co.,3,0.0
+CERSAI,3,0.0
+Ryder System Inc.,3,0.0
+WGQAHAWBMJCTEQGY,3,0.0
+"HIKE, Inc.",3,0.0
+University of North Alabama,3,0.0
+DSG Retail Limited,3,0.0
+Ludwig-Maximilians-Universitaet Muenchen,3,0.0
+"System Improvements, Inc.",3,0.0
+Webmin Webserver on CSRDIWSERV-1,3,0.0
+Grendene S A,3,0.0
+"Exclusive Fabrics & Furnishings, LLC",3,0.0
+Intego,3,0.0
+TZVEIE,3,0.0
+Durudere Inc.,3,0.0
+Tejas Networks,3,0.0
+TUUSEUXNJQEMBJYYM,3,0.0
+Zinnia Business Services LLC,3,0.0
+The Siam Cement Public Company Limited,3,0.0
+"Rubrik, Inc.",3,0.0
+HID Global,3,0.0
+AL Futtaim Private Company (LLC),3,0.0
+"ShoppersChoice.com, LLC",3,0.0
+KEJAKSAAN AGUNG REPUBLIK INDONESIA,3,0.0
+"Nomura Research Institute, Ltd.",3,0.0
+XQLZQDWNM,3,0.0
+MPKAVLBAEHCMIY,3,0.0
+CradlePoint Technology,3,0.0
+PLE,3,0.0
+Wealthfront Corporation,3,0.0
+"Bank Of Ningbo Co., Ltd.",3,0.0
+Ellevio AB,3,0.0
+Uptycs Inc.,3,0.0
+OBAYASHI ROAD CORPORATION,3,0.0
+Assetworks Inc,3,0.0
+Harris Teeter LLC,3,0.0
+Mercadolibre S.R.L.,3,0.0
+Elkjøp Norge AS,3,0.0
+Domeneshop AS,3,0.0
+Syncthing,3,0.0
+"Novum Global, a.s.",3,0.0
+"Pfizer, Inc",3,0.0
+YYUPCVR,3,0.0
+init innovation in traffic systems SE,3,0.0
+RYFHGXHVCT,3,0.0
+Secuwiz,3,0.0
+"Ceridian HCM, Inc.",3,0.0
+"Commerce Bancshares, Inc.",3,0.0
+KeyBank National Association,3,0.0
+JFrog Ltd.,3,0.0
+Hyundai Motor America,3,0.0
+Digikala,3,0.0
+WSFUIKNOGQHTKHQJ,3,0.0
+Medical Mutual of Ohio,3,0.0
+UIYJFVRUHB,3,0.0
+Kühne + Nagel (AG & Co.) KG,3,0.0
+SELENCIA SERVICES,3,0.0
+Brigham Young University,3,0.0
+University College London,3,0.0
+Prendo Simulations Ltd,3,0.0
+Ubisoft Divertissements Inc.,3,0.0
+"Digital First Holdings, LLC",3,0.0
+"ZENRIN DataCom Co.,LTD.",3,0.0
+FedEx,3,0.0
+ServerBackup.,3,0.0
+OBT AG,3,0.0
+Estore Corp,3,0.0
+MDYUIUSLSW,3,0.0
+Pratt & Whitney Canada Corp.,3,0.0
+it,3,0.0
+Eneco B.V.,3,0.0
+LINAK A/S,3,0.0
+Boston Scientific Corporation,3,0.0
+Mühl Speiser Bauer Spitzauer Labors.at GmbH,3,0.0
+"SolarWinds Worldwide, LLC",3,0.0
+Pandora Media LLC,3,0.0
+山东农业大学,3,0.0
+Mortgage Guaranty Insurance Corporation,3,0.0
+Cricket Australia,3,0.0
+customer.sharktech.net,3,0.0
+ATTZCEHACTMDC,3,0.0
+RCHGSZW,3,0.0
+Liberty Global Technology Services B.V.,3,0.0
+DAOU TECHNOLOGY INC,3,0.0
+三星（中国）投资有限公司,3,0.0
+Wayne State University,3,0.0
+Etihad Airways PJSC,3,0.0
+Deutsche Telekom IT GmbH,3,0.0
+"Jive Software, Inc.",3,0.0
+American Red Cross,3,0.0
+KENLEXQOHYOWCXMBA,3,0.0
+Komatsu Mining Corp.,3,0.0
+RODWQEJT,3,0.0
+东华大学,3,0.0
+ICICI Bank Limited,3,0.0
+Canon Production Printing Netherlands B.V.,3,0.0
+SONUABSG,3,0.0
+Enterprise Guardian Inc.,3,0.0
+Prime Investment Bank,3,0.0
+OCIKJOCZMCMWSDUZH,3,0.0
+TFSCBFFFLUVFRWLV,3,0.0
+STO Building Group INC,3,0.0
+PEPPER MONEY LIMITED,3,0.0
+RIQSLJWBAD,3,0.0
+Iwaki ECC CA,3,0.0
+Japan Weather Association,3,0.0
+"Penney Opco, LLC.",3,0.0
+Adolfo Dominguez S.A.,3,0.0
+AVAYA,3,0.0
+IE  ONLINE  MEDIA SERVICES PRIVATE LIMITED,3,0.0
+宝时得科技（中国）有限公司,3,0.0
+AKAMAI TECHNOLOGIES,3,0.0
+RXDSPAPA,3,0.0
+Metropolitan State University,3,0.0
+LG Uplus Corp.,3,0.0
+Cricket Wireless LLC,3,0.0
+SeeTec AG,3,0.0
+Central Institute of Technology,3,0.0
+"ePromos Promotional Products, LLC",3,0.0
+LYRECO,3,0.0
+McClelland Music Ltd.,3,0.0
+HZFJC,3,0.0
+FEHJMUU,3,0.0
+"LOVES TRAVEL STOPS & COUNTRY STORES, INC.",3,0.0
+INET_mgmt.srv.bergenkom.no.bbfaic,3,0.0
+"Blackhawk Engagement Solutions, Inc",3,0.0
+Andreas Stihl AG & Co KG,3,0.0
+CNA NATIONAL WARRANTY CORPORATION,3,0.0
+TQNFWGDVRVXENTQZ,3,0.0
+NEXT PLC,3,0.0
+Macquarie Group Limited,3,0.0
+"ResponsiveAds, Inc.",3,0.0
+The Burton Corporation,3,0.0
+Katello,3,0.0
+DHZTGPE,3,0.0
+"Extreme Networks, Inc.",3,0.0
+Inera AB,3,0.0
+Made4it,3,0.0
+HOSPITAL AUTHORITY,3,0.0
+Sabre GLBL Inc.,3,0.0
+Amazon.com Svcs,3,0.0
+mytheresa.com GmbH,3,0.0
+"China Southern Airlines Co., Ltd.",3,0.0
+Kiran Nadar Museum of Art,3,0.0
+JIZZGQ,3,0.0
+ELECNOR S.A,3,0.0
+"KinderSystems, Inc.",3,0.0
+Victorian Plumbing Ltd,3,0.0
+Hostvn,3,0.0
+IPLGMCBQWOTQBJJ,3,0.0
+Publishers Clearing House LLC,3,0.0
+QAKCRADYFTM,3,0.0
+SOPOCKIE TOWARZYSTWO UBEZPIECZEŃ ERGO HESTIA SA,3,0.0
+NKGDLEJIHALLVBTMV,3,0.0
+Eurovision Services SA,3,0.0
+SOTI RIL,3,0.0
+NCR ATLEOS CORPORATION,3,0.0
+"Gannett Co., Inc.",3,0.0
+Tenet Healthcare Corporation,3,0.0
+ZNPNQTIZRSSPU,3,0.0
+MGM Resorts International,3,0.0
+IFHZXQJFQEEKWIQ,3,0.0
+dynamic,3,0.0
+Rapid7 LLC,3,0.0
+NZPYIXDT,3,0.0
+QXBZWOM,3,0.0
+AVQHQALBB,3,0.0
+ZAQGNRPGJPBGXQ,3,0.0
+JENOPTIK AG,3,0.0
+VIETNAM POSTS AND TELECOMMUNICATIONS GROUP,3,0.0
+NoEnv,3,0.0
+"National DCP, LLC",3,0.0
+M&G PLC,3,0.0
+Ministry Of Justice,3,0.0
+Unidata S.p.A.,3,0.0
+Imperial S.A.,3,0.0
+JGTAMYOZBBNOSVGN,3,0.0
+SharkNinja Operating LLC,3,0.0
+Main Roads Western Australia,3,0.0
+Digital Commerce Inc.,3,0.0
+"KEYLINK HOLDINGS, LLC",3,0.0
+CSIRT-FR Airbus,3,0.0
+Fundação para a Ciência e a Tecnologia I.P,3,0.0
+SPARK NEW ZEALAND LIMITED,3,0.0
+SOCIETE MEDITERRANEENNE D ETUDES ET D INFORMATIQUE SA,3,0.0
+LSPPM,3,0.0
+State of Vermont,3,0.0
+MOH Holdings Pte Ltd,3,0.0
+Rockwell Automation Inc,3,0.0
+A. S. Watson Retail (HK) Limited,3,0.0
+Preferred Mutual Insurance Company,3,0.0
+Bosch Security Systems,3,0.0
+AUVVUZMTJDGC,3,0.0
+AYSTMSOK,3,0.0
+WMABBIGW,3,0.0
+"Spirit Airlines, Inc.",3,0.0
+DPORBF,3,0.0
+"The Imagine Group, LLC",3,0.0
+ABFANSGA,3,0.0
+GWXZQDQTCZHGCD,3,0.0
+Skyhigh Security,3,0.0
+JAGRAN PRAKASHAN LIMITED,3,0.0
+Dartmouth College,3,0.0
+Icahn School of Medicine at Mount Sinai,3,0.0
+INOPC INC.,3,0.0
+LogicBay Corporation,3,0.0
+NHXGNID,3,0.0
+"Canon (China) Co., Ltd.",3,0.0
+国新证券股份有限公司,3,0.0
+Allstate Corporation,3,0.0
+DDNZL,3,0.0
+FBBDDVJIXECFI,3,0.0
+"Netflix, Inc.",3,0.0
+MUFG Pension and Market Services Holdings Pty Limited,3,0.0
+Sportradar Media Services GmbH,3,0.0
+Moravská zemská knihovna v Brně,3,0.0
+Sparbanken Syd,3,0.0
+HIFZADCOPPSSYHFV,3,0.0
+Friedrich-Alexander-Universitaet Erlangen-Nuernberg,3,0.0
+Bodybuilding.com,3,0.0
+Policybazaar Insurance Brokers Private Limited,3,0.0
+华夏基金管理有限公司,3,0.0
+Afas Software B.V.,3,0.0
+ELIS SERVICES,3,0.0
+Regional Diagnostics Laboratory,3,0.0
+TRIBUNAL DE JUSTICA DO ESTADO DE MATO GROSSO,3,0.0
+"INFINI TRAVEL INFORMATION, INC.",3,0.0
+"Smith Sport Optics, Inc.",3,0.0
+Powerdale,3,0.0
+The Depository Trust & Clearing Corporation,3,0.0
+Wizzmoni Financial Services Ltd,3,0.0
+Cool.revo Inc.,3,0.0
+IIGHXARVIDXW,3,0.0
+FLIPKART INTERNET PRIVATE LIMITED,3,0.0
+The Hearst Corporation,3,0.0
+LPCR GROUPE,3,0.0
+Petroquimica Comodoro Rivadavia,3,0.0
+Allant Group LLC,3,0.0
+LGE,3,0.0
+江西建设职业技术学院,3,0.0
+STAR Dynamics Corporation,3,0.0
+Webmin Webserver on ns10,3,0.0
+"Accretive Co., Ltd.",3,0.0
+"ATTAX CO.,LTD.",3,0.0
+WOQIYA,3,0.0
+SITA,3,0.0
+Domotica Labs,3,0.0
+"Burlington Electrical N.V., Inc.",3,0.0
+VMBQDTPR,3,0.0
+IQYVTLGOAG,3,0.0
+Exclusive Fabrics & Furnishings LLC,3,0.0
+MDVIUIHRHTSRY,3,0.0
+Universitaet Duisburg-Essen,3,0.0
+深圳市正浩创新科技股份有限公司,3,0.0
+"General Motors Financial Company, Inc.",3,0.0
+Standard Chartered Bank,3,0.0
+"Sekisui House, Ltd.",3,0.0
+"Digital Target Marketing, LLC",3,0.0
+"COPPEL, S.A. DE C.V.",3,0.0
+SPX FLOW INC,3,0.0
+IPTV,3,0.0
+Interactive Brokers LLC,3,0.0
+"Metlife, Inc.",3,0.0
+CWHMIPYXDVKWZOVYN,3,0.0
+home,3,0.0
+Webmin Webserver on ns2,3,0.0
+MHRGNMLDZULDKBMEJK,3,0.0
+Rijkswaterstaat,3,0.0
+General Services Administration,3,0.0
+"Shanghai Ctrip Commerce Co., Ltd.",3,0.0
+"HSN, Inc.",3,0.0
+"Daiwa House Industry Co., Ltd.",3,0.0
+Japan Council for Quality Health Care,3,0.0
+00:1C:7F:B6:C1:92..tbpad2,3,0.0
+TAIWAN-CA INC.,3,0.0
+Buildium LLC,3,0.0
+The Hokkaido Shimbun Press,3,0.0
+National Securities Depository Limited,3,0.0
+OQKTWSINYMVSUOCI,3,0.0
+AP Centre for Financial Systems & Services,3,0.0
+TQQMVZ,3,0.0
+KTCQFBLASIXJGHK,3,0.0
+The Gifu Shinkin Bank,3,0.0
+AppNode User,3,0.0
+OBS,3,0.0
+MRGNNA,3,0.0
+American Psychological Association,3,0.0
+PTT DIGITAL SOLUTIONS COMPANY LIMITED,3,0.0
+Your Organization Ltd,3,0.0
+TRANSWORLD SYSTEMS INC,3,0.0
+Discovery Italia srl,3,0.0
+ACI Worldwide Corp,3,0.0
+HANG SENG BANK LTD,3,0.0
+M. Roobol Woontextiel B.V.,3,0.0
+JVWQWOWKMDYN,3,0.0
+Ezidebit Pty Ltd,3,0.0
+FYSFPA,3,0.0
+MSC Mediterranean Shipping Company SA,3,0.0
+ELECTRICITY NORTH WEST LIMITED,3,0.0
+Weber Food Technology SE & Co. KG,3,0.0
+"PerimeterX, Inc",3,0.0
+"TUTOR.COM, Inc",3,0.0
+QAD Inc,3,0.0
+Japan Housing Finance Agency,3,0.0
+"Molex, LLC",3,0.0
+Eternal Limited,3,0.0
+BANCO DO ESTADO DO RIO GRANDE DO SUL SA,3,0.0
+Bouygues Telecom S.A,3,0.0
+LVMH MOET HENNESSY LOUIS VUITTON,3,0.0
+"JACK HENRY & ASSOCIATES, INC.",3,0.0
+LVMH Hotel Management S.A.S.,3,0.0
+UNIVERSITE BOURGOGNE EUROPE,3,0.0
+McGraw Hill LLC,3,0.0
+"Translations.com, Inc.",3,0.0
+Harmonic Inc.,3,0.0
+"Advanced Manufacturing Technology, Inc.",3,0.0
+CNA Financial Corporation,3,0.0
+Easy-go inc.,3,0.0
+Emirates Telecommunications Corporation,3,0.0
+Uniwersytet Warszawski,3,0.0
+Bankhaus RSA eG,3,0.0
+JWAMPDLKMQMGUAWOX,3,0.0
+UFLEOJXMN,3,0.0
+TOPPAN Inc.,3,0.0
+STNRIABHHPRP,3,0.0
+Leaf Group LTD.,3,0.0
+IG Index Limited,3,0.0
+IBG LLC,3,0.0
+Technische Universität Wien,3,0.0
+ROBFFDRUWGNZ,3,0.0
+珠海金山办公软件有限公司,3,0.0
+VOLKSWAGEN AKTIENGESELLSCHAFT,3,0.0
+ADDS Legal AI LLP,3,0.0
+Sound House Inc.,3,0.0
+公牛集团股份有限公司,3,0.0
+MAPA B Comercio de Calcados e Acessorios Ltda,3,0.0
+Circutor,3,0.0
+MTA Társadalomtudományi Kutatóközpont,3,0.0
+PSEIOTBKOAYKHDIE,3,0.0
+KYOCERA Document Solutions Deutschland GmbH,3,0.0
+"Metropolitan Opera Association, Inc",3,0.0
+Simplex Inc.,3,0.0
+Sony Network Entertainment International LLC,3,0.0
+IDPVZATLHVGJ,3,0.0
+Lindenhofgruppe AG,3,0.0
+Hurtigruten Global Services AS,3,0.0
+"Paycom Payroll, LLC",3,0.0
+EZAZS,3,0.0
+"Stripe, Inc.",3,0.0
+WWJONJNCMSPJA,3,0.0
+深圳市东方博雅科技有限公司,3,0.0
+Cartes Bancaires,3,0.0
+YES BANK LTD,3,0.0
+Geneko,3,0.0
+SE,3,0.0
+University of Maplewood,3,0.0
+TRPWEWNHZBEN,3,0.0
+ZTFIHQOFK,3,0.0
+The American National Red Cross,3,0.0
+Organization for Workers' Retirement Allowance Mutual Aid,3,0.0
+"PERSOL CAREER CO., LTD.",3,0.0
+IAWBICUOEX,3,0.0
+Unit4 Group Holding B.V.,3,0.0
+DUBYGXCC,3,0.0
+KIA UK LIMITED,3,0.0
+"Copia Interactive, LLC",3,0.0
+"IQVIA RDS, Inc.",3,0.0
+ProcessMAP Corporation,3,0.0
+HM.CLAUSE,3,0.0
+Webmin Webserver on toymall.easyportals.com,3,0.0
+Insurance Services Office Inc.,3,0.0
+Blue Cross and Blue Shield of South Carolina,3,0.0
+InfoQuest Technologies Inc,3,0.0
+MARGADARSI CHIT FUND PRIVATE LIMITED,3,0.0
+City of Maple Ridge,3,0.0
+Trimble,3,0.0
+"LINK AT JAPAN Co.,Ltd",3,0.0
+HDDXWRVVOQRJ,3,0.0
+"Sumitomo Mitsui DS Asset Management Company, Limited",3,0.0
+"Oliver Wyman, Inc.",3,0.0
+New York Presbyterian Hospital,3,0.0
+GZYRGT,3,0.0
+ZM132S014560,3,0.0
+SOFTCREATE CORP.,3,0.0
+Geldmaat B.V.,3,0.0
+Corning Incorporated,3,0.0
+Saba Software (Canada) Inc.,3,0.0
+"Ubicom, Inc",3,0.0
+Vaillant GmbH,3,0.0
+AJPOAXJCWICMBIRPDU,3,0.0
+Askey,3,0.0
+Terra Networks Brasil S/A,3,0.0
+CC-Net AG,3,0.0
+TeleMed Solutions,3,0.0
+JJGFCQHQKLUELLWQOT,3,0.0
+Ministere Education Nationale (MENESR),3,0.0
+S. Siedle & Soehne OHG,3,0.0
+"RAKUTEN BANK, LTD.",3,0.0
+DOGUMKLOEFIODEIE,3,0.0
+La Trobe University,3,0.0
+Optergy,3,0.0
+"Neuintel, LLC",3,0.0
+Lendistry,3,0.0
+TXIRKISHDW,3,0.0
+"Inovalon, Inc.",3,0.0
+Soberlink Healthcare LLC,3,0.0
+State of Oregon,3,0.0
+Paxton Access Ltd,3,0.0
+"Autotrader.com, INC.",3,0.0
+东风商用车有限公司,3,0.0
+"Scala Higher Education, S.C.",3,0.0
+KMD A/S,3,0.0
+"Trustwave Holdings, Inc",3,0.0
+Gigaset Communications ,3,0.0
+Nestlé Ltd,3,0.0
+中国人民健康保险股份有限公司,3,0.0
+"Apollo Education Group, Inc.",3,0.0
+DATACOM,3,0.0
+Moomoo Technologies Inc,3,0.0
+WINC AUSTRALIA PTY LTD,3,0.0
+SDG consulting Italia Spa,3,0.0
+"Alvaria, Inc.",3,0.0
+"MechaComic, Inc.",3,0.0
+MidwayUSA,3,0.0
+AVANZA SPAIN SL,3,0.0
+Airspan,3,0.0
+Spoor & fisher,3,0.0
+University of Massachusetts chan Medical School,3,0.0
+Araknis Networks,3,0.0
+"EDP, S.A.",3,0.0
+West Bromwich Building Society,3,0.0
+The Globe and Mail Inc.,3,0.0
+CNR,3,0.0
+ZF Friedrichshafen AG,3,0.0
+"DAD Co., Ltd.",3,0.0
+Acme Corp,3,0.0
+"Wangsu Science & Technology Co., Ltd.",3,0.0
+YouCorp,3,0.0
+Mail Server,3,0.0
+WQTDJLXF,3,0.0
+ASIANXT DIGITAL TECHNOLOGIES PRIVATE LIMITED,3,0.0
+Hong Kong Express Airways Limited,3,0.0
+Pioneer Financial Services,3,0.0
+"Elgin Industries, Inc.",3,0.0
+PYFZTDJDTLRKQDDX,3,0.0
+"U.S. Financial Technology, LLC",3,0.0
+PJRRU,3,0.0
+SWNCSMT,3,0.0
+LDQWIYXXZGTIL,3,0.0
+JXICLD,3,0.0
+TELMEX,3,0.0
+TecAlliance GmbH,3,0.0
+Department of Customer Service,3,0.0
+Cruzio,3,0.0
+PINC,3,0.0
+System X,3,0.0
+linuxcontainers.org,3,0.0
+"Money Management International, Inc.",3,0.0
+LEDVANCE GmbH,3,0.0
+QUALCOMM INCORPORATED,3,0.0
+'',3,0.0
+AFGVSIWOJKGIIF,3,0.0
+LRBESRQRSV,3,0.0
+"QVC, Inc",3,0.0
+E-Metrotel LLC,3,0.0
+166.0.16.96,3,0.0
+ZNHLO,3,0.0
+Trend Micro Incorporated,3,0.0
+Universal Electronics Inc.,3,0.0
+"GreatSchools, Inc.",3,0.0
+TGBVBTUW,3,0.0
+北京京东乾石科技有限公司,3,0.0
+Yediot Information Technologies Ltd,3,0.0
+Universidade do Porto,3,0.0
+Intercom Inc.,3,0.0
+University of Missouri,3,0.0
+FUNDACAO OSWALDO CRUZ,3,0.0
+MLIIN,3,0.0
+"HITACHI SYSTEMS, LTD.",3,0.0
+BANDAI NAMCO Amusement Inc.,3,0.0
+Key Bank,3,0.0
+上海中和应泰智能科技有限公司,3,0.0
+Universitaet Passau,3,0.0
+SofaWare,3,0.0
+New Mansoura University,3,0.0
+"TAIHEI MACHINERY WORKS,LTD.",3,0.0
+N/A,3,0.0
+LenovoEMC,3,0.0
+"Skinnycorp, LLC",3,0.0
+Christy Sports L.L.C.,3,0.0
+Cognizant Technology Solutions India Private Limited,3,0.0
+PowerSchool Group LLC,3,0.0
+"Dictionary.com, LLC",3,0.0
+中国民生银行股份有限公司信用卡中心,3,0.0
+Institute of Cancer Research,3,0.0
+ECLERX SERVICES LIMITED,3,0.0
+ZZ,3,0.0
+The Children's Hospital Corporation,3,0.0
+Kernotek S.A. de C.V.,3,0.0
+Colt Technology Services Group Limited,3,0.0
+admin.microplanllc.com,3,0.0
+CPE,3,0.0
+ClearFoundation,3,0.0
+Perle Systems Limited,3,0.0
+Banco de Credito del Peru,3,0.0
+PULSHJLH,3,0.0
+IJSSHDLWFYPPIRJQJZ,3,0.0
+"""Costa Crociere S.P.A.""",3,0.0
+JZBWJUCIEZDGPIUW,3,0.0
+SQTech,3,0.0
+"Synacor, Inc.",3,0.0
+GECINA SA,3,0.0
+DATEV eG,3,0.0
+HKGFQBWR,3,0.0
+NestAway Technologies Pvt Ltd,3,0.0
+GTA Realm,3,0.0
+"LIBERATED SYNDICATION, INC",3,0.0
+tencent,3,0.0
+Melaleuca Inc.,3,0.0
+McGill University,3,0.0
+CONCESSIONARIA DE RODOVIAS DO OESTE DE SAO PAULO - VIAOESTE S/A,3,0.0
+"Payment Terminal Solutions, Inc.",3,0.0
+Ministry of Education,3,0.0
+Mimecast Services Limited,3,0.0
+"Airship Group, Inc",3,0.0
+XING INC.,3,0.0
+"NTT DOCOMO BUSINESS, INC.",3,0.0
+CSFKYGIMNARP,3,0.0
+Self-signed TLS Certificate for ProFTPD,3,0.0
+Clemson University,3,0.0
+JUMEIRAH INTERNATIONAL LLC,3,0.0
+De Montfort University,3,0.0
+Ubicloud,3,0.0
+WestJet Airlines Ltd.,3,0.0
+INTSPUWYOMST,3,0.0
+"Insurance Auto Auctions, Inc.",3,0.0
+Tradition Capital Bank,3,0.0
+NTT DATA JAPAN CORPORATION,3,0.0
+"Alaska Airlines, Inc.",3,0.0
+TiVo Corporation,3,0.0
+Teletext Limited,3,0.0
+ArentFox Schiff LLP,3,0.0
+X10sys Associative Technologies SA,3,0.0
+"Servicios Liverpool, S.A. de C.V.",3,0.0
+"City Tele Coin Company, Inc.",3,0.0
+MDBXCNMFN,3,0.0
+Tesla Inc,3,0.0
+BlueCat,3,0.0
+seeyon,3,0.0
+iTranswarp,3,0.0
+Scania CV AB,3,0.0
+IMMENSITAS PRIVATE LIMITED,3,0.0
+The Hershey Company,3,0.0
+PrintPlanet GmbH,3,0.0
+ZTPTYMYIKXTV,3,0.0
+Aramco Services Company,3,0.0
+Institut National des Sciences Appliquées de Toulouse,3,0.0
+ETHIO TELECOM S C,3,0.0
+Gateway Trust Corporation,3,0.0
+"CISCO SYSTEMS, INC.",3,0.0
+Gemtek V2D2-Router,3,0.0
+ORBESHIX,3,0.0
+LIVERPOOL AIRPORT LIMITED,3,0.0
+KRONES Aktiengesellschaft,3,0.0
+The Hong Kong Jockey Club,3,0.0
+Athletic Gear Warehouse,3,0.0
+Bonial International GmbH,3,0.0
+Herbert Smith Freehills Kramer (US) LLP,3,0.0
+Atlas Copco AB,3,0.0
+TitanHQ (build-in),3,0.0
+Black & Veatch Corporation,3,0.0
+Osterholzer Stadtwerke GmbH & Co. KG,3,0.0
+ASTUERMKIAODLD,3,0.0
+Webmin Webserver on gradrep,3,0.0
+De Beers UK Limited,3,0.0
+Williams-Sonoma Inc,3,0.0
+WBBTDTOT,3,0.0
+Calvert County Public schools,3,0.0
+"Cetera Financial Group, Inc",3,0.0
+Deltapath,3,0.0
+"All Nippon Airways Co.,Ltd",3,0.0
+"AhnLab, Inc.",3,0.0
+Security National Financial Corp,3,0.0
+"AUDIO CLASSICS, LTD.",3,0.0
+Advanced Bank of Asia Limited,3,0.0
+XABWYWAQJYWGVHUJK,3,0.0
+"DIRECTV, LLC",3,0.0
+Thermo Fisher Scientific Inc.,3,0.0
+Dublin City Council,3,0.0
+浙江农村商业联合银行股份有限公司,3,0.0
+Fidor Bank AG,3,0.0
+Edgecenter LLC,3,0.0
+"Peet's Coffee, Inc",3,0.0
+Inter IKEA Systems B.V.,3,0.0
+Maybourne Hotels Limited,3,0.0
+Telstra,3,0.0
+DNPanel,3,0.0
+FUKUOKAHIBIKI SHINKIN BANK,3,0.0
+Datrium Inc.,3,0.0
+"Mondelez International, Inc",3,0.0
+Agilent Technologies Inc,3,0.0
+"SECOM Trust Systems CO., LTD.",3,0.0
+EMERAM Capital Partners GmbH,3,0.0
+VNQGJIRUI,3,0.0
+Darwinbox Digital Solutions Private Limited,3,0.0
+Accelya US Inc,3,0.0
+Stichting Hogeschool voor de Kunsten Utrecht,3,0.0
+"Ruckus Wireless, Inc",3,0.0
+Hitachi Vantara LLC,3,0.0
+Clerk of the Court and Comptroller,3,0.0
+NYIWTEVOPEWBINY,3,0.0
+Production Services Management LLC,3,0.0
+Fineos Corporation Limited,3,0.0
+University of West Florida,3,0.0
+Otto GmbH & Co. KGaA,3,0.0
+"INFOR (US), INC.",3,0.0
+Premier Credit Corporation,3,0.0
+Deutsche Forschungsgemeinschaft e. V.,3,0.0
+TVTFVRPLNHFZY,3,0.0
+STATSBYGG,3,0.0
+"NII CO.,LTD.",3,0.0
+Peddinghaus Corporation,3,0.0
+"Beijing Lancheng Xiongdi Cultural Media Co., Ltd.",3,0.0
+cdn,3,0.0
+TQUJHERLTBQCYTYJAU,3,0.0
+Clearstream Services S.A.,3,0.0
+MAX PUBLICITY & COMMUNICATION PVT LTD,3,0.0
+IFBYBZWWHVKI,3,0.0
+ヤマト運輸株式会社,3,0.0
+PWUGXMSGXMF,3,0.0
+Healthcare Consultancy Group LLC,3,0.0
+A,3,0.0
+Clever Cloud SAS,3,0.0
+FYDSZCENZHYIGQJLM,3,0.0
+Multiple Sclerosis Society,3,0.0
+BWVMFVNUEYVFHTH,3,0.0
+Konecta Italia S.p.A.,3,0.0
+Thomson Reuters (Legal) Inc.,3,0.0
+MCIBITEPLHRGWEMGYC,3,0.0
+Self-signed certificate,3,0.0
+HRDQPXRKMDRKAI,3,0.0
+Alterra Mountain Company,3,0.0
+BRBJHAEY,3,0.0
+DBM,3,0.0
+"Lionbridge Technologies, LLC",3,0.0
+AP,3,0.0
+AllRounderSystem,3,0.0
+WIEDEMANN Dienstleistung und Verwaltung GmbH,3,0.0
+Trafikverket,3,0.0
+Webmin Webserver on ubuntu,3,0.0
+RDMBZOHIUBFGFVSY,3,0.0
+北京市海淀区大数据中心,3,0.0
+True Corporation Public Company Limited,3,0.0
+"Zenith, succursale de LVMH Swiss Manufactures SA",3,0.0
+PYALQGROWW,3,0.0
+VYSOFT,3,0.0
+EROS DIGITAL FZ LLC,3,0.0
+Northwell Health Inc,3,0.0
+"Harman International Industries, Incorporated",3,0.0
+FUJIFILM Wako Pure Chemical Corporation,3,0.0
+Università degli Studi di Napoli Federico II,3,0.0
+Telia Finland Oyj,3,0.0
+TELEFONICA AUDIOVISUAL DIGITAL SL,3,0.0
+OTECEL S.A.,3,0.0
+Etsy Inc.,3,0.0
+Coopeuch Ltda. (COOP DEL PERSONAL DE UNIVERSIDAD DE CHILE LTDA),3,0.0
+Organisation,3,0.0
+"OFFICE DEPOT, LLC",3,0.0
+Wienerberger AG,3,0.0
+株式会社富士キメラ総研,3,0.0
+Network International L.L.C,3,0.0
+Raad voor de Rechtspraak,3,0.0
+CKEDSGMGFAEIFG,3,0.0
+Walgreen Co.,3,0.0
+Global,3,0.0
+AWWIPYMFH,3,0.0
+Service New Brunswick/Services Nouveau-Brunswick,3,0.0
+Kohler Co.,3,0.0
+LANCOM Systems GmbH,3,0.0
+Hancock Whitney Bank,3,0.0
+XDXXFJKLGKIYHTNXV,3,0.0
+SHLTNFQX,3,0.0
+STAR INDIA PRIVATE LIMITED,3,0.0
+IQOIUEURWILHL,3,0.0
+Abercrombie & Fitch Trading Co.,3,0.0
+FMG Procurement Services Pty Ltd,3,0.0
+"MAPFRE, S.A.",3,0.0
+UMB Financial Corporation,3,0.0
+State of Washington,3,0.0
+NUHXXRP,3,0.0
+Hestview Limited,3,0.0
+"Stripe, LLC",3,0.0
+ZOOM,3,0.0
+"SHIMAMURA MUSIC CO., LTD.",3,0.0
+UYRHFCJ,3,0.0
+Disney Interactive,3,0.0
+RT-AX58U,3,0.0
+"BankOnIT, LLC",3,0.0
+Takims,3,0.0
+"Expeditors International of Washington, Inc.",3,0.0
+GVEQEWRDDRNJCGGP,3,0.0
+Server Team,3,0.0
+"TACONIC BIOSCIENCES, INC.",3,0.0
+Traefik-test,3,0.0
+PHC HOLDINGS CORPORATION,3,0.0
+FUNDAÇÃO FACULDADE DE MEDICINA,3,0.0
+Bright Horizons Family Solutions LLC,3,0.0
+MFDSMIHYPSBABO,3,0.0
+Advantech B+B SmartWorx s.r.o.,3,0.0
+KFC Corporation,3,0.0
+APOGEPHA Arzneimittel GmbH,3,0.0
+Delphi Technologies PLC,3,0.0
+EFUGLKIXWPYPYEB,3,0.0
+SYQIH,3,0.0
+No,3,0.0
+"EPOS CARD CO.,LTD.",3,0.0
+Central Statistics Office,3,0.0
+ACC-Site,3,0.0
+Jemella Ltd,3,0.0
+"Theta Lake, Inc.",3,0.0
+Payment-as-a-Service Corporation,3,0.0
+Wind Tre S.p.A.,3,0.0
+Kayak Software Corporation,3,0.0
+ifm electronic gmbh,3,0.0
+上海久尺网络科技有限公司,3,0.0
+EGLIUQPWCLKRFARRJE,3,0.0
+University of Bristol,3,0.0
+Telesign Corporation,3,0.0
+Media Commerce Partners,3,0.0
+DREAM TRAIN INTERNET INC.,3,0.0
+"Fuji Electric Co., Ltd.",3,0.0
+LNVEW,3,0.0
+"TOLUNA USA, INC.",3,0.0
+INAKFPZT,3,0.0
+NIPEYRAUQCERTTB,3,0.0
+"The Chiba Bank, Ltd.",3,0.0
+MSTC,3,0.0
+LIBRARY BOARD OF QUEENSLAND,3,0.0
+Open Access Technology International Inc,3,0.0
+"Slack Technologies, Inc.",3,0.0
+IZJYZDEYRIUJMDRLKK,3,0.0
+Zeppelin Systems GmbH,3,0.0
+GMC TASSTA GmbH,3,0.0
+FM SOLUTION CORPORATION,3,0.0
+TQADMYQFMAFHACIVBP,3,0.0
+光大证券股份有限公司,3,0.0
+QHXXKGWJLKLYO,3,0.0
+Inuits,3,0.0
+Prosegur Compañia de Seguridad S.A,3,0.0
+Araknis Network (TM),3,0.0
+Swiss International Air Lines AG,3,0.0
+NRDFWLMNAQYF,3,0.0
+GVM Users,3,0.0
+Groupe Canal+,3,0.0
+Los Angeles County Office of Education,3,0.0
+Umicore,3,0.0
+ZEBRA TECHNOLOGIES CORPORATION,3,0.0
+Pomerium,3,0.0
+Rai - Radiotelevisione Italiana S.P.A.,3,0.0
+"BROTHER INDUSTRIES, LTD.",3,0.0
+"CarParts.com, Inc.",3,0.0
+kimchi-project.org,3,0.0
+YKCGWATX,3,0.0
+MEDIATEK INC.,3,0.0
+Metropolitan Government of Nashville and Davidson County,3,0.0
+"Safeway, Inc.",3,0.0
+QBGCAVREH,3,0.0
+TLD,3,0.0
+University of Maryland-Baltimore County,3,0.0
+Blink Commerce Private Limited,3,0.0
+KETDDSZLROVTEENC,3,0.0
+毛寶股份有限公司,3,0.0
+"Molina Healthcare, Inc.",3,0.0
+北京搜狐新媒体信息技术有限公司,3,0.0
+BANCO PROVINCIAL S.A. BANCO UNIVERSAL,3,0.0
+The People's Computer Company,3,0.0
+BTICINO,3,0.0
+Sberbank,3,0.0
+WHCompany,3,0.0
+PKQELHYE,3,0.0
+Nginx,3,0.0
+KQGYKYSZV,3,0.0
+YURRMBEMR,3,0.0
+Mail,3,0.0
+Integrated Healthcare Systems,3,0.0
+The Siam Commercial Bank Public Company Limited,3,0.0
+The Bank of New York Mellon Corporation,3,0.0
+IFAST CORPORATION LTD.,3,0.0
+"Mitsubishi Shokuhin Co., Ltd.",3,0.0
+Stadt Neuburg an der Donau,3,0.0
+Blue Yonder Inc,3,0.0
+Auerswald,3,0.0
+EMPRESA DE TEC. DA INFORM. E COMUNIC. DO MUNICIPIO DE SAO PAULO,3,0.0
+Proalpha GmbH,3,0.0
+Santander Consumer Bank GmbH,3,0.0
+Wargaming Group Limited,3,0.0
+BMLYFSQB,3,0.0
+Aspect Software Inc,3,0.0
+EW200,3,0.0
+VYVZMZXRMBXJN,3,0.0
+Gran Tecnologia e Educacao S/A,3,0.0
+"Medtronic, Inc.",3,0.0
+Dixons Carphone PLC,3,0.0
+Internews Sistemas de Automacao Empresarial LTDA,3,0.0
+NTT GLOBAL NETWORKS INCORPORATED,3,0.0
+IDTITRANOIDQST,3,0.0
+SFTABEQ,3,0.0
+"COLUMBIA BANKING SYSTEM, INC",3,0.0
+"Intercontinental Exchange, Inc.",3,0.0
+"Hitachi Global Life Solutions, Inc.",3,0.0
+EBYMNZYIGWRFUKLIF,3,0.0
+People's Leasing & Finance PLC,3,0.0
+PTT EXPLORATION AND PRODUCTION PUBLIC COMPANY LIMITED,3,0.0
+M AND M DIRECT LIMITED,3,0.0
+JSJMKUSUDGURBPNYZE,3,0.0
+Kamsoft,3,0.0
+"Blackhawk Network Holdings, Inc",3,0.0
+GTI S.R.L.,3,0.0
+Hungama Digital Media Entertainment Pvt Ltd,3,0.0
+"Chorus Call, Inc.",3,0.0
+CBS Broadcasting Inc.,3,0.0
+"Beijing Zhongbo Keyuan Technology Co., Ltd.",3,0.0
+HJTJENN,3,0.0
+"Positec USA, Inc",3,0.0
+DXBGAQCEQDCSARYAL,3,0.0
+Nationwide Trust Financial,3,0.0
+"GOLD ENERGY - COMERCIALIZADORA DE ENERGIA, S.A.",3,0.0
+Nokia Solutions and Networks Oy,3,0.0
+SFZJZ,3,0.0
+NMDC LIMITED,3,0.0
+"IT dep. 
+       ",3,0.0
+ＮＴＴファイナンス株式会社,3,0.0
+RECAUDOS DE VALORES S.A.S,3,0.0
+TCGGDME,3,0.0
+"Cyclic Marsh Analytics AB, s.r.o.",3,0.0
+JONIYPKHX,3,0.0
+Hong Leong Bank Berhad,3,0.0
+Admin. de Servicios Computac y de Credito Cmr Falabella Ltda.,3,0.0
+BFGRVTGSJBUYEYX,3,0.0
+RuggedCom.com,3,0.0
+VHPZP,3,0.0
+Frends Technology Oy,3,0.0
+Sunrise Communications AG,3,0.0
+TSG INTERACTIVE SERVICES LIMITED,3,0.0
+EZPMUANKOC,3,0.0
+海鸿达（北京）餐饮管理有限公司,3,0.0
+Tiandy Tech,3,0.0
+Tekirdag Otopark Ulasim A.S.,3,0.0
+Razer (Asia-Pacific) Pte. Ltd.,3,0.0
+Mitel Networks,3,0.0
+DEUSUVOBTST,3,0.0
+NTT,3,0.0
+"FBL Financial Group, Inc.",3,0.0
+HM Government Cabinet Office,3,0.0
+"Travis CI, GmbH",3,0.0
+"Cencora, Inc.",3,0.0
+C. & J. Clark International Limited,3,0.0
+Bitdefender SRL,3,0.0
+TOKYU CORPORATION,3,0.0
+Panel,3,0.0
+President and Fellows of Harvard College,3,0.0
+YVWOULJXES,3,0.0
+云鲸智能创新（深圳）有限公司,3,0.0
+Elanic Services Pvt. Ltd,3,0.0
+"PIP CO., LTD.",3,0.0
+Yleisradio Oy,3,0.0
+"Sky Unlimited, Inc.",3,0.0
+PVH Corp.,3,0.0
+Webmin Webserver on synergia,3,0.0
+Mercedes-Benz AG,3,0.0
+Oxfam,3,0.0
+"Waste Management National Services, Inc.",3,0.0
+"Japan Post Bank Co., Ltd.",3,0.0
+Jihočeská univerzita v Českých Budějovicích,3,0.0
+Zmags Corp.,3,0.0
+"Wake, Inc.",3,0.0
+YXFXVZESTKFDJ,3,0.0
+XYBVBBCWYALXBBFQ,3,0.0
+ETABLISSEMENT PUBLIC D'INSERTION DE LA DEFENSE,3,0.0
+Hornady Manufacturing Company,3,0.0
+HealthRecord Solutions Corp,3,0.0
+Volcengine,3,0.0
+FCA US LLC,3,0.0
+"Pearl Dorset Protective Sdn Bhd, SL",3,0.0
+医療法人社団　仁恵会,3,0.0
+Developer,3,0.0
+ZHETTBLTXARW,3,0.0
+DDNXERDD,3,0.0
+Jabil Inc.,3,0.0
+Honeywell International Inc,3,0.0
+DLAUVALNBKIFUTZMI,3,0.0
+SUKQHDEX,3,0.0
+University of Cambridge,3,0.0
+notebooksbilliger.de AG,3,0.0
+SPORTING ODDS LIMITED,3,0.0
+Palm Beach County,3,0.0
+Trendy Eco,3,0.0
+HUNYZDZZFDJTBF,3,0.0
+THE ALL ENGLAND LAWN TENNIS CLUB (CHAMPIONSHIPS) LIMITED,3,0.0
+Landschaftsverband Rheinland,3,0.0
+NetNam,3,0.0
+FDDDFNBCRS,3,0.0
+"L. L. Bean, Inc.",3,0.0
+YURPCAGRY,3,0.0
+FCLHSQSIOWPVWYH,3,0.0
+Casper Sleep Inc.,3,0.0
+MINT MEDIA INTERACTIVE Software Systems GmbH,3,0.0
+INSTITUT NATIONAL DE LA STATISTIQUE ET DES ETUDES ECONOMIQUES,3,0.0
+"Shenzhen Foscam Intelligent Technology Co., Ltd.",3,0.0
+Teradata Corporation,3,0.0
+NNALH,3,0.0
+LAGARDERE SA,3,0.0
+Lexia Learning Systems LLC,3,0.0
+Visa Inc,3,0.0
+"Rue Gilt Groupe, Inc",3,0.0
+CIJDXFJO,3,0.0
+Youwe,3,0.0
+DIGICERT IRELAND LIMITED,3,0.0
+Construcciones y Auxiliar de Ferrocarriles S.A.,3,0.0
+Microprogram,3,0.0
+CommonSpirit Health,3,0.0
+株式会社八十二銀行,3,0.0
+Moody's Analytics Inc.,3,0.0
+JIPDEC,3,0.0
+empreinte.com,3,0.0
+Regions Financial Corporation,3,0.0
+Foscarini S.p.A.,3,0.0
+LimTec GmbH,3,0.0
+Pizza Pizza Limited,3,0.0
+American Family Mutual Insurance Company S.I.,3,0.0
+HolidayCheck AG,3,0.0
+"Leaf Group, LTD.",3,0.0
+"NASCAR Digital Media, LLC",3,0.0
+"Cetera Financial Group, Inc.",3,0.0
+Juniper Networks,3,0.0
+Life Insurance Association of Malaysia,3,0.0
+OKMGIALSJOWSPGJIM,3,0.0
+上海市浦东新区大数据中心,3,0.0
+American Sportsman Holdings Co,3,0.0
+*.realhostip.com,3,0.0
+"Rocket Mortgage, LLC",3,0.0
+OVHYNEFBPPL,3,0.0
+NEWREST GROUP INTERNATIONAL,3,0.0
+TE Connectivity Corporation,3,0.0
+HHYQYLNDQBZZCZIFK,3,0.0
+Xray Inc,3,0.0
+Rijksinstituut voor Volksgezondheid en Milieu,3,0.0
+"Ricoh Co., Ltd.",3,0.0
+SFQSGM,3,0.0
+YNKHUNTFEFZQ,3,0.0
+organization,3,0.0
+KENZO SA,3,0.0
+"Department of Planning, Housing and Infrastructure",3,0.0
+Elo Touch Solutions  Inc.,3,0.0
+株式会社ヒラカワ,3,0.0
+Merloz,3,0.0
+Shell International Petroleum Company Limited,3,0.0
+OPHQ,3,0.0
+JZKUNAPASJS,3,0.0
+QBHQKUSAHJMAQT,3,0.0
+Fasthosts Internet Ltd.,3,0.0
+Protee United,3,0.0
+"Dawn Food Products, Inc.",3,0.0
+Navarik Corp,3,0.0
+阳光保险集团股份有限公司,3,0.0
+relab SENAI Joinville,3,0.0
+EVA Airways Corporation,3,0.0
+ZRZCVLDEDFHH,3,0.0
+VGEM Tech,3,0.0
+QTYGFCLFWF,3,0.0
+Advanced Info Service Public Company Limited,3,0.0
+Allianz Technology SE,3,0.0
+Super Retail Group Services Pty Ltd,3,0.0
+Opel Automobile GmbH,3,0.0
+20 MICRONS LIMITED,3,0.0
+"HTC Global Services, Inc.",3,0.0
+MMOQEPWBV,3,0.0
+"KKBOX Taiwan Co., Ltd.",3,0.0
+CANAL + INTERNATIONAL S.A.S.,3,0.0
+State of Idaho,3,0.0
+Fraport AG Frankfurt Airport Services Worldwide,3,0.0
+Entain Operations Limited,3,0.0
+00:1C:7F:97:3C:36..b3j5ao,3,0.0
+Australian Taxation Office,3,0.0
+GEOLOCK GmbH,3,0.0
+Acquaintance Enterprises Limited,3,0.0
+Sveriges Television Aktiebolag,3,0.0
+TRAVEL RESERVATIONS S.R.L.,3,0.0
+Phoenix American Incorporated,3,0.0
+Kaohsiung Medical University,3,0.0
+中国银联股份有限公司,3,0.0
+"RECREATIONAL EQUIPMENT, INC.",3,0.0
+Majlis Bandaraya Subang Jaya,3,0.0
+MRKXKPYLOMPPUZTUOZ,3,0.0
+TP-Link Systems Inc.,3,0.0
+ETHIOPIAN AIRLINES,3,0.0
+Robert Koch-Institut (RKI),3,0.0
+Entersekt (Pty) Ltd.,3,0.0
+"IRIS PLAZA CO.,LTD.",3,0.0
+Plant Systems Corporation,3,0.0
+ADT LLC,3,0.0
+QELXFAZ,3,0.0
+Abcam Ltd,3,0.0
+Paymentus Corporation,3,0.0
+PCVUACJBFB,3,0.0
+MicroFocus,3,0.0
+DZ PRIVATBANK S.A.,3,0.0
+"NMI Holdings, Inc.",3,0.0
+OYNLMNVSOSQTXNBG,3,0.0
+YJINCPQZ,3,0.0
+Inim Electronics,3,0.0
+ETORO (EUROPE) LIMITED,3,0.0
+Hov Services Inc,3,0.0
+Commonwealth Investment Corp,3,0.0
+"Magnite, Inc.",3,0.0
+Stiftung Deutsches Historisches Museum,3,0.0
+BMC Software Inc,3,0.0
+PIERRE FABRE SA,3,0.0
+"Prudential Financial, Inc.",3,0.0
+"Orlando Health, Inc.",3,0.0
+"Angara, Inc.",3,0.0
+Taylor Technology Services Inc,3,0.0
+"satofull Co., Ltd.",3,0.0
+"Mizuho Bank,Ltd.",3,0.0
+RECTORAT DE L'ACADÉMIE DE CRÉTEIL,3,0.0
+MMS Technology GmbH,3,0.0
+Proxima Beta Pte. Limited,3,0.0
+Federale Overheidsdienst Kanselarij van de Eerste Minister,3,0.0
+"National Motor Freight Traffic Association, Inc.",3,0.0
+IGMQJSBUWRHWXWCA,3,0.0
+"XIGO, L.L.C.",3,0.0
+"PALO ALTO NETWORKS, INC.",3,0.0
+Neptune Township,3,0.0
+Universitaet Bremen,3,0.0
+上海大学,3,0.0
+THE MALAYALA MANORAMA COMPANY PRIVATE LIMITED,3,0.0
+private,3,0.0
+HCA Information Technology and Services Inc,3,0.0
+WEDDING PLANNER SL,3,0.0
+Jackson National Life Insurance Company,3,0.0
+Visual Builder Cloud,3,0.0
+ZXCGUTAZQD,3,0.0
+Reltio,3,0.0
+Bubblesoft,3,0.0
+"Fossil Group, Inc.",3,0.0
+"Merck & Co., Inc.",3,0.0
+"EN-LIANG ENTERPRISE CO., LTD.",3,0.0
+Alarm.com,3,0.0
+DELAWARE RIVER PORT AUTHORITY,3,0.0
+KUNJUTSA,3,0.0
+Veritas Technologies LLC,3,0.0
+"Lone Wolf Real Estate Technologies, Inc.",3,0.0
+TylerTech,3,0.0
+"e-Builder, Inc.",3,0.0
+Count + Care GmbH & Co. KG,3,0.0
+MINI STAR PTE. LTD.,3,0.0
+Tele2 Sverige AB,3,0.0
+NUKSIKPV,3,0.0
+CNUSPDKCSNAIYEL,3,0.0
+Westdeutscher Rundfunk Köln,3,0.0
+"KORE.AI, Inc",3,0.0
+Microchip Technology Incorporated,3,0.0
+DOGEWO Dortmunder Gesellschaft für Wohnen mbH,3,0.0
+Chubb INA Holdings Inc.,3,0.0
+"School Specialty, Inc.",3,0.0
+Yatra Online Limited,3,0.0
+YHWAQUI,3,0.0
+DEFENSORIA PUBLICA DO ESTADO DO RIO DE JANEIRO-DPE,3,0.0
+IDY Corp,3,0.0
+"Stretto, Inc.",3,0.0
+SUKHOTHAI THAMMATHIRAT OPEN UNIVERSITY,3,0.0
+RACWA Holdings Pty Ltd,3,0.0
+SecWorld,3,0.0
+AKAMAI TECHNOLOGIES SPAIN S.L.,3,0.0
+MyCompany Inc.,3,0.0
+Isetan Mitsukoshi Holdings Ltd.,3,0.0
+中央合成化学 株式会社,3,0.0
+Wangsu,3,0.0
+NKIXX,3,0.0
+Kanagawa Prefectural Hospital Organization,3,0.0
+XXPILRLEKHXQODRZ,3,0.0
+C.C. Filson Co.,3,0.0
+Direction Generale des finances publiques,3,0.0
+PRVNB,3,0.0
+"1-800-FLOWERS.COM, INC.",3,0.0
+Virginia Polytechnic Institute and State University,3,0.0
+AHLATCI ODEME VE ELEKTRONIK PARA HIZMETLERI A.S.,3,0.0
+"KUNZ, LEIGH & ASSOCIATES, INC.",3,0.0
+Roon Labs LLC,3,0.0
+Marriott Vacations Worldwide Corporation,3,0.0
+Deluxe Media Inc.,3,0.0
+ZILDBOY,3,0.0
+Japan Automobile Recycling Promotion Center,3,0.0
+Massachusetts Mutual Life Insurance Company,3,0.0
+北京二六三企业通信有限公司,3,0.0
+JAD ZOGHEIB & CIA LTDA,3,0.0
+EFXYFUEZRGWIPNWFHE,3,0.0
+CRIF S.p.A.,3,0.0
+FMR LLC,3,0.0
+SATO Techno Lab Europe AB,3,0.0
+FTNCRGETXXNXMRS,3,0.0
+BIGLOBE Inc.,3,0.0
+DBVKVZHYNMMVBMPNUU,3,0.0
+Arsys Internet S.L.,3,0.0
+Comune di Firenze,3,0.0
+GYVCZTUA,3,0.0
+"FutureSpirits CO.,Ltd.",3,0.0
+Red-L Distributors,3,0.0
+Certisign Certificadora Digital S.A.,3,0.0
+dahua,3,0.0
+"University of California, Irvine",3,0.0
+Supermarket Grocery Supplies Pvt Ltd,3,0.0
+00:1C:7F:B7:E5:96..33r74r,3,0.0
+ATKINSRÉALIS,3,0.0
+ibau GmbH,3,0.0
+Mobile TeleSystems Public Joint-Stock Company,3,0.0
+政府機關-市政府-教育局-市立圖書館,3,0.0
+成都育迪科技有限公司,3,0.0
+Gmarket Inc.,3,0.0
+HMNSVZOHWEZCQZABH,3,0.0
+"PERSOL HOLDINGS CO., LTD.",3,0.0
+OCYAN S.A.,3,0.0
+Mediacorp Pte Ltd,3,0.0
+CardinalCommerce Corporation,3,0.0
+Central Provident Fund Board,3,0.0
+株式会社ケアサービス,3,0.0
+Metropolitan Life Insurance Company,3,0.0
+NARDINI AGROINDUSTRIAL LTDA,3,0.0
+"GUOTAI HAITONG SECURITIES CO.,LTD.",3,0.0
+Air New Zealand Limited,3,0.0
+Fundação Oswaldo Cruz (FIOCRUZ),3,0.0
+British Telecommunications plc,3,0.0
+ING Bank NV,3,0.0
+燕文物流股份有限公司,3,0.0
+Federal Home Loan Bank of New York,3,0.0
+Department of Home Affairs,3,0.0
+Amadeus GmbH,3,0.0
+Cafe24 Corp.,3,0.0
+Journal Publishing Company,3,0.0
+"CHICO'S RETAIL SERVICES, INC",3,0.0
+Altera,3,0.0
+Lojas Riachuelo SA,3,0.0
+福建网龙计算机网络信息技术有限公司,3,0.0
+AODZJJKLHSQYITHR,3,0.0
+Enhance,3,0.0
+ClickNetPro LTD,3,0.0
+None L=None,3,0.0
+"Redinvest Immobilien AG, Sursee",3,0.0
+BWRIYXLPKZU,3,0.0
+SEIKO EPSON CORPORATION,3,0.0
+IBOLSCSCBPK,3,0.0
+Markit Group Limited,3,0.0
+ARGUS DATA INSIGHTS Schweiz AG,3,0.0
+WOQYVBFEPDAZ,3,0.0
+Coöperatie Royal FloraHolland UA,3,0.0
+AirVPN,3,0.0
+NComputing,3,0.0
+Thales,3,0.0
+ORG,3,0.0
+广州乐牛软件科技有限公司,3,0.0
+WKLSQKERCAWKNLAN,3,0.0
+UT MD Anderson Cancer Center,3,0.0
+Miles & More GmbH,3,0.0
+TEHIZTWNHAYW,3,0.0
+"bitFlyer, Inc.",3,0.0
+momo.com Inc.,3,0.0
+FireBrick Ltd,3,0.0
+UVOKFLRUX,3,0.0
+Entain Group,3,0.0
+TOYOTA DO BRASIL LTDA,3,0.0
+"Advance Auto Parts, Inc",3,0.0
+Volksbank Möckmühl eG,3,0.0
+"NYP Holdings, Inc",3,0.0
+DUCATI MOTOR HOLDING SPA,3,0.0
+Carrefour Comercio e Industria LTDA,3,0.0
+GVDGXJZCAWHQS,3,0.0
+VISUAL RESEARCH CO.,3,0.0
+UT San Antonio,3,0.0
+Rhombus Systems,3,0.0
+Energie AG Oberösterreich,3,0.0
+FOREX AB,3,0.0
+VGMMENH,3,0.0
+CHANJET,3,0.0
+Veeam Software,3,0.0
+KBVJLK,3,0.0
+BVCJYB,3,0.0
+Polarn O. Pyret Aktiebolag,3,0.0
+Money Management International Inc.,3,0.0
+Saab AB,3,0.0
+BigHand Ltd,3,0.0
+Besamungsverein Neustadt a.d. Aisch e.V.,3,0.0
+CLARO CHILE SPA,3,0.0
+TELE2,3,0.0
+DIPWJNFKXVEISWDYD,3,0.0
+东方财富证券股份有限公司,3,0.0
+NJYXASLKPZB,3,0.0
+OVLTZZHNUIKEJKAD,3,0.0
+WWWBGHIVDFLBNWNE,3,0.0
+RACOM s.r.o.,3,0.0
+"Money Metals Exchange, LLC",3,0.0
+Kiff Enterprises Inc,3,0.0
+Redstor Production,3,0.0
+ITSAONLAH,3,0.0
+SonicWall Inc.,3,0.0
+Jasmeet,3,0.0
+Xevo Inc.,3,0.0
+"Nisshin Fire & Marine Insurance Co., Ltd.",3,0.0
+Nationaal Archief,3,0.0
+Fujitsu Japan Limited,3,0.0
+CashDro,3,0.0
+OOTPDXGGFPDG,3,0.0
+ENTIDAD PROMOTORA DE SALUD SANITAS S.A.,3,0.0
+Test Company,3,0.0
+HAKODMJ,3,0.0
+Coppel SA DE CV,3,0.0
+"AutoTrader.com, Inc.",3,0.0
+EBLKYJVYJ,3,0.0
+"INFINITE COMPUTER SOLUTIONS, INC",3,0.0
+Alarm.com Incorporated,3,0.0
+ZCMLNYZUDPR,3,0.0
+Indian Institute Of Technology Bombay,3,0.0
+Larsen and Toubro Limited,3,0.0
+"Donnelley Financial, LLC",3,0.0
+AULXBBUN,3,0.0
+thyssenkrupp AG,3,0.0
+The British Council,3,0.0
+Tunstall Nordic Aktiebolag,3,0.0
+D. Swarovski KG,3,0.0
+WDXJSJKVDCTPQQ,3,0.0
+Upvantage Management And Advisory Sdn Bhd,3,0.0
+WirelessMundi,3,0.0
+"Terrus Real Estate Group, L.L.C.",3,0.0
+Private HTTPS,3,0.0
+touming1.wafqax.top,3,0.0
+Cyna,3,0.0
+COQTEWELPTUQUECOVH,3,0.0
+RPZEPZHDVSYVYDV,3,0.0
+"BENTEK, LLC",3,0.0
+a,3,0.0
+"China Universal Asset Management Co.,Ltd.",3,0.0
+OHOSVTT,3,0.0
+THALES,3,0.0
+LSI SA,3,0.0
+WALLENIUS WILHELMSEN OCEAN AS,3,0.0
+Cocam,3,0.0
+"Aardvark, LP",3,0.0
+HID GLOBAL CORPORATION,3,0.0
+北京奇虎科技有限公司,3,0.0
+EURONET SERVICES INDIA PRIVATE LIMITED,3,0.0
+Mayasoft,3,0.0
+"Busan Bank Co., Ltd.",3,0.0
+中国人寿保险股份有限公司,3,0.0
+Pole Star Space Applications Limited,3,0.0
+AAON,3,0.0
+CDALGYVASLW,3,0.0
+Fruugo.com Ltd,3,0.0
+Chita shinkin Bank,3,0.0
+BIOTRONIK SE & Co. KG,3,0.0
+Avaya,3,0.0
+NetgearFieldDevices,3,0.0
+"BAYCREW'S Co.,Ltd.",3,0.0
+Middlesex Community College,3,0.0
+BOIIEFTAMJIYWKV,3,0.0
+QTXRILLH,3,0.0
+Priceline.com LLC,3,0.0
+"Daihatsu Motor Co., Ltd.",3,0.0
+"NIPPON EXPRESS CO., LTD.",3,0.0
+University of Michigan,3,0.0
+Beadmin private instance,3,0.0
+QKKYYART,3,0.0
+Apica AB,3,0.0
+cbn,3,0.0
+NetKnow Internet Knowledge Company Inc.,3,0.0
+"ACI Worldwide, INC",3,0.0
+IceWarp Software,3,0.0
+"KOKUSAI KOGYO CO.,LTD.",3,0.0
+LASTPASS US LP,3,0.0
+FWWCH,3,0.0
+"International Rescue Committee, Inc.",3,0.0
+Ascend Learning LLC,3,0.0
+TOKYO HIGASHI SHINKIN BANK,3,0.0
+University of Kansas,3,0.0
+mpc networks GmbH,3,0.0
+WOW WORLD Inc.,3,0.0
+Enerji ve Tabii Kaynaklar Bakanlığı,3,0.0
+Ingresso.com Ltda,3,0.0
+"Black Duck Software, Inc.",3,0.0
+FRFUKYDJTNUILVB,3,0.0
+Nintendo of America Inc.,3,0.0
+OLHEDDZOYOUS,3,0.0
+Steinberg Media Technologies GmbH,3,0.0
+TotalEnergies SE,3,0.0
+APA GROUP K.K.,3,0.0
+"Sonos, Inc",3,0.0
+EBJDLSRUOWYA,3,0.0
+MIBANCO - BANCO DE LA MICROEMPRESA S.A.,3,0.0
+上海翌旭网络科技有限公司,3,0.0
+Koninklijke KPN N.V.,3,0.0
+"Interactive Intelligence,Inc",3,0.0
+Postfix Mail Server,3,0.0
+Santos LTD,3,0.0
+SUWONIHFVWB,3,0.0
+Product Center,3,0.0
+Aerohive,3,0.0
+"Yealink Network Technology Co., Ltd.",3,0.0
+Auchan Retail International,3,0.0
+EJ Group Inc,3,0.0
+Federal Signal Corporation,3,0.0
+CNH Industrial N.V.,3,0.0
+EWSAHJKQAAS,3,0.0
+"Digital Hollywood Co.,Ltd.",3,0.0
+Land O'Lakes Inc,3,0.0
+アクリーティブ株式会社,3,0.0
+OPJQLMYE,3,0.0
+Tensor,3,0.0
+Credit Acceptance Corporation,3,0.0
+PUERTO RICO INNOVATION & TECHNOLOGY SERVICE,3,0.0
+Grupo Telefonica,3,0.0
+HSYCO S.r.l.,3,0.0
+TOKYO TELEMARKETING INC.,3,0.0
+ubuntu18,3,0.0
+RWTH Aachen University,3,0.0
+KIMYGJHAU,3,0.0
+SAI Global PTY Limited,3,0.0
+"RichRelevance, INC",3,0.0
+FUJITSU,3,0.0
+Swarna Pragati Housing Microfinance Private Limited,3,0.0
+FUNDACAO UNIVERSIDADE DE CAXIAS DO SUL,3,0.0
+Nederlandse Omroep Stichting,3,0.0
+"Extole, Inc",3,0.0
+BUMOKMQ,3,0.0
+LRMVFS,3,0.0
+Region Varmland,3,0.0
+Universitetet i Tromsø – Norges arktiske universitet,3,0.0
+University of Massachusetts Amherst,3,0.0
+"""ForteBank"", JSC",3,0.0
+"Omaha Steaks International, LLC",3,0.0
+KINETIQ INC,3,0.0
+Mizrahi Tefahot Bank Ltd,3,0.0
+MCB ISLAMIC BANK LTD.,3,0.0
+UPVUOKMKEIBCRUX,3,0.0
+XQIRXNMGGZHUPMOO,3,0.0
+VSRRUOFBUUE,3,0.0
+The Executive Office of the President,3,0.0
+County of Westchester,3,0.0
+ALLFUNDS BANK SA,3,0.0
+MIYAZAKI PREFECTURE,3,0.0
+GYLDMGTMIGFM,3,0.0
+restaurants.com,3,0.0
+NMSBAWLU,3,0.0
+ADYEN DO BRASIL INSTITUICAO DE PAGAMENTO LTDA.,3,0.0
+THDEWUOVYBNDKA,3,0.0
+SomeCompany,3,0.0
+Vanguard Charitable Endowment Program,3,0.0
+Department of Justice and Attorney-General,3,0.0
+"D.J.SQUIRE & CO.,LIMITED",3,0.0
+Carma Corp,3,0.0
+PIA CORPORATION,3,0.0
+Makemytrip (India) Private Limited,3,0.0
+mobile.de GmbH,3,0.0

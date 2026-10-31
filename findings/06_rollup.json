@@ -1,0 +1,666 @@
+{
+ "tag": "FULL",
+ "rows": 14608406,
+ "distinct_id": 14608406,
+ "distinct_ip_port_transport": 13209079,
+ "distinct_ip_port_ts": 14608406,
+ "distinct_hash": 4206523,
+ "ip_port_groups_with_dupes": 495392,
+ "rows_in_dupe_groups": 1894719,
+ "keys": {
+  "ip": {
+   "distinct": 4992440,
+   "banners_populated": 14608406,
+   "populated_pct": 100.0,
+   "banners_per_key_p50_p90_p99_p999": [
+    1,
+    4,
+    73,
+    94
+   ],
+   "max": 4081,
+   "singleton_keys": 3689365
+  },
+  "asn": {
+   "distinct": 42600,
+   "banners_populated": 14607799,
+   "populated_pct": 99.996,
+   "banners_per_key_p50_p90_p99_p999": [
+    4,
+    51,
+    1206,
+    16538
+   ],
+   "max": 4733624,
+   "singleton_keys": 10595
+  },
+  "org": {
+   "distinct": 83117,
+   "banners_populated": 14607669,
+   "populated_pct": 99.995,
+   "banners_per_key_p50_p90_p99_p999": [
+    2,
+    26,
+    596,
+    9234
+   ],
+   "max": 4664416,
+   "singleton_keys": 30706
+  },
+  "domain": {
+   "distinct": 488241,
+   "banners_populated": 10824898,
+   "populated_pct": 74.1,
+   "banners_per_key_p50_p90_p99_p999": [
+    1,
+    6,
+    63,
+    675
+   ],
+   "max": 4234554,
+   "singleton_keys": 319061
+  },
+  "hostname": {
+   "distinct": 3767910,
+   "banners_populated": 10824898,
+   "populated_pct": 74.1,
+   "banners_per_key_p50_p90_p99_p999": [
+    1,
+    4,
+    77,
+    126
+   ],
+   "max": 100155,
+   "singleton_keys": 2632432
+  },
+  "cert_subject_cn": {
+   "distinct": 348943,
+   "banners_populated": 978830,
+   "populated_pct": 6.7,
+   "banners_per_key_p50_p90_p99_p999": [
+    1,
+    2,
+    15,
+    128
+   ],
+   "max": 100155,
+   "singleton_keys": 287707
+  },
+  "http_host": {
+   "distinct": 3001123,
+   "banners_populated": 4311673,
+   "populated_pct": 29.515,
+   "banners_per_key_p50_p90_p99_p999": [
+    1,
+    2,
+    10,
+    41
+   ],
+   "max": 1315,
+   "singleton_keys": 2628039
+  }
+ },
+ "domains_len_dist": [
+  [
+   0,
+   3783508
+  ],
+  [
+   1,
+   10333059
+  ],
+  [
+   2,
+   388372
+  ],
+  [
+   3,
+   33721
+  ],
+  [
+   4,
+   14204
+  ],
+  [
+   5,
+   9876
+  ],
+  [
+   6,
+   7525
+  ],
+  [
+   7,
+   6808
+  ],
+  [
+   8,
+   4480
+  ],
+  [
+   9,
+   5314
+  ],
+  [
+   10,
+   2921
+  ],
+  [
+   11,
+   1674
+  ]
+ ],
+ "fd": [
+  {
+   "a": "ip",
+   "b": "asn",
+   "da": 4991964,
+   "db": 42600,
+   "dab": 4991964,
+   "a_determines_b_pct": 100.0,
+   "b_determines_a_pct": 0.85
+  },
+  {
+   "a": "ip",
+   "b": "org",
+   "da": 4991850,
+   "db": 83117,
+   "dab": 4991850,
+   "a_determines_b_pct": 100.0,
+   "b_determines_a_pct": 1.67
+  },
+  {
+   "a": "ip",
+   "b": "domain1",
+   "da": 2959924,
+   "db": 315293,
+   "dab": 3026633,
+   "a_determines_b_pct": 97.8,
+   "b_determines_a_pct": 10.42
+  },
+  {
+   "a": "ip",
+   "b": "cn",
+   "da": 562931,
+   "db": 348944,
+   "dab": 625263,
+   "a_determines_b_pct": 90.03,
+   "b_determines_a_pct": 55.81
+  },
+  {
+   "a": "asn",
+   "b": "org",
+   "da": 42573,
+   "db": 83115,
+   "dab": 100522,
+   "a_determines_b_pct": 42.35,
+   "b_determines_a_pct": 82.68
+  },
+  {
+   "a": "asn",
+   "b": "domain1",
+   "da": 26813,
+   "db": 315289,
+   "dab": 345497,
+   "a_determines_b_pct": 7.76,
+   "b_determines_a_pct": 91.26
+  },
+  {
+   "a": "asn",
+   "b": "cn",
+   "da": 17934,
+   "db": 348931,
+   "dab": 374261,
+   "a_determines_b_pct": 4.79,
+   "b_determines_a_pct": 93.23
+  },
+  {
+   "a": "org",
+   "b": "domain1",
+   "da": 51257,
+   "db": 315250,
+   "dab": 368449,
+   "a_determines_b_pct": 13.91,
+   "b_determines_a_pct": 85.56
+  },
+  {
+   "a": "org",
+   "b": "cn",
+   "da": 27141,
+   "db": 348909,
+   "dab": 384442,
+   "a_determines_b_pct": 7.06,
+   "b_determines_a_pct": 90.76
+  },
+  {
+   "a": "domain1",
+   "b": "cn",
+   "da": 160067,
+   "db": 303452,
+   "dab": 333141,
+   "a_determines_b_pct": 48.05,
+   "b_determines_a_pct": 91.09
+  }
+ ],
+ "orgs_per_domain_q": [
+  [
+   1,
+   1,
+   4
+  ],
+  748
+ ],
+ "domains_per_org_q": [
+  [
+   1,
+   6,
+   90
+  ],
+  28131
+ ],
+ "ips_per_domain_q": [
+  [
+   1,
+   3,
+   31
+  ],
+  665216
+ ],
+ "domains_per_ip_q": [
+  [
+   1,
+   1,
+   4
+  ],
+  11948
+ ],
+ "top_orgs": [
+  [
+   "Incapsula Inc",
+   4664416,
+   133417,
+   3038
+  ],
+  [
+   "Google LLC",
+   3175021,
+   669156,
+   3551
+  ],
+  [
+   "Cloudflare, Inc.",
+   561455,
+   137815,
+   17119
+  ],
+  [
+   "Aliyun Computing Co., LTD",
+   376839,
+   217665,
+   1269
+  ],
+  [
+   "Amazon.com, Inc.",
+   341779,
+   125346,
+   7204
+  ],
+  [
+   "Amazon Technologies Inc.",
+   252816,
+   149877,
+   11012
+  ],
+  [
+   "Korea Telecom",
+   165191,
+   159360,
+   368
+  ],
+  [
+   "Akamai Technologies, Inc.",
+   151663,
+   125912,
+   4259
+  ],
+  [
+   "Internet Rimon",
+   142766,
+   38682,
+   39
+  ],
+  [
+   "Aliyun Computing Co.LTD",
+   133625,
+   83224,
+   256
+  ],
+  [
+   "ACE",
+   131810,
+   44366,
+   17
+  ],
+  [
+   "Hetzner Online GmbH",
+   96586,
+   80330,
+   16331
+  ],
+  [
+   "Microsoft Corporation",
+   95038,
+   68659,
+   4883
+  ],
+  [
+   "Alibaba Cloud LLC",
+   84336,
+   16455,
+   793
+  ],
+  [
+   "Meteverse Limited.",
+   82211,
+   25230,
+   42
+  ],
+  [
+   "IP pools",
+   82011,
+   81587,
+   12
+  ],
+  [
+   "Incapsula Inc.",
+   79724,
+   1190,
+   136
+  ],
+  [
+   "ACEVILLE PTE.LTD.",
+   78175,
+   25611,
+   119
+  ],
+  [
+   "Fly.io, Inc.",
+   78164,
+   26466,
+   12
+  ],
+  [
+   "DigitalOcean, LLC",
+   55361,
+   49010,
+   9375
+  ],
+  [
+   "METEVERSE LIMITED",
+   53765,
+   7632,
+   3
+  ],
+  [
+   "Cogent Communications, LLC",
+   47004,
+   40437,
+   2702
+  ],
+  [
+   "Deutsche Telekom AG",
+   42823,
+   39417,
+   2354
+  ],
+  [
+   "OVH SAS",
+   42681,
+   32223,
+   11007
+  ],
+  [
+   "Scaleway",
+   40909,
+   6401,
+   898
+  ]
+ ],
+ "top_domains": [
+  [
+   "incapdns.net",
+   4234554,
+   54411,
+   2
+  ],
+  [
+   "googleusercontent.com",
+   3159510,
+   665216,
+   283
+  ],
+  [
+   "amazonaws.com",
+   330255,
+   227626,
+   80
+  ],
+  [
+   "cloudfront.net",
+   283908,
+   113076,
+   10
+  ],
+  [
+   "akamaitechnologies.com",
+   158204,
+   144541,
+   51
+  ],
+  [
+   "btcentralplus.com",
+   122092,
+   121300,
+   13
+  ],
+  [
+   "imperva.com",
+   100155,
+   37259,
+   6
+  ],
+  [
+   "flyio.net",
+   93070,
+   31241,
+   4
+  ],
+  [
+   "your-server.de",
+   71212,
+   62310,
+   1
+  ],
+  [
+   "scw.cloud",
+   53464,
+   7079,
+   5
+  ],
+  [
+   "linodeusercontent.com",
+   44190,
+   9754,
+   4
+  ],
+  [
+   "t-ipconnect.de",
+   35209,
+   33232,
+   2
+  ],
+  [
+   "hwclouds-dns.com",
+   34390,
+   13915,
+   75
+  ],
+  [
+   "spectrum.com",
+   32895,
+   22830,
+   15
+  ],
+  [
+   "vultrusercontent.com",
+   30974,
+   15008,
+   13
+  ],
+  [
+   "contaboserver.net",
+   29629,
+   27502,
+   13
+  ],
+  [
+   "hinet.net",
+   28987,
+   17654,
+   81
+  ],
+  [
+   "ovh.net",
+   25887,
+   15073,
+   20
+  ],
+  [
+   "awsglobalaccelerator.com",
+   24636,
+   4539,
+   2
+  ],
+  [
+   "cloudflare.net",
+   23085,
+   4244,
+   30
+  ],
+  [
+   "secureserver.net",
+   17771,
+   13650,
+   11
+  ],
+  [
+   "ringana.com",
+   17498,
+   203,
+   3
+  ],
+  [
+   "pbiaas.com",
+   16534,
+   15571,
+   7
+  ],
+  [
+   "nuro.jp",
+   15341,
+   6175,
+   8
+  ],
+  [
+   "wanadoo.fr",
+   13842,
+   12750,
+   101
+  ]
+ ],
+ "domain_ip_cutoffs": {
+  "10": [
+   476598,
+   11643,
+   1291000,
+   10737247
+  ],
+  "10_banners_with_any_small_domain": 842467,
+  "50": [
+   485089,
+   3152,
+   1649764,
+   10378483
+  ],
+  "50_banners_with_any_small_domain": 1074635,
+  "250": [
+   487512,
+   729,
+   2082792,
+   9945455
+  ],
+  "250_banners_with_any_small_domain": 1365942
+ },
+ "top_ports_share": [
+  [
+   80,
+   2158982
+  ],
+  [
+   443,
+   761450
+  ],
+  [
+   2087,
+   299394
+  ],
+  [
+   161,
+   172020
+  ],
+  [
+   8085,
+   143351
+  ],
+  [
+   500,
+   142791
+  ],
+  [
+   7547,
+   127291
+  ],
+  [
+   9000,
+   111161
+  ],
+  [
+   22,
+   94104
+  ],
+  [
+   6001,
+   70309
+  ],
+  [
+   14407,
+   60187
+  ],
+  [
+   554,
+   52919
+  ],
+  [
+   9141,
+   52665
+  ],
+  [
+   8573,
+   52297
+  ],
+  [
+   7474,
+   52211
+  ]
+ ]
+}

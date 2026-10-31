@@ -1,0 +1,1361 @@
+column,dense_col,value,pct_of_populated,pct_of_all,lift
+shodan_region,module,auto,53.27,52.24,1.02
+shodan_region,module,http,15.28,15.02,1.02
+shodan_region,module,http-simple-new,7.72,8.08,0.96
+shodan_region,module,https,5.56,5.64,0.99
+shodan_region,module,https-simple-new,4.68,4.86,0.96
+ipv6,module,https,52.15,5.64,9.25
+ipv6,module,http,30.67,15.02,2.04
+ipv6,module,auto,10.97,52.24,0.21
+ipv6,module,http-simple-new,5.65,8.08,0.7
+ipv6,module,ftp,0.24,0.14,1.72
+os,module,http,44.23,15.02,2.95
+os,module,auto,11.2,52.24,0.21
+os,module,ssh,10.24,0.57,17.9
+os,module,https,7.16,5.64,1.27
+os,module,http-simple-new,5.59,8.08,0.69
+product,module,http,52.44,15.02,3.49
+product,module,https,13.56,5.64,2.41
+product,module,auto,9.63,52.24,0.18
+product,module,http-simple-new,6.05,8.08,0.75
+product,module,ssh,3.0,0.57,5.25
+version,module,http,56.71,15.02,3.78
+version,module,https,10.62,5.64,1.88
+version,module,ssh,8.28,0.57,14.48
+version,module,auto,7.73,52.24,0.15
+version,module,rdp,2.64,0.35,7.47
+info,module,http,48.49,15.02,3.23
+info,module,ssh,15.22,0.57,26.6
+info,module,auto,12.34,52.24,0.24
+info,module,https,9.92,5.64,1.76
+info,module,http-simple-new,7.94,8.08,0.98
+uptime,module,auto,68.74,52.24,1.32
+uptime,module,http,14.89,15.02,0.99
+uptime,module,https,4.45,5.64,0.79
+uptime,module,http-simple-new,3.8,8.08,0.47
+uptime,module,https-simple-new,3.69,4.86,0.76
+devicetype,module,http-simple-new,78.83,8.08,9.76
+devicetype,module,auto,11.59,52.24,0.22
+devicetype,module,http,2.72,15.02,0.18
+devicetype,module,https-simple-new,1.65,4.86,0.34
+devicetype,module,ftp,1.15,0.14,8.21
+device,module,snmp_v3,75.07,1.17,64.08
+device,module,snmp_v2,18.24,0.02,822.01
+device,module,checkpoint-hostname,6.69,0.03,244.99
+device,module,idera,0.0,0.01,0.0
+device,module,ike,0.0,0.98,0.0
+vendor,module,http-simple-new,71.67,8.08,8.87
+vendor,module,snmp_v3,16.49,1.17,14.08
+vendor,module,snmp_v2,4.01,0.02,180.72
+vendor,module,auto,3.53,52.24,0.07
+vendor,module,https-simple-new,3.15,4.86,0.65
+cpe23,module,http,46.41,15.02,3.09
+cpe23,module,http-simple-new,16.39,8.08,2.03
+cpe23,module,https,14.7,5.64,2.61
+cpe23,module,auto,9.65,52.24,0.18
+cpe23,module,https-simple-new,5.51,4.86,1.13
+vuln_ids,module,http,64.84,15.02,4.32
+vuln_ids,module,https,11.39,5.64,2.02
+vuln_ids,module,auto,10.41,52.24,0.2
+vuln_ids,module,ssh,3.61,0.57,6.3
+vuln_ids,module,http-simple-new,3.37,8.08,0.42
+n_vulns,module,http,64.84,15.02,4.32
+n_vulns,module,https,11.39,5.64,2.02
+n_vulns,module,auto,10.41,52.24,0.2
+n_vulns,module,ssh,3.61,0.57,6.3
+n_vulns,module,http-simple-new,3.37,8.08,0.42
+max_cvss,module,http,64.84,15.02,4.32
+max_cvss,module,https,11.39,5.64,2.02
+max_cvss,module,auto,10.41,52.24,0.2
+max_cvss,module,ssh,3.61,0.57,6.3
+max_cvss,module,http-simple-new,3.37,8.08,0.42
+max_epss,module,http,64.84,15.02,4.32
+max_epss,module,https,11.39,5.64,2.02
+max_epss,module,auto,10.41,52.24,0.2
+max_epss,module,ssh,3.61,0.57,6.3
+max_epss,module,http-simple-new,3.37,8.08,0.42
+opts_heartbleed,module,https,70.96,5.64,12.59
+opts_heartbleed,module,https-simple-new,18.38,4.86,3.78
+opts_heartbleed,module,auto,3.8,52.24,0.07
+opts_heartbleed,module,http,1.76,15.02,0.12
+opts_heartbleed,module,telnet,1.59,0.11,14.92
+opts_vulns,module,http,37.42,15.02,2.49
+opts_vulns,module,https,26.69,5.64,4.74
+opts_vulns,module,smb,20.67,0.02,1106.4
+opts_vulns,module,auto,9.2,52.24,0.18
+opts_vulns,module,http-simple-new,3.28,8.08,0.41
+http_status,module,http,48.11,15.02,3.2
+http_status,module,http-simple-new,16.1,8.08,1.99
+http_status,module,https,15.84,5.64,2.81
+http_status,module,auto,11.59,52.24,0.22
+http_status,module,https-simple-new,8.32,4.86,1.71
+http_title,module,http,58.72,15.02,3.91
+http_title,module,https,18.23,5.64,3.24
+http_title,module,auto,14.59,52.24,0.28
+http_title,module,http-simple-new,5.32,8.08,0.66
+http_title,module,https-simple-new,3.11,4.86,0.64
+http_server,module,http,59.43,15.02,3.96
+http_server,module,https,18.69,5.64,3.32
+http_server,module,auto,13.5,52.24,0.26
+http_server,module,http-simple-new,5.78,8.08,0.72
+http_server,module,https-simple-new,2.58,4.86,0.53
+http_waf,module,http,37.69,15.02,2.51
+http_waf,module,http-simple-new,27.8,8.08,3.44
+http_waf,module,https,21.58,5.64,3.83
+http_waf,module,https-simple-new,7.34,4.86,1.51
+http_waf,module,auto,5.55,52.24,0.11
+http_host,module,http,48.11,15.02,3.2
+http_host,module,http-simple-new,16.1,8.08,1.99
+http_host,module,https,15.84,5.64,2.81
+http_host,module,auto,11.59,52.24,0.22
+http_host,module,https-simple-new,8.32,4.86,1.71
+http_location,module,http,48.1,15.02,3.2
+http_location,module,http-simple-new,16.1,8.08,1.99
+http_location,module,https,15.84,5.64,2.81
+http_location,module,auto,11.59,52.24,0.22
+http_location,module,https-simple-new,8.33,4.86,1.71
+http_html_hash,module,http,48.11,15.02,3.2
+http_html_hash,module,http-simple-new,16.1,8.08,1.99
+http_html_hash,module,https,15.84,5.64,2.81
+http_html_hash,module,auto,11.59,52.24,0.22
+http_html_hash,module,https-simple-new,8.32,4.86,1.71
+http_headers_hash,module,http,48.11,15.02,3.2
+http_headers_hash,module,http-simple-new,16.1,8.08,1.99
+http_headers_hash,module,https,15.84,5.64,2.81
+http_headers_hash,module,auto,11.59,52.24,0.22
+http_headers_hash,module,https-simple-new,8.32,4.86,1.71
+http_components_hash,module,http,49.2,15.02,3.28
+http_components_hash,module,http-simple-new,17.53,8.08,2.17
+http_components_hash,module,https,14.83,5.64,2.63
+http_components_hash,module,auto,9.5,52.24,0.18
+http_components_hash,module,https-simple-new,8.9,4.86,1.83
+http_dom_hash,module,http,48.11,15.02,3.2
+http_dom_hash,module,http-simple-new,16.1,8.08,1.99
+http_dom_hash,module,https,15.84,5.64,2.81
+http_dom_hash,module,auto,11.59,52.24,0.22
+http_dom_hash,module,https-simple-new,8.32,4.86,1.71
+http_title_hash,module,http,59.31,15.02,3.95
+http_title_hash,module,https,17.92,5.64,3.18
+http_title_hash,module,auto,14.23,52.24,0.27
+http_title_hash,module,http-simple-new,5.34,8.08,0.66
+http_title_hash,module,https-simple-new,3.17,4.86,0.65
+http_favicon_hash,module,http,41.22,15.02,2.75
+http_favicon_hash,module,https,31.64,5.64,5.61
+http_favicon_hash,module,auto,15.51,52.24,0.3
+http_favicon_hash,module,https-simple-new,6.03,4.86,1.24
+http_favicon_hash,module,http-simple-new,5.58,8.08,0.69
+http_securitytxt,module,http,48.11,15.02,3.2
+http_securitytxt,module,http-simple-new,16.1,8.08,1.99
+http_securitytxt,module,https,15.84,5.64,2.81
+http_securitytxt,module,auto,11.59,52.24,0.22
+http_securitytxt,module,https-simple-new,8.32,4.86,1.71
+http_robots,module,http,48.11,15.02,3.2
+http_robots,module,http-simple-new,16.1,8.08,1.99
+http_robots,module,https,15.84,5.64,2.81
+http_robots,module,auto,11.59,52.24,0.22
+http_robots,module,https-simple-new,8.32,4.86,1.71
+http_sitemap,module,http,48.11,15.02,3.2
+http_sitemap,module,http-simple-new,16.1,8.08,1.99
+http_sitemap,module,https,15.84,5.64,2.81
+http_sitemap,module,auto,11.59,52.24,0.22
+http_sitemap,module,https-simple-new,8.32,4.86,1.71
+http_redirects,module,http,48.11,15.02,3.2
+http_redirects,module,http-simple-new,16.1,8.08,1.99
+http_redirects,module,https,15.84,5.64,2.81
+http_redirects,module,auto,11.59,52.24,0.22
+http_redirects,module,https-simple-new,8.32,4.86,1.71
+http_html_len,module,http,48.11,15.02,3.2
+http_html_len,module,http-simple-new,16.1,8.08,1.99
+http_html_len,module,https,15.84,5.64,2.81
+http_html_len,module,auto,11.59,52.24,0.22
+http_html_len,module,https-simple-new,8.32,4.86,1.71
+http_components,module,http,49.67,15.02,3.31
+http_components,module,http-simple-new,19.88,8.08,2.46
+http_components,module,https,16.55,5.64,2.94
+http_components,module,auto,7.93,52.24,0.15
+http_components,module,https-simple-new,5.91,4.86,1.22
+http_component_cats,module,http,49.67,15.02,3.31
+http_component_cats,module,http-simple-new,19.88,8.08,2.46
+http_component_cats,module,https,16.55,5.64,2.94
+http_component_cats,module,auto,7.93,52.24,0.15
+http_component_cats,module,https-simple-new,5.91,4.86,1.22
+http_header_names,module,http,50.04,15.02,3.33
+http_header_names,module,http-simple-new,16.34,8.08,2.02
+http_header_names,module,https,16.12,5.64,2.86
+http_header_names,module,auto,11.89,52.24,0.23
+http_header_names,module,https-simple-new,5.56,4.86,1.14
+http_headers,module,http,50.04,15.02,3.33
+http_headers,module,http-simple-new,16.34,8.08,2.02
+http_headers,module,https,16.12,5.64,2.86
+http_headers,module,auto,11.89,52.24,0.23
+http_headers,module,https-simple-new,5.56,4.86,1.14
+http_identifiers,module,https,75.69,5.64,13.43
+http_identifiers,module,http,23.4,15.02,1.56
+http_identifiers,module,http-simple-new,0.46,8.08,0.06
+http_identifiers,module,auto,0.31,52.24,0.01
+http_identifiers,module,https-simple-new,0.14,4.86,0.03
+ssl_version,module,https,66.56,5.64,11.81
+ssl_version,module,https-simple-new,17.23,4.86,3.55
+ssl_version,module,auto,3.62,52.24,0.07
+ssl_version,module,rdp,2.58,0.35,7.31
+ssl_version,module,smtp,1.65,0.15,10.8
+ssl_cipher,module,https,66.56,5.64,11.81
+ssl_cipher,module,https-simple-new,17.23,4.86,3.55
+ssl_cipher,module,auto,3.62,52.24,0.07
+ssl_cipher,module,rdp,2.58,0.35,7.31
+ssl_cipher,module,smtp,1.65,0.15,10.8
+ssl_cipher_bits,module,https,66.56,5.64,11.81
+ssl_cipher_bits,module,https-simple-new,17.23,4.86,3.55
+ssl_cipher_bits,module,auto,3.62,52.24,0.07
+ssl_cipher_bits,module,rdp,2.58,0.35,7.31
+ssl_cipher_bits,module,smtp,1.65,0.15,10.8
+cert_issued,module,https,66.56,5.64,11.81
+cert_issued,module,https-simple-new,17.23,4.86,3.55
+cert_issued,module,auto,3.62,52.24,0.07
+cert_issued,module,rdp,2.58,0.35,7.31
+cert_issued,module,smtp,1.65,0.15,10.8
+cert_expires,module,https,66.56,5.64,11.81
+cert_expires,module,https-simple-new,17.23,4.86,3.55
+cert_expires,module,auto,3.62,52.24,0.07
+cert_expires,module,rdp,2.58,0.35,7.31
+cert_expires,module,smtp,1.65,0.15,10.8
+cert_expired,module,https,66.56,5.64,11.81
+cert_expired,module,https-simple-new,17.23,4.86,3.55
+cert_expired,module,auto,3.62,52.24,0.07
+cert_expired,module,rdp,2.58,0.35,7.31
+cert_expired,module,smtp,1.65,0.15,10.8
+cert_subject_cn,module,https,66.63,5.64,11.82
+cert_subject_cn,module,https-simple-new,17.31,4.86,3.56
+cert_subject_cn,module,auto,3.56,52.24,0.07
+cert_subject_cn,module,rdp,2.46,0.35,6.97
+cert_subject_cn,module,smtp,1.67,0.15,10.91
+cert_subject_o,module,https,59.99,5.64,10.64
+cert_subject_o,module,https-simple-new,23.27,4.86,4.79
+cert_subject_o,module,auto,5.0,52.24,0.1
+cert_subject_o,module,ftp,2.58,0.14,18.36
+cert_subject_o,module,smtp,1.69,0.15,11.02
+cert_issuer_cn,module,https,66.57,5.64,11.81
+cert_issuer_cn,module,https-simple-new,17.36,4.86,3.57
+cert_issuer_cn,module,auto,3.56,52.24,0.07
+cert_issuer_cn,module,rdp,2.46,0.35,6.98
+cert_issuer_cn,module,smtp,1.67,0.15,10.91
+cert_issuer_o,module,https,70.37,5.64,12.49
+cert_issuer_o,module,https-simple-new,17.35,4.86,3.57
+cert_issuer_o,module,auto,2.15,52.24,0.04
+cert_issuer_o,module,http,1.81,15.02,0.12
+cert_issuer_o,module,smtp,1.66,0.15,10.83
+cert_self_signed,module,https,66.56,5.64,11.81
+cert_self_signed,module,https-simple-new,17.23,4.86,3.55
+cert_self_signed,module,auto,3.62,52.24,0.07
+cert_self_signed,module,rdp,2.58,0.35,7.31
+cert_self_signed,module,smtp,1.65,0.15,10.8
+cert_pubkey_type,module,https,66.56,5.64,11.81
+cert_pubkey_type,module,https-simple-new,17.23,4.86,3.55
+cert_pubkey_type,module,auto,3.62,52.24,0.07
+cert_pubkey_type,module,rdp,2.58,0.35,7.31
+cert_pubkey_type,module,smtp,1.65,0.15,10.8
+cert_pubkey_bits,module,https,66.56,5.64,11.81
+cert_pubkey_bits,module,https-simple-new,17.23,4.86,3.55
+cert_pubkey_bits,module,auto,3.62,52.24,0.07
+cert_pubkey_bits,module,rdp,2.58,0.35,7.31
+cert_pubkey_bits,module,smtp,1.65,0.15,10.8
+cert_sig_alg,module,https,66.56,5.64,11.81
+cert_sig_alg,module,https-simple-new,17.23,4.86,3.55
+cert_sig_alg,module,auto,3.62,52.24,0.07
+cert_sig_alg,module,rdp,2.58,0.35,7.31
+cert_sig_alg,module,smtp,1.65,0.15,10.8
+cert_sha256,module,https,66.56,5.64,11.81
+cert_sha256,module,https-simple-new,17.23,4.86,3.55
+cert_sha256,module,auto,3.62,52.24,0.07
+cert_sha256,module,rdp,2.58,0.35,7.31
+cert_sha256,module,smtp,1.65,0.15,10.8
+cert_san,module,https,73.84,5.64,13.1
+cert_san,module,https-simple-new,15.18,4.86,3.12
+cert_san,module,http,1.73,15.02,0.12
+cert_san,module,auto,1.63,52.24,0.03
+cert_san,module,smtp,1.58,0.15,10.35
+jarm,module,https,66.56,5.64,11.81
+jarm,module,https-simple-new,17.23,4.86,3.55
+jarm,module,auto,3.62,52.24,0.07
+jarm,module,rdp,2.58,0.35,7.31
+jarm,module,smtp,1.65,0.15,10.8
+ja3s,module,https,66.62,5.64,11.82
+ja3s,module,https-simple-new,17.25,4.86,3.55
+ja3s,module,auto,3.62,52.24,0.07
+ja3s,module,rdp,2.58,0.35,7.32
+ja3s,module,smtp,1.65,0.15,10.81
+trust_revoked,module,https,66.62,5.64,11.82
+trust_revoked,module,https-simple-new,17.23,4.86,3.55
+trust_revoked,module,auto,3.57,52.24,0.07
+trust_revoked,module,rdp,2.59,0.35,7.33
+trust_revoked,module,smtp,1.65,0.15,10.82
+trust_browser,module,https,79.48,5.64,14.1
+trust_browser,module,https-simple-new,6.34,4.86,1.3
+trust_browser,module,auto,2.75,52.24,0.05
+trust_browser,module,smtp,2.34,0.15,15.32
+trust_browser,module,http,1.79,15.02,0.12
+ssl_chain_len,module,https,66.56,5.64,11.81
+ssl_chain_len,module,https-simple-new,17.23,4.86,3.55
+ssl_chain_len,module,auto,3.62,52.24,0.07
+ssl_chain_len,module,rdp,2.58,0.35,7.31
+ssl_chain_len,module,smtp,1.65,0.15,10.8
+ssl_versions,module,https,97.87,5.64,17.37
+ssl_versions,module,http,2.13,15.02,0.14
+ssl_versions,module,idera,0.0,0.01,0.0
+ssl_versions,module,ike,0.0,0.98,0.0
+ssl_versions,module,imap,0.0,0.05,0.0
+ssl_alpn,module,https,68.38,5.64,12.13
+ssl_alpn,module,https-simple-new,14.64,4.86,3.01
+ssl_alpn,module,http,11.97,15.02,0.8
+ssl_alpn,module,auto,2.6,52.24,0.05
+ssl_alpn,module,ldaps,1.14,0.04,29.3
+cloud_provider,module,auto,55.0,52.24,1.05
+cloud_provider,module,http,15.72,15.02,1.05
+cloud_provider,module,https,8.94,5.64,1.59
+cloud_provider,module,http-simple-new,6.54,8.08,0.81
+cloud_provider,module,https-simple-new,3.57,4.86,0.73
+cloud_region,module,auto,55.5,52.24,1.06
+cloud_region,module,http,15.04,15.02,1.0
+cloud_region,module,https,9.44,5.64,1.68
+cloud_region,module,http-simple-new,6.73,8.08,0.83
+cloud_region,module,https-simple-new,3.61,4.86,0.74
+cloud_service,module,http,53.56,15.02,3.57
+cloud_service,module,https,37.19,5.64,6.6
+cloud_service,module,auto,6.73,52.24,0.13
+cloud_service,module,https-simple-new,0.76,4.86,0.16
+cloud_service,module,http-simple-new,0.55,8.08,0.07
+data,module,http,32.62,15.02,2.17
+data,module,auto,12.87,52.24,0.25
+data,module,https,12.1,5.64,2.15
+data,module,http-simple-new,10.94,8.08,1.35
+data,module,https-simple-new,7.85,4.86,1.62
+html_len,module,udpxy,100.0,0.02,6622.12
+html_len,module,idera,0.0,0.01,0.0
+html_len,module,ike,0.0,0.98,0.0
+html_len,module,imap,0.0,0.05,0.0
+html_len,module,ingenico,0.0,0.01,0.0
+extra_json,module,snmp_v3,25.48,1.17,21.75
+extra_json,module,ssh,12.45,0.57,21.76
+extra_json,module,ike,9.77,0.98,10.0
+extra_json,module,http,8.82,15.02,0.59
+extra_json,module,ike-nat-t,6.65,0.31,21.69
+shodan_region,transport,tcp,97.01,96.82,1.0
+shodan_region,transport,udp,2.99,3.18,0.94
+ipv6,transport,tcp,99.97,96.82,1.03
+ipv6,transport,udp,0.03,3.18,0.01
+os,transport,tcp,96.47,96.82,1.0
+os,transport,udp,3.53,3.18,1.11
+product,transport,tcp,95.35,96.82,0.98
+product,transport,udp,4.65,3.18,1.47
+version,transport,tcp,96.17,96.82,0.99
+version,transport,udp,3.83,3.18,1.21
+info,transport,tcp,99.7,96.82,1.03
+info,transport,udp,0.3,3.18,0.09
+uptime,transport,tcp,100.0,96.82,1.03
+uptime,transport,udp,0.0,3.18,0.0
+devicetype,transport,tcp,100.0,96.82,1.03
+devicetype,transport,udp,0.0,3.18,0.0
+device,transport,udp,93.31,3.18,29.38
+device,transport,tcp,6.69,96.82,0.07
+vendor,transport,tcp,79.5,96.82,0.82
+vendor,transport,udp,20.5,3.18,6.46
+cpe23,transport,tcp,99.03,96.82,1.02
+cpe23,transport,udp,0.97,3.18,0.31
+vuln_ids,transport,tcp,99.39,96.82,1.03
+vuln_ids,transport,udp,0.61,3.18,0.19
+n_vulns,transport,tcp,99.39,96.82,1.03
+n_vulns,transport,udp,0.61,3.18,0.19
+max_cvss,transport,tcp,99.39,96.82,1.03
+max_cvss,transport,udp,0.61,3.18,0.19
+max_epss,transport,tcp,99.39,96.82,1.03
+max_epss,transport,udp,0.61,3.18,0.19
+opts_heartbleed,transport,tcp,100.0,96.82,1.03
+opts_heartbleed,transport,udp,0.0,3.18,0.0
+opts_vulns,transport,tcp,100.0,96.82,1.03
+opts_vulns,transport,udp,0.0,3.18,0.0
+http_status,transport,tcp,100.0,96.82,1.03
+http_status,transport,udp,0.0,3.18,0.0
+http_title,transport,tcp,100.0,96.82,1.03
+http_title,transport,udp,0.0,3.18,0.0
+http_server,transport,tcp,100.0,96.82,1.03
+http_server,transport,udp,0.0,3.18,0.0
+http_waf,transport,tcp,100.0,96.82,1.03
+http_waf,transport,udp,0.0,3.18,0.0
+http_host,transport,tcp,100.0,96.82,1.03
+http_host,transport,udp,0.0,3.18,0.0
+http_location,transport,tcp,100.0,96.82,1.03
+http_location,transport,udp,0.0,3.18,0.0
+http_html_hash,transport,tcp,100.0,96.82,1.03
+http_html_hash,transport,udp,0.0,3.18,0.0
+http_headers_hash,transport,tcp,100.0,96.82,1.03
+http_headers_hash,transport,udp,0.0,3.18,0.0
+http_components_hash,transport,tcp,100.0,96.82,1.03
+http_components_hash,transport,udp,0.0,3.18,0.0
+http_dom_hash,transport,tcp,100.0,96.82,1.03
+http_dom_hash,transport,udp,0.0,3.18,0.0
+http_title_hash,transport,tcp,100.0,96.82,1.03
+http_title_hash,transport,udp,0.0,3.18,0.0
+http_favicon_hash,transport,tcp,100.0,96.82,1.03
+http_favicon_hash,transport,udp,0.0,3.18,0.0
+http_securitytxt,transport,tcp,100.0,96.82,1.03
+http_securitytxt,transport,udp,0.0,3.18,0.0
+http_robots,transport,tcp,100.0,96.82,1.03
+http_robots,transport,udp,0.0,3.18,0.0
+http_sitemap,transport,tcp,100.0,96.82,1.03
+http_sitemap,transport,udp,0.0,3.18,0.0
+http_redirects,transport,tcp,100.0,96.82,1.03
+http_redirects,transport,udp,0.0,3.18,0.0
+http_html_len,transport,tcp,100.0,96.82,1.03
+http_html_len,transport,udp,0.0,3.18,0.0
+http_components,transport,tcp,100.0,96.82,1.03
+http_components,transport,udp,0.0,3.18,0.0
+http_component_cats,transport,tcp,100.0,96.82,1.03
+http_component_cats,transport,udp,0.0,3.18,0.0
+http_header_names,transport,tcp,100.0,96.82,1.03
+http_header_names,transport,udp,0.0,3.18,0.0
+http_headers,transport,tcp,100.0,96.82,1.03
+http_headers,transport,udp,0.0,3.18,0.0
+http_identifiers,transport,tcp,100.0,96.82,1.03
+http_identifiers,transport,udp,0.0,3.18,0.0
+ssl_version,transport,tcp,100.0,96.82,1.03
+ssl_version,transport,udp,0.0,3.18,0.0
+ssl_cipher,transport,tcp,100.0,96.82,1.03
+ssl_cipher,transport,udp,0.0,3.18,0.0
+ssl_cipher_bits,transport,tcp,100.0,96.82,1.03
+ssl_cipher_bits,transport,udp,0.0,3.18,0.0
+cert_issued,transport,tcp,100.0,96.82,1.03
+cert_issued,transport,udp,0.0,3.18,0.0
+cert_expires,transport,tcp,100.0,96.82,1.03
+cert_expires,transport,udp,0.0,3.18,0.0
+cert_expired,transport,tcp,100.0,96.82,1.03
+cert_expired,transport,udp,0.0,3.18,0.0
+cert_subject_cn,transport,tcp,100.0,96.82,1.03
+cert_subject_cn,transport,udp,0.0,3.18,0.0
+cert_subject_o,transport,tcp,100.0,96.82,1.03
+cert_subject_o,transport,udp,0.0,3.18,0.0
+cert_issuer_cn,transport,tcp,100.0,96.82,1.03
+cert_issuer_cn,transport,udp,0.0,3.18,0.0
+cert_issuer_o,transport,tcp,100.0,96.82,1.03
+cert_issuer_o,transport,udp,0.0,3.18,0.0
+cert_self_signed,transport,tcp,100.0,96.82,1.03
+cert_self_signed,transport,udp,0.0,3.18,0.0
+cert_pubkey_type,transport,tcp,100.0,96.82,1.03
+cert_pubkey_type,transport,udp,0.0,3.18,0.0
+cert_pubkey_bits,transport,tcp,100.0,96.82,1.03
+cert_pubkey_bits,transport,udp,0.0,3.18,0.0
+cert_sig_alg,transport,tcp,100.0,96.82,1.03
+cert_sig_alg,transport,udp,0.0,3.18,0.0
+cert_sha256,transport,tcp,100.0,96.82,1.03
+cert_sha256,transport,udp,0.0,3.18,0.0
+cert_san,transport,tcp,100.0,96.82,1.03
+cert_san,transport,udp,0.0,3.18,0.0
+jarm,transport,tcp,100.0,96.82,1.03
+jarm,transport,udp,0.0,3.18,0.0
+ja3s,transport,tcp,100.0,96.82,1.03
+ja3s,transport,udp,0.0,3.18,0.0
+trust_revoked,transport,tcp,100.0,96.82,1.03
+trust_revoked,transport,udp,0.0,3.18,0.0
+trust_browser,transport,tcp,100.0,96.82,1.03
+trust_browser,transport,udp,0.0,3.18,0.0
+ssl_chain_len,transport,tcp,100.0,96.82,1.03
+ssl_chain_len,transport,udp,0.0,3.18,0.0
+ssl_versions,transport,tcp,100.0,96.82,1.03
+ssl_versions,transport,udp,0.0,3.18,0.0
+ssl_alpn,transport,tcp,100.0,96.82,1.03
+ssl_alpn,transport,udp,0.0,3.18,0.0
+cloud_provider,transport,tcp,99.89,96.82,1.03
+cloud_provider,transport,udp,0.11,3.18,0.04
+cloud_region,transport,tcp,99.9,96.82,1.03
+cloud_region,transport,udp,0.1,3.18,0.03
+cloud_service,transport,tcp,99.84,96.82,1.03
+cloud_service,transport,udp,0.16,3.18,0.05
+data,transport,tcp,92.75,96.82,0.96
+data,transport,udp,7.25,3.18,2.28
+html_len,transport,tcp,100.0,96.82,1.03
+html_len,transport,udp,0.0,3.18,0.0
+extra_json,transport,udp,52.56,3.18,16.55
+extra_json,transport,tcp,47.44,96.82,0.49
+shodan_region,shodan_region,na,70.5,68.36,1.03
+shodan_region,shodan_region,eu,29.5,28.6,1.03
+shodan_region,shodan_region,,0.0,3.03,0.0
+ipv6,shodan_region,na,84.42,68.36,1.23
+ipv6,shodan_region,eu,15.58,28.6,0.54
+ipv6,shodan_region,,0.0,3.03,0.0
+os,shodan_region,na,58.55,68.36,0.86
+os,shodan_region,eu,36.43,28.6,1.27
+os,shodan_region,,5.02,3.03,1.66
+product,shodan_region,na,56.9,68.36,0.83
+product,shodan_region,eu,39.0,28.6,1.36
+product,shodan_region,,4.1,3.03,1.35
+version,shodan_region,na,54.51,68.36,0.8
+version,shodan_region,eu,41.05,28.6,1.43
+version,shodan_region,,4.45,3.03,1.47
+info,shodan_region,eu,48.75,28.6,1.7
+info,shodan_region,na,45.74,68.36,0.67
+info,shodan_region,,5.52,3.03,1.82
+uptime,shodan_region,na,85.17,68.36,1.25
+uptime,shodan_region,eu,12.83,28.6,0.45
+uptime,shodan_region,,2.0,3.03,0.66
+devicetype,shodan_region,eu,66.9,28.6,2.34
+devicetype,shodan_region,na,21.95,68.36,0.32
+devicetype,shodan_region,,11.15,3.03,3.68
+device,shodan_region,na,66.28,68.36,0.97
+device,shodan_region,eu,27.88,28.6,0.97
+device,shodan_region,,5.83,3.03,1.92
+vendor,shodan_region,eu,61.06,28.6,2.13
+vendor,shodan_region,na,28.6,68.36,0.42
+vendor,shodan_region,,10.34,3.03,3.41
+cpe23,shodan_region,na,68.65,68.36,1.0
+cpe23,shodan_region,eu,28.59,28.6,1.0
+cpe23,shodan_region,,2.76,3.03,0.91
+vuln_ids,shodan_region,na,58.94,68.36,0.86
+vuln_ids,shodan_region,eu,37.64,28.6,1.32
+vuln_ids,shodan_region,,3.42,3.03,1.13
+n_vulns,shodan_region,na,58.94,68.36,0.86
+n_vulns,shodan_region,eu,37.64,28.6,1.32
+n_vulns,shodan_region,,3.42,3.03,1.13
+max_cvss,shodan_region,na,58.94,68.36,0.86
+max_cvss,shodan_region,eu,37.64,28.6,1.32
+max_cvss,shodan_region,,3.42,3.03,1.13
+max_epss,shodan_region,na,58.94,68.36,0.86
+max_epss,shodan_region,eu,37.64,28.6,1.32
+max_epss,shodan_region,,3.42,3.03,1.13
+opts_heartbleed,shodan_region,na,64.06,68.36,0.94
+opts_heartbleed,shodan_region,eu,31.58,28.6,1.1
+opts_heartbleed,shodan_region,,4.35,3.03,1.43
+opts_vulns,shodan_region,na,50.84,68.36,0.74
+opts_vulns,shodan_region,eu,41.75,28.6,1.46
+opts_vulns,shodan_region,,7.41,3.03,2.44
+http_status,shodan_region,na,67.52,68.36,0.99
+http_status,shodan_region,eu,29.81,28.6,1.04
+http_status,shodan_region,,2.67,3.03,0.88
+http_title,shodan_region,na,66.33,68.36,0.97
+http_title,shodan_region,eu,31.38,28.6,1.1
+http_title,shodan_region,,2.29,3.03,0.76
+http_server,shodan_region,na,66.26,68.36,0.97
+http_server,shodan_region,eu,31.43,28.6,1.1
+http_server,shodan_region,,2.32,3.03,0.76
+http_waf,shodan_region,na,76.87,68.36,1.12
+http_waf,shodan_region,eu,21.46,28.6,0.75
+http_waf,shodan_region,,1.66,3.03,0.55
+http_host,shodan_region,na,67.52,68.36,0.99
+http_host,shodan_region,eu,29.81,28.6,1.04
+http_host,shodan_region,,2.67,3.03,0.88
+http_location,shodan_region,na,67.52,68.36,0.99
+http_location,shodan_region,eu,29.81,28.6,1.04
+http_location,shodan_region,,2.67,3.03,0.88
+http_html_hash,shodan_region,na,67.52,68.36,0.99
+http_html_hash,shodan_region,eu,29.81,28.6,1.04
+http_html_hash,shodan_region,,2.67,3.03,0.88
+http_headers_hash,shodan_region,na,67.52,68.36,0.99
+http_headers_hash,shodan_region,eu,29.81,28.6,1.04
+http_headers_hash,shodan_region,,2.67,3.03,0.88
+http_components_hash,shodan_region,na,67.44,68.36,0.99
+http_components_hash,shodan_region,eu,29.86,28.6,1.04
+http_components_hash,shodan_region,,2.7,3.03,0.89
+http_dom_hash,shodan_region,na,67.52,68.36,0.99
+http_dom_hash,shodan_region,eu,29.81,28.6,1.04
+http_dom_hash,shodan_region,,2.67,3.03,0.88
+http_title_hash,shodan_region,na,66.49,68.36,0.97
+http_title_hash,shodan_region,eu,31.22,28.6,1.09
+http_title_hash,shodan_region,,2.28,3.03,0.75
+http_favicon_hash,shodan_region,na,69.83,68.36,1.02
+http_favicon_hash,shodan_region,eu,27.54,28.6,0.96
+http_favicon_hash,shodan_region,,2.63,3.03,0.87
+http_securitytxt,shodan_region,na,67.52,68.36,0.99
+http_securitytxt,shodan_region,eu,29.81,28.6,1.04
+http_securitytxt,shodan_region,,2.67,3.03,0.88
+http_robots,shodan_region,na,67.52,68.36,0.99
+http_robots,shodan_region,eu,29.81,28.6,1.04
+http_robots,shodan_region,,2.67,3.03,0.88
+http_sitemap,shodan_region,na,67.52,68.36,0.99
+http_sitemap,shodan_region,eu,29.81,28.6,1.04
+http_sitemap,shodan_region,,2.67,3.03,0.88
+http_redirects,shodan_region,na,67.52,68.36,0.99
+http_redirects,shodan_region,eu,29.81,28.6,1.04
+http_redirects,shodan_region,,2.67,3.03,0.88
+http_html_len,shodan_region,na,67.52,68.36,0.99
+http_html_len,shodan_region,eu,29.81,28.6,1.04
+http_html_len,shodan_region,,2.67,3.03,0.88
+http_components,shodan_region,na,71.71,68.36,1.05
+http_components,shodan_region,eu,26.09,28.6,0.91
+http_components,shodan_region,,2.2,3.03,0.73
+http_component_cats,shodan_region,na,71.71,68.36,1.05
+http_component_cats,shodan_region,eu,26.09,28.6,0.91
+http_component_cats,shodan_region,,2.2,3.03,0.73
+http_header_names,shodan_region,na,67.27,68.36,0.98
+http_header_names,shodan_region,eu,30.14,28.6,1.05
+http_header_names,shodan_region,,2.59,3.03,0.85
+http_headers,shodan_region,na,67.27,68.36,0.98
+http_headers,shodan_region,eu,30.14,28.6,1.05
+http_headers,shodan_region,,2.59,3.03,0.85
+http_identifiers,shodan_region,na,80.91,68.36,1.18
+http_identifiers,shodan_region,eu,18.14,28.6,0.63
+http_identifiers,shodan_region,,0.95,3.03,0.31
+ssl_version,shodan_region,na,63.15,68.36,0.92
+ssl_version,shodan_region,eu,32.27,28.6,1.13
+ssl_version,shodan_region,,4.59,3.03,1.51
+ssl_cipher,shodan_region,na,63.15,68.36,0.92
+ssl_cipher,shodan_region,eu,32.27,28.6,1.13
+ssl_cipher,shodan_region,,4.59,3.03,1.51
+ssl_cipher_bits,shodan_region,na,63.15,68.36,0.92
+ssl_cipher_bits,shodan_region,eu,32.27,28.6,1.13
+ssl_cipher_bits,shodan_region,,4.59,3.03,1.51
+cert_issued,shodan_region,na,63.14,68.36,0.92
+cert_issued,shodan_region,eu,32.27,28.6,1.13
+cert_issued,shodan_region,,4.59,3.03,1.51
+cert_expires,shodan_region,na,63.14,68.36,0.92
+cert_expires,shodan_region,eu,32.27,28.6,1.13
+cert_expires,shodan_region,,4.59,3.03,1.51
+cert_expired,shodan_region,na,63.14,68.36,0.92
+cert_expired,shodan_region,eu,32.27,28.6,1.13
+cert_expired,shodan_region,,4.59,3.03,1.51
+cert_subject_cn,shodan_region,na,63.42,68.36,0.93
+cert_subject_cn,shodan_region,eu,32.05,28.6,1.12
+cert_subject_cn,shodan_region,,4.53,3.03,1.5
+cert_subject_o,shodan_region,na,50.21,68.36,0.73
+cert_subject_o,shodan_region,eu,43.63,28.6,1.53
+cert_subject_o,shodan_region,,6.16,3.03,2.03
+cert_issuer_cn,shodan_region,na,63.46,68.36,0.93
+cert_issuer_cn,shodan_region,eu,32.01,28.6,1.12
+cert_issuer_cn,shodan_region,,4.53,3.03,1.49
+cert_issuer_o,shodan_region,na,64.55,68.36,0.94
+cert_issuer_o,shodan_region,eu,31.15,28.6,1.09
+cert_issuer_o,shodan_region,,4.31,3.03,1.42
+cert_self_signed,shodan_region,na,63.14,68.36,0.92
+cert_self_signed,shodan_region,eu,32.27,28.6,1.13
+cert_self_signed,shodan_region,,4.59,3.03,1.51
+cert_pubkey_type,shodan_region,na,63.14,68.36,0.92
+cert_pubkey_type,shodan_region,eu,32.27,28.6,1.13
+cert_pubkey_type,shodan_region,,4.59,3.03,1.51
+cert_pubkey_bits,shodan_region,na,63.14,68.36,0.92
+cert_pubkey_bits,shodan_region,eu,32.27,28.6,1.13
+cert_pubkey_bits,shodan_region,,4.59,3.03,1.51
+cert_sig_alg,shodan_region,na,63.14,68.36,0.92
+cert_sig_alg,shodan_region,eu,32.27,28.6,1.13
+cert_sig_alg,shodan_region,,4.59,3.03,1.51
+cert_sha256,shodan_region,na,63.14,68.36,0.92
+cert_sha256,shodan_region,eu,32.27,28.6,1.13
+cert_sha256,shodan_region,,4.59,3.03,1.51
+cert_san,shodan_region,na,66.33,68.36,0.97
+cert_san,shodan_region,eu,29.41,28.6,1.03
+cert_san,shodan_region,,4.26,3.03,1.4
+jarm,shodan_region,na,63.14,68.36,0.92
+jarm,shodan_region,eu,32.27,28.6,1.13
+jarm,shodan_region,,4.59,3.03,1.51
+ja3s,shodan_region,na,63.19,68.36,0.92
+ja3s,shodan_region,eu,32.24,28.6,1.13
+ja3s,shodan_region,,4.57,3.03,1.51
+trust_revoked,shodan_region,na,63.19,68.36,0.92
+trust_revoked,shodan_region,eu,32.24,28.6,1.13
+trust_revoked,shodan_region,,4.58,3.03,1.51
+trust_browser,shodan_region,na,58.26,68.36,0.85
+trust_browser,shodan_region,eu,35.82,28.6,1.25
+trust_browser,shodan_region,,5.93,3.03,1.95
+ssl_chain_len,shodan_region,na,63.14,68.36,0.92
+ssl_chain_len,shodan_region,eu,32.27,28.6,1.13
+ssl_chain_len,shodan_region,,4.59,3.03,1.51
+ssl_versions,shodan_region,na,65.74,68.36,0.96
+ssl_versions,shodan_region,eu,30.28,28.6,1.06
+ssl_versions,shodan_region,,3.98,3.03,1.31
+ssl_alpn,shodan_region,eu,47.78,28.6,1.67
+ssl_alpn,shodan_region,na,43.75,68.36,0.64
+ssl_alpn,shodan_region,,8.47,3.03,2.79
+cloud_provider,shodan_region,na,55.74,68.36,0.82
+cloud_provider,shodan_region,eu,40.32,28.6,1.41
+cloud_provider,shodan_region,,3.94,3.03,1.3
+cloud_region,shodan_region,na,55.65,68.36,0.81
+cloud_region,shodan_region,eu,40.38,28.6,1.41
+cloud_region,shodan_region,,3.96,3.03,1.31
+cloud_service,shodan_region,na,64.8,68.36,0.95
+cloud_service,shodan_region,eu,32.83,28.6,1.15
+cloud_service,shodan_region,,2.37,3.03,0.78
+data,shodan_region,na,62.73,68.36,0.92
+data,shodan_region,eu,33.52,28.6,1.17
+data,shodan_region,,3.75,3.03,1.24
+html_len,shodan_region,eu,61.79,28.6,2.16
+html_len,shodan_region,na,23.03,68.36,0.34
+html_len,shodan_region,,15.19,3.03,5.01
+extra_json,shodan_region,na,46.36,68.36,0.68
+extra_json,shodan_region,eu,45.37,28.6,1.59
+extra_json,shodan_region,,8.27,3.03,2.73
+shodan_region,country_code,US,37.34,37.69,0.99
+shodan_region,country_code,SG,31.35,30.62,1.02
+shodan_region,country_code,CN,5.51,5.64,0.98
+shodan_region,country_code,GB,2.98,3.01,0.99
+shodan_region,country_code,DE,2.86,2.88,0.99
+ipv6,country_code,US,55.69,37.69,1.48
+ipv6,country_code,CN,28.69,5.64,5.08
+ipv6,country_code,BR,7.16,0.83,8.65
+ipv6,country_code,IN,3.84,0.78,4.94
+ipv6,country_code,DE,3.16,2.88,1.09
+os,country_code,US,18.81,37.69,0.5
+os,country_code,DE,10.0,2.88,3.47
+os,country_code,CN,8.79,5.64,1.56
+os,country_code,GB,4.51,3.01,1.5
+os,country_code,FR,4.48,1.23,3.65
+product,country_code,US,27.48,37.69,0.73
+product,country_code,CN,11.74,5.64,2.08
+product,country_code,DE,8.59,2.88,2.98
+product,country_code,JP,4.03,1.64,2.46
+product,country_code,GB,3.85,3.01,1.28
+version,country_code,US,27.39,37.69,0.73
+version,country_code,CN,12.31,5.64,2.18
+version,country_code,DE,10.34,2.88,3.58
+version,country_code,GB,3.9,3.01,1.3
+version,country_code,FR,3.73,1.23,3.04
+info,country_code,US,23.65,37.69,0.63
+info,country_code,CN,14.01,5.64,2.48
+info,country_code,DE,9.14,2.88,3.17
+info,country_code,GB,6.14,3.01,2.04
+info,country_code,FR,3.61,1.23,2.94
+uptime,country_code,SG,55.51,30.62,1.81
+uptime,country_code,US,15.94,37.69,0.42
+uptime,country_code,GB,3.56,3.01,1.18
+uptime,country_code,DE,3.44,2.88,1.19
+uptime,country_code,JP,1.97,1.64,1.2
+devicetype,country_code,GB,18.54,3.01,6.16
+devicetype,country_code,US,15.08,37.69,0.4
+devicetype,country_code,BR,5.88,0.83,7.1
+devicetype,country_code,CN,5.57,5.64,0.99
+devicetype,country_code,SA,5.39,0.09,62.28
+device,country_code,ID,15.29,0.38,40.06
+device,country_code,BR,7.73,0.83,9.33
+device,country_code,US,6.53,37.69,0.17
+device,country_code,CN,5.33,5.64,0.94
+device,country_code,IN,4.52,0.78,5.82
+vendor,country_code,SA,12.91,0.09,149.23
+vendor,country_code,BR,10.83,0.83,13.07
+vendor,country_code,JP,10.31,1.64,6.29
+vendor,country_code,US,7.64,37.69,0.2
+vendor,country_code,MA,5.33,0.04,124.1
+cpe23,country_code,US,32.65,37.69,0.87
+cpe23,country_code,SG,16.68,30.62,0.54
+cpe23,country_code,CN,8.23,5.64,1.46
+cpe23,country_code,DE,7.52,2.88,2.61
+cpe23,country_code,JP,3.29,1.64,2.01
+vuln_ids,country_code,US,21.75,37.69,0.58
+vuln_ids,country_code,CN,14.17,5.64,2.51
+vuln_ids,country_code,DE,12.22,2.88,4.24
+vuln_ids,country_code,GB,3.78,3.01,1.26
+vuln_ids,country_code,FR,3.61,1.23,2.94
+n_vulns,country_code,US,21.75,37.69,0.58
+n_vulns,country_code,CN,14.17,5.64,2.51
+n_vulns,country_code,DE,12.22,2.88,4.24
+n_vulns,country_code,GB,3.78,3.01,1.26
+n_vulns,country_code,FR,3.61,1.23,2.94
+max_cvss,country_code,US,21.75,37.69,0.58
+max_cvss,country_code,CN,14.17,5.64,2.51
+max_cvss,country_code,DE,12.22,2.88,4.24
+max_cvss,country_code,GB,3.78,3.01,1.26
+max_cvss,country_code,FR,3.61,1.23,2.94
+max_epss,country_code,US,21.75,37.69,0.58
+max_epss,country_code,CN,14.17,5.64,2.51
+max_epss,country_code,DE,12.22,2.88,4.24
+max_epss,country_code,GB,3.78,3.01,1.26
+max_epss,country_code,FR,3.61,1.23,2.94
+opts_heartbleed,country_code,US,42.69,37.69,1.13
+opts_heartbleed,country_code,SG,10.9,30.62,0.36
+opts_heartbleed,country_code,CN,9.69,5.64,1.72
+opts_heartbleed,country_code,DE,5.22,2.88,1.81
+opts_heartbleed,country_code,JP,4.43,1.64,2.71
+opts_vulns,country_code,US,17.56,37.69,0.47
+opts_vulns,country_code,GB,8.28,3.01,2.75
+opts_vulns,country_code,SE,5.9,0.38,15.7
+opts_vulns,country_code,DE,5.35,2.88,1.85
+opts_vulns,country_code,FR,4.54,1.23,3.7
+http_status,country_code,US,30.64,37.69,0.81
+http_status,country_code,SG,12.46,30.62,0.41
+http_status,country_code,DE,7.44,2.88,2.58
+http_status,country_code,CN,6.98,5.64,1.24
+http_status,country_code,GB,6.14,3.01,2.04
+http_title,country_code,US,35.6,37.69,0.94
+http_title,country_code,CN,9.1,5.64,1.61
+http_title,country_code,DE,8.51,2.88,2.95
+http_title,country_code,HK,3.72,1.09,3.4
+http_title,country_code,JP,3.58,1.64,2.18
+http_server,country_code,US,37.06,37.69,0.98
+http_server,country_code,CN,9.1,5.64,1.61
+http_server,country_code,DE,8.52,2.88,2.95
+http_server,country_code,HK,3.53,1.09,3.23
+http_server,country_code,JP,3.38,1.64,2.06
+http_waf,country_code,US,43.6,37.69,1.16
+http_waf,country_code,SG,29.96,30.62,0.98
+http_waf,country_code,CN,6.61,5.64,1.17
+http_waf,country_code,DE,2.77,2.88,0.96
+http_waf,country_code,IN,1.92,0.78,2.47
+http_host,country_code,US,30.64,37.69,0.81
+http_host,country_code,SG,12.46,30.62,0.41
+http_host,country_code,DE,7.44,2.88,2.58
+http_host,country_code,CN,6.98,5.64,1.24
+http_host,country_code,GB,6.14,3.01,2.04
+http_location,country_code,US,30.64,37.69,0.81
+http_location,country_code,SG,12.46,30.62,0.41
+http_location,country_code,DE,7.44,2.88,2.58
+http_location,country_code,CN,6.98,5.64,1.24
+http_location,country_code,GB,6.14,3.01,2.04
+http_html_hash,country_code,US,30.64,37.69,0.81
+http_html_hash,country_code,SG,12.46,30.62,0.41
+http_html_hash,country_code,DE,7.44,2.88,2.58
+http_html_hash,country_code,CN,6.98,5.64,1.24
+http_html_hash,country_code,GB,6.14,3.01,2.04
+http_headers_hash,country_code,US,30.64,37.69,0.81
+http_headers_hash,country_code,SG,12.46,30.62,0.41
+http_headers_hash,country_code,DE,7.44,2.88,2.58
+http_headers_hash,country_code,CN,6.98,5.64,1.24
+http_headers_hash,country_code,GB,6.14,3.01,2.04
+http_components_hash,country_code,US,31.73,37.69,0.84
+http_components_hash,country_code,SG,13.81,30.62,0.45
+http_components_hash,country_code,DE,7.65,2.88,2.65
+http_components_hash,country_code,GB,6.57,3.01,2.18
+http_components_hash,country_code,CN,5.65,5.64,1.0
+http_dom_hash,country_code,US,30.64,37.69,0.81
+http_dom_hash,country_code,SG,12.46,30.62,0.41
+http_dom_hash,country_code,DE,7.44,2.88,2.58
+http_dom_hash,country_code,CN,6.98,5.64,1.24
+http_dom_hash,country_code,GB,6.14,3.01,2.04
+http_title_hash,country_code,US,34.78,37.69,0.92
+http_title_hash,country_code,CN,8.86,5.64,1.57
+http_title_hash,country_code,DE,8.29,2.88,2.87
+http_title_hash,country_code,HK,3.62,1.09,3.31
+http_title_hash,country_code,JP,3.49,1.64,2.13
+http_favicon_hash,country_code,US,30.06,37.69,0.8
+http_favicon_hash,country_code,CN,8.76,5.64,1.55
+http_favicon_hash,country_code,DE,7.39,2.88,2.56
+http_favicon_hash,country_code,GB,4.38,3.01,1.46
+http_favicon_hash,country_code,FR,3.19,1.23,2.6
+http_securitytxt,country_code,US,30.64,37.69,0.81
+http_securitytxt,country_code,SG,12.46,30.62,0.41
+http_securitytxt,country_code,DE,7.44,2.88,2.58
+http_securitytxt,country_code,CN,6.98,5.64,1.24
+http_securitytxt,country_code,GB,6.14,3.01,2.04
+http_robots,country_code,US,30.64,37.69,0.81
+http_robots,country_code,SG,12.46,30.62,0.41
+http_robots,country_code,DE,7.44,2.88,2.58
+http_robots,country_code,CN,6.98,5.64,1.24
+http_robots,country_code,GB,6.14,3.01,2.04
+http_sitemap,country_code,US,30.64,37.69,0.81
+http_sitemap,country_code,SG,12.46,30.62,0.41
+http_sitemap,country_code,DE,7.44,2.88,2.58
+http_sitemap,country_code,CN,6.98,5.64,1.24
+http_sitemap,country_code,GB,6.14,3.01,2.04
+http_redirects,country_code,US,30.64,37.69,0.81
+http_redirects,country_code,SG,12.46,30.62,0.41
+http_redirects,country_code,DE,7.44,2.88,2.58
+http_redirects,country_code,CN,6.98,5.64,1.24
+http_redirects,country_code,GB,6.14,3.01,2.04
+http_html_len,country_code,US,30.64,37.69,0.81
+http_html_len,country_code,SG,12.46,30.62,0.41
+http_html_len,country_code,DE,7.44,2.88,2.58
+http_html_len,country_code,CN,6.98,5.64,1.24
+http_html_len,country_code,GB,6.14,3.01,2.04
+http_components,country_code,US,33.96,37.69,0.9
+http_components,country_code,SG,18.28,30.62,0.6
+http_components,country_code,DE,7.3,2.88,2.53
+http_components,country_code,CN,6.04,5.64,1.07
+http_components,country_code,GB,3.0,3.01,1.0
+http_component_cats,country_code,US,33.96,37.69,0.9
+http_component_cats,country_code,SG,18.28,30.62,0.6
+http_component_cats,country_code,DE,7.3,2.88,2.53
+http_component_cats,country_code,CN,6.04,5.64,1.07
+http_component_cats,country_code,GB,3.0,3.01,1.0
+http_header_names,country_code,US,31.27,37.69,0.83
+http_header_names,country_code,SG,12.94,30.62,0.42
+http_header_names,country_code,DE,7.67,2.88,2.66
+http_header_names,country_code,CN,7.25,5.64,1.29
+http_header_names,country_code,GB,3.27,3.01,1.09
+http_headers,country_code,US,31.27,37.69,0.83
+http_headers,country_code,SG,12.94,30.62,0.42
+http_headers,country_code,DE,7.67,2.88,2.66
+http_headers,country_code,CN,7.25,5.64,1.29
+http_headers,country_code,GB,3.27,3.01,1.09
+http_identifiers,country_code,US,72.54,37.69,1.92
+http_identifiers,country_code,CN,10.25,5.64,1.82
+http_identifiers,country_code,GB,2.7,3.01,0.9
+http_identifiers,country_code,IN,1.99,0.78,2.56
+http_identifiers,country_code,DE,1.97,2.88,0.68
+ssl_version,country_code,US,41.6,37.69,1.1
+ssl_version,country_code,SG,10.69,30.62,0.35
+ssl_version,country_code,CN,8.43,5.64,1.49
+ssl_version,country_code,DE,5.85,2.88,2.03
+ssl_version,country_code,JP,4.81,1.64,2.93
+ssl_cipher,country_code,US,41.6,37.69,1.1
+ssl_cipher,country_code,SG,10.69,30.62,0.35
+ssl_cipher,country_code,CN,8.43,5.64,1.49
+ssl_cipher,country_code,DE,5.85,2.88,2.03
+ssl_cipher,country_code,JP,4.81,1.64,2.93
+ssl_cipher_bits,country_code,US,41.6,37.69,1.1
+ssl_cipher_bits,country_code,SG,10.69,30.62,0.35
+ssl_cipher_bits,country_code,CN,8.43,5.64,1.49
+ssl_cipher_bits,country_code,DE,5.85,2.88,2.03
+ssl_cipher_bits,country_code,JP,4.81,1.64,2.93
+cert_issued,country_code,US,41.59,37.69,1.1
+cert_issued,country_code,SG,10.69,30.62,0.35
+cert_issued,country_code,CN,8.43,5.64,1.49
+cert_issued,country_code,DE,5.85,2.88,2.03
+cert_issued,country_code,JP,4.81,1.64,2.93
+cert_expires,country_code,US,41.59,37.69,1.1
+cert_expires,country_code,SG,10.69,30.62,0.35
+cert_expires,country_code,CN,8.43,5.64,1.49
+cert_expires,country_code,DE,5.85,2.88,2.03
+cert_expires,country_code,JP,4.81,1.64,2.93
+cert_expired,country_code,US,41.59,37.69,1.1
+cert_expired,country_code,SG,10.69,30.62,0.35
+cert_expired,country_code,CN,8.43,5.64,1.49
+cert_expired,country_code,DE,5.85,2.88,2.03
+cert_expired,country_code,JP,4.81,1.64,2.93
+cert_subject_cn,country_code,US,41.78,37.69,1.11
+cert_subject_cn,country_code,SG,10.78,30.62,0.35
+cert_subject_cn,country_code,CN,8.28,5.64,1.47
+cert_subject_cn,country_code,DE,5.86,2.88,2.03
+cert_subject_cn,country_code,JP,4.82,1.64,2.94
+cert_subject_o,country_code,US,29.83,37.69,0.79
+cert_subject_o,country_code,KR,11.71,1.41,8.33
+cert_subject_o,country_code,CN,7.8,5.64,1.38
+cert_subject_o,country_code,DE,5.1,2.88,1.77
+cert_subject_o,country_code,SG,3.51,30.62,0.11
+cert_issuer_cn,country_code,US,41.83,37.69,1.11
+cert_issuer_cn,country_code,SG,10.8,30.62,0.35
+cert_issuer_cn,country_code,CN,8.31,5.64,1.47
+cert_issuer_cn,country_code,DE,5.86,2.88,2.03
+cert_issuer_cn,country_code,JP,4.82,1.64,2.94
+cert_issuer_o,country_code,US,43.53,37.69,1.16
+cert_issuer_o,country_code,SG,11.71,30.62,0.38
+cert_issuer_o,country_code,CN,8.51,5.64,1.51
+cert_issuer_o,country_code,DE,5.58,2.88,1.94
+cert_issuer_o,country_code,JP,3.49,1.64,2.13
+cert_self_signed,country_code,US,41.59,37.69,1.1
+cert_self_signed,country_code,SG,10.69,30.62,0.35
+cert_self_signed,country_code,CN,8.43,5.64,1.49
+cert_self_signed,country_code,DE,5.85,2.88,2.03
+cert_self_signed,country_code,JP,4.81,1.64,2.93
+cert_pubkey_type,country_code,US,41.59,37.69,1.1
+cert_pubkey_type,country_code,SG,10.69,30.62,0.35
+cert_pubkey_type,country_code,CN,8.43,5.64,1.49
+cert_pubkey_type,country_code,DE,5.85,2.88,2.03
+cert_pubkey_type,country_code,JP,4.81,1.64,2.93
+cert_pubkey_bits,country_code,US,41.59,37.69,1.1
+cert_pubkey_bits,country_code,SG,10.69,30.62,0.35
+cert_pubkey_bits,country_code,CN,8.43,5.64,1.49
+cert_pubkey_bits,country_code,DE,5.85,2.88,2.03
+cert_pubkey_bits,country_code,JP,4.81,1.64,2.93
+cert_sig_alg,country_code,US,41.59,37.69,1.1
+cert_sig_alg,country_code,SG,10.69,30.62,0.35
+cert_sig_alg,country_code,CN,8.43,5.64,1.49
+cert_sig_alg,country_code,DE,5.85,2.88,2.03
+cert_sig_alg,country_code,JP,4.81,1.64,2.93
+cert_sha256,country_code,US,41.59,37.69,1.1
+cert_sha256,country_code,SG,10.69,30.62,0.35
+cert_sha256,country_code,CN,8.43,5.64,1.49
+cert_sha256,country_code,DE,5.85,2.88,2.03
+cert_sha256,country_code,JP,4.81,1.64,2.93
+cert_san,country_code,US,46.79,37.69,1.24
+cert_san,country_code,SG,12.52,30.62,0.41
+cert_san,country_code,CN,8.4,5.64,1.49
+cert_san,country_code,DE,5.93,2.88,2.06
+cert_san,country_code,JP,3.5,1.64,2.13
+jarm,country_code,US,41.59,37.69,1.1
+jarm,country_code,SG,10.69,30.62,0.35
+jarm,country_code,CN,8.43,5.64,1.49
+jarm,country_code,DE,5.85,2.88,2.03
+jarm,country_code,JP,4.81,1.64,2.93
+ja3s,country_code,US,41.61,37.69,1.1
+ja3s,country_code,SG,10.69,30.62,0.35
+ja3s,country_code,CN,8.44,5.64,1.5
+ja3s,country_code,DE,5.84,2.88,2.03
+ja3s,country_code,JP,4.81,1.64,2.93
+trust_revoked,country_code,US,41.58,37.69,1.1
+trust_revoked,country_code,SG,10.69,30.62,0.35
+trust_revoked,country_code,CN,8.44,5.64,1.5
+trust_revoked,country_code,DE,5.86,2.88,2.03
+trust_revoked,country_code,JP,4.81,1.64,2.93
+trust_browser,country_code,US,44.61,37.69,1.18
+trust_browser,country_code,DE,7.66,2.88,2.66
+trust_browser,country_code,CN,4.24,5.64,0.75
+trust_browser,country_code,SG,4.19,30.62,0.14
+trust_browser,country_code,PL,3.36,0.36,9.44
+ssl_chain_len,country_code,US,41.59,37.69,1.1
+ssl_chain_len,country_code,SG,10.69,30.62,0.35
+ssl_chain_len,country_code,CN,8.43,5.64,1.49
+ssl_chain_len,country_code,DE,5.85,2.88,2.03
+ssl_chain_len,country_code,JP,4.81,1.64,2.93
+ssl_versions,country_code,US,54.86,37.69,1.46
+ssl_versions,country_code,CN,9.69,5.64,1.72
+ssl_versions,country_code,DE,6.1,2.88,2.11
+ssl_versions,country_code,JP,3.2,1.64,1.95
+ssl_versions,country_code,BR,2.88,0.83,3.48
+ssl_alpn,country_code,US,41.66,37.69,1.11
+ssl_alpn,country_code,CN,11.87,5.64,2.1
+ssl_alpn,country_code,HK,6.18,1.09,5.65
+ssl_alpn,country_code,JP,5.91,1.64,3.61
+ssl_alpn,country_code,DE,5.77,2.88,2.0
+cloud_provider,country_code,US,81.56,37.69,2.16
+cloud_provider,country_code,CN,5.96,5.64,1.06
+cloud_provider,country_code,JP,1.4,1.64,0.85
+cloud_provider,country_code,HK,1.38,1.09,1.26
+cloud_provider,country_code,DE,1.24,2.88,0.43
+cloud_region,country_code,US,87.07,37.69,2.31
+cloud_region,country_code,CN,2.34,5.64,0.42
+cloud_region,country_code,JP,1.39,1.64,0.85
+cloud_region,country_code,IN,1.24,0.78,1.59
+cloud_region,country_code,DE,1.18,2.88,0.41
+cloud_service,country_code,US,52.49,37.69,1.39
+cloud_service,country_code,CN,11.19,5.64,1.98
+cloud_service,country_code,IN,4.99,0.78,6.43
+cloud_service,country_code,BR,3.75,0.83,4.52
+cloud_service,country_code,JP,3.61,1.64,2.2
+data,country_code,US,28.75,37.69,0.76
+data,country_code,SG,12.77,30.62,0.42
+data,country_code,CN,12.65,5.64,2.24
+data,country_code,DE,6.05,2.88,2.1
+data,country_code,GB,4.66,3.01,1.55
+html_len,country_code,SG,63.78,30.62,2.08
+html_len,country_code,CN,9.93,5.64,1.76
+html_len,country_code,US,7.52,37.69,0.2
+html_len,country_code,IL,2.86,1.48,1.93
+html_len,country_code,HK,2.09,1.09,1.91
+extra_json,country_code,US,20.0,37.69,0.53
+extra_json,country_code,CN,7.01,5.64,1.24
+extra_json,country_code,DE,5.52,2.88,1.92
+extra_json,country_code,JP,5.32,1.64,3.24
+extra_json,country_code,FR,4.41,1.23,3.6
+shodan_region,link,Ethernet or modem,45.82,45.17,1.01
+shodan_region,link,,25.13,25.49,0.99
+shodan_region,link,DSL,21.72,22.01,0.99
+shodan_region,link,generic tunnel or VPN,5.08,5.08,1.0
+shodan_region,link,IPIP or SIT,1.7,1.7,1.0
+ipv6,link,,100.0,25.49,3.92
+ipv6,link,GIF,0.0,0.04,0.0
+ipv6,link,IPSec or GRE,0.0,0.4,0.0
+ipv6,link,VLAN,0.0,0.01,0.0
+ipv6,link,generic tunnel or VPN,0.0,5.08,0.0
+os,link,Ethernet or modem,53.0,45.17,1.17
+os,link,,29.64,25.49,1.16
+os,link,DSL,7.6,22.01,0.35
+os,link,generic tunnel or VPN,4.99,5.08,0.98
+os,link,IPIP or SIT,3.65,1.7,2.15
+product,link,Ethernet or modem,43.59,45.17,0.96
+product,link,,42.69,25.49,1.67
+product,link,IPIP or SIT,5.61,1.7,3.31
+product,link,generic tunnel or VPN,3.97,5.08,0.78
+product,link,DSL,3.41,22.01,0.15
+version,link,Ethernet or modem,47.3,45.17,1.05
+version,link,,43.27,25.49,1.7
+version,link,generic tunnel or VPN,4.02,5.08,0.79
+version,link,DSL,2.72,22.01,0.12
+version,link,IPIP or SIT,1.74,1.7,1.03
+info,link,,48.98,25.49,1.92
+info,link,Ethernet or modem,41.84,45.17,0.93
+info,link,DSL,4.03,22.01,0.18
+info,link,generic tunnel or VPN,3.02,5.08,0.59
+info,link,IPIP or SIT,1.34,1.7,0.79
+uptime,link,Ethernet or modem,85.15,45.17,1.89
+uptime,link,DSL,6.41,22.01,0.29
+uptime,link,generic tunnel or VPN,4.13,5.08,0.81
+uptime,link,IPIP or SIT,1.78,1.7,1.05
+uptime,link,,1.39,25.49,0.05
+devicetype,link,,41.18,25.49,1.62
+devicetype,link,DSL,31.67,22.01,1.44
+devicetype,link,Ethernet or modem,19.39,45.17,0.43
+devicetype,link,generic tunnel or VPN,3.1,5.08,0.61
+devicetype,link,IPIP or SIT,2.82,1.7,1.67
+device,link,,95.27,25.49,3.74
+device,link,Ethernet or modem,3.64,45.17,0.08
+device,link,DSL,0.67,22.01,0.03
+device,link,generic tunnel or VPN,0.23,5.08,0.05
+device,link,IPIP or SIT,0.16,1.7,0.1
+vendor,link,,49.1,25.49,1.93
+vendor,link,DSL,43.57,22.01,1.98
+vendor,link,Ethernet or modem,5.34,45.17,0.12
+vendor,link,generic tunnel or VPN,1.09,5.08,0.21
+vendor,link,IPIP or SIT,0.88,1.7,0.52
+cpe23,link,Ethernet or modem,49.42,45.17,1.09
+cpe23,link,,35.27,25.49,1.38
+cpe23,link,generic tunnel or VPN,8.19,5.08,1.61
+cpe23,link,IPIP or SIT,4.61,1.7,2.72
+cpe23,link,DSL,1.91,22.01,0.09
+vuln_ids,link,Ethernet or modem,49.08,45.17,1.09
+vuln_ids,link,,41.54,25.49,1.63
+vuln_ids,link,generic tunnel or VPN,4.72,5.08,0.93
+vuln_ids,link,DSL,2.62,22.01,0.12
+vuln_ids,link,IPIP or SIT,1.16,1.7,0.68
+n_vulns,link,Ethernet or modem,49.08,45.17,1.09
+n_vulns,link,,41.54,25.49,1.63
+n_vulns,link,generic tunnel or VPN,4.72,5.08,0.93
+n_vulns,link,DSL,2.62,22.01,0.12
+n_vulns,link,IPIP or SIT,1.16,1.7,0.68
+max_cvss,link,Ethernet or modem,49.08,45.17,1.09
+max_cvss,link,,41.54,25.49,1.63
+max_cvss,link,generic tunnel or VPN,4.72,5.08,0.93
+max_cvss,link,DSL,2.62,22.01,0.12
+max_cvss,link,IPIP or SIT,1.16,1.7,0.68
+max_epss,link,Ethernet or modem,49.08,45.17,1.09
+max_epss,link,,41.54,25.49,1.63
+max_epss,link,generic tunnel or VPN,4.72,5.08,0.93
+max_epss,link,DSL,2.62,22.01,0.12
+max_epss,link,IPIP or SIT,1.16,1.7,0.68
+opts_heartbleed,link,,41.35,25.49,1.62
+opts_heartbleed,link,Ethernet or modem,35.95,45.17,0.8
+opts_heartbleed,link,generic tunnel or VPN,10.46,5.08,2.06
+opts_heartbleed,link,IPIP or SIT,8.39,1.7,4.95
+opts_heartbleed,link,DSL,2.33,22.01,0.11
+opts_vulns,link,Ethernet or modem,46.9,45.17,1.04
+opts_vulns,link,,34.83,25.49,1.37
+opts_vulns,link,generic tunnel or VPN,11.13,5.08,2.19
+opts_vulns,link,DSL,4.78,22.01,0.22
+opts_vulns,link,IPIP or SIT,1.26,1.7,0.74
+http_status,link,Ethernet or modem,44.66,45.17,0.99
+http_status,link,,35.21,25.49,1.38
+http_status,link,generic tunnel or VPN,7.11,5.08,1.4
+http_status,link,DSL,7.01,22.01,0.32
+http_status,link,IPIP or SIT,4.82,1.7,2.84
+http_title,link,Ethernet or modem,42.05,45.17,0.93
+http_title,link,,37.58,25.49,1.47
+http_title,link,generic tunnel or VPN,8.5,5.08,1.67
+http_title,link,IPIP or SIT,6.08,1.7,3.58
+http_title,link,DSL,4.35,22.01,0.2
+http_server,link,Ethernet or modem,42.51,45.17,0.94
+http_server,link,,37.7,25.49,1.48
+http_server,link,generic tunnel or VPN,8.92,5.08,1.76
+http_server,link,IPIP or SIT,5.76,1.7,3.4
+http_server,link,DSL,3.96,22.01,0.18
+http_waf,link,Ethernet or modem,40.87,45.17,0.9
+http_waf,link,,37.98,25.49,1.49
+http_waf,link,generic tunnel or VPN,11.76,5.08,2.32
+http_waf,link,IPIP or SIT,9.26,1.7,5.46
+http_waf,link,DSL,0.07,22.01,0.0
+http_host,link,Ethernet or modem,44.66,45.17,0.99
+http_host,link,,35.21,25.49,1.38
+http_host,link,generic tunnel or VPN,7.11,5.08,1.4
+http_host,link,DSL,7.01,22.01,0.32
+http_host,link,IPIP or SIT,4.82,1.7,2.84
+http_location,link,Ethernet or modem,44.66,45.17,0.99
+http_location,link,,35.21,25.49,1.38
+http_location,link,generic tunnel or VPN,7.11,5.08,1.4
+http_location,link,DSL,7.01,22.01,0.32
+http_location,link,IPIP or SIT,4.82,1.7,2.84
+http_html_hash,link,Ethernet or modem,44.66,45.17,0.99
+http_html_hash,link,,35.21,25.49,1.38
+http_html_hash,link,generic tunnel or VPN,7.11,5.08,1.4
+http_html_hash,link,DSL,7.01,22.01,0.32
+http_html_hash,link,IPIP or SIT,4.82,1.7,2.84
+http_headers_hash,link,Ethernet or modem,44.66,45.17,0.99
+http_headers_hash,link,,35.21,25.49,1.38
+http_headers_hash,link,generic tunnel or VPN,7.11,5.08,1.4
+http_headers_hash,link,DSL,7.01,22.01,0.32
+http_headers_hash,link,IPIP or SIT,4.82,1.7,2.84
+http_components_hash,link,Ethernet or modem,45.67,45.17,1.01
+http_components_hash,link,,35.07,25.49,1.38
+http_components_hash,link,generic tunnel or VPN,6.99,5.08,1.38
+http_components_hash,link,DSL,6.23,22.01,0.28
+http_components_hash,link,IPIP or SIT,4.99,1.7,2.94
+http_dom_hash,link,Ethernet or modem,44.66,45.17,0.99
+http_dom_hash,link,,35.21,25.49,1.38
+http_dom_hash,link,generic tunnel or VPN,7.11,5.08,1.4
+http_dom_hash,link,DSL,7.01,22.01,0.32
+http_dom_hash,link,IPIP or SIT,4.82,1.7,2.84
+http_title_hash,link,Ethernet or modem,41.55,45.17,0.92
+http_title_hash,link,,37.36,25.49,1.47
+http_title_hash,link,generic tunnel or VPN,8.44,5.08,1.66
+http_title_hash,link,IPIP or SIT,6.23,1.7,3.67
+http_title_hash,link,DSL,5.0,22.01,0.23
+http_favicon_hash,link,Ethernet or modem,44.68,45.17,0.99
+http_favicon_hash,link,,30.77,25.49,1.21
+http_favicon_hash,link,generic tunnel or VPN,9.68,5.08,1.91
+http_favicon_hash,link,DSL,7.24,22.01,0.33
+http_favicon_hash,link,IPIP or SIT,5.56,1.7,3.28
+http_securitytxt,link,Ethernet or modem,44.66,45.17,0.99
+http_securitytxt,link,,35.21,25.49,1.38
+http_securitytxt,link,generic tunnel or VPN,7.11,5.08,1.4
+http_securitytxt,link,DSL,7.01,22.01,0.32
+http_securitytxt,link,IPIP or SIT,4.82,1.7,2.84
+http_robots,link,Ethernet or modem,44.66,45.17,0.99
+http_robots,link,,35.21,25.49,1.38
+http_robots,link,generic tunnel or VPN,7.11,5.08,1.4
+http_robots,link,DSL,7.01,22.01,0.32
+http_robots,link,IPIP or SIT,4.82,1.7,2.84
+http_sitemap,link,Ethernet or modem,44.66,45.17,0.99
+http_sitemap,link,,35.21,25.49,1.38
+http_sitemap,link,generic tunnel or VPN,7.11,5.08,1.4
+http_sitemap,link,DSL,7.01,22.01,0.32
+http_sitemap,link,IPIP or SIT,4.82,1.7,2.84
+http_redirects,link,Ethernet or modem,44.66,45.17,0.99
+http_redirects,link,,35.21,25.49,1.38
+http_redirects,link,generic tunnel or VPN,7.11,5.08,1.4
+http_redirects,link,DSL,7.01,22.01,0.32
+http_redirects,link,IPIP or SIT,4.82,1.7,2.84
+http_html_len,link,Ethernet or modem,44.66,45.17,0.99
+http_html_len,link,,35.21,25.49,1.38
+http_html_len,link,generic tunnel or VPN,7.11,5.08,1.4
+http_html_len,link,DSL,7.01,22.01,0.32
+http_html_len,link,IPIP or SIT,4.82,1.7,2.84
+http_components,link,Ethernet or modem,48.1,45.17,1.06
+http_components,link,,34.05,25.49,1.34
+http_components,link,generic tunnel or VPN,8.08,5.08,1.59
+http_components,link,IPIP or SIT,5.89,1.7,3.47
+http_components,link,DSL,2.87,22.01,0.13
+http_component_cats,link,Ethernet or modem,48.1,45.17,1.06
+http_component_cats,link,,34.05,25.49,1.34
+http_component_cats,link,generic tunnel or VPN,8.08,5.08,1.59
+http_component_cats,link,IPIP or SIT,5.89,1.7,3.47
+http_component_cats,link,DSL,2.87,22.01,0.13
+http_header_names,link,Ethernet or modem,46.08,45.17,1.02
+http_header_names,link,,35.11,25.49,1.38
+http_header_names,link,generic tunnel or VPN,7.39,5.08,1.45
+http_header_names,link,DSL,5.2,22.01,0.24
+http_header_names,link,IPIP or SIT,5.0,1.7,2.95
+http_headers,link,Ethernet or modem,46.08,45.17,1.02
+http_headers,link,,35.11,25.49,1.38
+http_headers,link,generic tunnel or VPN,7.39,5.08,1.45
+http_headers,link,DSL,5.2,22.01,0.24
+http_headers,link,IPIP or SIT,5.0,1.7,2.95
+http_identifiers,link,,36.18,25.49,1.42
+http_identifiers,link,Ethernet or modem,35.98,45.17,0.8
+http_identifiers,link,generic tunnel or VPN,16.7,5.08,3.29
+http_identifiers,link,IPIP or SIT,8.59,1.7,5.07
+http_identifiers,link,IPSec or GRE,1.14,0.4,2.86
+ssl_version,link,,40.48,25.49,1.59
+ssl_version,link,Ethernet or modem,37.49,45.17,0.83
+ssl_version,link,generic tunnel or VPN,10.17,5.08,2.0
+ssl_version,link,IPIP or SIT,8.02,1.7,4.73
+ssl_version,link,DSL,2.34,22.01,0.11
+ssl_cipher,link,,40.48,25.49,1.59
+ssl_cipher,link,Ethernet or modem,37.49,45.17,0.83
+ssl_cipher,link,generic tunnel or VPN,10.17,5.08,2.0
+ssl_cipher,link,IPIP or SIT,8.02,1.7,4.73
+ssl_cipher,link,DSL,2.34,22.01,0.11
+ssl_cipher_bits,link,,40.48,25.49,1.59
+ssl_cipher_bits,link,Ethernet or modem,37.49,45.17,0.83
+ssl_cipher_bits,link,generic tunnel or VPN,10.17,5.08,2.0
+ssl_cipher_bits,link,IPIP or SIT,8.02,1.7,4.73
+ssl_cipher_bits,link,DSL,2.34,22.01,0.11
+cert_issued,link,,40.48,25.49,1.59
+cert_issued,link,Ethernet or modem,37.49,45.17,0.83
+cert_issued,link,generic tunnel or VPN,10.17,5.08,2.0
+cert_issued,link,IPIP or SIT,8.02,1.7,4.73
+cert_issued,link,DSL,2.34,22.01,0.11
+cert_expires,link,,40.48,25.49,1.59
+cert_expires,link,Ethernet or modem,37.49,45.17,0.83
+cert_expires,link,generic tunnel or VPN,10.17,5.08,2.0
+cert_expires,link,IPIP or SIT,8.02,1.7,4.73
+cert_expires,link,DSL,2.34,22.01,0.11
+cert_expired,link,,40.48,25.49,1.59
+cert_expired,link,Ethernet or modem,37.49,45.17,0.83
+cert_expired,link,generic tunnel or VPN,10.17,5.08,2.0
+cert_expired,link,IPIP or SIT,8.02,1.7,4.73
+cert_expired,link,DSL,2.34,22.01,0.11
+cert_subject_cn,link,,40.39,25.49,1.58
+cert_subject_cn,link,Ethernet or modem,37.49,45.17,0.83
+cert_subject_cn,link,generic tunnel or VPN,10.25,5.08,2.02
+cert_subject_cn,link,IPIP or SIT,8.1,1.7,4.78
+cert_subject_cn,link,DSL,2.32,22.01,0.11
+cert_subject_o,link,Ethernet or modem,43.15,45.17,0.96
+cert_subject_o,link,,37.61,25.49,1.48
+cert_subject_o,link,generic tunnel or VPN,5.26,5.08,1.04
+cert_subject_o,link,IPIP or SIT,4.85,1.7,2.86
+cert_subject_o,link,IPSec or GRE,3.91,0.4,9.83
+cert_issuer_cn,link,,40.38,25.49,1.58
+cert_issuer_cn,link,Ethernet or modem,37.52,45.17,0.83
+cert_issuer_cn,link,generic tunnel or VPN,10.25,5.08,2.02
+cert_issuer_cn,link,IPIP or SIT,8.1,1.7,4.78
+cert_issuer_cn,link,DSL,2.3,22.01,0.1
+cert_issuer_o,link,,41.26,25.49,1.62
+cert_issuer_o,link,Ethernet or modem,35.87,45.17,0.79
+cert_issuer_o,link,generic tunnel or VPN,10.75,5.08,2.12
+cert_issuer_o,link,IPIP or SIT,8.58,1.7,5.06
+cert_issuer_o,link,DSL,1.98,22.01,0.09
+cert_self_signed,link,,40.48,25.49,1.59
+cert_self_signed,link,Ethernet or modem,37.49,45.17,0.83
+cert_self_signed,link,generic tunnel or VPN,10.17,5.08,2.0
+cert_self_signed,link,IPIP or SIT,8.02,1.7,4.73
+cert_self_signed,link,DSL,2.34,22.01,0.11
+cert_pubkey_type,link,,40.48,25.49,1.59
+cert_pubkey_type,link,Ethernet or modem,37.49,45.17,0.83
+cert_pubkey_type,link,generic tunnel or VPN,10.17,5.08,2.0
+cert_pubkey_type,link,IPIP or SIT,8.02,1.7,4.73
+cert_pubkey_type,link,DSL,2.34,22.01,0.11
+cert_pubkey_bits,link,,40.48,25.49,1.59
+cert_pubkey_bits,link,Ethernet or modem,37.49,45.17,0.83
+cert_pubkey_bits,link,generic tunnel or VPN,10.17,5.08,2.0
+cert_pubkey_bits,link,IPIP or SIT,8.02,1.7,4.73
+cert_pubkey_bits,link,DSL,2.34,22.01,0.11
+cert_sig_alg,link,,40.48,25.49,1.59
+cert_sig_alg,link,Ethernet or modem,37.49,45.17,0.83
+cert_sig_alg,link,generic tunnel or VPN,10.17,5.08,2.0
+cert_sig_alg,link,IPIP or SIT,8.02,1.7,4.73
+cert_sig_alg,link,DSL,2.34,22.01,0.11
+cert_sha256,link,,40.48,25.49,1.59
+cert_sha256,link,Ethernet or modem,37.49,45.17,0.83
+cert_sha256,link,generic tunnel or VPN,10.17,5.08,2.0
+cert_sha256,link,IPIP or SIT,8.02,1.7,4.73
+cert_sha256,link,DSL,2.34,22.01,0.11
+cert_san,link,,41.44,25.49,1.63
+cert_san,link,Ethernet or modem,34.21,45.17,0.76
+cert_san,link,generic tunnel or VPN,11.81,5.08,2.33
+cert_san,link,IPIP or SIT,9.49,1.7,5.6
+cert_san,link,DSL,1.69,22.01,0.08
+jarm,link,,40.48,25.49,1.59
+jarm,link,Ethernet or modem,37.49,45.17,0.83
+jarm,link,generic tunnel or VPN,10.17,5.08,2.0
+jarm,link,IPIP or SIT,8.02,1.7,4.73
+jarm,link,DSL,2.34,22.01,0.11
+ja3s,link,,40.48,25.49,1.59
+ja3s,link,Ethernet or modem,37.49,45.17,0.83
+ja3s,link,generic tunnel or VPN,10.16,5.08,2.0
+ja3s,link,IPIP or SIT,8.01,1.7,4.72
+ja3s,link,DSL,2.34,22.01,0.11
+trust_revoked,link,,40.48,25.49,1.59
+trust_revoked,link,Ethernet or modem,37.5,45.17,0.83
+trust_revoked,link,generic tunnel or VPN,10.15,5.08,2.0
+trust_revoked,link,IPIP or SIT,8.02,1.7,4.73
+trust_revoked,link,DSL,2.33,22.01,0.11
+trust_browser,link,Ethernet or modem,52.14,45.17,1.15
+trust_browser,link,,30.94,25.49,1.21
+trust_browser,link,IPIP or SIT,7.18,1.7,4.23
+trust_browser,link,generic tunnel or VPN,7.05,5.08,1.39
+trust_browser,link,DSL,1.81,22.01,0.08
+ssl_chain_len,link,,40.48,25.49,1.59
+ssl_chain_len,link,Ethernet or modem,37.49,45.17,0.83
+ssl_chain_len,link,generic tunnel or VPN,10.17,5.08,2.0
+ssl_chain_len,link,IPIP or SIT,8.02,1.7,4.73
+ssl_chain_len,link,DSL,2.34,22.01,0.11
+ssl_versions,link,,40.24,25.49,1.58
+ssl_versions,link,Ethernet or modem,31.44,45.17,0.7
+ssl_versions,link,generic tunnel or VPN,14.07,5.08,2.77
+ssl_versions,link,IPIP or SIT,11.79,1.7,6.95
+ssl_versions,link,DSL,1.91,22.01,0.09
+ssl_alpn,link,Ethernet or modem,49.6,45.17,1.1
+ssl_alpn,link,,41.92,25.49,1.64
+ssl_alpn,link,DSL,6.07,22.01,0.28
+ssl_alpn,link,generic tunnel or VPN,1.71,5.08,0.34
+ssl_alpn,link,IPIP or SIT,0.4,1.7,0.24
+cloud_provider,link,DSL,60.85,22.01,2.77
+cloud_provider,link,,23.43,25.49,0.92
+cloud_provider,link,Ethernet or modem,9.85,45.17,0.22
+cloud_provider,link,IPIP or SIT,5.02,1.7,2.96
+cloud_provider,link,generic tunnel or VPN,0.81,5.08,0.16
+cloud_region,link,DSL,64.34,22.01,2.92
+cloud_region,link,,20.27,25.49,0.8
+cloud_region,link,Ethernet or modem,9.2,45.17,0.2
+cloud_region,link,IPIP or SIT,5.35,1.7,3.15
+cloud_region,link,generic tunnel or VPN,0.81,5.08,0.16
+cloud_service,link,,44.63,25.49,1.75
+cloud_service,link,Ethernet or modem,29.07,45.17,0.64
+cloud_service,link,IPIP or SIT,25.65,1.7,15.13
+cloud_service,link,generic tunnel or VPN,0.51,5.08,0.1
+cloud_service,link,GIF,0.1,0.04,2.92
+data,link,,42.81,25.49,1.68
+data,link,Ethernet or modem,38.75,45.17,0.86
+data,link,generic tunnel or VPN,8.73,5.08,1.72
+data,link,DSL,5.21,22.01,0.24
+data,link,IPIP or SIT,3.57,1.7,2.1
+html_len,link,Ethernet or modem,58.34,45.17,1.29
+html_len,link,,37.76,25.49,1.48
+html_len,link,DSL,2.22,22.01,0.1
+html_len,link,generic tunnel or VPN,1.13,5.08,0.22
+html_len,link,IPIP or SIT,0.41,1.7,0.24
+extra_json,link,,69.52,25.49,2.73
+extra_json,link,Ethernet or modem,20.58,45.17,0.46
+extra_json,link,DSL,3.69,22.01,0.17
+extra_json,link,generic tunnel or VPN,3.66,5.08,0.72
+extra_json,link,IPIP or SIT,2.06,1.7,1.21

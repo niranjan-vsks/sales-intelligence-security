@@ -1,0 +1,18 @@
+value,n,pct
+,14604070,99.9703
+Router,3856,0.0264
+firewall,290,0.002
+Switch,47,0.0003
+Print Server,30,0.0002
+Printer,26,0.0002
+WAP,25,0.0002
+Firewall,24,0.0002
+Security Appliance,15,0.0001
+Video Conferencing,7,0.0
+Device Server,5,0.0
+Lights Out Management,3,0.0
+UPS,2,0.0
+Multifunction Device,2,0.0
+Monitoring,2,0.0
+Hypervisor,1,0.0
+USB Server,1,0.0

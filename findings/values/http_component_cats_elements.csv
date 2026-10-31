@@ -1,0 +1,95 @@
+value,n,pct
+Web servers,1219798,21.9368
+CDN,1182580,21.2675
+Security,822895,14.7989
+Reverse proxies,745964,13.4154
+PaaS,434694,7.8175
+Operating systems,265937,4.7826
+Miscellaneous,150516,2.7069
+Programming languages,138281,2.4868
+Load balancers,123038,2.2127
+Web frameworks,79692,1.4332
+JavaScript libraries,56292,1.0124
+Analytics,49329,0.8871
+UI frameworks,46468,0.8357
+RUM,41488,0.7461
+Web server extensions,31396,0.5646
+JavaScript frameworks,30695,0.552
+IaaS,22441,0.4036
+Caching,18933,0.3405
+CMS,10718,0.1928
+Tag managers,9824,0.1767
+Databases,8346,0.1501
+Hosting panels,8152,0.1466
+JavaScript graphics,6352,0.1142
+Blogs,5957,0.1071
+Font scripts,5489,0.0987
+Maps,4814,0.0866
+Hosting,3617,0.065
+Ecommerce,3559,0.064
+Static site generator,3202,0.0576
+WordPress plugins,3038,0.0546
+Performance,2728,0.0491
+Network storage,2721,0.0489
+Development,1883,0.0339
+Documentation,1753,0.0315
+Cookie compliance,1376,0.0247
+Advertising,1350,0.0243
+Payment processors,1339,0.0241
+Authentication,1221,0.022
+Page builders,1200,0.0216
+Widgets,1003,0.018
+Editors,893,0.0161
+Issue trackers,844,0.0152
+CI,715,0.0129
+Video players,636,0.0114
+Webmail,630,0.0113
+Containers,618,0.0111
+Mobile frameworks,476,0.0086
+SEO,475,0.0085
+LMS,474,0.0085
+Rich text editors,461,0.0083
+Live chat,461,0.0083
+Remote access,443,0.008
+Marketing automation,394,0.0071
+WordPress themes,356,0.0064
+Form builders,269,0.0048
+Photo galleries,259,0.0047
+CRM,208,0.0037
+A/B Testing,203,0.0037
+Search engines,146,0.0026
+Email,132,0.0024
+Personalisation,128,0.0023
+User onboarding,110,0.002
+Message boards,104,0.0019
+Reviews,103,0.0019
+Geolocation,103,0.0019
+Wikis,92,0.0017
+Customer data platform,88,0.0016
+Affiliate programs,82,0.0015
+Translation,67,0.0012
+Appointment scheduling,51,0.0009
+Accessibility,48,0.0009
+Database managers,40,0.0007
+Accounting,39,0.0007
+Augmented reality,35,0.0006
+Recruitment & staffing,34,0.0006
+DMS,33,0.0006
+Buy now pay later,28,0.0005
+Surveys,27,0.0005
+Feature management,25,0.0004
+Digital asset management,19,0.0003
+Browser fingerprinting,15,0.0003
+Livestreaming,11,0.0002
+Content curation,10,0.0002
+Cryptominers,8,0.0001
+Reservations & delivery,8,0.0001
+Fundraising & donations,5,0.0001
+Segmentation,5,0.0001
+Domain parking,4,0.0001
+Comment systems,1,0.0
+SSL/TLS certificate authorities,1,0.0
+Media servers,1,0.0
+Referral marketing,1,0.0
+Loyalty & rewards,1,0.0
+Ecommerce frontends,1,0.0

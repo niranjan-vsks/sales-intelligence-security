@@ -1,0 +1,5001 @@
+value,n,pct
+Singapore,4470368,30.6013
+Kansas City,1810469,12.3933
+Mountain View,1358450,9.2991
+San Francisco,582635,3.9884
+Shanghai,190767,1.3059
+Ashburn,163886,1.1219
+Hangzhou,162713,1.1138
+Shenzhen,160168,1.0964
+San Jose,146935,1.0058
+Beijing,146156,1.0005
+San Mateo,135540,0.9278
+Frankfurt am Main,134449,0.9204
+Modi‘in Makkabbim Re‘ut,127454,0.8725
+London,124194,0.8502
+Redwood City,108245,0.741
+Tokyo,102605,0.7024
+Hong Kong,96213,0.6586
+Seoul,84571,0.5789
+Seattle,83494,0.5715
+Paris,81708,0.5593
+New York City,79333,0.5431
+Los Angeles,76697,0.525
+Chicago,74427,0.5095
+Toronto,70237,0.4808
+Tel Aviv,69496,0.4757
+Croydon,67339,0.461
+Amsterdam,60128,0.4116
+Tseung Kwan O,55824,0.3821
+São Paulo,55783,0.3819
+Berlin,47269,0.3236
+Madrid,46738,0.3199
+Atlanta,43835,0.3001
+Mumbai,42630,0.2918
+Asagaya-minami,42409,0.2903
+Dublin,42168,0.2887
+Jakarta,41223,0.2822
+Durham,40065,0.2743
+Sydney,39164,0.2681
+Boardman,37163,0.2544
+Vienna,36880,0.2525
+Dallas,36479,0.2497
+Nürnberg,34602,0.2369
+Lelystad,33575,0.2298
+Guangzhou,31489,0.2156
+Falkenstein,31031,0.2124
+Santa Clara,30571,0.2093
+Bangkok,28156,0.1927
+Taipei,27241,0.1865
+Warsaw,26018,0.1781
+Milan,25806,0.1767
+Phoenix,24301,0.1663
+Düsseldorf,23642,0.1618
+Columbus,23628,0.1617
+Stockholm,23351,0.1598
+Cambridge,23010,0.1575
+Istanbul,21329,0.146
+Chengdu,20806,0.1424
+Qingdao,20575,0.1408
+Montréal,19394,0.1328
+Miami,19372,0.1326
+Munich,18945,0.1297
+Osaka,18779,0.1285
+Dubai,18688,0.1279
+Strasbourg,18166,0.1244
+Helsinki,17747,0.1215
+Busan,17493,0.1197
+Moscow,17365,0.1189
+Santiago,17197,0.1177
+Bucharest,17033,0.1166
+Doha,16709,0.1144
+Prague,16612,0.1137
+Newark,16524,0.1131
+Washington,16418,0.1124
+Zürich,16084,0.1101
+Incheon,15387,0.1053
+Zhangjiakou,14682,0.1005
+Shiraz,14659,0.1003
+Budapest,14500,0.0993
+South Riding,14260,0.0976
+Hanoi,13625,0.0933
+Council Bluffs,13251,0.0907
+Melbourne,12745,0.0872
+Kobe,12694,0.0869
+Ōi,12685,0.0868
+Euless,12663,0.0867
+Bentonville,12606,0.0863
+Johannesburg,12430,0.0851
+Ho Chi Minh City,12295,0.0842
+Nieuwegein,12236,0.0838
+Flagami,11731,0.0803
+Sofia,11474,0.0785
+Rio de Janeiro,11460,0.0784
+Riga,11413,0.0781
+Ottawa,11021,0.0754
+Daegu,10429,0.0714
+Buenos Aires,10353,0.0709
+Copenhagen,10330,0.0707
+Stuttgart,10051,0.0688
+Genève,9913,0.0679
+Armonk,9866,0.0675
+Dunkerque,9820,0.0672
+Tabiona,9740,0.0667
+Buffalo,9732,0.0666
+Pune,9138,0.0626
+Manchester,9040,0.0619
+Antwerpen,9000,0.0616
+North Bergen,8921,0.0611
+Rome,8882,0.0608
+Bogotá,8784,0.0601
+Peachtree City,8741,0.0598
+Köln,8561,0.0586
+Calais,8538,0.0584
+Ipswich,8298,0.0568
+Taichung,8092,0.0554
+Kuala Lumpur,8019,0.0549
+Riyadh,7986,0.0547
+Reston,7981,0.0546
+Clifton,7611,0.0521
+Kyiv,7608,0.0521
+Cape Town,7478,0.0512
+Ulanqab,7402,0.0507
+Fremont,7322,0.0501
+Brisbane,7273,0.0498
+Bellevue,6977,0.0478
+Boydton,6842,0.0468
+Vilnius,6837,0.0468
+Saint Petersburg,6723,0.046
+Hamburg,6692,0.0458
+Wardensville,6635,0.0454
+Boston,6635,0.0454
+Auckland,6492,0.0444
+Bengaluru,6471,0.0443
+Des Moines,6444,0.0441
+Lisbon,6443,0.0441
+Delhi,6419,0.0439
+Zhengzhou,6400,0.0438
+San Antonio,6390,0.0437
+Mexico City,6379,0.0437
+Lima,6244,0.0427
+Richardson,6205,0.0425
+Oslo,6150,0.0421
+Denver,6052,0.0414
+Milpitas,6004,0.0411
+Daejeon,5985,0.041
+Göteborg,5918,0.0405
+Secaucus,5814,0.0398
+Brussels,5801,0.0397
+Kraków,5792,0.0396
+Tempe,5768,0.0395
+Ploieşti,5729,0.0392
+Cleveland,5719,0.0391
+Rotterdam,5663,0.0388
+North Charleston,5657,0.0387
+Englewood,5648,0.0387
+Tallinn,5627,0.0385
+Gunzenhausen,5572,0.0381
+Austin,5526,0.0378
+Redmond,5439,0.0372
+Kaohsiung,5430,0.0372
+Chennai,5430,0.0372
+Las Vegas,5429,0.0372
+Houston,5299,0.0363
+Taoyuan City,5183,0.0355
+Provo,5142,0.0352
+Arezzo,5097,0.0349
+Heyuan,5017,0.0343
+Santiago de Querétaro,4968,0.034
+Piscataway,4964,0.034
+Colorado Springs,4917,0.0337
+Neusalza-Spremberg,4907,0.0336
+Nanjing,4869,0.0333
+El Segundo,4866,0.0333
+Banqiao,4823,0.033
+Sheffield,4816,0.033
+Hwaseong-si,4770,0.0327
+Madison,4737,0.0324
+Philadelphia,4721,0.0323
+Portland,4702,0.0322
+Roubaix,4693,0.0321
+Hyderābād,4616,0.0316
+Barcelona,4545,0.0311
+Kolkata,4474,0.0306
+San Diego,4428,0.0303
+Detroit,4383,0.03
+Tunis,4310,0.0295
+Salt Lake City,4282,0.0293
+Casablanca,4203,0.0288
+Dhaka,4163,0.0285
+Cedar Knolls,4151,0.0284
+Changsha,4119,0.0282
+Ningbo,4091,0.028
+Việt Trì,4063,0.0278
+Tehran,4033,0.0276
+Athens,4032,0.0276
+Haarlem,3997,0.0274
+Marseille,3955,0.0271
+Tainan,3942,0.027
+Bakersfield,3936,0.0269
+Ostrava,3888,0.0266
+Bratislava,3878,0.0265
+Alpharetta,3874,0.0265
+East Point,3864,0.0265
+Porvoo,3862,0.0264
+Ulsan,3856,0.0264
+Rochdale,3845,0.0263
+Suwon,3842,0.0263
+Vancouver,3826,0.0262
+Turin,3819,0.0261
+Montevideo,3788,0.0259
+Yokohama,3788,0.0259
+Bexley,3769,0.0258
+Quezon City,3752,0.0257
+Kyoto,3727,0.0255
+Manila,3725,0.0255
+Darwin,3655,0.025
+St. Louis,3613,0.0247
+Solna,3545,0.0243
+Lviv,3498,0.0239
+Birmingham,3471,0.0238
+Almaty,3469,0.0237
+Dresden,3461,0.0237
+Pittsburgh,3449,0.0236
+Gävle,3389,0.0232
+Calgary,3387,0.0232
+Mörfelden-Walldorf,3369,0.0231
+Wuhan,3366,0.023
+Pocheon-si,3344,0.0229
+Petaẖ Tiqva,3343,0.0229
+Valencia,3245,0.0222
+Bremen,3208,0.022
+Klang,3203,0.0219
+Fort Lauderdale,3166,0.0217
+Fortaleza,3166,0.0217
+Perth,3152,0.0216
+Shijiazhuang,3063,0.021
+Chisinau,3048,0.0209
+Ljubljana,3047,0.0209
+Gwangju,3014,0.0206
+Leeds,2958,0.0202
+Oakland,2956,0.0202
+Fuzhou,2938,0.0201
+Chongqing,2937,0.0201
+The Hague,2924,0.02
+Moses Lake,2914,0.0199
+Erfurt,2913,0.0199
+Jeddah,2882,0.0197
+Brighton,2874,0.0197
+Vaudreuil-Dorion,2869,0.0196
+Montebello,2857,0.0196
+Dortmund,2839,0.0194
+Wortegem,2824,0.0193
+Zaragoza,2800,0.0192
+Leipzig,2796,0.0191
+Bristol,2711,0.0186
+Ansan-si,2706,0.0185
+Lansing,2706,0.0185
+Charlotte,2704,0.0185
+Ankara,2702,0.0185
+New Delhi,2700,0.0185
+Poznań,2694,0.0184
+Jeju City,2631,0.018
+Rosario,2628,0.018
+Cheonan,2606,0.0178
+Jacksonville,2594,0.0178
+Doddaballapura,2574,0.0176
+Vaala,2556,0.0175
+Airoli,2547,0.0174
+Tysons,2496,0.0171
+Bnei Brak,2485,0.017
+Belfast,2481,0.017
+Changwon,2476,0.0169
+Wilmington,2469,0.0169
+Guiyang,2469,0.0169
+Bursa,2460,0.0168
+Sepang,2454,0.0168
+Baltimore,2447,0.0168
+Hannover,2432,0.0166
+Zagreb,2418,0.0166
+Nairobi,2403,0.0164
+Lagos,2378,0.0163
+The Dalles,2364,0.0162
+Foshan,2337,0.016
+Karachi,2273,0.0156
+Lille,2272,0.0156
+Jiaxing,2221,0.0152
+Belgrade,2209,0.0151
+Liverpool,2189,0.015
+Tianjin,2184,0.015
+Tashkent,2175,0.0149
+İzmir,2174,0.0149
+Le Havre,2151,0.0147
+Tampa,2144,0.0147
+Beauharnois,2140,0.0146
+Edinburgh,2132,0.0146
+Edmonton,2127,0.0146
+,2120,0.0145
+Salvador,2092,0.0143
+Diamond Bar,2070,0.0142
+Fukuoka,2063,0.0141
+Seongnam-si,2061,0.0141
+Belo Horizonte,2044,0.014
+Brasília,2035,0.0139
+Mount Prospect,2021,0.0138
+Xiamen,2019,0.0138
+Palermo,2015,0.0138
+Accra,1999,0.0137
+Goyang-si,1997,0.0137
+Lyon,1981,0.0136
+Saskatoon,1965,0.0135
+Minneapolis,1964,0.0134
+Slough,1963,0.0134
+Wrocław,1942,0.0133
+Karlsruhe,1939,0.0133
+Rouen,1936,0.0133
+Palo Alto,1929,0.0132
+Elk Grove Village,1924,0.0132
+Derby,1918,0.0131
+Belmont,1909,0.0131
+Lahore,1906,0.013
+Arlington,1884,0.0129
+Pullman,1874,0.0128
+Taiyuan,1868,0.0128
+Naples,1855,0.0127
+Orem,1851,0.0127
+Hemel Hempstead,1845,0.0126
+Västerås,1841,0.0126
+Boca Raton,1831,0.0125
+Cairo,1824,0.0125
+Brno,1822,0.0125
+Jerusalem,1821,0.0125
+Tsuen Wan,1803,0.0123
+Sevilla,1797,0.0123
+San José,1797,0.0123
+Aachen,1795,0.0123
+Yeosu,1745,0.0119
+Groningen,1744,0.0119
+Curitiba,1741,0.0119
+Malmö,1741,0.0119
+Gliwice,1739,0.0119
+Irving,1716,0.0117
+Astana,1703,0.0117
+Kunming,1692,0.0116
+Redditch,1688,0.0116
+Nagoya,1683,0.0115
+Luxembourg,1675,0.0115
+Bern,1674,0.0115
+Gdańsk,1673,0.0115
+Chiba,1670,0.0114
+Campinas,1669,0.0114
+Timişoara,1646,0.0113
+Winterthur,1644,0.0113
+Mansfield,1642,0.0112
+Samarate,1637,0.0112
+Nanchang,1612,0.011
+Birch Bay,1609,0.011
+Paripark,1608,0.011
+Plymouth,1604,0.011
+Luton,1601,0.011
+Nanning,1598,0.0109
+Brescia,1598,0.0109
+Kawasaki,1580,0.0108
+Jinan,1558,0.0107
+Broomfield,1551,0.0106
+Sterling,1542,0.0106
+Hillsboro,1541,0.0105
+Al Fujairah City,1539,0.0105
+Newcastle upon Tyne,1533,0.0105
+Aubervilliers,1506,0.0103
+Porto Alegre,1505,0.0103
+Bologna,1497,0.0102
+Leicester,1479,0.0101
+Orlando,1475,0.0101
+Rho,1473,0.0101
+Jeonju,1468,0.01
+Khmelnytskyi,1465,0.01
+Preston,1451,0.0099
+Kumasi,1449,0.0099
+Cheongju-si,1447,0.0099
+Tbilisi,1443,0.0099
+Little Rock,1442,0.0099
+Gangneung,1417,0.0097
+Šiauliai,1414,0.0097
+Manama,1409,0.0096
+Lugano,1403,0.0096
+Portsmouth,1398,0.0096
+Zrenjanin,1397,0.0096
+Surabaya,1393,0.0095
+Nicosia,1388,0.0095
+Sunnyvale,1382,0.0095
+Marietta,1377,0.0094
+Hidden Hills,1370,0.0094
+Enfield Town,1365,0.0093
+Yerevan,1350,0.0092
+Naju,1348,0.0092
+Minsk,1347,0.0092
+Petaling Jaya,1333,0.0091
+Pamplona,1325,0.0091
+East Kilbride,1314,0.009
+Nakhon Ratchasima,1292,0.0088
+Fareham,1275,0.0087
+Fort Worth,1271,0.0087
+Sunderland,1268,0.0087
+Inzai,1261,0.0086
+Phnom Penh,1251,0.0086
+Iaşi,1244,0.0085
+Rochester,1236,0.0085
+Colchester,1235,0.0085
+Caracas,1235,0.0085
+Edenvale,1233,0.0084
+Burlington,1225,0.0084
+Verona,1222,0.0084
+Ibaraki,1215,0.0083
+Omaha,1213,0.0083
+Voznesensk,1203,0.0082
+Greenville,1201,0.0082
+Tukwila,1194,0.0082
+Grindavík,1179,0.0081
+Colombo,1179,0.0081
+Oxford,1178,0.0081
+Kragujevac,1178,0.0081
+Baku,1178,0.0081
+Medellín,1176,0.0081
+Andorra la Vella,1175,0.008
+Bekasi,1168,0.008
+Dietikon,1162,0.008
+Kent,1157,0.0079
+Lithia Springs,1152,0.0079
+Glasgow,1150,0.0079
+Naaldwijk,1146,0.0078
+Lake Ridge,1143,0.0078
+Cardiff,1142,0.0078
+Saint-Denis,1142,0.0078
+Pak Kret,1141,0.0078
+Harlow,1139,0.0078
+Kuwait City,1135,0.0078
+Essen,1133,0.0078
+Wŏnju,1118,0.0077
+Chuncheon,1118,0.0077
+Richfield,1117,0.0076
+Dudley,1116,0.0076
+Łódź,1114,0.0076
+Irvine,1108,0.0076
+Adelaide,1101,0.0075
+Walnut,1100,0.0075
+Elche,1100,0.0075
+Xi’an,1100,0.0075
+Plovdiv,1099,0.0075
+Sugai,1095,0.0075
+Basel,1094,0.0075
+Sapporo,1089,0.0075
+Gurugram,1085,0.0074
+Espoo,1083,0.0074
+Saint-Quentin-en-Yvelines,1080,0.0074
+Saitama,1078,0.0074
+Kwai Chung,1070,0.0073
+Neustadt am Rübenberge,1068,0.0073
+Marsaskala,1065,0.0073
+Haegok,1061,0.0073
+Abu Dhabi,1060,0.0073
+Seevetal,1053,0.0072
+Richmond,1052,0.0072
+Ballerup,1051,0.0072
+Andong,1042,0.0071
+Sarajevo,1039,0.0071
+Woking,1038,0.0071
+Morton,1036,0.0071
+Muscat,1030,0.0071
+Columbia,1026,0.007
+Braşov,1022,0.007
+Dammam,1003,0.0069
+Baghdad,1002,0.0069
+Lanzhou,999,0.0068
+Sheboygan,995,0.0068
+City of London,992,0.0068
+Raleigh,991,0.0068
+Lincoln,984,0.0067
+Bolton,980,0.0067
+Zwaanshoek,973,0.0067
+Tuyên Quang,971,0.0066
+Recife,966,0.0066
+Billerica,966,0.0066
+Osasco,963,0.0066
+Nuneaton,962,0.0066
+Canterbury,960,0.0066
+Hsinchu,958,0.0066
+Nakhon Pathom,954,0.0065
+Århus,953,0.0065
+Netanya,953,0.0065
+Coventry,952,0.0065
+Quito,950,0.0065
+Hohhot,945,0.0065
+Torrejón de Ardoz,943,0.0065
+Pyeongtaek,935,0.0064
+Draper,934,0.0064
+Spring,934,0.0064
+Santa Cruz de Tenerife,932,0.0064
+Aberdeen,932,0.0064
+Urdorf,932,0.0064
+Dordrecht,930,0.0064
+Aldine,929,0.0064
+Sejong,922,0.0063
+Kaunas,916,0.0063
+Bucheon-si,914,0.0063
+Bury,913,0.0062
+Cincinnati,912,0.0062
+Málaga,910,0.0062
+H̱olon,907,0.0062
+Utrecht,906,0.0062
+Sha Tin,904,0.0062
+Gif-sur-Yvette,900,0.0062
+Wuppertal,900,0.0062
+Linköping,897,0.0061
+Hamilton,897,0.0061
+Chelmsford,894,0.0061
+Asunción,894,0.0061
+Kingston,891,0.0061
+Oklahoma City,889,0.0061
+Varna,888,0.0061
+Hefei,887,0.0061
+Kardzhali,886,0.0061
+Providence,884,0.0061
+Santa Monica,880,0.006
+Oakville,871,0.006
+Ulan Bator,871,0.006
+Amman,869,0.0059
+Makati City,869,0.0059
+Monterrey,867,0.0059
+Frankston East,865,0.0059
+Regensburg,865,0.0059
+Devanhalli,864,0.0059
+Ahmedabad,863,0.0059
+Hwado,862,0.0059
+Cluj-Napoca,860,0.0059
+Hoofddorp,859,0.0059
+Stockport,857,0.0059
+Kawaguchi,855,0.0059
+Sandy Springs,855,0.0059
+Azabu-jūban,855,0.0059
+La Plata,855,0.0059
+Durban,854,0.0058
+Southend-on-Sea,851,0.0058
+Tri-Cities,848,0.0058
+Zwolle,847,0.0058
+Crawley,843,0.0058
+Córdoba,838,0.0057
+Logroño,838,0.0057
+Porto,837,0.0057
+Springfield,836,0.0057
+Burgas,835,0.0057
+Nablus,833,0.0057
+Münster,833,0.0057
+Pimpri,832,0.0057
+Chiang Mai,832,0.0057
+Nottingham,830,0.0057
+Cyberjaya,830,0.0057
+Anchorage,830,0.0057
+Lampang,829,0.0057
+Wolfville,827,0.0057
+Vinnytsya,825,0.0056
+Shenyang,824,0.0056
+Ashdod,816,0.0056
+Yinchuan,813,0.0056
+Hohenbühl/Bubenholz,806,0.0055
+Urayasu,805,0.0055
+Chippewa Falls,804,0.0055
+Mokpo,800,0.0055
+Reading,800,0.0055
+Batam,798,0.0055
+Voluntari,797,0.0055
+Alcobendas,797,0.0055
+Cheshunt,796,0.0054
+San Juan,795,0.0054
+Beirut,794,0.0054
+Bishkek,793,0.0054
+Newport,793,0.0054
+Mestre,783,0.0054
+New Orleans,779,0.0053
+Isfahan,777,0.0053
+Cheyenne,775,0.0053
+West Bromwich,774,0.0053
+Hat Yai,772,0.0053
+Aetna Estates,771,0.0053
+Kyosai,770,0.0053
+Kamianets-Podilskyi,769,0.0053
+Anyang-si,767,0.0053
+Freiburg,766,0.0052
+Meppel,759,0.0052
+Guatemala City,758,0.0052
+Hastings,758,0.0052
+Huddinge,758,0.0052
+Buckingham,758,0.0052
+Almere Stad,757,0.0052
+Ar Rayyān,757,0.0052
+Skopje,755,0.0052
+Chinch'ŏn,753,0.0052
+Burg bei Magdeburg,750,0.0051
+Herndon,750,0.0051
+Oradea,748,0.0051
+Monaco,747,0.0051
+Pallāvaram,746,0.0051
+Pohang,745,0.0051
+Murcia,742,0.0051
+Khlong Luang,740,0.0051
+Bath,738,0.0051
+Khon Kaen,734,0.005
+Stamford,734,0.005
+Târgu Mureş,733,0.005
+Milton Keynes,728,0.005
+Antalya,728,0.005
+Chinju,724,0.005
+Gunsan,722,0.0049
+Alcorcón,721,0.0049
+Hải Dương,721,0.0049
+Florence,718,0.0049
+Fuenlabrada,717,0.0049
+Indianapolis,714,0.0049
+Shrewsbury,712,0.0049
+Wichita,712,0.0049
+Santo Domingo,712,0.0049
+Salford,711,0.0049
+Cali,709,0.0049
+Douglas,709,0.0049
+Long Beach,697,0.0048
+Odesa,693,0.0047
+Dartford,692,0.0047
+Gyeongju,691,0.0047
+Angers,689,0.0047
+Misterton,688,0.0047
+Eastbourne,685,0.0047
+Cikarang,684,0.0047
+Stanton,684,0.0047
+Ponte San Pietro,683,0.0047
+Québec,683,0.0047
+Tulsa,683,0.0047
+Bradford,683,0.0047
+Denizli,683,0.0047
+Sham Shui Po,681,0.0047
+Walsall,679,0.0046
+Manaus,677,0.0046
+Rawalpindi,677,0.0046
+Stoke-on-Trent,676,0.0046
+Allentown,676,0.0046
+Dronten,675,0.0046
+Dover,674,0.0046
+Kampong Loyang,673,0.0046
+Cumbernauld,673,0.0046
+Hatsudai,672,0.0046
+Duisburg,672,0.0046
+Craiova,672,0.0046
+Weymouth,672,0.0046
+Guadalajara,670,0.0046
+Girona,668,0.0046
+Dādri,668,0.0046
+Albuquerque,663,0.0045
+Taunton,661,0.0045
+Rosh Ha‘Ayin,659,0.0045
+Machida,659,0.0045
+Edison,658,0.0045
+Pasadena,657,0.0045
+Salem,655,0.0045
+Bankra,655,0.0045
+Dnipro,652,0.0045
+Enschede,651,0.0045
+Tlalpan,650,0.0044
+Cork,650,0.0044
+Benoni,650,0.0044
+Lowestoft,648,0.0044
+Lausanne,648,0.0044
+Chester,648,0.0044
+Dar es Salaam,646,0.0044
+Great Yarmouth,644,0.0044
+Bickleton,639,0.0044
+Nashville,639,0.0044
+Nagpur,633,0.0043
+Kimhae,632,0.0043
+Kiel,632,0.0043
+Sankt Gallen,632,0.0043
+Santa Ana,632,0.0043
+La Paz,630,0.0043
+Oulu,630,0.0043
+Avernes,630,0.0043
+Hounslow,630,0.0043
+Barrio San Luis,629,0.0043
+Grays,628,0.0043
+Padova,627,0.0043
+Sochi,626,0.0043
+Yeovil,625,0.0043
+Margate,622,0.0043
+Bergen,621,0.0043
+Tilburg,621,0.0043
+Bend,616,0.0042
+Yangon,616,0.0042
+Dagenham,614,0.0042
+Birkenhead,613,0.0042
+Bangor,612,0.0042
+Rimouski,611,0.0042
+Bet Shemesh,609,0.0042
+McKinney,608,0.0042
+Gahanna,607,0.0042
+Gumi,605,0.0041
+Palma,604,0.0041
+Phuket,604,0.0041
+Poole,603,0.0041
+Linz,602,0.0041
+Romford,602,0.0041
+Graz,601,0.0041
+Klagenfurt am Wörthersee,601,0.0041
+Bonn,599,0.0041
+Ra'anana,599,0.0041
+Pretoria,593,0.0041
+San Isidro,591,0.004
+Ourense,590,0.004
+Buzău,586,0.004
+Gravelines,583,0.004
+Uppsala,582,0.004
+Goiânia,582,0.004
+Toulouse,581,0.004
+Plano,579,0.004
+Taraz,579,0.004
+Prato,579,0.004
+Sanandaj,578,0.004
+Alessandria,577,0.0039
+Alicante,577,0.0039
+Worcester,576,0.0039
+Chon Buri,576,0.0039
+Toruń,574,0.0039
+Wellington,574,0.0039
+Costa Mesa,573,0.0039
+Kampala,571,0.0039
+Puteaux,570,0.0039
+Panamá,570,0.0039
+Mannheim,570,0.0039
+Milwaukee,569,0.0039
+Jerez de la Frontera,568,0.0039
+San Ramon,568,0.0039
+Worthing,567,0.0039
+Rogers,566,0.0039
+Eden Prairie,566,0.0039
+Wolverhampton,564,0.0039
+Sept-Îles,564,0.0039
+Ubon Ratchathani,563,0.0039
+Dongjie,562,0.0038
+L'Hospitalet de Llobregat,562,0.0038
+Pristina,561,0.0038
+Irákleion,554,0.0038
+Modena,553,0.0038
+Coimbatore,553,0.0038
+Thessaloníki,553,0.0038
+South Tangerang,553,0.0038
+Horsham,552,0.0038
+Aldershot,551,0.0038
+Courbevoie,549,0.0038
+Uijeongbu-si,548,0.0038
+Élancourt,548,0.0038
+Monza,546,0.0037
+Hayes,546,0.0037
+Genoa,546,0.0037
+Bang Lamung,545,0.0037
+Maringá,545,0.0037
+Gloucester,545,0.0037
+Kathmandu,545,0.0037
+Ukrainka,545,0.0037
+Morges,543,0.0037
+Boulogne-Billancourt,541,0.0037
+Monroe,541,0.0037
+Hereford,541,0.0037
+Lake Worth Beach,540,0.0037
+Laval,540,0.0037
+Haldia,538,0.0037
+Winchester,538,0.0037
+Depok,536,0.0037
+Rancho Santa Margarita,536,0.0037
+Wakefield,535,0.0037
+Cape Coral,532,0.0036
+Arad,530,0.0036
+Morelia,529,0.0036
+Plauen,528,0.0036
+Bandung,528,0.0036
+Neuilly-Plaisance,528,0.0036
+Pasig City,527,0.0036
+Jaipur,526,0.0036
+Dźwirzyno,524,0.0036
+Tin Shui Wai,523,0.0036
+Canberra,522,0.0036
+Northampton,521,0.0036
+Norwich,519,0.0036
+Johor Bahru,518,0.0035
+Rotkreuz,518,0.0035
+Telford,517,0.0035
+Solihull,516,0.0035
+St-Jean-Port-Joli,516,0.0035
+Constanţa,515,0.0035
+Helsingborg,514,0.0035
+Břeclav,513,0.0035
+Hachiōji,513,0.0035
+Royal Tunbridge Wells,512,0.0035
+Rishon LeTsiyyon,512,0.0035
+Bülach,511,0.0035
+Xining,511,0.0035
+Da Nang,511,0.0035
+Sharjah,509,0.0035
+Wiesbaden,509,0.0035
+Southampton,507,0.0035
+Bandar Abbas,507,0.0035
+Lockhart,506,0.0035
+York,505,0.0035
+Livingston,505,0.0035
+Crewe,503,0.0034
+Christchurch,503,0.0034
+Waterlooville,503,0.0034
+Bloomington,500,0.0034
+Shah Alam,500,0.0034
+Westerville,499,0.0034
+Bełchatów,498,0.0034
+Guayaquil,497,0.0034
+Greenford,494,0.0034
+Maastricht,493,0.0034
+Asan,493,0.0034
+Huddersfield,492,0.0034
+Tacoma,492,0.0034
+Cheltenham,491,0.0034
+Burton upon Trent,490,0.0034
+Yangju,490,0.0034
+Santo Domingo Este,490,0.0034
+Mashhad,489,0.0033
+Damascus,488,0.0033
+Berkeley,488,0.0033
+Metz,487,0.0033
+Jõhvi,486,0.0033
+Middelburg,486,0.0033
+Kfar Saba,484,0.0033
+Sendai,484,0.0033
+Kharkiv,484,0.0033
+Osnabrück,484,0.0033
+Knivsta,482,0.0033
+Swindon,482,0.0033
+Silverdale,481,0.0033
+Villingen-Schwenningen,481,0.0033
+Chatham,481,0.0033
+Munsan,480,0.0033
+Indore,479,0.0033
+Nantes,478,0.0033
+Sengkang New Town,478,0.0033
+Takatsuki,477,0.0033
+Honolulu,477,0.0033
+Banbury,476,0.0033
+Paisley,476,0.0033
+Staines,476,0.0033
+Reẖovot,475,0.0033
+San Luis Obispo,475,0.0033
+Port Louis,475,0.0033
+Septèmes-les-Vallons,475,0.0033
+Stalybridge,474,0.0032
+St Helens,473,0.0032
+Rasht,473,0.0032
+Bridgeport,473,0.0032
+Innsbruck,473,0.0032
+Piteşti,472,0.0032
+Iksan,471,0.0032
+Reims,471,0.0032
+Tampere,470,0.0032
+Chemnitz,469,0.0032
+Turku,469,0.0032
+Doncaster,469,0.0032
+Rudolfstetten,469,0.0032
+Flint Hill,468,0.0032
+Siziano,467,0.0032
+Kagoshima,466,0.0032
+Stavanger,466,0.0032
+Southfield,465,0.0032
+Sacramento,465,0.0032
+Inverness,463,0.0032
+Basildon,463,0.0032
+Norfolk,463,0.0032
+Queluz,462,0.0032
+Mandaluyong City,460,0.0031
+Haiphong,460,0.0031
+Phra Nakhon Si Ayutthaya,460,0.0031
+Shirley,459,0.0031
+Biên Hòa,458,0.0031
+Figino,456,0.0031
+Hebei,455,0.0031
+Wallsend,453,0.0031
+Darmstadt,453,0.0031
+Yamato,453,0.0031
+Alexandria,452,0.0031
+Lappeenranta,452,0.0031
+Pleven,452,0.0031
+Macau,451,0.0031
+Yogyakarta,451,0.0031
+Pāsārgād,451,0.0031
+Fes,450,0.0031
+Oldenburg,449,0.0031
+Paderborn,447,0.0031
+Odda,447,0.0031
+Mar del Plata,446,0.0031
+Limassol,443,0.003
+Chesterfield,443,0.003
+Udon Thani,443,0.003
+Amersfoort,443,0.003
+Bournemouth,443,0.003
+Stäfa,442,0.003
+Halifax,442,0.003
+Vinhedo,441,0.003
+Le Teil,440,0.003
+Nice,440,0.003
+Minoh,438,0.003
+Gainesville,438,0.003
+Augsburg,437,0.003
+High Wycombe,437,0.003
+Bielefeld,437,0.003
+Northwich,435,0.003
+Böblingen,435,0.003
+Tachikawa,435,0.003
+Charleston,435,0.003
+Kaiserslautern,433,0.003
+Frosinone,432,0.003
+Baton Rouge,431,0.003
+Windhoek,431,0.003
+Dumfries,430,0.0029
+Mijdrecht,430,0.0029
+Kumamoto,430,0.0029
+Peterborough,429,0.0029
+Heemskerk,428,0.0029
+Norderstedt,428,0.0029
+Montana,428,0.0029
+Kōnosu,427,0.0029
+Saint Thomas Mount,427,0.0029
+Perugia,427,0.0029
+Herne Bay,427,0.0029
+Tangier,425,0.0029
+Abidjan,424,0.0029
+Kasukabe,424,0.0029
+Artist Village,424,0.0029
+Suncheon,424,0.0029
+Decatur,424,0.0029
+Bognor Regis,422,0.0029
+Valdemoro,422,0.0029
+Oldham,422,0.0029
+Isesaki,421,0.0029
+Bari,421,0.0029
+Galaţi,420,0.0029
+Hiroshima,419,0.0029
+Chungju,419,0.0029
+Igualada,419,0.0029
+Luanda,417,0.0029
+Burbank,416,0.0028
+Davie,416,0.0028
+'s-Hertogenbosch,415,0.0028
+Folcroft,415,0.0028
+Lucknow,415,0.0028
+Roosendaal,414,0.0028
+San Salvador,414,0.0028
+Wrexham,414,0.0028
+Joinville,412,0.0028
+Lancaster,411,0.0028
+Mueang Nonthaburi,411,0.0028
+Carlisle,411,0.0028
+Târgovişte,410,0.0028
+Vítkov,409,0.0028
+Tijuana,408,0.0028
+Wigan,408,0.0028
+Walthamstow,407,0.0028
+Islamabad,407,0.0028
+Huizen,406,0.0028
+Dalton,406,0.0028
+Amiens,405,0.0028
+South Shields,404,0.0028
+Namur,403,0.0028
+Delft,402,0.0028
+Weert,402,0.0028
+Bletchley,402,0.0028
+Huntsville,401,0.0027
+Ramat Gan,401,0.0027
+Datong,400,0.0027
+Schaffhausen,399,0.0027
+Putra Heights,399,0.0027
+Puebla,398,0.0027
+Mainz,397,0.0027
+Kramatorsk,397,0.0027
+Louisville,397,0.0027
+Mytishchi,396,0.0027
+Icheon-si,396,0.0027
+Rostov-na-Donu,396,0.0027
+Miyako,395,0.0027
+Breda,394,0.0027
+Davis,394,0.0027
+Sari,394,0.0027
+Harmony Garden,392,0.0027
+Haifa,391,0.0027
+Odense,391,0.0027
+Lytham St Annes,391,0.0027
+Saint Paul,389,0.0027
+Epsom,388,0.0027
+Petropavl,387,0.0026
+Southport,387,0.0026
+Mitaka,386,0.0026
+Ruda Śląska,386,0.0026
+Karuizawa,385,0.0026
+Rennes,384,0.0026
+Chur,384,0.0026
+Suresnes,384,0.0026
+Medan,382,0.0026
+Wohlen,382,0.0026
+Winnipeg,382,0.0026
+Clacton-on-Sea,382,0.0026
+Zoetermeer,382,0.0026
+Pilisvörösvár,381,0.0026
+Troy,381,0.0026
+Boise,381,0.0026
+Elgin,381,0.0026
+Sutton,379,0.0026
+Rayleigh,378,0.0026
+Alhama de Murcia,376,0.0026
+Stirling,375,0.0026
+Kostanay,374,0.0026
+Niagara Falls,374,0.0026
+Kilmarnock,373,0.0026
+Alcalá de Henares,373,0.0026
+Marrakesh,372,0.0025
+Loughborough,372,0.0025
+Kingston upon Hull,372,0.0025
+Bellingham,370,0.0025
+Trondheim,369,0.0025
+Surat,369,0.0025
+Salisbury,369,0.0025
+Kayseri,369,0.0025
+Yeongdong,369,0.0025
+Blumenau,368,0.0025
+Eugene,368,0.0025
+Brentwood,368,0.0025
+Huelva,368,0.0025
+San Sebastián de los Reyes,368,0.0025
+Eindhoven,367,0.0025
+Manassas,367,0.0025
+Cannock,367,0.0025
+Krugersdorp,365,0.0025
+Grand Rapids,364,0.0025
+Newbury,364,0.0025
+Dundee,364,0.0025
+Gallarate,364,0.0025
+Ghāziābād,364,0.0025
+Langenzersdorf,363,0.0025
+Fort Wayne,363,0.0025
+Rockford,363,0.0025
+Sun Prairie,362,0.0025
+Würzburg,361,0.0025
+Bhopāl,360,0.0025
+Košice,360,0.0025
+Lexington,360,0.0025
+Farka e Madhe,358,0.0025
+Guildford,357,0.0024
+Lakewood,357,0.0024
+Adana,357,0.0024
+Lübeck,356,0.0024
+Anseong,356,0.0024
+Tamworth,355,0.0024
+Halmstad,355,0.0024
+Bordeaux,354,0.0024
+New Brunswick,354,0.0024
+Hengelo,354,0.0024
+Bochum,353,0.0024
+Pilsen,352,0.0024
+Srīrāmnagar,352,0.0024
+Oneida,352,0.0024
+Hofheim am Taunus,352,0.0024
+Yellowknife,352,0.0024
+Faisalabad,350,0.0024
+Shawano,349,0.0024
+Győr,348,0.0024
+Koblenz,348,0.0024
+Greenock,347,0.0024
+Gossau,347,0.0024
+Doetinchem,346,0.0024
+Suzhou,346,0.0024
+El Colorado,346,0.0024
+Rotherham,346,0.0024
+Tarragona,345,0.0024
+Barnsley,344,0.0024
+Konya,344,0.0024
+Teluk Intan,344,0.0024
+East Grinstead,344,0.0024
+São José do Rio Preto,343,0.0023
+Shizuoka,343,0.0023
+Saint Peters,342,0.0023
+Bat Yam,341,0.0023
+Nouméa,341,0.0023
+Huntington Beach,341,0.0023
+Valbonne,341,0.0023
+Fayetteville,340,0.0023
+Nijmegen,340,0.0023
+Kidderminster,340,0.0023
+Užice,339,0.0023
+Swansea,339,0.0023
+Szekszárd,339,0.0023
+Melilla,339,0.0023
+Banja Luka,338,0.0023
+Seosan,338,0.0023
+Macclesfield,337,0.0023
+Şabāḩ as Sālim,337,0.0023
+Managua,337,0.0023
+Sokcho,337,0.0023
+Pekanbaru,336,0.0023
+Monrovia,336,0.0023
+Musselburgh,336,0.0023
+Aurora,335,0.0023
+Douala,335,0.0023
+Saint-Lazare-de-Bellechasse,334,0.0023
+Thetford,334,0.0023
+Osan,334,0.0023
+Maebashi,334,0.0023
+Brampton,334,0.0023
+Budge Budge,334,0.0023
+Ayr,333,0.0023
+Bergamo,333,0.0023
+Zamora,333,0.0023
+Culemborg,332,0.0023
+Katowice,332,0.0023
+Kista,332,0.0023
+Guntramsdorf,332,0.0023
+Salamanca,332,0.0023
+Udine,332,0.0023
+Fairfax,330,0.0023
+Ocala,329,0.0023
+North Bethesda,328,0.0022
+Toledo,328,0.0022
+Sittingbourne,328,0.0022
+Pattaya,326,0.0022
+Kremenets,325,0.0022
+Seogwipo,325,0.0022
+Kāfrul,325,0.0022
+Grants Pass,324,0.0022
+Nova Iguaçu,324,0.0022
+Flensburg,324,0.0022
+Zapopan,323,0.0022
+Yangsan,323,0.0022
+Mérida,323,0.0022
+Asheville,322,0.0022
+Middleburgh,322,0.0022
+Vacoas,321,0.0022
+Móstoles,321,0.0022
+King of Prussia,321,0.0022
+Mesa,321,0.0022
+Scarborough,320,0.0022
+Blackburn,320,0.0022
+Aberystwyth,320,0.0022
+St Austell,319,0.0022
+Memphis,319,0.0022
+Samoreau,318,0.0022
+Arco Iris,318,0.0022
+Caxias do Sul,318,0.0022
+Wilmslow,318,0.0022
+Tabriz,317,0.0022
+Yangp'yŏng,317,0.0022
+Rugby,317,0.0022
+Lawrenceville,316,0.0022
+Kanayannur,316,0.0022
+Durrës,316,0.0022
+Wokingham,316,0.0022
+Evesham,315,0.0022
+Maidenhead,314,0.0021
+Albany,314,0.0021
+Manzanares el Real,314,0.0021
+Valladolid,314,0.0021
+Ruse,314,0.0021
+Maputo,313,0.0021
+Grantsburg,313,0.0021
+Evansville,313,0.0021
+Brook Park,313,0.0021
+Cartagena,313,0.0021
+Putrajaya,312,0.0021
+João Pessoa,312,0.0021
+Greenwood,311,0.0021
+Kigali,311,0.0021
+Rzeszów,311,0.0021
+Salzburg,311,0.0021
+Sliven,310,0.0021
+Boryeong,310,0.0021
+Zell am See,310,0.0021
+Allen,309,0.0021
+Hartford,308,0.0021
+Wong Tai Sin,307,0.0021
+Fairfield,307,0.0021
+Macon,307,0.0021
+Gaziantep,307,0.0021
+West Chicago,306,0.0021
+Białystok,306,0.0021
+Metairie,306,0.0021
+Santa Fe,305,0.0021
+Quincy,305,0.0021
+Täby,304,0.0021
+Albacete,303,0.0021
+Thuận An,303,0.0021
+Heidelberg,303,0.0021
+Haywards Heath,302,0.0021
+Ribeirão Preto,302,0.0021
+Semarang,302,0.0021
+Cesena,301,0.0021
+Eastleigh,301,0.0021
+Meadow Vista,301,0.0021
+Kettering,301,0.0021
+Novosibirsk,301,0.0021
+Aalborg,300,0.0021
+Matsudo,300,0.0021
+Nam Định,299,0.002
+Bilbao,299,0.002
+Dongguan,298,0.002
+Thanh Hóa,298,0.002
+Cuenca,298,0.002
+Mississauga,298,0.002
+Pariaman,297,0.002
+Melville,297,0.002
+Ankeny,297,0.002
+Oberasbach,296,0.002
+Asnières-sur-Seine,296,0.002
+Jackson,296,0.002
+Nelson,295,0.002
+Bahía Blanca,295,0.002
+Gillingham,295,0.002
+Oceanside,295,0.002
+Faro,295,0.002
+Nový Jičín,294,0.002
+Fresno,294,0.002
+Central,294,0.002
+Breukelen,293,0.002
+Totton,293,0.002
+Apeldoorn,293,0.002
+Grenoble,293,0.002
+Ivankiv,292,0.002
+Santa Rosa,291,0.002
+Renningen,291,0.002
+West Palm Beach,291,0.002
+Warrington,291,0.002
+Falkenberg,290,0.002
+El‘ad,290,0.002
+Harrogate,290,0.002
+Jönköping,289,0.002
+Maribor,289,0.002
+Örebro,288,0.002
+Concord,288,0.002
+Bothell,288,0.002
+Knoxville,288,0.002
+Paraná,288,0.002
+Ramonville-Saint-Agne,287,0.002
+Gyeongsan-si,287,0.002
+Szczecin,287,0.002
+Sartrouville,285,0.002
+Bridgwater,285,0.002
+Ede,285,0.002
+Giza,284,0.0019
+Bridgend,284,0.0019
+Koszalin,284,0.0019
+Montpellier,284,0.0019
+Empfingen,283,0.0019
+Redhill,283,0.0019
+Gravesend,283,0.0019
+San Pedro Sula,283,0.0019
+Quanzhou,282,0.0019
+Bulle,282,0.0019
+Noida,281,0.0019
+La Chaux-de-Fonds,280,0.0019
+Mitcham,280,0.0019
+Sale,280,0.0019
+Bor,280,0.0019
+Cochabamba,280,0.0019
+Newry,280,0.0019
+Bogor,279,0.0019
+Stockton-on-Tees,279,0.0019
+Lexington-Fayette,279,0.0019
+Fort-de-France,279,0.0019
+Algiers,279,0.0019
+Basingstoke,279,0.0019
+Himeji,279,0.0019
+Bracknell,279,0.0019
+Uberlândia,278,0.0019
+Stroud,278,0.0019
+Granada,278,0.0019
+Lund,277,0.0019
+Gunpo,277,0.0019
+Osage Beach,277,0.0019
+Herzliya,277,0.0019
+Stowmarket,277,0.0019
+Yeoju,276,0.0019
+Glen Cove,276,0.0019
+Purley,276,0.0019
+Pompano Beach,276,0.0019
+Maple Ridge,275,0.0019
+Bacău,275,0.0019
+Getafe,274,0.0019
+Vélizy-Villacoublay,273,0.0019
+Trelleborg,273,0.0019
+Royal Leamington Spa,273,0.0019
+El Paso,272,0.0019
+Fanling,272,0.0019
+Karagandy,271,0.0019
+Langenbrettach,271,0.0019
+Long Eaton,271,0.0019
+Jining,271,0.0019
+Torquay,270,0.0018
+Vynohradiv,270,0.0018
+Krasnodar,270,0.0018
+Vitória,270,0.0018
+Egham,269,0.0018
+Falkirk,269,0.0018
+Dietzenbach,269,0.0018
+Barnstaple,269,0.0018
+Pernik,269,0.0018
+Folkestone,269,0.0018
+Rayne,269,0.0018
+Didcot,269,0.0018
+Niigata,268,0.0018
+Syracuse,267,0.0018
+Nanterre,267,0.0018
+Billericay,267,0.0018
+Newtownards,266,0.0018
+Harbin,266,0.0018
+Surrey,266,0.0018
+Ferrelview,265,0.0018
+Caerphilly,265,0.0018
+Leganés,265,0.0018
+Kabul,264,0.0018
+Saint-Anselme,264,0.0018
+Loei,264,0.0018
+San Marcos,264,0.0018
+Higashiosaka,263,0.0018
+Worb,263,0.0018
+La Grande,263,0.0018
+Rivoli,262,0.0018
+Trollhättan,262,0.0018
+Harrow,261,0.0018
+Oswestry,261,0.0018
+Vigo,261,0.0018
+Chartham,261,0.0018
+Hamamatsu,261,0.0018
+Farnham,261,0.0018
+Padang,261,0.0018
+Zawyat an Nwaçer,261,0.0018
+Utsunomiya,260,0.0018
+Chichester,260,0.0018
+Barrow in Furness,260,0.0018
+Bắc Ninh,260,0.0018
+Middlesbrough,259,0.0018
+Ilford,259,0.0018
+Malmesbury,259,0.0018
+Chapecó,259,0.0018
+Mount Laurel,259,0.0018
+Visakhapatnam,259,0.0018
+Reykjavík,258,0.0018
+Lisburn,258,0.0018
+Liberty Hill,257,0.0018
+Bad Soden am Taunus,257,0.0018
+Widnes,256,0.0018
+Franklin,256,0.0018
+Catania,256,0.0018
+Fălești,256,0.0018
+Inashiki,256,0.0018
+Darlington,256,0.0018
+Maceió,255,0.0017
+Cebu City,254,0.0017
+Alkmaar,254,0.0017
+Victoria,254,0.0017
+Szeged,254,0.0017
+Wellingborough,254,0.0017
+Sundsvall,253,0.0017
+Burr Ridge,253,0.0017
+Riverside,253,0.0017
+Ashford,253,0.0017
+Reusel,253,0.0017
+Göttingen,252,0.0017
+Kidlington,252,0.0017
+Arnhem,252,0.0017
+Stoke Gifford,252,0.0017
+Stratford-upon-Avon,252,0.0017
+Parma,252,0.0017
+Nagano,251,0.0017
+Roda de Barà,251,0.0017
+Santa Cruz,251,0.0017
+Denpasar,251,0.0017
+Luzern,251,0.0017
+Greve,251,0.0017
+Ortisei,250,0.0017
+Borås,250,0.0017
+Chenzhou,250,0.0017
+Wisbech,250,0.0017
+Lublin,250,0.0017
+Hook,249,0.0017
+Wald,249,0.0017
+Livorno,249,0.0017
+Willich,249,0.0017
+Neuchâtel,248,0.0017
+Newcastle,248,0.0017
+Ulu Bedok,248,0.0017
+Newburgh,248,0.0017
+Borehamwood,248,0.0017
+Lempster,248,0.0017
+Grimsby,247,0.0017
+Santander,247,0.0017
+Northbrook,246,0.0017
+Växjö,246,0.0017
+Klaipėda,246,0.0017
+Clausthal-Zellerfeld,246,0.0017
+Beckenham,246,0.0017
+Scunthorpe,245,0.0017
+Samsun,245,0.0017
+Santiago de los Caballeros,245,0.0017
+León de los Aldama,245,0.0017
+Castelló de la Plana,244,0.0017
+Cuneo,244,0.0017
+A Coruña,244,0.0017
+Zabrze,244,0.0017
+Kyustendil,244,0.0017
+Franco da Rocha,244,0.0017
+Sofiyivska Borschagivka,244,0.0017
+Cicero,244,0.0017
+Cần Thơ,243,0.0017
+Beaumont,243,0.0017
+Brăila,242,0.0017
+Willowdale,242,0.0017
+Nová Bystřice,242,0.0017
+San Cristóbal,242,0.0017
+Leesburg,242,0.0017
+Karlskrona,241,0.0016
+Monticello,241,0.0016
+Waalwijk,241,0.0016
+Aberdare,241,0.0016
+Felixstowe,240,0.0016
+Greensboro,240,0.0016
+Passo Fundo,239,0.0016
+Blackpool,239,0.0016
+Woodlands,239,0.0016
+Dolores Hidalgo,239,0.0016
+Waltham,239,0.0016
+Boulder,238,0.0016
+Burgdorf,238,0.0016
+Stara Zagora,238,0.0016
+Tocumen,238,0.0016
+Konolfingen,238,0.0016
+Hanam,238,0.0016
+Tegucigalpa,238,0.0016
+Dakar,238,0.0016
+Lewiston,237,0.0016
+Wilkesboro,237,0.0016
+Magdeburg,237,0.0016
+Lysaker,236,0.0016
+Montgomery,236,0.0016
+Phitsanulok,236,0.0016
+Ann Arbor,236,0.0016
+Dayton,236,0.0016
+Surat Thani,236,0.0016
+Trowbridge,236,0.0016
+Södertälje,235,0.0016
+Warren,235,0.0016
+Willemstad,235,0.0016
+Potsdam,235,0.0016
+Aracaju,235,0.0016
+Heilbronn,235,0.0016
+Dalian,235,0.0016
+Salinas,234,0.0016
+Bethlehem,234,0.0016
+Umeå,234,0.0016
+Bromsgrove,234,0.0016
+Râmnicu Vâlcea,234,0.0016
+Brusque,234,0.0016
+Virginia Beach,233,0.0016
+La Laguna,233,0.0016
+Vinh,233,0.0016
+Stara Pazova,232,0.0016
+Hamm,232,0.0016
+Yonkers,232,0.0016
+Sitten,231,0.0016
+Bắc Giang,231,0.0016
+Fiumicino,231,0.0016
+Morgantown,231,0.0016
+Santa Catalina - Dique Lujan,230,0.0016
+Kharar,230,0.0016
+Cascade,229,0.0016
+Cahul,229,0.0016
+Warwick,229,0.0016
+José C. Paz,229,0.0016
+Chippenham,229,0.0016
+Olsztyn,229,0.0016
+Stevenage,229,0.0016
+Hatfield,229,0.0016
+Hobart,228,0.0016
+Faridabad,228,0.0016
+Watford,228,0.0016
+General Alvear,228,0.0016
+Guri-si,227,0.0016
+Baryshivka,227,0.0016
+Rovereto,227,0.0016
+Sombor,227,0.0016
+Las Palmas de Gran Canaria,227,0.0016
+Esbjerg,227,0.0016
+Ciudad Guayana,227,0.0016
+Natal,227,0.0016
+Karlovo,227,0.0016
+San Miguelito,227,0.0016
+Žilina,227,0.0016
+Hermitage,226,0.0015
+Hualien City,226,0.0015
+Biggleswade,226,0.0015
+Palembang,226,0.0015
+Simpsonville,226,0.0015
+Greater Noida,226,0.0015
+Shillong,226,0.0015
+Sibiu,226,0.0015
+Karlstad,226,0.0015
+Talavera de la Reina,225,0.0015
+Gold Coast,225,0.0015
+Palmas,225,0.0015
+Algeciras,225,0.0015
+Truro,225,0.0015
+Chiayi City,225,0.0015
+Newquay,225,0.0015
+Redován,224,0.0015
+Addison,224,0.0015
+Satu Mare,224,0.0015
+Saint-Ouen-l'Aumône,224,0.0015
+Carrickfergus,224,0.0015
+Bushehr,224,0.0015
+Niterói,224,0.0015
+Kerrtown,223,0.0015
+Southern Pines,223,0.0015
+Mokotów,223,0.0015
+Fryčovice,223,0.0015
+Deal,223,0.0015
+Erbil,223,0.0015
+Bonnyrigg,222,0.0015
+Ellesmere Port Town,222,0.0015
+Isleworth,222,0.0015
+Arrecife,222,0.0015
+Braintree,222,0.0015
+Sioux Falls,222,0.0015
+Hart,221,0.0015
+Buôn Ma Thuột,221,0.0015
+Senigallia,221,0.0015
+Les Abymes,221,0.0015
+Pervomaysk,221,0.0015
+Åkersberga,221,0.0015
+Chortkiv,221,0.0015
+Terrassa,221,0.0015
+Maidstone,221,0.0015
+Ciudad del Libertador General San Martín,221,0.0015
+Brandon,220,0.0015
+Guarulhos,220,0.0015
+Gdynia,220,0.0015
+Menlo Park,219,0.0015
+Hays,219,0.0015
+Danville,219,0.0015
+Rostock,219,0.0015
+Dorchester,218,0.0015
+Dupnitsa,218,0.0015
+Anaheim,218,0.0015
+Colmar,218,0.0015
+Letchworth Garden City,218,0.0015
+Mataró,218,0.0015
+Bedford,218,0.0015
+La Rochelle,218,0.0015
+Kerkrade,218,0.0015
+Burnley,217,0.0015
+Barquisimeto,217,0.0015
+Newtown,217,0.0015
+Winsford,217,0.0015
+Regensdorf,216,0.0015
+Valera,216,0.0015
+Quilmes,216,0.0015
+Haenam,216,0.0015
+Taguig,216,0.0015
+Jinrongjie,216,0.0015
+Mae Sot,216,0.0015
+Dunfermline,216,0.0015
+Everett,215,0.0015
+Haikou,215,0.0015
+Lovech,215,0.0015
+Westville,215,0.0015
+Chattogram,214,0.0015
+Neuss,214,0.0015
+Penzance,214,0.0015
+Cancún,214,0.0015
+Colombia,214,0.0015
+Orléans,214,0.0015
+Vicenza,214,0.0015
+Amagasaki,214,0.0015
+Hadamar,213,0.0015
+Camberley,213,0.0015
+Sevenoaks,213,0.0015
+Oberengstringen,213,0.0015
+Vientiane,213,0.0015
+Andover,213,0.0015
+Ulverstone,213,0.0015
+South Portland,212,0.0015
+Florianópolis,212,0.0015
+Ramallah,212,0.0015
+Finchley,212,0.0015
+Jurong West,212,0.0015
+Phuntsholing,212,0.0015
+Fujioka,212,0.0015
+Toyama,211,0.0014
+Villejuif,211,0.0014
+São Luís,211,0.0014
+Tottenham,211,0.0014
+Leighton Buzzard,211,0.0014
+Valenciennes,210,0.0014
+Hillingdon,210,0.0014
+Haverhill,210,0.0014
+Palm Springs,210,0.0014
+Danbury,210,0.0014
+Sutton Coldfield,209,0.0014
+Pavlodar,209,0.0014
+Yeongju,209,0.0014
+Hongseong,209,0.0014
+Dispur,208,0.0014
+Feira de Santana,208,0.0014
+Badalona,208,0.0014
+Ullal,208,0.0014
+Sidcup,208,0.0014
+Clifton Forge,207,0.0014
+Magherafelt,207,0.0014
+Sumaré,207,0.0014
+Zaventem,207,0.0014
+Jyväskylä,207,0.0014
+Dunkirk,207,0.0014
+Drancy,207,0.0014
+Erlangen,207,0.0014
+Tangjin,206,0.0014
+Fairview,206,0.0014
+Kristianstad,206,0.0014
+Sabadell,206,0.0014
+Blacksburg,206,0.0014
+Labège,206,0.0014
+Zug,206,0.0014
+Haverfordwest,205,0.0014
+Caravaca,205,0.0014
+Gongju,205,0.0014
+Wayne,205,0.0014
+Okayama,204,0.0014
+Lenzburg,204,0.0014
+Gouda,204,0.0014
+Nuevo Laredo,204,0.0014
+Llanelli,204,0.0014
+Burpham,203,0.0014
+Kingston upon Thames,203,0.0014
+Friedrichshafen,203,0.0014
+Amstelveen,203,0.0014
+Newton Abbot,203,0.0014
+Maseru,203,0.0014
+Ashkelon,203,0.0014
+Kitakyushu,202,0.0014
+Anshan,202,0.0014
+Hongch’ŏn,202,0.0014
+Bytča,202,0.0014
+Saffron Walden,202,0.0014
+Altrincham,202,0.0014
+Oss,202,0.0014
+Baia Mare,201,0.0014
+Tripoli,201,0.0014
+Yilan,200,0.0014
+Hermon,200,0.0014
+Gorgān,200,0.0014
+Wädenswil,200,0.0014
+Holovanivsk,199,0.0014
+São Domingos de Rana,199,0.0014
+Surakarta,199,0.0014
+Weston-super-Mare,199,0.0014
+Hoi Fu Court,199,0.0014
+Tours,198,0.0014
+Campos dos Goytacazes,198,0.0014
+Takeo,198,0.0014
+Vadodara,198,0.0014
+Neu-Isenburg,198,0.0014
+Yazd,198,0.0014
+Barnet,198,0.0014
+Heelsum,198,0.0014
+Salzgitter,198,0.0014
+Gapyeong,197,0.0013
+Cibinong,197,0.0013
+Orihuela,197,0.0013
+Ashington,197,0.0013
+Samswegen,197,0.0013
+Trabzon,196,0.0013
+Livermore,196,0.0013
+Vigevano,196,0.0013
+Archway,196,0.0013
+Exeter,196,0.0013
+Witney,195,0.0013
+McLean,195,0.0013
+Gwangmyeong,195,0.0013
+Frýdek-Místek,195,0.0013
+Bahçelievler,195,0.0013
+Zeeland,195,0.0013
+Shāhīn Shahr,195,0.0013
+Demirtaş,194,0.0013
+Bentley,194,0.0013
+Worksop,194,0.0013
+Cwmbran,194,0.0013
+Kurume,194,0.0013
+Jakobsberg,194,0.0013
+Srīperumbūdūr,194,0.0013
+Belém,194,0.0013
+Kryvyy Rih,194,0.0013
+Hethersett,193,0.0013
+Barueri,193,0.0013
+Santa Catarina,193,0.0013
+Schaan,193,0.0013
+Overland Park,193,0.0013
+Sterling Heights,193,0.0013
+Skegness,192,0.0013
+Polonne,191,0.0013
+West Bridgford,191,0.0013
+Flint,191,0.0013
+Towcester,191,0.0013
+Tangerang,191,0.0013
+Longview,190,0.0013
+Beaconsfield,190,0.0013
+Bramley,190,0.0013
+Næstved,190,0.0013
+Windisch,190,0.0013
+Middletown,190,0.0013
+Hartland,189,0.0013
+Braga,189,0.0013
+Livonia,189,0.0013
+Bydgoszcz,189,0.0013
+Podgorica,189,0.0013
+Clitheroe,189,0.0013
+Horodok,189,0.0013
+General Pacheco,189,0.0013
+Veselí nad Moravou,189,0.0013
+Palm Beach Gardens,189,0.0013
+Maltepe,188,0.0013
+Ocoee,188,0.0013
+Ely,188,0.0013
+Yekaterinburg,188,0.0013
+Sudbury,188,0.0013
+Hitchin,188,0.0013
+Madurai,188,0.0013
+Manzini,187,0.0013
+Aylesbury,187,0.0013
+Johnson,187,0.0013
+Kaposvár,187,0.0013
+Auburn,187,0.0013
+Mexicali,187,0.0013
+New Bedford,186,0.0013
+Haskovo,186,0.0013
+Tirana,186,0.0013
+Pamulang,186,0.0013
+Nassau,186,0.0013
+Quattromiglia,186,0.0013
+Jersey City,186,0.0013
+Tottori-shi,186,0.0013
+Corby,186,0.0013
+Veliko Tŭrnovo,185,0.0013
+Gimcheon,185,0.0013
+Donghae City,185,0.0013
+Norrköping,185,0.0013
+Togoshi,185,0.0013
+Braunschweig,185,0.0013
+Juiz de Fora,185,0.0013
+Newcastle under Lyme,184,0.0013
+Georgetown,184,0.0013
+Herne,184,0.0013
+Santyoku,184,0.0013
+Quatre Bornes,184,0.0013
+Villeneuve-d'Ascq,184,0.0013
+Wembley,184,0.0013
+Teresina,184,0.0013
+Bremerhaven,184,0.0013
+Harare,183,0.0013
+Šenov,183,0.0013
+Uckfield,183,0.0013
+Reno,183,0.0013
+Lusaka,183,0.0013
+Montes Claros,183,0.0013
+Ålesund,183,0.0013
+Trieste,182,0.0012
+Almonte,182,0.0012
+Rimini,182,0.0012
+Holbeach,182,0.0012
+Tortona,182,0.0012
+Shymkent,182,0.0012
+São Bernardo do Campo,182,0.0012
+Chattanooga,182,0.0012
+Fargo,182,0.0012
+Aschaffenburg,182,0.0012
+Alton,181,0.0012
+Kanjiža,181,0.0012
+Paterna,181,0.0012
+Landshut,181,0.0012
+Bury St Edmunds,181,0.0012
+Fulham,181,0.0012
+São Gonçalo,181,0.0012
+Welwyn Garden City,180,0.0012
+Bodmin,180,0.0012
+Ichinomiya,180,0.0012
+Bedwas,180,0.0012
+Tséri,179,0.0012
+Posadas,179,0.0012
+Wausau,179,0.0012
+Seligenstadt,179,0.0012
+Ingolstadt,178,0.0012
+Dartmouth,178,0.0012
+Saarbrücken,178,0.0012
+Newton Mearns,178,0.0012
+Naka,178,0.0012
+Coleraine,178,0.0012
+Lomas de Zamora,178,0.0012
+Luziânia,178,0.0012
+Gent,178,0.0012
+Merthyr Tydfil,177,0.0012
+Nampa,177,0.0012
+Alloa,177,0.0012
+Montreuil,177,0.0012
+Mönchengladbach,177,0.0012
+Hailsham,177,0.0012
+Cottage Grove,177,0.0012
+Oviedo,177,0.0012
+Falmouth,177,0.0012
+Suita,177,0.0012
+Kashiwa,177,0.0012
+Cedar Rapids,177,0.0012
+Changhua,176,0.0012
+Vaughan,176,0.0012
+Cumming,176,0.0012
+Tōmi,176,0.0012
+Pontypridd,176,0.0012
+Venlo,176,0.0012
+Petrich,176,0.0012
+Mount Barker,175,0.0012
+Piła,175,0.0012
+Bearsden,175,0.0012
+Villahermosa,175,0.0012
+Horsens,175,0.0012
+Baden,175,0.0012
+La Molina,175,0.0012
+Minot,175,0.0012
+Tumba,174,0.0012
+Tājūrā’,174,0.0012
+Waterbury,174,0.0012
+Mukilteo,174,0.0012
+Petrópolis,174,0.0012
+Rhyl,174,0.0012
+Hartlepool,173,0.0012
+Saint-Étienne,173,0.0012
+Itajaí,173,0.0012
+Maha Sarakham,172,0.0012
+La Rinconada,172,0.0012
+Richmond Hill,172,0.0012
+Bonstetten,172,0.0012
+Saint-Beauzire,172,0.0012
+Rheine,172,0.0012
+Neumünster,171,0.0012
+Weybridge,171,0.0012
+Luleå,171,0.0012
+Miami Beach,171,0.0012
+Orhei,171,0.0012
+Chicureo,171,0.0012
+Ballymena,171,0.0012
+Garland,171,0.0012
+Pasarkemis,170,0.0012
+Nancy,170,0.0012
+Silifke,170,0.0012
+Makassar,170,0.0012
+Ulm,170,0.0012
+Harderwijk,170,0.0012
+Van,170,0.0012
+Portishead,170,0.0012
+Carapicuíba,170,0.0012
+Ouagadougou,169,0.0012
+Yuanlin,169,0.0012
+Caseros,169,0.0012
+Canvey Island,169,0.0012
+Accrington,169,0.0012
+Ivry-sur-Seine,169,0.0012
+Mito,169,0.0012
+Harpenden,169,0.0012
+Utica,169,0.0012
+Amesbury,169,0.0012
+Deyang,169,0.0012
+Grantham,168,0.0012
+Torrevieja,168,0.0012
+East Riverdale,168,0.0012
+Toyota,168,0.0012
+Nakhon Si Thammarat,168,0.0012
+Royal Oak,168,0.0012
+Cầu Giấy,168,0.0012
+Heerlen,168,0.0012
+Karben,168,0.0012
+Plainview,167,0.0011
+Saint-Maur-des-Fossés,167,0.0011
+Bolzano,167,0.0011
+Akron,167,0.0011
+Hasselt,167,0.0011
+Uxbridge,167,0.0011
+Tucker,167,0.0011
+Petrove,167,0.0011
+Aparecida de Goiânia,167,0.0011
+Ontario,167,0.0011
+Mỹ Tho,167,0.0011
+Augusta,167,0.0011
+Kolomyia,166,0.0011
+Kranj,166,0.0011
+Brovary,166,0.0011
+Windsor,166,0.0011
+Tandil,166,0.0011
+Kendal,166,0.0011
+Castalla,166,0.0011
+Neuquén,166,0.0011
+Gütersloh,166,0.0011
+Suceava,166,0.0011
+Duque de Caxias,166,0.0011
+Lod,165,0.0011
+Mersin,165,0.0011
+Maple Grove,165,0.0011
+Bielsko-Biala,165,0.0011
+Chepstow,165,0.0011
+Vila-real,165,0.0011
+Tórshavn,165,0.0011
+Cagliari,165,0.0011
+Kitchener,165,0.0011
+Rancho Cucamonga,165,0.0011
+East Dereham,165,0.0011
+Denton,165,0.0011
+Ramsgate,165,0.0011
+Antananarivo,165,0.0011
+Bayreuth,164,0.0011
+Crowborough,164,0.0011
+Leeuwarden,164,0.0011
+Medford,164,0.0011
+Vantaa,164,0.0011
+Laredo,164,0.0011
+Offenbach,164,0.0011
+Mülheim,163,0.0011
+Santos,163,0.0011
+Formosa,163,0.0011
+Greater Sudbury,163,0.0011
+Novi Beograd,163,0.0011
+Traun,163,0.0011
+Heerhugowaard,163,0.0011
+Aguascalientes,163,0.0011
+Cuiabá,163,0.0011
+Kralupy nad Vltavou,163,0.0011
+Kermanshah,162,0.0011
+Thulamahashi,162,0.0011
+Barry,162,0.0011
+Guntersblum,162,0.0011
+Wickford,162,0.0011
+Henderson,161,0.0011
+Dearborn,161,0.0011
+Gelnhausen,161,0.0011
+Tallahassee,161,0.0011
+Norwalk,161,0.0011
+Kielce,161,0.0011
+Bishop Auckland,161,0.0011
+George Town,161,0.0011
+Clemson,161,0.0011
+Lafayette,161,0.0011
+Toluca,161,0.0011
+Rushden,161,0.0011
+Great Malvern,161,0.0011
+Mauá,160,0.0011
+Abingdon,160,0.0011
+Schaerbeek,160,0.0011
+Campo Grande,160,0.0011
+Wola,159,0.0011
+Slivo Pole,159,0.0011
+Wiener Neudorf,159,0.0011
+Market Harborough,159,0.0011
+Waiouru,159,0.0011
+Siegen,159,0.0011
+Torrent,159,0.0011
+Omagh,159,0.0011
+Lorca,159,0.0011
+Shumen,159,0.0011
+Thiruvananthapuram,159,0.0011
+Bamako,158,0.0011
+Pontefract,158,0.0011
+Kelowna,158,0.0011
+Meaux,158,0.0011
+Thāne,158,0.0011
+Taylor,158,0.0011
+Alzira,158,0.0011
+Waringstown,158,0.0011
+Keighley,158,0.0011
+Sant Cugat del Vallès,158,0.0011
+Malinová,157,0.0011
+Stange,157,0.0011
+Redruth,156,0.0011
+Talence,156,0.0011
+Welling,156,0.0011
+Changnyeong,156,0.0011
+Raunds,156,0.0011
+Chaguanas,155,0.0011
+Sleaford,155,0.0011
+Greenwich,155,0.0011
+Níkaia,155,0.0011
+Ciudad Juárez,155,0.0011
+Saint Helier,155,0.0011
+Olivos,155,0.0011
+Stade,155,0.0011
+San Rafael,155,0.0011
+Dĩ An,155,0.0011
+Gladewater,154,0.0011
+Havířov,154,0.0011
+Irbid,154,0.0011
+Bucaramanga,154,0.0011
+Dobrovelychkivka,154,0.0011
+Montataire,154,0.0011
+Witham,154,0.0011
+Rosenau,153,0.001
+Lehi,153,0.001
+Schwechat,153,0.001
+Encanto,153,0.001
+Reigate,153,0.001
+Campina Grande,153,0.001
+Poulton-le-Fylde,153,0.001
+Contagem,153,0.001
+Nacka,153,0.001
+T’aebaek,153,0.001
+South Miami,153,0.001
+Berezhany,153,0.001
+Ikoma,152,0.001
+Blainville,152,0.001
+São José dos Campos,152,0.001
+Sumy,152,0.001
+Chelmsley Wood,152,0.001
+Manappakkam,152,0.001
+Gasteiz / Vitoria,152,0.001
+Zaporizhzhya,152,0.001
+Gatineau,152,0.001
+Ciudad Apodaca,151,0.001
+Sonīpat,151,0.001
+Nara-shi,151,0.001
+Neath,151,0.001
+Rondonópolis,151,0.001
+Waxahachie,151,0.001
+Tarnów,151,0.001
+Deeside,151,0.001
+Uherské Hradiště,151,0.001
+Ludhiāna,151,0.001
+Marburg an der Lahn,151,0.001
+Poplar,151,0.001
+Saltillo,151,0.001
+Mobile,151,0.001
+Purcellville,150,0.001
+Morecambe,150,0.001
+Zenica,150,0.001
+Hermosillo,150,0.001
+West Ealing,150,0.001
+Miyazaki,150,0.001
+Lippstadt,150,0.001
+Maracay,150,0.001
+Poltava,150,0.001
+Argenteuil,150,0.001
+Fürth,149,0.001
+Patna,149,0.001
+Göppingen,149,0.001
+Capaccio Scalo,149,0.001
+Aarau,149,0.001
+Universidad,148,0.001
+Road Town,148,0.001
+Kalamazoo,148,0.001
+David,148,0.001
+Newmarket,148,0.001
+Pescara,148,0.001
+Faaa,148,0.001
+Cileungsir,148,0.001
+Nouakchott,148,0.001
+Cheadle,148,0.001
+La Línea de la Concepción,148,0.001
+Zibo,148,0.001
+Milton,148,0.001
+Monzen-nakachō,148,0.001
+Maldonado,147,0.001
+Chorley,147,0.001
+Tepatitlán de Morelos,147,0.001
+Cà Mau,147,0.001
+Kampung Baru Balakong,147,0.001
+Nagasaki,147,0.001
+Saint Joseph,147,0.001
+Lenexa,147,0.001
+Düdingen,147,0.001
+Tucson,147,0.001
+Rockville,147,0.001
+Ōtsu,147,0.001
+Ranchi,147,0.001
+Kilburn,146,0.001
+Gwangyang,146,0.001
+Anápolis,146,0.001
+Assendelft,146,0.001
+Goes,146,0.001
+Haninge,146,0.001
+Hradec Králové,146,0.001
+Selby,146,0.001
+Pinerolo,146,0.001
+Vilhena,146,0.001
+Covington,146,0.001
+Camborne,146,0.001
+Rock Hill,146,0.001
+Orūmīyeh,145,0.001
+Vijayawada,145,0.001
+Halstead,145,0.001
+Le Soler,145,0.001
+Gujranwala,145,0.001
+Porto Velho,145,0.001
+Haslemere,145,0.001
+Beccles,145,0.001
+Conway,145,0.001
+Launceston,145,0.001
+Hillside,145,0.001
+Morley,145,0.001
+Uzhhorod,145,0.001
+Reus,145,0.001
+Wettingen,145,0.001
+Milford,145,0.001
+Clermont-Ferrand,145,0.001
+Bussum,145,0.001
+Vratsa,145,0.001
+Hinckley,145,0.001
+Qinghe,145,0.001
+Pensacola,145,0.001
+Burnaby,145,0.001
+Arapiraca,144,0.001
+Bến Tre,144,0.001
+Mendoza,144,0.001
+Ahrensburg,144,0.001
+La Spezia,144,0.001
+Ravenna,144,0.001
+Hilversum,144,0.001
+Ansbach,144,0.001
+Tuen Mun,144,0.001
+Pardubice,144,0.001
+Canton,144,0.001
+Clinton Township,143,0.001
+Tartu,143,0.001
+Duluth,143,0.001
+Santo André,143,0.001
+Chōfu,143,0.001
+Castleford,143,0.001
+Delfzijl,143,0.001
+Oosterhout,143,0.001
+Vila Nova de Gaia,143,0.001
+Torrelavega,142,0.001
+Uddevalla,142,0.001
+Bur Dubai,142,0.001
+Buxton,142,0.001
+Kfar H̱abad,142,0.001
+Stockton,142,0.001
+Lawrence,142,0.001
+Pleasanton,142,0.001
+Weeze,142,0.001
+Yakima,142,0.001
+North Canton,141,0.001
+Carmona,141,0.001
+Midsomer Norton,141,0.001
+Langen,141,0.001
+Norman,141,0.001
+Narashino,141,0.001
+Panthersville,141,0.001
+Niš,141,0.001
+San Bernardino,140,0.001
+Katwijk aan Zee,140,0.001
+Gebze,140,0.001
+Elda,140,0.001
+Coral Gables,140,0.001
+Thame,140,0.001
+Cramlington,140,0.001
+Gießen,140,0.001
+Krasyliv,140,0.001
+Belleville,140,0.001
+Ayní,140,0.001
+Jaboatão,140,0.001
+Goldens Bridge,140,0.001
+Aomori,140,0.001
+Kostinbrod,140,0.001
+Guadalupe,140,0.001
+Rosenheim,139,0.001
+Upminster,139,0.001
+Leverkusen,139,0.001
+Corpus Christi,139,0.001
+Almelo,139,0.001
+Prešov,139,0.001
+Waterloo,139,0.001
+Seaford,139,0.001
+Slatina,139,0.001
+Berkhamsted,139,0.001
+Lanús,139,0.001
+Stafford,139,0.001
+Bottrop,138,0.0009
+Addis Ababa,138,0.0009
+Karaj,138,0.0009
+Calafell,138,0.0009
+Helmond,138,0.0009
+Pazardzhik,138,0.0009
+Winston-Salem,138,0.0009
+Hauppauge,138,0.0009
+Deventer,137,0.0009
+Sparta,137,0.0009
+Araguaína,137,0.0009
+Prairieville,137,0.0009
+Pforzheim,137,0.0009
+Bayamón,137,0.0009
+Aktau,137,0.0009
+Nesebar,137,0.0009
+Schotten,137,0.0009
+Gifu,137,0.0009
+Ithaca,137,0.0009
+Capelle aan den IJssel,136,0.0009
+Mostar,136,0.0009
+Pátra,136,0.0009
+Beaverton,136,0.0009
+Burgess Hill,136,0.0009
+Turlock,136,0.0009
+Bootle,136,0.0009
+Mijas,136,0.0009
+Delmenhorst,136,0.0009
+Male,136,0.0009
+Zhytomyr,136,0.0009
+Stone,136,0.0009
+Long Xuyên,136,0.0009
+Dorking,136,0.0009
+Ambato,135,0.0009
+Takamatsu,135,0.0009
+Vestby,135,0.0009
+Bideford,135,0.0009
+Suqian,135,0.0009
+Amadora,135,0.0009
+Daytona Beach,135,0.0009
+Devizes,135,0.0009
+Saint-Nazaire-le-Désert,135,0.0009
+Matsue,135,0.0009
+Burgos,135,0.0009
+New Concord,135,0.0009
+Āsansol,135,0.0009
+Mission,134,0.0009
+Llandudno,134,0.0009
+Frome,134,0.0009
+Ashton-under-Lyne,134,0.0009
+Smyrna,134,0.0009
+Viborg,134,0.0009
+Lidköping,134,0.0009
+Rosny-sous-Bois,134,0.0009
+Alphen aan den Rijn,134,0.0009
+Fujisawa,134,0.0009
+Colón,134,0.0009
+Billings,134,0.0009
+Whittier,133,0.0009
+Vũng Tàu,133,0.0009
+Lleida,133,0.0009
+Myrtle Beach,133,0.0009
+Erie,133,0.0009
+Esher,133,0.0009
+Halle (Saale),133,0.0009
+Gabrovo,133,0.0009
+Kokomo,133,0.0009
+Issy-les-Moulineaux,133,0.0009
+Fulda,133,0.0009
+South Bend,133,0.0009
+Melle,133,0.0009
+Bluffton,133,0.0009
+Yate,133,0.0009
+Leyland,133,0.0009
+Liskeard,133,0.0009
+Musashino,133,0.0009
+Limburg an der Lahn,133,0.0009
+Chornomors’k,133,0.0009
+Ituzaingó,132,0.0009
+Svishtov,132,0.0009
+Sfax,132,0.0009
+Östersund,132,0.0009
+Arāk,132,0.0009
+Congleton,132,0.0009
+Pinner,132,0.0009
+Paracuellos de Jarama,132,0.0009
+Tung Chung,132,0.0009
+Al Ain City,132,0.0009
+Maracaibo,132,0.0009
+Torreón,132,0.0009
+Roseville,132,0.0009
+Sheerness,132,0.0009
+Apopka,131,0.0009
+Hawthorne,131,0.0009
+Bridgnorth,131,0.0009
+Bel Air,131,0.0009
+Charleroi,131,0.0009
+Hildesheim,131,0.0009
+Kovin,131,0.0009
+McAllen,131,0.0009
+Regina,131,0.0009
+Morón,131,0.0009
+Langfang,131,0.0009
+Blackwood,131,0.0009
+Kashar,131,0.0009
+Mladenovac,131,0.0009
+Lichfield,130,0.0009
+Formby,130,0.0009
+Geelong,130,0.0009
+Newton Aycliffe,130,0.0009
+Freienbach,130,0.0009
+Miercurea-Ciuc,130,0.0009
+Sakai,130,0.0009
+Giv'at Shmuel,130,0.0009
+Zográfos,130,0.0009
+Santo Domingo de los Colorados,130,0.0009
+Meridian,130,0.0009
+Dunstable,130,0.0009
+Egersund,130,0.0009
+Botevgrad,130,0.0009
+Bowling Green,129,0.0009
+Chandler,129,0.0009
+Elmshorn,129,0.0009
+Kanda-jinbōchō,129,0.0009
+Varberg,129,0.0009
+Gijón,129,0.0009
+Santa Barbara,129,0.0009
+Oakham,129,0.0009
+Thatcham,129,0.0009
+Cricklewood,129,0.0009
+Køge,129,0.0009
+Neubrandenburg,129,0.0009
+Coalville,129,0.0009
+Santa Luzia,129,0.0009
+Potters Bar,129,0.0009
+Rājkot,129,0.0009
+Larne,129,0.0009
+Narita,128,0.0009
+Jeongeup,128,0.0009
+Assen,128,0.0009
+Nishinomiya,128,0.0009
+Aulnay-sous-Bois,128,0.0009
+Granollers,128,0.0009
+Nitra,128,0.0009
+Kimje,128,0.0009
+Craigavon,128,0.0009
+Nonsan,128,0.0009
+Kokkola,128,0.0009
+Niiza,128,0.0009
+Auroville,128,0.0009
+Hạ Long,128,0.0009
+Solingen,128,0.0009
+Vimercate,127,0.0009
+Oggiono,127,0.0009
+Woodstock,127,0.0009
+Balakliia,127,0.0009
+Carrollton,127,0.0009
+Eskilstuna,127,0.0009
+Vĩnh Yên,127,0.0009
+Heanor,127,0.0009
+Limoges,127,0.0009
+Mungyeong,127,0.0009
+Ferndown,127,0.0009
+Besançon,127,0.0009
+Santa Maria,127,0.0009
+Petrolina,127,0.0009
+Villa Sarmiento,126,0.0009
+Orpington,126,0.0009
+Lerum,126,0.0009
+Marlborough,126,0.0009
+Martin,126,0.0009
+Taos,126,0.0009
+Wierden,126,0.0009
+Zárate,126,0.0009
+Tigre,126,0.0009
+Ningde,126,0.0009
+São Carlos,126,0.0009
+Revava,126,0.0009
+Hyderabad,125,0.0009
+Kuala Selangor,125,0.0009
+Skelmersdale,125,0.0009
+Alcoy,125,0.0009
+Centennial,125,0.0009
+South Jordan,125,0.0009
+March,125,0.0009
+Bethesda,125,0.0009
+Veracruz,125,0.0009
+Betim,124,0.0008
+Korneuburg,124,0.0008
+Lapid,124,0.0008
+Shipley,124,0.0008
+Urmston,124,0.0008
+Nantou,124,0.0008
+Marlow,124,0.0008
+Divinópolis,124,0.0008
+Franca,124,0.0008
+Nihonbashi-Kayabachō,124,0.0008
+Lachen,124,0.0008
+Pelotas,124,0.0008
+Villeurbanne,124,0.0008
+Oujda,124,0.0008
+Ascot,124,0.0008
+Ringwood,124,0.0008
+Douliu,124,0.0008
+Samut Prakan,124,0.0008
+Ripon,124,0.0008
+Pistoia,124,0.0008
+Chesham,123,0.0008
+Spokane,123,0.0008
+Montrose,123,0.0008
+Failsworth,123,0.0008
+Velika Plana,123,0.0008
+La Crosse,123,0.0008
+Vladivostok,123,0.0008
+Paramaribo,123,0.0008
+Tubarão,123,0.0008
+Markham,123,0.0008
+West Bend,122,0.0008
+Walton-on-Thames,122,0.0008
+Conroe,122,0.0008
+Bourne,122,0.0008
+Gainsborough,122,0.0008
+Helston,122,0.0008
+San Justo,122,0.0008
+Liège,122,0.0008
+Thibodaux,122,0.0008
+Kotka,122,0.0008
+Bucak,122,0.0008
+Tokushima,122,0.0008
+Qom,122,0.0008
+Lancenigo-Villorba,122,0.0008
+Havana,122,0.0008
+Mont-Laurier,122,0.0008
+Treviso,122,0.0008
+Kampung Sungai Ara,122,0.0008
+Lubbock,122,0.0008
+Mount Vernon,122,0.0008
+Barneveld,122,0.0008
+Hendrik-Ido-Ambacht,122,0.0008
+Salo,122,0.0008
+Queen's Terrace,121,0.0008
+Gorzów Wielkopolski,121,0.0008
+Cuautitlán Izcalli,121,0.0008
+Kassel,121,0.0008
+Keelung,121,0.0008
+Crowthorne,121,0.0008
+Diyarbakır,121,0.0008
+Dehra Dūn,121,0.0008
+Adrogué,121,0.0008
+Koshigaya,121,0.0008
+Rasapūdipalem,121,0.0008
+Warīsān,121,0.0008
+Waegwan,120,0.0008
+Celebration,120,0.0008
+Driebergen-Rijsenburg,120,0.0008
+Le Vésinet,120,0.0008
+Naperville,120,0.0008
+Espelkamp,120,0.0008
+Acton,120,0.0008
+Bistriţa,120,0.0008
+Kafr Qāsim,120,0.0008
+Fuchū,120,0.0008
+Santana de Parnaíba,120,0.0008
+Cambrai,120,0.0008
+Upplands Väsby,120,0.0008
+Jesenice,120,0.0008
+Bradwell,120,0.0008
+Northolt,119,0.0008
+Ciudad del Este,119,0.0008
+Kanazawa,119,0.0008
+Juru,119,0.0008
+Diss,119,0.0008
+Ramsey,119,0.0008
+Fleet,119,0.0008
+Aldaia,119,0.0008
+Neumarkt in der Oberpfalz,119,0.0008
+Johnstown,119,0.0008
+Maitland,119,0.0008
+Ellenton,119,0.0008
+Binfield,119,0.0008
+Banjar,119,0.0008
+Reggio nell'Emilia,118,0.0008
+Junín,118,0.0008
+Cornaredo,118,0.0008
+Donostia / San Sebastián,118,0.0008
+Moers,118,0.0008
+Ivano-Frankivsk,118,0.0008
+Blandford Forum,118,0.0008
+Xánthi,118,0.0008
+Clydebank,118,0.0008
+Penrith,118,0.0008
+Bandar Lampung,118,0.0008
+Żyrardów,118,0.0008
+Fleetwood,118,0.0008
+Leyton,118,0.0008
+Greenfield,118,0.0008
+Hucknall,117,0.0008
+Fakenham,117,0.0008
+Hyde,117,0.0008
+Longueuil,117,0.0008
+Manizales,117,0.0008
+Vordingborg,117,0.0008
+Belford Roxo,117,0.0008
+Pickering,117,0.0008
+Koh Tao,117,0.0008
+Edgware,117,0.0008
+Cranleigh,117,0.0008
+Mayagüez,117,0.0008
+Chernivtsi,117,0.0008
+Chaiyaphum,117,0.0008
+Eisen,117,0.0008
+Radom,117,0.0008
+Ponce,116,0.0008
+Meerut,116,0.0008
+Cottbus,116,0.0008
+Torrance,116,0.0008
+Parla,116,0.0008
+Sertãozinho,116,0.0008
+Mechelen,116,0.0008
+Ashton in Makerfield,116,0.0008
+Jämsä,116,0.0008
+Takasaki,116,0.0008
+Harlingen,116,0.0008
+Vilafranca del Penedès,116,0.0008
+Mölndal,116,0.0008
+Hoorn,115,0.0008
+Inagi,115,0.0008
+Centereach,115,0.0008
+Lingen,115,0.0008
+Lidingö,115,0.0008
+Carlsbad,115,0.0008
+Oberhausen,115,0.0008
+Alajuela,115,0.0008
+Pangawaren,115,0.0008
+Trento,115,0.0008
+Los Reyes de Salgado,115,0.0008
+Langenfeld,115,0.0008
+Slagelse,115,0.0008
+Resistencia,115,0.0008
+Urrugne,114,0.0008
+Kerman,114,0.0008
+Manisa,114,0.0008
+Ramat HaSharon,114,0.0008
+Chard,114,0.0008
+Ammanford,114,0.0008
+Bijeljina,114,0.0008
+Oude Meer,114,0.0008
+Ciudad General Escobedo,114,0.0008
+Gadegast,114,0.0008
+Scarsdale,114,0.0008
+Liberty Lake,113,0.0008
+Vila Velha,113,0.0008
+Cadiz,113,0.0008
+Diadema,113,0.0008
+Greenmount,113,0.0008
+Cerny,113,0.0008
+Veenendaal,113,0.0008
+St Albans,113,0.0008
+Los Altos Hills,113,0.0008
+Missoula,113,0.0008
+Messina,113,0.0008
+Broadlands,113,0.0008
+New Haven,113,0.0008
+Ðà Lạt,113,0.0008
+Krefeld,113,0.0008
+Wigston Magna,113,0.0008
+Mulhouse,113,0.0008
+Morrisville,112,0.0008
+Kennesaw,112,0.0008
+El Puerto de Santa María,112,0.0008
+Votorantim,112,0.0008
+Barra Mansa,112,0.0008
+Purmerend,112,0.0008
+Sindelfingen,112,0.0008
+San Luis Potosí,112,0.0008
+Savannah,112,0.0008
+Perchtoldsdorf,112,0.0008
+Isla Vista,112,0.0008
+Faversham,112,0.0008
+León,112,0.0008
+Kuching,112,0.0008
+Başakşehir,112,0.0008
+Zaandam,112,0.0008
+Kearney,112,0.0008
+Schwerte,112,0.0008
+Pergamino,112,0.0008
+Dijon,112,0.0008
+Sligo,112,0.0008
+Waddinxveen,112,0.0008
+Droitwich,112,0.0008
+Massy,111,0.0008
+Pisa,111,0.0008
+San Miguel de Tucumán,111,0.0008
+Spokane Valley,111,0.0008
+Monmouth,111,0.0008
+Jena,111,0.0008
+Kirkland,111,0.0008
+Ellsworth,111,0.0008
+Oberursel,111,0.0008
+Zbąszyń,111,0.0008
+Palencia,111,0.0008
+Gazipur,111,0.0008
+Balingen,111,0.0008
+Whitchurch,110,0.0008
+Nha Trang,110,0.0008
+Ratingen,110,0.0008
+Eau Claire,110,0.0008
+Väimela,110,0.0008
+Sölvesborg,110,0.0008
+Exmouth,110,0.0008
+Tuttlingen,110,0.0008
+Whitehaven,110,0.0008
+Abilene,110,0.0008
+Kinshasa,110,0.0008
+Woerden,110,0.0008
+Montecchio Maggiore-Alte Ceccato,110,0.0008
+Round Rock,110,0.0008
+Siliguri,110,0.0008
+Muan,110,0.0008
+Vyshneve,109,0.0007
+Brunn am Gebirge,109,0.0007
+Miryang,109,0.0007
+Sorocaba,109,0.0007
+Noginsk,109,0.0007
+Pyeongchang,109,0.0007
+Bruntál,109,0.0007
+Aabenraa,109,0.0007
+San Miguel Ajusco,109,0.0007
+Givatayim,109,0.0007
+Ko Samui,109,0.0007
+Bicester,109,0.0007
+Nilópolis,109,0.0007
+Storrington,109,0.0007
+Port-au-Prince,109,0.0007
+Caen,109,0.0007
+Honiara,109,0.0007
+Leobersdorf,109,0.0007
+Konin,109,0.0007
+Lofthouse,109,0.0007
+Gleneagle,109,0.0007
+Niederkrüchten,109,0.0007
+Lehigh Acres,109,0.0007
+Secunderabad,109,0.0007
+Tonypandy,108,0.0007
+Pantin,108,0.0007
+Rijswijk,108,0.0007
+Fukui-shi,108,0.0007
+Woluwe-Saint-Lambert,108,0.0007
+Grand Prairie,108,0.0007
+Santa Clarita,108,0.0007
+Alnwick,108,0.0007
+Pouso Alegre,108,0.0007
+Eagan,108,0.0007
+Huntington,108,0.0007
+Cermenate,108,0.0007
+Aalen,108,0.0007
+Blyth,108,0.0007
+Tyler,107,0.0007
+Eltham,107,0.0007
+Nyköping,107,0.0007
+Mödling,107,0.0007
+Kecskemét,107,0.0007
+Versailles,107,0.0007
+Ta’if,107,0.0007
+Mombasa,107,0.0007
+Renton,107,0.0007
+Ludlow,107,0.0007
+Holyhead,107,0.0007
+Peterlee,107,0.0007
+Port Chester,106,0.0007
+Sollentuna,106,0.0007
+Paulista,106,0.0007
+Częstochowa,106,0.0007
+Hertford,106,0.0007
+Clovis,106,0.0007
+Clinton,106,0.0007
+Hanau am Main,106,0.0007
+Gaborone,106,0.0007
+Aktobe,106,0.0007
+Newark on Trent,106,0.0007
+Zhubei,106,0.0007
+Cung Kiệm,106,0.0007
+Newport Pagnell,106,0.0007
+Modesto,106,0.0007
+Cergy-Pontoise,106,0.0007
+Waco,106,0.0007
+Ruislip,106,0.0007
+Yad Binyamin,105,0.0007
+Prilep,105,0.0007
+Marshall,105,0.0007
+Holland,105,0.0007
+Morriston,105,0.0007
+Wiener Neustadt,105,0.0007
+Chapel Hill,105,0.0007
+Uście Gorlickie,105,0.0007
+Feltham,105,0.0007
+Salta,105,0.0007
+Randers,105,0.0007
+Loures,105,0.0007
+Worms,105,0.0007
+Prestatyn,105,0.0007
+Orange,105,0.0007
+Harrisburg,105,0.0007
+Radomir,105,0.0007
+Saint-Herblain,105,0.0007
+Mildenhall,105,0.0007
+Bragança Paulista,105,0.0007
+Farmington,105,0.0007
+Toulon,105,0.0007
+Blantyre,105,0.0007
+Reutlingen,105,0.0007
+Antrim,105,0.0007
+Vespasiano,105,0.0007
+Trnava,105,0.0007
+Székesfehérvár,105,0.0007
+Schiedam,105,0.0007
+Dornbirn,104,0.0007
+Carmarthen,104,0.0007
+Ursynów,104,0.0007
+Houghton-Le-Spring,104,0.0007
+Minato,104,0.0007
+Ajman City,104,0.0007
+Tsukuba,104,0.0007
+Banská Bystrica,104,0.0007
+Arnold,104,0.0007
+San Nicolás de los Arroyos,104,0.0007
+Cham,104,0.0007
+Palmer,104,0.0007
+Bhātpāra,103,0.0007
+Boucherville,103,0.0007
+Ostend,103,0.0007
+Funchal,103,0.0007
+Skipton,103,0.0007
+Beaufort,103,0.0007
+Brinklow,103,0.0007
+Olavarría,103,0.0007
+Bergen op Zoom,103,0.0007
+Klosterneuburg,103,0.0007
+Retford,103,0.0007
+Zbarazh,103,0.0007
+Pleiku,103,0.0007
+Attleborough,103,0.0007
+Marion,103,0.0007
+Houghton,103,0.0007
+Yokkaichi,103,0.0007
+Glendale,103,0.0007
+Amersham,103,0.0007
+Río Cuarto,103,0.0007
+Streatham,102,0.0007
+Ludwigshafen am Rhein,102,0.0007
+Jamshedpur,102,0.0007
+Hialeah,102,0.0007
+Canoas,102,0.0007
+Rainham,102,0.0007
+Kremenchuk,102,0.0007
+Arlington Heights,102,0.0007
+Villanueva de la Cañada,102,0.0007
+Poços de Caldas,102,0.0007
+Tübingen,102,0.0007
+Desteldonk,102,0.0007
+Chiang Rai,102,0.0007
+Sandridge,102,0.0007
+Sora,102,0.0007
+Bay City,102,0.0007
+Louth,102,0.0007
+Hagen,102,0.0007
+Pontypool,102,0.0007
+Volta Redonda,102,0.0007
+Puerto Real,102,0.0007
+Schwalmstadt,102,0.0007
+Banstead,102,0.0007
+Bohodukhiv,102,0.0007
+Runcorn,102,0.0007
+Saratov,102,0.0007
+Târgu Jiu,101,0.0007
+Swinton,101,0.0007
+Gotse Delchev,101,0.0007
+Érd,101,0.0007
+Horgen,101,0.0007
+Great Sankey,101,0.0007
+Cascavel,101,0.0007
+Hoàn Kiếm,101,0.0007
+Az Zubayr,101,0.0007
+Thái Nguyên,101,0.0007
+Champs-sur-Marne,101,0.0007
+Derry,101,0.0007
+Örnsköldsvik,101,0.0007
+As Sulaymānīyah,101,0.0007
+Jakobstad,101,0.0007
+Chihuahua,101,0.0007
+Ahascragh,101,0.0007
+Stanley,101,0.0007
+Wageningen,101,0.0007
+Littlehampton,101,0.0007
+Kingsbridge,101,0.0007
+Şişli,101,0.0007
+Lebanon,100,0.0007
+Borgetto,100,0.0007
+Fontenay-sous-Bois,100,0.0007
+Cherkasy,100,0.0007
+Gaithersburg,100,0.0007
+Korschenbroich,100,0.0007
+Boa Vista,100,0.0007
+Peshawar,100,0.0007
+Sanok,100,0.0007
+Ibbenbueren,100,0.0007
+Evere,100,0.0007
+White Plains,100,0.0007
+Gandhinagar,100,0.0007
+Offenburg,100,0.0007
+Spalding,100,0.0007
+Naha,100,0.0007
+Peachtree Corners,100,0.0007
+Barranquilla,100,0.0007
+Ospedaletto Lodigiano,100,0.0007
+Grand Forks,100,0.0007
+Wiang Sa,100,0.0007
+Smolyan,100,0.0007
+Saint George,100,0.0007
+Kraljevo,100,0.0007
+Enns,100,0.0007
+Teresópolis,99,0.0007
+Eskişehir,99,0.0007
+East Ham,99,0.0007
+Yesan,99,0.0007
+Steyr,99,0.0007
+Leer,99,0.0007
+Bingley,99,0.0007
+Moncalieri,99,0.0007
+Drummondville,99,0.0007
+Bocholt,99,0.0007
+Botoşani,99,0.0007
+Kanye,99,0.0007
+Oeiras,99,0.0007
+Dos Hermanas,99,0.0007
+Petersfield,99,0.0007
+Mount Pleasant,99,0.0007
+Kanpur,99,0.0007
+King's Lynn,98,0.0007
+Kalmar,98,0.0007
+Maldon,98,0.0007
+Carshalton,98,0.0007
+Costessey,98,0.0007
+Bălţi,98,0.0007
+Katy,98,0.0007
+Redondo Beach,98,0.0007
+Hebron,98,0.0007
+Matlock,98,0.0007
+Santarém,98,0.0007
+Châtillon,98,0.0007
+Schkeuditz,98,0.0007
+Lymington,98,0.0007
+Ogden,98,0.0007
+Ramla,98,0.0007
+Consett,98,0.0007
+Kempten (Allgäu),98,0.0007
+Charlottesville,97,0.0007
+Jamnagar,97,0.0007
+Admont,97,0.0007
+Horley,97,0.0007
+Carolina,97,0.0007
+Trois-Rivières,97,0.0007
+Heumen,97,0.0007
+Quận Một,97,0.0007
+Loughton,97,0.0007
+Ames,97,0.0007
+Canning Town,97,0.0007
+Vreden,97,0.0007
+Banbridge,97,0.0007
+Mason,97,0.0007
+Ahvaz,97,0.0007
+Concepción,97,0.0007
+Brest,97,0.0007
+Frisco,97,0.0007
+Worcester Park,96,0.0007
+Caruaru,96,0.0007
+Santo Domingo Oeste,96,0.0007
+Yokosuka,96,0.0007
+Banchory,96,0.0007
+Warboys,96,0.0007
+Londrina,96,0.0007
+Forfar,96,0.0007
+Beverwijk,96,0.0007
+Somerville,96,0.0007
+Brooklyn,96,0.0007
+Inglewood,96,0.0007
+Saga,96,0.0007
+Schenectady,95,0.0007
+Newton,95,0.0007
+Jurong Town,95,0.0007
+Thorne,95,0.0007
+Parsippany,95,0.0007
+Emmen,95,0.0007
+Hardenberg,95,0.0007
+Irapuato,95,0.0007
+Mohali,95,0.0007
+Villa María,95,0.0007
+Moncton,95,0.0007
+Newberry,95,0.0007
+Saint Andrews,95,0.0007
+Kinnegad,95,0.0007
+Bucha,95,0.0007
+Eksjö,95,0.0007
+Almada,95,0.0007
+Bismarck,95,0.0007
+Barakaldo,95,0.0007
+Buckley,95,0.0007
+South Benfleet,95,0.0007
+Somerset,95,0.0007
+Oliveira,95,0.0007
+Zlín,95,0.0007
+Leawood,95,0.0007
+Sidoarjo,95,0.0007
+Clarksville,95,0.0007
+Gelsenkirchen,94,0.0006
+Temecula,94,0.0006
+Laventille,94,0.0006
+Al Jubayl,94,0.0006
+Macaé,94,0.0006
+Sfântu Gheorghe,94,0.0006
+Carbonia,94,0.0006
+Zhongwei,94,0.0006
+Idaho Falls,94,0.0006
+Arusha,94,0.0006
+San Luis,94,0.0006
+Swadlincote,94,0.0006
+Hà Đông,94,0.0006
+Sheridan,94,0.0006
+Culiacán,94,0.0006
+Osterley,94,0.0006
+Kazan,94,0.0006
+Como,94,0.0006
+Cirencester,94,0.0006
+Hudiksvall,94,0.0006
+Pointe-à-Pitre,94,0.0006
+Tokorozawa,94,0.0006
+Ebina,94,0.0006
+Prees,94,0.0006
+Jepara,93,0.0006
+Kamloops,93,0.0006
+Coquitlam,93,0.0006
+Garden Grove,93,0.0006
+Dungannon,93,0.0006
+Stretford,93,0.0006
+Taranto,93,0.0006
+Caucaia,93,0.0006
+Abuja,93,0.0006
+Vallentuna,93,0.0006
+Wenatchee,93,0.0006
+Watertown,93,0.0006
+Bābol,93,0.0006
+Anderson,93,0.0006
+Peterhead,93,0.0006
+Rabat,93,0.0006
+Zvezdara,93,0.0006
+Kochi,93,0.0006
+Colwyn Bay,93,0.0006
+Đồng Hới,93,0.0006
+Altoona,93,0.0006
+Mykolayiv,93,0.0006
+Sangju,93,0.0006
+Didsbury,93,0.0006
+Skövde,92,0.0006
+Ashland,92,0.0006
+Ōita,92,0.0006
+Stratford,92,0.0006
+Bamberg,92,0.0006
+Sankt Johann im Pongau,92,0.0006
+Vaslui,92,0.0006
+Auburn Hills,92,0.0006
+Leatherhead,92,0.0006
+Euskirchen,92,0.0006
+Coeur d'Alene,92,0.0006
+Pau,92,0.0006
+Kleve,92,0.0006
+Kouvola,92,0.0006
+Hollywood,92,0.0006
+Comodoro Rivadavia,92,0.0006
+Chapeltown,92,0.0006
+Amherst,92,0.0006
+Coimbra,92,0.0006
+Malang,92,0.0006
+Davenport,92,0.0006
+Clayton,92,0.0006
+Manises,92,0.0006
+Sete Lagoas,91,0.0006
+Tungi,91,0.0006
+Stavropol’,91,0.0006
+Ellwangen,91,0.0006
+Hof,91,0.0006
+Ronneby,91,0.0006
+Broughton,91,0.0006
+Cotia,91,0.0006
+Zielona Góra,91,0.0006
+Honiton,91,0.0006
+Thornton Heath,91,0.0006
+Skanderborg,91,0.0006
+Carbondale,91,0.0006
+Limbach-Oberfrohna,91,0.0006
+Passau,91,0.0006
+Henley-on-Thames,91,0.0006
+Cayenne,91,0.0006
+Vénissieux,91,0.0006
+Thousand Oaks,91,0.0006
+Uruca,91,0.0006
+Thrapston,91,0.0006
+Waltham Abbey,91,0.0006
+Beauvais,91,0.0006
+San Miguel,91,0.0006
+Panevėžys,91,0.0006
+Soest,91,0.0006
+Houten,91,0.0006
+Lage,91,0.0006
+Workington,91,0.0006
+Speyer,91,0.0006
+El Ejido,91,0.0006
+Miskolc,91,0.0006
+Pinto,90,0.0006
+Hashtsāl,90,0.0006
+High Point,90,0.0006
+Waterford,90,0.0006
+Thái Bình,90,0.0006
+Oxnard,90,0.0006
+Leominster,90,0.0006
+Elbląg,90,0.0006
+Myyrmäki,90,0.0006
+San Fernando,90,0.0006
+Seminole,90,0.0006
+Appleton,90,0.0006
+Swanley,90,0.0006
+K’asp’i,90,0.0006
+Zeist,90,0.0006
+Puchong,90,0.0006
+Hunedoara,90,0.0006
+Ontinyent,90,0.0006
+Pomona,90,0.0006
+Alba Iulia,90,0.0006
+Hedge End,90,0.0006
+Amarillo,90,0.0006
+Jordan,90,0.0006
+Baden-Baden,90,0.0006
+Bet H̱ashmonay,90,0.0006
+Dededo Village,89,0.0006
+Camaçari,89,0.0006
+Sittard,89,0.0006
+Rafaela,89,0.0006
+Francisco Morato,89,0.0006
+Walla Walla,89,0.0006
+Bellerose Terrace,89,0.0006
+Vilanova i la Geltrú,89,0.0006
+Üsküdar,89,0.0006
+Roth,89,0.0006
+Schwabach,89,0.0006
+Nizhniy Novgorod,89,0.0006
+Dąbrowa Górnicza,89,0.0006
+Ternopil,89,0.0006
+Lakeland,89,0.0006
+Erith,89,0.0006
+Chappaqua,89,0.0006
+La Mojonera,89,0.0006
+Straubing,89,0.0006
+Timperley,88,0.0006
+Trenton,88,0.0006
+Wyoming,88,0.0006
+Ferrara,88,0.0006
+Paignton,88,0.0006
+Zhuzhou,88,0.0006
+Třinec,88,0.0006
+Matsuyama,88,0.0006
+İzmit,88,0.0006
+El Calafate,88,0.0006
+Panórama,88,0.0006
+Bani Yas City,88,0.0006
+Clydach,88,0.0006
+Funabashi,88,0.0006
+Tyarlevo,88,0.0006
+Ilmenau,88,0.0006
+South Elmsall,88,0.0006
+Concepción de La Vega,88,0.0006
+Tuxtla,88,0.0006
+Brandenburg an der Havel,88,0.0006
+Arcadia,88,0.0006
+Huế,88,0.0006
+Poitiers,87,0.0006
+Amora,87,0.0006
+Erechim,87,0.0006
+Penistone,87,0.0006
+Český Těšín,87,0.0006
+Aleppo,87,0.0006
+Luján,87,0.0006
+Hadera,87,0.0006
+Midland,87,0.0006
+Tsu,87,0.0006
+Scottsdale,87,0.0006
+Loulé,87,0.0006
+Verwood,87,0.0006
+Moncks Corner,87,0.0006
+Pontevedra,87,0.0006
+Golborne,87,0.0006
+Shelby,87,0.0006
+Strongsville,87,0.0006
+Varaždin,87,0.0006
+Litvínov,87,0.0006
+Biella,87,0.0006
+Alfreton,87,0.0006
+Bissen,87,0.0006
+Genk,87,0.0006
+Alfafar,87,0.0006
+Neiva,87,0.0006
+Idar-Oberstein,87,0.0006
+Cobham,87,0.0006
+Fribourg,87,0.0006
+Parker,87,0.0006
+Sumter,87,0.0006
+Thủ Dầu Một,87,0.0006
+Vitória da Conquista,87,0.0006
+Burnham,86,0.0006
+Piatra Neamţ,86,0.0006
+Sơn Tây,86,0.0006
+Murray,86,0.0006
+Jaén,86,0.0006
+Ancona,86,0.0006
+Glossop,86,0.0006
+Spring Valley,86,0.0006
+Golčův Jeníkov,86,0.0006
+Angri,86,0.0006
+Nārāyanganj,86,0.0006
+Feusisberg,86,0.0006
+Ituiutaba,86,0.0006
+Halfweg,86,0.0006
+Huesca,86,0.0006
+Vaterstetten,86,0.0006
+Belize City,86,0.0006
+eMbalenhle,86,0.0006
+Pilar,86,0.0006
+Bolton upon Dearne,86,0.0006
+El Oued,86,0.0006
+Studley,86,0.0006
+Stralsund,85,0.0006
+Garden City,85,0.0006
+Durango,85,0.0006
+Évry,85,0.0006
+Hayward,85,0.0006
+Ballynahinch,85,0.0006
+Sagunto,85,0.0006
+Ivrea,85,0.0006
+Glattfelden,85,0.0006
+Koper,85,0.0006
+Quận Năm,85,0.0006
+Odivelas,85,0.0006
+Barking,85,0.0006
+Westfield,85,0.0006
+Indio,85,0.0006
+Compton,85,0.0006
+Carson,85,0.0006
+Biel/Bienne,85,0.0006
+Brevik,85,0.0006
+Trier,84,0.0006
+Hilden,84,0.0006
+Uberaba,84,0.0006
+Mladá Boleslav,84,0.0006
+Duiven,84,0.0006
+Hardingstone,84,0.0006
+San Pawl il-Baħar,84,0.0006
+Tiruvannāmalai,84,0.0006
+Camden,84,0.0006
+Shenley Church End,84,0.0006
+Songkhla,84,0.0006
+Diegem,84,0.0006
+Saginaw,84,0.0006
+Guelph,84,0.0006
+San Nicolás de los Garza,84,0.0006
+Drobeta-Turnu Severin,84,0.0006
+Borlänge,84,0.0006
+Marche,84,0.0006
+Plumstead,84,0.0006
+Jebel Ali,84,0.0006
+Greeley,84,0.0006
+Hluboká nad Vltavou,84,0.0006
+Remscheid,84,0.0006
+Edewecht,84,0.0006
+Psary,84,0.0006
+Lewes,83,0.0006
+Taitung,83,0.0006
+Pomorie,83,0.0006
+Kawagoe,83,0.0006
+Qui Nhon,83,0.0006
+Toyonaka,83,0.0006
+Burscough,83,0.0006
+Wilhelmshaven,83,0.0006
+Merced,83,0.0006
+San Nicolò,83,0.0006
+Reşiţa,83,0.0006
+Ciudad Real,83,0.0006
+Fort Collins,83,0.0006
+Liaoyang,83,0.0006
+North Walsham,83,0.0006
+Chioggia,83,0.0006
+Rapid City,83,0.0006
+Tenterden,82,0.0006
+Morden,82,0.0006
+Marysville,82,0.0006
+Sutton in Ashfield,82,0.0006
+Sōka,82,0.0006
+Jamestown,82,0.0006
+Hemet,82,0.0006
+Viersen,82,0.0006
+State College,82,0.0006
+Ninh Bình,82,0.0006
+Oshkosh,82,0.0006
+Shelton,82,0.0006
+Yaoundé,82,0.0006
+Barrie,82,0.0006
+Minehead,82,0.0006
+Buri Ram,82,0.0006
+Cypress,82,0.0006
+Martinsburg,82,0.0006
+Landau in der Pfalz,82,0.0006
+Humacao,82,0.0006
+Kuta,82,0.0006
+Westminster,82,0.0006
+Kaufungen,82,0.0006
+Wolfsburg,82,0.0006
+Martigny-Ville,82,0.0006
+Soledad de Graciano Sánchez,82,0.0006
+Loveland,82,0.0006
+Olteniţa,82,0.0006
+Framlingham,82,0.0006
+Gandia,81,0.0006
+Sherbrooke,81,0.0006
+Valença,81,0.0006
+Abergavenny,81,0.0006
+Zhanjiang,81,0.0006
+Discovery Park,81,0.0006
+Peoria,81,0.0006
+Mogi das Cruzes,81,0.0006
+Udaipur,81,0.0006
+Dewsbury,81,0.0006
+Helensburgh,81,0.0006
+Lawton,81,0.0006
+Peristéri,81,0.0006
+Tam Kỳ,81,0.0006
+Papenburg,81,0.0006
+Aurich,81,0.0006
+Bruchsal,81,0.0006
+Selçuklu,81,0.0006
+Southall,81,0.0006
+Cúcuta,81,0.0006
+Piracicaba,81,0.0006
+North Olmsted,81,0.0006
+Ichikawa-minami,81,0.0006
+Xalapa de Enríquez,81,0.0006
+Hòa Bình,81,0.0006
+San Pedro,81,0.0006
+Northallerton,81,0.0006
+Ponta Grossa,81,0.0006
+Garforth,81,0.0006
+Bảo Lộc,81,0.0006
+Merlo,81,0.0006
+West Jordan,81,0.0006
+Tremblay-en-France,81,0.0006
+’Aïn Benian,80,0.0005
+Nepean,80,0.0005
+Stornoway,80,0.0005
+Saint-Jean-sur-Richelieu,80,0.0005
+Pasto,80,0.0005
+Celaya,80,0.0005
+Irákleio,80,0.0005
+Telavi,80,0.0005
+La Pommeraye,80,0.0005
+Leiden,80,0.0005
+Oak Ridge,80,0.0005
+Chorleywood,80,0.0005
+Penarth,80,0.0005
+Atherton,80,0.0005
+Iowa City,80,0.0005
+Wantage,80,0.0005
+Szigetszentmiklós,80,0.0005
+Bloemfontein,80,0.0005
+Puerto La Cruz,80,0.0005
+Laurel Hollow,80,0.0005
+Jülich,80,0.0005
+Cambourne,80,0.0005
+La Gi,80,0.0005
+Sanford,80,0.0005
+Marília,80,0.0005
+Lugo,80,0.0005
+Makkah,80,0.0005
+Naucalpan de Juárez,80,0.0005
+Bedok New Town,80,0.0005
+Phủ Lý,79,0.0005
+Eppelborn,79,0.0005
+Dessau,79,0.0005
+Stonehaven,79,0.0005
+Ichihara,79,0.0005
+Madison Heights,79,0.0005
+Alingsås,79,0.0005
+Chivilcoy,79,0.0005
+Velbert,79,0.0005
+Gosport,79,0.0005
+Bayonne,79,0.0005
+Ripley,79,0.0005
+Rapperswil,79,0.0005
+Cary,79,0.0005
+Joplin,79,0.0005
+Dimitrovgrad,79,0.0005
+Thornton-Cleveleys,79,0.0005
+Bridport,79,0.0005
+Binghamton,79,0.0005
+Gennevilliers,79,0.0005
+Sheringham,79,0.0005
+New Milton,79,0.0005
+Sønderborg,79,0.0005
+Jincheng,79,0.0005
+Samborondón,79,0.0005
+Kempston,79,0.0005
+Redcar,79,0.0005
+Rayong,79,0.0005
+Yeongam,79,0.0005
+Watsonville,79,0.0005
+Poissy,79,0.0005
+College Station,79,0.0005
+Simi Valley,78,0.0005
+Kurinjippādi,78,0.0005
+Neunkirchen,78,0.0005
+Ormskirk,78,0.0005
+Carnmoney,78,0.0005
+Palaió Fáliro,78,0.0005
+Krasnoyarsk,78,0.0005
+Starnberg,78,0.0005
+Lincolnshire,78,0.0005
+Sandhurst,78,0.0005
+Coslada,78,0.0005
+Quảng Ngãi,78,0.0005
+Miguel Hidalgo,78,0.0005
+Agra,78,0.0005
+Montesson,78,0.0005
+Nyíregyháza,78,0.0005
+Fitchburg,78,0.0005
+Highland,78,0.0005
+Ratzeburg,78,0.0005
+Kristiansand,78,0.0005
+Gorinchem,78,0.0005
+North Vancouver,78,0.0005
+Hammond,77,0.0005
+Chigwell,77,0.0005
+Murādnagar,77,0.0005
+H̱arish,77,0.0005
+Wyszków,77,0.0005
+KwaDukuza,77,0.0005
+Shoreham-by-Sea,77,0.0005
+Lynnwood,77,0.0005
+Navalcarnero,77,0.0005
+Marl,77,0.0005
+Bad Oeynhausen,77,0.0005
+Al Aḩmadī,77,0.0005
+Cerklje na Gorenjskem,77,0.0005
+São José dos Pinhais,77,0.0005
+Teramo,77,0.0005
+Colombes,77,0.0005
+Bellinzona,77,0.0005
+Balchik,77,0.0005
+Corona,77,0.0005
+Morioka,77,0.0005
+Hod HaSharon,77,0.0005
+Concesio,77,0.0005
+Ouargla,77,0.0005
+Welshpool,77,0.0005
+Corrientes,77,0.0005
+Bude,77,0.0005
+Bridgetown,77,0.0005
+Wake Forest,76,0.0005
+Hubei,76,0.0005
+Viseu,76,0.0005
+Bettembourg,76,0.0005
+Burnham-on-Crouch,76,0.0005
+Shreveport,76,0.0005
+Spijkenisse,76,0.0005
+Champaign,76,0.0005
+Skellefteå,76,0.0005
+Hornsea,76,0.0005
+San Lorenzo,76,0.0005
+Villiers-sur-Marne,76,0.0005
+Warrenton,76,0.0005
+Quesada,76,0.0005
+Palm Desert,76,0.0005
+Kuala Belait,76,0.0005
+Leioa,76,0.0005
+Yambol,76,0.0005
+Sandyford,76,0.0005
+Auneau,76,0.0005
+Branson,76,0.0005
+Godalming,76,0.0005
+Nagold,76,0.0005
+Milnthorpe,76,0.0005
+Esslingen,76,0.0005
+Hilton Head Island,76,0.0005
+Hoover,76,0.0005
+Chelles,76,0.0005
+Uttoxeter,76,0.0005
+Akita,76,0.0005
+Stourport-on-Severn,76,0.0005
+Kelso,76,0.0005
+Roanoke,76,0.0005
+Côte-Saint-Luc,76,0.0005
+Ober-Grafendorf,76,0.0005
+Sangerhausen,76,0.0005
+Guntur,75,0.0005
+Odessa,75,0.0005
+Ageo,75,0.0005
+Pereira,75,0.0005
+Armagh,75,0.0005
+Vidin,75,0.0005
+Oistins,75,0.0005
+Moreno Valley,75,0.0005
+Bang Len,75,0.0005
+Lienz,75,0.0005
+Goseong,75,0.0005
+General Roca,75,0.0005
+Uruma,75,0.0005
+Caldwell,75,0.0005
+Whitstable,75,0.0005
+Funza,75,0.0005
+Guidonia Montecelio,75,0.0005
+Baabda,75,0.0005
+Bad Hersfeld,75,0.0005
+Iserlohn,75,0.0005
+Lillestrøm,75,0.0005
+Arvada,75,0.0005
+Cao Lãnh,75,0.0005
+Thornton,75,0.0005
+Charallave,75,0.0005
+Tai Po,75,0.0005
+Arbroath,75,0.0005
+Hythe,75,0.0005
+Cuxhaven,75,0.0005
+Durgapur,75,0.0005
+Zmiiv,75,0.0005
+Chang-hua,75,0.0005
+Goslar,74,0.0005
+Brugge,74,0.0005
+Neston,74,0.0005
+Roskilde,74,0.0005
+Servon,74,0.0005
+Horsforth,74,0.0005
+Marneuli,74,0.0005
+San Sai,74,0.0005
+Wandsworth,74,0.0005
+Puebla de Guzmán,74,0.0005
+IJsselstein,74,0.0005
+San Carlos de Bariloche,74,0.0005
+Nova Friburgo,74,0.0005
+Tiruchirappalli,74,0.0005
+Horwich,74,0.0005
+Três de Maio,74,0.0005
+Delaware,74,0.0005
+Ensenada,74,0.0005
+Sangāreddi,74,0.0005
+Choa Chu Kang New Town,74,0.0005
+Lohne,74,0.0005
+Coro,74,0.0005
+Molina de Segura,74,0.0005
+Aix-en-Provence,74,0.0005
+Schijndel,74,0.0005
+Caguas,74,0.0005
+Schweinfurt,74,0.0005
+Kharian,74,0.0005
+Olympia,73,0.0005
+Ayia Napa,73,0.0005
+Höllviken,73,0.0005
+Grapevine,73,0.0005
+Chandigarh,73,0.0005
+Pressbaum,73,0.0005
+Le Mans,73,0.0005
+Leonberg,73,0.0005
+Mililani Town,73,0.0005
+Ellon,73,0.0005
+Recklinghausen,73,0.0005
+Michalovce,73,0.0005
+Quận Ba,73,0.0005
+Frederikshavn,73,0.0005
+Gelligaer,73,0.0005
+Feldkirch,73,0.0005
+Annecy,73,0.0005
+Contla,73,0.0005
+Eschlikon,73,0.0005
+Mizuho,73,0.0005
+Newnan,73,0.0005
+Sesto Fiorentino,73,0.0005
+Sueca,73,0.0005
+Magong,73,0.0005
+Palmerston North,73,0.0005
+Street,73,0.0005
+St. Catharines,73,0.0005
+Catford,73,0.0005
+Salerno,73,0.0005
+Olathe,73,0.0005
+Holbæk,73,0.0005
+Kilo,73,0.0005
+Pudsey,73,0.0005
+Thanjavur,73,0.0005
+Barreiras,73,0.0005
+Vĩnh Long,73,0.0005
+Al Khawr,73,0.0005
+Chatou,73,0.0005
+Blaine,73,0.0005
+Bukit Mertajam,73,0.0005
+Hallein,72,0.0005
+Westlake Village,72,0.0005
+Markelo,72,0.0005
+Marchtrenk,72,0.0005
+Aryanah,72,0.0005
+Hanover,72,0.0005
+Laranjal Paulista,72,0.0005
+Kampen,72,0.0005
+Barletta,72,0.0005
+Quận Bảy,72,0.0005
+Guarenas,72,0.0005
+Latham,72,0.0005
+Rio das Ostras,72,0.0005
+Chiclana de la Frontera,72,0.0005
+Tres Arroyos,72,0.0005
+Leuven,72,0.0005
+Ratchaburi,72,0.0005
+Kuwana,72,0.0005
+Centerville,72,0.0005
+Panagyurishte,72,0.0005
+The Villages,72,0.0005
+Haag,72,0.0005
+Nangen,72,0.0005
+Lutsk,72,0.0005
+Neuwied,72,0.0005
+Kalyān,72,0.0005
+Elkton,72,0.0005
+Don Torcuato,72,0.0005
+Brea,72,0.0005
+Arandis,72,0.0005
+Tres Cantos,72,0.0005
+Hitachi,72,0.0005
+Ross on Wye,72,0.0005
+Twickenham,71,0.0005
+Parung,71,0.0005
+Downpatrick,71,0.0005
+Lewisville,71,0.0005
+Driffield,71,0.0005
+Varanasi,71,0.0005
+Cullompton,71,0.0005
+Joaçaba,71,0.0005
+Kajaani,71,0.0005
+Clarksburg,71,0.0005
+Tadley,71,0.0005
+Woodside,71,0.0005
+Dourados,71,0.0005
+Maranello,71,0.0005
+Madinah,71,0.0005
+Ananindeua,71,0.0005
+Kumejima,71,0.0005
+Huntingdon,71,0.0005
+Pola de Laviana,71,0.0005
+Thames Ditton,71,0.0005
+Maia,71,0.0005
+Batavia,71,0.0005
+Mosul,71,0.0005
+San Pedro Garza García,71,0.0005
+Brugherio,71,0.0005
+Greensburg,71,0.0005
+Kloten,71,0.0005
+Kirkwall,71,0.0005
+Apple Valley,71,0.0005
+Bloomfield,71,0.0005
+Germantown,71,0.0005
+Framingham,71,0.0005
+Makham,71,0.0005
+Liberec,71,0.0005
+Hlučín,71,0.0005
+Balcarce,70,0.0005
+Uden,70,0.0005
+Sinop,70,0.0005
+Cuttack,70,0.0005
+Otaru,70,0.0005
+Burnham-on-Sea,70,0.0005
+Sagamihara,70,0.0005
+Visby,70,0.0005
+Rochford,70,0.0005
+Mesquite,70,0.0005
+Hvidovre,70,0.0005
+Lautoka,70,0.0005
+Hwasun,70,0.0005
+Birkerød,70,0.0005
+Mafra,70,0.0005
+Lagos de Moreno,70,0.0005
+Lufkin,70,0.0005
+Muskegon,70,0.0005
+Reynosa,70,0.0005
+Zirl,70,0.0005
+Rio Branco,70,0.0005
+West Molesey,70,0.0005
+Chigasaki,70,0.0005
+Aveiro,70,0.0005
+West Wickham,70,0.0005
+Neustadt an der Weinstraße,70,0.0005
+Nishi-Tokyo-shi,70,0.0005
+Cleckheaton,70,0.0005
+Kurashiki,70,0.0005
+Jaru,70,0.0005
+Hässleholm,70,0.0005
+Tulcán,70,0.0005
+Cesson-Sévigné,70,0.0005
+Brownsville,70,0.0005
+Jambi City,70,0.0005
+Kediri,70,0.0005
+East Horsley,70,0.0005
+Port Richey,70,0.0005
+Bad Axe,70,0.0005
+Buyeo,70,0.0005
+Chacabuco,70,0.0005
+Toowoomba,70,0.0005
+Walnut Grove,69,0.0005
+Rochester Hills,69,0.0005
+Tortuguitas,69,0.0005
+Westland,69,0.0005
+Nanuet,69,0.0005
+Maisons-Laffitte,69,0.0005
+České Budějovice,69,0.0005
+Słupsk,69,0.0005
+Jundiaí,69,0.0005
+Machala,69,0.0005
+Atyrau,69,0.0005
+Saguenay,69,0.0005
+Attelaken,69,0.0005
+Schwäbisch Gmünd,69,0.0005
+Giurgiu,69,0.0005
+Lages,69,0.0005
+Battle,69,0.0005
+Port Sudan,69,0.0005
+Praia Grande,69,0.0005
+Savar,69,0.0005
+Ängelholm,69,0.0005
+Kyzylorda,69,0.0005
+Jeffersonville,69,0.0005
+Giddings,69,0.0005
+Bryan,69,0.0005
+Hove,69,0.0005
+Kurihara,69,0.0005
+Hai BàTrưng,69,0.0005
+Sumiyoshi,69,0.0005
+Mounds View,69,0.0005
+Agios Ioannis Rentis,69,0.0005
+Teddington,69,0.0005
+Leusden,69,0.0005
+Troisdorf,69,0.0005
+Corvallis,69,0.0005
+Guarapuava,69,0.0005
+Une,69,0.0005
+Ryde,69,0.0005
+Szczecinek,69,0.0005
+Yeongdeok,69,0.0005
+Dorsten,69,0.0005
+Blountville,69,0.0005
+St. Petersburg,69,0.0005
+Albufeira,69,0.0005
+Cranbury,69,0.0005
+Kinzan,69,0.0005
+Sóc Trăng,69,0.0005
+Freeport,69,0.0005
+Ibagué,69,0.0005
+Maracanaú,68,0.0005
+Parets del Vallès,68,0.0005
+Bayraklı,68,0.0005
+Vermelles,68,0.0005
+Kehl,68,0.0005
+Kolomna,68,0.0005
+Serra,68,0.0005
+Choisy-le-Roi,68,0.0005
+Ivanka pri Dunaji,68,0.0005
+Gravataí,68,0.0005
+Jefferson City,68,0.0005
+Kōriyama,68,0.0005
+Chipping Norton,68,0.0005
+Romano d'Ezzelino,68,0.0005
+Velingrad,68,0.0005
+Meudon,68,0.0005
+Prescott,68,0.0005
+Howrah,68,0.0005
+Saxmundham,68,0.0005
+Debrecen,68,0.0005
+Strumica,68,0.0005
+Weimar,68,0.0005
+Poza Rica de Hidalgo,68,0.0005
+Frankfort,68,0.0005
+Nyergesújfalu,68,0.0005
+Vernon,68,0.0005
+Cupar,68,0.0005
+Taunusstein,68,0.0005
+Paranaque City,68,0.0005
+Oshawa,68,0.0005
+Falun,68,0.0005
+Jefferson,68,0.0005
+Minden,68,0.0005
+Meisir,68,0.0005
+Corbridge,68,0.0005
+Kalispell,67,0.0005
+Kazincbarcika,67,0.0005
+Den Helder,67,0.0005
+Sankt Wendel,67,0.0005
+Homyel',67,0.0005
+Digha,67,0.0005
+Pato Branco,67,0.0005
+Khorramshahr,67,0.0005
+Mangotsfield,67,0.0005
+Bloomingdale,67,0.0005
+Cotonou,67,0.0005
+Vechta,67,0.0005
+Rāiganj,67,0.0005
+Alsfeld,67,0.0005
+Thủ Đức,67,0.0005
+Shawnee,67,0.0005
+Loudwater,67,0.0005
+Flagstaff,67,0.0005
+Tupandi,67,0.0005
+Garching,67,0.0005
+Codsall,67,0.0005
+Irthlingborough,67,0.0005
+Murrieta,67,0.0005
+Greven,67,0.0005
+Đồng Xoài,67,0.0005
+Roermond,67,0.0005
+Foz do Iguaçu,67,0.0005
+Burunday,67,0.0005
+Whitby,67,0.0005
+Mejiro,67,0.0005
+Nagareyama,67,0.0005
+Koch'ang,67,0.0005
+Union,67,0.0005
+São Lourenço,67,0.0005
+Hale,67,0.0005
+Chí Linh,67,0.0005
+José Bonifácio,67,0.0005
+Stillwater,66,0.0005
+Manresa,66,0.0005
+La Prairie,66,0.0005
+Meyrin,66,0.0005
+Edinburg,66,0.0005
+Hashmonaim,66,0.0005
+Seaham,66,0.0005
+Eynsham,66,0.0005
+Kalisz,66,0.0005
+Spanish Fork,66,0.0005
+Stigler,66,0.0005
+Guwahati,66,0.0005
+Glenrothes,66,0.0005
+Targovishte,66,0.0005
+Glenview,66,0.0005
+Gera,66,0.0005
+Avignon,66,0.0005
+Habikino,66,0.0005
+Bouznika,66,0.0005
+Vereeniging,66,0.0005
+Wels,66,0.0005
+Marbella,66,0.0005
+Largo,66,0.0005
+Wichita Falls,66,0.0005
+Pécs,66,0.0005
+Eye,66,0.0005
+Ilkeston,66,0.0005
+Trenčín,66,0.0005
+Bad Kreuznach,66,0.0005
+Buffalo Grove,66,0.0005
+Lévis,66,0.0005
+Gloversville,66,0.0005
+Chartres,66,0.0005
+Noisy-le-Grand,66,0.0005
+Bickley,66,0.0005
+Pharr,66,0.0005
+Khorramabad,66,0.0005
+Biscarrosse,66,0.0005
+Herisau,66,0.0005
+Meppen,66,0.0005
+Portoviejo,66,0.0005
+Westbury,66,0.0005
+Ludwigsburg,66,0.0005
+Carson City,65,0.0004
+Laa an der Thaya,65,0.0004
+South Molton,65,0.0004
+Dardenne Prairie,65,0.0004
+Franklin Park,65,0.0004
+Detmold,65,0.0004
+Landskrona,65,0.0004
+Doboj,65,0.0004
+Bandar Seri Bentan,65,0.0004
+Bacoor,65,0.0004
+Hưng Yên,65,0.0004
+Forlì,65,0.0004
+Río Grande,65,0.0004
+Unterschleißheim,65,0.0004
+Boulogne-sur-Mer,65,0.0004
+Gummidipundi,65,0.0004
+Owensboro,65,0.0004
+Fort Mill,65,0.0004
+Cuernavaca,65,0.0004
+Market Drayton,65,0.0004
+Fullerton,65,0.0004
+Glastonbury,65,0.0004
+Novi Travnik,65,0.0004
+Buraydah,65,0.0004
+Beringen,65,0.0004
+Portadown,65,0.0004
+Letterkenny,65,0.0004
+Rustington,64,0.0004
+Comilla,64,0.0004
+Sialkot,64,0.0004
+Wigton,64,0.0004
+Teixeira de Freitas,64,0.0004
+Kungsbacka,64,0.0004
+Cookstown,64,0.0004
+Tuy Hòa,64,0.0004
+Stow,64,0.0004
+Bexhill-on-Sea,64,0.0004
+Phatthalung,64,0.0004
+Thành phố Trà Vinh,64,0.0004
+Boryspil,64,0.0004
+Burwash,64,0.0004
+Kitwe,64,0.0004
+Castricum,64,0.0004
+Kailua-Kona,64,0.0004
+Herford,64,0.0004
+Bremerton,64,0.0004
+Annemasse,64,0.0004
+Kukatpally,64,0.0004
+Newton-le-Willows,64,0.0004
+Vlaardingen,64,0.0004
+Sajószentpéter,64,0.0004
+Sumqayıt,64,0.0004
+Fontana,64,0.0004
+Herning,64,0.0004
+Oberwart,64,0.0004
+Lárisa,64,0.0004
+Samut Sakhon,64,0.0004
+San Francisco de Macorís,64,0.0004
+North Mymms,64,0.0004
+Koesan,64,0.0004
+Noisy-le-Sec,64,0.0004
+Criciúma,64,0.0004
+Rowland Heights,64,0.0004
+Beverley,64,0.0004
+Garbsen,64,0.0004
+Alfortville,64,0.0004
+Neuburg an der Donau,64,0.0004
+Lynden,64,0.0004
+Bergisch Gladbach,64,0.0004
+Sasebo,64,0.0004
+Zundert,64,0.0004
+Englewood Cliffs,64,0.0004
+Juba,64,0.0004
+Casas Adobes,63,0.0004
+Ermua,63,0.0004
+Almería,63,0.0004
+Kopervik,63,0.0004
+Tonoshō,63,0.0004
+Kirkby in Ashfield,63,0.0004
+Essex,63,0.0004
+Norton,63,0.0004
+El Vigía,63,0.0004
+Hickory,63,0.0004
+Gresham,63,0.0004
+Rocky Mount,63,0.0004
+Novo Hamburgo,63,0.0004
+Tocancipá,63,0.0004
+Limeira,63,0.0004
+Maesteg,63,0.0004
+Musaffah,63,0.0004
+Swaffham,63,0.0004
+Taastrup,63,0.0004
+Estepona,63,0.0004
+Tarnobrzeg,63,0.0004
+Włocławek,63,0.0004
+Noblesville,63,0.0004
+Sidon,63,0.0004
+Lomé,63,0.0004
+Chino,63,0.0004
+Khulna,63,0.0004
+Altenmarkt im Pongau,63,0.0004
+Gujrat,63,0.0004
+Sassari,63,0.0004
+Murfreesboro,63,0.0004
+Seremban,63,0.0004
+Thun,63,0.0004
+Kalamata,63,0.0004
+Yishun New Town,63,0.0004
+Strausberg,63,0.0004
+Huizhou,63,0.0004
+Westlake,63,0.0004
+Oakton,63,0.0004
+Kufstein,63,0.0004
+Turgutlu,63,0.0004
+Motala,62,0.0004
+Ponferrada,62,0.0004
+Multan,62,0.0004
+Kidsgrove,62,0.0004
+Aradíppou,62,0.0004
+Santiago del Estero,62,0.0004
+Lauro de Freitas,62,0.0004
+Slobozia,62,0.0004
+Pijnacker,62,0.0004
+Rāmpur,62,0.0004
+Cloppenburg,62,0.0004
+Racine,62,0.0004
+Geneva,62,0.0004
+Broek op Langedijk,62,0.0004
+Polesworth,62,0.0004
+Balikpapan,62,0.0004
+Rancagua,62,0.0004
+Wombourne,62,0.0004
+Enköping,62,0.0004
+Melton Mowbray,62,0.0004
+Masdar City,62,0.0004
+Landmark,62,0.0004
+Bünde,62,0.0004
+Andrychów,62,0.0004
+Carmel,62,0.0004
+Villers-Saint-Paul,62,0.0004
+Paltan,62,0.0004
+Dolbeau-Mistassini,62,0.0004
+Brindisi,62,0.0004
+Amstetten,62,0.0004
+Nîmes,62,0.0004
+Conakry,62,0.0004
+Oneonta,62,0.0004
+Märsta,62,0.0004
+Port Saint Lucie,62,0.0004
+Vianen,62,0.0004
+Grenaa,62,0.0004
+Phan Rang-Tháp Chàm,62,0.0004
+Purwokerto,62,0.0004
+Dushanbe,62,0.0004
+Etobicoke,62,0.0004
+Red Deer,62,0.0004
+Brumunddal,62,0.0004
+Drammen,62,0.0004
+Temiskaming Shores,62,0.0004
+Rubí,62,0.0004
+Abbotsford,62,0.0004
+Puducherry,62,0.0004
+Royston,62,0.0004
+Praia,62,0.0004
+Terre Haute,62,0.0004
+Beersheba,62,0.0004
+Melo,62,0.0004
+San Vicente,61,0.0004
+Kokshetau,61,0.0004
+Uitgeest,61,0.0004
+Weston,61,0.0004
+Bacup,61,0.0004
+Ebene,61,0.0004
+Sarcelles,61,0.0004
+Santa Cruz de la Sierra,61,0.0004
+Dinslaken,61,0.0004
+Gaggenau,61,0.0004
+Mablethorpe,61,0.0004
+Bishops Cleeve,61,0.0004
+Uruapan,61,0.0004
+Flower Mound,61,0.0004
+Gradiška,61,0.0004
+Águilas,61,0.0004
+Cosquín,61,0.0004
+Batley,61,0.0004
+Balneário Camboriú,61,0.0004
+Saint John,61,0.0004
+Fairborn,61,0.0004
+Perg,61,0.0004
+Shannon,61,0.0004
+Invercargill,61,0.0004
+Toufen,61,0.0004
+Olinda,61,0.0004
+Churchdown,61,0.0004
+Fair Oaks,61,0.0004
+Barreiro,61,0.0004
+Compiègne,61,0.0004
+Civitanova Marche,61,0.0004
+Napa,61,0.0004
+Salatiga,61,0.0004
+Morristown,61,0.0004
+Cesano Maderno,61,0.0004
+Novorossiysk,61,0.0004
+Nazareth,61,0.0004
+Plaisir,61,0.0004
+Samarinda,60,0.0004
+Spennymoor,60,0.0004
+Oudehaske,60,0.0004
+Crystal Palace,60,0.0004
+Victoria de Durango,60,0.0004
+New Providence,60,0.0004
+Sundbyberg,60,0.0004
+Doral,60,0.0004
+Valparaíso,60,0.0004
+Jacareí,60,0.0004
+Ouderkerk aan de Amstel,60,0.0004
+Yaxley,60,0.0004
+Earlsfield,60,0.0004
+Oruro,60,0.0004
+Marshfield,60,0.0004
+Thamesmead,60,0.0004
+Schladming,60,0.0004
+Putian,60,0.0004
+Joliet,60,0.0004
+Saalfelden am Steinernen Meer,60,0.0004
+Frenštát pod Radhoštěm,60,0.0004
+Bulawayo,60,0.0004
+Haddenham,60,0.0004
+Westerstede,60,0.0004
+Longmont,60,0.0004
+Fraserburgh,60,0.0004
+Wexford,60,0.0004
+Qiryat Mal’akhi,60,0.0004
+Mölnlycke,60,0.0004
+Saclay,60,0.0004
+Islington,60,0.0004
+Weinheim,60,0.0004
+Albstadt,60,0.0004
+Herzogenaurach,60,0.0004
+Draguignan,60,0.0004
+Panama City Beach,60,0.0004
+Foley,60,0.0004
+Eloy Alfaro,60,0.0004
+Válor,60,0.0004
+Cannes,60,0.0004
+Woodland,60,0.0004
+Macapá,60,0.0004
+Newton Longville,60,0.0004
+Villavicencio,60,0.0004
+Slidell,60,0.0004
+San Angelo,60,0.0004
+Manta,60,0.0004
+Pascagoula,60,0.0004
+Villa Gesell,60,0.0004
+Fulwood,60,0.0004
+Xàtiva,59,0.0004
+Vejle,59,0.0004
+New City,59,0.0004
+West Valley City,59,0.0004
+Mankato,59,0.0004
+Dorval,59,0.0004
+Kirkcaldy,59,0.0004
+Kakogawachō-honmachi,59,0.0004
+Viña del Mar,59,0.0004
+Baar,59,0.0004
+Guimarães,59,0.0004
+Best,59,0.0004
+Tychy,59,0.0004
+Presque Isle,59,0.0004
+Vasylkiv,59,0.0004
+Tama,59,0.0004
+Veendam,59,0.0004
+Dübendorf,59,0.0004
+Yeonggwang,59,0.0004
+Castle Rock,59,0.0004
+Governador Valadares,59,0.0004
+Allendale,59,0.0004
+Vitry-sur-Seine,59,0.0004
+San Ġwann,59,0.0004
+Santa Rita,59,0.0004
+Modiin Ilit,59,0.0004
+Erzurum,59,0.0004
+Al Farwānīyah,59,0.0004
+Bobigny,59,0.0004
+Monterey Park,59,0.0004
+Mirzāpur,59,0.0004
+Pesaro,59,0.0004
+Thornbury,59,0.0004
+Bad Aibling,59,0.0004
+Kirkby Mallory,59,0.0004
+Corsham,59,0.0004
+Chantilly,59,0.0004
+Neusiedl am See,59,0.0004
+Spartanburg,59,0.0004
+Kawachi-Nagano,59,0.0004
+Kuressaare,59,0.0004
+Pachuca de Soto,59,0.0004
+Montauban,58,0.0004
+Kahului,58,0.0004
+Otley,58,0.0004
+Chaniá,58,0.0004
+Winscombe,58,0.0004
+Ness Ziona,58,0.0004
+The Entrance North,58,0.0004
+Sjöbo,58,0.0004
+Koganei,58,0.0004
+Reuver,58,0.0004
+Fredericton,58,0.0004
+San Benedetto del Tronto,58,0.0004
+Mosonmagyaróvár,58,0.0004
+Fredericia,58,0.0004
+Angra dos Reis,58,0.0004
+Araguari,58,0.0004
+Temirtau,58,0.0004
+Kings Hill,58,0.0004
+Carnew,58,0.0004
+Ciudad López Mateos,58,0.0004
+Méry-sur-Oise,58,0.0004
+Vyshhorod,58,0.0004
+Goleta,58,0.0004
+Siem Reap,58,0.0004
+Puan,58,0.0004
+Saratoga Springs,58,0.0004
+Linares,58,0.0004
+Broadstone,58,0.0004
+Wallington,58,0.0004
+Siena,58,0.0004
+San Remo,58,0.0004
+Santa Fe Springs,58,0.0004
+Muswell Hill,58,0.0004
+Maiden,58,0.0004
+Sargodha,58,0.0004
+Maroúsi,58,0.0004
+Sandanski,58,0.0004
+Aihara,58,0.0004
+Onitsha,58,0.0004
+Quận Sáu,58,0.0004
+Rạch Giá,58,0.0004
+Reda,58,0.0004
+Elin Pelin,58,0.0004
+Bologoye,58,0.0004
+Zutphen,58,0.0004
+Solothurn,58,0.0004
+Bellflower,58,0.0004
+Cecina,58,0.0004
+Glyfáda,58,0.0004
+Hesperia,58,0.0004
+Rio Rancho,58,0.0004
+Presidente Prudente,57,0.0004
+Olivette,57,0.0004
+Rawang,57,0.0004
+Pokotylivka,57,0.0004
+Independence,57,0.0004
+Godmanchester,57,0.0004
+Lucan,57,0.0004
+Jiangmen,57,0.0004
+Kolding,57,0.0004
+Mattoon,57,0.0004
+Lünen,57,0.0004
+Muttenz,57,0.0004
+Belper,57,0.0004
+Norristown,57,0.0004
+Niamey,57,0.0004
+Castelar,57,0.0004
+Sapiranga,57,0.0004
+Dunoon,57,0.0004
+Tudela,57,0.0004
+Grand Haven,57,0.0004
+Eggenfelden,57,0.0004
+Cowley,57,0.0004
+Heathfield,57,0.0004
+Gharroli,57,0.0004
+Tigard,57,0.0004
+Lauf an der Pegnitz,57,0.0004
+Sankt Veit an der Glan,57,0.0004
+Weiler-Simmerberg,57,0.0004
+Lubin,57,0.0004
+Khirdalan,57,0.0004
+Jaren,57,0.0004
+Holborn,57,0.0004
+Friern Barnet,57,0.0004
+Porlamar,57,0.0004
+La Tour,57,0.0004
+Acharnés,57,0.0004
+Emden,57,0.0004
+Montbonnot-Saint-Martin,57,0.0004
+Sioux City,57,0.0004
+Karawang,57,0.0004
+Dachne,57,0.0004
+Saquarema,57,0.0004
+Montrouge,57,0.0004
+Vršac,57,0.0004
+Frederiksberg,57,0.0004
+Youngstown,57,0.0004
+Jelenia Góra,57,0.0004
+Dragsfjärd,57,0.0004
+Créteil,57,0.0004
+Lüdenscheid,57,0.0004
+Wangen,57,0.0004
+Guiseley,57,0.0004
+Gmunden,57,0.0004
+Mooresville,57,0.0004
+Antibes,56,0.0004
+Enterprise,56,0.0004
+Surčin,56,0.0004
+Imperatriz,56,0.0004
+Khalifah A City,56,0.0004
+Maarssen,56,0.0004
+Albox,56,0.0004
+Turburea,56,0.0004
+Stockerau,56,0.0004
+Phan Thiết,56,0.0004
+Palm Harbor,56,0.0004
+Marcq-en-Barœul,56,0.0004
+Flitwick,56,0.0004
+Sidmouth,56,0.0004
+Yên Bái,56,0.0004
+Simões Filho,56,0.0004
+Leshan,56,0.0004
+Rovaniemi,56,0.0004
+Capilla del Señor,56,0.0004
+Reichenbach/Vogtland,56,0.0004
+Novi,56,0.0004
+Caernarfon,56,0.0004
+Chicopee,56,0.0004
+Échirolles,56,0.0004
+Ecatepec de Morelos,56,0.0004
+Frauenfeld,56,0.0004
+Port Moresby,56,0.0004
+Saint Cloud,56,0.0004
+Okehampton,56,0.0004
+Isparta,56,0.0004
+Mazatlán,56,0.0004
+Almondsbury,56,0.0004
+Rüsselsheim am Main,56,0.0004
+Downham Market,56,0.0004
+Araranguá,56,0.0004
+Wernigerode,56,0.0004
+Waynesboro,56,0.0004
+Thornaby-on-Tees,56,0.0004
+Urk,56,0.0004
+Ibarra,56,0.0004
+Uminokuchi,56,0.0004
+Bishops Stortford,56,0.0004
+Schübelbach,56,0.0004
+Breinigsville,56,0.0004
+Pirmasens,56,0.0004
+Shaftesbury,56,0.0004
+Beau Bassin-Rose Hill,56,0.0004
+Sankt Pölten,56,0.0004
+Videira,56,0.0004
+Union City,56,0.0004
+Domont,55,0.0004
+Spalt,55,0.0004
+Pwllheli,55,0.0004
+Scuola,55,0.0004
+Sakura,55,0.0004
+Chambéry,55,0.0004
+Amen,55,0.0004
+Walnut Creek,55,0.0004
+Armenia,55,0.0004
+Terlizzi,55,0.0004
+Easton,55,0.0004
+Blagoevgrad,55,0.0004
+Novi Sad,55,0.0004
+Jasper,55,0.0004
+Bushey,55,0.0004
+Mohammed Bin Zayed City,55,0.0004
+Kozhikode,55,0.0004
+Frederick,55,0.0004
+Araçatuba,55,0.0004
+Portugalete,55,0.0004
+Petoskey,55,0.0004
+Hammamet,55,0.0004
+Voorburg,55,0.0004
+Split,55,0.0004
+Caterham,55,0.0004
+Osijek,55,0.0004
+Shepherds Bush,55,0.0004
+Rocklin,55,0.0004
+Khujand,55,0.0004
+Olomouc,55,0.0004
+Gonzales,55,0.0004
+Tiraspol,55,0.0004
+Bramsche,55,0.0004
+Bregenz,55,0.0004
+Seosang,55,0.0004
+Söderhamn,55,0.0004
+Hino,55,0.0004
+Nowe,55,0.0004
+Reggio Calabria,55,0.0004
+Miami Gardens,55,0.0004
+Neietsu,55,0.0004
+Komárom,55,0.0004
+Alsager,55,0.0004
+Irinjālakuda,55,0.0004
+Eberswalde,55,0.0004
+Maghull,55,0.0004
+Vitrolles,54,0.0004
+Wetherington,54,0.0004
+Cookeville,54,0.0004
+Pozuelo de Alarcón,54,0.0004
+Swanscombe,54,0.0004
+Tulln,54,0.0004
+Çorlu,54,0.0004
+Hadleigh,54,0.0004
+Veldhoven,54,0.0004
+Navegantes,54,0.0004
+Jastrzębie Zdrój,54,0.0004
+Sint-Truiden,54,0.0004
+Senador Canedo,54,0.0004
+Calahorra,54,0.0004
+Llandrindod Wells,54,0.0004
+Vellore,54,0.0004
+Wilson,54,0.0004
+Clearwater,54,0.0004
+Helsingør,54,0.0004
+Camarillo,54,0.0004
+Tiel,54,0.0004
+Port Talbot,54,0.0004
+Kungälv,54,0.0004
+Batumi,54,0.0004
+Medina,54,0.0004
+Saco,54,0.0004
+Vught,54,0.0004
+Plan-les-Ouates,54,0.0004
+Küsnacht,54,0.0004
+Fundeni,54,0.0004
+Gualeguaychú,54,0.0004
+Tavistock,54,0.0004
+Goodmayes,54,0.0004
+Rybnik,54,0.0004
+Edwardsville,54,0.0004
+Wallisellen,54,0.0004
+Nova Zagora,54,0.0004
+Ganei Tikva,54,0.0004
+Trevose,54,0.0004
+Waidhofen an der Thaya,54,0.0004
+Four Marks,54,0.0004
+Veghel,54,0.0004
+Mansehra,54,0.0004
+Gibbstown,53,0.0004
+El Prat de Llobregat,53,0.0004
+Pingtung,53,0.0004
+Bila Tserkva,53,0.0004
+Şanlıurfa,53,0.0004
+Woolwich,53,0.0004
+Byeonggok,53,0.0004
+Wath upon Dearne,53,0.0004
+Johns Creek,53,0.0004
+Irecê,53,0.0004
+Todmorden,53,0.0004
+Hemingford Grey,53,0.0004
+Teià,53,0.0004
+Gilbert,53,0.0004
+Saltash,53,0.0004
+Cabo Frio,53,0.0004
+Burien,53,0.0004
+Uttaradit,53,0.0004
+Urbana,53,0.0004
+Garner,53,0.0004
+Tracy,53,0.0004
+Llanfyllin,53,0.0004
+Hemmoor,53,0.0004
+Chester-le-Street,53,0.0004
+Naumburg,53,0.0004
+Overland,53,0.0004
+Grand Junction,53,0.0004
+Planaltina,53,0.0004
+Punta del Este,53,0.0004
+Vadigenhalli,53,0.0004
+Río Tercero,53,0.0004
+Atsugi,53,0.0004
+Beolgyo,53,0.0004
+Sylhet,53,0.0004
+Gosforth,53,0.0004
+Perm,53,0.0004
+Thomasville,53,0.0004
+Coleford,53,0.0004
+Sakon Nakhon,53,0.0004
+Thanh Sơn,53,0.0004
+Concepción del Uruguay,53,0.0004
+Deoli,53,0.0004
+Lynchburg,53,0.0004
+Kharagpur,53,0.0004
+Aalsmeer,53,0.0004
+Nässjö,53,0.0004
+Gateshead,53,0.0004
+Saint-Eustache,53,0.0004
+Lommel,53,0.0004
+Rio Grande,53,0.0004
+Yangzhou,53,0.0004
+Chemolgan,53,0.0004
+Turnhout,53,0.0004
+Setúbal,53,0.0004
+Cachoeiro de Itapemirim,53,0.0004
+Tonyrefail,53,0.0004
+Sinsheim,53,0.0004
+Anderlecht,53,0.0004
+Bennekom,52,0.0004
+Traiskirchen,52,0.0004
+Ávila,52,0.0004
+Purwakarta,52,0.0004
+Villers-sous-Saint-Leu,52,0.0004
+Castle Cary,52,0.0004
+Celje,52,0.0004
+Bagnes,52,0.0004
+Bad Homburg vor der Höhe,52,0.0004
+Si Racha,52,0.0004
+Bereznehuvate,52,0.0004
+Perris,52,0.0004
+Konstanz,52,0.0004
+Villefranche-sur-Saône,52,0.0004
+Apex,52,0.0004
+Lewisburg,52,0.0004
+Angeles City,52,0.0004
+Dili,52,0.0004
+Chichawatni,52,0.0004
+New Barnet,52,0.0004
+Na Chaluai,52,0.0004
+Shiyan,52,0.0004
+Sandown,52,0.0004
+Rue,52,0.0004
+Oaxaca,52,0.0004
+Masterton,52,0.0004
+Dunedin,52,0.0004
+Venado Tuerto,52,0.0004
+Elkhorn,52,0.0004
+Farrukhnagar,52,0.0004
+Pirot,52,0.0004
+Kesgrave,52,0.0004
+Welland,52,0.0004
+Freetown,52,0.0004
+Slivnitsa,52,0.0004
+Juneau,52,0.0004
+Ras Al Khaimah City,52,0.0004
+Orillia,52,0.0004
+East Butler,52,0.0004
+Hudson,52,0.0004
+Lianyungang,52,0.0004
+Barendrecht,52,0.0004
+Dulovo,52,0.0004
+Serino,52,0.0004
+Banjarmasin,52,0.0004
+Brossard,52,0.0004
+Royal Pines,52,0.0004
+Ridderkerk,52,0.0004
+Herten,52,0.0004
+Locarno,52,0.0004
+Kaarina,52,0.0004
+Fairburn,52,0.0004
+Ulricehamn,52,0.0004
+Bexleyheath,52,0.0004
+Pasay,52,0.0004
+Hillerød,52,0.0004
+Rijen,52,0.0004
+Varese,52,0.0004
+Whangarei,52,0.0004
+Davao,52,0.0004
+Nashik,52,0.0004
+Korydallós,52,0.0004
+Lom Sak,52,0.0004
+Jørpeland,52,0.0004
+Sandy,51,0.0003
+Novara,51,0.0003
+Belfort,51,0.0003
+Shenstone,51,0.0003
+Thanh Xuân,51,0.0003
+Etāwa,51,0.0003
+Mitchell,51,0.0003
+Kulmbach,51,0.0003
+Woodford Green,51,0.0003
+Wijchen,51,0.0003
+Esparza,51,0.0003
+Littleport,51,0.0003
+Ribeirão das Neves,51,0.0003
+Mortlake,51,0.0003
+Webster,51,0.0003
+Bussy-Saint-Georges,51,0.0003
+Heerenveen,51,0.0003
+Fairport,51,0.0003
+Rio Verde,51,0.0003
+Caçador,51,0.0003
+Oxshott,51,0.0003
+Dronfield,51,0.0003
+Gummersbach,51,0.0003
+Onalaska,51,0.0003
+Haid,51,0.0003
+Garstang,51,0.0003
+Chomutov,51,0.0003
+Venray,51,0.0003
+Madiun,51,0.0003
+West Bay,51,0.0003
+Kalvarija,51,0.0003
+Lutjebroek,51,0.0003
+West Lafayette,51,0.0003
+Hempstead,51,0.0003
+Düren,51,0.0003
+Conflans-Sainte-Honorine,51,0.0003
+Fontainebleau,51,0.0003
+Kentwood,51,0.0003
+Tortosa,51,0.0003
+Unterlangkampfen,51,0.0003
+Stevens Point,51,0.0003
+Filderstadt,51,0.0003
+Show Low,51,0.0003
+Balashikha,51,0.0003
+Villa Constitución,51,0.0003
+Massarosa,51,0.0003
+Buchholz in der Nordheide,51,0.0003
+Smila,51,0.0003
+Starkville,51,0.0003
+Bridlington,51,0.0003
+Pontianak,51,0.0003
+Mérignac,51,0.0003
+Mexborough,51,0.0003
+Hennef (Sieg),51,0.0003
+Zermatt,50,0.0003
+Ennis,50,0.0003
+Woodbury,50,0.0003
+Kathu,50,0.0003
+Bernau bei Berlin,50,0.0003
+Le Lamentin,50,0.0003
+Arecibo,50,0.0003
+Terrebonne,50,0.0003
+Ballarat,50,0.0003
+Dinnington,50,0.0003
+Port Elizabeth,50,0.0003
+Rijeka,50,0.0003
+Bremervörde,50,0.0003
+Zemun,50,0.0003
+Cremona,50,0.0003
+Waterville,50,0.0003
+Manavgat,50,0.0003
+Frankfurt (Oder),50,0.0003
+Salé,50,0.0003
+Rauris,50,0.0003
+São João de Meriti,50,0.0003
+Maisons-Alfort,50,0.0003
+Bang Bo,50,0.0003
+Wil,50,0.0003
+Laurentino,50,0.0003
+Benghazi,50,0.0003
+Rota,50,0.0003
+Germering,50,0.0003
+Saddleworth,50,0.0003
+Oral,50,0.0003
+Serang,50,0.0003
+Stuposiany,50,0.0003
+Shakhtinsk,50,0.0003
+Lahr,50,0.0003
+Santiago de Compostela,50,0.0003
+Bhubaneswar,50,0.0003
+Radebeul,50,0.0003
+Popayán,50,0.0003
+Pfaffenhofen an der Ilm,50,0.0003
+Tralee,50,0.0003
+Matão,50,0.0003
+Deerfield Beach,50,0.0003
+Noordwijk-Binnen,50,0.0003
+Norden,50,0.0003
+Nagaoka,50,0.0003
+Ebreichsdorf,50,0.0003
+Crailsheim,50,0.0003
+Kortrijk,50,0.0003
+Epping,50,0.0003
+Roswell,50,0.0003
+Arles,50,0.0003
+Pietermaritzburg,50,0.0003
+Lido di Jesolo,50,0.0003
+Cubatão,49,0.0003
+Lowell,49,0.0003
+West Malling,49,0.0003
+Terni,49,0.0003
+Brake (Unterweser),49,0.0003
+Semey,49,0.0003
+Lahti,49,0.0003
+Stendal,49,0.0003
+Chestermere,49,0.0003
+Chernihiv,49,0.0003
+Silver Spring,49,0.0003
+Oban,49,0.0003
+Hamadān,49,0.0003
+Surin,49,0.0003
+Köniz,49,0.0003
+Putten,49,0.0003
+Vysokyi,49,0.0003
+Portage,49,0.0003
+Kamagaya,49,0.0003
+Zanjan,49,0.0003
+Piacenza,49,0.0003
+Much Hadham,49,0.0003
+Chosica,49,0.0003
+Almansa,49,0.0003
+Magnitogorsk,49,0.0003
+Woburn,49,0.0003
+Traverse City,49,0.0003
+Jilin,49,0.0003
+Paraparaumu,49,0.0003
+Katrineholm,49,0.0003
+Pilchowice,49,0.0003
+Eschwege,49,0.0003
+Great Falls,49,0.0003
+Freising,49,0.0003
+L'Isle-Adam,49,0.0003
+Bensheim,49,0.0003
+Larnaca,49,0.0003
+Yverdon-les-Bains,49,0.0003
+Waltershausen,49,0.0003
+Agadir,49,0.0003
+Lekki,49,0.0003
+Villaviciosa de Odón,49,0.0003
+Princeton,49,0.0003
+Békéscsaba,49,0.0003
+Stainforth,49,0.0003
+Wejherowo,49,0.0003
+Badajoz,49,0.0003
+Castro-Urdiales,49,0.0003
+Nahariyya,49,0.0003
+General Pico,49,0.0003
+Ciudad Obregón,49,0.0003
+Highlands Ranch,49,0.0003
+Fukuyama,49,0.0003
+Finchampstead,49,0.0003
+Marktheidenfeld,49,0.0003
+Baildon,49,0.0003
+Ashikaga,49,0.0003
+Höganäs,48,0.0003
+Meopham,48,0.0003
+Carmichael,48,0.0003
+Vapi,48,0.0003
+Ahlen,48,0.0003
+Backnang,48,0.0003
+Spencer,48,0.0003
+Ajax,48,0.0003
+Doylestown,48,0.0003
+Catanzaro,48,0.0003
+Hailey,48,0.0003
+Ashbourne,48,0.0003
+Bruck an der Leitha,48,0.0003
+Ripponden,48,0.0003
+Wetzlar,48,0.0003
+Bujumbura,48,0.0003
+Wanaka,48,0.0003
+Bauru,48,0.0003
+Water Orton,48,0.0003
+Springe,48,0.0003
+Kapolei,48,0.0003
+Middleton,48,0.0003
+Pinhal Novo,48,0.0003
+Sliedrecht,48,0.0003
+Ballymun,48,0.0003
+Delmas,48,0.0003
+İznik,48,0.0003
+Chishang,48,0.0003
+Popovo,48,0.0003
+Del Mar,48,0.0003
+Bạc Liêu,48,0.0003
+Biñan,48,0.0003
+Hoogeveen,48,0.0003
+Parramatta,48,0.0003
+Bodegraven,48,0.0003
+Omsk,48,0.0003
+Lymm,48,0.0003
+Manacor,48,0.0003
+Parauapebas,48,0.0003
+Markovac,48,0.0003
+Victoria Falls,48,0.0003
+Voorschoten,48,0.0003
+Lamongan,48,0.0003
+Wheatland,48,0.0003
+Ondarroa,48,0.0003
+Santa Lucía,48,0.0003
+Chachoengsao,48,0.0003
+Lode,48,0.0003
+Thionville,48,0.0003
+Jacó,48,0.0003
+Barleben,48,0.0003
+Kangasala,48,0.0003
+Lagny-sur-Marne,48,0.0003
+Bắc Kạn,48,0.0003
+Cao Bằng,48,0.0003
+Cedar Park,48,0.0003
+Vänersborg,48,0.0003
+Borken,48,0.0003
+Glendora,48,0.0003
+Vị Thanh,48,0.0003
+Carcassonne,48,0.0003
+Virār,48,0.0003
+Shimotoda,48,0.0003
+Neyagawa,48,0.0003
+Windlesham,48,0.0003
+Chingford,47,0.0003
+Elmont,47,0.0003
+Kota,47,0.0003
+Tirupati,47,0.0003
+Miramar,47,0.0003
+Hua Hin,47,0.0003
+Woodbridge,47,0.0003
+Volos,47,0.0003
+Đoan Hùng,47,0.0003
+West Drayton,47,0.0003
+Boxtel,47,0.0003
+Farmington Hills,47,0.0003
+Manchay Bajo,47,0.0003
+Marcos Juárez,47,0.0003
+Wolgot,47,0.0003
+Swanmore,47,0.0003
+Banff,47,0.0003
+Burjassot,47,0.0003
+Yanggu,47,0.0003
+Logan,47,0.0003
+Bilzen,47,0.0003
+Campi Bisenzio,47,0.0003
+Jinzhong,47,0.0003
+Destin,47,0.0003
+Imabari,47,0.0003
+Nogna,47,0.0003
+Dobropillia,47,0.0003
+‘Aseret,47,0.0003
+Hicksville,47,0.0003
+Frankenburg,47,0.0003
+Radica,47,0.0003
+Belene,47,0.0003
+Sarnia,47,0.0003
+Itapevi,47,0.0003
+Town 'n' Country,47,0.0003
+Ponders End,47,0.0003
+Kifisiá,47,0.0003
+Chengalpattu,47,0.0003
+Usingen,47,0.0003
+Dindigul,47,0.0003
+Foggia,47,0.0003
+Möhlin,47,0.0003
+Bloomsburg,47,0.0003
+Beira,47,0.0003
+Itabaiana,47,0.0003
+Hamar,47,0.0003
+Toyohashi,47,0.0003
+Clevedon,47,0.0003
+Bezannes,47,0.0003
+Neenah,47,0.0003
+Orsay,47,0.0003
+Earley,47,0.0003
+Winsen,47,0.0003
+Rondebosch,47,0.0003
+Barinas,47,0.0003
+Mococa,47,0.0003
+Le Bry,47,0.0003
+Beighton,47,0.0003
+Perpignan,47,0.0003
+Wick,47,0.0003
+Saint-Quentin,47,0.0003
+Seekirchen am Wallersee,47,0.0003
+Barreirinhas,47,0.0003
+Green Bay,47,0.0003
+Szombathely,47,0.0003
+Neustadt bei Coburg,47,0.0003
+Tonbridge,47,0.0003
+Kamphaeng Phet,46,0.0003
+Cammack Village,46,0.0003
+Cartago,46,0.0003
+Póvoa de Santa Iria,46,0.0003
+Jangheung,46,0.0003
+Boiarka,46,0.0003
+Poprad,46,0.0003
+Terrington St Clement,46,0.0003
+Riobamba,46,0.0003
+Itapema,46,0.0003
+West Des Moines,46,0.0003
+Peebles,46,0.0003
+Saint Andrew,46,0.0003
+Bad Neuenahr-Ahrweiler,46,0.0003
+Thunder Bay,46,0.0003
+Järvenpää,46,0.0003
+Tostedt,46,0.0003
+Phetchabun,46,0.0003
+Coral Springs,46,0.0003
+Geel,46,0.0003
+Mevasseret Tsiyyon,46,0.0003
+Dundalk,46,0.0003
+La Mirada,46,0.0003
+Barberà del Vallès,46,0.0003
+Étampes,46,0.0003
+Piesendorf,46,0.0003
+Matera,46,0.0003
+Kaufbeuren,46,0.0003
+Okazaki,46,0.0003
+Briceni,46,0.0003
+Brevard,46,0.0003
+Florida,46,0.0003
+Cleethorpes,46,0.0003
+Elizabethtown,46,0.0003
+Keller,46,0.0003
+Baie-Mahault,46,0.0003
+Shenfield,46,0.0003
+Jaraguá do Sul,46,0.0003
+Kiryat Ono,46,0.0003
+Khobar,46,0.0003
+Franconville,46,0.0003
+Manouba,46,0.0003
+Amargosa,46,0.0003
+Khabarovsk,46,0.0003
+Bourton on the Water,46,0.0003
+Savigny-le-Temple,46,0.0003
+Tây Ninh,46,0.0003
+Great Bend,46,0.0003
+Matsumoto,46,0.0003
+Leek,46,0.0003
+Johnson City,46,0.0003
+Lenoir,46,0.0003
+Terneuzen,46,0.0003
+Ystad,46,0.0003
+Arnsberg,46,0.0003
+Maryland Heights,46,0.0003
+Gifhorn,46,0.0003
+Roseburg,46,0.0003
+Greenwood Village,46,0.0003
+Köping,46,0.0003
+Eisenach,46,0.0003
+Troyes,46,0.0003
+Sucy-en-Brie,46,0.0003
+Mougins,46,0.0003
+Umluj,46,0.0003
+Falköping,46,0.0003
+Catarroja,46,0.0003
+Kedungwaru,46,0.0003
+Boxmeer,46,0.0003
+Sierning,46,0.0003
+Polokwane,46,0.0003
+Cambé,46,0.0003
+Oberhaching,46,0.0003
+Emmeloord,46,0.0003
+Vaulx-en-Velin,46,0.0003
+Larchmont,46,0.0003
+Kristinehamn,45,0.0003
+Yecheon,45,0.0003
+Grafton,45,0.0003
+San Carlos de Bolívar,45,0.0003
+Łomża,45,0.0003
+Burntwood,45,0.0003
+Taubaté,45,0.0003
+Asaka,45,0.0003
+Norrtälje,45,0.0003
+New Rochelle,45,0.0003
+Nan,45,0.0003
+Zarqa,45,0.0003
+Panambi,45,0.0003
+Waldshut-Tiengen,45,0.0003
+Silsden,45,0.0003
+Oświęcim,45,0.0003
+Niebüll,45,0.0003
+Wiesmoor,45,0.0003
+Enkhuizen,45,0.0003
+Klaten,45,0.0003
+Zwickau,45,0.0003
+Anthon,45,0.0003
+Levittown,45,0.0003
+Zeven,45,0.0003
+Tinley Park,45,0.0003
+Leigh-on-Sea,45,0.0003
+Mianyang,45,0.0003
+São José do Rio Pardo,45,0.0003
+Hurstpierpoint,45,0.0003
+Ang Mo Kio New Town,45,0.0003
+Mandalay,45,0.0003
+Liberty,45,0.0003
+Grodzisk Mazowiecki,45,0.0003
+Rosyth,45,0.0003
+Sestu,45,0.0003
+Valence,45,0.0003
+Tyldesley,45,0.0003
+İskenderun,45,0.0003
+Pine Castle,45,0.0003
+Booneville,45,0.0003
+Catalão,45,0.0003
+Boppard,45,0.0003
+Los Mochis,45,0.0003
+Piraeus,45,0.0003
+Gablitz,45,0.0003
+Kaltenkirchen,45,0.0003
+Ban Chang,45,0.0003
+Helena,45,0.0003
+Cầu Diễn,45,0.0003
+Gladbeck,45,0.0003
+Quickborn,45,0.0003
+Indaiatuba,45,0.0003
+Naesŏ,45,0.0003
+Telfs,45,0.0003
+Leoben,45,0.0003
+Brentford,45,0.0003
+São Vicente,45,0.0003
+Francisco Beltrão,45,0.0003
+Newburn,45,0.0003
+Wingerworth,45,0.0003
+Brumovice,45,0.0003
+Kofu,45,0.0003
+Or Yehuda,45,0.0003
+Ramadi,45,0.0003
+Garfield Heights,45,0.0003
+Colne,45,0.0003
+Buckhurst Hill,44,0.0003
+South Houston,44,0.0003
+Volendam,44,0.0003
+Kapfenberg,44,0.0003
+Nong Khai,44,0.0003
+Tai Wo Hau,44,0.0003
+Hendersonville,44,0.0003
+Hrdlořezy,44,0.0003
+Valdivia,44,0.0003
+Saint-Jérôme,44,0.0003
+Homburg,44,0.0003
+Sherborne St John,44,0.0003
+Farmers Branch,44,0.0003
+Quimper,44,0.0003
+Schmallenberg,44,0.0003
+Laramie,44,0.0003
+Timmins,44,0.0003
+Old Bridge,44,0.0003
+Mahilyow,44,0.0003
+Holt,44,0.0003
+Brecon,44,0.0003
+Nijkerk,44,0.0003
+Pocatello,44,0.0003
+Tuscaloosa,44,0.0003
+Hita,44,0.0003
+Chertsey,44,0.0003
+Muriaé,44,0.0003
+Thrissur,44,0.0003
+Lajeado,44,0.0003
+Alcantarilla,44,0.0003
+Nærbø,44,0.0003
+Hohenems,44,0.0003
+Mount Airy,44,0.0003
+Gerrards Cross,44,0.0003
+Zacatecas,44,0.0003
+Asker,44,0.0003
+Huancayo,44,0.0003
+Hexham,44,0.0003
+Sugar Land,44,0.0003
+Dothan,44,0.0003
+Taboão da Serra,44,0.0003
+Hunstanton,44,0.0003
+Avellaneda,44,0.0003
+Gradačac,44,0.0003
+Bruguières,44,0.0003
+Ardmore,44,0.0003
+Beverly,44,0.0003
+Baharampur,44,0.0003
+Sasolburg,44,0.0003
+Cổ Lóa,44,0.0003
+Carterton,44,0.0003
+Fittja,44,0.0003
+Rio do Sul,44,0.0003
+Ybbs an der Donau,44,0.0003
+Sault Ste. Marie,44,0.0003
+Kümmersbruck,44,0.0003
+Llandybie,44,0.0003
+Portimão,44,0.0003
+Leigh,44,0.0003
+Emalahleni,44,0.0003
+Commerce,44,0.0003
+Novo Cabrais,44,0.0003
+Surprise,44,0.0003
+Playa del Carmen,44,0.0003
+Tatabánya,43,0.0003
+Cormano,43,0.0003
+Spring Hill,43,0.0003
+Varel,43,0.0003
+Situbondo,43,0.0003
+Kamakura,43,0.0003
+Hurlingham,43,0.0003
+Vršovice,43,0.0003
+Ostfildern,43,0.0003
+Ried im Innkreis,43,0.0003
+Okcheon,43,0.0003
+Rösrath,43,0.0003
+Roissy-en-Brie,43,0.0003
+Bihać,43,0.0003
+Vallejo,43,0.0003
+Edenbridge,43,0.0003
+Saint-Étienne-du-Rouvray,43,0.0003
+Adrian,43,0.0003
+Nonoichi,43,0.0003
+Fredericksburg,43,0.0003
+Votuporanga,43,0.0003
+Zvolen,43,0.0003
+Volgograd,43,0.0003
+Mariestad,43,0.0003
+Sneek,43,0.0003
+Pembroke Pines,43,0.0003
+Yerres,43,0.0003
+Ringkøbing,43,0.0003
+Glostrup,43,0.0003
+Mrozy,43,0.0003
+La Ciotat,43,0.0003
+Cirebon,43,0.0003
+Châtenay-Malabry,43,0.0003
+Kingswood,43,0.0003
+Staveley,43,0.0003
+Passos,43,0.0003
+Zunyi,43,0.0003
+Hoyerswerda,43,0.0003
+Nopphitam,43,0.0003
+Zanesville,43,0.0003
+Viljandi,43,0.0003
+Novelda,43,0.0003
+New Berlin,43,0.0003
+Jonesboro,43,0.0003
+Middelfart,43,0.0003
+Sétif,43,0.0003
+Montego Bay,43,0.0003
+Leiston,43,0.0003
+Artane,43,0.0003
+Eastwood,43,0.0003
+Leven,43,0.0003
+Clichy,43,0.0003
+SeaTac,43,0.0003
+Milford Haven,43,0.0003
+Parkstone,43,0.0003
+Jatiroto,43,0.0003
+Quận Mười,43,0.0003
+Lom,43,0.0003
+Brunswick,43,0.0003
+Milton of Leys,43,0.0003
+Roeselare,43,0.0003
+Chardon,43,0.0003
+Ipatinga,43,0.0003
+Blida,43,0.0003
+Kilkís,43,0.0003
+Schiltigheim,43,0.0003
+Porto Seguro,43,0.0003
+Wright City,43,0.0003

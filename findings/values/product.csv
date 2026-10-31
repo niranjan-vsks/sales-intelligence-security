@@ -1,0 +1,4744 @@
+value,n,pct
+,11997855,82.1298
+nginx,762202,5.2176
+Apache httpd,277760,1.9014
+CloudFront httpd,216148,1.4796
+AkamaiGHost,159041,1.0887
+OpenSSH,135116,0.9249
+AWS ELB,114956,0.7869
+OpenResty,85829,0.5875
+Microsoft IIS httpd,72615,0.4971
+CloudFlare,52964,0.3626
+Hikvision IP Camera,43796,0.2998
+TR-069 Connection Request Server,37516,0.2568
+Socks4A,35931,0.246
+Microsoft HTTPAPI httpd,28440,0.1947
+Remote Desktop Protocol,28100,0.1924
+Chromecast,24879,0.1703
+Ncat http proxy,21412,0.1466
+ntpd,19242,0.1317
+MikroTik bandwidth-test server,16755,0.1147
+Tengine,15691,0.1074
+ciscoSystems,15384,0.1053
+lighttpd,14634,0.1002
+Squid http proxy,13319,0.0912
+SonicWall,11720,0.0802
+BigIP,11573,0.0792
+MikroTik,11117,0.0761
+Prometheus Node Exporter,10404,0.0712
+Huawei Home Gateway TR-069,10354,0.0709
+Postfix smtpd,9956,0.0682
+MikroTik RouterOS,9451,0.0647
+L2TP,8719,0.0597
+net-snmp,8530,0.0584
+Exim smtpd,7878,0.0539
+RDK-B CCSP TR-069,7428,0.0508
+MySQL,7374,0.0505
+PPTP,6235,0.0427
+VNC,5972,0.0409
+Pure-FTPd,5483,0.0375
+ISC BIND,5055,0.0346
+Kubernetes,4820,0.033
+MikroTik Winbox,4737,0.0324
+Istio Service Mesh,4675,0.032
+Citrix Netscaler,4627,0.0317
+Dahua-based DVR,4626,0.0317
+Microsoft Azure Application Gateway,4448,0.0304
+EasyCwmp,4175,0.0286
+LiteSpeed httpd,4025,0.0276
+TP-Link SIP Stack,3802,0.026
+WinRM,3607,0.0247
+Cisco IP SLA,3534,0.0242
+cPanel,3449,0.0236
+MariaDB,3370,0.0231
+strongSwan,3342,0.0229
+Microsoft Windows RPC over HTTP,3301,0.0226
+mDNS,3107,0.0213
+Netflix Ready Device Platform (NRDP),3024,0.0207
+Boa Web Server,2944,0.0202
+Alibaba Cloud Object Storage Service,2841,0.0194
+PowerDNS Authoritative Server,2821,0.0193
+Microsoft RPC Endpoint Mapper,2807,0.0192
+Microsoft ftpd,2803,0.0192
+Lego Server,2573,0.0176
+Plex Media Server,2463,0.0169
+Jetty,2452,0.0168
+WHM,2360,0.0162
+micro_httpd,2271,0.0155
+Cisco,2220,0.0152
+SAGEMCOM SAS,2118,0.0145
+"HUAWEI Technology Co.,Ltd",2095,0.0143
+PostgreSQL,2046,0.014
+Fortinet FortiGate,1935,0.0132
+GoAhead Embedded Web Server,1891,0.0129
+Dropbear sshd,1848,0.0127
+Askey TR-069,1817,0.0124
+DDoS-Guard,1798,0.0123
+EZproxy web proxy,1797,0.0123
+SOCKS5 Proxy,1763,0.0121
+dircproxy,1755,0.012
+Apache Tomcat,1679,0.0115
+BGP,1652,0.0113
+Broadcom Corporation,1587,0.0109
+Checkpoint VPN-1 / Firewall-1,1571,0.0108
+Zscaler Cloud Services,1510,0.0103
+FRITZ!OS,1492,0.0102
+Thomson Inc.,1447,0.0099
+Wildix Collaboration,1416,0.0097
+Java Message Service,1412,0.0097
+MQTT,1401,0.0096
+Sysax Multi Server sshd,1400,0.0096
+MySQL X Protocol,1397,0.0096
+Creston CP2E control telnetd,1360,0.0093
+Minecraft,1350,0.0092
+3CX Phone System Management Console,1349,0.0092
+ArGoSoft nntpd,1346,0.0092
+Hamster smtpd,1316,0.009
+Apache Tomcat/Coyote JSP engine,1314,0.009
+Stockfish chess engine,1288,0.0088
+Novell GroupWise imapd,1282,0.0088
+Ivanti Endpoint Manager Mobile (EPMM),1238,0.0085
+MCP Server,1203,0.0082
+Sophos SSL VPN User Portal,1179,0.0081
+DrayTek Vigor Router,1178,0.0081
+Sercomm TR-069,1155,0.0079
+RustDesk,1148,0.0079
+Microsoft Message Queuing,1147,0.0079
+InfluxDB,1125,0.0077
+ASUS AiCloud,1116,0.0076
+Nextcloud,1107,0.0076
+Grafana (Open Source),1099,0.0075
+Java Debug Wire Protocol,1081,0.0074
+LANCOM Server,1064,0.0073
+rsyncd,1040,0.0071
+Subversion,1024,0.007
+Amazon S3 httpd,1022,0.007
+ASUS Wireless Router RT-AX68U,1010,0.0069
+Remedy AR System Server,992,0.0068
+Ubiquiti AirRouter,978,0.0067
+Microsoft RPC,970,0.0066
+Netgear,964,0.0066
+Cisco SSH,962,0.0066
+TRENDnet TV-IP110W webcam display httpd,962,0.0066
+Legalis Intranet legal information server,959,0.0066
+Azure Bastion,958,0.0066
+Quagga routing software,957,0.0066
+GoAhead-Webs httpd,951,0.0065
+LiteLLM,950,0.0065
+AirPlay,944,0.0065
+Cisco IOS http config,939,0.0064
+Serv-U ftpd,933,0.0064
+Philips Hue Bridge v2 (BSB002),925,0.0063
+Home Assistant,924,0.0063
+DirectUpdate dynamic IP updater,909,0.0062
+Sagemcom TR-069,882,0.006
+MinIO Server,876,0.006
+Portainer,865,0.0059
+ZyXEL,851,0.0058
+Dovecot Pigeonhole sieve,850,0.0058
+Nginx Microsoft HTTPAPI httpd,845,0.0058
+Boa HTTPd,832,0.0057
+Ambit Microsystems Corporation,829,0.0057
+Webmin,819,0.0056
+dnsmasq,813,0.0056
+mini_httpd,798,0.0055
+TruVision NVR/DVR/IP Camera,774,0.0053
+MongoDB,757,0.0052
+Mini web server 1.0 ZTE corp 2005,746,0.0051
+ProFTPD,746,0.0051
+Apache Dubbo,746,0.0051
+airCube ISP,744,0.0051
+Control Web Panel,719,0.0049
+Redis key-value store,713,0.0049
+kngx,710,0.0049
+Dahua XVR,697,0.0048
+n8n,658,0.0045
+HP iLO,648,0.0044
+gSOAP soap,637,0.0044
+Sendmail,618,0.0042
+GitLab Self-Managed,610,0.0042
+ZTE TR-069,605,0.0041
+Dahua-based DH-XVR1B08-I,592,0.0041
+NOD32 AntiVirus,585,0.004
+Microsoft,576,0.0039
+RealVNC Enterprise,562,0.0038
+Dahua DVR,560,0.0038
+Outlook Web App,554,0.0038
+Windows Terminal Server,552,0.0038
+H3C,550,0.0038
+BSD lpd,545,0.0037
+MikroTik router ftpd,539,0.0037
+Samsung printer telnetd,535,0.0037
+Dahua-based DH-XVR1B04-I,531,0.0036
+MikroTik RouterOS API Service,528,0.0036
+thttpd,526,0.0036
+FRITZ!Box,508,0.0035
+Kestrel,489,0.0033
+GeoVision GeoHttpServer for webcams,483,0.0033
+Connectra Check Point Web Security httpd,481,0.0033
+Lotus Domino httpd,478,0.0033
+TeamXchange imapd,475,0.0033
+LANCOM Systems,467,0.0032
+Microsoft Exchange smtpd,462,0.0032
+uc-httpd,454,0.0031
+NEC Corporation,452,0.0031
+Roku SoundBridge,451,0.0031
+InterMapper network monitor,444,0.003
+ZTE H8102E,443,0.003
+Ingrian SSH,440,0.003
+Kong Gateway,440,0.003
+Jeedom,431,0.003
+HP-UX Remshd,430,0.0029
+IP Camera,429,0.0029
+TLS,423,0.0029
+OpenLookup,421,0.0029
+Dahua DHI-NVR4116HS-4KS2,414,0.0028
+"Ruijie Networks Co., Ltd. (formerly 'Start Network Technology Co., Ltd.')",410,0.0028
+Information Security,407,0.0028
+mpd,403,0.0028
+Hermes Agent,393,0.0027
+GNU Inetutils FTPd,389,0.0027
+Kerio Connect webmail httpd,386,0.0026
+ZTE F6600P,378,0.0026
+MailEnable smptd,370,0.0025
+SonicWALL firewall http config,359,0.0025
+RabbitMQ,353,0.0024
+DrayTek Vigor2860 Series,351,0.0024
+"ADB P.DG A4001N WAP, Cisco Telepresence MCU 4505, or Digifort Enterprise 6.5 httpd",348,0.0024
+Apache Airflow,342,0.0023
+DrayTek Vigor2862 Series,327,0.0022
+SimpleHTTPServer,326,0.0022
+RedBack Networks,322,0.0022
+Dahua NVR,319,0.0022
+Allegro RomPager,317,0.0022
+Kittenx,312,0.0021
+QNAP,312,0.0021
+Technicolor,306,0.0021
+Ethereum Discovery Protocol,303,0.0021
+BaseHTTPServer,295,0.002
+Fortinet FortiGate-60F,295,0.002
+Check Point Firewall,290,0.002
+Cisco router telnetd,286,0.002
+Fortinet FortiGate-40F,286,0.002
+Node.js,283,0.0019
+CUPS (IPP),282,0.0019
+DLink VoIP Stack,282,0.0019
+MailEnable POP3 Server,282,0.0019
+LG webOS TV,277,0.0019
+VMware Authentication Daemon,276,0.0019
+vsftpd,272,0.0019
+Jenkins,269,0.0018
+OpenFlow,267,0.0018
+Elastic,263,0.0018
+hmhttpd,262,0.0018
+"Juniper Networks, Inc.",261,0.0018
+Luma IP Camera,255,0.0017
+Streamlit,255,0.0017
+DrayTek Vigor2925 Series,253,0.0017
+Windows qotd,253,0.0017
+MPLS LDP,248,0.0017
+Spotify Connect,247,0.0017
+Sophos User Portal,243,0.0017
+OpenClaw,240,0.0016
+Samba,239,0.0016
+CherryPy httpd,237,0.0016
+Jellyfin,236,0.0016
+hp LaserJet 4200,236,0.0016
+NetBird Dashboard,235,0.0016
+Apple AirPort,235,0.0016
+Salesforce,225,0.0015
+D-Link DLS-2750U ftp firmward update,225,0.0015
+Cisco ASA SSL VPN,224,0.0015
+D-Link DCS-932LB1 webcam http interface,222,0.0015
+Hydra,217,0.0015
+Tableau Server,217,0.0015
+ownCloud,216,0.0015
+OneAccess,215,0.0015
+Mosquitto,213,0.0015
+Linksys WRT45G modified dropbear sshd,212,0.0015
+Tinyproxy,210,0.0014
+Check Point SVN foundation httpd,209,0.0014
+ScreenConnect,208,0.0014
+SQL Server Browser Service,207,0.0014
+Milesight Industrial Cellular Routers,203,0.0014
+DD-WRT milli_httpd,202,0.0014
+Bbox,202,0.0014
+PDR M800,202,0.0014
+bftpd,201,0.0014
+OpenVPN Access Server CWS,194,0.0013
+Erlang Port Mapper Daemon,193,0.0013
+MS-SQL Server 2014 SP3CU4+GDR,193,0.0013
+Blue Server,193,0.0013
+Rlogin,192,0.0013
+Dahua HCVR,190,0.0013
+DrayTek Vigor2762 Series,190,0.0013
+ZTE F670L,189,0.0013
+WildFly,187,0.0013
+JD-GUI Java decompiler,183,0.0013
+Fortinet FortiGate-100F,183,0.0013
+iBoss Cloud,183,0.0013
+Reolink Baichuan,182,0.0012
+Busybox telnetd,182,0.0012
+D-Link DCS-5020L webcam http interface,182,0.0012
+Linksys wireless-G WAP http config,178,0.0012
+TFTP,178,0.0012
+SITA ADS,178,0.0012
+ASUS Wireless Router ZenWiFi AX,174,0.0012
+TwistedWeb httpd,173,0.0012
+Dahua-based DH-XVR5108HS-I3,169,0.0012
+ZTE F6201B,169,0.0012
+"Zoom Telephonics, Inc.",169,0.0012
+Dahua-based XVR1B08H,167,0.0011
+D-Link webcam http interface,164,0.0011
+Dovecot imapd,163,0.0011
+Gaspot,162,0.0011
+Dahua-based DHI-NVR4104HS-4KS2/L,160,0.0011
+Fast Reverse Proxy,160,0.0011
+Dovecot pop3d,160,0.0011
+Mbedthis Appweb,159,0.0011
+Metabase,158,0.0011
+Dell SonicWALL,157,0.0011
+D-Link DCS-5000L webcam http interface,155,0.0011
+HP Printer Embedded Web Server,147,0.001
+Oracle TNS Listener,147,0.001
+ZTE H268A,147,0.001
+Transmission,146,0.001
+nPerf,146,0.001
+Tornado Web Server,145,0.001
+Dahua DH-XVR5108HS-I2,145,0.001
+Dahua DH-XVR5108HS-X,144,0.001
+Ralink router 1,144,0.001
+Panasonic mfpscdl.exe service,144,0.001
+JAGeX Java gaming httpd,142,0.001
+Virata-EmWeb,141,0.001
+Dahua-based DH-XVR1B16-I,139,0.001
+ZTE web server 1.0 ZTE corp 2015,139,0.001
+General Instrument,137,0.0009
+GPRS Tunneling Protocol,137,0.0009
+Stormshield Network Security,137,0.0009
+ASUS Wireless Router RT-AC68U,136,0.0009
+MikroTik http proxy,136,0.0009
+Barracuda 300 spam filter,135,0.0009
+Cisco Umbrella,135,0.0009
+Westell TR-069,133,0.0009
+Microsoft RPC Endpoint Mapper over HTTP,133,0.0009
+Huawei,131,0.0009
+Wowza Streaming Engine,131,0.0009
+MS-SQL Server 2019 RTM,131,0.0009
+DrayTek Vigor2926 Series,130,0.0009
+MudNames,130,0.0009
+DrayTek Vigor ADSL router telnetd,129,0.0009
+accel-ppp,128,0.0009
+ASUS Wireless Router,128,0.0009
+DrayTek Vigor2960 Series,127,0.0009
+ASUS Wireless Router RT-AX58U,122,0.0008
+3Proxy http proxy,122,0.0008
+FPBX,121,0.0008
+Echo,121,0.0008
+Control Web Panel (CWP),119,0.0008
+Dahua-based DH-XVR5104HS-I3,119,0.0008
+PS3 Media Server UPnP,119,0.0008
+Synology DiskStation NAS ftpd,119,0.0008
+ASUS Wireless Router RT-AX82U,119,0.0008
+Alibi IP Camera,118,0.0008
+ChipPC Extreme httpd,118,0.0008
+D-Link DCS-930LB1 webcam http interface,118,0.0008
+Dahua DH-XVR5104HS-I2,118,0.0008
+Grandstream Device Configuration,117,0.0008
+Dahua-based DH-XVR5116HS-I3,117,0.0008
+"Scientific-Atlanta, Inc.",117,0.0008
+"U.C. Davis, ECE Dept. Tom",116,0.0008
+lancom sshd,115,0.0008
+ASUS Wireless Router RT-AX55,115,0.0008
+"Fortinet, Inc.",114,0.0008
+MS-SQL Server 2022 RTM,113,0.0008
+Asterisk,110,0.0008
+KB Vision DVR,110,0.0008
+MikroTik RouterOS sshd,109,0.0007
+oftpd,109,0.0007
+TightVNC Java Viewer,108,0.0007
+ASUS Wireless Router RT-AX86U,108,0.0007
+Sassafras Key Server,108,0.0007
+"Zhongxing Telecom Co.,ltd. (abbr. ZTE)",107,0.0007
+Dahua DHI-NVR4208-8P-4KS2,105,0.0007
+Kerio Connect Webmail,105,0.0007
+ASUS Wireless Router RT-AC86U,104,0.0007
+Emby Media Server,103,0.0007
+Epicentro - YAPS ADB Stack,101,0.0007
+CommuniGate Pro httpd,101,0.0007
+DrayTek Vigor2760 Series,101,0.0007
+Avtech AVN801 network camera,100,0.0007
+RapidLogic httpd,100,0.0007
+Fortinet FortiGate-60E,100,0.0007
+"Alcatel-Lucent (formerly 'Panthera Networks, Inc.')",100,0.0007
+Compal Broadband Networks Inc.,99,0.0007
+SAP NetWeaver,99,0.0007
+Dahua DH-XVR1A08,99,0.0007
+Unbound,98,0.0007
+D-Link/Airlink IP webcam http config,98,0.0007
+Fortinet FortiGate-80F,97,0.0007
+DrayTek Vigor2865 Series,96,0.0007
+KB Vision XVR,96,0.0007
+Dahua DH-XVR5108HS-I3,95,0.0007
+SonarQube,95,0.0007
+Apache Superset,95,0.0007
+"TELDAT, S.A.",94,0.0006
+ASUS Wireless Router RT-AX3000,93,0.0006
+ClickHouse,93,0.0006
+Splunk Server,93,0.0006
+"Brocade Communication Systems, Inc. (formerly 'Foundry Networks, Inc.')",91,0.0006
+Windows Media Connect Compatible (),90,0.0006
+Netatalk,90,0.0006
+Apple remote desktop vnc,88,0.0006
+D-Link DCS-933L webcam http interface,88,0.0006
+Paramiko Python sshd,87,0.0006
+MS-SQL Server 2008 R2 RTMRTM,87,0.0006
+uhttpd Web Server,86,0.0006
+Fortinet FortiGate-200F,84,0.0006
+GreasySpoon,84,0.0006
+Dahua-based DH-XVR5216AN-I3,83,0.0006
+Ollama,83,0.0006
+Access Remote PC smtpd,80,0.0005
+FileZilla ftpd,80,0.0005
+Rumpus httpd,79,0.0005
+Dahua DH-XVR5104HS-X1,79,0.0005
+eXosip,79,0.0005
+hp LaserJet 4250,77,0.0005
+Dahua DH-XVR5104HS-I3,77,0.0005
+Dahua-based DHI-NVR4232-EI,76,0.0005
+Dahua DH-XVR1A04,76,0.0005
+SCS sshd,76,0.0005
+CP Plus DVR,76,0.0005
+Tridium Niagara httpd,75,0.0005
+Kerio Connect smtpd,75,0.0005
+ActiveMQ OpenWire Transport,75,0.0005
+GoAhead-Webs embedded httpd,74,0.0005
+Cacti,73,0.0005
+Keycloak,72,0.0005
+Microsoft Exchange 2007-2010 imapd,72,0.0005
+Couchbase Server,72,0.0005
+PgBouncer,72,0.0005
+TP-Link Kasa (HTTP),71,0.0005
+Kyocera ECOSYS P3145dn,71,0.0005
+DrayTek Vigor2927 Series,71,0.0005
+TRENDnet IP Camera,70,0.0005
+D-Link DCS-932L webcam http interface,69,0.0005
+Ricoh Aficio MP C3003,69,0.0005
+Xerox WorkCentre 6515,69,0.0005
+Famatech Radmin,69,0.0005
+Dahua DHI-NVR4104HS-P-4KS2,68,0.0005
+Werkzeug httpd,68,0.0005
+Dahua DHI-NVR4104-P-4KS2,68,0.0005
+Lantronix,67,0.0005
+ASUS Wireless Router RT-AX88U,67,0.0005
+Harbor,67,0.0005
+Oracle WebLogic Server,66,0.0005
+Dahua DH-XVR1B08-I,66,0.0005
+Docker Registry HTTP API,66,0.0005
+"Beijing Raisecom Scientific & Technology Development Co., Ltd.",66,0.0005
+Oracle 9iAS httpd,65,0.0004
+KB Vision NVR,65,0.0004
+Dahua DH-XVR5116HS-I3,65,0.0004
+Multicraft ftpd,64,0.0004
+ASUS Wireless Router GT-AX11000,64,0.0004
+Lexmark T652,63,0.0004
+Epson Printer Web Config,63,0.0004
+Juniper Junos,63,0.0004
+ZTE ZTEGF680,62,0.0004
+YAMAHA RT Series,62,0.0004
+TP-LINK WR740N WAP http config,62,0.0004
+Neo4j Browser,62,0.0004
+Barracuda,61,0.0004
+Alt-N MDaemon imapd,61,0.0004
+Dahua-based XVR1B16-I,61,0.0004
+MS-SQL Server 2019 GDR,61,0.0004
+STARFACE PBX,60,0.0004
+Dahua-based DH-XVR5108HS-4KL-I3,60,0.0004
+Dahua-based XVR,59,0.0004
+OpenWebNet,59,0.0004
+Homematic Central Control Unit,59,0.0004
+ASUS Wireless Router TUF-AX5400,58,0.0004
+Grafana (Enterprise),58,0.0004
+Dahua-based DHI-NVR4216-4KS2/L,58,0.0004
+WebLogic,58,0.0004
+HP LaserJet Pro M404dn,57,0.0004
+NETGEAR WNR2000v5,57,0.0004
+Radius,57,0.0004
+DrayTek Vigor2962,57,0.0004
+Dahua NV4416E-AI,57,0.0004
+Dahua DH-XVR5116HS-X,57,0.0004
+SolarView Compact,56,0.0004
+ASUS Wireless Router ZenWiFi AX Mini,56,0.0004
+MS-SQL Server 2014 RTMRTM,55,0.0004
+ZTE ZXHN H199A,55,0.0004
+iPlanet web proxy,55,0.0004
+rdate,55,0.0004
+InterNiche Technologies WebServer,55,0.0004
+Dahua-based DH-XVR1B08H-I,55,0.0004
+Typesense,54,0.0004
+D-Link DCS-5010L webcam http interface,54,0.0004
+Dahua-based NVR,54,0.0004
+Intelbras MHDX 1108,54,0.0004
+SPRO DHDVR,53,0.0004
+D-Link DCS-930L webcam http interface,52,0.0004
+DrayTek Vigor2133 Series,52,0.0004
+Cross Web Server,52,0.0004
+ABUS IP Camera,52,0.0004
+Enterasys XSR Security Router telnetd,52,0.0004
+DrayTek Vigor2912 Series,51,0.0003
+Rhinosoft Serv-U httpd,51,0.0003
+NET-DK,51,0.0003
+Dahua-based DH-XVR5104HS-4KL-I3,51,0.0003
+HP Color LaserJet CP4525,51,0.0003
+ASUS Wireless Router RT-AX53U,50,0.0003
+Apple Remote Desktop,49,0.0003
+Fortinet FortiGate-30E,49,0.0003
+SonicWALL SSL-VPN http proxy,49,0.0003
+Intelbras MHDX 1116,49,0.0003
+CALIX GS4220E,48,0.0003
+NoMachine NX Server remote desktop,48,0.0003
+DirectAdmin,48,0.0003
+Dahua-based DHI-NVR5216-16P-4KS2E,48,0.0003
+Indy httpd,48,0.0003
+Juniper,48,0.0003
+Knot DNS,47,0.0003
+BusyBox telnetd,47,0.0003
+PowerDNS,47,0.0003
+MS-SQL Server 2017 RTM,47,0.0003
+DrayTek Vigor3900 Series,47,0.0003
+Aruba Instant,47,0.0003
+SuiteCRM,47,0.0003
+ASUS Wireless Router RT-AC66U B1,46,0.0003
+PRAVIS,46,0.0003
+Domoticz,46,0.0003
+ClickHouse Native,46,0.0003
+ZTE F6600R,45,0.0003
+KAME/racoon/IPsec Tools,45,0.0003
+Dahua-based DHI-NVR1108HS-S3/H-VN,45,0.0003
+Oracle Application Server 10g httpd,45,0.0003
+D-Link DCS-936L,44,0.0003
+ASUS Wireless Router RT-AX92U,44,0.0003
+ASUS Wireless Router RT-AX56U,44,0.0003
+Fortinet FortiGate-101F,44,0.0003
+Fortinet FortiGate-200E,43,0.0003
+ASUS Wireless Router RT-AX86S,43,0.0003
+MS-SQL Server 2008 R2 SP2,43,0.0003
+Dahua DHI-NVR608-32-4KS2,43,0.0003
+ZTE ZXHN H198A,42,0.0003
+FreeBSD ftpd,42,0.0003
+Mumble Server,42,0.0003
+Eggdrop irc bot console,42,0.0003
+D-Link DCS-5030L webcam http interface,42,0.0003
+Dahua DH-XVR5104HS-4KL-I2,41,0.0003
+ZTE ZXHN H298A V1.0 TTN.27_260410,41,0.0003
+Lantronix X90,41,0.0003
+MiniServ,41,0.0003
+ASUS Wireless Router TUF-AX3000,41,0.0003
+Jupyter Server,41,0.0003
+SAH,41,0.0003
+hddtemp,40,0.0003
+axhttpd Web Server,40,0.0003
+Debut embedded httpd,40,0.0003
+Dahua DH-XVR1B04-I,40,0.0003
+Microsoft ESMTP,39,0.0003
+Abyss httpd,39,0.0003
+Dahua-based DHI-NVR5232-4KS2,39,0.0003
+rblsmtpd wrapped smtpd,39,0.0003
+Cisco VPN Concentrator,39,0.0003
+Dahua DHI-XVR5104HS-S2,39,0.0003
+ASUS Wireless Router RT-AX1800S,38,0.0003
+Intelbras MHDX 1016,38,0.0003
+Sarian Systems Limited,38,0.0003
+MPR-L8 3G mobile router telnetd,38,0.0003
+WebFS httpd,38,0.0003
+CloudHub Dedicated Load Balancers,38,0.0003
+Yaws httpd,37,0.0003
+Jupyter Hub,37,0.0003
+The FreeBSD Project,37,0.0003
+Dahua DHI-XVR5108HS-S2,37,0.0003
+EdgePrism,37,0.0003
+Dahua DHI-NVR4216-4KS2,37,0.0003
+Intelbras iMHDX 3008,37,0.0003
+TP-Link,36,0.0002
+Dahua-based DH-XVR5232AN-I3,36,0.0002
+World of Warcraft world server,36,0.0002
+Dahua DHI-NVR4232-4KS2,36,0.0002
+Indy,36,0.0002
+Aruba Networks Inc,35,0.0002
+SPRO DVR,35,0.0002
+ASUS Wireless Router RT-AC51U,35,0.0002
+Swift,35,0.0002
+Juniper Networks/Unisphere,35,0.0002
+Dahua DHI-NVR4216-16P-4KS2,34,0.0002
+"SonicWALL, Inc.",34,0.0002
+Netwave IP camera http config,34,0.0002
+Authentik,34,0.0002
+M5T SIP Stack,34,0.0002
+wg-easy,34,0.0002
+Dahua DH-XVR1B16,34,0.0002
+darkhttpd,34,0.0002
+Dahua DH-XVR5216AN-4KL-X,34,0.0002
+Dahua DHI-XVR5108HS,34,0.0002
+ZTE F680,34,0.0002
+Imunify360 Webshield,33,0.0002
+Dahua DH-XVR1B08,33,0.0002
+D-Link DCS-942LB1,33,0.0002
+Kangle Web Server,33,0.0002
+NASLite-SMB/Sveasoft Alchemy firmware telnetd,33,0.0002
+Dahua DH-XVR5108HS-4KL-I2,33,0.0002
+VMware ESXi,32,0.0002
+ASUS Wireless Router RT-AC88U,32,0.0002
+Zscaler ftp proxy,32,0.0002
+Broadcom BCM963381 ADSL router telnetd,32,0.0002
+D-Link DCS-942L,32,0.0002
+Linux SNMP multiplexer,32,0.0002
+Dahua XVR5104C-X1,32,0.0002
+Dahua DHI-NVR2104HS-P-4KS2,32,0.0002
+Dahua-based DHI-NVR5216-4KS2,32,0.0002
+Apple AirPlay httpd,32,0.0002
+Dahua-based DH-XVR5116H-4KL-I3,32,0.0002
+IBM HTTP Server,32,0.0002
+ASUS Wireless Router RT-AC58U,32,0.0002
+ZTE ZXHN H168N,32,0.0002
+Dahua-based DHI-NVR5432-4KS2,31,0.0002
+OpenSMTPD,31,0.0002
+Caddy,31,0.0002
+MS-SQL Server 2012 RTMRTM,31,0.0002
+NETGEAR Orbi,31,0.0002
+Dahua-based DD-6004,31,0.0002
+libssh,31,0.0002
+Dahua DHI-NVR4108-8P-4KS2,31,0.0002
+ASUS Wireless Router RT-AX86U Pro,31,0.0002
+Gitea,31,0.0002
+Satisfactory,31,0.0002
+Surgemail webmail,30,0.0002
+QNAP TS-231P2,30,0.0002
+MoxaHttp,30,0.0002
+TP-LINK WR841N WAP http config,30,0.0002
+Dahua DHI-NVR5232-4KS2,30,0.0002
+ZTE H3601N V9,30,0.0002
+DrayTek Vigor3910,30,0.0002
+"Brocade Communications Systems, Inc.",30,0.0002
+DrayTek Vigor2135 Series,30,0.0002
+Intelbras MHDX 1008,30,0.0002
+Cisco/3com IPSSHd,30,0.0002
+APC UPS Web Interface,30,0.0002
+Dahua DHI-XVR4108HS-S2,30,0.0002
+ASUS Wireless Router ZenWiFi AC,29,0.0002
+Dahua-based DHI-NVR4116HS-4KS2/L,29,0.0002
+PowerDNS Recursor,29,0.0002
+Dahua DHI-XVR5104HS,29,0.0002
+Dahua DH-XVR5232AN-X,29,0.0002
+Dahua DH-XVR5116H-4KL-X,29,0.0002
+Fortinet FortiGate-61F,29,0.0002
+Intelbras MHDX 3116-C,29,0.0002
+Zope httpd,29,0.0002
+MS-SQL Server 2022 GDR,29,0.0002
+Fortinet FortiGate-60D,29,0.0002
+Fortinet FortiGate-100E,29,0.0002
+Dahua DH-XVR5104HS-X,29,0.0002
+Dahua-based DHI-NVR4232-4KS2/L,29,0.0002
+HP Integrated Lights-Out mpSSH,29,0.0002
+SillyTavern,29,0.0002
+Netdata,29,0.0002
+Cisco Expressway,28,0.0002
+Intelbras MHDX 1204,28,0.0002
+ZTE F671Y,28,0.0002
+Pulse Secure,28,0.0002
+Dahua XVR5108HS-X,28,0.0002
+Dahua-based DHI-NVR4216-16P-4KS2/L,28,0.0002
+ZTE ZXHN H3601P,28,0.0002
+Fortinet FortiGate-70F,28,0.0002
+Dahua-based DHI-NVR5208-8P-4KS2E,28,0.0002
+BinTec Communications GmbH,27,0.0002
+Fortinet FortiGate-50E,27,0.0002
+The X.Org Foundation,27,0.0002
+cPanel httpd,27,0.0002
+Resin Web Server,27,0.0002
+Dahua-based DH-XVR1B16H-I,27,0.0002
+ProFTPD mod_sftp,27,0.0002
+Dahua DH-XVR5116HS-I2,27,0.0002
+DrayTek Vigor2866 Series,27,0.0002
+ASUS Wireless Router GT-AC5300,27,0.0002
+Dahua XVR5116HS-X,27,0.0002
+DrayTek Vigor2832 Series,27,0.0002
+TiVo To Go httpd,26,0.0002
+Fortinet FortiGate-201F,26,0.0002
+Dahua DHI-NVR5216-4KS2,26,0.0002
+2Wire HomePortal touer http config,26,0.0002
+ZTE E2320,26,0.0002
+Intelbras MHDX 1216,26,0.0002
+Crow,26,0.0002
+Dahua-based DD-6008,26,0.0002
+Rocket Chat,26,0.0002
+Panasonic AVC Server,26,0.0002
+Niagara Fox,26,0.0002
+Cerberus FTP Server,26,0.0002
+Tuya,25,0.0002
+Dahua XVR5104HS-X1,25,0.0002
+Obihai OBi302 VoIP adapter http config,25,0.0002
+MS-SQL Server 2017 GDR,25,0.0002
+Dahua DH-XVR5108HS-4KL-X,25,0.0002
+Dahua-based DHI-NVR4108HS-8P-4KS2/L,25,0.0002
+Dahua DH-XVR1B04,25,0.0002
+Dahua DH-XVR7216A-4KL-X,25,0.0002
+Dahua DH-XVR1B16-I,25,0.0002
+Cisco PIX sanitized smtpd,25,0.0002
+CP Plus CP-UNR-104F1,25,0.0002
+Flowise,25,0.0002
+Dahua NVR4X-4KS2,25,0.0002
+Dahua-based DHI-NVR4108HS-4KS2/L,25,0.0002
+DrayTek Vigor2915 Series,24,0.0002
+ZTE F6600,24,0.0002
+GoAnywhere MFT,24,0.0002
+Dahua DHI-XVR4116HS-S2,24,0.0002
+Dahua DHI-NVR4204-P-4KS2,24,0.0002
+Bitvise WinSSHD,24,0.0002
+DrayTek Vigor2765 Series,24,0.0002
+Dahua DH-XVR5216AN-X,24,0.0002
+Dahua-based DHI-NVR4208-8P-4KS2/L,24,0.0002
+LANCOM TR-069,24,0.0002
+RaidenMAILD smtpd,24,0.0002
+JBoss service httpd,24,0.0002
+"HITRON Technology, Inc.",24,0.0002
+ZeroMQ Message Transport Protocol,24,0.0002
+Dahua DHI-NVR4116HS-4KS2/L,24,0.0002
+Dahua-based DH-XVR1B08-I-B,24,0.0002
+Dahua-based DH-XVR5104H-I3,24,0.0002
+CALIX GS4227E,23,0.0002
+NetScreen sshd,23,0.0002
+ZTE ZXHN H168A V2.0 TTN.29_260423,23,0.0002
+Apple AirPort Extreme,23,0.0002
+Compaq,23,0.0002
+Pace Micro Technology plc,23,0.0002
+Dahua-based Network recorder,23,0.0002
+CouchDB,23,0.0002
+Memcached,23,0.0002
+ASUS Wireless Router RT-N12+,23,0.0002
+CP Plus CP-UNR-108F1,23,0.0002
+Dahua-based DHI-NVR4104HS-P-4KS2/L,23,0.0002
+ASUS Wireless Router RT-AX57,23,0.0002
+ASUS Wireless Router RT-AC1200 V2,23,0.0002
+Ntrip,23,0.0002
+ASUS Wireless Router RT-AC1200G+,23,0.0002
+SNMP Research,22,0.0002
+Intelbras MHDX 1208,22,0.0002
+Junoscript XML Interface,22,0.0002
+Dahua DH-XVR4104HS-X1,22,0.0002
+Dahua DHI-NVR4108HS-8P-4KS2,22,0.0002
+GL.iNet GL-MT6000 Router,22,0.0002
+Xiaomi Wireless Router Admin Panel,22,0.0002
+Dahua DHI-NVR2108-4KS2,22,0.0002
+Intelbras MHDX 1016-C,22,0.0002
+Clare Control IP Camera,22,0.0002
+ASUS Wireless Router RT-AX1800HP,22,0.0002
+ZyXEL ZyWALL sshd,22,0.0002
+Fortinet FortiGate-600E,22,0.0002
+"DASAN Co.,LTD.",22,0.0002
+Dahua XVR1B04H,22,0.0002
+Dahua DHI-NVR5216-16P-4KS2E,22,0.0002
+Talk Talk YouView set-top box http config,22,0.0002
+Dahua DHI-NVR5432-4KS2,22,0.0002
+ZTE ZXHN H168A V2.1 TTN.8_260423,22,0.0002
+ComfyUI,22,0.0002
+Intelbras MHDX 1004,21,0.0001
+Dahua DHI-NVR4108HS-4KS2/L,21,0.0001
+WEBrick httpd,21,0.0001
+Apexis APM-H803-MPC,21,0.0001
+Dahua DH-XVR5108H-X,21,0.0001
+ESET NOD32 anti-virus smtp proxy,21,0.0001
+Texas Instruments,21,0.0001
+Dahua DHI-NVR2104-P-4KS2,21,0.0001
+ASUS Wireless Router RT-N12D1,21,0.0001
+WeOnlyDo sshd,21,0.0001
+Dahua DHI-XVR4104HS-S2,21,0.0001
+Dahua DHI-XVR4108HS,21,0.0001
+Dahua DH-XVR4116HS-I,21,0.0001
+Dahua DHI-NVR4108HS-4KS2,21,0.0001
+Dahua-based DH-XVR1B04H-I,21,0.0001
+Intelbras MHDX 3016-C,21,0.0001
+Dahua DHI-XVR5116HS,20,0.0001
+MTK,20,0.0001
+Univerge,20,0.0001
+Nullidentd,20,0.0001
+Dahua-based DHI-NVR2116HS-S3,20,0.0001
+Dahua DHI-HCVR4116HS-S3,20,0.0001
+MS-SQL Server 2014 RTM,20,0.0001
+Dahua DHI-XVR4104HS,20,0.0001
+ASUS Wireless Router RT-AC5300,20,0.0001
+Dahua DH-XVR5104HS-4KL-I3,20,0.0001
+Dahua DHI-NVR2108HS-8P-4KS2,20,0.0001
+CP Plus CP-UNR-4K4322-V3,20,0.0001
+DrayTek Vigor2952 Series,20,0.0001
+Langfuse,20,0.0001
+TalkRx Sky,20,0.0001
+Actiontec TR-069,20,0.0001
+Dahua-based DHI-NVR1108HS-S3/H,20,0.0001
+ASUS Wireless Router GT-AX6000,20,0.0001
+Intelbras MHDX 1104,20,0.0001
+Cyrus pop3d,20,0.0001
+Dahua DH-XVR4116HS-X,20,0.0001
+Unrecognized SMTP service,20,0.0001
+Dahua DH-XVR5104C-X1,20,0.0001
+CP,19,0.0001
+ASUS Wireless Router RT-AC3100,19,0.0001
+QNAP TS-212P,19,0.0001
+Gotenberg,19,0.0001
+Fortinet FortiGate-1800F,19,0.0001
+Fortinet FortiGate-81F,19,0.0001
+Dahua NVR4216-4KS2,19,0.0001
+vsftpd (before 2.0.8) or WU-FTPD,19,0.0001
+Dahua DHI-NVR4216-4KS2/L,19,0.0001
+Steam Dedicated Server,19,0.0001
+IC Realtime NVR7000K,19,0.0001
+smbx,18,0.0001
+Dahua-based DHI-NVR4104-P-4KS2/L,18,0.0001
+TR-069 remote access,18,0.0001
+MS-SQL Server 2019 CU32+GDR,18,0.0001
+Label Studio,18,0.0001
+DrayTek Vigor2763 Series,18,0.0001
+Dahua DH-XVR5208AN-4KL-X,18,0.0001
+WireGuard UI,18,0.0001
+Dahua DHI-NVR5864-4KS2,18,0.0001
+Traffic Spicer icapd,18,0.0001
+Dahua DH-XVR5108HS-4KL-I3,18,0.0001
+Mail2000 smtpd,18,0.0001
+mt-daapd DAAP,18,0.0001
+Dahua DH-XVR5116HE-X,18,0.0001
+xinetd chargen,18,0.0001
+TP-LINK VX230v(EU) Build,18,0.0001
+Dahua DHI-NVR2108HS-4KS2,18,0.0001
+Dahua DHI-NVR4104HS-P-4KS2/L,18,0.0001
+Mono-HTTPAPI,17,0.0001
+ASUS Wireless Router RT-AC1200,17,0.0001
+Dahua DHI-NVR4108HS-8P-4KS2/L,17,0.0001
+Fortinet FortiGate-400F,17,0.0001
+H3C switch telnetd,17,0.0001
+Allworx 6x VoIP phone smtpd,17,0.0001
+iKuai,17,0.0001
+Counter-Strike,17,0.0001
+Dahua-based DD-6016,17,0.0001
+ARK: Survival Evolved,17,0.0001
+Dahua DH-XVR5432L-X,17,0.0001
+ASUS Wireless Router RT-AC53,17,0.0001
+Grafana,17,0.0001
+Mastodon,17,0.0001
+Dahua DH-XVR5108C-X,17,0.0001
+Dahua NVR2108HS-4KS2,17,0.0001
+Dahua-based DH-XVR1B04-I-B,17,0.0001
+/Satoshi:30.2.0/,17,0.0001
+Spice,17,0.0001
+Dahua DHI-NVR5208-8P-4KS2E,17,0.0001
+ASUS Wireless Router TUF GAMING AX4200,16,0.0001
+ASUS Wireless Router RT-AX89X,16,0.0001
+Dahua DHI-XVR5108HS-4KL,16,0.0001
+Dahua XVR5108C-X,16,0.0001
+Dahua DHI-XVR5116HS-S2,16,0.0001
+MLflow,16,0.0001
+Voldemort,16,0.0001
+D-Link DCS-5009L webcam http interface,16,0.0001
+Zscaler,16,0.0001
+Android Debug Bridge (ADB),16,0.0001
+FreeSWITCH,16,0.0001
+FreeSWITCH-mod_sofia,16,0.0001
+Dahua-based NVD 3332,16,0.0001
+Fortinet FortiGate-80E,16,0.0001
+ZTE F612,16,0.0001
+"Cable Television Laboratories, Inc.",16,0.0001
+Moimstone IP570GAC,16,0.0001
+wwcommunicator,16,0.0001
+Alt-N MDaemon mail server,16,0.0001
+Dify,16,0.0001
+MS-SQL Server 2016 RTMRTM,16,0.0001
+RealVNC Personal,16,0.0001
+TP-Link VIGI IP Camera,16,0.0001
+Wildix GW,16,0.0001
+OneAccess ONE100A router telnetd,16,0.0001
+Intelbras iMHDX 3116,16,0.0001
+Dahua DHI-HCVR4104C-S3,16,0.0001
+LibreChat,16,0.0001
+RealVNC,16,0.0001
+Lorex D841A8,15,0.0001
+Huawei Home Gateway,15,0.0001
+Mathopd httpd,15,0.0001
+Telindus Distribution,15,0.0001
+pyftpdlib,15,0.0001
+CP Plus CP-UNR-4K4324-I,15,0.0001
+Adtran,15,0.0001
+D-Link DCS-2630L,15,0.0001
+Artifactory,15,0.0001
+DrayTek Vigor2766 Series,15,0.0001
+Oracle XML DB Enterprise Edition httpd,15,0.0001
+AndroMouse Android remote mouse server,15,0.0001
+Dahua-based N864A6,15,0.0001
+ASUS Wireless Router RT-AC1300UHP,15,0.0001
+DrayTek Vigor2620 Series,15,0.0001
+Dahua DH-XVR5216A-X,15,0.0001
+AstrBot,15,0.0001
+NextChat,15,0.0001
+Dahua-based DHI-NVR2108HS-I2,15,0.0001
+Microsoft Windows daytime,15,0.0001
+ASUS Wireless Router ZenWiFi Pro ET12,15,0.0001
+ASUS Wireless Router RT-AC87U,15,0.0001
+Telesquare TLR-2005KSH,15,0.0001
+Dahua DHI-HCVR4104HS-S3,15,0.0001
+ASUS Wireless Router RT-AC66U,15,0.0001
+TeamSpeak 3 ServerQuery,15,0.0001
+Fortinet FortiGate-100D,15,0.0001
+Dahua DHI-NVR1108HS-S3/H,15,0.0001
+Lexmark MX826,15,0.0001
+Dahua DHI-NVR5208-4KS2,15,0.0001
+NATS Server,15,0.0001
+Varnish HTTP Cache,15,0.0001
+Dahua DHI-XVR5116H-4KL,15,0.0001
+CJServer,15,0.0001
+Cisco IOS telnetd,15,0.0001
+Dahua DHI-HCVR5104HS-S3,15,0.0001
+Dahua DHI-XVR4116HS,14,0.0001
+Hewlett-Packard,14,0.0001
+MS-SQL Server 2025 RTM,14,0.0001
+Dahua DH-XVR5104HS-4KL-X,14,0.0001
+Dahua XVR5104HS-I3,14,0.0001
+LocalAI,14,0.0001
+ASUS Wireless Router ZenWiFi ET8,14,0.0001
+Dahua NVR2104-4KS2,14,0.0001
+HttpFileServer httpd,14,0.0001
+PBX,14,0.0001
+Dahua-based Hybrid recorder,14,0.0001
+Dahua-based NVR2108HS-T,14,0.0001
+"Ericsson, Inc. (formerly 'RedBack Networks')",14,0.0001
+Dahua DH-XVR5216AN-4KL-I2,14,0.0001
+Intelbras iMHDX 3016,14,0.0001
+Dahua-based DH-XVR5216AN-4KL-I3,14,0.0001
+Dahua DHI-NVR4432-4KS2,14,0.0001
+Xlight FTP Server sshd,14,0.0001
+AirSpace DVR,14,0.0001
+Dahua DH-XVR5108H-4KL-X,14,0.0001
+Dahua-based DH-XVR1B08-I-VN,14,0.0001
+Dahua DH-XVR5216AN-I3,14,0.0001
+Lorex N884A6,14,0.0001
+Consul,14,0.0001
+Dahua DH-XVR5108HE-X,14,0.0001
+ASUS Wireless Router RT-AX1800U,14,0.0001
+D-Link DCS-934L webcam http interface,14,0.0001
+Niagara4 Station,14,0.0001
+MS-SQL Server 2000 SP4,14,0.0001
+Dahua-based DHI-NVR5864-4KS2,13,0.0001
+Kyocera Printer Panel,13,0.0001
+llama.cpp,13,0.0001
+Dahua DH-XVR4108HS-X1,13,0.0001
+Fortinet FortiWiFi-60E,13,0.0001
+Oracle VM Manager,13,0.0001
+ASUS Wireless Router RT-N12E,13,0.0001
+ZTE H3601P,13,0.0001
+Dahua-based DH-XVR5104C-I3,13,0.0001
+ASUS Wireless Router TUF-AX3000 V2,13,0.0001
+SAProuter,13,0.0001
+"Maipu Electric Industrial Co., Ltd",13,0.0001
+ASUS Wireless Router ZenWiFi XD5,13,0.0001
+Dahua DHI-NVR4416-16P-4KS2,13,0.0001
+ASUS Wireless Router RT-BE92U,13,0.0001
+Intelbras MHDX 1308,13,0.0001
+OpenMetadata,13,0.0001
+InterVideo UAS,13,0.0001
+ASUS Wireless Router GT-AXE16000,13,0.0001
+NSD,13,0.0001
+CoreFTP sshd,13,0.0001
+Conan Exiles,13,0.0001
+ASUS Wireless Router RT-AC1900P,13,0.0001
+Dahua DH-XVR4104C-X1,13,0.0001
+Dahua DHI-XVR5216AN-4KL,13,0.0001
+Intelbras MHDX 3108,13,0.0001
+ZyXEL Communications Corp. DEL1202-T10B/B,13,0.0001
+WinMX or Lopster Napster P2P client,13,0.0001
+ProFTPD or KnFTPD,13,0.0001
+Dahua DH-XVR7104HE-4KL-X,13,0.0001
+D-Link DIR-600 WAP http config,13,0.0001
+ArangoDB,13,0.0001
+MS-SQL Server,13,0.0001
+ASUS Wireless Router RT-AX88U Pro,13,0.0001
+Dahua DHI-XVR5216A-S2,13,0.0001
+Dahua DHI-NVR4232-4KS2/L,13,0.0001
+ZTE H6645P V2,13,0.0001
+Dahua DHI-NVR4216-16P-4KS2/L,12,0.0001
+MC,12,0.0001
+MDaemon smtpd,12,0.0001
+LobeChat,12,0.0001
+Dahua DH-XVR1B04H,12,0.0001
+Dahua DHI-HCVR5216A-S3,12,0.0001
+ZTE H288A,12,0.0001
+KMW Systems KM-DVR6104-4KL-AI,12,0.0001
+NETGEAR Orbi-micro,12,0.0001
+Communigate Pro SMTP,12,0.0001
+D-Link ShareCenter NAS,12,0.0001
+lns,12,0.0001
+Ray,12,0.0001
+Intelbras MHDX 1316,12,0.0001
+Lorex N843A8,12,0.0001
+CP Plus CP-UVR-1601E1-IC,12,0.0001
+SurgeFTPd,12,0.0001
+Dahua-based DHI-NVR5464-4KS2,12,0.0001
+Dahua DH-XVR5108HS-I2-1TB,12,0.0001
+Cisco WebVPN HTTP Config,12,0.0001
+Dahua DHI-XVR4104C-S2,12,0.0001
+MS-SQL Server 2014 SP2,12,0.0001
+Dahua-based N910A6,12,0.0001
+Watashi XVR,12,0.0001
+Dahua DHI-NVR5208-8P-4KS2,12,0.0001
+ZTE F8605P,12,0.0001
+Gunicorn,12,0.0001
+Dahua DHI-NVR5216-16P-I,12,0.0001
+Dahua-based D881A8,12,0.0001
+Dahua-based DHI-NVR2108HS-S3,12,0.0001
+Dahua-based DHI-NVR2104-P-S3,12,0.0001
+Dahua XVR5108HS-4KL-X,12,0.0001
+Dahua DHI-XVR5104HS-4M,12,0.0001
+MS-SQL Server 2012 SP4,12,0.0001
+Broadcom BCM96328 ADSL router telnetd,12,0.0001
+ASUS Wireless Router ZenWiFi BD4,12,0.0001
+Fortinet VPN/firewall sshd,12,0.0001
+TwonkyMedia UPnP,12,0.0001
+CP Plus CP-UVR-1601E1-IC2,11,0.0001
+OctoPrint,11,0.0001
+Lorex DVR,11,0.0001
+Geth,11,0.0001
+Samsung UE55D7000 TV http config,11,0.0001
+Dahua DHI-XVR4108C,11,0.0001
+ASUS Wireless Router RT-N66U,11,0.0001
+Dahua DH-XVR5104H-I3,11,0.0001
+CP Plus CP-UNR-4K4322-V4,11,0.0001
+ASUS Wireless Router GS-AX5400,11,0.0001
+ASUS Wireless Router RT-AXE7800,11,0.0001
+DrayTek Vigor 2820 ADSL router ftpd,11,0.0001
+CANON Inc.,11,0.0001
+IceWarp smtpd,11,0.0001
+Dahua-based DHI-NVR5864-R-4KS2,11,0.0001
+Dahua DHI-HCVR5104C-S3,11,0.0001
+Sliver C2,11,0.0001
+Agranat-EmWeb,11,0.0001
+Dahua DHI-NVR2116HS-4KS2,11,0.0001
+Langflow,11,0.0001
+Fortinet FortiGate-601E,11,0.0001
+Honeywell DVR,11,0.0001
+MS-SQL Server 2008 RTMRTM,11,0.0001
+Fortinet FortiWiFi-60E-DSL,11,0.0001
+Apache HugeGraph,11,0.0001
+MDaemon pop3d,11,0.0001
+"D-Link Systems, Inc.",11,0.0001
+ASUS Wireless Router GT-AX11000 Pro,11,0.0001
+Jupyter Notebook,11,0.0001
+Dahua DHI-NVR4208-8P-4KS2/L,11,0.0001
+Trane Tracer SC,11,0.0001
+ASUS Wireless Router RT-AX59U,11,0.0001
+Dahua DHI-HCVR5108HS-S3,11,0.0001
+D-Link DCS-5222L,11,0.0001
+Cisco IronPort firewall smtpd,11,0.0001
+Dahua DHI-NVR4108-8P-4KS2/L,11,0.0001
+Dahua-based DHI-NVR2104-S3,11,0.0001
+RocketMQ,11,0.0001
+Dahua-based DH-XVR4116HS-I,11,0.0001
+Apache ActiveMQ,11,0.0001
+Werkzeug,11,0.0001
+Intelbras DVR,11,0.0001
+Apache Flink,11,0.0001
+Wuhan Research Institute of Posts and Telecommunications,11,0.0001
+Dahua-based DH-XVR5108HE-I3,11,0.0001
+Nortel,10,0.0001
+MRO - TEK LIMITED,10,0.0001
+ASUS Wireless Router RP-N12,10,0.0001
+Dahua DHI-XVR5104C,10,0.0001
+Dahua-based DH-XVR5216A-4KL-I3,10,0.0001
+Dahua-based DHI-NVR5208-4KS2,10,0.0001
+ASUS Wireless Router RT-BE88U,10,0.0001
+Dahua-based NVD 1432,10,0.0001
+ASUS Wireless Router TUF GAMING AX6000,10,0.0001
+Apache Advanced Extranet Server httpd,10,0.0001
+Lorex D861A8,10,0.0001
+Dahua DHI-NVR2108HS-8P-I,10,0.0001
+Contiki httpd,10,0.0001
+Dahua DHI-XVR5216A,10,0.0001
+AnyDesk,10,0.0001
+Dahua DH-XVR1B08H,10,0.0001
+ASUS Wireless Router ZenWiFi XT9,10,0.0001
+TCL HH516VG HH516VG_IE_03.00_10,10,0.0001
+Litecoin Node,10,0.0001
+Honeytrap,10,0.0001
+Dahua DHI-XVR4108C-S2,10,0.0001
+TP-LINK Archer VR1210v(EU) Build,10,0.0001
+Dahua DHI-HCVR7208AN-4M,10,0.0001
+ZTE F660 V2.0,10,0.0001
+Anti-Web httpd,10,0.0001
+Dahua DH-XVR5232AN-I2,10,0.0001
+Dahua DH-XVR4108C-X1,10,0.0001
+Quick 'n Easy ftpd,10,0.0001
+Rockwell Automation/Allen-Bradley,10,0.0001
+QNAP TS-219P II,10,0.0001
+Dahua-based DH-XVR5108HS-I3-VN,10,0.0001
+Dahua NVR4104-P-4KS2,10,0.0001
+Elastichoney,10,0.0001
+Dahua DH-XVR5116H-4KL-I2,10,0.0001
+QNAP TS-228,10,0.0001
+Dahua DHI-NVR4104-P-4KS2/L,10,0.0001
+Dahua DHI-HCVR4108HS-S3,10,0.0001
+Fortinet FortiWiFi-60D,10,0.0001
+Dahua DHI-NVR4208-4KS2,10,0.0001
+SIP UAS,10,0.0001
+Lorex N841A8,10,0.0001
+Xiaongmai DVR,10,0.0001
+Telerik Report Server,10,0.0001
+Thin,10,0.0001
+SPRO DHIPNVR,10,0.0001
+Fortinet FortiWiFi-40F,10,0.0001
+Quick 'n Easy Web Server httpd,10,0.0001
+QNAP TS-212,10,0.0001
+Ventrilo,10,0.0001
+TP-Link Kasa X50 (HOMEWIFISYSTEM),10,0.0001
+Dahua-based NVR5864-4KS2,9,0.0001
+Dahua DH-XVR5116HS-I3-2TB,9,0.0001
+MS-SQL Server 2014 SP3GDR for Service Pack,9,0.0001
+etcd,9,0.0001
+MS-SQL Server 2014 SP1,9,0.0001
+Intelbras MHDX 1108-C,9,0.0001
+WGDashboard,9,0.0001
+Dahua DHI-NVR5416-16P-4KS2E,9,0.0001
+Dahua N41B2P2,9,0.0001
+MS-SQL Server 2005 SP4,9,0.0001
+SHOUTcast server,9,0.0001
+Dahua DHI-XVR5216AN-S2,9,0.0001
+Dahua-based DHI-NVR5432-16P-4KS2E,9,0.0001
+Dahua-based DHI-NVR5416-16P-4KS2E,9,0.0001
+Dahua-based DHI-NVR2116HS-I2,9,0.0001
+WU-FTPD,9,0.0001
+MS-SQL Server 2016 SP3GDR for Service Pack,9,0.0001
+AETHRA,9,0.0001
+Fortinet FortiGate-201E,9,0.0001
+CP4-R,9,0.0001
+WSGIServer,9,0.0001
+Fortinet FortiGate-200D,9,0.0001
+Ace Admin,9,0.0001
+Intelbras MHDX 3116,9,0.0001
+ntopng,9,0.0001
+D-Link DCS-931L webcam http interface,9,0.0001
+Fortinet FortiGate-401E,9,0.0001
+Dahua-based NVR1104HS-W-S2,9,0.0001
+SPRO XVR,9,0.0001
+WatchGuard Technologies Inc.,9,0.0001
+/Satoshi:31.1.0/,9,0.0001
+Dahua-based DHI-NVR2108HS-8P-I2,9,0.0001
+Axigen smtpd,9,0.0001
+hp LaserJet M607,9,0.0001
+Dahua-based DH-XVR4232AN-I(V2.0),9,0.0001
+Dahua-based DHI-NVR4208-4KS2/L,9,0.0001
+Dahua DHI-NVR2104-4KS2,9,0.0001
+bytex,9,0.0001
+Dahua DHI-HCVR5116HS-S3,9,0.0001
+Barracuda Networks Spam Firewall smtpd,9,0.0001
+Pocket CMD telnetd,9,0.0001
+Dahua-based DHI-NVR2108HS-8P-S3,9,0.0001
+VIVOSIPUA,9,0.0001
+Dahua DHI-XVR5108HE,9,0.0001
+Dahua DHI-NVR5216-16P-4KS2,9,0.0001
+Dahua DH-NVR608-32-4KS2,9,0.0001
+Extreme Networks,9,0.0001
+PaperCut MF,9,0.0001
+Dahua-based DH-XVR5108HS-X,8,0.0001
+Dahua XVR5216AN-X,8,0.0001
+ZTE H3600P V9.0 TTN.10_260210,8,0.0001
+Dahua DH-NVR4208-8P-4K,8,0.0001
+Dahua NVR5208-4KS2,8,0.0001
+uIP,8,0.0001
+Oracle Application Server httpd,8,0.0001
+Counter-Strike: Source,8,0.0001
+ClamAV,8,0.0001
+lunaHD L-DVR-28208-4K,8,0.0001
+Dahua DHI-NVR1104HS-S3/H,8,0.0001
+Dahua XVR1B08H,8,0.0001
+Lantronix X9~,8,0.0001
+Dahua-based DHI-NVR1104HS-S3/H,8,0.0001
+Dahua K-816DM2,8,0.0001
+NetApp filer httpd,8,0.0001
+ASUS Wireless Router DSL-AX82U,8,0.0001
+Dahua-based DHI-NVR4216-4KS3,8,0.0001
+Dahua DH-XVR5116H-X,8,0.0001
+ShowDoc,8,0.0001
+Dahua DHI-NVR2104HS-I,8,0.0001
+MS-SQL Server 2022 CU27+GDR,8,0.0001
+DrayTek Vigor300B,8,0.0001
+Dahua DH-XVR5104H-X1,8,0.0001
+PexBox,8,0.0001
+Dahua DHI-XVR5104C-S2,8,0.0001
+Dahua BCS-L-XVR1601-V,8,0.0001
+Dahua NVR4108HS-4KS2,8,0.0001
+Dahua XVR5104HS-4KL-X,8,0.0001
+Micro-Web,8,0.0001
+HP Color LaserJet MFP M480f,8,0.0001
+Dahua DH-XVR5104H-4KL-X,8,0.0001
+Dahua DH-XVR5108H-I3,8,0.0001
+Dahua DHI-NVR5432-16P-4KS2E,8,0.0001
+KMW Systems KM-DVR6108-4KL-AI,8,0.0001
+MediaAccess TG389 Build,8,0.0001
+Dahua-based NVR2108HS-8P-T,8,0.0001
+Dahua-based SS 3532 MF W,8,0.0001
+Lorex HCVR,8,0.0001
+Dahua DH-XVR7116HE-4KL-X,8,0.0001
+ASUS Wireless Router RT-AC52,8,0.0001
+Intelbras iMHDX 3132,8,0.0001
+Dahua-based DHI-NVR1104HS-S3/H-VN,8,0.0001
+Drcom Server Process Launcher,8,0.0001
+Panda C2,8,0.0001
+Dogecoin Node,8,0.0001
+IdeaWebServer httpd,8,0.0001
+Dahua-based N41C2P2,8,0.0001
+CP Plus CP-UNR-4K4322-V2,8,0.0001
+Jupyter Lab,8,0.0001
+Karrigell Python httpd,8,0.0001
+ASUS Wireless Router GT-AXE11000,8,0.0001
+BIZTEL Server,8,0.0001
+CALIX GS4229E,8,0.0001
+CP4-,8,0.0001
+ZTE F679D,8,0.0001
+Dahua DHI-NVR2108HC,8,0.0001
+KMW Systems KM-DVR6116-5M-AI,8,0.0001
+Dahua-based ERD-041BH-I,8,0.0001
+Dahua NV4108E-2TB,8,0.0001
+P5B-400,8,0.0001
+GL.iNet GL-BE9300 Router,8,0.0001
+Dahua-based NVR5432-4KS2,8,0.0001
+Dahua-based DH-XVR5108HS-4KL-I2,8,0.0001
+Fortinet FortiGate-300E,8,0.0001
+Dahua DHI-NVR4116-4KS2,8,0.0001
+Dahua DHI-XVR5104H,8,0.0001
+Dahua DHI-XVR4104C,8,0.0001
+Dahua DHI-XVR5104HE,8,0.0001
+Dahua NV4108-HS,7,0.0
+Dahua-based DHI-NVR4204-P-4KS2/L,7,0.0
+Dahua-based DHI-NVR1108HS-W-S2-FCC,7,0.0
+MS-SQL Server 2012 SP3,7,0.0
+WS FTPd,7,0.0
+ALT-N SecurityGateway smtpd,7,0.0
+Dahua DHI-NVR4104HS-4KS2,7,0.0
+Bullwark BLW-N5016P16E-D2,7,0.0
+Dahua-based iNVD 3032,7,0.0
+Homebridge,7,0.0
+ZTE F6705,7,0.0
+Intelbras MHDX 5116,7,0.0
+QNAP TS-231P,7,0.0
+ASUS Wireless Router RT-AC59U V2,7,0.0
+CVAT,7,0.0
+Dahua-based SS 3532 MF,7,0.0
+Fortinet FortiGate-401F,7,0.0
+Dahua NVR4208-8P-4KS2,7,0.0
+ASUS Wireless Router RT-AX1800 Plus,7,0.0
+Dahua NVR2108-4KS2,7,0.0
+Tilgin Vood HG27xx_ESx270-03_02_00_68,7,0.0
+Dahua-based DH-XVR5104H-I3-4P,7,0.0
+Intelbras MHDX 1104-C,7,0.0
+Oracle HTTP Server Powered by Apache,7,0.0
+Dahua-based DHI-NVR2104HS-P-S3,7,0.0
+MS-SQL Server 2012 SP2,7,0.0
+Dahua NVR5232-4KS2,7,0.0
+CALIX 844E-1,7,0.0
+Intelbras MHDX 3008-C,7,0.0
+Techroutes Network,7,0.0
+DIN-AP,7,0.0
+Dahua DHI-NVR2116HS-I,7,0.0
+ASUS Wireless Router GT-AC2900,7,0.0
+Dahua EAG-5MP-PRO-AI3-8BB,7,0.0
+Dahua DH-XVR4108HS-X,7,0.0
+Google Gmail pop3d,7,0.0
+CP Plus CP-UVR-0801E1-IC2,7,0.0
+Dahua BCS-NVR16025ME-II,7,0.0
+Intelbras MHDX 1132,7,0.0
+Dahua K-804APOC,7,0.0
+Dahua DHI-NVR4108-P-4KS2,7,0.0
+Microsoft Windows USA daytime,7,0.0
+Dahua-based DHI-NVR2104-P-I2,7,0.0
+Dahua DH-NVR4232-4K,7,0.0
+Intelbras HDCVI 1008 - Geração 2,7,0.0
+AVM FRITZ!Box,7,0.0
+CP Plus CP-UVR-3201E2-I,7,0.0
+Dahua DHI-NVR2104HS-P-I,7,0.0
+Dahua K-808DM2,7,0.0
+Realtek Semiconductor Corp. RTL8671 EV-2010-09-20,7,0.0
+Dahua DH-XVR7108HE-4KL-X,7,0.0
+NSQ Daemon,7,0.0
+Dahua-based EZ-XVR1C04HS-4KL-I3-UK,7,0.0
+MS-SQL Server 2012 SP1,7,0.0
+Mongrel httpd,7,0.0
+Dahua DHI-NVR4416-4KS2,7,0.0
+Dahua DHI-XVR5108C,7,0.0
+Dahua NVR2108HS-8P-4KS2,7,0.0
+KMW Systems KM-DVR6108-5M-AI,7,0.0
+ZTE F8648P,7,0.0
+Intelbras HDCVI 1016 - Geração 2,7,0.0
+Surgemail smtpd,7,0.0
+Dahua DV916,7,0.0
+ASUS Wireless Router ZenWiFi Pro XT12,7,0.0
+Dahua NVR4216-16P-4KS2,7,0.0
+KMW Systems KM-DVR6116-4KL-AI,7,0.0
+Xiaomi IoT,7,0.0
+Speco Technologies N8NXP,7,0.0
+libwww-perl-daemon httpd,7,0.0
+QNAP VS-2204 Pro+,7,0.0
+Dahua DH-XVR5108H-I,7,0.0
+Lorex LNR616,7,0.0
+GL.iNet GL-MT300N-V2 Router,7,0.0
+KMW Systems KM-DVR6104-5M-AI,7,0.0
+Sinfor Httpd,7,0.0
+Dahua-based NVD 1408 P,7,0.0
+Dahua-based RNVR4116HS-4KS2/L,7,0.0
+Dahua NVR2104-P-4KS2,7,0.0
+Techno Vision Security System http config,7,0.0
+Dahua-based DH-XVR5108H-I3,7,0.0
+Dahua BCS-XVR0801-III,7,0.0
+Dahua DH-XVR1B16H,7,0.0
+Dahua DH-XVR5216AN-I2,7,0.0
+AllegroSoft RomSShell sshd,7,0.0
+Dahua NVR4108-4KS2,7,0.0
+VanDyke VShell,7,0.0
+Dahua-based DHI-NVR2104HS-S3,7,0.0
+DrayTek Corporation,7,0.0
+MS-SQL Server 2014 SP3,7,0.0
+Dahua XVR1B04,6,0.0
+Aethra Telecommunications PBX,6,0.0
+Dahua-based DH-XVR5432L-I3,6,0.0
+ASUS Wireless Router RT-AC750L,6,0.0
+Dahua HAVR,6,0.0
+CERN httpd,6,0.0
+Sony BRAVIA KD-55A1,6,0.0
+Dahua NVR4104HS-4KS2,6,0.0
+Dahua DHI-NVR2108-8P-4KS2,6,0.0
+Fortinet FortiGate-61E,6,0.0
+Dahua DHI-XVR5116HE-S2,6,0.0
+Dahua DH/HCVR5108HS-V5/-AF-DVR-II-A/8-1,6,0.0
+Sophos Message Router,6,0.0
+Dahua HCVR5108H-S2,6,0.0
+Dahua-based DH-XVR4104HS-I,6,0.0
+Gene6 ftpd,6,0.0
+Teracom Telematica Ltda.,6,0.0
+MS-SQL Server 2022 CU25,6,0.0
+Dahua NVR-P,6,0.0
+Lorex N882A6,6,0.0
+AM-3100-W,6,0.0
+Dahua-based DHI-NVR5232-EI,6,0.0
+Asterisk Call Manager,6,0.0
+Cisco router daytime,6,0.0
+QNAP TS-412,6,0.0
+Dahua DHI-NVR4208-4KS2/L,6,0.0
+CP Plus CP-UVR-0401E1-IC2,6,0.0
+ZTE H298A V9,6,0.0
+DrayTek Vigor130,6,0.0
+Dahua DHI-XVR5108C-S2,6,0.0
+Dahua DHI-HCVR7108H-4M,6,0.0
+ASUS Wireless Router RT-AC85P,6,0.0
+Dahua DH-XVR4108HS-I,6,0.0
+GL.iNet GL-MT3000 Router,6,0.0
+Netgear broadband router or ZyXel VoIP adapter telnetd,6,0.0
+Dahua-based DHI-NVR2108-S3,6,0.0
+Dahua-based DHI-NVR2116HS-S3-VN,6,0.0
+Speco Technologies N16NXP,6,0.0
+Dahua DHI-NVR5432-16P-I,6,0.0
+Dahua DHI-XVR5216AN,6,0.0
+Dahua-based DHI-NVR2108HS-4KS3,6,0.0
+Lorex N884A3,6,0.0
+F5 BIG-IP,6,0.0
+Dahua-based DHI-ASI6214J-MFW,6,0.0
+MediaAccess TG788vn,6,0.0
+Pace France (formerly 'Philips CE STB'),6,0.0
+Dahua-based DHI-NVR5208-8P-4KS2,6,0.0
+NetBSD lukemftpd,6,0.0
+Dahua XVR1A08,6,0.0
+WebRTC,6,0.0
+Dahua DHI-NVR4208-8P-I,6,0.0
+Dahua DH-XVR5108C-I3,6,0.0
+X-Security XS-XVR3104,6,0.0
+KMW Systems KM-DVR6108-5M,6,0.0
+Dahua DH-XVR5108H-I2,6,0.0
+Dahua DHI-HCVR5108C-S3,6,0.0
+Dahua-based DHI-NVR5432-EI,6,0.0
+MS-SQL Server 2022 CU24,6,0.0
+Dahua CM-TWX6104HS-I3,6,0.0
+Intelbras MHDX 3004-C,6,0.0
+ZyXEL Communications Corp. DEL1202-T10B/W,6,0.0
+TP-LINK WR741ND WAP http config,6,0.0
+DrayTek Vigor 2820n ADSL router sshd,6,0.0
+ZTE H188A,6,0.0
+Dahua DH-XVR5116HS-I2-2TB,6,0.0
+Dahua-based DHI-NVR5832-4KS2,6,0.0
+GlobalScape CuteFTP sshd,6,0.0
+GRUNDIG IP Camera,6,0.0
+Dahua NVR4116HS-4KS2,6,0.0
+Dahua DH-XVR1B04H-I,6,0.0
+Dahua-based DH-XVR1B04-I-VN,6,0.0
+Dahua NVR4104HS-P-4KS2,6,0.0
+ASUS Wireless Router 4G-AX56,6,0.0
+Intelbras MHDX 3104,6,0.0
+ATI,6,0.0
+BCS XVR,6,0.0
+Dahua-based DHI-NVR4108-8P-4KS2/L,6,0.0
+QNAP TS-431,6,0.0
+Dahua DH-XVR7416L-4KL-X,6,0.0
+Dahua DHI-XVR5232AN-S2,6,0.0
+CP Plus CP-UVR-0801E1-CV4,6,0.0
+NETGEAR R7000,6,0.0
+Dahua-based SS 3530 MF FACE,6,0.0
+NDMP,6,0.0
+Dahua DH-NVR608-32-4K,6,0.0
+Dahua NV5216,6,0.0
+JBoss Enterprise Application Platform,6,0.0
+youhua router 1,6,0.0
+IBM WebSphere MQ,6,0.0
+Dahua-based DHI-NVR4116HS-4KS3-VN,6,0.0
+Dahua DHI-HCVR4108C-S3,6,0.0
+Chroma,6,0.0
+DrayTek Vigor3220 Series,6,0.0
+Dahua-based DHI-NVR2116-I2,6,0.0
+Dahua DH-NVR5232HS-4KS2,6,0.0
+EchoLink radio-over-VoIP,6,0.0
+Netscape Enterprise httpd,6,0.0
+Dahua-based NVD 3316,6,0.0
+KT&C IP Camera,6,0.0
+Lorex N842A8,6,0.0
+Dahua XVR1B16H,6,0.0
+KCodes NETUSB,6,0.0
+Dahua-based DHI-NVR4108-4KS2/L,6,0.0
+CP Plus CP-UVR-1601E1-HC,6,0.0
+Dahua-based DH-XVR5116H-I3,6,0.0
+ASUS Wireless Router RT-BE58U,6,0.0
+Dahua EAG-5MP-PRO-AI-8,6,0.0
+Dahua K-808APOC,6,0.0
+ASUS Wireless Router RT-AC65,6,0.0
+Microsoft Exchange imapd,6,0.0
+Dahua-based PNT,5,0.0
+Lorex D871A8,5,0.0
+AS-P,5,0.0
+Cisco Catalyst SD-WAN vdaemon,5,0.0
+Dahua DH-XVR5104C-4KL-X,5,0.0
+O'Reilly WebSite Pro,5,0.0
+Dahua DH-XVR5104HS-I2-1TB,5,0.0
+ASUS Wireless Router RT-AX52,5,0.0
+CP Plus CP-UNR-216F1-V3,5,0.0
+RaidenMAILD pop3d,5,0.0
+Eltek R7121,5,0.0
+Dahua DHI-NVR2108HS-I,5,0.0
+Intelbras MHDX 1116-C,5,0.0
+Dahua K-504APOCM2,5,0.0
+IBM DB2 Database Server,5,0.0
+Brother HL-L8360CDW,5,0.0
+Signify Philips hue bridge 2015 BSB002,5,0.0
+UW imapd,5,0.0
+Dahua EAG-4KL-PRO-AI3-4BB,5,0.0
+Mocana embedded SSH,5,0.0
+Sun ONE Web Server,5,0.0
+Dahua DHI-NVR4116HS-4KS2-2TB,5,0.0
+"Force10 Networks, Inc.",5,0.0
+Lorex NR916X,5,0.0
+KMW Systems DVR,5,0.0
+Dahua DH-XVR1B16H-I,5,0.0
+Dahua DHI-NVR5216-8P-I,5,0.0
+Apache Tika,5,0.0
+Dahua-based NVD 7132,5,0.0
+Intelbras MHDX 3108-C,5,0.0
+Dahua-based N847A6,5,0.0
+3S-Smart Software Solutions,5,0.0
+Dahua-based NVD 1316,5,0.0
+Dahua DH-NVR2108HS-4KS2,5,0.0
+MS-SQL Server 2019 CU12,5,0.0
+GL.iNet GL-AX1800 Router,5,0.0
+TP-Link Kasa M5 (HOMEWIFISYSTEM),5,0.0
+Dahua DH-NVR4108HS-4KS2,5,0.0
+LUPUS DVR,5,0.0
+Dahua DH-XVR5108HE-I2,5,0.0
+OpenSIPS SIP Server,5,0.0
+Fortinet FortiGate-90D,5,0.0
+MS-SQL Server 2016 SP2,5,0.0
+Dahua DH-XVR5104H-4KL-I2,5,0.0
+Dahua N41B1P2,5,0.0
+ASUS Wireless Router RT-AC59U,5,0.0
+Google Gmail imapd,5,0.0
+ASUS Wireless Router TUF-BE3600,5,0.0
+xrpld,5,0.0
+v-solution,5,0.0
+Xlight ftpd,5,0.0
+Cisco SX20,5,0.0
+Dahua EAG-4KL-PRO-AI3-8BB,5,0.0
+CP Plus CP-UNR-4K5644-V2,5,0.0
+IMail imapd,5,0.0
+Dahua DHI-XVR5432L,5,0.0
+Dahua DHI-XVR5108H-4KL,5,0.0
+ZTE F6645P,5,0.0
+Dionaea Honeypot,5,0.0
+World Client WDaemon httpd,5,0.0
+Google httpd,5,0.0
+Dahua NVR2104HS-P-4KS2,5,0.0
+Dahua CM-TWX6116HS-I3,5,0.0
+Lorex D441A6,5,0.0
+ASUS Wireless Router Lyra,5,0.0
+Unreal ircd,5,0.0
+Dahua CM-TWX6108HS-I3,5,0.0
+Dahua LD-4015HS-I3,5,0.0
+Dahua XVR1B16-I,5,0.0
+NethServer,5,0.0
+Dahua NV4108E-HS,5,0.0
+Jaeger,5,0.0
+SonicWall TZ,5,0.0
+NETGEAR R8000P,5,0.0
+poppassd,5,0.0
+MS-SQL Server 2014 SP2GDR for Service Pack,5,0.0
+IPBX-2.11.0(16.7.0),5,0.0
+ASUS Wireless Router RT-N66R,5,0.0
+Dahua BCS-L-NVR1601-4KE(2),5,0.0
+Dahua DHI-XVR7108H,5,0.0
+MS-SQL Server 2014,5,0.0
+Dahua DHI-NVR4216-I,5,0.0
+ZTE ZT199,5,0.0
+Dahua DH-XVR5104H-X-4P,5,0.0
+Dahua MHDX 1116,5,0.0
+Dahua N52B3P4,5,0.0
+RICOH MP C4504ex,5,0.0
+NETGEAR RAX80,5,0.0
+Dahua DH-XVR5108HS,5,0.0
+Dell Inc.,5,0.0
+Dahua-based N52B3P4,5,0.0
+RTL8xxx EV-2009-02-06,5,0.0
+Dahua XVR5216AN-4KL-X,5,0.0
+RealPort,5,0.0
+Salt,5,0.0
+Qpopper pop3d,5,0.0
+X-Security XS-XVR6104,5,0.0
+Dahua-based DHI-NVR4108HS-4KS2/L-1TB,5,0.0
+TP-Link Kasa X60 (HOMEWIFISYSTEM),5,0.0
+Dahua DH-NVR4108-8P-4KS2,5,0.0
+VMware vCenter Server,5,0.0
+Intelbras iMHDX 3004,5,0.0
+CP Plus CP-UNR-4K4162-V2,5,0.0
+ASUS Wireless Router RT-AC68P,5,0.0
+Dahua DHI-NVR2108HS-I2,5,0.0
+Dahua DHI-NVR4108-4KS2,5,0.0
+Lorex N881A6,5,0.0
+MS-SQL Server 2022 CU23,5,0.0
+Dahua-based DH-XVR4116HS-I-VN,5,0.0
+AnythingLLM,5,0.0
+Q-See DVR,5,0.0
+Dahua XVR1B08,5,0.0
+Lorex DV908,5,0.0
+"",5,0.0
+Dahua-based DHI-NVR5232-16P-4KS2E,5,0.0
+Thomson TG789vn Build,5,0.0
+MS-SQL Server 2008 SP1,5,0.0
+Wazo PBX,5,0.0
+Lorex NR908X,5,0.0
+RiverDelta Networks,5,0.0
+Dahua DH-XVR1B08H-I,5,0.0
+MS-SQL Server 2008 R2 SP3,5,0.0
+Thomson TG784n Build,5,0.0
+IDentifier NameTracer Pro httpd,5,0.0
+Dahua DV908,5,0.0
+Dahua-based SS 3540 MF FACE BIO EX,5,0.0
+ASUS Wireless Router ZenWiFi BQ16,5,0.0
+FarmingSimulator2025,5,0.0
+Intelbras MHDX 1232,5,0.0
+Orinoco WAP telnetd,5,0.0
+Dahua DH-XVR5116H-4KL-X-1T,5,0.0
+Dahua-based DHI-NVR4116HS-4KS2/L-2TB,5,0.0
+Dahua-based DHI-NVR4104HS-P-4KS3,5,0.0
+Icecast streaming media server,5,0.0
+Dahua-based DH-XVR5104HE-I3,5,0.0
+Dahua DHI-HCVR5108HE-S3,5,0.0
+OXO063,5,0.0
+ShopXO,5,0.0
+Netgear broadband router or ZyXel VoIP adapter ftpd,5,0.0
+Dahua LD-X8015HS-I3,5,0.0
+Counter-Strike: Global Offensive,5,0.0
+BlueIris,5,0.0
+Varnish,5,0.0
+Dahua-based NVD 3116,5,0.0
+Dahua-based SV-4CFDVR-2,5,0.0
+Dahua DHI-NVR608-64-4KS2,5,0.0
+Dahua DHI-XVR5116HE,5,0.0
+Dahua-based MNVR4208_I,5,0.0
+MS-SQL Server 2012 SP1+,5,0.0
+ASUS Wireless Router RT-ACRH13,4,0.0
+Intelbras MHDX 3016,4,0.0
+Dahua BCS-XVR0801E-III,4,0.0
+OpenVPN Access Server,4,0.0
+Dahua X72A3A,4,0.0
+GL.iNet GL-AR750 Router,4,0.0
+QNAP TS-419P II,4,0.0
+HUAWEI CloudLink Hard,4,0.0
+ASUS Wireless Router RT-N12HP_B1,4,0.0
+QNAP TS-251+,4,0.0
+NEC SL2100,4,0.0
+Broadcom BCM963268 ADSL router telnetd,4,0.0
+ASUS Wireless Router GS-AX3000,4,0.0
+Dahua-based DHI-NVR5216-16P-EI,4,0.0
+DrayTek ADSL router ftpd,4,0.0
+Dahua NVR608-32-4KS2,4,0.0
+Moxa Nport,4,0.0
+Dahua DHI-NVR410,4,0.0
+ASUS Wireless Router ZenWiFi XD6S,4,0.0
+Interactsh SMTP Server,4,0.0
+Dahua NVR4208-4KS2,4,0.0
+QNAP TS-221,4,0.0
+MOIMSTONE IP460S,4,0.0
+Dahua DH-XVR4104CB-X,4,0.0
+ASUS Wireless Router DSL-AC68U,4,0.0
+Lorex D861A6,4,0.0
+Dahua-based DHI-NVR2116HS-4KS3,4,0.0
+Oracle iPlanet Web Server,4,0.0
+Raspberry Shake,4,0.0
+NETGEAR R6100,4,0.0
+CP Plus CP-UNR-4K4162-V4,4,0.0
+Lorex N883A3,4,0.0
+Dahua BCS-XVR0401E-IV,4,0.0
+GL.iNet GL-MT1300 Router,4,0.0
+MikroTik RouterBoard 250GS httpd,4,0.0
+Dahua DH-XVR5104H-I2,4,0.0
+ZTE F660,4,0.0
+Dahua DH-XVR4232AN-X,4,0.0
+Dahua-based 8CH_H.265_DVR,4,0.0
+Dahua DHI-HCVR7216AN-4M,4,0.0
+BRNTech,4,0.0
+ASUS Wireless Router RT-AC1500G PLUS,4,0.0
+beanstalkd,4,0.0
+Sagem,4,0.0
+Dahua-based DH-XVR4232AN-I,4,0.0
+QNAP TAS-268,4,0.0
+Dahua XS-NVR2108-4KH,4,0.0
+Dahua-based HRHQA108G,4,0.0
+Net Insight AB,4,0.0
+Dahua DHI-NVR5232HS-4KS2,4,0.0
+Rad Data Communications Ltd.,4,0.0
+Dahua NVR5216-4KS2,4,0.0
+Dahua DHI-XVR5208A,4,0.0
+Dahua-based KTSR-DR2108S,4,0.0
+Dahua BCS-XVR0401-IV,4,0.0
+NcFTPd,4,0.0
+GoAhead-Webs,4,0.0
+Epicentro - YAPS ADB Stack on,4,0.0
+Dahua LNR6108,4,0.0
+Dahua-based DH-XVR5232AN-I2,4,0.0
+AGFEO int SIP,4,0.0
+KMW Systems KM-DVR6116-5M,4,0.0
+ASUS Wireless Router RT-AX3000P,4,0.0
+Dahua-based DHI-NVR4116HS-4KS3,4,0.0
+Dahua NV4116E-HS,4,0.0
+NET Disk/NetStore ftpd,4,0.0
+QNAP TS-231,4,0.0
+Sampo DR-TW1508S,4,0.0
+Dahua XVR4104HS-X1,4,0.0
+Dahua DHI-NVR5424-24P-4KS2,4,0.0
+Dahua XS-XVR3108-H1,4,0.0
+ASUS Wireless Router RT-AC66U_B1,4,0.0
+ASUS Wireless Router RT-AC58U V3,4,0.0
+ansitel_PBX,4,0.0
+Dahua-based LUPUSTEC-LE8084K,4,0.0
+ZTE F1611A,4,0.0
+Dahua LHV5108,4,0.0
+Dahua XS-XVR3108-HV,4,0.0
+Dahua DH-XVR5104HE-X1,4,0.0
+Dahua X72A2A3,4,0.0
+Dahua XS-NVR2108-4K8P,4,0.0
+Fortinet FortiGate-81E,4,0.0
+Dahua DHI-NVR6A08-32-4KS2,4,0.0
+ASUS Wireless Router ZenWiFi AX Hybrid,4,0.0
+ASUS Wireless Router GT6,4,0.0
+Dahua-based DH-XVR5216A-I3,4,0.0
+Tandberg,4,0.0
+ZTE ZXHN H188A,4,0.0
+QNAP TS-269L,4,0.0
+Dahua DHI-XVR5108H,4,0.0
+Watashi HCVR,4,0.0
+Ralink Windows Media Connect Compatible (Ralink-DMS) 1.0,4,0.0
+Dahua DHI-NVR5464-4KS2,4,0.0
+Dahua DH-XVR4B16-I,4,0.0
+Dahua DHI-NVR4116HS-8P-4KS2,4,0.0
+Dahua DHI-NVR4B04HC/E,4,0.0
+CALIX GS4227W,4,0.0
+Dahua-based DHI-NVR5216-EI,4,0.0
+Vodafone-H-500-s,4,0.0
+MS-SQL Server 2016 SP1,4,0.0
+MS-SQL Server 2019 CU27,4,0.0
+Dahua-based NVR5216-4KS2,4,0.0
+/Satoshi:27.0.0/,4,0.0
+Knopflerfish httpd,4,0.0
+Weaviate,4,0.0
+Fortinet FortiGate-500E,4,0.0
+Comrex SIP,4,0.0
+Fujitsu IPCOM,4,0.0
+IBM WebSphere Application Server,4,0.0
+Lorex LNR6108,4,0.0
+Dahua LD-8015HS-I3,4,0.0
+Dahua-based DH-XVR5108C-I3,4,0.0
+Dahua XVR5108HS-I3,4,0.0
+IC Realtime HAVR,4,0.0
+TM241CE24T,4,0.0
+Nokia CIMD,4,0.0
+Dahua DH-XVR5116HE-I2,4,0.0
+utelnetd,4,0.0
+Lorex N882A3,4,0.0
+ASUS Wireless Router RT-AC65P,4,0.0
+Philips Dynalite EnvisionGateway,4,0.0
+Dahua-based XVR1B16H,4,0.0
+OpenTibia,4,0.0
+MS-SQL Server 2000 SP1+,4,0.0
+Dahua EAG-5MP-PRO-AI3-16BB,4,0.0
+AudioCodes MP-124 SIP gateway sshd,4,0.0
+IMail NT-ESMTP,4,0.0
+Dahua-based TD-2304-I3,4,0.0
+Sony BRAVIA KD-55XF7596,4,0.0
+ASUS Wireless Router RT-AC85U,4,0.0
+Dahua XVR5116HS-I3,4,0.0
+Dahua DHI-NVR4104H-P,4,0.0
+Dahua DH-XVR4104HS,4,0.0
+RMC,4,0.0
+EARTH-4222,4,0.0
+Dahua DNR716,4,0.0
+Metasploit,4,0.0
+WireGuard Portal,4,0.0
+ASUS Wireless Router RT-ACRH17,4,0.0
+MS-SQL Server 2012 RTM,4,0.0
+OpenObserve,4,0.0
+IPBX-2.11.0(11.25.3),4,0.0
+Dahua DHI-NVR2108-I,4,0.0
+Lorex LHV5108,4,0.0
+Dahua DH-XVR5116HS-X-1T,4,0.0
+Dahua-based NVR2104HS-T,4,0.0
+Dahua DH-XVR4104HS-I,4,0.0
+TwistedWeb,4,0.0
+ZTE H196A V9,4,0.0
+ADT DVR,4,0.0
+CP Plus CP-UVR-0401E1-CV2,4,0.0
+Diablo 2 game server,4,0.0
+Dahua DVS-NVR0801PoE-D8,4,0.0
+MS-SQL Server 2000 SP3/SP3a+,4,0.0
+Dahua-based iNVD 5132,4,0.0
+ASUS Wireless Router RT-AC2900,4,0.0
+WS_FTP sshd,4,0.0
+Dahua-based L-IPR-5108-P-V2,4,0.0
+Fortinet FortiGate-30D,4,0.0
+Dahua BCS-XVR0801-II,4,0.0
+Neutron DVR,4,0.0
+Lorex N862A6,4,0.0
+ConnexCS Cloud Switch,4,0.0
+Dahua XVR5232AN-X,4,0.0
+Dahua XS-XVR6108S-2FACE,4,0.0
+Dahua DHI-NVR2104HS-4KS2,4,0.0
+SSH Communications Security,4,0.0
+Shelly Pro3EM SPEM-003CEBEU,4,0.0
+CL-HTTPd,4,0.0
+ASUS Wireless Router RT-AC1500UHP,4,0.0
+StatsD,4,0.0
+Dahua DHI-HCVR4104C-S3-N,4,0.0
+Dahua DH-XVR7208A-4K-X,4,0.0
+Dahua-based DHI-NVR4232-4KS3,4,0.0
+Dahua-based N42C3P4,4,0.0
+BMX P34 2020,4,0.0
+Dahua NVR4104-4KS2,4,0.0
+Dahua DHI-NVR4104-4KS2/L,4,0.0
+APC AOS cryptlib sshd,4,0.0
+"AMIT, Inc.",4,0.0
+Dahua-based ERD-0451HS-4KL-I2,4,0.0
+Apache Stronghold httpd,4,0.0
+D-Link router http config,4,0.0
+Dahua DH-XVR1B08-I-VN,4,0.0
+ZTE F688,4,0.0
+MS-SQL Server 2025 CU7,4,0.0
+Obihai OBi110 VoIP adapter http config,4,0.0
+Dahua-based AI-RS-N400-D4104A,4,0.0
+Dahua NVR4108-8P-4KS2,4,0.0
+DASAN H660GM,4,0.0
+WinAgents HyperConf configuration management,4,0.0
+Milvus Attu Web Interface,4,0.0
+KB Vision HCVR,4,0.0
+Dahua VTO2000A,4,0.0
+CP Plus CP-UNR-4K2162-V3,4,0.0
+"Shenzhen Yichen (JCG) Technology Co., Ltd. NJ-3R 42.402.1",4,0.0
+Dahua-based EZ-XVR1C08HS-4KL-I3-UK,4,0.0
+Sony BRAVIA KD-55XD7004,4,0.0
+Dahua DH-XVR8208A-4K-I,4,0.0
+Dahua-based DH-XVR5108HS-I3-1TB,4,0.0
+Broadcom BCM963138 ADSL router telnetd,4,0.0
+Fortinet FortiWiFi-60F,4,0.0
+Cisco SG300-28p switch telnetd,4,0.0
+Polycom SoundPoint VoIP phone http config,4,0.0
+ASUS Wireless Router ZenWiFi XD6,4,0.0
+SeCo,4,0.0
+MATRIX SARVAM UCS SME,4,0.0
+Dahua-based XVR5108HS-I3,4,0.0
+Microsoft Dataverse SQL,4,0.0
+Intelbras MHDX 508,4,0.0
+Dahua DH-XVR5116HE-4KL-I2,4,0.0
+HP LaserJet MFP M130fw,3,0.0
+Tracer SC+,3,0.0
+Dahua-based NVD 1404,3,0.0
+Intelbras MHDX 1008-C,3,0.0
+C51x Series,3,0.0
+Rust,3,0.0
+"Samsung Electronics Co., LTD.",3,0.0
+ASUS Wireless Router RT-N56UB1,3,0.0
+HP Color LaserJet CP5225dn,3,0.0
+Lyris ListManager smtpd,3,0.0
+Dahua DH-HCVR5104HS-S3,3,0.0
+Mitel Border GW,3,0.0
+Dahua DH-XVR5108H-4KL-I2,3,0.0
+Dahua-based HDVR-MX0804-1U5MP-AI2,3,0.0
+QNAP TS-119,3,0.0
+Linux telnetd,3,0.0
+Microsoft DNS,3,0.0
+TP-LINK R402M WAP http config,3,0.0
+Amcrest DVR,3,0.0
+NETGEAR R6020,3,0.0
+/Satoshi:30.0.0/,3,0.0
+Dahua DH-NVR4116HS-4KS2/N,3,0.0
+Dahua DHI-XVR4108C-N-S2,3,0.0
+"Silver Peak Systems, Inc.",3,0.0
+Dahua DHI-XVR5108HS-4KL-I2,3,0.0
+Dahua DHI-NVR5832-4KS2,3,0.0
+Barracuda Embedded Web Server,3,0.0
+Dahua NVR5216-8P-4KS2E,3,0.0
+Dahua-based NVD 1408,3,0.0
+Dahua-based N41C1P2,3,0.0
+CALIX GS4227,3,0.0
+IPBX-2.11.0(16.16.1),3,0.0
+Dahua-based iNVD 3016,3,0.0
+Dahua-based N846A6,3,0.0
+MS-SQL Server 2019 CU21,3,0.0
+FreSSH,3,0.0
+AirDroid httpd,3,0.0
+Dahua-based NVR1108HS-W-S2-CE-Imou,3,0.0
+QNAP TS-470 Pro,3,0.0
+DNews Web Based Manager,3,0.0
+TP-Link VX420-G2v,3,0.0
+PRO,3,0.0
+QNAP TS-269 Pro,3,0.0
+HW group s.r.o,3,0.0
+MS .NET Remoting httpd,3,0.0
+Dahua-based DH-XVR5116HS-I2,3,0.0
+Xitami httpd,3,0.0
+Dahua DHI-XVR5116H,3,0.0
+ASUS Wireless Router RT-BE3600,3,0.0
+Dahua TS-POC004-A5-4K,3,0.0
+lunaHD L-DVR-28104-4K,3,0.0
+Eudora EIMS X smtpd,3,0.0
+Arris Interactive LLC,3,0.0
+Cisco CSS SSH,3,0.0
+SonicWall SonicOS Enhanced SonicOS 7.3.3-7015-R9691,3,0.0
+Dahua DHI-NVR2208-4KS2,3,0.0
+NMEA,3,0.0
+Dahua-based DHI-NVR2108-8P-S3,3,0.0
+PYNG-HU,3,0.0
+Dahua DH/HCVR5108HS-V4/-AF-DVR-II-A/8-1,3,0.0
+check_mk extension for Nagios,3,0.0
+Dahua DH-XVR4B16,3,0.0
+Dahua NVR5464-4KS2,3,0.0
+Dahua DHI-XVR5832S,3,0.0
+ULTATEL PHONE SYSTEM,3,0.0
+Dahua DHI-HCVR7216A-S3,3,0.0
+Dahua-based L-DVR-26208,3,0.0
+XMail pop3d,3,0.0
+IC Realtime NVR200,3,0.0
+Dahua-based HolisHD 16ch,3,0.0
+Dahua NVR4432-4KS2,3,0.0
+C530 IP,3,0.0
+ASUS Wireless Router RT-AC3200,3,0.0
+TOTOLINK N300RA 1,3,0.0
+Dahua XVR4104HS-S2,3,0.0
+MACH-ProWebCom,3,0.0
+TP-LINK Archer VR1210v(IT) Build,3,0.0
+CData Arc,3,0.0
+Dahua-based X82B3A4,3,0.0
+Dahua DVR-4W04-1T,3,0.0
+ASUS Wireless Router TUF-BE6500,3,0.0
+QNAP TS-469L,3,0.0
+Dahua LD-X4015HS-I3,3,0.0
+Dahua-based DH-XVR5216A-4KL-I2,3,0.0
+Fortinet FortiGate-5001E,3,0.0
+Dahua-based NVR5416-4KS2,3,0.0
+QNAP TS-210,3,0.0
+Apache SkyWalking,3,0.0
+Dahua DHI-HCVR5116H-S2,3,0.0
+Dahua CM-TWX6108HS-4KL-I3,3,0.0
+Aruba WC,3,0.0
+GL.iNet GL-X3000 Router,3,0.0
+Lorex N844A8,3,0.0
+                                                                                                                              ,3,0.0
+TANDBERG,3,0.0
+NetApp Data ONTAP sshd,3,0.0
+Dahua DH-XVR5104HS-X1-1TB,3,0.0
+Dahua N52B2P,3,0.0
+Dahua NVR5216-16P-4KS2E,3,0.0
+ValueHD Corporation Video Conferencing Endpoint,3,0.0
+"Fuji Xerox Co., Ltd.",3,0.0
+Dahua DH-XVR5104H-I,3,0.0
+Linksys,3,0.0
+AGFEO SIP,3,0.0
+MS-SQL Server 2025 GDR,3,0.0
+Dahua DHI-XVR5104C-4M,3,0.0
+Dahua DH-XVR4104CB-X1,3,0.0
+Glastopf honeypot,3,0.0
+Dahua DH-XVR5416L-X,3,0.0
+GL.iNet GL-X750 Router,3,0.0
+Counter-Strike 2,3,0.0
+ASUS Wireless Router RT-AC52U B1,3,0.0
+CALIX 803G,3,0.0
+ASUS Wireless Router DSL-AX5400,3,0.0
+ASUS Wireless Router RT-AC2600,3,0.0
+ASUS Wireless Router RT-AC1200_V2,3,0.0
+mikopbx-2024.1.114,3,0.0
+Aastra,3,0.0
+Dahua DHI-XVR5108HE-S2,3,0.0
+Dahua-based DHI-NVR4216-16P-AI/ANZ,3,0.0
+Dahua BCS-NVR08025ME-P-II,3,0.0
+Dahua DHI-NVR616-64-4KS2,3,0.0
+Dahua-based SAF-8X-1080,3,0.0
+Dahua DH-HCVR5108HS-S3,3,0.0
+Dahua DH-NVR2108HS-8P-HDS3,3,0.0
+C-ICAP,3,0.0
+Dahua XVR1A04,3,0.0
+Dahua DH-NVR4104HS-4KS2,3,0.0
+MyPBX,3,0.0
+GL.iNet GL-B1300 Router,3,0.0
+Apache Cassandra,3,0.0
+PTInS SFU_XSS2100K Build,3,0.0
+Lorex LNR608,3,0.0
+Dahua-based D863A6,3,0.0
+Dahua DHDVR,3,0.0
+Zeus httpd,3,0.0
+Dahua-based DH-XVR5416L-I3,3,0.0
+Dahua-based DHI-NVR5208-EI,3,0.0
+Dahua DHI-NVR4216-4K,3,0.0
+Dahua BCS-XVR1601-II,3,0.0
+Dahua UAC,3,0.0
+Dahua DH-XVR1A04-BD,3,0.0
+Dahua COG-NVR-4K-5-8BB,3,0.0
+MS-SQL Server 2016 RTMGDR,3,0.0
+GL.iNet GL-AR300M Router,3,0.0
+KMW Systems KM-DVR6104-5M,3,0.0
+HP LaserJet MFP M437-M443,3,0.0
+AM-3200-W,3,0.0
+Dahua-based DHI-NVR2108HS-8P-4KS3,3,0.0
+"NetScreen Technologies, Inc.",3,0.0
+Dahua NV4216E-AI,3,0.0
+Dahua X72A3A4,3,0.0
+Neo4j Bolt Protocol,3,0.0
+TP-Link VX220-G2v,3,0.0
+Speedport W,3,0.0
+Dahua-based DH-XVR7108HE-4K-I2,3,0.0
+Fortinet FortiGate-VM,3,0.0
+Dahua BCS-L-NVR1602-A-4KE,3,0.0
+Dahua NVR302A-16/16P-4KS2/L,3,0.0
+Dahua DHI-HCVR7104C-S3,3,0.0
+Thomson TG784 Build,3,0.0
+Symantec Messaging Gateway smtpd,3,0.0
+Dahua-based EZ-XVR1B08-I-UK,3,0.0
+Thunderstone Texis search appliance http config,3,0.0
+Dahua SV-4CFDVR,3,0.0
+LikeShop,3,0.0
+LUPUS LE820,3,0.0
+Dahua DHI-HCVR7116H-4M,3,0.0
+FileMaker Web Publishing httpd,3,0.0
+QNAP VS-2104L,3,0.0
+QNAP TS-231K,3,0.0
+Dahua-based NVD 1232,3,0.0
+Nedap ANPR Lumo,3,0.0
+Left 4 Dead 2,3,0.0
+Supabase,3,0.0
+Dahua XS-NVR2104-4KH,3,0.0
+Yawcam webcam viewer httpd,3,0.0
+ASUS Wireless Router RT-AC67P,3,0.0
+Dahua DHI-XVR4104CB-S2,3,0.0
+ENM ENM,3,0.0
+PaperCut,3,0.0
+Dahua DHI-NVR5832-R-4KS2,3,0.0
+ASUS Wireless Router RT-N56U,3,0.0
+Zimbra lmtpd,3,0.0
+Dahua NVR5432-4KS2,3,0.0
+X-Security XS-XVR8116,3,0.0
+Dahua-based DHI-NVR4104-4KS2/L,3,0.0
+QNAP TS-119P+,3,0.0
+Conexant-EmWeb,3,0.0
+QNAP TS-421,3,0.0
+Balance Servers TCAdmin game hosting ftpd,3,0.0
+Lorex DV916,3,0.0
+Cambium Networks Limited (formerly 'PipingHot Networks Limited'),3,0.0
+QNAP TS-459 Pro+,3,0.0
+Dahua-based SV320NX,3,0.0
+TP-LINK EX230v(EU) Build,3,0.0
+LUPUS LE9264K,3,0.0
+MS-SQL Server 2005 RTMRTM,3,0.0
+Cyrus imapd,3,0.0
+Dahua-based DHI-NVR4104HS-P-4KS2/L-1TB,3,0.0
+MS-SQL Server 2008 R2 SP1,3,0.0
+"Deonet Co., Ltd.",3,0.0
+Dahua DH-XVR5116HS-X-2TB,3,0.0
+Dahua IPC-HDBW1320E-W,3,0.0
+Dahua DHI-HCVR5116HS-NT,3,0.0
+Cerberus FTP Server sshd,3,0.0
+Dahua-based SV-4CFDVR,3,0.0
+Dahua EZIP-NVR2A04HS-4P,3,0.0
+Dahua-based DH-XVR5104HS-I3-1TB,3,0.0
+Cyrus timsieved,3,0.0
+Dahua IPC-HFW1320S-W,3,0.0
+Dahua DHI-HCVR7104H-S3,3,0.0
+Dahua DHI-HCVR7208A-S3,3,0.0
+Ubiquiti EdgeSwitch 8 150W,3,0.0
+Dahua-based DH-NVR5416-4K,3,0.0
+Dahua-based DH-XVR4108HS-I,3,0.0
+Obihai OBi200 VoIP adapter http config,3,0.0
+UserAgent,3,0.0
+Dahua-based 16CH_H.265_DVR,3,0.0
+Dahua IP Camera,3,0.0
+Dahua BCS-L-XVR0801-V,3,0.0
+Dahua-based EZ-XVR1B04-I-UK,3,0.0
+HP LaserJet Pro MFP 4103,3,0.0
+Lorex XVR,3,0.0
+Dahua DH-XVR5108HE-4KL-I3,3,0.0
+Lorex DNR732,3,0.0
+VD5722,3,0.0
+AGENT++,3,0.0
+Dahua EAGLE-POC-5MP-8BB,3,0.0
+Dahua DH-NVR4208-4KS2,3,0.0
+Treck Embedded ftpd,3,0.0
+QuestDB,3,0.0
+Dahua DH-HCVR4108HS-S3,3,0.0
+SonicWall SonicOS Enhanced SonicOS 7.3.2-7010-R9118,3,0.0
+MS-SQL Server 2016 SP2GDR for Service Pack,3,0.0
+Dahua-based NVR4232-4KS2/L,3,0.0
+Dahua-based NVR5232-4KS2,3,0.0
+Dahua BCS-NVR0801X5ME-II,3,0.0
+Dahua DH-NVR608-64-4KS2,3,0.0
+Dahua DH-XVR7108HE-4K-I2,3,0.0
+QNAP VS-2004Pro,3,0.0
+MS-SQL Server 2012 SP4GDR for Service Pack,3,0.0
+Dahua DHI-HCVR4116HE-S3,3,0.0
+Dahua DH/HCVR5104HS-V5/-AF-DVR-II-A/4-1,3,0.0
+MS-SQL Server 2022 CU16,3,0.0
+Intoto httpd,3,0.0
+Dahua BCS-NVR1602-4K-III,3,0.0
+Broadcom BCM963167 ADSL router telnetd,3,0.0
+VMware ESXi Server httpd,3,0.0
+Dahua X84R3L8,3,0.0
+Dahua DH-XVR4104C-X,3,0.0
+FictusVNC,3,0.0
+Cisco MX64,3,0.0
+Web-Based Enterprise Management CIM serverOpenPegasus WBEM httpd,3,0.0
+Slican IPM,3,0.0
+Dahua DH-XVR4104HS-X,3,0.0
+Dahua EAG-5MP-PRO-AI3-4BB,3,0.0
+Dahua DHI-NVR5216-8P-4KS2,3,0.0
+Jooyon NVR,3,0.0
+Hewlett Packard Enterprise iLO 4 in ProLiant DL360 Gen9 2.82,3,0.0
+QNAP TS-251A,3,0.0
+Sun GlassFish,3,0.0
+MS-SQL Server 2022 CU26,3,0.0
+CP3,3,0.0
+openHAB,3,0.0
+Dahua DHI-NVR616-128-4KS2,3,0.0
+ZTE F670Y,3,0.0
+Dahua DHI-NVR4108-8P-4KS2 2T,3,0.0
+Dahua XS-XVR6108-H,3,0.0
+GL.iNet GL-MT2500 Router,3,0.0
+Microsoft ISA httpd,3,0.0
+Dahua NVR4232-4KS2,3,0.0
+MS-SQL Server 2022 CU27,3,0.0
+Tilgin Vood HG911x,3,0.0
+Technicolor TG789vn,3,0.0
+QNAP VS-2208 Pro+,3,0.0
+ACCTON Technology,3,0.0
+Fortinet FortiGate-400E,3,0.0
+X-Security XS-XVR6108-VS2,3,0.0
+TP-LINK WR1043ND WAP http config,3,0.0
+Dahua XVR5216AN-S2,3,0.0
+Dahua DHI-XVR7216AN,3,0.0
+Q-See NVR,3,0.0
+Oracle GlassFish,3,0.0
+Hewlett Packard Enterprise,3,0.0
+ZTE ZXHN H3601N,3,0.0
+CP Plus CP-UVR-0801E1-CS,3,0.0
+Fortinet FortiGate-40C,3,0.0
+TP-LINK Web Smart Switch http config,3,0.0
+Dahua-based SAF-4X-1080,3,0.0
+Canon printer web interface,3,0.0
+D-Link DCS-2121,3,0.0
+Dahua DHI-NVR4108HS-8P-4KS2-1TB,3,0.0
+CP Plus CP-UNR-4K2162-V2,3,0.0
+Dahua NVR-4E02P-1T,3,0.0
+Dahua DHI-HCVR8416L-S3,3,0.0
+Dahua-based HCVR,3,0.0
+Intelbras MHDX 1304,3,0.0
+Dahua-based NVD 3316 P,3,0.0
+AN httpd,3,0.0
+Dahua-based DHI-NVR2108-I2,3,0.0
+Dahua DHI-HCVR5232AN-S3,3,0.0
+Dahua BCS-XVR1601-IV,3,0.0
+TP-LINK WR941ND WAP http config,3,0.0
+Dahua DHI-XVR7104HE,3,0.0
+Sony BRAVIA TV,3,0.0
+"Moxa Technologies Co., Ltd.",3,0.0
+RAGFlow,3,0.0
+Network Equipment,3,0.0
+Dahua DH-XVR4104C-I,3,0.0
+Dahua-based MVD 5404 GW,3,0.0
+QNAP TS-453A,3,0.0
+HuaWei Corp,3,0.0
+Dahua-based DHI-NVR5832-EI,3,0.0
+Dahua BCS-L-NVR0801-4KE,3,0.0
+General Electric SRTP,3,0.0
+ASUS Wireless Router ZenWiFi BD5,3,0.0
+Tinyweb httpd,2,0.0
+Microsoft Distributed Transaction Coordinator,2,0.0
+Dahua ST-XVR0801-5-I3,2,0.0
+Dahua DHI-NVR2104HS-I2,2,0.0
+Dahua BCS-NVR3204-4K-III,2,0.0
+Broadcom BCM963139 ADSL router telnetd,2,0.0
+Dahua-based MNR5864-AI,2,0.0
+Sony BRAVIA KJ-49X9000E,2,0.0
+Cisco MX75,2,0.0
+InspIRCd,2,0.0
+Epson 11b/g/n & 10/100 Print Server,2,0.0
+Dahua-based DHI-NVR5416-4KS2,2,0.0
+Arista DCS-7280SR2-48YC6,2,0.0
+Lantronix SLS,2,0.0
+MS-SQL Server 2022 CU20,2,0.0
+Conpot,2,0.0
+Dahua-based DHI-NVR5464-4KS2(V2.0),2,0.0
+MS-SQL Server 2022 CU15+GDR,2,0.0
+Brother MFC-L2750DW series:8C5-K8J:Ver.S,2,0.0
+Dahua-based NVD 1416,2,0.0
+TYPSoft ftpd,2,0.0
+SonicWall SonicOS 7.1.3-7015-R6965,2,0.0
+Dahua DHI-HCVR5116HE-S3,2,0.0
+MS-SQL Server 2022 CU14,2,0.0
+DD-WRT telnetd,2,0.0
+Cisco MX85,2,0.0
+"Airespace, Inc (formerly 'Black Storm Networks')",2,0.0
+Dahua-based DH-XVR5216AN-I2,2,0.0
+MS-SQL Server 2005 SP3,2,0.0
+Electroline Equipment Inc.,2,0.0
+Lantronix X50,2,0.0
+Dahua DH-XVR5108HS-X-1T,2,0.0
+Merak Mail server pop3d,2,0.0
+Dahua DHI-NVR4108HS-4KS2-1TB,2,0.0
+Intelbras iMHDX 5116,2,0.0
+Dahua-based iNVD 5232,2,0.0
+InVid Tech IP Camera,2,0.0
+qpsmtpd,2,0.0
+Sony BRAVIA FW-43BZ35F,2,0.0
+Fnord httpd,2,0.0
+Trendnet TV-IP572PI,2,0.0
+IceWarp SIP Epos Update,2,0.0
+Intelbras HDCVI 1004 - Geração 2,2,0.0
+Linksys WRT OpenWrt http config,2,0.0
+Dahua-based iNVD 1016,2,0.0
+Dahua DVR-8W03-4T,2,0.0
+Dahua NVR-8E01P-2T,2,0.0
+Dahua DHI-HCVR7208A-S3-CARD,2,0.0
+LUPUS LE9184K,2,0.0
+DMPS3-300-,2,0.0
+Unisight PVR-P16-2VC,2,0.0
+Dahua DH-XVR7216AN-4K-I2,2,0.0
+Dahua-based SS 5532 MF W,2,0.0
+QNAP TS-431P,2,0.0
+Java FTP Proxy,2,0.0
+Microsoft IIS,2,0.0
+AV,2,0.0
+Online.net,2,0.0
+Dahua DHI-XVR7116H,2,0.0
+Prometheus Windows Exporter,2,0.0
+Dahua COG-NVR-4K-4-N-32BB,2,0.0
+Dahua DH-XVR5108HS-X-1TB,2,0.0
+Dahua BCS-L-NVR1601-4KE,2,0.0
+Dahua-based DH/HCVR5104HS-V7/-AF-DVR-II-A/4-1,2,0.0
+Dahua IPC-HFW1235S-W,2,0.0
+QNAP VS-2104Pro+,2,0.0
+Dahua DHI-NVR2116HS-I2,2,0.0
+HP Color LaserJet MFP M283fdw,2,0.0
+Dahua BCS-XVR16024KE-III,2,0.0
+OpenHands,2,0.0
+Dahua XVR5116H-4KL-X,2,0.0
+Sony BRAVIA KJ-55A8F,2,0.0
+HWTC,2,0.0
+Fortinet FortiGate-100C,2,0.0
+Dahua-based DH-XVR4108C-I,2,0.0
+ADT NVR,2,0.0
+Panasonic BB-SW172 webcam http config,2,0.0
+Dahua AMDV108116-H5,2,0.0
+Ganglia XML Grid monitor,2,0.0
+Dahua NVR4108HS-8P-4KS2,2,0.0
+Lancom 1811 wireless router http config,2,0.0
+Philips Hue Bridge BSB003,2,0.0
+XMail SMTP server,2,0.0
+Samsung M268x_M289x,2,0.0
+HP J9021A,2,0.0
+Sony BRAVIA KD-55XE8096,2,0.0
+SonicWall SonicOS 7.0.1-5065-R2799,2,0.0
+ASUS Wireless Router GT-BE98,2,0.0
+Selea ANPR Camera,2,0.0
+OXO032,2,0.0
+Dahua-based DHI-NVR2104-I2,2,0.0
+Sony BRAVIA KD-55XG8196,2,0.0
+MOR Softswitch,2,0.0
+Dahua-based NVD 1516,2,0.0
+Dahua DH-NVR4832-4K,2,0.0
+QNAP TS-419P,2,0.0
+Dahua DS-2104HS-D1,2,0.0
+LM5,2,0.0
+TP-Link VX420-G2h,2,0.0
+ZTE ZXHN H268Q,2,0.0
+Dahua DAS-NVR9104-HS-4KS2,2,0.0
+CP Plus CP-UVR-0401E1-CS,2,0.0
+Dahua DH-NVR4432-4KS2,2,0.0
+Dahua DH-XVR5232AN,2,0.0
+Dahua DHI-NVR5216-8P-I/L,2,0.0
+Dahua EAGLE-4K-4BB,2,0.0
+Dahua NVR5832-4KS2,2,0.0
+Dahua-based DH-XVR5108HS-I3(V3.0),2,0.0
+ASUS Wireless Router RT-AX56U V2,2,0.0
+Grandstream HT801,2,0.0
+Dahua DHI-NVR5232-16P-4KS2E,2,0.0
+Ubiquiti EdgeSwitch 12 Fiber,2,0.0
+Dahua-based DH-XVR5116HS-I3-2TB,2,0.0
+Dahua LUPUSNET-LE9184K,2,0.0
+Dahua-based DHI-NVR5864-EI,2,0.0
+QNAP TS-459,2,0.0
+Dahua XS-XVR6232S-AI,2,0.0
+ioBroker,2,0.0
+C43x Series,2,0.0
+Dahua-based DH-XVR5208AN-4KL-I3,2,0.0
+Dahua DH-XVR7108HE-4K-X,2,0.0
+GL.iNet GL-MT3600BE Router,2,0.0
+Dahua SD,2,0.0
+"TP-Link Technology Co.,Ltd",2,0.0
+Dahua HCVR5116HS-S3,2,0.0
+Dahua-based DH-XVR5116H-4KL-X,2,0.0
+Dahua Network recorder,2,0.0
+Dahua-based EZ-XVR1B16-I,2,0.0
+ILOM,2,0.0
+CALIX GS5229E,2,0.0
+MACH-ProCom,2,0.0
+Sony BRAVIA KD-65XE8505,2,0.0
+QNAP TS-869L,2,0.0
+ZTE F8748,2,0.0
+Dahua NVR2108HS-T,2,0.0
+3Com SuperStack 3 Switch 4500 or Huawei Quidway AR28-09 WAP telnetd,2,0.0
+HP LaserJet M402dn,2,0.0
+"Delta Electronics, Inc.",2,0.0
+ASUS Wireless Router RT-BE82U,2,0.0
+IceWarp webmail httpd,2,0.0
+CP Plus CP-UVR-0801E1-HC,2,0.0
+CIP850,2,0.0
+MS-SQL Server 2022 CU24+GDR,2,0.0
+QNAP TS-469 Pro,2,0.0
+Dahua DHI-HCVR7108H-S3,2,0.0
+Dahua DH-XVR5104C-I3,2,0.0
+Dahua-based DH-XVR5116HE-I3,2,0.0
+Apple Base Station,2,0.0
+Dahua DH-XVR5108H,2,0.0
+iPECS-LIK VOIM24W,2,0.0
+Dahua DH-XVR5832S-X,2,0.0
+MS-SQL Server 2019 CU28,2,0.0
+Citrix Metaframe ICA Browser,2,0.0
+Digital China (Shanghai) Networks Ltd.,2,0.0
+Dahua-based DJS-SXL104S,2,0.0
+fw2022072710-HPV15400.N3A2UHML2,2,0.0
+Dahua DH-NVR4416-HDS2/I,2,0.0
+Dahua DHI-NVR6A08-64-4KS2,2,0.0
+Dahua-based SV-8CFDVR,2,0.0
+QNAP TS-669L,2,0.0
+ASUS Wireless Router PL-N12,2,0.0
+ASUS Wireless Router RP-AC52,2,0.0
+ASUS Wireless Router RT-AC51,2,0.0
+Dahua DHI-NVR4104-P-4KS2-WHITE,2,0.0
+Dahua IPC-HFW4431D-AS,2,0.0
+HP LaserJet Pro M329,2,0.0
+GL.iNet GL-BE6500 Router,2,0.0
+Dahua DHI-NVR1108HS-S3/H-VN,2,0.0
+Lancom 1721+ VPN http config,2,0.0
+CALIX GS5229XG,2,0.0
+WYM httpd,2,0.0
+Dahua NVR5432-16P-4KS2E,2,0.0
+Codian MCU,2,0.0
+Dahua XS-XVR3108M-HV,2,0.0
+Dahua-based E62_NVR16COM3,2,0.0
+Dahua-based DHI-NVR2104HS-P-I2,2,0.0
+Dahua DHI-NVR4216-4KS2-UK,2,0.0
+QNAP TS-219P,2,0.0
+Shelly Plus1 SNSW-001X16EU,2,0.0
+KX-VC1600_HDVC-MPCS,2,0.0
+Dahua-based SS 1540 MF W,2,0.0
+RemotelyAnywhere remote PC management httpd,2,0.0
+Sony BRAVIA KD-55XD8505,2,0.0
+Franz Allegroserve httpd,2,0.0
+Phonet,2,0.0
+Tracd,2,0.0
+NextRouter C4 SoftSwitch,2,0.0
+Dahua-based DHI-NVR5832-R-4KS2,2,0.0
+Sony BRAVIA KD-55XD7005,2,0.0
+Dahua DH-XVR5216A-I2,2,0.0
+Cisco ASR 9010 router telnetd,2,0.0
+Dahua-based LXN8216D-P16,2,0.0
+X-Lite release,2,0.0
+Ralink router 000,2,0.0
+Dahua DH-XVR1A08-BD,2,0.0
+X-Security XS-XVR6104-4M,2,0.0
+ASUS Wireless Router TUF GAMING å°æé£ Pro WiFi7,2,0.0
+Dahua AMDVTENL8-H5,2,0.0
+X-Security XS-XVR3108-VS2,2,0.0
+Kerio MailServer POP3 Server,2,0.0
+Dahua N42B2P,2,0.0
+FRITZ!Box Fon WLAN 7390 WAP ftpd,2,0.0
+Dahua-based SAF-8X-5MP,2,0.0
+Linksys E2500 WAP http config,2,0.0
+Mythic,2,0.0
+cloudflare-nginx,2,0.0
+Dahua-based DHI-NVR5216-16P-4KS2,2,0.0
+Lorex LNR6108XP,2,0.0
+Dahua-based KTSR-DR2104S,2,0.0
+Apache Spark,2,0.0
+DnakeVoip,2,0.0
+Dahua BCS-NVR3202-4K-III,2,0.0
+Dahua XS-NVR2104-S3P,2,0.0
+F-Secure WinNT sshd,2,0.0
+Linksys WRT54GL wireless-G router http config,2,0.0
+HP LaserJet Pro 4002,2,0.0
+LUPUS LE821,2,0.0
+Dahua-based DH/HCVR5832S-V7/-AF-DVR-II-A/32-16,2,0.0
+Dahua EZIP-NVR2B04-4P,2,0.0
+Dahua-based DH-XVR4B16-I,2,0.0
+Dahua-based DHI-NVR4104-P-EI,2,0.0
+Tomato WAP firmware httpd,2,0.0
+Netsync,2,0.0
+Dahua-based ADR-5108,2,0.0
+PowerMTA smtpd,2,0.0
+Dahua EXP-1080-8BB,2,0.0
+WinWebMail smtpd,2,0.0
+MacOS X Server ftpd,2,0.0
+Dahua MT-NVR4008-4K,2,0.0
+TP-Link Kasa X20 (HOMEWIFISYSTEM),2,0.0
+Dahua UAS,2,0.0
+Dahua DHI-NVR4416-16P-4K,2,0.0
+Dahua DHI-NVR4232-16P-4KS2,2,0.0
+DrayTek VigorBX 2000,2,0.0
+Intelbras MHDX 3104-C,2,0.0
+Dahua IPC-HFW1120S-W,2,0.0
+Dahua-based SAF-5116KL-I3,2,0.0
+MS-SQL Server 2017 CU31+GDR,2,0.0
+VCP MWARE,2,0.0
+Skyworth,2,0.0
+HandPunch 2000,2,0.0
+EZ-IP NVR1B08HS-8P,2,0.0
+Dahua AMDV8M8-H5,2,0.0
+Freebox ftpd,2,0.0
+DNL-Switch,2,0.0
+Technicolor TG799vn,2,0.0
+Dahua DH-NVR4208-4K,2,0.0
+Microhard Systems Inc.,2,0.0
+Dahua BCS-XVR1601-III,2,0.0
+QNAP TS-119P II,2,0.0
+WRQ Reflection for Secure IT sshd,2,0.0
+ENM ENM-A04R2,2,0.0
+Ralink Linux UPnP IGD Project RT2880 IGD Version 1.00 RT2880 C,2,0.0
+QNAP VS-4112Pro+,2,0.0
+Dahua DH-NVR4232,2,0.0
+Panasonic DVR slinger http config,2,0.0
+Dahua IP2M-841B,2,0.0
+P5B-300,2,0.0
+Dahua DH-XVR5116HE,2,0.0
+Wind River Systems,2,0.0
+ASUS Wireless Router 4G-AC53U,2,0.0
+Cisco ASA Firewall HTTP Config,2,0.0
+Dahua XVR501H-04-I3-V2,2,0.0
+IP520GA,2,0.0
+TP-Link Kasa Wi-Fi Smart Dimmer HS220(US),2,0.0
+Intelbras MHDX 3008,2,0.0
+SolarCity X2e,2,0.0
+Dahua DH-NVR4104HS-P-4KS2,2,0.0
+Dahua XVR7216A-4KL-X,2,0.0
+TP-Link Kasa M4R (HOMEWIFISYSTEM),2,0.0
+Dahua-based NVR2104HS-P-T,2,0.0
+NEC SV9100-GE 05.00.87,2,0.0
+PowerSploit,2,0.0
+Dahua DH-HCVR7116H-4M,2,0.0
+Dahua DH/HCVR5116HS-V5/-AF-DVR-II-A/16-1,2,0.0
+SunSSH,2,0.0
+QNAP VS-2108L,2,0.0
+Cobalt Strike Beacon,2,0.0
+Dahua-based 0801-4M,2,0.0
+Adtran Netvanta RomCliSecure sshd,2,0.0
+TM241CE40R,2,0.0
+Dahua XS-XVR6104S-4KL-FACE,2,0.0
+Dahua DH-XVR5216A-I3,2,0.0
+Dahua-based DHI-NVR4108HS-8P-4KS3,2,0.0
+Samsung C48x,2,0.0
+Fortinet FortiGate-501E,2,0.0
+Dahua DHI-HCVR4108C-S3-B,2,0.0
+Dahua DHI-NVR4104-P-4KS2 1T,2,0.0
+BusyBox ftpd,2,0.0
+NETGEAR XWN5001,2,0.0
+Dahua-based DHI-NVR5208-8P-EI,2,0.0
+Dahua XS-XVR6108AS-1FACE,2,0.0
+LUPUS LE918,2,0.0
+Dahua DVR-16W03-3T,2,0.0
+monit httpd,2,0.0
+Dahua DH_XVR4B16,2,0.0
+Dahua EAG-5MP-PRO-AI-4,2,0.0
+hisip,2,0.0
+Dahua-based DH-NVR2108HS-HD/H,2,0.0
+Ring-U,2,0.0
+ASUS Wireless Router RT-N18U,2,0.0
+Dahua-based DHI-NVR1104HS-P-S3/H,2,0.0
+Dahua-based DJS-SXS104S,2,0.0
+VC-,2,0.0
+Dahua DH-XVR4B16H,2,0.0
+Lorex DNR218,2,0.0
+Dahua-based DJS-SXS108S,2,0.0
+Philips Hue Bridge,2,0.0
+VMGate,2,0.0
+Fortinet FortiGate-80D,2,0.0
+Dahua DH-XVR5108HS-S2,2,0.0
+ZTE H3601,2,0.0
+ASUS Wireless Router RT-AC68W,2,0.0
+Dahua XS-XVR6108S-4KL-2AI,2,0.0
+Opto 22,2,0.0
+EZ-IP NVR1B08HC/E,2,0.0
+Dahua EAG-NVR-4K-2AI-4BB,2,0.0
+Dahua DHI-HCVR5216AN-S3,2,0.0
+TP-Link Kasa P105 (SMART.TAPOPLUG),2,0.0
+Dahua-based SS 5530 MF FACE LITE,2,0.0
+Dahua-based DHI-NVR2116HS-4KS3-VN,2,0.0
+OXO920,2,0.0
+Dahua XVR1B04-I,2,0.0
+IC Realtime NVR208NS,2,0.0
+Yealink W60B,2,0.0
+MiniDLNA,2,0.0
+Dahua DH-NVR4432-HDS2,2,0.0
+Dahua DH/HCVR5108HS-V6/-AF-DVR-II-A/8-1,2,0.0
+ASUS Wireless Router RT-N14UHP,2,0.0
+N5N,2,0.0
+Fortinet FortiWiFi-61F,2,0.0
+MS-SQL Server 2019 CU32,2,0.0
+Sony BRAVIA KD-55XE8505,2,0.0
+Fortinet FortiGate-VM64-AZUREONDEMAND,2,0.0
+"Brother Industries, Ltd.",2,0.0
+Dahua DH-XVR4108CW-X1,2,0.0
+"Alpha Technologies, Inc.",2,0.0
+HP JD149,2,0.0
+Fortinet FortiGate-1500D,2,0.0
+Dahua DH-XVR5108HQ-I,2,0.0
+ASUS Wireless Router RT-AX54HP,2,0.0
+ASUS Wireless Router å¤©éæ¸¸æè·¯ç±,2,0.0
+Dahua BCS-XVR0801-IV,2,0.0
+Dahua-based DH-XVR5104H-4KL-I3,2,0.0
+Winmail pop3d,2,0.0
+Dahua XVR4116HS,2,0.0
+Dahua NVR616-64-4KS2,2,0.0
+X-Security XS-XVR6108-H,2,0.0
+CP Plus CP-UVR-0801E1-CV2,2,0.0
+Dahua-based NVR1B08HS-8P,2,0.0
+Dahua-based LXN8208D-P8,2,0.0
+CALIX GP1101X,2,0.0
+QNAP VS-2008Pro,2,0.0
+Sony BRAVIA KD-55XE9005,2,0.0
+Comel LLC WR-AC1210 92.102.1,2,0.0
+ASUS Wireless Router RT-BE86U,2,0.0
+Dahua NV5232E-16P,2,0.0
+ASUS Wireless Router RT-BE58 Go,2,0.0
+Dahua NVR1B08,2,0.0
+Dahua NVR5864-4KS2,2,0.0
+Dahua LUPUSTEC-LE9264K,2,0.0
+CP Plus CP-UVR-0801E1-S,2,0.0
+Sony BRAVIA KJ-43X8000E,2,0.0
+LUPUS LUPUSTEC-LE9264K,2,0.0
+AmerixIP-17.0.33.2(21.12.3),2,0.0
+Dahua DH-XVR5216AN-4KL-X-16P,2,0.0
+Dahua-based DHI-NVR5432-16P-EI,2,0.0
+Dahua DH-NVR2104HS-P-HDS3,2,0.0
+nginx imap proxy,2,0.0
+Qnginx,2,0.0
+Dahua-based DJS-SXS116S,2,0.0
+Dahua-based SAF-16X-5MP,2,0.0
+Dahua XVR5108HE,2,0.0
+MS-SQL Server 2016 SP2CU17,2,0.0
+Lorex N863A6,2,0.0
+DC-SIP,2,0.0
+Dahua DR-TW1504S,2,0.0
+Dahua DHI-NVR4104-4KS2,2,0.0
+pimatic,2,0.0
+Dahua DHI-NVR5864-I,2,0.0
+Dahua DHI-NVR2116-I,2,0.0
+Dahua-based NVR-MX16POE-1U4K1,2,0.0
+NetPort httpd,2,0.0
+Intelbras MHDX 1032,2,0.0
+Dahua DH/HCVR7108HS-V4/-AF-DVR-II-A/8-1,2,0.0
+Dahua-based DHI-NVR2216-I2,2,0.0
+Lancom 1721 VPN http config,2,0.0
+Dahua DH-XVR5216A,2,0.0
+VoIPGW,2,0.0
+Dahua DVR08IP4K-8P-S3,2,0.0
+DrayTek Vigor2132 Series,2,0.0
+TrustLayer,2,0.0
+QNAP TS-251,2,0.0
+TS-107,2,0.0
+NETGEAR R6850,2,0.0
+Dahua KM-DVR6116-5M-AI,2,0.0
+ASUS Wireless Router RT-AX3000S,2,0.0
+CP Plus CP-UNR-4K564R8-FI,2,0.0
+N510 IP PRO,2,0.0
+Dahua-based DHI-NVR4116-4KS2/L,2,0.0
+Dahua BCS-XVR1602-III,2,0.0
+Colubris Networks Inc.,2,0.0
+Dahua DH-NVR2104HC-P-HDS2,2,0.0
+NETGEAR R6700v3,2,0.0
+Fortinet FortiGateRugged-30D,2,0.0
+MS-SQL Server 2016 SP3+,2,0.0
+VMware Inc.,2,0.0
+Hak5 Cloud C2,2,0.0
+NS2,2,0.0
+ZTE H196Q,2,0.0
+Dahua NVR2104HS-4KS2,2,0.0
+Dahua DH-NVR4208-8P-4KS2,2,0.0
+Dahua-based N52B5P,2,0.0
+Dahua-based DHI-NVR4208-8P-EI,2,0.0
+Deltapath frSIP UC,2,0.0
+American Power Conversion Corp.,2,0.0
+Java RMI,2,0.0
+Fortinet FortiGate-200B,2,0.0
+Dahua DHI-HCVR7104H-4M,2,0.0
+Innbox Home Gateway firewall telnetd,2,0.0
+Intelbras MHDX 5208,2,0.0
+Dahua BCS-L-NVR0401-4KE,2,0.0
+Dahua-based SAF-4X-5MP,2,0.0
+"ZPE Systems, Inc",2,0.0
+MS-SQL Server 2008 SP3,2,0.0
+Lantronix FXW,2,0.0
+HikCentral Professional,2,0.0
+Lantronix 5Ma,2,0.0
+Dahua NVR4116-4KS2,2,0.0
+Dahua HEN321*4,2,0.0
+NEC SV9100-GE 11.00.56,2,0.0
+NETGEAR R7900P,2,0.0
+D-Link DI-804HV http config,2,0.0
+Dahua-based DHI-NVR4108-8P-4KS3,2,0.0
+Dahua-based ERD-1651HS-I3,2,0.0
+Lorex DNR716,2,0.0
+Dahua XVR1B04H-I,2,0.0
+Dahua DH-NVR4216-16P-4KS2,2,0.0
+Dahua DHI-XVR5232AN,2,0.0
+Dahua DH-HCVR4116HE-S3,2,0.0
+MS-SQL Server 2022 CU25+,2,0.0
+Dahua-based NVD 1404 P,2,0.0
+Trendnet TV-IP762IC,2,0.0
+Dahua IPC-C15,2,0.0
+Foxgate S9816 switch telnetd,2,0.0
+ASUS Wireless Router RT-AX5400,2,0.0
+Dahua-based TDHDX16-4K-AI3-2T,2,0.0
+Dahua DH-NVR4116HS-4KS3,2,0.0
+HomeSeer Home Control Web Interface,2,0.0
+Dahua DHI-XVR7104H,2,0.0
+Sony BRAVIA KD-55XF9005,2,0.0
+Dahua-based EZ-XVR1B08-I,2,0.0
+FreeFTPd,2,0.0
+lunaHD DVR,2,0.0
+GL.iNet GL-AR150 Router,2,0.0
+Serv-U SSH Server,2,0.0
+Dahua-based CDR82XX-C,2,0.0
+"SHENZHEN DINSTAR TECHNOLOGIES Co.,Ltd.",2,0.0
+Dahua BCS-XVR0802-II,2,0.0
+Dahua XS-XVR3104M-AI,2,0.0
+RedisInsight,2,0.0
+CP Plus CP-UNR-4K2041-P4V2,2,0.0
+Dahua-based N42C1P2,2,0.0
+aidex httpd,2,0.0
+Dahua XVR1B16,2,0.0
+TP-Link Kasa X55 (HOMEWIFISYSTEM),2,0.0
+Lorex LNR6108X,2,0.0
+Dahua-based DH-XVR5108HE-4KL-I3,2,0.0
+Dahua DH-NVR4108,2,0.0
+QNAP TS-420,2,0.0
+Amcrest AMDV5M8,2,0.0
+Dahua-based DJS-SXL108S,2,0.0
+Dahua DH-XVR5432L-I2,2,0.0
+ASUS Wireless Router RT-AC57U V3,2,0.0
+Dahua DHI-NVR4816-4KS2,2,0.0
+Dahua DHI-NVR4832-4KS2,2,0.0
+KMW Systems KM-DVR6232-5M-AI,2,0.0
+eSIP,2,0.0
+Shanghai Baud Data Communication Development Corp.,2,0.0
+Dahua DHI-HCVR5832S-S2,2,0.0
+Dahua BCS-NVR32025ME-II,2,0.0
+ASUS Wireless Router RT-AC1750U,2,0.0
+Dahua DH-XVR4108CB-X,2,0.0
+Dahua-based DH/HCVR5116HS-V7/-AF-DVR-II-A/16-1,2,0.0
+Sphairon-SL5501-4.38.2.06.05,2,0.0
+MS-SQL Server 2022 CU25+GDR,2,0.0
+Dahua DH-XVR4108C-X1-BL,2,0.0
+Dahua DHI-XVR4104HSR,2,0.0
+Dahua-based DH-XVR5108H-4KL-I3,2,0.0
+Shaghal Ltd. ERAC1900 90.125.2,2,0.0
+J9774A,2,0.0
+ASUS Wireless Router GT-BE98 Pro,2,0.0
+Dahua-based XDR0412,2,0.0
+Dahua-based X51C3E4,2,0.0
+CLIP,2,0.0
+Dahua XVR7116HE-4KL-X,2,0.0
+MS-SQL Server 2016 SP1GDR for Service Pack,2,0.0
+Alcatel OmniSwitch 6400 or 8600 switch telnetd,2,0.0
+Dahua DHI-NVR4108HD-S3,2,0.0
+Lotus Domino smtpd,2,0.0
+KMW Systems KM-DVR6104S-5M-I,2,0.0
+Lorex D841A6,2,0.0
+Dahua-based DHI-NVR608H-64-XI,2,0.0
+Dahua DH-XVR4216A,2,0.0
+Dahua-based DH-XVR5108HS-4KL-I2-1TB,2,0.0
+HomeWorks Illumination Web Keypad,2,0.0
+Dahua NVR5216-8P-I,2,0.0
+Pragma FortessSSH,2,0.0
+QNAP VS-8124Pro+,2,0.0
+ASUS Wireless Router GT-BE25000,2,0.0
+Dahua BCS-NVR6404-4K-III,2,0.0
+QNAP VS-2112Pro+,2,0.0
+Dahua NVR-32M4K01,2,0.0
+D-Link ShareCenter DNS-320,2,0.0
+Sony BRAVIA KD-49X9000G,2,0.0
+Dahua DR-TW1508HQI,2,0.0
+Dahua C52A3N,2,0.0
+WEB-200,2,0.0
+ASUS Wireless Router ZenWiFi BT10,2,0.0
+QNAP TS-219P+,2,0.0
+D-Link ShareCenter DNS-320B,2,0.0
+ILC 191 ETH 2TX,2,0.0
+TM200CE24R,2,0.0
+X-Security XS-NVR6216-4K16P,2,0.0
+Dahua DH-XVR7104E-4KL-X,2,0.0
+Microsoft Foundation Class httpd,2,0.0
+LangSmith,2,0.0
+TeamViewer,2,0.0
+Dahua XS-XVR6104S-1FACE,2,0.0
+Dahua NV4232-EI,2,0.0
+MS-SQL Server 2022 CU26+GDR,2,0.0
+Dahua DH-XVR5104HS,2,0.0
+ASUS Wireless Router ZenWiFi XD4 Plus,2,0.0
+Arista DCS-7050SX-64,2,0.0
+RICOH Co. Ltd.,2,0.0
+Cisco MX95,2,0.0
+alicom sip server,2,0.0
+Dahua XS-XVR6216S-2AI,2,0.0
+Dahua DHI-XVR7208A,2,0.0
+Dahua DH-XVR5104H-4KL-I3,2,0.0
+ERPoe-5,2,0.0
+Intelbras MHDX 7132,2,0.0
+"APRESIA Systems, Ltd. (formerly 'Hitachi Cable, Ltd.')",2,0.0
+Dahua NV41AI-4P-4K,2,0.0
+UC-ENGINE,2,0.0
+Dahua-based DHI-NVR5232-16P-EI,2,0.0
+Linksys WAP200 WAP http config,2,0.0
+ASUS Wireless Router ZenWiFi XD4S,2,0.0
+pysnmp,2,0.0
+Dahua DHI-XVR7216A,2,0.0
+Dahua-based N54A4P,2,0.0
+7 Days to Die,2,0.0
+Dahua DH-NVR2108HC-HDS2,2,0.0
+Brocade MLXe,2,0.0
+Dahua DH-XVR5116H-4KL-X-2TB,2,0.0
+Cisco TelePresence MCU,2,0.0
+ASUS Wireless Router RT-AC56U,2,0.0
+QNAP TS-230,2,0.0
+Dahua-based SS 1530 MF W,2,0.0
+Dahua BSA5NR20808-4K,2,0.0
+Dahua DHI-XVR4108HE,2,0.0
+Dahua LD1108HS,2,0.0
+IPBX-2.11.0.47(11.25.3),2,0.0
+Dahua-based DH-XVR4B08-I,2,0.0
+Dahua-based DH-XVR7416L-4K-I3,2,0.0
+Technicolor TG784n,2,0.0
+TP-Link Kasa P110M(JP) (SMART.TAPOPLUG),2,0.0
+PQube 3 Power Analyzers,2,0.0
+Dahua DHI-HCVR7208AN-4K,2,0.0
+Dahua-based DHI-NVR1108HS-W-S2-CE,2,0.0
+Dahua-based 4CH_H.265_DVR,2,0.0
+AVM FRITZ!Box Fon WLAN 7320 SIP,2,0.0
+NetModule AG,2,0.0
+CP Plus CP-UNP-D2521L10-DP,2,0.0
+OXO062,2,0.0
+MS-SQL Server 2022 CU22,2,0.0
+ASUS Wireless Router RT-N12E_B1,2,0.0
+Dahua DH-XVR5416L-4KL-I2,2,0.0
+Dahua DHI-NVR2216-16P-I,2,0.0
+GL.iNet GL-SFT1200 Router,2,0.0
+Dahua COL-IPR4,2,0.0
+EZ-IP NVR1B08,2,0.0
+Dahua BCS-XVR08014KE-III,2,0.0
+SIParator,2,0.0
+Intelbras MHDX 3132,2,0.0
+Fuji Xerox DocuCentre-V 3060,2,0.0
+3Com,2,0.0
+Dahua-based DJS-SRC108F,2,0.0
+/Satoshi:31.0.0/,2,0.0
+Lantronix UDS1100,2,0.0
+Dahua DH-XVR4108HS,2,0.0
+Lantronix UA\,2,0.0
+NETGEAR Orbi-mini,2,0.0
+Obihai OBi300 VoIP adapter http config,2,0.0
+"Beijing SplendidTel Co.,Ltd.",2,0.0
+Dahua DH-HCVR5216AN-S3,2,0.0
+MS-SQL Server 2022 CU21,2,0.0
+Dahua DH-XVR5108HS-I3-1TB,2,0.0
+ARRIS NVG443B NVG443B,2,0.0
+TiDB,2,0.0
+QNAP HS-251,2,0.0
+Dahua DH-XVR5104HE-4KL-I3,2,0.0
+GL.iNet GL-X300B Router,2,0.0
+KMW Systems KM-NVR3116-4K,2,0.0
+Dahua NV4108E-A2,2,0.0
+Nucleus ftpd,2,0.0
+Dahua DH-NVR4116HS-4KS2,2,0.0
+EFM Networks ipTIME N104R 1,2,0.0
+Dahua-based BLT5816A,2,0.0
+Tilgin Vood HG25xx_ESx000-03_02_00_93,2,0.0
+Fortinet FortiGate-300D,2,0.0
+ASUS Wireless Router TX-AX6000,2,0.0
+Fortinet FortiGate-240D,2,0.0
+Dahua RVSH-9608S,2,0.0
+Dahua XVR5104C-S2,2,0.0
+XtremeRAT trojan,2,0.0
+Advidia IP Camera,2,0.0
+ASUS Wireless Router RT-N66W,2,0.0
+Dahua-based DHI-NVR4108HS-8P-EI,2,0.0
+ZTE F679L,2,0.0
+Dahua DH-XVR4A08,2,0.0
+Kannel SMS proxy httpd,2,0.0
+Precidia serial2ethernet gateway telnetd,1,0.0
+TP-LINK_EX230v,1,0.0
+HP LaserJet M406,1,0.0
+Sampo DR-TW2516NV-16P,1,0.0
+Dahua-based DJS-SXL216A,1,0.0
+Yealink MeetingBoard,1,0.0
+Genetec AutoVu Sharp,1,0.0
+Sony BRAVIA XBR-55X800G,1,0.0
+Dahua INS8824KN(S2),1,0.0
+Naumann EDV,1,0.0
+GL.iNet GL-XE300 Router,1,0.0
+Samsung Smart TV UN50HU8500,1,0.0
+LigueAi,1,0.0
+Brother DCP-B7640DW:8C5-M4U:Ver.1.27,1,0.0
+Samsung SCX-483x,1,0.0
+Dahua DHI-XVR7416L-4KL,1,0.0
+Lorex LHV5108W,1,0.0
+ASUS Wireless Router RT-AC750,1,0.0
+HYDRA,1,0.0
+Dahua XS-6116-4KL,1,0.0
+Vox Gratia OPAL-Console,1,0.0
+CP Plus CP-UNR-4K4162-P16V2,1,0.0
+Dahua-based SS 3542 MF,1,0.0
+ZTE H6701V11,1,0.0
+Toshiba e-STUDIO2525AC,1,0.0
+TP-Link Kasa P110(EU) (SMART.TAPOPLUG),1,0.0
+Dahua-based CY-XVR-5104HE-I3,1,0.0
+PBX-CDI,1,0.0
+Dahua-based DH-XVR5108HS-4KL-I3-1TB,1,0.0
+Dagster,1,0.0
+Dahua IPC-HFW4231E-SE,1,0.0
+Standard by Double Clic,1,0.0
+Lantronix X6\,1,0.0
+Dahua DH-XVR5104HE-I3,1,0.0
+Tenor Multipath Switch ftpd,1,0.0
+Arize Phoenix,1,0.0
+IPPBX-4.4.3(16.12.0),1,0.0
+Dahua DHI-NVR4104-P-4KS2-UK,1,0.0
+Dahua DH-XVR8216A-4KL-I,1,0.0
+Juniper Network Connect 7.4.0 (Pulse Secure),1,0.0
+CJ2M-CPU32,1,0.0
+Dahua-based DR-TW1504HQI,1,0.0
+Huawei VRP sshd,1,0.0
+Araknis Networks,1,0.0
+TP-Link XGB430vPro_V0.1.0,1,0.0
+APC AOS ftpd,1,0.0
+Dahua NV4116-HS,1,0.0
+Sampo DR-TW2532AN,1,0.0
+Dahua NVR1104HC-S3,1,0.0
+Lantronix X8	,1,0.0
+Connect WAN 3G (RS232 serial),1,0.0
+Dahua GX-HT-XVR8504K-AI,1,0.0
+Honeywell HEN08103,1,0.0
+Q-See HCVR,1,0.0
+Dahua NV4116-A2,1,0.0
+kamailio (5.4.9 (x86_64,1,0.0
+LAP,1,0.0
+Dahua-based DH-XVR5116H-4KL-I2,1,0.0
+Schweizerische Bankgesellschaft Zuerich,1,0.0
+Dahua-based SPVR-41612i,1,0.0
+SAH / R04 /,1,0.0
+Dahua-based DHI-NVR4108HS-8P-AI/ANZ,1,0.0
+AceNet AceReporter,1,0.0
+Dahua-based DH-NVR4116HS-4KS2/N,1,0.0
+QNAP TS-228A,1,0.0
+Dahua DHI-HCVR5216AN-NT,1,0.0
+DSC_1146E,1,0.0
+Dahua ITB-DHR504HE,1,0.0
+jingl.com.au,1,0.0
+Dahua BCS-XVR16014KE-II,1,0.0
+EY-AS524F001,1,0.0
+Dahua DH-NVR2116HS-HDS3,1,0.0
+Dahua-based DHI-NVR5464-EI,1,0.0
+Dahua-based N98A6N,1,0.0
+HG3500,1,0.0
+Dahua NVR1B08HC/E,1,0.0
+Platform PBX,1,0.0
+Dahua DHI-XVR1A08,1,0.0
+VMServer051,1,0.0
+Dahua-based X51C2E2,1,0.0
+Dahua R23717,1,0.0
+CALIX GP1100X,1,0.0
+Dahua-based DHI-NVR4108HS-4KS3,1,0.0
+Dahua-based INS1614KUVR(S2),1,0.0
+SolarLog 400e power monitor httpd,1,0.0
+Dahua-based NVR4104HS-P-EI,1,0.0
+Dahua R19738,1,0.0
+Sony BRAVIA KD-49XF8505,1,0.0
+Dahua X51A1H2,1,0.0
+Dahua DH-NVR2108HS-8P-HDS2,1,0.0
+WebCompanion httpd 6.0v1,1,0.0
+TAU-2M.IP,1,0.0
+Dahua DH-XVR7104HS-X,1,0.0
+Kerio MailServer Webmail,1,0.0
+Dahua SEN-K16320YP4,1,0.0
+Dahua-based DH-XVR4B08H-I,1,0.0
+Tilgin Vood HG238x_ESx000-02_10_05_09,1,0.0
+Sony BRAVIA KJ-55A1,1,0.0
+C-Cor Electronics,1,0.0
+Sony BRAVIA KD-49XF8577,1,0.0
+Dahua 000000000000000000,1,0.0
+FXSO,1,0.0
+VCT,1,0.0
+Dahua-based DH-XVR5108H-I3-8P,1,0.0
+Dahua CP-UVR-0401E1-CS,1,0.0
+Dahua BCS-NVR08025ME-II,1,0.0
+TSW-76,1,0.0
+Dahua XVR501H-16-4KL-I3-V2,1,0.0
+Votifier plugin for Minecraft game,1,0.0
+QNAP TS-451D2,1,0.0
+Dahua DH-XVR7108HE-4KL-I,1,0.0
+Dahua-based NVR4208-8P-4KS2/L,1,0.0
+RICOH MP C2004,1,0.0
+Sun Java System Application Server Platform Edition httpd,1,0.0
+Dahua VTO2111D,1,0.0
+VPN (Pulse Secure),1,0.0
+UM,1,0.0
+Dahua AMDV4M4-S5,1,0.0
+Dahua-based XVR1B04H,1,0.0
+Dahua DH-XVR4104HS-X1  A,1,0.0
+Yeastar S100-30.15.0.102,1,0.0
+Dahua DHI-XVR5232AN-S2(V2.0),1,0.0
+NETGEAR WN3000RPv2,1,0.0
+Fortinet FortiGate-40F-3G4G,1,0.0
+Dahua BCS-L-NVR0801-4KE(2),1,0.0
+Arista DCS-7050SX-72,1,0.0
+Sony BRAVIA KD-55XD8005,1,0.0
+Fortinet FortiGate-VM64-AWSONDEMAND,1,0.0
+Dahua NVR5864-I,1,0.0
+MF750C Series,1,0.0
+NETGEAR DG834  ,1,0.0
+Dahua BCS-XVR3204-III,1,0.0
+Dahua DHI-XVR5216AN-4KL-I2,1,0.0
+Dahua-based DHI-NVR2108-8P-4KS2,1,0.0
+Sony BRAVIA KJ-49X8300D,1,0.0
+Dahua DHI-NVR608R-128-4KS2,1,0.0
+Dahua-based DHI-HCVR5104HS-S3,1,0.0
+Dahua BCS-XVR16024KE-II,1,0.0
+Dahua DH-XVR5108H-X-8P,1,0.0
+Dahua DH-NVR4432,1,0.0
+Python SMTP Proxy,1,0.0
+Dahua-based EZ-XVR1B04-I,1,0.0
+Red Lion Controls,1,0.0
+LOKIDEATHMATCH.COM,1,0.0
+Epson 11b/g/n & 10/100/1000 Print Server,1,0.0
+DM-MD8x8,1,0.0
+Dahua-based NVR-FX24POE-1U4K1,1,0.0
+Dahua CSP-XTRNVR32-E,1,0.0
+ZTE F670 router telnetd,1,0.0
+Dahua NVR2108HS-I,1,0.0
+Intel Active Management Technology User Notification Service httpd,1,0.0
+go1984 httpd,1,0.0
+Dahua DHI-NVR4832-4K,1,0.0
+Yeastar S300-30.15.0.159,1,0.0
+Dahua ASC2204C-H,1,0.0
+X-Security XS-XVR6108,1,0.0
+Trendnet TV-IP862IC,1,0.0
+Myword,1,0.0
+NextSBC,1,0.0
+this is a trap,1,0.0
+QNAP TS-128,1,0.0
+3CXPhoneSystem,1,0.0
+X-Security XS-NVR3208-4K8P,1,0.0
+Dahua LD-8015H-4KL-I3,1,0.0
+Dahua GOLIATH AV-NVR5008PV2,1,0.0
+PXG3.L,1,0.0
+Dahua COG-NVR-4K-4-4BB,1,0.0
+Dahua DH-NVR4216-8P-4K,1,0.0
+Dahua DH-HCVR5108C-S3,1,0.0
+GNU Gatekeeper,1,0.0
+Dahua-based TDNVR4P4H-1T,1,0.0
+ASUS Wireless Router TUF-BE9400,1,0.0
+Fortinet FortiGate-VM64-GCPONDEMAND,1,0.0
+Homigrad - ZGRAD,1,0.0
+Sony BRAVIA KJ-65A8F,1,0.0
+Amcrest AMDV5M16,1,0.0
+CP Plus CP-UNR-4K564R4-V2,1,0.0
+StrongMail smtpd,1,0.0
+Dahua-based DFT5016,1,0.0
+Dahua DHI-NVR5208-4KS2(V2.0),1,0.0
+Sony BRAVIA KD-55AF8,1,0.0
+Dahua DR-TW1504S(I3),1,0.0
+C530A IP,1,0.0
+eBMGR,1,0.0
+Zombie Apocalypse 4.6,1,0.0
+Dahua-based LTN6416,1,0.0
+Dahua DNVR4KU32-Ai,1,0.0
+Eyesonic IP Camera,1,0.0
+Dahua IP8M-2496E,1,0.0
+MC4-,1,0.0
+Dahua CP-UNR-4K4322-V2,1,0.0
+Dahua BCS-L-NVR3202-A-4K,1,0.0
+Star2Star,1,0.0
+Dahua DHI-NVR2116-4KS2,1,0.0
+TASKalfa MZ4000i,1,0.0
+BCS HCVR,1,0.0
+Dahua DH-XVR4B08-V2,1,0.0
+Cleo VLProxy ftp proxy,1,0.0
+Dahua-based DJS-SRA108F,1,0.0
+"Hikvision Digital Technology Co., Ltd.",1,0.0
+Dahua XVR5104C-4KL-X,1,0.0
+Cisco SX10,1,0.0
+Dahua IPC-HDB3200C,1,0.0
+Dahua NVR302A-08/8P-4KS2/L,1,0.0
+Dahua-based LTN6416-P16,1,0.0
+Sipwise NGCP Proxy mr12.3.1,1,0.0
+Yeastar S20-30.15.0.159,1,0.0
+Dahua BCS-NVR08015ME-II,1,0.0
+Sony BRAVIA KD-49X9000E,1,0.0
+Dahua IPC-HFW4431R-Z,1,0.0
+Dahua-based NVR1B04HC/E,1,0.0
+Amcrest AMDV4M4-S5,1,0.0
+Sony BRAVIA KD-49XF9005,1,0.0
+Dahua DHI-XVR8816S,1,0.0
+Sony BRAVIA KD-55X7000D,1,0.0
+ASUS Wireless Router ZenWiFi AC Mini,1,0.0
+TurboSendmail smtpd,1,0.0
+ircu ircd,1,0.0
+ZTE ZXHN H267A,1,0.0
+Dahua DHI-NVR5832-I/L,1,0.0
+Dahua-based DHI-NVR5424-24P-4KS2,1,0.0
+Dahua XVR5432L-X,1,0.0
+Ipswitch notification ftpd,1,0.0
+Dahua VIP 1120,1,0.0
+"Shenzhen Yichen (JCG) Technology Co., Ltd. JHR-AC836PRO.V2 96.1.2",1,0.0
+Yeastar S20-30.15.0.206,1,0.0
+Dahua DH-XVR7208A-4KL-X,1,0.0
+ASUS Wireless Router RT-ACRH18,1,0.0
+GL.iNet GL-AR750S Router,1,0.0
+Dahua-based SVR 7164,1,0.0
+Dahua XS-XVR6108-VS2,1,0.0
+Dahua-based DHI-NVR2208-4KS3,1,0.0
+phone2b,1,0.0
+Dahua DHI-NVR5232-4KS2(V2.0),1,0.0
+Brother MFC-L2717DW:8C5-K7J:Ver.ZJ,1,0.0
+American Dynamics EDVR security recorder,1,0.0
+QNAP TS-451DeU,1,0.0
+NiagaraAX Station,1,0.0
+Dahua DHI-HCVR5208A-S2,1,0.0
+ADVA AG Optical Networking,1,0.0
+Dahua DH-XVR5116HE-I3,1,0.0
+Dahua R25084,1,0.0
+MS-SQL Server 2017 CU22+GDR,1,0.0
+Yeastar S50-30.15.0.211,1,0.0
+Dahua-based NVR-FX16POE-1U4K1,1,0.0
+X-Security XS-XVR3108A,1,0.0
+Dahua-based BLN5864TR,1,0.0
+Dahua DH-NVR4232-HDS2,1,0.0
+The Isle,1,0.0
+Dahua ST-XVR0401-5-I3,1,0.0
+Dahua XVR5104HS-I2,1,0.0
+Xerox B205,1,0.0
+SONY PCS-XG80 00 Comp; PCS-XG100,1,0.0
+Dahua LTN6208-P8,1,0.0
+ASUS Wireless Router R8500,1,0.0
+Fortinet FortiGate-70D,1,0.0
+Dahua IP2M-841EB,1,0.0
+Dahua DH-XVR1B04-I-VN,1,0.0
+Dahua-based DHI-NVR5216-4KS2(V2.0)-2TB,1,0.0
+PB03,1,0.0
+Dota 2,1,0.0
+Lantronix X9 ,1,0.0
+Moimstone IP700SC,1,0.0
+VoIP ATA Gataway Test_T75630_DTMF,1,0.0
+Auerswald COMmander 6000,1,0.0
+QNAP TS-439,1,0.0
+Amcrest NV4108E-HS,1,0.0
+Binc imapd,1,0.0
+X-Security XVR4104HE,1,0.0
+ASUS Wireless Router RP-BE58,1,0.0
+MP-114 FXS,1,0.0
+Dahua DHI-XVR5108-4KL,1,0.0
+Sony BRAVIA KD-65XF7596,1,0.0
+WC24,1,0.0
+Sony BRAVIA KD-65XD7505,1,0.0
+MS-SQL Server 2019 CU3,1,0.0
+Dahua CM-Hybrid_NVR3108,1,0.0
+Brother HL-L2360D series:84U-F77:Ver.1.31,1,0.0
+Dahua DHI-NVR4104HS-4KS2-UK,1,0.0
+Dahua CM-TWX6216A-I3,1,0.0
+Dahua XS-NVR6208A-8P-AI,1,0.0
+Lorex N841A8P,1,0.0
+Dahua XS-NVR3432A-4K-1FACE,1,0.0
+Dahua DHI-HCVR8816S-URH-S3,1,0.0
+OpenBSD ftpd,1,0.0
+Floosietek FTgate webmail httpd,1,0.0
+creditcoin3,1,0.0
+Voip16 X2desk NL,1,0.0
+Dahua-based HDVR-MX0808-1U4K-AI3,1,0.0
+Tobit David.fx smtpd,1,0.0
+PV20,1,0.0
+Dahua DHI-NVR6161D-128-4KS2,1,0.0
+Dahua DH-XVR5116H,1,0.0
+Dahua IPC-HDW4438C-A,1,0.0
+Haproxy http proxy,1,0.0
+IRCnet ircd,1,0.0
+Dahua-based DH-XVR5208AN-4KL-I2,1,0.0
+NETGEAR R6900,1,0.0
+HP LaserJet 400 M401dn,1,0.0
+Philips Hue Bridge v1 (BSB001),1,0.0
+ASUS Wireless Router RT-AC1200HP,1,0.0
+Synology DS220+ 6.2-25556,1,0.0
+Dahua DHI-HCVR8208A-S3,1,0.0
+X-Security XS-XVR6108-4KL,1,0.0
+Dahua DH-NVR2108HS-8P-HD/H,1,0.0
+Dahua-based NVR-N118W-8A0E,1,0.0
+Globaltech Telecomunicaciones,1,0.0
+Hosted by STRONG-HOST.DE,1,0.0
+Sony BRAVIA KJ-43X8500C,1,0.0
+Case Communications,1,0.0
+Dahua-based N-8116-PF,1,0.0
+NETGEAR WN3100RP,1,0.0
+iPECS-eMG100-H323-Alas,1,0.0
+Dahua NVR04-P(2TB)(NVR4104-P-4KS2/L),1,0.0
+Dahua DH-XVR5232AN-4KL-I2,1,0.0
+BZFlag game server,1,0.0
+darkstat network analyzer httpd,1,0.0
+Bullwark NVR,1,0.0
+Dahua-based DHI-NVR2104HS-P-4KS2,1,0.0
+Dahua L-DVR-26204,1,0.0
+Police Tech XVR0801-4M-X,1,0.0
+Dahua-based STANNVR-16E01P-4T,1,0.0
+MS-SQL Server 2017 CU31,1,0.0
+ICOTERA i4850-21 (4850-2.2.4),1,0.0
+Dahua NVR2104HS-P-T,1,0.0
+Dahua DR-TW1508S(I3),1,0.0
+NETGEAR RAX36S,1,0.0
+Dahua XS-XVR6104AS-FACE,1,0.0
+Yamaha HTR-4065,1,0.0
+Sony BRAVIA KJ-49X8000G,1,0.0
+Siemens SCALANCE M876-4 US,1,0.0
+Dahua DHI-HCVR4104HS-S2,1,0.0
+Sony BRAVIA XBR-75X850D,1,0.0
+Dahua DH-NVR4416-HDS2,1,0.0
+Dahua-based DH-XVR5816S-4KL-I3-LP,1,0.0
+QNAP TS-569L,1,0.0
+Axis Communications AB,1,0.0
+"Raritan Computer, Inc.",1,0.0
+Konica Minolta C258,1,0.0
+VOX30,1,0.0
+APC AP9544,1,0.0
+KMW Systems KM-NVR7864-4K,1,0.0
+NETGEAR WNDR4300-TN,1,0.0
+Dahua-based DH-XVR8208A-4K-I,1,0.0
+Beta,1,0.0
+Trendnet TV-IP672PI,1,0.0
+X-Security XS-XVR6116-VS2,1,0.0
+"""NETWAY""",1,0.0
+ASUS Wireless Router çµèAXé­æ¹Pro,1,0.0
+ZTE miniTerminal,1,0.0
+Dahua N41B2P3,1,0.0
+LINKSYS01858,1,0.0
+Dahua-based BLW-H4008-D1,1,0.0
+DIDWW Y SBC node,1,0.0
+AST6,1,0.0
+Dahua-based DH-XVR5104HE-4KL-I3,1,0.0
+Dahua SAF-8X-5MP,1,0.0
+Fortinet FortiGate-301E,1,0.0
+QNAP TS-673,1,0.0
+Dahua PC-NVR-V3.0,1,0.0
+Ricoh IM,1,0.0
+Dahua DH-NVR2108HS-8P-I,1,0.0
+Dahua-based DHI-NVR4104HS-4KS2/L-1TB,1,0.0
+QNAP VS-4108UPro+,1,0.0
+Dahua XVR5104C-4KL-I3,1,0.0
+Sony BRAVIA KD-43XD8305,1,0.0
+ATEN KVM-over-IP VNC,1,0.0
+QNAP VS-4108Pro+,1,0.0
+Dahua-based KM-NVR6216-I,1,0.0
+Dahua DHI-XVR4104CW-S2,1,0.0
+UCX-5.0(11.25.3),1,0.0
+Dahua-based SAF-8X-1080-i2,1,0.0
+Direct Connect P2P,1,0.0
+i-Vu CCN Router,1,0.0
+mitmproxy,1,0.0
+Dahua-based NVR-MX08POE-1U4K1,1,0.0
+QNAP TS-453D,1,0.0
+DrayTek Vigor2926 plus,1,0.0
+ZTE ZXHN H268Q V7.0 V7.0.0d1_PRIME-o,1,0.0
+DBMail pop3d,1,0.0
+QNAP TVS-472XT,1,0.0
+GData AntiVirenKit MailGateway smtp proxy,1,0.0
+TP-Link Kasa Smart Wi-Fi Light Switch HS200(US),1,0.0
+Dahua GN-XVR-1A08,1,0.0
+Dahua XVR5216AN-I3,1,0.0
+Dahua DHI-NVR4108HS-HDS3,1,0.0
+NETGEAR D6220,1,0.0
+Dahua IPC-K35,1,0.0
+Dahua-based 32CH_H.265_DVR,1,0.0
+Dahua CM-TWN6832-EI,1,0.0
+Dahua-based DHI-NVR4432-EI,1,0.0
+Dahua DHI-XVR4232AN-S2,1,0.0
+X-Security XS-XVR6108A-H,1,0.0
+PYBOX - SKYIAX SOLUTIONS,1,0.0
+Samsung Smart TV UN55J6200,1,0.0
+Dahua HRHT408*,1,0.0
+DVR Systems webcam http interface,1,0.0
+NETGEAR WNR1000v3,1,0.0
+Dahua NVR5216-16P-I,1,0.0
+Dahua DHI-XVR7416L,1,0.0
+wx3.se pbx,1,0.0
+X02C1GF1P2WF,1,0.0
+HP LaserJet Professional M1212nf MFP,1,0.0
+Dahua STANNVR-8E01P,1,0.0
+OF1628-NR,1,0.0
+Dahua XS-XVR6108A-VS2,1,0.0
+Hewlett-Packard Enterprise iLO 6 in ProLiant DL385 Gen11 1.59,1,0.0
+Crestron PRO2 XSig communication,1,0.0
+Kyocera IB-21E print server ftpd,1,0.0
+Plataforma NextBilling C5,1,0.0
+Dahua-based DH-XVR5432L-4KL-I2,1,0.0
+"Shenzhen Yichen (JCG) Technology Co., Ltd. JHR-AC860M 90.1.2",1,0.0
+Dahua-based ERD-0851HS-X,1,0.0
+CP Plus CP-UVR-0801F1-IC2,1,0.0
+Dahua AMDV4M8,1,0.0
+Dahua XVR5104HS-4KL-I3,1,0.0
+Dahua-based OS-NVR4M4P-4H1-4K,1,0.0
+HP LaserJet Pro M428f-M429f,1,0.0
+WOM5AMiMo,1,0.0
+Dahua-based DH-HCVR5108HS-S3,1,0.0
+Dahua DHI-NVR5816-16P-4KS2E,1,0.0
+ZTE H268Q V8,1,0.0
+Brocade TurboIron-X24,1,0.0
+Dahua NVR-16E01P-4T,1,0.0
+Dahua-based Chronosip8,1,0.0
+Dahua DH-NVR4232-HDS2/H,1,0.0
+Dahua CSP-4PRO-I3.v2,1,0.0
+KMW Systems KM-NVR6216-4K,1,0.0
+Alfresco CIFS Server 6.0.0,1,0.0
+Asterisk PBX (ScopServ),1,0.0
+Verimor Softswitch,1,0.0
+GL.iNet GL-SF1200 Router,1,0.0
+AM-20,1,0.0
+Dahua DJS-SNW208-AI,1,0.0
+Sony BRAVIA KJ-55X9000F,1,0.0
+VoiqX_PBX_IP_2.01,1,0.0
+Dahua BCS-NVR04015ME-P-II,1,0.0
+Dahua-based DHI-XVR1B04H-I,1,0.0
+ZTE Corporation ZTE HG V2.1,1,0.0
+Synology RS812 6.2-25556,1,0.0
+Dahua NVS,1,0.0
+Fiesta Online game server,1,0.0
+BetterChatGPT,1,0.0
+TM221CE16T,1,0.0
+Dahua DH-NVR4208-HDS2/L,1,0.0
+POPFile pop3d,1,0.0
+Dahua IPC-D2A20-Z,1,0.0
+vvp system,1,0.0
+Dahua-based NVR-EL64-2U32MP1,1,0.0
+TP-Link Kasa BE25 (HOMEWIFISYSTEM),1,0.0
+H3C S5500-28F-EI-D,1,0.0
+Yeastar S20-30.15.0.222,1,0.0
+Dahua EMDT EYEMX-X08,1,0.0
+Dahua DH-XVR7816S-4KL-X-LP,1,0.0
+DAG1000-2S DAG,1,0.0
+Sony BRAVIA KJ-65A1,1,0.0
+Dahua N52B2P3,1,0.0
+Mojolicious httpd,1,0.0
+Dahua-based KNR-402D,1,0.0
+Squeezebox,1,0.0
+NETCORE NR256,1,0.0
+ASKEY Computer Corp.,1,0.0
+IronPort AsyncOS http config,1,0.0
+pbxserver,1,0.0
+Dahua IPC-HDBW4433R-AS,1,0.0
+NETGEAR R6350,1,0.0
+Dahua KM-DVR6108-4KL-AI,1,0.0
+Dahua DH-NVR1108HC-8P-HDS4,1,0.0
+Dahua-based RVi-1HDR2081KI,1,0.0
+Dahua DVR08IP4K-8P-S4,1,0.0
+Lorex D251A6,1,0.0
+Hewlett Packard Enterprise iLO 4 in ProLiant DL360 Gen9 2.80,1,0.0
+Dahua KM-DVR6108-5M-AI,1,0.0
+Dahua-based XDR0824,1,0.0
+ASUS Wireless Router Lyra Mini,1,0.0
+D-Link DIR-860L WAP http config,1,0.0
+Dahua R26879,1,0.0
+Dahua DHI-NVR4108HS-P-4KS2,1,0.0
+Sony BRAVIA KD-43X8300C,1,0.0
+FHEM home automation http admin,1,0.0
+Dahua DHI-NVR4104HS-P-4KS2-UK,1,0.0
+NETGEAR R7900,1,0.0
+ejabberd,1,0.0
+HP LaserJet M507,1,0.0
+Citictelecom PBX,1,0.0
+NETGEAR WN3000RPv3,1,0.0
+OpenBSD Project,1,0.0
+Dahua DHI-NVR1104HS-P-S3/H,1,0.0
+CP Plus CP-UVR-0401E1-HC,1,0.0
+Karel NVR2108HS-8P-T,1,0.0
+Dahua-based TRASSIR Lite Lanser 1080P-4,1,0.0
+AwareCCM,1,0.0
+IPPBX,1,0.0
+Dahua DH-XVR4116HS-S2,1,0.0
+Dahua AV-NVR4004PV2,1,0.0
+Merak Mail Server smtpd,1,0.0
+Dahua-based N14P,1,0.0
+Panasonic WV-S6130 webcam http config,1,0.0
+Dahua X51C1E,1,0.0
+Dahua DH-XVR5108H-4KL-I3,1,0.0
+Dahua-based CJ-HDR108B,1,0.0
+X-Security XS-XVR6116,1,0.0
+Dahua-based SAF-NVR8-8MP/8P,1,0.0
+NETGEAR R7450,1,0.0
+Dahua-based TDHDX8-AI-1T,1,0.0
+Dahua-based NV4416E-AI,1,0.0
+Dahua-based NVR4116HS-4KS2/L,1,0.0
+Sony BRAVIA KDL-55W809C,1,0.0
+WASD httpd,1,0.0
+QNAP TS-869 Pro,1,0.0
+TP-Link Kasa X90 (HOMEWIFISYSTEM),1,0.0
+Lantronix SLSLP,1,0.0
+Dahua AMDVTENL8,1,0.0
+D-Link ADSL router telnetd,1,0.0
+Interactsh HTTP Server,1,0.0
+Dahua PR-HVR1108XHSI,1,0.0
+Dahua DHI-XVR5104C-CARD,1,0.0
+QNAP TS-469U,1,0.0
+Dahua-based SAF-4X-1080-I2,1,0.0
+Dahua-based DH-XVR5104HS-4KL-I2,1,0.0
+Yealink VC200,1,0.0
+QNAP TS-451D,1,0.0
+Amcrest NV5216,1,0.0
+MS-SQL Server 2022 CU11,1,0.0
+Dahua DHI-NVR2108-8P-I,1,0.0
+NETGEAR RAX20,1,0.0
+ASUS Wireless Router çµèAX6600,1,0.0
+Dahua BCS-L-SNVR0801-4KE(2),1,0.0
+easyvpn,1,0.0
+Dahua EMNT 5216-16P-4K,1,0.0
+ASUS Wireless Router RT-AC68U WHITE,1,0.0
+CALIX GP4201X,1,0.0
+Dahua-based N845A6,1,0.0
+Dahua-based ERD-1651HS-X,1,0.0
+ASUS Wireless Router çµèAC3000,1,0.0
+D-Link,1,0.0
+Actiontec GT704-WGB WAP telnetd,1,0.0
+PIRELLI BROADBAND SOLUTIONS,1,0.0
+Linksys WRT54G WAP http config,1,0.0
+Intelbras HDCVI 3116 Geração 2,1,0.0
+Dahua-based DHI-XVR5104HS-4M,1,0.0
+Lantronix X9F,1,0.0
+Dahua-based DH-XVR7104HE-4K-I2,1,0.0
+CP Plus CP-UVR-1604K2-S,1,0.0
+TSW-106,1,0.0
+Fortinet FortiGate-92D,1,0.0
+Dahua C52A1N,1,0.0
+"Rockwell Software, Inc.",1,0.0
+Arista DCS-7280TR-48C6,1,0.0
+Dahua BCS-NVR1601X5ME-II,1,0.0
+Dahua-based X88B5S8,1,0.0
+iVu Open Router,1,0.0
+MS-SQL Server 2016 SP2CU16,1,0.0
+"NETGEAR, Inc. EX6130",1,0.0
+Samsung Smart TV UN55JU6400,1,0.0
+Dahua EAG-4KL-PRO-AI3-16BB,1,0.0
+Dahua EAGLE-4K-8BB,1,0.0
+Fortinet FortiGate-900D,1,0.0
+CP Plus CP-UNR-4K4082-P8V3,1,0.0
+Dahua-based DHI-NVR608H-128-XI,1,0.0
+NETGEAR WNHD3004,1,0.0
+FlySIP Softswitch,1,0.0
+Avocent KVM switch telnetd,1,0.0
+N300 IP,1,0.0
+Lexmark MS823dn,1,0.0
+Dahua-based DHI-NVR4104HS-4KS3,1,0.0
+Dahua-based TDNVR32P16K-EI,1,0.0
+Dahua R22479,1,0.0
+Dahua XVR502AN-32-I3-V2,1,0.0
+P1200GL_1.01.14_d,1,0.0
+Dahua BCS-NVR6408-4K-RR,1,0.0
+Epygi Quadro SIP User Agent,1,0.0
+Dahua DHI-NVR4104HS-P-4KS2-1T,1,0.0
+MS-SQL Server 2025 CU9+GDR,1,0.0
+TP-Link Kasa HS200(US) (SMART.KASASWITCH),1,0.0
+BCC,1,0.0
+TP-LINK WR840N WAP http config,1,0.0
+Dahua XVR5108HE-X,1,0.0
+Dahua-based DH-XVR4104C-I,1,0.0
+Dahua DHI-NVR616DR-128-4KS2,1,0.0
+SonicWall NSa,1,0.0
+Dahua STANDVR-4W01-1T,1,0.0
+Dahua RVNVR084K10A,1,0.0
+ZTE F620 router telnetd,1,0.0
+/Satoshi:31.1.0(Peak)/,1,0.0
+Dahua DH-NVR616R-128-4KS2,1,0.0
+Furukawa Electoric Co. Ltd.,1,0.0
+Dahua K-32NVR,1,0.0
+Hewlett Packard Enterprise iLO 4 in ProLiant DL380p Gen8 2.77,1,0.0
+NETGEAR R6120,1,0.0
+Dahua C5104-1080S2,1,0.0
+Dahua-based DH-XVR1B08-I-SSD,1,0.0
+CP Plus CP-UVR-0401F1-HC,1,0.0
+SonicWall SonicOS Enhanced 5.9.2.14---13o,1,0.0
+Dahua JXVR5116H,1,0.0
+Dahua XVR5216AN-X-16P,1,0.0
+Dahua DH-NVR4216-4KS2,1,0.0
+Broadcom BCM96756 ADSL router telnetd,1,0.0
+Bluecat Networks Proteus IPAM or Enterasys Dragon IDS http config,1,0.0
+NETGEAR C7000v2,1,0.0
+HP Generic Scan Gateway,1,0.0
+Sony BRAVIA KD-55XD8577,1,0.0
+GL.iNet Router,1,0.0
+Dahua-based MNR12160-16,1,0.0
+ZTE F8018,1,0.0
+TM241CE24R,1,0.0
+Dahua DH-XVR5104HE-I2,1,0.0
+Dahua DHI-NVR4108-4KS2/L,1,0.0
+MOIMSTONE IP335S,1,0.0
+MACH-ProSys,1,0.0
+Dahua CM-TWX6232AN-4KL-I3,1,0.0
+IncrediblePBX-16.0.45(20.5.0),1,0.0
+Dahua XVR5108H-4KL-X-8P,1,0.0
+Dahua XVR4108C-X,1,0.0
+Dahua KM-NVR3108-8P-4K,1,0.0
+Brother MFC-L2690DW:8C5-K6H:Ver.Y,1,0.0
+IPBX-2.11.0.49(18.6.0),1,0.0
+Dahua XS-NVR2108-8P-4AI,1,0.0
+Dahua-based DH/HCVR5104HS-V6/-AF-DVR-II-A/4-1,1,0.0
+FRITZ!Box Fon WLAN 7360 WAP ftpd,1,0.0
+UC50,1,0.0
+Dahua-based DHI-NVR2104-P-4KS3,1,0.0
+TP-Link Kasa KL110(US),1,0.0
+Dahua HCVR5116HS-NT,1,0.0
+Ubiquiti EdgeSwitch 24-Port 250W,1,0.0
+Dahua DHI-NVR4432-I,1,0.0
+Siemens SCALANCE M876-4 EU,1,0.0
+Dahua X51A2E2,1,0.0
+MTA8328-1N-1.0.18.1,1,0.0
+Asternicperu,1,0.0
+Yamaha RX-A1030,1,0.0
+zFTPServer,1,0.0
+IBM (https://w3.ibm.com/standards),1,0.0
+Dahua EAG-NVR-4K2-2AI-8BB,1,0.0
+Dahua-based HolisHD 8ch,1,0.0
+Dahua-based KV-XVR-5116HS-I3,1,0.0
+Lantronix U3N,1,0.0
+Dahua HCVR4104HS-S3,1,0.0
+NETGEAR R6400v2,1,0.0
+Dahua K-804NVR,1,0.0
+DrayTek Vigor2135F Series,1,0.0
+QNAP VS-2012Pro,1,0.0
+Dahua DH-HCVR7104H-4M,1,0.0
+Dahua-based ERD-0851HS-I3,1,0.0
+Dahua DH-XVR5104HQ-I,1,0.0
+Dahua IP3M-941B,1,0.0
+ASUSTeK Computer Inc. RT-AC55UHP 3.0.0.4.378,1,0.0
+Dahua-based SAF-5108KL-I3,1,0.0
+Sony BRAVIA KD-43XF7596,1,0.0
+Sony BRAVIA XBR-65X810C,1,0.0
+Dahua-based DH-XVR5104H-4KL-I3-4P,1,0.0
+Dahua-based SS 3542 MF W,1,0.0
+Dahua BCS-L-XVR1602-V,1,0.0
+Dahua DH-XVR4116HS,1,0.0
+"Beijing Topsec Network Security Technology Co., Ltd.",1,0.0
+Dahua-based ERN-4004HS-P_V3,1,0.0
+AVM FRITZ!Box Fon WLAN 7140 SIP,1,0.0
+Yealink VC800,1,0.0
+Dahua DH-XVR4104CW-X,1,0.0
+ | JailBreak | ,1,0.0
+Dahua CSP-32XTR-I3,1,0.0
+MS-SQL Server 2022 CU22+GDR,1,0.0
+QNAP TS-653B,1,0.0
+Sony BRAVIA XBR-75X940D,1,0.0
+TP-Link Kasa W2400 (HOMEWIFISYSTEM),1,0.0
+Wooksung iMentor,1,0.0
+IQ500,1,0.0
+Lorex DV804B,1,0.0
+Dahua DHI-NVR5832-I,1,0.0
+Ubiquiti EdgeSwitch 24 Lite,1,0.0
+ADT XVR,1,0.0
+Sony BRAVIA KD-49X8500G,1,0.0
+Telematica PBX,1,0.0
+Dahua LHV5116,1,0.0
+Neon Mail Server smtpd,1,0.0
+Dahua NVR504L-32/16P-4KS2E,1,0.0
+Dahua-based DH-NVR2108HS-8P-HD/H,1,0.0
+Pacom Systems Pty Ltd,1,0.0
+Hunchentoot httpd,1,0.0
+XC,1,0.0
+Dahua-based TDNVR16P16KS-2T,1,0.0
+Dahua DHI-HCVR7108H-4K,1,0.0
+Dahua-based DH-XVR5116HE-4KL-I2,1,0.0
+Belkin Wemo Insight 1.0,1,0.0
+ASUS Wireless Router RT-BE3600S,1,0.0
+Lotus Domino Go httpd,1,0.0
+Dahua DH-NVR5216-8P-I,1,0.0
+NETGEAR R6700,1,0.0
+Dahua IPC-HDBW1120E-W,1,0.0
+Dahua CM-TWN5232-4KS2/L,1,0.0
+MS-SQL Server 2019 CU10,1,0.0
+SonicWall SonicOS 7.0.1-5145-R5175,1,0.0
+Dahua EMDT EYEMX-X04,1,0.0
+Dahua NVR2B16,1,0.0
+MS-SQL Server 2005 SP1,1,0.0
+EchoLink radio-over-VoIP http config,1,0.0
+QNAP TS-431X2,1,0.0
+Ubiquiti EdgeSwitch 12-Port Fiber,1,0.0
+COMMUNITY00667,1,0.0
+Dahua BCS-XVR16044KE-II,1,0.0
+ASUS Wireless Router RT-AC1300G PLUS V2,1,0.0
+Sony BRAVIA XBR-65X850C,1,0.0
+Crosstalk PBX-17.0.33.2(22.8.2),1,0.0
+Hewlett-Packard Enterprise iLO 5 in ProLiant DL160 Gen10 2.81,1,0.0
+Unknown SIP Server,1,0.0
+Dahua DCVR4K801AI3,1,0.0
+Dahua DHI-NVR2108HS-8P-I2,1,0.0
+ECOSYS P2040dn,1,0.0
+IPBX-2.12.0.0(18.19.0),1,0.0
+Greenhills IT Ltd.,1,0.0
+Dahua DH-NVR4104-4KS2,1,0.0
+Fortinet FortiGate-81F-POE,1,0.0
+Dahua NV2108-HS,1,0.0
+Shelly PlusUni SNSN-0043X,1,0.0
+Dahua-based ROV5116HE-4KL-I2,1,0.0
+Dahua XS-NVR2116-4AI,1,0.0
+ASUS Wireless Router ExpertWiFi EBG15,1,0.0
+DMPS3-4K-350-,1,0.0
+QNAP TS-431XeU,1,0.0
+Dahua EN-2516-S2,1,0.0
+Funkwerk bintec RS353a router,1,0.0
+Realtek Semiconductor Corp. RTL8xxx EV-2010-09-20,1,0.0
+EZ-IP NVR,1,0.0
+Dahua XVR5116H-4KL-I3,1,0.0
+Dahua K-NL408K,1,0.0
+Dahua DHI-HCVR5108C-S2,1,0.0
+Intelbras iMHDX 7032,1,0.0
+d-COPIA 4514MF,1,0.0
+IRIX telnetd,1,0.0
+Sampo DR-TW1508E,1,0.0
+Dahua-based DR-TW1504E,1,0.0
+Dahua-based SS 3530 MF FACE W,1,0.0
+SIP-6328-2Re-v4.2.93-XsmoG-xbTfGBMolGXTpZqg,1,0.0
+Nexxt Solutions ARLGL174U1 80.103.2,1,0.0
+HelloCloud PBX,1,0.0
+Dahua DH-NVR4432-HDS2/I,1,0.0
+PBXact-15.0.38(16.30.0),1,0.0
+Windows for Workgroups telnetd,1,0.0
+QNAP VS-8140Pro+,1,0.0
+Dahua DH-NVR608R-128-4K,1,0.0
+Dahua AMDV8M4-H5,1,0.0
+ASUS Wireless Router TUF 6500,1,0.0
+Dahua-based DJS-SXS104S-4K,1,0.0
+Dahua DER-8040V3,1,0.0
+Dahua DH-HCVR5832S-S2,1,0.0
+Dahua X82B3A,1,0.0
+Ubiquiti EdgeSwitch 24 250W,1,0.0
+Dahua-based ERD-0451HS-I3,1,0.0
+ZTE H1601P V9,1,0.0
+ZTE F672Y,1,0.0
+Dahua-based DH-XVR1B04-I-SSD,1,0.0
+Lorex LHV5108P,1,0.0
+Dahua DH-NVR4108HS-4KS3,1,0.0
+PBXact Cloud-16.0.50(18.26.4),1,0.0
+Lorex N843A8P,1,0.0
+Sony BRAVIA KD-65AG8,1,0.0
+Logitec IGD Version 1.00 LAN-WH450N/DGR,1,0.0
+Dahua-based MNR12320-16,1,0.0
+Dahua DHI-NVR5432-4KS2(V2.0),1,0.0
+PCO1000WD0,1,0.0
+Dahua NV21A08-P8-S3,1,0.0
+T800,1,0.0
+Dahua DHI-NVR5216-4KS2(V2.0),1,0.0
+Dahua DH-NVR608R-64-4KS2,1,0.0
+D-Link ShareCenter DNS-320L,1,0.0
+Dahua NVR616-128-4KS2,1,0.0
+QNAP TS-431P2,1,0.0
+LavinMQ,1,0.0
+Arista DCS-7280QRA-C36S,1,0.0
+asentum,1,0.0
+AWS Redshift,1,0.0
+Asterisk-Eutelia,1,0.0
+Synology DS213air 6.2-25556,1,0.0
+WindWeb,1,0.0
+Digifort Enterprise 6.5 httpd,1,0.0
+RV XT4300,1,0.0
+MS-SQL Server 2019 CU17,1,0.0
+Dahua NV5232,1,0.0
+Baby Web Server,1,0.0
+Akuvox R20K,1,0.0
+CData API Server,1,0.0
+lunaHD L-DVR-28216-4K,1,0.0
+Grafana (Cloud Advanced),1,0.0
+Dahua IPC-HDBW1230E-S,1,0.0
+"Beijing Sapling Technology Co.,Ltd",1,0.0
+Ночной VIP,1,0.0
+Fuji Xerox DocuCentre-IV C2265,1,0.0
+Dahua XS-XVR6104-H1,1,0.0
+Dahua NVR6064K,1,0.0
+Dahua DHI-XVR7204A,1,0.0
+Yealink VC880,1,0.0
+Brother DCP-1610NW series:8C5-G06:Ver.P,1,0.0
+"Mimosa Networks, Inc",1,0.0
+MS-SQL Server 2012 SP3GDR,1,0.0
+Panasonic Milesight webcam http config,1,0.0
+Dahua-based STANNVR-8E01P-2T,1,0.0
+KMW Systems KM-NVR7464-4K,1,0.0
+XT-LB,1,0.0
+Intelbras iMHDX 3032,1,0.0
+Fuji Xerox ApeosPort C3070,1,0.0
+Dahua DH-XVR5432L-4KL-I2,1,0.0
+QNAP TS-470,1,0.0
+Sippy Softswitch,1,0.0
+IncrediblePBX-15.0.17.55(18.8.0),1,0.0
+Dahua R23469,1,0.0
+CP Plus CP-UVR-0401E1S-V3,1,0.0
+Dahua-based SV327NX,1,0.0
+Dahua-based SV326NX,1,0.0
+Grandstream HT814 VoIP phone telnetd,1,0.0
+Dahua HEN161*4,1,0.0
+ASUS Wireless Router RT-AC68R,1,0.0
+ASUS Wireless Router RT-AC87R,1,0.0
+Dahua DH-NVR2104HS-I2/N,1,0.0
+Dahua XVR502AN-32-I3,1,0.0
+Dahua DH-NVR3108HS-4KS2,1,0.0
+Dahua DH-XVR5104C-S2,1,0.0
+Dahua-based DHI-MNVR4104-GFWI,1,0.0
+Dahua XS-NVR6208-4K8P-EPOE,1,0.0
+Dahua DH/HCVR7816S-V5/-AF-DVR-II-A/16-16,1,0.0
+Dahua-based DR-TW1508E,1,0.0
+Dahua XVR5216A-I2,1,0.0
+Dahua XVR504L-32-I3,1,0.0
+Dahua DH-XVR7116H,1,0.0
+Dahua-based NVR5216-16P-4KS2E,1,0.0
+Dahua-based SSJG-HDS2116,1,0.0
+Dahua IP2M-851E,1,0.0
+device,1,0.0
+Sharp MX-C407F,1,0.0
+Asterisk PBX certified,1,0.0
+Telemedia PBX,1,0.0
+AXTEL AX-200,1,0.0
+The NuFone Networks H.323 Channel Driver for Asterisk,1,0.0
+Dahua EXP-5MPL-8BB,1,0.0
+Dahua-based N52B2P8,1,0.0
+BasIpVoip,1,0.0
+Dahua XVR501H-16-I3,1,0.0
+Dahua XS-XVR6216-4KL-H,1,0.0
+QNAP VS-4112UPro+,1,0.0
+QNAP TS-879U-RP,1,0.0
+ASUS Wireless Router BRT-AC828,1,0.0
+WebFinger httpd,1,0.0
+QNAP NSB-5A2BL,1,0.0
+Dahua DH-XVR4108C-I,1,0.0
+Dahua DHI-NVR4208-8P-4K,1,0.0
+Dahua-based DHI-NVR4104HS-P-EI,1,0.0
+Onyx,1,0.0
+Dahua EAGLE-POC-5MP-16BB,1,0.0
+Dahua-based DH-XVR1B04-I-1T,1,0.0
+Dahua DH-NVR5216-16P-4K,1,0.0
+Deerfield VisNetic WebSite Professional,1,0.0
+ASUS Wireless Router R7000,1,0.0
+Fuji Xerox ApeosPort-VII C3322,1,0.0
+QNAP TVS-951N,1,0.0
+AirTies Wireless Networks Air4960ES-VF VDF4960,1,0.0
+QNAP VS-2108Pro+,1,0.0
+Dahua-based ERN-0421HS-P-4KS3,1,0.0
+Minutes Network Cloud,1,0.0
+Dahua BCS-NVR3208-4K-III,1,0.0
+Dahua K-NL416K,1,0.0
+VSX 8000,1,0.0
+Dahua DH-NVR5432-4KS2,1,0.0
+ColdGame,1,0.0
+vm-pop3d,1,0.0
+ASUS Wireless Router RT-AX52 Pro,1,0.0
+DSC_633E,1,0.0
+Dahua DHI-NVR5832-16P-4KS2,1,0.0
+Ricoh C5300S,1,0.0
+ZTE F673AV9,1,0.0
+Dahua SL-XVR-6108B-V2,1,0.0
+Panasonic-KX-HTS-002.00022,1,0.0
+Trendnet TV-IP662WI,1,0.0
+Yeastar S50-30.14.0.127,1,0.0
+Dahua DH/HCVR5216A-V5/-AF-DVR-II-A/16-4,1,0.0
+KMW Systems KM-NVR6208-4K,1,0.0
+Dahua XS-NVR6216A-4K-16P-4AI,1,0.0
+Dahua DHI-NVR5416-16P-4KS2,1,0.0
+Gemtek_SPI 1C497BFFFFD93419,1,0.0
+Shelly Pill S3SN-0U53X,1,0.0
+Dahua DHI-HCVR4232AN-S3,1,0.0
+Microchip Technology Inc.,1,0.0
+Rex media encoder http config,1,0.0
+Synapse Suite,1,0.0
+OXO022,1,0.0
+Dahua DHI-XVR4116HS-S2  A,1,0.0
+Dahua-based DHI-NVR5816-4KS2,1,0.0
+Dahua-based NVR4216-16P-EI,1,0.0
+Dahua-based DHI-NVR4108HS-EI,1,0.0
+ZTE F6620,1,0.0
+MS-SQL Server 2022 CU17,1,0.0
+QNAP TS-439 Pro II+,1,0.0
+Huawei Quidway S5624P-PWR telnetd,1,0.0
+Dahua HDVR,1,0.0
+"NETGEAR, Inc. WGR614v9",1,0.0
+TP-Link Kasa Wi-Fi Smart Plug HS100(US),1,0.0
+Mitsubishi Q PLC,1,0.0
+Sony BRAVIA KD-55X8505C,1,0.0
+CJ1M_CPU22,1,0.0
+SmartXFilter,1,0.0
+fw2024061216-HDV34201.N3A2UVML2,1,0.0
+Dahua-based SAF-5104KL-I3,1,0.0
+Dahua-based DHI-NVR5832-16P-4KS2,1,0.0
+MS-SQL Server 2022 CU2,1,0.0
+Dahua BCS-L-XVR3202(6),1,0.0
+Dahua DHI-XVR4216AN,1,0.0
+Atrium Software's Mercur pop3d,1,0.0
+Dahua DHI-XVR7408L,1,0.0
+Dahua DHI-NVR608-64-4KS2-2TB,1,0.0
+Dahua DH-XVR4108HS-S2,1,0.0
+Cisco MX105,1,0.0
+Dahua DH-NVR4204-P-4KS2,1,0.0
+Octosignals-PBX,1,0.0
+Ipswitch Whats Up Gold,1,0.0
+Broadcom BCM96318 ADSL router telnetd,1,0.0
+DimensioneVoIP,1,0.0
+Synology DS918+ 6.2-25426,1,0.0
+ZTE H3621P V9,1,0.0
+Sony BRAVIA XBR-43X800D,1,0.0
+Samsung Smart TV UN65J6200,1,0.0
+QNAP TS-459 Pro II,1,0.0
+iR C3020,1,0.0
+Dahua-based LSNVR8CH-1HD-4K,1,0.0
+Dahua R26122,1,0.0
+Dahua DH-HCVR5216A-S3,1,0.0
+Sampo DR-TW1516S,1,0.0
+Panasonic BB-SP104W webcam http config,1,0.0
+ArGoSoft ftpd,1,0.0
+TightVNC,1,0.0
+Dahua XVR-5108HQ-I,1,0.0
+Dahua-based DHI-NVR4216-EI,1,0.0
+SonicWall SonicOS 7.1.2-7019-R6288,1,0.0
+ASUS Wireless Router RT-AC1300GPLUS,1,0.0
+Dahua SV-8CFDVR,1,0.0
+Dahua XVR4104HS-X,1,0.0
+ZyXEL-RomPager,1,0.0
+IBM OS/400 as-servermapd,1,0.0
+Dahua MHDX 3116,1,0.0
+MS-SQL Server 2016 SP2CU17+GDR,1,0.0
+Dahua DH-NVR2104HS-P-HDS2,1,0.0
+3Com 2928-SFP Plus,1,0.0
+ZyXEL ZyWALL USG 20W firewall ftpd,1,0.0
+Dahua-based DHI-NVR4108-8P-EI,1,0.0
+Dahua DHI-XVR5108H-S2,1,0.0
+Dahua DR-TWC2626NV,1,0.0
+Cubic Circle Cucipop pop3d,1,0.0
+Dahua NVR301HC-04/P-4KS2/L,1,0.0
+Dahua DH/HCVR5104HS-V6/-AF-DVR-II-A/4-1,1,0.0
+Trimble NetR9,1,0.0
+Slican CXS,1,0.0
+Fortinet FortiGate-80C,1,0.0
+MWP2500E,1,0.0
+Samsung Smart TV UN65HU9000,1,0.0
+ASUS Wireless Router GT-BN98,1,0.0
+Dahua RXVR5116H-4KL-I3,1,0.0
+MediaAccess TG789vac,1,0.0
+Adabas D database remote control,1,0.0
+ANERMA CF Forth,1,0.0
+"Eltex Enterprise, Ltd.",1,0.0
+Samsung C145x,1,0.0
+OpenFTPD,1,0.0
+Unreal Test!,1,0.0
+Ubiquiti EdgeSwitch 24 500W,1,0.0
+ZTE F8748Q,1,0.0
+Dahua-based DH-NVR5864-4KS2,1,0.0
+Dahua LE201,1,0.0
+☢ PSY-ISOLATION - STALKER RP,1,0.0
+Dahua AMX-95104HS-I3,1,0.0
+Code-Crafters Ability ftpd,1,0.0
+Dahua BCS-XVR0401-III,1,0.0
+CP Plus CP-UVR-0801K1-H,1,0.0
+CP Plus CP-UNR-4K564R8-V2,1,0.0
+NETGEAR MBRN3000,1,0.0
+Dahua-based ASI6213J-MW,1,0.0
+R5N,1,0.0
+Dahua EZ-XVR1B08H,1,0.0
+SpeedTouch DSL router http config,1,0.0
+TP-LINK WA701ND WAP http config,1,0.0
+Yeastar P570,1,0.0
+Dahua Network Video Recorder DH-NVR4104-P-4KS2,1,0.0
+Dahua XS-XVR3104M-VS2,1,0.0
+Dahua LE202,1,0.0
+Samsung Smart TV UN50H5800,1,0.0
+QNAP TS-112P,1,0.0
+Zimbra imapd,1,0.0
+Sampo DR-TW2516A,1,0.0
+Dahua-based DHI-NVR4232-16P-EI,1,0.0
+IPBX Cloud,1,0.0
+Dahua BREEZE-6s3-216,1,0.0
+L.Tech,1,0.0
+Dahua-based DHI-NVR608H-32-XI,1,0.0
+Dahua XS-XVR6104-4KL-H,1,0.0
+EZ-IP NVR1B08HS,1,0.0
+HP Web Jetadmin print server http config,1,0.0
+Fortinet FortiGate-1801F,1,0.0
+Dahua MT-NVR5016-4K,1,0.0
+Dahua-based DH-XVR1A04,1,0.0
+Sony BRAVIA KJ-55X8500C,1,0.0
+Dahua X51C3E4,1,0.0
+NetApp http vFiler,1,0.0
+Digium D80,1,0.0
+QNAP TS-439 Pro II,1,0.0
+MS-SQL Server 2022 CU18,1,0.0
+Dahua X72A2A,1,0.0
+Dahua XS-XVR6116-4KL-2FACE-V2,1,0.0
+Asterisk-AI-Bot,1,0.0
+Dahua-based D45_NVR8PRO7-2T,1,0.0
+Dahua-based DH-XVR5832S-4KL-I3,1,0.0
+AVM FRITZ!Box Fon,1,0.0
+iR1643i II,1,0.0
+Fanvil H2U-V2,1,0.0
+PowerDNS dnsdist,1,0.0
+HP Pro M148fdw,1,0.0
+3Com 2952-SFP Plus,1,0.0
+bled.,1,0.0
+HP J9019B,1,0.0
+Yeastar S100-30.15.0.222,1,0.0
+yyyip.cn,1,0.0
+CockroachDB,1,0.0
+CP Plus CP-UNR-4K516R8-V2,1,0.0
+QNAP TS-453Bmini,1,0.0
+TP-Link Kasa Smart Wi-Fi Plug Mini EP10(US),1,0.0
+Dahua-based NVR-EG08POE-1U4K1,1,0.0
+CP Plus CP-UNR-104F1-P4,1,0.0
+Dahua DHI-NVR4116HS-4KS2/L-VN,1,0.0
+MS-SQL Server 2022 CU10,1,0.0
+DIN-AP4-,1,0.0
+Sampo DR-TW1516S(I2),1,0.0
+Dahua X54B5L,1,0.0
+dictd,1,0.0
+Dahua DH-XVR5108HE-4KL-I2,1,0.0
+Dahua DHI-HCVR7108HE-S3,1,0.0
+AUDC-IPPhone,1,0.0
+NEC-i SV8100-GE 09.50,1,0.0
+ASSP Anti-Spam Proxy httpd,1,0.0
+anvil,1,0.0
+Dahua DH-SD49225T-HN,1,0.0
+MediaHouse ipMonitor httpd,1,0.0
+Dahua LTN6416-P16,1,0.0
+Brother DCP-L2550DN series:8C5-K3G:Ver.Y,1,0.0
+Fortinet FortiGate-140E-POE,1,0.0
+Hewlett-Packard Enterprise iLO 5 in ProLiant DL360 Gen10 3.22,1,0.0
+Dahua XS-NVR2104-4K4PH,1,0.0
+UTT_OID_8874,1,0.0
+Fortinet FortiGate-60C,1,0.0
+4D WebStar D,1,0.0
+EnGenius_Router,1,0.0
+Dahua DH-NVR808-32-HD,1,0.0
+QNAP TS-453B,1,0.0
+CP Plus CP-UVR-0401F1-IC2,1,0.0
+Check Point Firewall-1 ftpd,1,0.0
+Dahua HCVR8208A-S3,1,0.0
+Dahua EAG-4KL-PRO-AI-16,1,0.0
+ClearVox Nexxt,1,0.0
+Axonix SuperCD ftpd,1,0.0
+AG5-HP,1,0.0
+Sony BRAVIA KD-65XF8596,1,0.0
+Sony BRAVIA KJ-49X8000E,1,0.0
+Open WebUI,1,0.0
+Dahua-based DH-XVR5208A-4KL-I3,1,0.0
+tinc vpn daemon,1,0.0
+Mototech Inc.,1,0.0
+TP-Link Kasa S7 (HOMEWIFISYSTEM),1,0.0
+iPECS-eMG800-H323-Alas,1,0.0
+Dahua XVR5832S-X,1,0.0
+Dahua NVR504L-32-16P-EI,1,0.0
+Dahua DHI-NVR4216-16P-4KS2-2TB,1,0.0
+Dahua DH-NVR5232-4KS2 (V2.00),1,0.0
+Dahua DHI-NVR608-128-4KS2,1,0.0
+NETGEAR RAX10,1,0.0
+Dahua DER-8080,1,0.0
+Dahua N42B3P,1,0.0
+X-Security XS-XVR3104M-VS2,1,0.0
+MicroSIP,1,0.0
+Fortinet FortiWiFi-50E-2R,1,0.0
+ZKSoftware ZEM560 access control device,1,0.0
+LC2,1,0.0
+Dahua-based RD-5108XVR,1,0.0
+Dahua DHI-NVR5208-EI,1,0.0
+Dahua BCS-XVR0401-V,1,0.0
+Samsung Smart TV UN48J6300,1,0.0
+Dahua-based DH-XVR4108C-I-BL,1,0.0
+Dahua-based MNR8040X-4,1,0.0
+Loxone Electronics GmbH Loxone Miniserver,1,0.0
+Dahua-based DH-NVR4432-4KS2,1,0.0
+CloudSoftphone,1,0.0
+VMware Server 2 http config,1,0.0
+Dahua-based PVD-404-4K-I3,1,0.0
+Dahua NVR1B08HS,1,0.0
+ASUS Wireless Router RP-AC53,1,0.0
+Cassandra,1,0.0
+Dahua R23555,1,0.0
+X-Security XS-XVR3116-H,1,0.0
+Shelly S3EMG3 S3EM-003CXCEU63,1,0.0
+Linksys router http config,1,0.0
+"ATEN INTERNATIONAL CO., LTD.",1,0.0
+SoftSwitch,1,0.0
+Dahua RD-5232XVR,1,0.0
+Dahua-based DR-TW1516S,1,0.0
+ECOSYS M3655idn,1,0.0
+Fortinet FortiWiFi-90D,1,0.0
+vos3000,1,0.0
+Zombie Escape v1.6,1,0.0
+Dahua DHI-HCVR51A16HE-S3,1,0.0
+Dahua RVCM32E0500A,1,0.0
+Panasonic WV-S6530 webcam http config,1,0.0
+Dahua EAG-4KL-PRO-AI-8,1,0.0
+IPBX-2.12.0.0(16.30.1),1,0.0
+Brother/HP printer telnetd,1,0.0
+Dahua DHIT-NVR1108HS-S3/H,1,0.0
+Cisco ASA firewall http config,1,0.0
+Aion(J),1,0.0
+4520VAOZR3,1,0.0
+Dahua-based CY-XVR-5216A-I3,1,0.0
+zpop3d,1,0.0
+ASUS Wireless Router RT-BE96U,1,0.0
+Dahua-based KV-XVR-5108HS-I3,1,0.0
+Dahua X21A2E,1,0.0
+MTA8328-8-1.0.6.1,1,0.0
+iPECS-UCP-H323-Alas,1,0.0
+Dahua-based KV-XVR-5216AN-I3,1,0.0
+FIN 5,1,0.0
+Dahua DH-NVR5232-4KS2,1,0.0
+Dahua DH-NVR1104HC-HDS3,1,0.0
+Sony BRAVIA KD-65XF8599,1,0.0
+RICOH MP 2501,1,0.0
+Barracuda CloudGen Firewall,1,0.0
+QNAP TS-239 Pro II,1,0.0
+VoxStack Wireless Gateway,1,0.0
+Lantronix X9m,1,0.0
+4G CPE router 1,1,0.0
+Dahua DHI-NVR4108HS-8P-4KS2-1T,1,0.0
+Sony BRAVIA KD-43XG8096,1,0.0
+Lorex N883A6,1,0.0
+Sony BRAVIA KD-49XF8599,1,0.0
+"Positron Access Solutions Corp (formerly 'Aktino, Inc.')",1,0.0
+Dahua-based KPR-5M04HS-I3,1,0.0
+Uniphone,1,0.0
+Dahua IPC-HDW4631C-A,1,0.0
+NETGEAR WNDR4300,1,0.0
+Dahua XS-XVR6104-VS2,1,0.0
+Mediant,1,0.0
+Dahua-based DHI-NVR1104HS-W-S2-CE,1,0.0
+Dahua-based BREEZE-6s2-216,1,0.0
+galacticcommunications,1,0.0
+Aruba switch telnetd,1,0.0
+"Xirrus, Inc.",1,0.0
+QNAP TS-251B,1,0.0
+Dahua DHI-NVR1108HS-8P-S3/H,1,0.0
+Dahua DHI-XVR4104C-N-S2,1,0.0
+Dahua CM-TWX6216AN-I3,1,0.0
+ASUS Wireless Router RT-BE9700,1,0.0
+Dahua-based TDHDX4H-AI3-1T,1,0.0
+RingQ,1,0.0
+Dahua NetworkVideoRecorderDH-HCVR7116H-S3,1,0.0
+FRITZ!Box WLAN 3370 WAP ftpd,1,0.0
+Dahua BCS-L-NVR1602-A-4KE(2),1,0.0
+Sony BRAVIA KD-70XF8305,1,0.0
+CloudCall PBX,1,0.0
+Dahua-based DHI-NVR4108HS-4KS2,1,0.0
+HP LaserJet Pro M501dn,1,0.0
+MS-SQL Server 2025 CU4,1,0.0
+Linksys09281,1,0.0
+MS-SQL Server 2025 CU6,1,0.0
+Fortinet FortiGate-90E,1,0.0
+QNAP VS-4116Pro+,1,0.0
+Dahua BCS-L-XVR0401-4KE-IV,1,0.0
+Symantec firewall http proxy,1,0.0
+dhttpd,1,0.0
+HP LaserJet Pro 4003,1,0.0
+Dahua N41C1P2,1,0.0
+ASUS Wireless Router RT-AC1300G PLUS V3,1,0.0
+VirtPBX,1,0.0
+Xerox Phaser 6510,1,0.0
+Dahua DH-XVR5104C-4KL-I3,1,0.0
+ScyllaDB,1,0.0
+Dahua-based NVD 3116 P,1,0.0
+Dahua DHI-NVR4108HS-4KS2/L-1TB,1,0.0
+AEGiS Nanoweb httpd,1,0.0
+Dahua-based DHI-HCVR5108C-S3,1,0.0
+Munin,1,0.0
+OpenCode,1,0.0
+Dahua DHI-XVR4116HE,1,0.0
+Dahua XS-XVR6116-4KL-HEVC,1,0.0
+AFi-INS-R,1,0.0
+ASUS Wireless Router Lyra Trio,1,0.0
+QNAP TS-269H,1,0.0
+Yeastar S20-65.16.0.41,1,0.0
+Dahua-based BLT5808,1,0.0
+Dahua AMX-95232AN-I3,1,0.0
+Dahua XS-XVR6232-H,1,0.0
+Private SIP UAS,1,0.0
+Dahua X21A2E2,1,0.0
+OYUNYONETICISI,1,0.0
+SAS TSXETY4103,1,0.0
+Sony BRAVIA KD-55X9000F,1,0.0
+kamailio (5.7.6 (x86_64,1,0.0
+Dahua DH-XVR4104C-X1-WH,1,0.0
+Dahua K-4NVR,1,0.0
+Dahua-based DHI-XVR4104HS-S2,1,0.0
+TM241CE24T_U,1,0.0
+PBXact-16.0.50(18.26.4),1,0.0
+Omni BEMS Controller,1,0.0
+Dahua DH-NVR2216-HDS3,1,0.0
+Dahua-based LXN9432D-P24,1,0.0
+EasyChat,1,0.0
+Arma Reforger,1,0.0
+Dahua DR-TW1508E,1,0.0
+Dahua X22A3N,1,0.0
+Dahua DH-NVR4432-4K,1,0.0
+CP Plus CP-UVR-1601K2-H,1,0.0
+Yeastar S412-30.14.0.73,1,0.0
+QNAP TS-569 Pro,1,0.0
+TP-LINK TL-R402 router http config,1,0.0
+ZOT-PS-39 print server,1,0.0
+ASUS Wireless Router RT-AC67U,1,0.0
+Axis Q6154-E PTZ Dome Network Camera ftpd,1,0.0
+Auerswald COMpact 5200R,1,0.0
+ASUS Wireless Router ZenWiFi BT6,1,0.0
+Dahua IPC-HDW4231EM-ASE,1,0.0
+Dahua-based L-IPR-5104-P-V3,1,0.0
+Trendnet TV-IP672WI,1,0.0
+MF750C II Series,1,0.0
+Tilgin Vood HG238x_ESx390-02_10_05_21,1,0.0
+Dahua D34_CVR16COM-4T,1,0.0
+VoIP Gateway,1,0.0
+Dahua-based L-IPR-5216-EP-4K,1,0.0
+QNAP TS-251C,1,0.0
+Dahua-based ERD-0851HS-4KL-I3,1,0.0
+Dahua NVR608-64-4KS2,1,0.0
+Dahua GZNVR16-I,1,0.0
+WebLogic applications server,1,0.0
+Dahua-based DH-XVR5116HS-I2-2TB,1,0.0
+Palo Alto Networks PA-400,1,0.0
+Hewlett Packard Enterprise iLO 4 in ProLiant DL360e Gen8 2.75,1,0.0
+Dahua DHI-NVR4116-4KS2/L,1,0.0
+ASUS Wireless Router GS-BE7200X,1,0.0
+Dahua COG-NVR-4K-4-8BB,1,0.0
+D-Link TV-IP851WIC webcam http interface,1,0.0
+IBM eServer X,1,0.0
+bintec RS353aw ADSL router telnetd,1,0.0
+Dahua DH-SDZW2000T-SL,1,0.0
+RICOH IM C400,1,0.0
+Dahua-based TDHDX8-AI3-1T,1,0.0
+Dahua XS-XVR6208-4KL-HEVC,1,0.0
+Dahua XS-NVR2116-S3,1,0.0
+Dahua-based RD-4116XVR,1,0.0
+/Satoshi:29.0.0/,1,0.0
+Dahua DH-NVR1108,1,0.0
+Konica Minolta 367,1,0.0
+X-Security XS-XVR8104A,1,0.0
+Dahua DH-HCVR7108H-4M,1,0.0
+ITBX-3.7.1(SBC-18),1,0.0
+Web.de smtpd,1,0.0
+Dahua-based KVR-804D,1,0.0
+MS-SQL Server 2005 SP2,1,0.0
+ZTE ZXHN H267N,1,0.0
+Dahua-based OPNVR04-000,1,0.0
+HPBX proxy,1,0.0
+OXO103,1,0.0
+Dahua BCS-NVR3208-4K-Ai,1,0.0
+Dahua-based iNVD 3016-P,1,0.0
+Dahua DHI-HCVR7104HE-S3,1,0.0
+Dahua-based NVR1108HS-W-S2,1,0.0
+Ruckus Wireless ZD3050 9.13.3.0,1,0.0
+MS-SQL Server 2019 CU4,1,0.0
+AES,1,0.0
+Sony BRAVIA KD-65XE9005,1,0.0
+MS-SQL Server 2025,1,0.0
+MikroTik Router OS,1,0.0
+conference server,1,0.0
+Dahua IPC-A35,1,0.0
+DM-RMC-4KZ-100-C,1,0.0
+Dahua DR-TW8564NV,1,0.0
+Dahua JCS-SDHDVR1640HDW,1,0.0
+Lantronix X2$,1,0.0
+Dahua-based NVR-1116HM-4KB,1,0.0
+InfoBlox Inc.,1,0.0
+Dahua NVD 5016 4K,1,0.0
+Dahua DH-XVR5416L-I2,1,0.0
+Access IP PBX,1,0.0
+Dahua CP-UVR-1601K2-V5,1,0.0
+SonicWall SonicOS 7.0.1-5165-R7018,1,0.0
+Sapphire LTD5432K-KL,1,0.0
+/Satoshi:32.0.0/,1,0.0
+Cisco Codec C40,1,0.0
+IncrediblePBX-15.0.37(16.0),1,0.0
+Dahua DR-TW2516NV,1,0.0
+Sendmail Switch smtpd,1,0.0
+Mirapoint email appliance http interface,1,0.0
+Amcrest NV4108-HS,1,0.0
+Dahua-based PVD-800-4K-I3v2,1,0.0
+HUAWEI TEx0,1,0.0
+ASUS Wireless Router RT-AC57U V2,1,0.0
+Dahua-based MHDX 1108,1,0.0
+Dahua VIP-3260-Z,1,0.0
+Dahua BCS-XVR04014KE-II,1,0.0
+Microsoft Exchange 2007-2010 pop3d,1,0.0
+MCU,1,0.0
+Dahua-based DHI-ASA3213GL-MW,1,0.0
+HP LaserJet Pro M404-M405,1,0.0
+Dahua DH-XVR5104C-X,1,0.0
+WC8846,1,0.0
+Dahua KM-NVR6216-I,1,0.0
+Cisco MX67,1,0.0
+Grandstream HT802,1,0.0
+Dahua BCS-NVR04015ME-II,1,0.0
+Dahua-based NVR5208-8P-4KS2E,1,0.0
+Dahua-based DHI-NVR4216-16P-EI,1,0.0
+Dahua LD-8025-4K,1,0.0
+Dahua DH-NVR616-128-4K,1,0.0
+NETGEAR WNR3500Lv2,1,0.0
+IQ4E,1,0.0
+Dahua-based DH-XVR4104HS,1,0.0
+ASUS Wireless Router RT-AC1900U,1,0.0
+YA-CS.COM,1,0.0
+qmail smtpd,1,0.0
+Xerox VersaLink C405,1,0.0
+sbc_1,1,0.0
+Dahua IP2M-841B-EFS-ES,1,0.0
+Netscreen ScreenOS telnetd,1,0.0
+Sony BRAVIA KD-43XG8399,1,0.0
+IPBX-2.11.0(13.30.0),1,0.0
+NETGEAR wnr2000v4,1,0.0
+Dahua AMX-95108HS-I3,1,0.0
+IPBrick,1,0.0
+ASUS Wireless Router RT-N600P,1,0.0
+Yeastar S100-30.15.0.179,1,0.0
+Dahua DHI-NVR4204-P-4KS2/L,1,0.0
+Dahua DH-XVR7416L-4K-I2,1,0.0
+LB5,1,0.0
+ASUS Wireless Router RT-BE57,1,0.0
+Dahua-based TDHDX8-4K-AI3-2T,1,0.0
+MS-SQL Server 2000 RTM+,1,0.0
+AirWhisper-Asterisk,1,0.0
+ConnectPort X4,1,0.0
+Brother HL-L2350DW series:84U-H5H:Ver.1.33,1,0.0
+Dahua HCVR8416L-S3,1,0.0
+AVM FRITZ!Box Fon Annex A,1,0.0
+Dahua DHI-XVR5116HS-X,1,0.0
+Dahua-based XDR1624P,1,0.0
+Synology DS1621xs+ 6.2-25556,1,0.0
+MPS-100,1,0.0
+Dahua DHI-NVR4104HS-P-4KS2/L-1TB,1,0.0
+Wildfire XMPP Client,1,0.0
+Doccano,1,0.0
+Dahua-based ST-XVR160-PRO-D,1,0.0
+Dahua DH-XVR5116H-I3,1,0.0
+Dahua-based VRN-400H2-4P,1,0.0
+CALIX GS5239E,1,0.0
+Sony BRAVIA KJ-49X8000C,1,0.0
+ASUS Wireless Router TUF GAMING å°æé£,1,0.0
+OpenH323 Gatekeeper,1,0.0
+ASUSTeK Computer Inc. RT-AC68U 3.0.0.4.386,1,0.0
+Dahua RVi-1NR08120,1,0.0
+Cisco MX60,1,0.0
+Sony BRAVIA XBR-65X930D,1,0.0
+Dahua-based DHI-XVR5116H-4KL,1,0.0
+░▒▓█ deathrun.pro █▓▒░,1,0.0
+Fortinet FortiWiFi-40C,1,0.0
+Dahua BCS-NVR6408-4K-III,1,0.0
+Dahua BCS-L-SNVR0801,1,0.0
+Sony BRAVIA KJ-43X8500F,1,0.0
+Dahua-based XVR0412-I,1,0.0
+/Satoshi:28.0.0/,1,0.0
+CCProxy smtp proxy,1,0.0
+Dahua-based DH-XVR5232AN-X,1,0.0
+NCSA httpd,1,0.0
+NEC SV9100-NA 12.10.50,1,0.0
+Dahua HCVR4108HS-S3,1,0.0
+Synology DS213+ 6.2-25556,1,0.0
+Dahua X82A3A2,1,0.0
+Vault,1,0.0
+Y balancing node,1,0.0
+Dahua DH-HCVR5216A-S2,1,0.0
+Fortinet FortiGate-300C,1,0.0
+Dahua DH-HCVR4104HS-S2,1,0.0
+Venus Info Tech Inc.,1,0.0
+Dahua DH-XVR7208A-4K-I2,1,0.0
+Dahua-based BLN5216KP,1,0.0
+Diode Relay Node v2.4.13-1-g4ee46f1,1,0.0
+Dahua DH-NVR4216-HDS2,1,0.0
+Dahua IPC-HDW1320S,1,0.0
+Dahua-based DHI-NVR4232-16P-4KS2/L,1,0.0
+ASUS Wireless Router ExpertWiFi EBR63,1,0.0
+Dahua DNR832,1,0.0
+Dahua DH-XVR4108C,1,0.0
+Dahua-based INS161624KN(S2),1,0.0
+Netscape FastTrack web server,1,0.0
+ZTE F668 router telnetd,1,0.0
+Dahua XS-XVR6104S-4KL-2FACE,1,0.0
+KMW Systems KM-NVR5208-4K,1,0.0
+Dahua-based DR-TW1508S,1,0.0
+AmpGuard,1,0.0
+Dahua LocalHost,1,0.0
+QNAP TS-231P3,1,0.0
+HP LaserJet Professional P1102w,1,0.0
+Dahua DHI-XVR7108HE,1,0.0
+Dahua N54B3P12,1,0.0
+Dahua EAG-NVR-4K-4-4BB,1,0.0
+Auerswald COMpact Series,1,0.0
+Thomson TR-69 http config,1,0.0
+TOTOLINK N500RDG 1,1,0.0
+Cisco MX84,1,0.0
+Dahua DHI-NVR4816-16P-4KS2,1,0.0
+Canon printer http config,1,0.0
+Dahua DH-SD59225U-HNI,1,0.0
+Slican NCP,1,0.0
+Sampo DR-TW1504S(I2),1,0.0
+Digi Portserver TS 1 terminal server http config,1,0.0
+Connect WAN 3G IA,1,0.0
+Dahua LD-6115HS-I3,1,0.0
+Dahua NVR7000K,1,0.0
+csplugin.com,1,0.0
+Emerson Energy Systems,1,0.0
+Dahua D46_NVR8PRO7-4T,1,0.0
+Dahua-based MHDX 3108,1,0.0
+Dahua-based STANDVR-16W01-3T,1,0.0
+TOTOLINK A2004NS 1,1,0.0
+Dahua DHI-HCVR7204AN-4M,1,0.0
+Dahua-based N44P,1,0.0
+Cosminexus httpd,1,0.0
+Dahua DH-XVR4B08-I,1,0.0
+Merit Internet Routing Registry whoisd,1,0.0
+/Satoshi:25.1.0/,1,0.0
+Dahua DHI-XVR5108HS-ART-KS,1,0.0
+server,1,0.0
+Dahua XS-XVR3104,1,0.0
+Fortinet FortiWiFi-30E,1,0.0
+NETGEAR WNR2000v3,1,0.0
+BASRT-B,1,0.0
+Dahua XS-XVR3104-HV,1,0.0
+Dahua DHI-NVR616R-64-4KS2,1,0.0
+D-Link ShareCenter DNS-320LW,1,0.0
+Xerox(R) C245 Color MFP,1,0.0
+Symark Power Broker pbmasterd,1,0.0
+Dahua DHI-HCVR5104HE-S3,1,0.0
+D-Link TV-IP751WC webcam http interface,1,0.0
+Dahua IPC-HDBW2421R-ZS,1,0.0
+ASUS Wireless Router RT-AC51UPlus,1,0.0
+Dahua HCVR4104HS3,1,0.0
+Lorex D862A8,1,0.0
+Sony BRAVIA KJ-55X9000E,1,0.0
+Lantronix D4,1,0.0
+Brother HL-L2360D series:84U-F75:Ver.a.34,1,0.0
+Zimbra http config,1,0.0
+Dahua NV4216-EI,1,0.0
+PBXact-17.0.33(22.3.0),1,0.0
+Dahua-based NVR2108HSP-3.0,1,0.0
+ULS VoIP Server,1,0.0
+GHJ-5.3.2,1,0.0
+M500/v.7.40A.500.017,1,0.0
+Dahua DHI-NVR2208-8P-I,1,0.0
+Dahua DH-XVR7108E-4KL-X,1,0.0
+Dahua DH-XVR5108HS-4KL-I3-1TB,1,0.0
+TP-Link Kasa Wi-Fi Smart Plug Lite HS103(US),1,0.0
+Dahua DH/HCVR7104HS-V5/-AF-DVR-II-A/4-1,1,0.0
+Dahua-based DH-XVR4B04H-I,1,0.0
+NETGEAR WN2000RPTv2,1,0.0
+Amcrest AMDV8M8-H5,1,0.0
+Dahua-based STANDVR-8E2101,1,0.0
+Dahua-based EZ-XVR1B08H-I,1,0.0
+Yeastar S20-30.11.0.8,1,0.0
+Dahua-based NVR1601HS-EI,1,0.0
+Tilgin Vood HG238x_ESx000-02_10_00_92,1,0.0
+MS-SQL Server 2014 SP1CU13,1,0.0
+Fortinet FortiGate-3000F,1,0.0
+Dahua DH-XVR5432L-X-2T,1,0.0
+Dahua XS-XVR6216S-2FACE,1,0.0
+Samsung Smart TV UN40J6200,1,0.0
+Dahua DH-NVR4232-4KS2,1,0.0
+LUPUS LE926,1,0.0
+Dahua BCS-L-XVR1601-4KE-IV,1,0.0
+Dahua-based EZ-XVR2C16-4KL,1,0.0
+Dahua XS-XVR6104-H,1,0.0
+Sony BRAVIA KD-49XG9005,1,0.0
+APC AP9617,1,0.0
+Dahua XVR4104HE,1,0.0
+Dahua DHI-NVR4216-8P-4K,1,0.0
+Sony BRAVIA KD-55XF8599,1,0.0
+OXO040,1,0.0
+Dahua-based DHI-NVR4204-P-EI,1,0.0
+Intel UPnP reference SDK,1,0.0
+Dolacz do serwera!,1,0.0
+Dahua XVR5432L,1,0.0
+Dahua-based DHI-NVR2104-4KS3,1,0.0
+Brother HL-L3280CDW series:84E-933:Ver.1.41,1,0.0
+Dahua DH-NVR2104HS-HDS2,1,0.0
+PSCC Server,1,0.0
+Dahua KM-DVR6104-5M-AI,1,0.0
+Dahua XS-XVR3104-H1,1,0.0
+ENSR3.0.66.74-IS4,1,0.0
+Sony BRAVIA KD-43XG8305,1,0.0
+Dovecot timsieved,1,0.0
+TP-Link Kasa L510 Series (SMART.TAPOBULB),1,0.0
+Dahua-based TRASSIR Lite Lanser 720P-8,1,0.0
+Dahua DH-NVR4216-4K,1,0.0
+Dahua R26601,1,0.0
+RepoCRM PBX,1,0.0
+s3net PBX,1,0.0
+Dahua DH-SD49412T-HN,1,0.0
+NVIDIA MSN2010,1,0.0
+CP Plus CP-UVR-3201E2-V4,1,0.0
+InterMapper Network Monitor httpd,1,0.0
+Dahua 1M02A39PAYTGEFS,1,0.0
+HKVS,1,0.0
+Dahua DHI-NVR4208-4K,1,0.0
+Sony BRAVIA KD-49XD8077,1,0.0
+Brother MFC-L2710DW series:8C5-K6J:Ver.ZE,1,0.0
+Dahua-based MNR5432-16P-AI,1,0.0
+Intelbras MHDX 1004-C,1,0.0
+Dahua-based DHI-NVR4108HS-8P-4KS2/L-1TB,1,0.0
+Dahua Dual-Sensor-IPC-01,1,0.0
+Dahua DH-NVR4416-4KS2,1,0.0
+Lorex DNR832,1,0.0
+Dahua DHI-XVR4104HE,1,0.0
+Dahua DH-XVR5208A-4KL-I3,1,0.0
+BSD TCP Wrappers,1,0.0
+FarmingSimulator2022,1,0.0
+Dahua DHI-NVR4116-8P-4KS2,1,0.0
+Dahua-based G61_NVR16PRO16P-I3,1,0.0
+webcamXP httpd,1,0.0
+UFP-UAP-B,1,0.0
+RND,1,0.0
+Dahua-based HDVR-EL3200-2U5MP-AI2,1,0.0
+Caudium httpd,1,0.0
+Huawei Quidway Eudemon firewall telnetd,1,0.0
+AVM FRITZ!Box Fon WLAN 7270 v3 SIP,1,0.0
+ZyXEL Communications Corp.,1,0.0
+NEC SV9100-NA 12.00.50,1,0.0
+CP Plus CP-UVR-0801E1S-S,1,0.0
+UAP-nanoHD,1,0.0
+ZTE H2640 PMZHP_1.0.4,1,0.0
+Dahua CM-TWX6116H-4KL-I3,1,0.0
+CP Plus CP-UVR-0401E1-S,1,0.0
+D-Link DVA-G3170i telnetd,1,0.0
+Dahua DH/HCVR5116HS-V4-5S/-AF-DVR-II-A/16-1,1,0.0
+Dahua NVR4208-8P-4KS2/L,1,0.0
+GoAhead httpd,1,0.0
+HP Color LaserJet MFP M477fdn,1,0.0
+Companytec CBC06,1,0.0
+kamailio (5.6.5 (x86_64,1,0.0
+Dahua R21679,1,0.0
+Dahua-based HS-XVR8510HS-I3,1,0.0
+Dahua-based NVR4104HS-EI,1,0.0
+Dahua OR-NVR7732L-I4-4K,1,0.0
+Dahua DHI-NVR4116HS-4KS2/L-2TB,1,0.0
+ASUS Wireless Router ZenWiFi BQ16 Pro,1,0.0
+Dahua XS-NVR3216-4K16P-L,1,0.0
+Dahua DHI-HCVR4108HE-S3,1,0.0
+Dahua DH-XVR4108CW-X,1,0.0
+Datacom DM706CR router telnetd,1,0.0
+Dahua NV4208E-AI,1,0.0
+Dahua PVR-P16-2VD,1,0.0
+Dahua DHI-NVR4200-8P-4KS2,1,0.0
+Dahua-based NVD 3208 P,1,0.0
+ital Equipment Corporation Digital UNIX V2eT03T7w_Q6  ,1,0.0
+Intelbras iMHDX 7016,1,0.0
+Hewlett Packard Enterprise iLO 4 in ProLiant DL360p Gen8 2.82,1,0.0
+Dahua DHI-HCVR5832S,1,0.0
+Dahua DH-XVR5108HS-4KL,1,0.0
+Stonehenge IP250F,1,0.0
+Samsung Smart TV UN55JU6000,1,0.0
+CP Plus CP-UNR-4K2081-V2,1,0.0
+Dahua-based N847A6P,1,0.0
+Novell NetWare enterprise web server,1,0.0
+Dahua-based DH-NVR4864-HDS3/I,1,0.0
+IPBX-2.11.0.47(13.30.0),1,0.0
+MediaCore,1,0.0
+Dahua DH-NVR4816-16P-4K,1,0.0
+CP Plus CP-UNR-4K2161-V2,1,0.0
+GO Networks MBW telnetd,1,0.0
+Post.Office,1,0.0
+Dahua-based TRASSIR Lite Lanser 4MP-4,1,0.0
+Lorex D241A8,1,0.0
+NETGEAR Dual-Band-Orbi,1,0.0
+"Shenzhen Yichen (JCG) Technology Development Co., Ltd. JYR-N490S 39.1.1",1,0.0
+"Miracle Group, Ltd.",1,0.0
+Dahua-based CL-XVR104-I,1,0.0
+Dahua DHI-HCVR4216A-S3,1,0.0
+QNAP TS-112,1,0.0
+Broadcom BCM96752 ADSL router telnetd,1,0.0
+Linksys WRT150N wireless-G router http config,1,0.0
+Dahua OS-NVR8F8P-4H2L-4K,1,0.0
+Dahua-based DH-XVR4232AN-X,1,0.0
+Dahua COG-4K-16BB,1,0.0
+MTA8328-1N-1.0.6.4,1,0.0
+Dahua XS-XVR6116S-2AI,1,0.0
+Fuji Xerox ApeosPort 3060,1,0.0
+MS-SQL Server 2019 CU1,1,0.0
+ M S - N A E 4 5 1 0 - 2   ( M S,1,0.0
+Dahua-based HDVR-MX1608-1U5MP-AI2,1,0.0
+XiVO PBX,1,0.0
+ECOSYS M4125idn,1,0.0
+X-Security XS-XVR6104A,1,0.0
+AIClient2API,1,0.0
+PRO2,1,0.0
+Shelly PlusPlugS SNPL-00112EU,1,0.0
+Dahua NVR5208-8P-4KS2E,1,0.0
+WebLogic httpd,1,0.0
+Netcomp-C530IP,1,0.0
+Dahua DNR708,1,0.0
+Dahua-based X82R2A4,1,0.0
+Dahua-based X54B5L18,1,0.0
+BENCO XVR,1,0.0
+Dahua AMDVTENL4-H5,1,0.0
+Dahua-based NVR4108-4KS2,1,0.0
+DVR,1,0.0
+NetBox httpd,1,0.0
+Adescom CTM5000,1,0.0
+Ricoh MP 301,1,0.0
+"Casa Systems, Inc.",1,0.0
+Synology DS1019+ 6.2-25556,1,0.0
+Sony BRAVIA KD-49XG8096,1,0.0
+Shelly Pro4PM SPSW-104PE16EU,1,0.0
+Plan 9 httpd,1,0.0
+PTInS GR140DGv1_DDR1G Build,1,0.0
+Brocade NetIron CER,1,0.0
+MS-SQL Server 2014 SP1GDR for Service Pack,1,0.0
+MACH-ProView LCD MPV-L-ER,1,0.0
+ConnectPort LTS 16 MEI Single AC Power,1,0.0
+ASUS Wireless Router 4G-AC68U,1,0.0
+Dahua X51B1H2,1,0.0
+Dahua DH-XVR7108H-4K-I2,1,0.0
+Dahua CT-NVR4116HS,1,0.0
+ASUS Wireless Router BLUE CAVE,1,0.0
+Ipswitch IMail Monitor web service,1,0.0
+Amcrest NV5216E-8P,1,0.0
+ZOT-PS-34 print server,1,0.0
+Dahua K-804DM2,1,0.0
+NEOS256,1,0.0
+MS-SQL Server 2022 CU19,1,0.0
+Dahua-based L-XVR-27816-4MP,1,0.0
+Dahua NV2108E-HS,1,0.0
+Dahua-based L-IPR-5104-P-V2,1,0.0
+OpenSER SIP Server,1,0.0
+Broadcom BCM963136 ADSL router telnetd,1,0.0
+CP Plus CP-UVR-1616K1-S,1,0.0
+RICOH MP 5055,1,0.0
+Yamaha Corporation,1,0.0
+TP-Link Kasa X10 (HOMEWIFISYSTEM),1,0.0
+ASUS Wireless Router RT-AC1750 B1,1,0.0
+kamailio (4.4.7 (x86_64,1,0.0
+ExVoipPBX,1,0.0
+Dahua-based NVD-i404IPv4-4K2,1,0.0
+Polycom RMX 1800,1,0.0
+X-Security XS-XVR6104-4KL-H,1,0.0
+PABX-ME,1,0.0
+Dahua NV4432-HS,1,0.0
+Fortinet FortiGate-80F-Bypass,1,0.0
+Hewlett-Packard Enterprise iLO 5 in ProLiant DL380 Gen10 2.81,1,0.0
+"Shenzhen Yichen (JCG) Technology Co., Ltd. JYR-N490S 42.1.2",1,0.0
+3Com 5500G-EI,1,0.0
+TS-v4.8.1-31,1,0.0
+Dahua DH/HCVR5216AN-V4/-AF-DVR-II-A/16-1,1,0.0
+Dahua-based STANDVR-16H4200,1,0.0
+RICOH IM C6010,1,0.0
+Native Infinity,1,0.0
+SpeedTouch,1,0.0
+Dahua XS-NVR3216A-16P-AI,1,0.0
+CallboxPBX,1,0.0
+FORE Systems ES-3810,1,0.0
+BMXP342020,1,0.0
+Dahua-based ST-XVR0801-C,1,0.0
+CP Plus CP-UVR-0401L1B-4KH,1,0.0
+Sony BRAVIA KD-75XD9405,1,0.0
+Sony BRAVIA KDL-65W850C,1,0.0
+Dahua BCS-L-XVR0801-4KE-IV,1,0.0
+GoPhish,1,0.0
+Dahua-based SPVR-31612,1,0.0
+NETGEAR XR500,1,0.0
+Dahua XVR4104HS,1,0.0
+D-Link DCS-2102,1,0.0
+Dell Embedded Remote Access card httpd,1,0.0
+Lotus Domino POP3 server,1,0.0
+Dahua EXP-5MPL-4BB,1,0.0
+Dahua-based OS-NVR4F4P-4H2L-4K,1,0.0
+Dahua DHI-NVR2216-4KS2,1,0.0
+Moimstone IP570HB,1,0.0
+ACLogic CesarFTPd,1,0.0
+Dahua-based NVR5208-4KS2,1,0.0
+Dahua-based NVR-EL64-2U12MP1,1,0.0
+QNAP VS-12140UPro+,1,0.0
+Dahua N42B1P,1,0.0
+Sony BRAVIA KD-65X8500D,1,0.0
+CareIP,1,0.0
+Alcatel/Thomson SpeedTouch ADSL http config,1,0.0
+WN httpd,1,0.0
+Dahua JNVR4204-4KS2,1,0.0
+Dahua-based EZ-XVR1B16H-I,1,0.0
+Dahua NV4116E-A2,1,0.0
+Dahua-based DHI-NVR5464-4KS2-2TB,1,0.0
+Dahua-based ERD-0451HS-4KL-I3,1,0.0
+General SIP UAS,1,0.0
+Apple QuickTime Streaming Server,1,0.0
+Dahua HEN16123,1,0.0
+Dahua-based DHI-XVR5108HS-4KL,1,0.0
+Dahua-based EZ-NVR1D04HS-P,1,0.0
+Dahua D44_NVR8PRO7,1,0.0
+ASTPP,1,0.0
+Dahua-based DH-N216-P16,1,0.0
+ASUSTeK Computer Inc. RT-N12+ 3.0.0.4.380,1,0.0
+Dahua-based iMHDX 3008,1,0.0
+Sony BRAVIA XBR-65X850E,1,0.0
+CP Plus CP-UVR-0401E1-IC,1,0.0
+X-Security XS-XVR3104-VS2,1,0.0
+Dahua DHI-NVR4216-16P-4KS2-L,1,0.0
+MS-SQL Server 2019 CU18+GDR,1,0.0
+Fortinet FortiWiFi-30D,1,0.0
+"Huawei Technologies Co., Ltd. HG532e Huawei Model",1,0.0
+SonicWall SonicOS Enhanced SonicOS 7.3.0-7012-R8150,1,0.0
+Lorex N863A6P,1,0.0
+J9729A,1,0.0
+Dahua-based DHI-NVR4116HS-EI,1,0.0
+Yealink W52P,1,0.0
+Dahua XVR5104HS,1,0.0
+Dahua-based N42C1P,1,0.0
+3cx,1,0.0
+MS-SQL Server 2019 CU25,1,0.0
+Dahua LTD5104C-KL,1,0.0
+SonicWall SonicOS 7.1.1-7051-R5653,1,0.0
+Dahua R22612,1,0.0
+Broadlink RM4 mini (0x520c),1,0.0
+Dahua-based DH-XVR5104HS-X1,1,0.0
+Dahua NVR1B08HS-8P,1,0.0
+TP-LINK VX230v(EU),1,0.0
+Dahua-based DHI-NVR5416-EI,1,0.0
+ERLite-3,1,0.0
+Frox ftp proxy,1,0.0
+CP Plus CP-UNR-4K5082-FI,1,0.0
+Synology DS918+ 6.2-25556,1,0.0
+Cisco MX65,1,0.0
+Dahua DH-HCVR4104HE-S2,1,0.0
+Grandstream HT814,1,0.0
+Dahua DHI-NVR4116-8P-4KS2  A,1,0.0
+QNAP TS-431X,1,0.0
+Dahua SAF-16X-1080,1,0.0
+Fortinet FortiWiFi-60D-POE,1,0.0
+Dahua DH-XVR5108HE-I3,1,0.0
+Dahua PR-HVR1104XHSI(C),1,0.0
+Dahua-based MNVR8208-I,1,0.0
+Dahua-based DHI-NVR5832-R-16P-4KS2E,1,0.0
+Sony BRAVIA XBR-55X900E,1,0.0
+DASAN H660RM,1,0.0
+Dahua-based KVR-402D,1,0.0
+Digi AnywhereUSB,1,0.0
+TM221CE16R,1,0.0
+Dahua-based R2-8CHDVR2TB,1,0.0
+Prefect,1,0.0
+Dahua N42B2P3,1,0.0
+Dahua-based X82B3A,1,0.0
+Dahua DHI-NVR5464-16P-4KS2E,1,0.0
+Dahua DH-NVR4216-16P-HDS2/L,1,0.0
+Dahua-based DHI-NVR4204-P-4KS3,1,0.0
+Z-World Rabbit microcontroller httpd,1,0.0
+Dahua DR-TW4532NV,1,0.0
+ASUS Wireless Router RT-K3,1,0.0
+Dahua-based DH-XVR5216AN-4KL-X,1,0.0
+MS-SQL Server 2022 CU19+GDR,1,0.0
+Dahua-based NVD 1304,1,0.0
+Dahua DHI-HCVR7104H-4K,1,0.0
+SIP-6328-2Re-v4.2.93-Tj4XVK7NTu6C1Oxh111O-A,1,0.0
+Dahua-based NVR301HC-04/P-4KS2/L,1,0.0
+Dahua DH-XVR5104H-4KL-X-4P,1,0.0
+IBM httpd,1,0.0
+Dahua-based X88B5S,1,0.0
+Ubiquiti EdgeSwitch 16 XG,1,0.0
+ASUS Wireless Router RT-AC55UHP,1,0.0
+DrayTek Vigor2922 Series,1,0.0
+besu,1,0.0
+Tilgin Vood HG238x_ESx415-03_02_01_24,1,0.0
+Fanvil X301,1,0.0
+Dahua DH-HCVR4108HS-S2,1,0.0
+Dahua-based DH-XVR5216AN-X,1,0.0
+Yeelight ceiling1,1,0.0
+D-Link DIR-850L WAP http config,1,0.0
+NETGEAR WNR2200,1,0.0
+Fortinet FortiGate-600C,1,0.0
+SETPBX,1,0.0
+Dahua DH-XVR5116H-I2,1,0.0
+Crosstalk PBX-15.0.38(16.30.0),1,0.0
+Dahua-based DHI-MNVR8208-GFWI,1,0.0
+Dahua IPC-HFW2228M-I2,1,0.0
+Dahua-based NVR1B08HC/E,1,0.0
+Ciena Corporation,1,0.0
+Dahua-based N54B3P,1,0.0
+Broadcom BCM96848 ADSL router telnetd,1,0.0
+Dahua-based DHI-ASI2212H-W,1,0.0
+Dahua DH-XVR5104HE-4KL-I2,1,0.0
+tonnet,1,0.0
+Intelbras iMHDX 5108,1,0.0
+Dahua-based DHI-NVR5416-4KS2(V2.0),1,0.0
+Mitel 5000 PBX SIP,1,0.0
+Dahua DH-NVR4208-HDS2,1,0.0
+Dahua BCS-XVR16014KE-III,1,0.0
+Dahua DHI-XVR7208AN,1,0.0
+Airlive AirCam OD-325HD,1,0.0
+Dahua-based N52B2P2,1,0.0
+Dahua N41C2P2,1,0.0
+MC4-R,1,0.0
+Ubiquiti EdgeSwitch 8-Port 150W,1,0.0
+HP PageWide Pro 477dw MFP,1,0.0
+Mercury/32 imapd,1,0.0
+Dahua-based DHI-NVR4104HS-P-AI/ANZ-2T,1,0.0
+Dahua-based THV4KL4HDS,1,0.0
+Dahua DJS-SNL-108-8P-4K(2.0),1,0.0
+ASUS Wireless Router ROG é­ç,1,0.0
+Dahua-based CY-XVR-5216AN-I3,1,0.0
+Dahua TI814X,1,0.0
+HP LaserJet Pro M428fdw,1,0.0
+Hewlett-Packard Enterprise iLO 5 in ProLiant DL20 Gen10 Plus 3.01,1,0.0
+Hubitat Elevation,1,0.0
+Sony BRAVIA KDL-50W805C,1,0.0
+AXIS C1310-E Network Horn Speaker,1,0.0
+EZ-IP ONVR8HS-8P,1,0.0
+TP-LINK WA801N WAP http config,1,0.0
+Dahua DH-XVR5108C-S2,1,0.0
+Sony BRAVIA KD-55XG8096,1,0.0
+ZTE F609,1,0.0
+Dahua AV-NVR1008P,1,0.0
+VM,1,0.0
+Lexmark MS821dn,1,0.0
+Apache Pulsar,1,0.0
+VxWorks ftpd,1,0.0
+Comel LLC WR-AC1210GU 78.102.1,1,0.0
+Dahua HEN08143,1,0.0
+reth,1,0.0
+Dahua DCVR4K3202AIv3,1,0.0
+Dahua DH-XVR5216AN-4KL-I3,1,0.0
+Dahua-based DH-XVR5104HS-I3-VN,1,0.0
+Sony BRAVIA KD-55XE8577,1,0.0
+Dahua-based N108,1,0.0
+QNAP TS-451,1,0.0
+ETone-Gate-QWRwrrRTeeRwQeqR-2P,1,0.0
+ZTE H288A 1.1.0.6,1,0.0
+Dahua NVR608R-64-4KS2,1,0.0
+Dahua-based NVD 3316-PLUS,1,0.0
+Oracle Traffic Director,1,0.0
+X-Security XS-XVR3104A,1,0.0
+Arista DCS-7060CX-32S,1,0.0
+Dahua AV-NVR5008V3,1,0.0
+Dahua AMDV10818-S3,1,0.0
+Lantronix FX ,1,0.0
+Dahua-based DR-TW8532S,1,0.0
+Dahua DHI-NVR4232-4K,1,0.0
+Dahua DH-XVR7816S-4KL-X,1,0.0
+IPBX-2.11.0.49(11.25.3),1,0.0
+Dahua DH-NVR2216-HDS2,1,0.0
+Dahua-based XVR0401H-5M-AI,1,0.0
+Dahua DH-XVR5108HS-X                   ,1,0.0
+POS3.67,1,0.0
+Isilon OneFS,1,0.0
+Dahua-based INS814KUVR,1,0.0
+Dahua XS-XVR3104M-H1,1,0.0
+Telnetwork-SIPGW-UA,1,0.0
+Dahua-based R2-16CHNVR4T,1,0.0
+FreeSWITCH mod_event_socket,1,0.0
+Dahua-based DH-XVR5432L-I2,1,0.0
+MediaAccess TG789vac Build,1,0.0
+Floosietek FTgate telnetd,1,0.0
+Fortinet FortiGate-51E,1,0.0
+Siemens S7-200,1,0.0
+Plataforma IP NextBilling,1,0.0
+Dahua DHI-HCVR7116H-S3,1,0.0
+Dahua XV52A16A-4KL-I3,1,0.0
+CP Plus CP-UVR-0401F1-IC,1,0.0
+Dahua DNR864B,1,0.0
+Dahua-based DHI-NVR4232-4KS2,1,0.0
+Cadant Inc.,1,0.0
+HP LaserJet Flow MFP M632,1,0.0
+Sony BRAVIA KD-49X9000F,1,0.0
+EZ-IP EZ-XVR1A04,1,0.0
+Yeastar S50-65.16.0.183,1,0.0
+/Satoshi:29.4.0/,1,0.0
+LG-Ericsson IP8802,1,0.0
+Dahua-based MHDX 1116,1,0.0
+MS-SQL Server 2022 CU27+GDR+,1,0.0
+Slican IPU,1,0.0
+Fortinet FortiGate-30E-3G4G-INTL,1,0.0
+ASUS Wireless Router GS7 Pro,1,0.0
+Dahua-based EZN-104E1-P4,1,0.0
+Dahua-based DH-NVR1108HC-HDS4,1,0.0
+Dahua-based DHI-NVR4104HS-P-AI/ANZ,1,0.0
+Dahua COG-4KL-PRO-AI-4,1,0.0
+GL.iNet GL-MT5000 Router,1,0.0
+Dahua DH-XVR5108H-4KL-X-8P,1,0.0
+Dahua-based DHI-NVR4108HS-4KS3-VN,1,0.0
+LAP-HP,1,0.0
+Dahua IPC-T1A30,1,0.0
+Dahua DHI-NVR2104-W-4KS2,1,0.0
+QNAP TS-419U II,1,0.0
+Brother MFC-L2730DW series:8C5-K8J:Ver.S,1,0.0
+Dahua-based NVR-FX16POE-1U16MP1,1,0.0
+ClearlyIP-15.0.38(16.17.0),1,0.0
+Deathrun,1,0.0
+Broadcom BCM96368 ADSL router telnetd,1,0.0
+Dahua-based NVD-L805IP-4K2/L,1,0.0
+Terminx,1,0.0
+Orcadis LB,1,0.0
+Dahua DHI-XVR5208AN-4KL,1,0.0
+Dahua-based DJS-SXL108E-4K,1,0.0
+Dahua DH-HCVR5104C-S2,1,0.0
+Grandstream HT812,1,0.0
+C141x 161x 181x 182x Series,1,0.0
+Lorex N844A8P,1,0.0
+Asterisk PBX - OpenS Tecnologia,1,0.0
+Dahua DHI-HCVR5104C-S2,1,0.0
+Lorex N881A3,1,0.0
+NETGEAR C3000-100NAS,1,0.0
+Dahua-based NVR-1108HM/8P-4K,1,0.0
+SIP UAS V.2016.xxxx,1,0.0
+Dahua NVR5224-24P-4KS2,1,0.0
+HP LaserJet Professional M1213nf MFP,1,0.0
+Dahua DHI-NVR1104HS-S3/H-VN,1,0.0
+CP1L-M,1,0.0
+QNAP TS-410,1,0.0
+MS-SQL Server 2025 CU6+GDR,1,0.0
+Yealink Meeting Server IPCALL,1,0.0
+Sony BRAVIA KD-65AF8,1,0.0
+Eggdrop IRC bot console,1,0.0
+Dahua HCVR4104C-S3,1,0.0
+Ruby Tech Corp.,1,0.0
+iPECS-eMG80-H323-Alas,1,0.0
+Dahua-based NVR5432-16P-4KS2E,1,0.0
+ASUS Wireless Router RAX50,1,0.0
+Dahua DHI-NVR4232-4KS2-2TB,1,0.0
+Dahua DH-XVR5816S-X,1,0.0
+ENM ENM-A08R2,1,0.0
+Microsoft Windows International daytime,1,0.0
+Dahua LTD5216K-KL,1,0.0
+NextQualify - SBC,1,0.0
+Logitech SqueezeCenter music server,1,0.0
+Fortinet FortiGate-1000D,1,0.0
+ZyXEL Internet Sharing Gateway DEL1202-T10B/B,1,0.0
+Lorex LNR6108P,1,0.0
+Dahua-based DHI-NVR5832-4KS2(V2.0),1,0.0
+QNAP TS-431K,1,0.0
+Exinda Networks Pty Ltd,1,0.0
+NBE-5AC-19,1,0.0
+NETGEAR MS60,1,0.0
+ASUS Wireless Router RT-BE50,1,0.0
+ZTE H181A,1,0.0
+DX800A,1,0.0
+Yamaha RX-V573,1,0.0
+Automation Direct,1,0.0
+Dahua DH-HCVR5104H-S2,1,0.0
+Dahua DH-NVR2108HS-HDS2,1,0.0
+Dahua DH-HCVR4108HE-S3,1,0.0
+OVISS IP Camera,1,0.0
+HP LaserJet M607,1,0.0
+Dahua DHI-MNVR4208-GFW,1,0.0
+IncrediblePBX-15.0.38(16.0),1,0.0
+J9773A,1,0.0
+CP Plus CP-UVR-0801K1-V3,1,0.0
+!؟虽虽?!,1,0.0
+Lantronix X5	,1,0.0
+Dahua-based iNVD 7032,1,0.0
+Dahua NVR2108HS-8P-T,1,0.0
+voxGate,1,0.0
+iR-ADV C3830,1,0.0
+Auerswald PBX sofia-sip,1,0.0
+Star Micronics TSP143 printer ftpd,1,0.0
+Fortinet FortiGate-101E,1,0.0
+TeamSpeak 2 TCPQuery,1,0.0
+ECOSYS M3645idn,1,0.0
+Dahua NVR4232-4KS2/L,1,0.0
+/Satoshi:29.4.2/Knots:20260508/,1,0.0
+MS-SQL Server 2019 CU16,1,0.0
+Dahua XS-NVR3216-4K,1,0.0
+Dahua-based DH-XVR1A08,1,0.0
+MaxiPBX,1,0.0
+Dahua NVR1B04-4P,1,0.0
+Dahua-based SAF-16X-1080,1,0.0
+Dahua PR-HVR1108XHSI(C),1,0.0
+Siemens CPU-1200,1,0.0
+Dahua-based DHI-NVR4116HS-4KS2/L-VN,1,0.0
+Dahua DHI-NVR4232-16P-4K,1,0.0
+Dahua COG-4K-4BB,1,0.0
+Headplane,1,0.0
+Avance-PBX,1,0.0
+ARLT ARLTLBFIB71.0.0 ARFIBRA7-sp-05.13.01.015E,1,0.0
+Dahua-based LSNVR8CHV2-4K,1,0.0
+WatchNET DVR,1,0.0
+Dahua NVR-4116-4KS2,1,0.0
+Fuji Xerox DocuPrint M455,1,0.0
+Dahua CP-UVR-1601E1-H,1,0.0
+Dahua CT-XVR5116-I,1,0.0
+Sony BRAVIA XBR-65A1E,1,0.0
+MS-SQL Server 2025 CU8,1,0.0
+Fortinet FortiGate-81E-POE,1,0.0
+Dahua NVR4216-4KS2/L,1,0.0
+AKCP embedded httpd,1,0.0
+Dahua DH-NVR4832-HDS2/I,1,0.0
+Dahua-based BCS-L-XVR1601-V,1,0.0
+A8810-0,1,0.0
+ASUS Wireless Router RT-AC65U,1,0.0
+AI-Call-Agent-Asterisk,1,0.0
+Dahua VIP1020,1,0.0
+Dahua-based DH-XVR5816S-4KL-I3,1,0.0
+Berofix VOIP Gateway (16.15),1,0.0
+Dahua-based LSX16CH-4K,1,0.0
+ M S - N A E 4 5 1 0 - 2,1,0.0
+Dahua DH-HCVR5116HS-S3,1,0.0
+SonicWall SonicOS 7.0.1-5161-R6164,1,0.0
+Dahua XVR5432L-I2,1,0.0
+Dahua DHI-XVR4108CB-S2,1,0.0
+Dahua EAGLE-5MP-16BB,1,0.0
+Fujitsu Limited,1,0.0
+General,1,0.0
+Konichiwa,1,0.0
+CJ2M-CPU33,1,0.0
+RIBBON-C15-v21.00_REL01,1,0.0
+INN NNTPd,1,0.0
+Roto-AZ / 4v4 VS,1,0.0
+Cayman-DSL router telnetd,1,0.0
+X-Security XS-XVR6232-VS2,1,0.0
+Delta Electronics Inc.,1,0.0
+Dahua LSX16CH-4K,1,0.0
+Dahua DH-XVR4108CB-X1,1,0.0
+Samsung Smart TV UN65JU6700,1,0.0
+Cisco MX100,1,0.0
+USCall-PBX,1,0.0
+NimbusVoice-16.0.41.1(18.16.0),1,0.0
+063 12-395-351-1.4.2.252-SP5250SO,1,0.0
+RICOH MP C3003,1,0.0
+OOOO,1,0.0
+ICOTERA i4850 (4850-1.19.3),1,0.0
+JAGDSPUR-MVP-Asterisk,1,0.0
+Amcrest AMDV10818-S5,1,0.0
+Dahua DH-XVR4104HS-S2,1,0.0
+FileMakerPro httpd,1,0.0
+Mobotix Camera http config,1,0.0
+GM Streaming Server httpd,1,0.0
+Cisco or Edge-core switch telnetd,1,0.0
+Dahua DH-NVR4808-4KS2,1,0.0
+Dahua DH-XVR7216A-4KL-I,1,0.0
