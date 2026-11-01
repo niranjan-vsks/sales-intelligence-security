@@ -1,0 +1,37 @@
+# Tiered model gateway (DESIGN.md 7.0). No code names a model; a task names a tier.
+# Model ids verified against https://openrouter.ai/api/v1/models on 2026-11-02.
+# USD per million tokens (prompt / completion) on that date are noted per model.
+# No free Qwen or DeepSeek route existed on that date, so the errand primary is a free
+# Google route and the second model is Haiku class.
+models_verified_on: "2026-11-02"
+router: openrouter
+tiers:
+  reasoning:  # tier 1
+    models:
+      - moonshotai/kimi-k3           # 0.192 / 15
+      - anthropic/claude-sonnet-5.5  # 2 / 10
+    rpm: 20
+    concurrency: 2
+    budget_usd: 2.5
+  mid:  # tier 2
+    models:
+      - deepseek/deepseek-v4-flash   # 0.091 / 0.182
+      - qwen/qwen3.8-flash           # 0.15 / 0.47
+    rpm: 60
+    concurrency: 4
+    budget_usd: 4.0
+  errand:  # tier 3
+    models:
+      - google/gemma-4-31b-it:free   # 0 / 0
+      - anthropic/claude-haiku-5.5   # 0.1 / 0.5
+    rpm: 120
+    concurrency: 8
+    budget_usd: 3.5
+tasks:  # task -> tier; escalation is 1 tier up on schema failure, once
+  classify: errand
+  reportcard: mid
+  judge: reasoning
+  mcp_agent: mid
+escalation:
+  max_steps: 1
+reserve_usd: 2.0  # tier budgets + reserve must be <= LLM_BUDGET_USD_TOTAL; validated at load

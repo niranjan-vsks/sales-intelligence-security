@@ -1,0 +1,25 @@
+# Fixed taxonomy for the P7 classifier: 20 industries plus 2 fallbacks. P7 may edit.
+industries:
+  - software_it_services
+  - hosting_infrastructure
+  - telecommunications
+  - financial_services
+  - insurance
+  - healthcare
+  - education
+  - government_public_sector
+  - nonprofit
+  - retail_ecommerce
+  - manufacturing
+  - construction_real_estate
+  - energy_utilities
+  - transportation_logistics
+  - hospitality_travel
+  - media_entertainment
+  - professional_services
+  - agriculture_food
+  - automotive
+  - consumer_services
+fallbacks:
+  - other
+  - not_a_business
