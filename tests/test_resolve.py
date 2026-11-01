@@ -155,6 +155,14 @@ def test_rekey_fallback_to_domain(isolated: Path) -> None:
     assert t["entities"]["n_banners"] == [3]
 
 
+def test_wide_certificate_name_still_joins_its_domain_entity(isolated: Path) -> None:
+    rows = [{"domains": ["acme.com"], "ip_str": "10.0.0.1"}]
+    rows += [{"cert_subject_cn": "vpn.acme.com", "ip_str": f"10.0.1.{i}"} for i in range(4)]
+    res, t = run(rows, isolated, max_ips=2)  # the certificate name covers 4 IPs, above 2
+    assert keys(t) == {("domain", "acme.com")} and t["entities"]["n_banners"] == [5]
+    assert res.unattributed["over_cutoff"] == 0 and res.operators_derived == 0
+
+
 def test_banner_with_two_domains_feeds_two_entities(isolated: Path) -> None:
     _, t = run([{"domains": ["a.com", "b.com"]}], isolated)
     assert keys(t) == {("domain", "a.com"), ("domain", "b.com")}
