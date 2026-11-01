@@ -1,5 +1,21 @@
 # State (past tense, newest first)
 
+- 2026-11-02  Builder (Sonnet 5.5): P2 done. Handoff report:
+    P2 done. Commit e1eca2e (code b70b861).
+    Entities (active): domain 481,186, cert_cn 12,643, http_host 1,600; active 495,429, blocked 532 (honeypot_or_scanner 524, c2_or_malware 8; domain-kind blocked 343, cert_cn 189).
+    Banners attributed: primary 1,063,060 (7.28%), fallback 38,433 (0.26%), none 13,506,913 (92.46%).
+    Unattributed by reason: no_name 3,779,115, operator_only 9,727,798, over_cutoff 0, blocked 5,314.
+    Operator domains added from data: 3,777 (top 5: btcentralplus.com, your-server.de, imperva.com, x0bimperva.com, t-ipconnect.de). Added by hand after the top-20 check: one.one, flywheelsites.com, nextgenerationnetworks.nl, shadowserver.org, park-my-domain.net.
+    Eyeball check: 18/20 look right; myverobc.com and superyacht.me are Incapsula-edge tenants whose banners describe the shared edge (flagged for P3). Details in docs/RESOLVE_REPORT_<file_id>.md.
+    Acceptance: pytest 79 of 79 (audit exit 0), ruff and mypy clean; sis resolve <file_id> ran in ~3.5 min; active domain entities 481,186 vs 485,089 minus 343 blocked = 484,746, -0.74%; over_cutoff 0; sis resolve --merge -> current/entities.parquet 495,961 rows = 495,429 active + 532 blocked; rerun gave byte-identical entities and banner_entity parquet (md5 matched); gate 5 n/a until P5.
+    Guards mutation-tested: cutoff inclusive, operator exclusion, fallback-only-without-primary, re-key, B02-over-B01, wide-cert eligibility.
+    Deviations:
+      1. over_cutoff: a cert or Host name above the cutoff in its own kind is still attributed when it also exists as a primary domain entity (05_fallback.sql). Without it 4,729 banners were over_cutoff, which the card requires to be 0. Derived operators also include cert/Host names above the cutoff that are not customer-sized domain-kind names (card said domain-kind only).
+      2. operator_domains.txt: P0's test pinned it to exactly 12 lines; re-aimed to "the 12 seeds come first, no duplicates". Data-derived names live under "# derived from <file_id>" headers (3,777 lines); a rerun replaces that file's section, so it is idempotent. The 5 hand additions sit in the seed block.
+      3. blocked_reason 'operator_domain' is never produced: operator names never become entities.
+      4. New config/blocked_tags.yaml holds the B01/B02 tag lists (constants live in config/). Sidecar resolve_meta.json carries built_at and pipeline_version instead of columns.
+      5. Normalisation merged/dropped names the explorer kept raw; domain-kind total is -0.73% vs 485,089 (within the 1% bar).
+      6. The card's reviewer step (fresh Opus review of cards/P2.md before the build) did NOT happen; the overnight instruction said to build it anyway. Please still run /phase review on this diff.
 - 2026-11-02  Builder (Sonnet 5.5): P1 done. Handoff report:
     P1 done. Commit f037b6c (+ handoff commit). file_id 8e252f8fadb5f0887ac6f7c59a757fc5ffc17324311b06c818abe87755a611ee-17619943483.
     Wall seconds 712.6, lines/s 20,501, compressed MB/s 24.7, workers 11, CPU 16 logical cores, RAM 23.3 GB.
@@ -39,6 +55,6 @@
 - 2026-10-30  Architect: EXPLORATION.md written before any data was seen. ASSIGNMENT.md saved.
 
 ## Resume point
-P1 done (handoff above). Full ingest output at $SIS_DATA/8e252f8f...-17619943483/ (banners, vulns, key_inventory.json); docs/INGEST_REPORT committed.
-Next action: build cards/P2.md (the architect asked for a fresh Opus review of P2 first; the overnight instruction said to build it anyway).
-Launchpad docs still staged, not committed.
+P0, P1, P2 done and committed (P2 e1eca2e). Tests 79 of 79. Data: $SIS_DATA/8e252f8f...-17619943483/{banners,vulns,banner_entity,entities,unattributed_summary}.parquet and $SIS_DATA/current/entities.parquet.
+Next action: human runs the P0/P1/P2 acceptance commands, reviews the P2 diff with a fresh session, then P3 (Opus). P3 must know: P1 vulns columns are id/other_keys (see P1 objection 3); P2 flagged Incapsula-edge tenants (myverobc.com, superyacht.me) as inflating breadth.
+Launchpad docs still staged, not committed. Nothing pushed.
