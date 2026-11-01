@@ -3,7 +3,7 @@
 | card | owner | status | claimed | notes |
 |---|---|---|---|---|
 | P0 | builder (Sonnet 5.5) | done | 2026-11-02 | 0947a3e, 32 of 32 |
-| P1 | builder (Sonnet 5.5) | running | 2026-11-02 | ingest; explorer run took 1473 s, not hours |
+| P1 | builder (Sonnet 5.5) | done | 2026-11-02 | f037b6c, 58 of 58, md5 equivalence ok |
 | P2 | unclaimed | blocked on P1 | | Opus; review card first |
 | P3 | unclaimed | blocked on P2 | | Opus |
 | P4 | unclaimed | blocked on P3 | | Opus |
