@@ -76,7 +76,10 @@ def test_cli_lists_every_command() -> None:
         assert name in result.output
 
 
-@pytest.mark.parametrize("name", COMMANDS)
+IMPLEMENTED = {"ingest"}  # a card that builds a command removes it from the stub list
+
+
+@pytest.mark.parametrize("name", [c for c in COMMANDS if c not in IMPLEMENTED])
 def test_cli_stub_exits_2(name: str) -> None:
     result = CliRunner().invoke(app, [name])
     assert result.exit_code == 2
