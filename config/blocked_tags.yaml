@@ -1,0 +1,5 @@
+# Provider tags that mark an entity as never-score (findings/07_what_we_sell_map.csv).
+# B01: decoy or scanner infrastructure. B02: attacker command-and-control infrastructure.
+# The *-rat probe modules are NOT used: they are probe names, not detections.
+honeypot_or_scanner: [honeypot, scanner]
+c2_or_malware: [c2, malware]

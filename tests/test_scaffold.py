@@ -76,7 +76,7 @@ def test_cli_lists_every_command() -> None:
         assert name in result.output
 
 
-IMPLEMENTED = {"ingest"}  # a card that builds a command removes it from the stub list
+IMPLEMENTED = {"ingest", "resolve"}  # a card that builds a command removes it from the stub list
 
 
 @pytest.mark.parametrize("name", [c for c in COMMANDS if c not in IMPLEMENTED])
@@ -164,9 +164,14 @@ def test_scoring_rejects_gap_in_breadth_buckets() -> None:
 
 
 def test_operator_domains_seed() -> None:
+    # P2 appends data-derived names under "# derived from <file_id>" headers; the seed stays first.
     lines = (CONFIG / "operator_domains.txt").read_text(encoding="utf-8").split()
-    assert len(lines) == 12 and len(set(lines)) == 12
-    assert {"incapdns.net", "amazonaws.com", "aliyuncs.com"} <= set(lines)
+    assert lines[:12] == [
+        "incapdns.net", "googleusercontent.com", "amazonaws.com", "cloudfront.net",
+        "akamaitechnologies.com", "cloudflare.com", "linode.com", "vultr.com",
+        "digitalocean.com", "hetzner.com", "ovh.net", "aliyuncs.com",
+    ]
+    assert len(set(lines)) == len(lines)
 
 
 def test_industry_taxonomy() -> None:

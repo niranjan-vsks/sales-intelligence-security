@@ -40,9 +40,29 @@ def ingest(
 
 
 @app.command()
-def resolve() -> None:
-    """Resolve banners to entities (P2)."""
-    _stub("resolve")
+def resolve(
+    file_id: str | None = typer.Argument(None, help="file_id printed by `sis ingest`."),
+    merge: bool = typer.Option(False, "--merge", help="Rebuild current/entities.parquet."),
+) -> None:
+    """Resolve banners to entities, or merge the per-file entities into current state."""
+    if merge:
+        from sis.entities.resolve import merge_current
+
+        m = merge_current()
+        typer.echo(f"merged {len(m.files)} file(s): {m.n_entities} entities -> {m.path}")
+        return
+    if file_id is None:
+        typer.echo("give a FILE_ID or --merge", err=True)
+        raise typer.Exit(code=2)
+    from sis.entities.resolve import resolve as run_resolve
+
+    res = run_resolve(file_id)
+    typer.echo(f"entities active {res.n_active} blocked {res.n_blocked}")
+    typer.echo(f"by_kind {res.entities_by_kind}")
+    typer.echo(f"banners primary {res.banners_primary} fallback {res.banners_fallback} "
+               f"none {res.banners_none}")
+    typer.echo(f"unattributed {res.unattributed}")
+    typer.echo(f"operators derived {res.operators_derived}")
 
 
 @app.command()
