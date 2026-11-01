@@ -22,6 +22,14 @@
 - 2026-10-30  Architect: EXPLORATION.md written before any data was seen. ASSIGNMENT.md saved.
 
 ## Resume point
-P0 done and committed (0947a3e). Next action: build cards/P1.md. P1 not started; board row P1 unclaimed.
-Launchpad docs (DESIGN, DATA_MODEL, cards/*, docs/*, EXPLORATION, ASSIGNMENT, PROMPT_EXPLORER) are still staged,
-not committed: that was the architect's call, left alone.
+P1 code committed (f037b6c), 58 of 58 tests passed, ruff and mypy clean, 4 guards mutation-tested.
+The full ingest is running in the background, started 2026-11-02, file_id
+8e252f8fadb5f0887ac6f7c59a757fc5ffc17324311b06c818abe87755a611ee-17619943483.
+Check progress:   tail -3 "C:/Users/NIRANJAN VSKS/sis_data/ingest_full_run.log"
+                  (last line "EXIT 0" and "status ok" means finished; the .tmp dir is renamed on success)
+If it died:       uv run sis ingest "C:/Users/NIRANJAN VSKS/Downloads/b2_download_file_by_id"
+Equivalence run:  uv run python -m sis.ingest.equivalence 8e252f8fadb5f0887ac6f7c59a757fc5ffc17324311b06c818abe87755a611ee-17619943483
+                  must print banners_ok, vulns_ok, id_hash_ok all True (exit 0). P1 is NOT done until it does.
+Then: write the P1 handoff (cards/P1.md format), flip board P1 to done, commit docs/INGEST_REPORT_<file_id>.md.
+Not started: P2. Launchpad docs still staged, not committed.
+Spec objections filed by the P1 builder: see the P1 handoff (file_id separator, 93 vs 96 columns, vulns schema vs DATA_MODEL 1.2).
