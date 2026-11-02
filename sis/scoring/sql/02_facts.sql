@@ -1,7 +1,7 @@
 -- Steps 6, 7, 9: fact scores, exposure, segment, priority, per-signal contributions
 -- (DESIGN.md 5.2, 5.3). Reads `wide`: 1 row per active entity with v_<signal> (value, 0 when
 -- absent) and p_<signal> (pct_in_peer, 0 when absent). Every constant is a $parameter from
--- config/scoring.yaml.
+-- config/scoring.yaml; {prerequisite} is the config's prerequisite list as SQL.
 CREATE OR REPLACE TEMP TABLE terms AS
 SELECT entity_id,
     -- fact A: 3 alternatives inside max(), then 2 additive terms
@@ -27,11 +27,11 @@ SELECT entity_id,
     greatest($d_waf * v_D_waf, $d_security_appliance * v_D_security_appliance,
              $d_edge_substitute * v_D_edge_substitute, $d_vpn * v_D_vpn,
              $d_hardening_headers * v_D_hardening_headers) AS fact_d,
-    v_C_live_web > 0 OR v_C_admin_services > 0 OR v_C_asset_tags > 0 AS prerequisite,
+    {prerequisite} AS prerequisite,
     CASE WHEN v_D_waf > 0 OR v_D_security_appliance > 0 THEN 'displace'
          WHEN v_D_edge_substitute > 0 OR v_D_hardening_headers > 0 OR v_D_vpn > 0
              THEN 'partially_covered'
-         WHEN v_C_live_web > 0 OR v_C_admin_services > 0 OR v_C_asset_tags > 0 THEN 'untouched'
+         WHEN {prerequisite} THEN 'untouched'
          ELSE 'low_surface' END AS segment
 FROM wide;
 CREATE OR REPLACE TEMP TABLE facts AS

@@ -22,7 +22,8 @@ def contributions(entity_id: str, file_id: str,
     con.execute("CREATE TEMP TABLE one AS SELECT ?::VARCHAR AS entity_id, "
                 "NULL::VARCHAR AS country_code", [entity_id])
     con.execute(f"CREATE TEMP TABLE wide AS {wide_sql(base='one')}")
-    run_sql(con, SQL_DIR / "02_facts.sql", **params(cfg))
+    run_sql(con, SQL_DIR / "02_facts.sql", fragments={"prerequisite": cfg.prerequisite_sql},
+            **params(cfg))
     rows = con.execute("SELECT signal_id, contribution FROM contrib "
                        "ORDER BY contribution DESC, signal_id").fetchall()
     con.close()

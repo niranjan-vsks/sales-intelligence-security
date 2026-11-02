@@ -125,7 +125,8 @@ def test_fixture_file_size() -> None:
 
 def test_scoring_yaml_loads() -> None:
     c = scoring_config.load()
-    assert c.scoring_version == "1.0.0"
+    assert c.scoring_version == "1.1.0"
+    assert c.prerequisite == ["C_live_web", "C_admin_services", "C_asset_tags", "C_any_service"]
     assert c.exposure.weights == {"a": 0.45, "b": 0.20, "c": 0.35}
     assert c.facts.a.weights["eol"] == 1.0
     assert c.peer.breadth_buckets == [(1, 1), (2, 3), (4, 9), (10, None)]
@@ -166,7 +167,9 @@ def test_scoring_rejects_gap_in_breadth_buckets() -> None:
 
 def test_operator_domains_seed() -> None:
     # P2 appends data-derived names under "# derived from <file_id>" headers; the seed stays first.
-    lines = (CONFIG / "operator_domains.txt").read_text(encoding="utf-8").split()
+    # P3.1 hand additions carry a trailing "# ..." comment
+    text = (CONFIG / "operator_domains.txt").read_text(encoding="utf-8")
+    lines = [n for ln in text.splitlines() if (n := ln.split("#", 1)[0].strip())]
     assert lines[:12] == [
         "incapdns.net", "googleusercontent.com", "amazonaws.com", "cloudfront.net",
         "akamaitechnologies.com", "cloudflare.com", "linode.com", "vultr.com",

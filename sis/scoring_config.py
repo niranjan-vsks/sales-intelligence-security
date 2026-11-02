@@ -125,8 +125,24 @@ class ScoringConfig(_Strict):
     scoring_version: str
     facts: Facts
     exposure: Exposure
+    prerequisite: list[str] = Field(min_length=1)
     segments: Segments
     peer: Peer
+
+    @field_validator("prerequisite")
+    @classmethod
+    def _known_signals(cls, ids: list[str]) -> list[str]:
+        from sis.signals.catalogue import BY_ID
+
+        unknown = [i for i in ids if i not in BY_ID]
+        if unknown:
+            raise ValueError(f"prerequisite names unknown signals {unknown}")
+        return ids
+
+    @property
+    def prerequisite_sql(self) -> str:
+        """The prerequisite over the `wide` table's v_<signal> columns."""
+        return "(" + " OR ".join(f"v_{i} > 0" for i in self.prerequisite) + ")"
 
 
 def load(path: Path | None = None) -> ScoringConfig:

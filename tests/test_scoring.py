@@ -105,7 +105,7 @@ def test_segments(isolated: Path) -> None:
          "http_waf": "Fastly (Fastly CDN)"},
         {"domains": ["displace.com"], "module": "https", "http_status": 200,
          "http_waf": "Cloudflare (Cloudflare Inc.)"},
-        {"domains": ["low.com"], "module": "snmp", "port": 161},
+        {"domains": ["low.com"], "module": "auto", "port": 161, "data_len": 0},
         {"domains": ["trap.com"], "tags": ["honeypot"], "http_status": 200},
     ]
     build(rows, isolated)
@@ -114,6 +114,29 @@ def test_segments(isolated: Path) -> None:
         "untouched.com": "untouched", "partial.com": "partially_covered",
         "displace.com": "displace", "low.com": "low_surface"}  # blocked trap.com not scored
     assert s["partial.com"]["fact_d"] == 0.5 and s["displace.com"]["fact_d"] == 1.0
+
+
+def test_any_service_is_a_gate_not_a_score(isolated: Path) -> None:
+    """cards/P3_1.md defect 2: a banner with a payload, or a probe other than 'auto', is
+    something that answered; an empty 'auto' port or an edge banner is not."""
+    rows = [
+        {"domains": ["port.com"], "module": "auto", "port": 8443, "data_len": 0},
+        {"domains": ["payload.com"], "module": "auto", "port": 8443, "data_len": 12},
+        {"domains": ["probe.com"], "module": "snmp", "port": 161, "data_len": 0},
+        {"domains": ["edge.com"], "module": "https", "port": 443, "http_status": 403,
+         "data_len": 500, "tags": ["cdn"]},
+    ]
+    build(rows, isolated)
+    s = scores_by_name()
+    assert {n: r["segment"] for n, r in s.items()} == {
+        "port.com": "low_surface", "payload.com": "untouched", "probe.com": "untouched",
+        "edge.com": "low_surface"}
+    fired = {n: "C_any_service" in sig for n, sig in signals_by_name().items()}
+    assert fired == {"port.com": False, "payload.com": True, "probe.com": True,
+                     "edge.com": False}
+    for n in ("payload.com", "probe.com"):  # weight 0 in fact_c: no contribution
+        e = next(r for r in table("entities") if r["key_value"] == n)
+        assert "C_any_service" not in dict(contributions(e["entity_id"], FID))
 
 
 def test_edge_only_entity(isolated: Path) -> None:

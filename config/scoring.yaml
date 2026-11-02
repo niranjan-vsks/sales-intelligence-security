@@ -1,6 +1,6 @@
 # Constants from DESIGN.md sections 5.2 and 5.3. Hand-set from the Stage 1 lifts, not fitted.
 # Any change to a number here bumps scoring_version (cards/P3.md).
-scoring_version: "1.0.0"
+scoring_version: "1.1.0"
 
 facts:
   a:
@@ -40,6 +40,11 @@ exposure:
     a: 0.45
     b: 0.20
     c: 0.35
+
+# The prerequisite: something of theirs answered the internet (DESIGN.md 5.3). Any of these
+# signals > 0 makes an entity reachable; with none it is low_surface. 1.1.0 added C_any_service
+# (cards/P3_1.md defect 2): provider-tested banners often carry no payload and no http 200.
+prerequisite: [C_live_web, C_admin_services, C_asset_tags, C_any_service]
 
 segments:
   multipliers:

@@ -6,6 +6,7 @@ import duckdb
 
 from sis import db, paths
 from sis.io import write_parquet
+from sis.signals.catalogue import edge_predicate, load_mappings
 from sis.sqlfiles import run_sql
 
 SQL_DIR = Path(__file__).resolve().parent / "sql"
@@ -30,6 +31,6 @@ def open_file(file_id: str) -> duckdb.DuckDBPyConnection:
 
 def build_labels(file_id: str, con: duckdb.DuckDBPyConnection) -> int:
     """Temp table `labels` and $SIS_DATA/<file_id>/eval/labels.parquet. Returns the row count."""
-    run_sql(con, SQL_DIR / "01_labels.sql")
+    run_sql(con, SQL_DIR / "01_labels.sql", fragments={"edge": edge_predicate(load_mappings())})
     return write_parquet(con, "SELECT * FROM labels ORDER BY entity_id",
                          paths.eval_dir(file_id) / "labels.parquet")

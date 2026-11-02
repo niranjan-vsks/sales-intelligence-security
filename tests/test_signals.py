@@ -31,8 +31,8 @@ def data_model_signal_ids() -> list[str]:
 
 def test_catalogue_matches_data_model() -> None:
     ids = data_model_signal_ids()
-    # the card says 22; the DATA_MODEL table lists 23 (6 A, 4 B, 7 C, 5 D, 1 X)
-    assert len(ids) == 23
+    # 6 A, 4 B, 8 C, 5 D, 1 X; P3.1 added C_any_service
+    assert len(ids) == 24
     assert [s.signal_id for s in SIGNALS] == ids
     for s in SIGNALS:
         assert s.signal_id[0] == s.fact

@@ -30,6 +30,11 @@ ROWS = [
     {**WEB, "opts_vulns": ["MS17-010"]},                                     # b7: no entity
     {**WEB, "domains": ["trap.com"], "tags": ["honeypot"],
      "opts_vulns": ["MS17-010"]},                                            # b8: blocked
+    # b9, b10: edge banners; their findings are the edge vendor's, not the tenant's (P3.1)
+    {**WEB, "domains": ["edge.com"], "http_waf": "Cloudflare (Cloudflare Inc.)",
+     "opts_vulns": ["CVE-2020-0796"]},
+    {**WEB, "domains": ["cdn.com"], "tags": ["cdn"],
+     "opts_heartbleed": "2026/10/26 - VULNERABLE"},
 ]
 VULNS = [
     {"id": "b0", "cve": "CVE-K", "cvss": 9.8, "kev": True,
@@ -39,6 +44,8 @@ VULNS = [
     {"id": "b6", "cve": "CVE-U", "cvss": 6.0, "kev": True,
      "other_keys": json.dumps({"ransomware_campaign": "Unknown"})},
     {"id": "b7", "cve": "CVE-N", "cvss": 9.0, "kev": True, "verified": True},
+    {"id": "b9", "cve": "CVE-E", "cvss": 9.0, "kev": True, "verified": True,
+     "other_keys": json.dumps({"ransomware_campaign": "Known"})},
 ]
 
 
@@ -65,7 +72,7 @@ def test_labels() -> None:
     run(FID)
     lab = _labels_by_name()
     assert set(lab) == {"kev.com", "ver.com", "hb.com", "safe.com", "ov.com", "waf.com",
-                        "plain.com"}  # active entities only: trap.com is blocked
+                        "plain.com", "edge.com", "cdn.com"}  # trap.com is blocked
     on = {name: {k for k, v in row.items() if v} for name, row in lab.items()}
     assert on == {
         "kev.com": {"label_kev", "label_ransomware"},
@@ -75,6 +82,8 @@ def test_labels() -> None:
         "ov.com": {"label_opts_vulns", "label_any_tested"},
         "waf.com": {"label_has_vendor"},
         "plain.com": {"label_kev"},  # ransomware 'Unknown' is not a ransomware label
+        "edge.com": {"label_has_vendor"},  # edge banners: only the vendor label sees them
+        "cdn.com": set(),
     }
 
 
@@ -97,7 +106,7 @@ def test_run_writes_artefacts(isolated: Path) -> None:
     out = paths.eval_dir(FID)
     metrics = json.loads((out / "metrics.json").read_text(encoding="utf-8"))
     assert {"labels", "by_priority", "by_exposure", "untouched_only"} <= set(metrics)
-    assert metrics["n_active"] == 7 and set(metrics["by_priority"]) == set(ALL_LABELS)
+    assert metrics["n_active"] == 9 and set(metrics["by_priority"]) == set(ALL_LABELS)
     assert metrics["labels"]["label_any_tested"]["n_pos"] == 3
     assert metrics["sanity"]["displace_has_vendor_is_1"] is True
     abl = json.loads((out / "ablations.json").read_text(encoding="utf-8"))
@@ -106,7 +115,7 @@ def test_run_writes_artefacts(isolated: Path) -> None:
     base = json.loads((out / "baselines.json").read_text(encoding="utf-8"))
     # with k above the population every ranking's precision is the base rate
     rnd = base["random"]["mean"]["all"]["label_any_tested"]["at_k"]["100"]
-    assert rnd["precision"] == pytest.approx(3 / 7) and len(base["random"]["draws"]) == 5
+    assert rnd["precision"] == pytest.approx(3 / 9) and len(base["random"]["draws"]) == 5
     text = Path(res.report).read_text(encoding="utf-8")
     for lab in ALL_LABELS:
         assert f"### {lab}" in text

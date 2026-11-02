@@ -213,8 +213,9 @@ pct_in_peer   DOUBLE    percent_rank of value within peer_group, null for 0/1 si
 file_id       VARCHAR
 ```
 
-Signal catalogue. `source` cites the Stage 1 candidate. Every predicate is
-over the `banners` table restricted to the entity's banners unless stated.
+Signal catalogue, 24 signals (P3.1 added C_any_service). `source` cites the
+Stage 1 candidate. Every predicate is over the `banners` table restricted to
+the entity's banners unless stated.
 
 | signal_id | fact | value | predicate / computation | source |
 |---|---|---|---|---|
@@ -235,6 +236,7 @@ over the `banners` table restricted to the entity's banners unless stated.
 | C_breadth_ports | C | n_ports | always present | C-13 |
 | C_components_vs_peers | C | max over http banners of len(http_components) | http banners | C-14 |
 | C_live_web | C | 0/1 | mapping P01 | prerequisite |
+| C_any_service | C | 0/1 | any non-edge banner of the entity with data_len > 0, OR any non-edge banner with module not in ('auto') | DATA_MODEL 3.1 addition, P3.1 |
 | D_waf | D | 0/1 | mapping W01 | C-10 |
 | D_edge_substitute | D | 0/1 | mapping W02 | C-10 |
 | D_security_appliance | D | 0/1 | mapping W03 or W04 | C-11 |

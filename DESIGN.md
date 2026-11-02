@@ -214,7 +214,7 @@ already visible in A.
 ### 5.3 Segments and priority
 
 ```
-prerequisite = C_live_web or C_admin_services > 0 or C_asset_tags > 0
+prerequisite = C_live_web or C_admin_services > 0 or C_asset_tags > 0 or C_any_service
 
 segment = 'displace'          if D_waf or D_security_appliance
         = 'partially_covered' elif D_edge_substitute or D_hardening_headers or D_vpn

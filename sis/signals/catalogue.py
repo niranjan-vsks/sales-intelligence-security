@@ -104,6 +104,10 @@ SIGNALS: list[SignalSpec] = [
                "http_components", "array_to_string(http_components, ', ')"),
     SignalSpec("C_live_web", "C", "flag", "{P01}", "1", "http_status",
                "module || ' ' || http_status::VARCHAR", edge_ok=True),
+    # a gate, not a score (weight 0 in fact_c): something of theirs answered the internet.
+    # 'auto' is the provider's port probe, so without a payload it shows only an open port.
+    SignalSpec("C_any_service", "C", "flag", "data_len > 0 OR module NOT IN ('auto')", "1",
+               "module", "module || ' ' || coalesce(data_len, 0)::VARCHAR || ' bytes'"),
     SignalSpec("D_waf", "D", "flag", "{W01}", "1", "http_waf", "http_waf", edge_ok=True),
     SignalSpec("D_edge_substitute", "D", "flag", "{W02}", "1", "http_waf", "http_waf",
                edge_ok=True),

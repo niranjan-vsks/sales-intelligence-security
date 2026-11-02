@@ -74,7 +74,8 @@ def build_scores(con: duckdb.DuckDBPyConnection, cfg: scoring_config.ScoringConf
                  file_id: str) -> None:
     """Temp tables wide, terms, facts, contrib, scored, scores from `sig` and `peer`."""
     con.execute(f"CREATE OR REPLACE TEMP TABLE wide AS {wide_sql()}")
-    run_sql(con, SQL_DIR / "02_facts.sql", **params(cfg))
+    run_sql(con, SQL_DIR / "02_facts.sql", fragments={"prerequisite": cfg.prerequisite_sql},
+            **params(cfg))
     con.execute("""
         CREATE OR REPLACE TEMP TABLE scored AS
         SELECT f.entity_id, f.fact_a, f.fact_b, f.fact_c, f.fact_d, f.exposure, f.segment,
