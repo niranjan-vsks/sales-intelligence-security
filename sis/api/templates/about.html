@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock %}
+{% block content %}
+<article class="about">
+<p class="note">Sections 1, 5, 6 and 7 of the design document, rendered from DESIGN.md as deployed.</p>
+{{ body | safe }}
+</article>
+{% endblock %}

@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% block title %}{{ acc.display_name }}{% endblock %}
+{% block content %}
+<p><a href="/">&larr; Accounts</a></p>
+<h1>{{ acc.display_name }}</h1>
+<dl class="facts">
+  <dt>Segment</dt><dd><span class="seg seg-{{ acc.segment }}">{{ acc.segment }}</span></dd>
+  <dt>Exposure</dt><dd>{{ "%.1f"|format(acc.exposure) }} / 100</dd>
+  <dt>Priority</dt><dd>{{ "%.1f"|format(acc.priority) }}</dd>
+  <dt>Rank</dt><dd>{{ "{:,}".format(acc.rank_overall) }} overall · {{ "{:,}".format(acc.rank_in_segment) }} in segment · {{ "{:,}".format(acc.rank_in_country) }} in country</dd>
+  <dt>Peer group</dt><dd>{{ acc.peer_group or "" }}</dd>
+  <dt>Country</dt><dd>{{ acc.country_code or "" }}{% if acc.country_codes|length > 1 %} ({{ acc.country_codes|join(", ") }}){% endif %}</dd>
+  <dt>Operator</dt><dd>{{ acc.org_mode or "" }}</dd>
+  <dt>Footprint</dt><dd>{{ acc.n_banners }} banners · {{ acc.n_ips }} IPs · {{ acc.n_ports }} ports · {{ acc.n_modules }} services</dd>
+  {% if acc.profile %}
+  <dt>Industry</dt><dd>{{ acc.profile.industry or "" }}{% if acc.profile.description %}: {{ acc.profile.description }}{% endif %}</dd>
+  {% endif %}
+</dl>
+
+<h2>Why</h2>
+{% if why %}
+<table>
+  <thead><tr><th>Signal</th><th>What it means</th><th class="num">Adds to exposure</th></tr></thead>
+  <tbody>
+  {% for s in why %}
+    <tr><td><code>{{ s.signal_id }}</code></td><td>{{ s.label }}</td>
+        <td class="num">{{ "%.1f"|format(s.contribution or 0) }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p>No signal adds to exposure.</p>
+{% endif %}
+
+<h2>Evidence</h2>
+{% for s in acc.signals if s.fact != "D" and acc.evidence.get(s.signal_id) %}
+<h3><code>{{ s.signal_id }}</code> {{ s.label }}</h3>
+<table class="evidence">
+  <thead><tr><th>IP</th><th>Port</th><th>Service</th><th>Field</th><th>Value</th><th>Snippet</th><th>Observed</th></tr></thead>
+  <tbody>
+  {% for e in acc.evidence[s.signal_id] %}
+    <tr><td>{{ e.ip or "" }}</td><td class="num">{{ e.port or "" }}</td><td>{{ e.module or "" }}</td>
+        <td>{{ e.field or "" }}</td><td>{{ e.value or "" }}</td>
+        <td class="snippet">{{ e.snippet or "" }}</td>
+        <td>{{ e.observed_at.strftime("%Y-%m-%d") if e.observed_at else "" }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p>No evidence rows.</p>
+{% endfor %}
+
+<h2>Protection present</h2>
+{% if protection %}
+<ul>
+  {% for s, rows in protection %}
+  <li><code>{{ s.signal_id }}</code> {{ s.label }}{% if rows %}: {{ rows|map(attribute="value")|reject("none")|unique|join(", ") }}{% endif %}</li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>None seen.</p>
+{% endif %}
+
+{% if acc.events %}
+<h2>Changes</h2>
+<table>
+  <thead><tr><th>When</th><th>Change</th><th>Subject</th><th>From</th><th>To</th></tr></thead>
+  <tbody>
+  {% for e in acc.events %}
+    <tr><td>{{ e.detected_at.strftime("%Y-%m-%d") if e.detected_at else "" }}</td><td>{{ e.event_type }}</td>
+        <td>{{ e.subject or "" }}</td><td>{{ e.from_value or "" }}</td><td>{{ e.to_value or "" }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+<h2>Feedback</h2>
+<div id="feedback" class="feedback">
+  {% for verdict, text in [("prospect", "Mark prospect"), ("not_fit", "Not a fit")] %}
+  <form method="post" action="/ui/feedback" hx-post="/ui/feedback" hx-target="#feedback" hx-swap="innerHTML">
+    <input type="hidden" name="entity_id" value="{{ acc.entity_id }}">
+    <input type="hidden" name="verdict" value="{{ verdict }}">
+    <button type="submit">{{ text }}</button>
+  </form>
+  {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% set m = res.meta %}
+{% set last = ((m.total + m.page_size - 1) // m.page_size) or 1 %}
+<p class="count">{{ "{:,}".format(m.total) }} accounts · page {{ m.page }} of {{ "{:,}".format(last) }} · sorted by {{ m.sort }}</p>
+<table>
+  <thead>
+    <tr><th>#</th><th>Name</th><th>Segment</th><th class="num">Exposure</th><th class="num">Priority</th>
+        <th>Country</th><th class="num">Banners</th><th>Top signal</th><th>Industry</th></tr>
+  </thead>
+  <tbody>
+  {% for a in res.items %}
+    <tr>
+      <td class="num">{{ a.rank_overall }}</td>
+      <td><a href="/accounts/{{ a.entity_id }}">{{ a.display_name }}</a></td>
+      <td><span class="seg seg-{{ a.segment }}">{{ a.segment }}</span></td>
+      <td class="num">{{ "%.1f"|format(a.exposure) }}</td>
+      <td class="num">{{ "%.1f"|format(a.priority) }}</td>
+      <td>{{ a.country_code or "" }}</td>
+      <td class="num">{{ "{:,}".format(a.n_banners) }}</td>
+      <td>{% if a.top_signals %}{{ labels.get(a.top_signals[0], a.top_signals[0]) }}{% endif %}</td>
+      <td>{{ a.industry or "" }}</td>
+    </tr>
+  {% else %}
+    <tr><td colspan="9">No accounts match these filters.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% set base = "q=" ~ (form.q|urlencode) ~ "&segment=" ~ form.segment ~ "&country=" ~ (form.country|urlencode)
+   ~ "&industry=" ~ (form.industry|urlencode) ~ "&min_exposure=" ~ form.min_exposure ~ "&sort=" ~ form.sort %}
+<nav class="pager">
+  {% if m.page > 1 %}
+  <a href="/?{{ base }}&page={{ m.page - 1 }}" hx-get="/?{{ base }}&page={{ m.page - 1 }}"
+     hx-target="#rows" hx-push-url="true">Previous</a>
+  {% endif %}
+  {% if m.page < last %}
+  <a href="/?{{ base }}&page={{ m.page + 1 }}" hx-get="/?{{ base }}&page={{ m.page + 1 }}"
+     hx-target="#rows" hx-push-url="true">Next</a>
+  {% endif %}
+</nav>

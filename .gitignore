@@ -229,3 +229,4 @@ docs/*.pdf
 
 # pipeline data never lives in the repo
 sis_data/
+.playwright-mcp/

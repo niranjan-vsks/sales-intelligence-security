@@ -7,7 +7,8 @@ dependencies = [
     "fastapi>=0.162.0",
     "httpx>=0.28.1",
     "jinja2>=3.1.6",
-    "logfire>=5.4.0",
+    "logfire[fastapi]>=5.4.0",
+    "markdown>=3.11.2",
     "openai>=3.42.1",
     "orjson>=3.13.0",
     "pyarrow>=26.0.0",
@@ -27,6 +28,7 @@ dev = [
     "pytest>=9.2.0",
     "pytest-cov>=7.1.0",
     "ruff>=0.17.3",
+    "types-markdown>=3.11.2.20261029",
     "types-pyyaml>=6.0.12.20261030",
 ]
 

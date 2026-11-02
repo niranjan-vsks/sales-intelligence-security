@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Accounts{% endblock %} · Sales intelligence</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="{{ url_for('static', path='app.css') }}">
+  <script src="https://unpkg.com/htmx.org@1.9.12" integrity="sha384-ujb1lZYygJmzgSwoxRggbCHcjc0rB2XoQrxeTUQyRjrOnlCoYta87iKBWq3EsdM2" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <a class="brand" href="/">Sales intelligence</a>
+    <nav><a href="/">Accounts</a> <a href="/about">About</a></nav>
+  </header>
+  <main>{% block content %}{% endblock %}</main>
+  <footer>
+    Bundle {{ meta.bundle_version }} · scoring {{ meta.scoring_version }} ·
+    ROLLUP_MAX_IPS {{ rollup_max_ips }} · {{ "{:,}".format(meta.n_accounts) }} accounts
+  </footer>
+</body>
+</html>

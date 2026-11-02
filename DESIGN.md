@@ -287,7 +287,7 @@ ranking and a CVE-count-only ranking:
   reported side by side
 
 Measured on the first file at scoring_version 1.1.0 (P3.1,
-docs/EVAL_REPORT_<file_id>.md and docs/P3_1_REPORT.md), ranking by
+`docs/EVAL_REPORT_<file_id>.md` and `docs/P3_1_REPORT.md`), ranking by
 `priority`, Wilson 95 percent intervals:
 
 | label | p@100 | p@1,000 | p@10,000 | lift@1,000 | rank-biserial |

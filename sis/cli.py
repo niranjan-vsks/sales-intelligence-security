@@ -122,15 +122,47 @@ def classify() -> None:
 
 
 @app.command()
-def export() -> None:
-    """Build the serve bundle (P5)."""
-    _stub("export")
+def export(
+    version: str | None = typer.Option(
+        None, help="Bundle version (default YYYYMMDD-HHMM-<scoring>)."),
+) -> None:
+    """Build the serve bundle from current state: $SIS_DATA/serve/<version>/."""
+    from sis.export.bundle import MAX_BUNDLE_MB
+    from sis.export.bundle import export as run_export
+
+    res = run_export(version)
+    typer.echo(f"bundle {res.bundle_version} -> {res.path}")
+    typer.echo(f"accounts {res.n_accounts} evidence {res.n_evidence} signals {res.n_signals} "
+               f"events {res.n_events}")
+    typer.echo(f"size_mb {res.size_mb}")
+    if res.size_mb > MAX_BUNDLE_MB:
+        typer.echo(f"bundle is above {MAX_BUNDLE_MB} MB", err=True)
+        raise typer.Exit(code=1)
 
 
 @app.command()
-def serve() -> None:
-    """Run the web app (P5)."""
-    _stub("serve")
+def serve(
+    bundle: Path | None = typer.Option(None, help="Bundle dir (default SIS_BUNDLE_DIR, or the "
+                                                  "newest under $SIS_DATA/serve)."),
+    host: str = typer.Option("127.0.0.1"),
+    port: int = typer.Option(8000),
+) -> None:
+    """Run the web app over 1 serve bundle."""
+    import os
+
+    import uvicorn
+
+    from sis import paths
+
+    if bundle is None and "SIS_BUNDLE_DIR" not in os.environ:
+        built = sorted((paths.data_root() / "serve").glob("*/bundle.json"))
+        if not built:
+            typer.echo("no bundle; run `sis export` first", err=True)
+            raise typer.Exit(code=1)
+        bundle = built[-1].parent
+    if bundle is not None:
+        os.environ["SIS_BUNDLE_DIR"] = str(bundle)
+    uvicorn.run("sis.api.app:create_app", factory=True, host=host, port=port)
 
 
 @app.command()
