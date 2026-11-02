@@ -261,14 +261,17 @@ Specified in cards/P4.md. There is no purchase, contact or churn field in
 the file. We hold out the provider's tested or curated labels and ask
 whether the ranking is rich in them at the top:
 
-| Label | Entities with it (P4, of 495,419 active) | What it says | What it cannot say |
+Labels use the same banner scope as scoring: the vulnerability labels skip
+CDN and WAF edge banners, whose findings are the edge vendor's (P3.1).
+
+| Label | Entities with it (P3.1, of 487,133 active) | What it says | What it cannot say |
 |---|---|---|---|
-| label_kev | 53,287 (10.76%), from 282,801 banners | a version-inferred CVE is on the CISA exploited list | whether the host is exploitable; downstream of fact A, partly circular |
-| label_verified | 791 (0.16%), from 4,808 banners | the provider tested and confirmed a CVE | nothing about the 99 percent untested |
-| label_heartbleed | 50 (0.01%), from 160 banners | an active test found Heartbleed | 1 CVE only |
-| label_opts_vulns | 791 (0.16%), from 5,085 banners; 777 of them also verified | provider-run vulnerability probes hit | tiny coverage |
-| label_any_tested | 805 (0.16%), union of the 3 above | the honest exam: labels that came from a test, not a version string | small, so wide confidence intervals |
-| label_has_vendor | 77,966 (15.74%); Stage 1 counted 83,779 before the edge rule | already a customer of someone | budget, satisfaction, product |
+| label_kev | 49,844 (10.23%) | a version-inferred CVE is on the CISA exploited list | whether the host is exploitable; downstream of fact A, partly circular |
+| label_verified | 669 (0.14%) | the provider tested and confirmed a CVE | nothing about the 99 percent untested |
+| label_heartbleed | 44 (0.01%) | an active test found Heartbleed | 1 CVE only |
+| label_opts_vulns | 669 (0.14%); 657 of them also verified | provider-run vulnerability probes hit | tiny coverage |
+| label_any_tested | 681 (0.14%), union of the 3 above | the honest exam: labels that came from a test, not a version string | small, so wide confidence intervals |
+| label_has_vendor | 77,530 (15.92%); Stage 1 counted 83,779 before the edge rule | already a customer of someone | budget, satisfaction, product |
 
 Metrics reported, each against random (base rate), a breadth-only
 ranking and a CVE-count-only ranking:
@@ -283,21 +286,30 @@ ranking and a CVE-count-only ranking:
   construction, and the exposure distributions of the 2 segments are
   reported side by side
 
-Measured on the first file (P4, docs/EVAL_REPORT_<file_id>.md), ranking
-by `priority`, Wilson 95 percent intervals:
+Measured on the first file at scoring_version 1.1.0 (P3.1,
+docs/EVAL_REPORT_<file_id>.md and docs/P3_1_REPORT.md), ranking by
+`priority`, Wilson 95 percent intervals:
 
 | label | p@100 | p@1,000 | p@10,000 | lift@1,000 | rank-biserial |
 |---|---|---|---|---|---|
-| label_any_tested | 10.0% [5.5, 17.4] | 5.1% [3.9, 6.6] | 2.0% [1.7, 2.3] | 31.4 | 0.481 |
-| label_kev | 72.0% [62.5, 79.9] | 57.5% [54.4, 60.5] | 61.8% [60.8, 62.8] | 5.3 | 0.854 |
+| label_any_tested | 3.0% [1.0, 8.5] | 3.9% [2.9, 5.3] | 1.6% [1.3, 1.8] | 27.9 | 0.597 |
+| label_kev | 55.0% [45.2, 64.4] | 49.1% [46.0, 52.2] | 62.6% [61.6, 63.5] | 4.8 | 0.917 |
 
-At k = 1,000 on label_any_tested: random 0.14%, breadth_only 5.1%,
-cve_count_only 3.3%; ablations no_A 4.6%, no_B 3.9%, no_C 2.6%, no_D
-6.6%. The full model beats cve_count_only but the intervals overlap, and
-ties breadth_only. Removing D (the segment multipliers) raises precision
-on every vulnerability label, likely because `low_surface` (x0.5) holds tested
-positives at the same rate as `untouched`. Untouched only, p@1,000 on
-label_any_tested is 4.2% [3.1, 5.6] against a 0.21% base rate.
+At k = 1,000 on label_any_tested: random 0.12%, breadth_only 3.4%,
+cve_count_only 3.3%; ablations no_A 2.8%, no_B 2.3%, no_C 2.3%, no_D
+4.5%. In plain words: the top of the list is about 28 times richer in
+tested vulnerabilities than chance. The full model now edges past
+breadth_only (3.9% against 3.4%), but the intervals overlap, so on
+precision@1,000 it still does not clearly beat it; it separates on
+rank-biserial, 0.597 against 0.124, which means it orders the whole list
+far better than counting services does. Removing D (the segment
+multipliers) still raises precision@1,000 (4.5% against 3.9%), so the
+multipliers still cost precision on tested labels, though less than at
+1.0.0 (6.6% against 5.1%). The P3.1 fixes lowered the headline
+precision: the hosting zones they removed held many tested positives,
+which is why they ranked high, and they were not prospects. Untouched
+only, p@1,000 on label_any_tested is 3.4% [2.4, 4.7] against a 0.19%
+base rate.
 
 The honest limits, stated in the write-up: label_kev is downstream of the
 same version strings fact A reads, so a high score there partly proves we
@@ -526,6 +538,23 @@ designed to accept them as a 7th label without code changes.
 - Entities behind a CDN are under-observed, so `low_surface` may hide real
   exposure we cannot see. The segment is named for what we can see, and
   the write-up says so.
+- Hosting providers at the top, found by the evaluation and fixed in
+  P3.1. At scoring 1.0.0, 95 of the top 100 by priority were hosting or
+  network operators (OVH per-/24 reverse-DNS zones such as
+  `ip-15-235-134.net`, hosters such as hostinguk.net): each covered
+  under 50 IPs, so P2 kept it as a customer, while it aggregated many
+  tenants' servers. P4 also showed that `low_surface` held tested
+  positives at the same rate as `untouched`, and that 1,192 kev labels
+  came only from CDN or WAF edge banners. 3 rulings followed: hosting
+  zones become operators (a template-zone rule, a templated-hostname
+  rule, and a hand list of 129 names read from the top 100 twice); the
+  prerequisite gains `C_any_service`, so `low_surface` now means nothing
+  of theirs answered (163,897 to 5,613 entities); labels skip edge
+  banners, as scoring does. After the fixes the top 30 holds no hosting
+  provider, but 57 of the top 100 still do: the 2 rules catch names built
+  from addresses, not hosters that number their servers (server123,
+  vm612). The target of under 10 in 100 is not met; a wider rule is an
+  open item, not built.
 - 1 scan window: nothing in this submission demonstrates a real diff.
   P6 proves the diff on a synthetic second file built by perturbing the
   real one with a seed, and the write-up says it is a simulation.
