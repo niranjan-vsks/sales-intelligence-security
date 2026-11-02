@@ -221,6 +221,8 @@ __marimo__/
 
 data/
 *.parquet
+# the 1.85 MB eval bundle CI recomputes metrics on (cards/P4.md step 7)
+!tests/fixtures/eval_bundle/*.parquet
 
 # personal documents, never commit
 docs/*.pdf

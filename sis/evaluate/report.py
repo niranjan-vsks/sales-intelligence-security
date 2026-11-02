@@ -76,11 +76,16 @@ def statements(metrics: dict[str, Any], baselines: dict[str, Any], ablations: di
         base_p, base_rb = _p(full[lab], k), full[lab]["rank_biserial"]
         for name, a in ablations["ablations"].items():
             m = a["by_priority"][lab]
-            if _p(m, k) > base_p or (m["rank_biserial"] or 0) > (base_rb or 0):
-                out.append(f"- {lab}: {name} scores higher than the full model "
-                           f"(p@{k:,} {_pct(_p(m, k))} vs {_pct(base_p)}, rank-biserial "
-                           f"{_num(m['rank_biserial'], 3)} vs {_num(base_rb, 3)}): on this "
-                           f"label the removed part does not earn its weight.")
+            better = []
+            if _p(m, k) > base_p:
+                better.append(f"p@{k:,} {_pct(_p(m, k))} vs {_pct(base_p)}")
+            if (m["rank_biserial"] or 0) > (base_rb or 0):
+                better.append(f"rank-biserial {_num(m['rank_biserial'], 3)} vs "
+                              f"{_num(base_rb, 3)}")
+            if better:
+                out.append(f"- {lab}: {name} beats the full model on {' and '.join(better)}: "
+                           f"by that measure the removed part does not earn its weight on "
+                           f"this label.")
     return out
 
 
@@ -115,6 +120,11 @@ def write_report(metrics: dict[str, Any], baselines: dict[str, Any], ablations: 
         segs = [_pct(d["by_segment"].get(s, {}).get("rate")) for s in SEGMENTS]
         L.append(f"| {lab} | {d['n_pos']:,} | {_pct(d['base_rate'])} | " + " | ".join(segs)
                  + " |")
+    ov = metrics["tested_overlap"]
+    L += ["", f"The tested labels overlap: {ov['verified_and_opts_vulns']:,} entities have both "
+          f"label_verified and label_opts_vulns, {ov['verified_only']:,} only verified, "
+          f"{ov['opts_vulns_only']:,} only opts_vulns. label_any_tested is close to 1 label of "
+          f"{labels['label_any_tested']['n_pos']:,} entities, not 3 independent ones."]
     head = ("| ranking | " + " | ".join(f"p@{k:,} [95% CI]" for k in ks) + " | "
             + " | ".join(f"lift@{k:,}" for k in ks) + " | rank-biserial |")
     sep = "|---|" + "---|" * (2 * len(ks) + 1)

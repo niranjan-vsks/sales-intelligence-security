@@ -140,6 +140,13 @@ def evaluate(file_id: str, con: duckdb.DuckDBPyConnection,
     version = con.execute("SELECT min(scoring_version) FROM sc").fetchall()[0][0]
     res: dict[str, Any] = {"file_id": file_id, "scoring_version": version, "ks": cfg.ks,
                            "n_active": counts["n_active"], "labels": counts["labels"]}
+    both, v_only, o_only = con.execute("""
+        SELECT count(*) FILTER (WHERE label_verified AND label_opts_vulns),
+               count(*) FILTER (WHERE label_verified AND NOT label_opts_vulns),
+               count(*) FILTER (WHERE label_opts_vulns AND NOT label_verified) FROM ev""")\
+        .fetchall()[0]
+    res["tested_overlap"] = {"verified_and_opts_vulns": int(both), "verified_only": int(v_only),
+                             "opts_vulns_only": int(o_only)}
     res.update(views(con, "ev", cfg))
     res["sanity"] = sanity(con)
     write_json(res, paths.eval_dir(file_id) / "metrics.json")

@@ -261,14 +261,14 @@ Specified in cards/P4.md. There is no purchase, contact or churn field in
 the file. We hold out the provider's tested or curated labels and ask
 whether the ranking is rich in them at the top:
 
-| Label | Entities with it `[P4 fills]` | What it says | What it cannot say |
+| Label | Entities with it (P4, of 495,419 active) | What it says | What it cannot say |
 |---|---|---|---|
-| label_kev | from 282,801 banners | a version-inferred CVE is on the CISA exploited list | whether the host is exploitable; downstream of fact A, partly circular |
-| label_verified | from 4,808 banners | the provider tested and confirmed a CVE | nothing about the 99 percent untested |
-| label_heartbleed | from 160 banners | an active test found Heartbleed | 1 CVE only |
-| label_opts_vulns | from 5,085 banners | provider-run vulnerability probes hit | tiny coverage |
-| label_any_tested | union of the 3 above | the honest exam: labels that came from a test, not a version string | small, so wide confidence intervals |
-| label_has_vendor | 83,779 | already a customer of someone | budget, satisfaction, product |
+| label_kev | 53,287 (10.76%), from 282,801 banners | a version-inferred CVE is on the CISA exploited list | whether the host is exploitable; downstream of fact A, partly circular |
+| label_verified | 791 (0.16%), from 4,808 banners | the provider tested and confirmed a CVE | nothing about the 99 percent untested |
+| label_heartbleed | 50 (0.01%), from 160 banners | an active test found Heartbleed | 1 CVE only |
+| label_opts_vulns | 791 (0.16%), from 5,085 banners; 777 of them also verified | provider-run vulnerability probes hit | tiny coverage |
+| label_any_tested | 805 (0.16%), union of the 3 above | the honest exam: labels that came from a test, not a version string | small, so wide confidence intervals |
+| label_has_vendor | 77,966 (15.74%); Stage 1 counted 83,779 before the edge rule | already a customer of someone | budget, satisfaction, product |
 
 Metrics reported, each against random (base rate), a breadth-only
 ranking and a CVE-count-only ranking:
@@ -282,6 +282,22 @@ ranking and a CVE-count-only ranking:
   `displace` segment must contain it at a rate far above `untouched`, by
   construction, and the exposure distributions of the 2 segments are
   reported side by side
+
+Measured on the first file (P4, docs/EVAL_REPORT_<file_id>.md), ranking
+by `priority`, Wilson 95 percent intervals:
+
+| label | p@100 | p@1,000 | p@10,000 | lift@1,000 | rank-biserial |
+|---|---|---|---|---|---|
+| label_any_tested | 10.0% [5.5, 17.4] | 5.1% [3.9, 6.6] | 2.0% [1.7, 2.3] | 31.4 | 0.481 |
+| label_kev | 72.0% [62.5, 79.9] | 57.5% [54.4, 60.5] | 61.8% [60.8, 62.8] | 5.3 | 0.854 |
+
+At k = 1,000 on label_any_tested: random 0.14%, breadth_only 5.1%,
+cve_count_only 3.3%; ablations no_A 4.6%, no_B 3.9%, no_C 2.6%, no_D
+6.6%. The full model beats cve_count_only but the intervals overlap, and
+ties breadth_only. Removing D (the segment multipliers) raises precision
+on every vulnerability label, likely because `low_surface` (x0.5) holds tested
+positives at the same rate as `untouched`. Untouched only, p@1,000 on
+label_any_tested is 4.2% [3.1, 5.6] against a 0.21% base rate.
 
 The honest limits, stated in the write-up: label_kev is downstream of the
 same version strings fact A reads, so a high score there partly proves we
