@@ -35,6 +35,19 @@ def vulns_glob(file_id: str) -> str:
     return (file_dir(file_id) / "vulns" / "*.parquet").as_posix()
 
 
+def eval_dir(file_id: str) -> Path:
+    return file_dir(file_id) / "eval"
+
+
+def eval_fixture_dir() -> Path:
+    """The committed 50,000-entity bundle the CI eval step recomputes metrics on."""
+    return REPO_ROOT / "tests" / "fixtures" / "eval_bundle"
+
+
+def eval_thresholds_path() -> Path:
+    return REPO_ROOT / "tests" / "eval_thresholds.json"
+
+
 def quarantine_dir() -> Path:
     return data_root() / "quarantine"
 

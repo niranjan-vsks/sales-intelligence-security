@@ -92,9 +92,21 @@ def score(
 
 
 @app.command()
-def evaluate() -> None:
-    """Measure the ranking against held-out labels (P4)."""
-    _stub("evaluate")
+def evaluate(
+    file_id: str = typer.Argument(..., help="file_id of a scored file."),
+    fixture: bool = typer.Option(
+        False, "--fixture",
+        help="Also rewrite tests/fixtures/eval_bundle and tests/eval_thresholds.json."),
+) -> None:
+    """Measure the ranking against held-out labels: labels, metrics, baselines, ablations."""
+    from sis.evaluate.run import run
+
+    res = run(file_id, fixture=fixture)
+    typer.echo(f"labels {res.n_labels} active entities -> {res.out_dir}")
+    typer.echo(f"report {res.report}")
+    if res.fixture:
+        typer.echo(f"fixture {res.fixture}")
+    typer.echo(f"wall_seconds {res.wall_seconds}")
 
 
 @app.command()

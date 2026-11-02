@@ -1,0 +1,11 @@
+# Evaluation constants (cards/P4.md, DESIGN.md section 6). Nothing here changes a score.
+ks: [100, 1000, 10000]
+z: 1.959963984540054          # two-sided 95 percent, for the Wilson interval
+random_seeds: [1, 2, 3, 4, 5] # random baseline: 5 seeded shuffles, averaged
+
+fixture:
+  seed: 11
+  n_entities: 50000
+  k: 1000
+  labels: [label_any_tested, label_kev]
+  threshold_factor: 0.95      # committed threshold = fixture value x this
