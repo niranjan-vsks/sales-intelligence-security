@@ -1,6 +1,6 @@
 # 1 machine, shared-cpu-1x, 1 GB (DESIGN.md 9). The image is built locally with the bundle as a
 # named build context and pushed to registry.fly.io; docs/DEPLOY.md has the commands.
-app = "sis"
+app = "sis-niranjan"
 primary_region = "fra"
 
 [http_service]

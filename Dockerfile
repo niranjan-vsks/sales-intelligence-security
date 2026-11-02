@@ -22,4 +22,7 @@ ENV PATH="/app/.venv/bin:$PATH" \
     DUCKDB_MEMORY_LIMIT=512MB \
     DUCKDB_THREADS=2
 EXPOSE 8000
-CMD ["uvicorn", "sis.api.app:create_app", "--factory", "--host", "0.0.0.0", "--port", "8000"]
+# Fly terminates TLS at its proxy; trust its X-Forwarded-Proto so url_for() builds https URLs
+# (without it the stylesheet link is http:// and the browser blocks it as mixed content).
+CMD ["uvicorn", "sis.api.app:create_app", "--factory", "--host", "0.0.0.0", "--port", "8000", \
+     "--proxy-headers", "--forwarded-allow-ips", "*"]

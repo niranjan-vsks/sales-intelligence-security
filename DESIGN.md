@@ -453,10 +453,13 @@ What breaks first, and the next move for each:
 
 ## 9. Hosting and cost
 
-Target: 1 Fly.io machine (shared-cpu-1x, 1 GB RAM) running the FastAPI
-app with the serve bundle baked into the Docker image. Expected cost on the
-order of 5 USD a month at the published rate; P5 records the exact figure
-from the pricing page on deploy day `[P5 fills]`. No database service, no
+Deployed: 1 Fly.io machine (shared-cpu-1x, 1 GB RAM, region fra, always on)
+running the FastAPI app with the serve bundle baked into the Docker image,
+live at https://sis-niranjan.fly.dev/ since 2026-11-03. Cost: 7.73 USD a
+month for the started machine in fra (6.70 USD in the cheapest regions),
+from https://docs.fly.io/about/pricing on 2026-11-03; the shared IPv4 and
+registry image storage are free, outbound data transfer is extra and not
+measured. No database service, no
 object storage, no secrets beyond the Logfire and Anthropic keys.
 
 Zero-cost alternative recorded in P5: Render free web service with

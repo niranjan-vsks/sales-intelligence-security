@@ -1,8 +1,12 @@
 # Deploy
 
-Status: **not deployed yet.** The image builds and runs locally; the Fly.io deploy is waiting on
-a logged-in `flyctl` on the pipeline machine (see "Blocked" below). Live URL, plan and cost
-figure are filled in after the first deploy.
+**Live URL: https://sis-niranjan.fly.dev/** (deployed 2026-11-03, bundle 20261102-1135-1.1.0,
+image `registry.fly.io/sis-niranjan:20261102-1135-1.1.0-2`).
+
+Host: Fly.io, app `sis-niranjan`, 1 machine shared-cpu-1x with 1 GB RAM in fra, always on.
+Cost: **7.73 USD a month** for that machine started in fra (6.70 USD in the cheapest regions,
+iad and ewr), from https://docs.fly.io/about/pricing on 2026-11-03. Shared IPv4 and registry
+image storage are free; outbound data transfer is extra and not measured.
 
 ## What is deployed
 
@@ -13,8 +17,8 @@ is the share mechanism, so anyone with the URL can read the ranking and post fee
 
 Feedback (`POST /api/feedback`, the 2 buttons on an account page) is appended to
 `/app/bundle/feedback.jsonl` inside the running machine. The file lives in the machine's
-filesystem and is lost on redeploy; copy it out before deploying a new bundle
-(`fly ssh console -C "cat /app/bundle/feedback.jsonl" > feedback-<bundle>.jsonl`).
+filesystem and is lost on redeploy; copy it out before deploying a new image
+(`flyctl ssh console --app sis-niranjan -C "cat /app/bundle/feedback.jsonl" > feedback-<bundle>.jsonl`).
 
 ## 1. Export the bundle
 
@@ -48,26 +52,46 @@ and `/app/bundle/feedback.jsonl` grew to 1 line.
 context, so the image is built locally and pushed to Fly's registry:
 
 ```
-fly auth login
-fly apps create <app>            # "sis" is the PHASE_CONFIG name; Fly app names are global
-fly auth docker
-docker tag sis registry.fly.io/<app>:<bundle_version>
-docker push registry.fly.io/<app>:<bundle_version>
-fly deploy --app <app> --image registry.fly.io/<app>:<bundle_version>
+flyctl auth login
+flyctl apps create sis-niranjan   # once; Fly app names are global, so not "sis"
+flyctl auth docker
+docker tag sis registry.fly.io/sis-niranjan:<tag>
+docker push registry.fly.io/sis-niranjan:<tag>
+flyctl deploy --app sis-niranjan --image registry.fly.io/sis-niranjan:<tag> --ha=false
 ```
 
-Then the live smoke (cards/P5.md step 9): `/api/health` 200, `/api/accounts?segment=untouched`
-50 items, 1 detail page, 1 feedback POST, and `fly ssh console -C "wc -l /app/bundle/feedback.jsonl"`.
+On this Windows machine the binary is `C:/Users/NIRANJAN VSKS/.fly/bin/flyctl.exe`, called
+`flyctl` (not `fly`). `--ha=false` keeps 1 machine; Fly otherwise starts 2 for a new app.
 
-## Blocked
+The first deploy (tag `20261102-1135-1.1.0`) served every page with an `http://` stylesheet
+link: Fly terminates TLS at its proxy and uvicorn did not trust the forwarded scheme, so the
+browser blocked the CSS as mixed content. The image now runs uvicorn with `--proxy-headers
+--forwarded-allow-ips *`, redeployed as tag `20261102-1135-1.1.0-2`.
 
-`flyctl` is not installed on the pipeline machine and there is no Fly token, so the deploy needs
-the account owner to run `fly auth login` once. Fallback in the card: Render free web service
-(spins down when idle), which also needs an account.
+## 4. Live smoke, 2026-11-03 (cards/P5.md step 9)
+
+Measured from the pipeline machine (Europe) against https://sis-niranjan.fly.dev with a small
+httpx script, after the second deploy:
+
+| request | result | time |
+|---|---|---|
+| `/api/health`, first request | 200, bundle_version 20261102-1135-1.1.0, n_accounts 487,133 | 233 ms |
+| `/api/accounts?segment=untouched&page_size=5` | 200, 5 items by priority (wide.ad.jp 92.2 first) | 273 ms, then 261 ms warm |
+| `/api/accounts?segment=untouched` | 200, 50 items | 478 ms |
+| `/api/accounts/<id>` | 200, 15 signals, 57 evidence rows | 461 ms |
+| `/`, `/accounts/<id>`, `/about`, `/api/stats` | 200 each | 262 to 440 ms |
+| `POST /api/feedback` | 200 | |
+
+`flyctl ssh console --app sis-niranjan -C "wc -l /app/bundle/feedback.jsonl"` printed 2: 1 line
+from the smoke POST and 1 from clicking Mark prospect in a browser on the live account page.
+Both are test entries. The browser walk on the live URL (accounts table, htmx paging, detail
+page, feedback button, About page) showed the stylesheet loading and no console errors.
+`flyctl status` showed 1 machine started, health check 1 of 1 passing.
 
 ## Logfire
 
 `logfire.configure(send_to_logfire="if-token-present")`: with `LOGFIRE_TOKEN` set (as a Fly
-secret: `fly secrets set LOGFIRE_TOKEN=...`) spans go to Logfire; without it they print to the
-console, which `fly logs` shows. Every request is a span (`instrument_fastapi`) and every DuckDB
-query is a child span `query` with its SQL.
+secret: `flyctl secrets set LOGFIRE_TOKEN=...`) spans go to Logfire; without it they print to
+the console. No token is set on the deployed app, so tracing is console only: every request is
+a span (`instrument_fastapi`) and every DuckDB query a child span `query`, visible in
+`flyctl logs --app sis-niranjan`.
