@@ -1,5 +1,33 @@
 # State (past tense, newest first)
 
+- 2026-11-02  Builder (Opus 5.5, fresh session): committed the architect's staged specs as 8203a74 "Architect: specs reconciled to P1/P2 builds". Jobs 1 and 2 of the session prompt (P2 review, P3) were already done by the previous session, so this session built P4 only.
+  RESUME POINT: P4 is done; next is P5 (deploy; gates 4 and 5 apply from P5). Architect decisions pending: the P3 hosting-provider finding and the P4 segment-multiplier finding below. To re-check P4: `uv run pytest tests/test_eval.py -m eval -q` and `uv run sis evaluate <file_id>` (about 60 s; it rewrites docs/EVAL_REPORT_<file_id>.md, which holds no hand-written text). Only `--fixture` rewrites the committed bundle and thresholds.
+- 2026-11-02  Builder (Opus 5.5): P4 done. Handoff report:
+    P4 done. Commit 0f15f87 (code 0aae670).
+    Label base rates: kev 10.76%, verified 0.16%, heartbleed 0.01%, opts_vulns 0.16%, any_tested 0.16%, has_vendor 15.74% (entities 53,287 / 791 / 50 / 791 / 805 / 77,966 of 495,419; ransomware 'Known' 14,010 = 2.83%, informational).
+    Full model by priority, label_any_tested: p@100 10.00% [5.52, 17.44], p@1000 5.10% [3.90, 6.64], p@10000 1.99% [1.73, 2.28], lift@1000 31.39, rank-biserial 0.481.
+    Full model by priority, label_kev: p@100 72.00% [62.51, 79.86], p@1000 57.50% [54.41, 60.53], p@10000 61.80% [60.84, 62.75], lift@1000 5.35, rank-biserial 0.854.
+    Baselines p@1000 any_tested: random 0.14% (mean of 5 seeded shuffles; expected = base rate 0.16%), breadth 5.10%, cve_count 3.30%.
+    Ablations p@1000 any_tested: no_A 4.60%, no_B 3.90%, no_C 2.60%, no_D 6.60%.
+    Untouched-only p@1000 any_tested: 4.20% [3.12, 5.63] (base rate in untouched 0.213%).
+    Thresholds committed: precision_at_1000/label_any_tested 0.0228 (fixture value 0.024), precision_at_1000/label_kev 0.5852 (fixture value 0.616).
+    Anything that looks wrong:
+      1. For the architect: the segment multipliers cost precision on every vulnerability label. no_D (all multipliers = untouched's 1.0) beats the full model at p@1000 on kev (74.4% vs 57.5%), verified (6.6 vs 5.1), opts_vulns (6.4 vs 4.9), any_tested (6.6 vs 5.1). Likely cause: low_surface (x0.5) holds tested positives at 0.20%, the same rate as untouched (0.21%). Not changed: P4 does not fit weights.
+      2. The full model ties breadth_only at p@1000 on any_tested (5.10% both) and beats cve_count_only (3.30%) with overlapping intervals. Rank-biserial does separate them: 0.481 vs 0.224 and 0.278.
+      3. no_A has a higher rank-biserial on any_tested than the full model (0.790 vs 0.481) but a lower p@1000 (4.60 vs 5.10): fact A helps the top of the list and hurts the order of the long tail on tested labels.
+      4. label_verified and label_opts_vulns are almost the same entities (777 in both, 14 only verified, 14 only opts_vulns), so label_any_tested is close to 1 label of 805, not 3.
+      5. 1,192 kev-positive entities have kev only on edge banners (cdn tag or http_waf). Labels count every attributed banner, as the card says; facts A to C skip edge banners.
+      6. label_kev: cve_count_only reaches 99.6% p@1000, the full model 57.5%. That is the expected circularity (the count of non-kev CVEs predicts kev), not a defect.
+    Gates: pytest 109 of 109 (audit `uv run ruff check . && uv run pytest -q -m "not llm"` exit 0); ruff clean; mypy clean (41 files); acceptance: `pytest tests/test_eval.py -m eval -q` 4 passed, `sis evaluate <file_id>` exit 0 in 57.2 s, metrics.json keys file_id, scoring_version, ks, n_active, labels, tested_overlap, by_priority, by_exposure, untouched_only, sanity. Rescoring with the unmodified config reproduced scores.parquet (495,419 rows, max abs diff 0, 0 segment mismatches). Rerun with --fixture gave a byte-identical bundle and labels.parquet (md5) and identical thresholds. Cross-checked with independent queries: verified 791 and kev 53,287 entities via EXISTS, p@1000 any_tested 51 hits via rank_overall, rank-biserial 0.48078 by pair counting in Python. Fixture 50,000 rows, 1,854,888 bytes. gate 5: n/a until P5.
+    Guards mutation-tested (10 of 11 killed, 1 equivalent): tie-break order, score order, average rank for ties, Wilson term, verified label, heartbleed match, ransomware 'Known', ablation identity guard, renormalisation, no_D multipliers. Survived: dropping the `JOIN act` inside the label banners CTE, which is equivalent because the final SELECT starts from `act`.
+    Deviations:
+      1. The fixture and thresholds are written only by `sis evaluate FILE_ID --fixture`, so a normal run never moves the CI bar. New files beyond the card: sis/evaluate/run.py, sis/evaluate/fixture.py, sis/eval_config.py, config/eval.yaml (k values, seeds, fixture size, factor 0.95), sis/evaluate/sql/01_labels.sql, tests/test_evaluate.py (synthetic labels, override, identity guard, artefacts; not eval-marked).
+      2. .gitignore ignores *.parquet (PHASE_CONFIG protects *.parquet); added an exception for tests/fixtures/eval_bundle/*.parquet, which the card says to commit. It holds 50,000 real entity ids (domain names) with scores and labels.
+      3. label_ransomware = ransomware_campaign 'Known'. 'Unknown' is on 308,350 kev rows and is not a ransomware label.
+      4. Random baseline: precision and rank-biserial are the mean of 5 draws; its interval is Wilson on the hits pooled over the draws.
+      5. Rank-biserial gives tied scores their average rank. 18.4% of active entities have priority 0, so this matters.
+      6. untouched_only is computed for the baselines and ablations too. by_exposure has no_D identical to the full model, as it must.
+      7. DESIGN.md 6: the only `[P4 fills]` was the label table's column header; filled it and added a short block of measured numbers below the metrics list.
 - 2026-11-02  Builder (Opus 5.5): P3 done. Handoff report:
     P3 done. Commit 550073f (+ report/handoff commit). scoring_version 1.0.0.
     Active entities scored 495,419. Segments: untouched 148,502, partially_covered 105,054, displace 77,966, low_surface 163,897.
