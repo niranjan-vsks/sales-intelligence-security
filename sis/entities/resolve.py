@@ -26,6 +26,24 @@ REPORT_DIR = paths.REPO_ROOT / "docs"
 DERIVED_HEADER = "# derived from "
 
 
+class ResolveConfig(BaseModel):
+    """config/resolve.yaml: the operator rules of step 3 (cards/P3_1.md defect 1)."""
+
+    template_zone_patterns: list[str]
+    template_label_pattern: str
+    template_min_ips: int = Field(ge=1)
+    template_share: float = Field(gt=0.0, le=1.0)
+
+    @property
+    def zone_regex(self) -> str:
+        return "|".join(f"(?:{p})" for p in self.template_zone_patterns)
+
+
+def load_config(path: Path | None = None) -> ResolveConfig:
+    path = path or paths.config_dir() / "resolve.yaml"
+    return ResolveConfig.model_validate(yaml.safe_load(path.read_text(encoding="utf-8")))
+
+
 class ResolveResult(BaseModel):
     file_id: str
     max_ips: int
@@ -41,6 +59,14 @@ class ResolveResult(BaseModel):
     operators_seed: int
     operators_derived: int
     operators_derived_top: list[str] = Field(default_factory=list)
+    # rule 1 and 2 matches, and how many of them each rule added beyond the seed, the cutoff
+    # and (for rule 2) rule 1
+    rule1_matched: int = 0
+    rule1_added: int = 0
+    rule2_matched: int = 0
+    rule2_added: int = 0
+    # (name, n_banners, n_ips, n_hostnames, n_templated), the 30 largest by n_banners
+    rule2_top: list[tuple[str, int, int, int, int]] = Field(default_factory=list)
     wall_seconds: float = 0.0
 
 
@@ -54,7 +80,8 @@ class MergeResult(BaseModel):
 
 
 def read_operator_file(path: Path) -> tuple[list[str], dict[str, list[str]]]:
-    """(seed names, {file_id: derived names}). Seed = the lines before the first header."""
+    """(seed names, {file_id: derived names}). Seed = the lines before the first header.
+    A `#` starts a comment, on its own line or after a name."""
     seed: list[str] = []
     derived: dict[str, list[str]] = {}
     current: list[str] | None = None
@@ -62,13 +89,13 @@ def read_operator_file(path: Path) -> tuple[list[str], dict[str, list[str]]]:
         return seed, derived
     for raw in path.read_text(encoding="utf-8").splitlines():
         line = raw.strip()
-        if not line:
-            continue
         if line.startswith(DERIVED_HEADER):
             current = derived.setdefault(line[len(DERIVED_HEADER):].strip(), [])
-        elif line.startswith("#"):
             continue
-        elif current is None:
+        line = line.split("#", 1)[0].strip()
+        if not line:
+            continue
+        if current is None:
             seed.append(line.lower())
         else:
             current.append(line.lower())
@@ -80,7 +107,9 @@ def write_operator_file(
 ) -> None:
     sections = {**derived, file_id: new}
     seen = set(seed)
-    lines = list(dict.fromkeys(seed))
+    block = _seed_block(path)
+    block_names = [n for ln in block if (n := ln.split("#", 1)[0].strip().lower())]
+    lines = block if block_names == seed else list(dict.fromkeys(seed))
     for fid, names in sections.items():
         names = sorted(n for n in set(names) if n not in seen)
         if not names:
@@ -88,6 +117,19 @@ def write_operator_file(
         seen.update(names)
         lines += [f"{DERIVED_HEADER}{fid}", *names]
     path.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
+
+
+def _seed_block(path: Path) -> list[str]:
+    """The file's lines before the first derived header, verbatim, so hand comments survive."""
+    if not path.exists():
+        return []
+    block: list[str] = []
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        if raw.strip().startswith(DERIVED_HEADER):
+            break
+        if raw.strip():
+            block.append(raw.rstrip())
+    return block
 
 
 # ---- helpers ---------------------------------------------------------------------------
@@ -146,6 +188,7 @@ def resolve(
     op_path = operator_file or paths.config_dir() / "operator_domains.txt"
     seed, derived_all = read_operator_file(op_path)
     others = [n for fid, names in derived_all.items() if fid != file_id for n in names]
+    rcfg = load_config()
     blocked_tags = yaml.safe_load(
         (paths.config_dir() / "blocked_tags.yaml").read_text(encoding="utf-8"))
 
@@ -167,6 +210,8 @@ def resolve(
     params = {
         "cutoff": cutoff, "file_id": file_id,
         "b01": blocked_tags["honeypot_or_scanner"], "b02": blocked_tags["c2_or_malware"],
+        "zone_re": rcfg.zone_regex, "tpl_label_re": rcfg.template_label_pattern,
+        "tpl_min_ips": rcfg.template_min_ips, "tpl_share": rcfg.template_share,
     }
     for step in ("01_names", "02_coverage", "03_operators", "04_primary", "05_fallback",
                  "06_banner_entity", "07_entities"):
@@ -178,6 +223,24 @@ def resolve(
     top_derived = [r[0] for r in con.execute(
         "SELECT o.name FROM op_derived o JOIN coverage c ON c.name = o.name "
         "GROUP BY o.name ORDER BY max(c.n_ips) DESC, o.name LIMIT 5").fetchall()]
+
+    rule_counts = con.execute("""
+        WITH base AS (
+            SELECT name FROM op_seed
+            UNION SELECT name FROM coverage WHERE kind = 'domain' AND n_ips > $cutoff)
+        SELECT (SELECT count(*) FROM op_rule1),
+               (SELECT count(*) FROM op_rule1 WHERE name NOT IN (SELECT name FROM base)),
+               (SELECT count(*) FROM op_rule2),
+               (SELECT count(*) FROM op_rule2 WHERE name NOT IN (SELECT name FROM base)
+                                              AND name NOT IN (SELECT name FROM op_rule1))""",
+        {"cutoff": cutoff}).fetchall()[0]
+    rule2_top = [tuple(r) for r in con.execute("""
+        SELECT r.name, count(DISTINCT n.banner_id), any_value(c.n_ips), any_value(t.n_hostnames),
+               any_value(t.n_templated)
+        FROM op_rule2 r JOIN host_template t USING (name)
+        JOIN coverage c ON c.kind = 'domain' AND c.name = r.name
+        JOIN names n ON n.kind = 'domain' AND n.name = r.name
+        GROUP BY r.name ORDER BY 2 DESC, 1 LIMIT 30""").fetchall()]
 
     # unattributed banners, mutually exclusive reasons
     n_attr = int(_scalar(con, "SELECT count(DISTINCT banner_id) FROM banner_entity"))
@@ -230,7 +293,10 @@ def resolve(
                                           "WHERE attribution = 'fallback'")),
         banners_none=n_banners - n_attr, unattributed=unattributed,
         operators_seed=len(set(seed) | set(others)), operators_derived=len(derived),
-        operators_derived_top=top_derived, wall_seconds=round(time.time() - t0, 1),
+        operators_derived_top=top_derived,
+        rule1_matched=rule_counts[0], rule1_added=rule_counts[1],
+        rule2_matched=rule_counts[2], rule2_added=rule_counts[3], rule2_top=rule2_top,
+        wall_seconds=round(time.time() - t0, 1),
     )
     if write_report:
         REPORT_DIR.mkdir(parents=True, exist_ok=True)

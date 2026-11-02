@@ -130,6 +130,55 @@ def test_operator_excluded(isolated: Path) -> None:
     assert res.unattributed["over_cutoff"] == 0
 
 
+RULE1_MATCH = ["ip-15-235-134.net", "IP-54-36-168.eu", "static-1-2-3.example.com",
+               "host1.2.3.example.net", "10-20-30.example.org", "1.2.3.4.example.com"]
+RULE1_NO_MATCH = ["ip-cam-shop.com", "iphone.com", "static.example.com", "host-1.com",
+                  "123.example.com", "server.ip-1.com"]
+
+
+@pytest.mark.parametrize(("name", "expected"),
+                         [(n, True) for n in RULE1_MATCH] + [(n, False) for n in RULE1_NO_MATCH])
+def test_template_zone_regex(name: str, expected: bool) -> None:
+    cfg = resolve_mod.load_config()
+    con = db.connect()
+    got = con.execute("SELECT regexp_matches(?, ?, 'i')", [name, cfg.zone_regex]).fetchall()
+    assert got[0][0] is expected
+
+
+def test_template_zone_rule_makes_an_operator(isolated: Path) -> None:
+    rows = [{"domains": ["ip-15-235-134.net"], "ip_str": "15.235.134.9"},
+            {"domains": ["acme.com"], "ip_str": "10.0.0.1"}]
+    res, t = run(rows, isolated)
+    assert keys(t) == {("domain", "acme.com")}
+    assert res.rule1_matched == 1 and res.rule1_added == 1
+    assert res.unattributed["operator_only"] == 1
+
+
+def _hoster(n_templated: int) -> list[dict[str, Any]]:
+    """A 12-IP domain whose first `n_templated` hosts are named from their address."""
+    rows = []
+    for i in range(12):
+        label = f"10-0-7-{i}-static" if i < n_templated else f"office{chr(97 + i)}"
+        rows.append({"domains": ["hoster.com"], "hostnames": [f"{label}.hoster.com"],
+                     "ip_str": f"10.0.7.{i}"})
+    return rows
+
+
+def test_hostname_template_rule(isolated: Path) -> None:
+    res, t = run(_hoster(10), isolated)  # 10 of 12 = 0.83 >= 0.8
+    assert ("domain", "hoster.com") not in keys(t)
+    assert res.rule2_matched == 1 and res.rule2_added == 1
+    assert res.rule2_top[0][:5] == ("hoster.com", 12, 12, 12, 10)
+    res, t = run(_hoster(7), isolated)  # 7 of 12 = 0.58
+    assert ("domain", "hoster.com") in keys(t)
+    assert res.rule2_matched == 0
+
+
+def test_hostname_template_rule_needs_min_ips(isolated: Path) -> None:
+    res, t = run(_hoster(12)[:9], isolated)  # 9 IPs, all templated, below template_min_ips
+    assert ("domain", "hoster.com") in keys(t) and res.rule2_matched == 0
+
+
 def test_fallback_only_when_no_primary(isolated: Path) -> None:
     rows = [
         {"domains": ["acme.com"], "cert_subject_cn": "www.other.org"},  # primary wins
@@ -276,6 +325,17 @@ def test_other_files_derived_sections_are_kept(isolated: Path) -> None:
                         ["y.com", "x.com"])
     assert isolated.read_text(encoding="utf-8") == (
         "bigcdn.net\n# derived from older\nx.com\n# derived from newer\ny.com\n")
+
+
+def test_operator_file_keeps_seed_comments(isolated: Path) -> None:
+    isolated.write_text("# hand list\nbigcdn.net\nhoster.net  # hosting, top-100 eyeball P3.1\n",
+                        encoding="utf-8")
+    seed, _ = read_operator_file(isolated)
+    assert seed == ["bigcdn.net", "hoster.net"]
+    write_operator_file(isolated, seed, {}, "f1", ["y.com"])
+    assert isolated.read_text(encoding="utf-8") == (
+        "# hand list\nbigcdn.net\nhoster.net  # hosting, top-100 eyeball P3.1\n"
+        "# derived from f1\ny.com\n")
 
 
 def test_shipped_operator_seed_is_intact() -> None:

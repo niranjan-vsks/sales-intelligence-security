@@ -59,6 +59,17 @@ def write_report(con: duckdb.DuckDBPyConnection, r: "ResolveResult", path: Path)
         f"{r.operators_seed:,}. Derived from this file: {r.operators_derived:,}. "
         f"Largest 5 by IP coverage: {', '.join(r.operators_derived_top) or 'none'}.",
         "",
+        "Hosting-zone rules (config/resolve.yaml), matched and added beyond the seed and the "
+        f"cutoff: rule 1 template zone {r.rule1_matched:,} matched, {r.rule1_added:,} added; "
+        f"rule 2 templated hostnames {r.rule2_matched:,} matched, {r.rule2_added:,} added "
+        "(not counting rule 1).",
+        "",
+        "Rule 2, the 30 largest by banners:",
+        "",
+        "| name | banners | ips | hostnames | templated |",
+        "|---|---|---|---|---|",
+        *[f"| {n} | {nb:,} | {ips:,} | {nh:,} | {nt:,} |" for n, nb, ips, nh, nt in r.rule2_top],
+        "",
     ]
     q = con.execute("SELECT quantile_disc(n_banners, [0.5, 0.9, 0.99]), max(n_banners) "
                     "FROM entities WHERE status = 'active'").fetchall()[0]
