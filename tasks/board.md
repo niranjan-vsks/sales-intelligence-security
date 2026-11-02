@@ -8,8 +8,8 @@
 | P3 | builder (Opus 5.5) | done | 2026-11-02 | 550073f, 102 of 102; hosting-provider finding needs architect |
 | P4 | builder (Opus 5.5) | done | 2026-11-02 | 0f15f87, 109 of 109; segment-multiplier finding needs architect |
 | P3.1 | builder (Opus 5.5) | done | 2026-11-03 | b14fa63, 126 of 126; top-100 hosting 95 -> 57, target <10 not met |
-| P5 | builder (Opus 5.5) | blocked | 2026-11-03 | ab190ca, 133 of 133, local walk done; deploy waits on `fly auth login` |
-| P6 | unclaimed | optional | | |
+| P5 | builder (Opus 5.5) | done | 2026-11-03 | 003d6a5, 133 of 133; live https://sis-niranjan.fly.dev/, 7.73 USD/month; strix not run |
+| P6 | builder (Sonnet 5.5) | in progress | 2026-11-03 | claimed; parallel session deploys P5 in same tree |
 | P7 | unclaimed | optional | | builds the LLM gateway |
 | P8 | unclaimed | optional | | |
 | P9 | unclaimed | optional | | |
