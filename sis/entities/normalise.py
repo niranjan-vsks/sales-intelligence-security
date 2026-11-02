@@ -19,13 +19,16 @@ def _is_ip(s: str) -> bool:
 
 def normalise_name(s: str | None) -> str | None:
     """Lowercase, drop trailing dots and a leading `www.`; None unless it is a dotted,
-    non-IP host name (DATA_MODEL.md 2.1 rule 1)."""
+    non-IP host name (DATA_MODEL.md 2.1 rule 1). A numeric last label is never a TLD, so
+    partial IPs and version strings ('74.18.178', '1.0') are rejected too."""
     if s is None:
         return None
     n = s.strip().lower().rstrip(".")
     if n.startswith("www."):
         n = n[4:]
     if "." not in n or ".." in n or n.startswith(".") or _BAD_CHARS.search(n) or _is_ip(n):
+        return None
+    if n.rsplit(".", 1)[1].isdigit():
         return None
     return n
 

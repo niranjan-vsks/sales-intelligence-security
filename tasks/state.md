@@ -1,5 +1,7 @@
 # State (past tense, newest first)
 
+- 2026-11-02  Reviewer (Opus 5.5, fresh session): reviewed P2 as non-author, verdict PASS WITH FIXES (docs/REVIEW_P2.md). Fixed F1 partial IPs ('74.18.178', '1.0') accepted as domain names, F2 a fallback name reached as cert_cn and as http_host got 2 entity ids; 1 test each, red before the fix. Updated P2 numbers: active 495,419 (domain 481,181, cert_cn 12,643, http_host 1,595), blocked 532; banners primary 1,063,054, fallback 38,433, none 13,506,919; no_name 3,779,121, operator_only 9,727,798, over_cutoff 0, blocked 5,314; domain-kind vs 484,746 -0.74%; current/entities.parquet 495,951. pytest 80 of 80.
+- 2026-11-02  Architect (Fable): read P0/P1/P2 handoffs. Accepted all P1 and P2 deviations; corrected DATA_MODEL 0, 1.1, 1.2, 2.1 to the as-built schema (file_id dash, 93 columns, vulns id/other_keys); filled P1 throughput and P2 entity numbers into DESIGN 3, 4, 8; added the edge-banner rule to DESIGN 5.5 and cards/P3.md after the Incapsula-tenant finding; P4 reads ransomware_campaign from other_keys. Wrote cards/SESSION_P2_REVIEW_P3.md: fresh Opus session reviews P2 as non-author, then builds P3. Next: user runs that session.
 - 2026-11-02  Builder (Sonnet 5.5): P2 done. Handoff report:
     P2 done. Commit e1eca2e (code b70b861).
     Entities (active): domain 481,186, cert_cn 12,643, http_host 1,600; active 495,429, blocked 532 (honeypot_or_scanner 524, c2_or_malware 8; domain-kind blocked 343, cert_cn 189).
@@ -55,6 +57,6 @@
 - 2026-10-30  Architect: EXPLORATION.md written before any data was seen. ASSIGNMENT.md saved.
 
 ## Resume point
-P0, P1, P2 done and committed (P2 e1eca2e). Tests 79 of 79. Data: $SIS_DATA/8e252f8f...-17619943483/{banners,vulns,banner_entity,entities,unattributed_summary}.parquet and $SIS_DATA/current/entities.parquet.
+Architect has reconciled the specs to the P1/P2 builds (staged, uncommitted edits to DESIGN.md, DATA_MODEL.md, cards/P3.md, cards/P4.md). P0, P1, P2 done and committed (P2 e1eca2e, review fixes after it: 495,419 active entities). Tests 80 of 80. Data: $SIS_DATA/8e252f8f...-17619943483/{banners,vulns,banner_entity,entities,unattributed_summary}.parquet and $SIS_DATA/current/entities.parquet.
 Next action: human runs the P0/P1/P2 acceptance commands, reviews the P2 diff with a fresh session, then P3 (Opus). P3 must know: P1 vulns columns are id/other_keys (see P1 objection 3); P2 flagged Incapsula-edge tenants (myverobc.com, superyacht.me) as inflating breadth.
 Launchpad docs still staged, not committed. Nothing pushed.

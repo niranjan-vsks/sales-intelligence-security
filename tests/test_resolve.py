@@ -74,6 +74,9 @@ def test_normalise() -> None:
     assert normalise_name("a..com") is None
     assert normalise_name(None) is None and normalise_name("") is None
     assert normalise_name("mail.example.com") == "mail.example.com"  # subdomains are kept
+    # partial IPs and version strings seen in `domains` on the real file: no TLD is numeric
+    assert normalise_name("74.18.178") is None and normalise_name("1.0") is None
+    assert normalise_name("123.example.com") == "123.example.com"
 
 
 def test_registered_domain() -> None:
@@ -153,6 +156,14 @@ def test_rekey_fallback_to_domain(isolated: Path) -> None:
     assert sorted(be["attribution"]) == ["fallback", "fallback", "primary"]
     assert len(set(be["entity_id"])) == 1
     assert t["entities"]["n_banners"] == [3]
+
+
+def test_fallback_name_reached_by_cert_and_host_is_one_entity(isolated: Path) -> None:
+    rows = [{"cert_subject_cn": "a.x.org"}, {"http_host": "b.x.org"}]  # no domain-kind x.org
+    _, t = run(rows, isolated)
+    assert keys(t) == {("cert_cn", "x.org")}  # the certificate kind wins, one id
+    assert len(set(t["banner_entity"]["entity_id"])) == 1
+    assert t["entities"]["n_banners"] == [2]
 
 
 def test_wide_certificate_name_still_joins_its_domain_entity(isolated: Path) -> None:
