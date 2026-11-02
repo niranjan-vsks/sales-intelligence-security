@@ -1,5 +1,27 @@
 # State (past tense, newest first)
 
+- 2026-11-02  Builder (Opus 5.5): P3 done. Handoff report:
+    P3 done. Commit 550073f (+ report/handoff commit). scoring_version 1.0.0.
+    Active entities scored 495,419. Segments: untouched 148,502, partially_covered 105,054, displace 77,966, low_surface 163,897.
+    Target-group check vs Stage 1 131,104: 133,232 (+1.62%), same predicates, every banner of the active entities.
+    Signal fire rates (top 8, share of scored entities): C_breadth_modules 81.67%, C_breadth_ports 81.67%, A_fingerprinted 59.48%, A_cpe_per_header 54.11%, B_cert_age_days 50.25%, C_components_vs_peers 45.42%, C_live_web 42.63%, A_inferred_cves 15.79%.
+    Exposure p50/p90/p99 per segment: untouched 22.0/53.2/72.5, partially_covered 19.4/50.6/75.0, displace 0.0/20.3/67.5, low_surface 15.2/48.1/65.0.
+    Peer groups: 223 groups, 2,706 entities fell back to bucket-only, 0 to global.
+    Random-10 eyeball: 5/10 look like real prospects; 3 small or personal sites, 1 a hoster's own servers, 1 CDN-fronted with nothing visible.
+    Outputs: signals 2,864,507 rows (18.6 MB), evidence 4,115,664 rows (111.5 MB), scores 495,419 rows (22.0 MB); sis score ran 204 s; rerun byte-identical (md5 of scores, signals, evidence, entities); sis score --merge -> current/scores.parquet 495,419.
+    Gates: pytest 102 of 102, audit exit 0, ruff clean, mypy clean (32 files); acceptance tests 23 of 23 incl. the real-output sanity test (displace 100% D_waf|D_security_appliance, untouched 0% any D signal, exposure in [0,100], facts in [0,1]); gate 5 n/a until P5.
+    Guards mutation-tested (11 of 11 killed): kev and verified exclusion, edge guard, cdn-tag edge, bucket pct for fallbacks, peer min size, evidence cap, exact legacy-TLS match, segment order, CVSS scaling, rank tie-break.
+    Finding for the architect: the top of the ranking is hosting providers, not tenants. 22 of the top 100 (193 of the top 1,000) are OVH per-/24 rDNS zones (`ip-15-235-134.net`), and 45 of the top 100 have hosting-like names (hostinguk.net, liquidweb.com, prioritycolo.com). Each stays under 50 IPs, so P2 keeps it as a customer, and it aggregates many customers' servers. 6,640 active entities have an `ip-a-b-c.` key. A P2 operator-rule change, not built.
+    Deviations:
+      1. DATA_MODEL 3.1 lists 23 signals, not 22 (6 A, 4 B, 7 C, 5 D, 1 X); the test checks the 23 against the table.
+      2. Fallback peer sets: an entity in '*|bucket' is percent-ranked against the whole bucket and '*|*' against everyone (DESIGN 5.1), not only against the other fallen-back entities that a literal PARTITION BY peer_group would give.
+      3. Peer bucket uses entities.n_modules (all banners); the breadth signals exclude edge banners, so an edge-only entity has breadth value 0 and pct 0.
+      4. fact_a's max(): only the winning alternative gets a contribution for top_signals; the CVE alternative is credited to A_inferred_cves (A_max_cvss never appears in top_signals). Contributions are taken before the clip, so they can sum above exposure when a fact clips at 1. D, X and C_live_web contribute 0.
+      5. A signal is stored when at least 1 banner fires, so a ratio or max signal needs value > 0 (A_cpe_per_header: http banner with cpe23; C_components_vs_peers: len > 0). Breadth is always stored.
+      6. ransomware_campaign is not filtered separately: on this file it is non-null only on kev rows (60,215 + 307,565 + 1,105 + 785), so excluding kev excludes it.
+      7. "untouched has 0 % of W01 to W07" is asserted on the D signals (edge rule applied); the raw Stage 1 predicates are what the 133,232 target-group figure uses.
+      8. The explorer's mapping W04 uses the old `x -> ...` lambda form; config/what_we_sell_map.csv is copied unchanged, so the scoring connection sets lambda_syntax = 'ENABLE_SINGLE_ARROW'.
+      9. Edge-only test: the card says "fact_c comes from C_live_web only"; C_live_web has no weight in fact_c, so fact_c = 0, which the test asserts.
 - 2026-11-02  Reviewer (Opus 5.5, fresh session): reviewed P2 as non-author, verdict PASS WITH FIXES (docs/REVIEW_P2.md). Fixed F1 partial IPs ('74.18.178', '1.0') accepted as domain names, F2 a fallback name reached as cert_cn and as http_host got 2 entity ids; 1 test each, red before the fix. Updated P2 numbers: active 495,419 (domain 481,181, cert_cn 12,643, http_host 1,595), blocked 532; banners primary 1,063,054, fallback 38,433, none 13,506,919; no_name 3,779,121, operator_only 9,727,798, over_cutoff 0, blocked 5,314; domain-kind vs 484,746 -0.74%; current/entities.parquet 495,951. pytest 80 of 80.
 - 2026-11-02  Architect (Fable): read P0/P1/P2 handoffs. Accepted all P1 and P2 deviations; corrected DATA_MODEL 0, 1.1, 1.2, 2.1 to the as-built schema (file_id dash, 93 columns, vulns id/other_keys); filled P1 throughput and P2 entity numbers into DESIGN 3, 4, 8; added the edge-banner rule to DESIGN 5.5 and cards/P3.md after the Incapsula-tenant finding; P4 reads ransomware_campaign from other_keys. Wrote cards/SESSION_P2_REVIEW_P3.md: fresh Opus session reviews P2 as non-author, then builds P3. Next: user runs that session.
 - 2026-11-02  Builder (Sonnet 5.5): P2 done. Handoff report:
@@ -57,6 +79,7 @@
 - 2026-10-30  Architect: EXPLORATION.md written before any data was seen. ASSIGNMENT.md saved.
 
 ## Resume point
-Architect has reconciled the specs to the P1/P2 builds (staged, uncommitted edits to DESIGN.md, DATA_MODEL.md, cards/P3.md, cards/P4.md). P0, P1, P2 done and committed (P2 e1eca2e, review fixes after it: 495,419 active entities). Tests 80 of 80. Data: $SIS_DATA/8e252f8f...-17619943483/{banners,vulns,banner_entity,entities,unattributed_summary}.parquet and $SIS_DATA/current/entities.parquet.
-Next action: human runs the P0/P1/P2 acceptance commands, reviews the P2 diff with a fresh session, then P3 (Opus). P3 must know: P1 vulns columns are id/other_keys (see P1 objection 3); P2 flagged Incapsula-edge tenants (myverobc.com, superyacht.me) as inflating breadth.
-Launchpad docs still staged, not committed. Nothing pushed.
+P0 to P3 done and committed (P2 review fixes 76472e2, P3 code 550073f). Tests 102 of 102 (audit exit 0). Data: $SIS_DATA/8e252f8f...-17619943483/{banners,vulns,banner_entity,entities (peer_group filled),unattributed_summary,signals,evidence,scores}.parquet + score_meta.json; $SIS_DATA/current/{entities,scores}.parquet.
+Order matters: `sis resolve <file_id>` rewrites entities.parquet with peer_group null, so rerun `sis score <file_id>` and `sis score --merge` after any resolve. A `sis score` rerun regenerates docs/SCORE_REPORT_<file_id>.md with "(to fill)" judgements; restore the hand-judged version from git afterwards.
+Next action: architect decides on the hosting-provider finding (P3 handoff, SCORE_REPORT reviewer note: OVH per-/24 rDNS zones and hosters fill the top of the ranking; 22 of the top 100 are `ip-a-b-c.` zones). Then P4 (Opus).
+Architect's launchpad docs (DESIGN.md, DATA_MODEL.md, cards/, docs/PRIMER.md ...) still staged, not committed by any builder. Nothing pushed.
