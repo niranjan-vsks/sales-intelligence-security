@@ -66,9 +66,29 @@ def resolve(
 
 
 @app.command()
-def score() -> None:
-    """Compute signals, evidence and scores (P3)."""
-    _stub("score")
+def score(
+    file_id: str | None = typer.Argument(None, help="file_id of a resolved file."),
+    merge: bool = typer.Option(False, "--merge", help="Rebuild current/scores.parquet."),
+) -> None:
+    """Compute peer groups, signals, evidence and scores, or merge scores into current state."""
+    if merge:
+        from sis.scoring.score import merge_current
+
+        m = merge_current()
+        typer.echo(f"merged {len(m.files)} file(s): {m.n_scores} scores -> {m.path}")
+        return
+    if file_id is None:
+        typer.echo("give a FILE_ID or --merge", err=True)
+        raise typer.Exit(code=2)
+    from sis.scoring.score import score as run_score
+
+    res = run_score(file_id)
+    typer.echo(f"scored {res.n_scored} active entities, scoring_version {res.scoring_version}")
+    typer.echo(f"segments {res.segments}")
+    typer.echo(f"signals {res.n_signals} evidence {res.n_evidence}")
+    typer.echo(f"peer {res.peer.model_dump()}")
+    typer.echo(f"stage1_target_group {res.stage1_target_group}")
+    typer.echo(f"wall_seconds {res.wall_seconds}")
 
 
 @app.command()

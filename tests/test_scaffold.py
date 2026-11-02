@@ -76,7 +76,8 @@ def test_cli_lists_every_command() -> None:
         assert name in result.output
 
 
-IMPLEMENTED = {"ingest", "resolve"}  # a card that builds a command removes it from the stub list
+# a card that builds a command removes it from the stub list
+IMPLEMENTED = {"ingest", "resolve", "score"}
 
 
 @pytest.mark.parametrize("name", [c for c in COMMANDS if c not in IMPLEMENTED])
