@@ -1,5 +1,6 @@
 # State (past tense, newest first)
 
+- 2026-11-03  Architect (Fable): read P2 review (PASS WITH FIXES, applied), P3 and P4 handoffs. 3 rulings, written as cards/P3_1.md (hotfix before P5): (1) hosting rDNS template zones and hosting-like names become operators via 2 rules + hand list in P2; (2) prerequisite widened with a new gate signal C_any_service so tested-positive entities stop landing in low_surface; (3) evaluation labels exclude edge banners, matching scoring scope. scoring_version -> 1.1.0, fixture rewritten once. Next: Opus session builds P3.1, then P5.
 - 2026-11-02  Builder (Opus 5.5, fresh session): committed the architect's staged specs as 8203a74 "Architect: specs reconciled to P1/P2 builds". Jobs 1 and 2 of the session prompt (P2 review, P3) were already done by the previous session, so this session built P4 only.
   RESUME POINT: P4 is done; next is P5 (deploy; gates 4 and 5 apply from P5). Architect decisions pending: the P3 hosting-provider finding and the P4 segment-multiplier finding below. To re-check P4: `uv run pytest tests/test_eval.py -m eval -q` and `uv run sis evaluate <file_id>` (about 60 s; it rewrites docs/EVAL_REPORT_<file_id>.md, which holds no hand-written text). Only `--fixture` rewrites the committed bundle and thresholds.
 - 2026-11-02  Builder (Opus 5.5): P4 done. Handoff report:

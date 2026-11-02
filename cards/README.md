@@ -10,6 +10,7 @@ depth and each one is independently skippable.
 | P2 | entity resolution, operators, blocked, fallbacks | Opus 5.5 | 2 am | no |
 | P3 | signals, evidence, peer-relative scores, segments | Opus 5.5 | 2 pm | no |
 | P4 | evaluation harness, baselines, ablations, CI threshold | Opus 5.5 | 3 am | no |
+| P3.1 | hotfix after P4's eval: hosting zones as operators, wider prerequisite, label scope | Opus 5.5 | 3 pm | no |
 | P5 | bundle export, FastAPI, minimal UI, Fly deploy, Logfire | Sonnet 5.5 | 3 pm to 4 am | no |
 | P6 | synthetic second file, delta, events, "Changes" in UI | Sonnet 5.5 | 4 | yes |
 | P7 | LLM industry classifier, labelled eval, cost | Sonnet 5.5 | 4 pm | yes |
