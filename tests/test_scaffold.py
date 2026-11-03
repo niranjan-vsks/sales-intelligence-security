@@ -13,7 +13,7 @@ from sis.config import Settings, settings
 from sis.llm import tiers_config
 
 COMMANDS = [
-    "ingest", "resolve", "score", "evaluate", "delta", "classify", "export", "serve",
+    "ingest", "resolve", "score", "evaluate", "synth", "delta", "classify", "export", "serve",
     "reportcard", "mcp",
 ]
 CONFIG = paths.config_dir()
@@ -77,7 +77,7 @@ def test_cli_lists_every_command() -> None:
 
 
 # a card that builds a command removes it from the stub list
-IMPLEMENTED = {"ingest", "resolve", "score", "evaluate", "export", "serve"}
+IMPLEMENTED = {"ingest", "resolve", "score", "evaluate", "synth", "delta", "export", "serve"}
 
 
 @pytest.mark.parametrize("name", [c for c in COMMANDS if c not in IMPLEMENTED])

@@ -110,9 +110,46 @@ def evaluate(
 
 
 @app.command()
-def delta() -> None:
-    """Diff consecutive files into events (P6)."""
-    _stub("delta")
+def synth(
+    file_id: str = typer.Argument(..., help="file_id of an ingested and resolved delivery."),
+    seed: int | None = typer.Option(None, help="Seed (default synth.seed_default)."),
+    raw: Path | None = typer.Option(None, help="The raw file (default: found under RAW_DIR)."),
+    force: bool = typer.Option(False, "--force", help="Rebuild an existing synthetic file."),
+) -> None:
+    """Manufacture a simulated second delivery from a real one, with its truth file (P6)."""
+    from sis.delta.synth import synth as run_synth
+
+    res = run_synth(file_id, seed=seed, raw=raw, force=force)
+    typer.echo(f"seed {res.seed}")
+    typer.echo(f"synthetic file_id {res.synthetic_file_id}")
+    typer.echo(f"file {res.path}")
+    typer.echo(f"truth {res.truth_path}")
+    typer.echo(f"eligible {res.eligible}")
+    typer.echo(f"selected {res.selected}")
+    typer.echo(f"applied {res.applied}")
+    typer.echo(f"lines in {res.lines_in} out {res.lines_out}")
+    typer.echo(f"wall_seconds {res.wall_seconds}")
+
+
+@app.command()
+def delta(
+    from_file: str = typer.Argument(..., help="The older file_id."),
+    to_file: str = typer.Argument(..., help="The newer file_id."),
+) -> None:
+    """Diff 2 scored files into events and history, and check them against the truth (P6)."""
+    from sis.delta.run import run as run_delta
+
+    res = run_delta(from_file, to_file)
+    d = res.diff
+    typer.echo(f"events {d.n_events} by_type {d.by_type}")
+    typer.echo(f"by_severity {d.by_severity}")
+    typer.echo(f"active {d.n_active_from} -> {d.n_active_to}")
+    typer.echo(f"diff_wall_seconds {d.wall_seconds}")
+    typer.echo(f"history_rows {res.history_rows}")
+    for s in res.stats or []:
+        typer.echo(f"{s.ptype}: recall {s.recall} precision {s.precision} "
+                   f"misses {s.misses} unexplained {s.unexplained}")
+    typer.echo(f"report {res.report}")
 
 
 @app.command()

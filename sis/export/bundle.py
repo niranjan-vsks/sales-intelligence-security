@@ -8,6 +8,7 @@ import duckdb
 from pydantic import BaseModel
 
 from sis import PIPELINE_VERSION, db, paths, scoring_config
+from sis.delta.truth import synthetic_file_ids
 
 MAX_BUNDLE_MB = 800  # cards/P5.md: above this the card stops and reports
 
@@ -71,6 +72,12 @@ def export(bundle_version: str | None = None) -> BundleResult:
     _optional(con, "prof", cur / "entity_profile.parquet", PROFILE_SCHEMA)
     _optional(con, "ev", paths.history_dir() / "events.parquet", EVENTS_SCHEMA)
     file_ids = sorted(r[0] for r in con.execute("SELECT DISTINCT file_id FROM sc").fetchall())
+    # the newest pair of files that has events (DATA_MODEL.md 6: last 2 files only)
+    con.execute("""
+        CREATE TEMP TABLE ev_last AS
+        SELECT * FROM ev WHERE (from_file, to_file) = (
+            SELECT (from_file, to_file) FROM ev ORDER BY detected_at DESC, to_file DESC,
+                                                         from_file DESC LIMIT 1)""")
     for view, name in (("evid", "evidence"), ("sig", "signals")):
         files = ", ".join(_lit((paths.file_dir(f) / f"{name}.parquet").as_posix())
                           for f in file_ids)
@@ -83,9 +90,12 @@ def export(bundle_version: str | None = None) -> BundleResult:
                s.fact_a, s.fact_b, s.fact_c, s.fact_d, s.exposure, s.segment, s.priority,
                s.rank_overall, s.rank_in_segment, s.rank_in_country, s.top_signals,
                s.scoring_version, s.file_id,
-               p.is_business, p.industry, p.description, p.confidence AS industry_confidence
+               p.is_business, p.industry, p.description, p.confidence AS industry_confidence,
+               x.max_event_severity
         FROM sc s JOIN ent e USING (entity_id)
         LEFT JOIN prof p USING (entity_id)
+        LEFT JOIN (SELECT entity_id, max(severity)::INTEGER AS max_event_severity
+                   FROM ev_last GROUP BY 1) x USING (entity_id)
         WHERE e.status = 'active'
         ORDER BY s.rank_overall""", out / "accounts.parquet")
     # evidence and signals of the account's own scored file, active accounts only
@@ -97,19 +107,19 @@ def export(bundle_version: str | None = None) -> BundleResult:
     n_signals = _copy(con, f"""
         SELECT x.* FROM sig x SEMI JOIN ({keep}) k USING (entity_id, file_id)
         ORDER BY x.entity_id, x.signal_id""", out / "signals.parquet")
-    # last 2 files only (DATA_MODEL.md 6)
-    n_events = _copy(con, """
-        SELECT * FROM ev
-        WHERE to_file IN (SELECT to_file FROM ev GROUP BY 1 ORDER BY max(detected_at) DESC
-                          LIMIT 1)
-        ORDER BY entity_id, detected_at, event_id""", out / "events.parquet")
+    n_events = _copy(con, "SELECT * FROM ev_last ORDER BY entity_id, detected_at, event_id",
+                     out / "events.parquet")
+    pair = con.execute("SELECT DISTINCT from_file, to_file FROM ev_last").fetchall()
     con.close()
+    # "simulated": the newer file is a synthetic delivery (sis synth), and the UI says so
+    delta = ({"from_file": pair[0][0], "to_file": pair[0][1], "n_events": n_events,
+              "simulated": pair[0][1] in synthetic_file_ids()} if pair else None)
 
     meta = {
         "bundle_version": version, "built_at": datetime.now(UTC).isoformat(),
         "file_ids": file_ids, "scoring_version": cfg.scoring_version,
         "n_accounts": n_accounts, "n_evidence": n_evidence,
-        "pipeline_version": PIPELINE_VERSION,
+        "pipeline_version": PIPELINE_VERSION, "delta": delta,
     }
     (out / "bundle.json").write_text(json.dumps(meta, indent=1), encoding="utf-8")
     size = sum(f.stat().st_size for f in out.iterdir() if f.is_file()) / 1e6

@@ -6,7 +6,7 @@ from typing import Literal
 from pydantic import BaseModel, Field
 
 Segment = Literal["untouched", "partially_covered", "displace", "low_surface"]
-Sort = Literal["priority", "exposure", "n_banners"]
+Sort = Literal["priority", "exposure", "n_banners", "recent_change"]
 
 
 class AccountSummary(BaseModel):
@@ -23,6 +23,7 @@ class AccountSummary(BaseModel):
     org_mode: str | None
     top_signals: list[str]
     industry: str | None = None
+    max_event_severity: int | None = None
 
 
 class PageMeta(BaseModel):

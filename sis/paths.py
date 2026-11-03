@@ -64,6 +64,27 @@ def history_dir() -> Path:
     return data_root() / "history"
 
 
+def entity_history_path() -> Path:
+    return history_dir() / "entity_history.parquet"
+
+
+def events_path() -> Path:
+    return history_dir() / "events.parquet"
+
+
+def synth_dir() -> Path:
+    """Synthetic second deliveries and their truth files (cards/P6.md)."""
+    return data_root() / "synth"
+
+
+def synth_path(seed: int) -> Path:
+    return synth_dir() / f"{seed}.jsonl.zst"
+
+
+def synth_truth_path(seed: int) -> Path:
+    return synth_dir() / f"{seed}_truth.json"
+
+
 def ingest_log_path() -> Path:
     return data_root() / "ingest_log.parquet"
 

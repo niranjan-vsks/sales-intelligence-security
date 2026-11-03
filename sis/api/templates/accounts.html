@@ -17,7 +17,7 @@
          value="{{ form.min_exposure }}" size="4"></label>
   <label>Sort
     <select name="sort">
-      {% for s in ["priority", "exposure", "n_banners"] %}
+      {% for s in ["priority", "exposure", "n_banners", "recent_change"] %}
       <option value="{{ s }}" {% if form.sort == s %}selected{% endif %}>{{ s }}</option>
       {% endfor %}
     </select>

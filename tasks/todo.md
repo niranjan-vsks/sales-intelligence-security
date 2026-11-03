@@ -27,3 +27,16 @@
 
 ## Review
 - Stage 1 and 2 delivered by the architect. No application code written by the architect.
+
+## P6: delta and change detection (builder, Sonnet 5.5, 2026-11-03)
+Another session deploys P5 in the same tree: stage by explicit path only; do not touch docs/DEPLOY.md, DESIGN.md section 9, fly.toml, Dockerfile.
+- [ ] config/delta.yaml + sis/delta_config.py; paths helpers; sis/delta/truth.py (truth file, synthetic_file_ids)
+- [ ] Guards so a synthetic file never reaches the real state: resolve write_back skipped, both merge_current skip synthetic files
+- [ ] sis/delta/synth.py: select (DuckDB, md5 order, disjoint sets), stream (orjson, ordered pool, zstd), truth; tests first
+- [ ] sis/delta/diff.py + sql: events, history, deterministic ids, detected_at = received_at of the to file
+- [ ] sis/delta/verify.py + report.py: recall/precision per type, explained misses, 10 examples, wall time
+- [ ] CLI synth/delta (remove delta from the stub test)
+- [ ] Bundle: events + max_event_severity + delta block in bundle.json; API sort recent_change; detail page "Changes (simulated second delivery)"
+- [ ] tests/test_delta.py (4 card tests + more), audit, mypy
+- [ ] Real run: synth seed 42 -> ingest -> resolve -> score -> delta; DELTA_REPORT; DESIGN 8 wall time
+- [ ] State resume point, board, lessons, handoff

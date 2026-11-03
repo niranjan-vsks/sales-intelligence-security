@@ -37,7 +37,14 @@ class Bundle:
         self.con.execute("SET threads = 2")
         for t in TABLES:
             path = (bundle_dir / f"{t}.parquet").as_posix().replace("'", "''")
-            self.con.execute(f"CREATE VIEW {t} AS SELECT * FROM read_parquet('{path}')")
+            extra = ""
+            if t == "accounts":  # a bundle built before the delta existed lacks this column
+                cols = {r[0] for r in self.con.execute(
+                    f"DESCRIBE SELECT * FROM read_parquet('{path}')").fetchall()}
+                if "max_event_severity" not in cols:
+                    extra = ", NULL::INTEGER AS max_event_severity"
+            self.con.execute(
+                f"CREATE VIEW {t} AS SELECT *{extra} FROM read_parquet('{path}')")
         self.lock = threading.RLock()  # reentrant: a caller may hold it across queries
         self.feedback_lock = threading.Lock()
 

@@ -17,6 +17,7 @@ from pydantic import BaseModel, Field
 
 from sis import PIPELINE_VERSION, db, paths
 from sis.config import settings
+from sis.delta.truth import synthetic_file_ids
 from sis.entities import report
 from sis.entities.normalise import host_registered_domain, normalise_name, registered_domain
 from sis.ingest.log import read_ingest_log
@@ -218,7 +219,8 @@ def resolve(
         run_sql(con, f"{step}.sql", **params)
 
     derived = sorted(r[0] for r in con.execute("SELECT name FROM op_derived").fetchall())
-    if write_back:
+    # a synthetic delivery (sis synth) must not add its derived names to the real operator list
+    if write_back and file_id not in synthetic_file_ids():
         write_operator_file(op_path, seed, derived_all, file_id, derived)
     top_derived = [r[0] for r in con.execute(
         "SELECT o.name FROM op_derived o JOIN coverage c ON c.name = o.name "
@@ -314,8 +316,10 @@ def merge_current() -> MergeResult:
     Counts and modes come from the latest file that saw the entity; first_seen_file and
     last_seen_file are the earliest and latest by received_at. Nothing is deleted."""
     received: dict[str, datetime] = {}
+    synthetic = synthetic_file_ids()  # a simulated delivery never becomes current state
     for r in read_ingest_log().to_pylist():
-        if r["status"] == "ok" and (paths.file_dir(r["file_id"]) / "entities.parquet").exists():
+        if (r["status"] == "ok" and r["file_id"] not in synthetic
+                and (paths.file_dir(r["file_id"]) / "entities.parquet").exists()):
             received[r["file_id"]] = r["received_at"]
     if not received:
         raise FileNotFoundError("no ingested file has entities.parquet; run `sis resolve` first")

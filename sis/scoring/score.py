@@ -11,6 +11,7 @@ import pyarrow as pa
 from pydantic import BaseModel
 
 from sis import PIPELINE_VERSION, db, paths, scoring_config
+from sis.delta.truth import synthetic_file_ids
 from sis.ingest.log import read_ingest_log
 from sis.io import write_parquet
 from sis.scoring import report
@@ -141,8 +142,10 @@ def merge_current() -> MergeResult:
     """Rebuild $SIS_DATA/current/scores.parquet: the latest file's scores per entity (by
     received_at), ranks recomputed over the merged set."""
     received: dict[str, datetime] = {}
+    synthetic = synthetic_file_ids()  # a simulated delivery never becomes current state
     for r in read_ingest_log().to_pylist():
-        if r["status"] == "ok" and (paths.file_dir(r["file_id"]) / "scores.parquet").exists():
+        if (r["status"] == "ok" and r["file_id"] not in synthetic
+                and (paths.file_dir(r["file_id"]) / "scores.parquet").exists()):
             received[r["file_id"]] = r["received_at"]
     if not received:
         raise FileNotFoundError("no ingested file has scores.parquet; run `sis score` first")

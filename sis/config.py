@@ -11,6 +11,9 @@ class Settings(BaseSettings):
     # Never inside the repo: the repo is synced by OneDrive and the data is 100+ GB.
     SIS_DATA: Path = Path("C:/Users/NIRANJAN VSKS/sis_data")
 
+    # Where the raw deliveries sit; `sis synth` looks for the ingest log's original name here.
+    RAW_DIR: Path = Path("C:/Users/NIRANJAN VSKS/Downloads")
+
     ROLLUP_MAX_IPS: int = 50
     PEER_MIN_SIZE: int = 30
     CLASSIFY_TOP_N: int = 5000

@@ -70,9 +70,12 @@ SORT_SQL = {
     "priority": "priority DESC, rank_overall",
     "exposure": "exposure DESC, rank_overall",
     "n_banners": "n_banners DESC, rank_overall",
+    # accounts with a change in the latest delta first, worst change first, then priority
+    "recent_change": "max_event_severity DESC NULLS LAST, priority DESC, rank_overall",
 }
 SUMMARY_COLS = ("entity_id, display_name, key_kind, segment, exposure, priority, rank_overall, "
-                "country_code, n_banners, n_ips, org_mode, top_signals, industry")
+                "country_code, n_banners, n_ips, org_mode, top_signals, industry, "
+                "max_event_severity")
 
 
 # ---- queries shared by the JSON and HTML routes -----------------------------------------

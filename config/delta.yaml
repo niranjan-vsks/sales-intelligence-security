@@ -1,0 +1,40 @@
+# Delta constants (cards/P6.md, DESIGN.md sections 1 and 8). Nothing here changes a score.
+
+synth:
+  seed_default: 42
+  shift_days: 30                  # every surviving banner's timestamp moves forward this far
+  expire_days_before: 10          # expire_cert: cert.expires = new timestamp minus this
+  new_ports: [2222, 8443]         # new_banner: the copy gets one of these (the other if equal)
+  waf_name: "Cloudflare (Cloudflare Inc.)"    # add_waf: a name in mapping W01
+  cve: {id: CVE-2099-00001, cvss: 9.8}        # add_vuln: verified false, kev absent
+  # Percent of the ELIGIBLE banners of active entities, taken in this order. A banner takes part in
+  # at most 1 perturbation, so the sets are disjoint and the truth file is unambiguous.
+  percent:
+    drop_banner: 2.0
+    new_banner: 1.0
+    expire_cert: 1.0
+    remove_waf: 1.0
+    add_waf: 1.0
+    add_vuln: 0.5
+
+diff:
+  exposure_threshold: 10.0        # exposure_up / exposure_down: absolute change at or above this
+  severity:                       # 1..3 (DATA_MODEL.md 4.2)
+    default: 1
+    by_type:
+      protection_removed: 3
+      cert_expired_since: 3
+      entity_new: 2
+      service_new: 2
+      signal_appeared: 2
+    admin_service_new: 3          # service_new on a module of ADMIN_MODULES (signals/catalogue.py)
+    high_signals: [A_eol, A_inferred_cves]
+    high_signal_severity: 3       # signal_appeared for one of high_signals
+
+verify:                           # recall the report checks (cards/P6.md acceptance)
+  recall_min:
+    remove_waf: 0.95
+    expire_cert: 0.95
+    add_vuln: 0.95
+    drop_banner: 0.90
+    new_banner: 0.90

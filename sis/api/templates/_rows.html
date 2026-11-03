@@ -4,7 +4,8 @@
 <table>
   <thead>
     <tr><th>#</th><th>Name</th><th>Segment</th><th class="num">Exposure</th><th class="num">Priority</th>
-        <th>Country</th><th class="num">Banners</th><th>Top signal</th><th>Industry</th></tr>
+        <th>Country</th><th class="num">Banners</th><th>Top signal</th><th>Industry</th>
+        <th>Change</th></tr>
   </thead>
   <tbody>
   {% for a in res.items %}
@@ -18,9 +19,10 @@
       <td class="num">{{ "{:,}".format(a.n_banners) }}</td>
       <td>{% if a.top_signals %}{{ labels.get(a.top_signals[0], a.top_signals[0]) }}{% endif %}</td>
       <td>{{ a.industry or "" }}</td>
+      <td>{% if a.max_event_severity %}<span class="sev sev-{{ a.max_event_severity }}">severity {{ a.max_event_severity }}</span>{% endif %}</td>
     </tr>
   {% else %}
-    <tr><td colspan="9">No accounts match these filters.</td></tr>
+    <tr><td colspan="10">No accounts match these filters.</td></tr>
   {% endfor %}
   </tbody>
 </table>

@@ -62,12 +62,16 @@
 {% endif %}
 
 {% if acc.events %}
-<h2>Changes</h2>
+<h2>Changes{% if meta.delta and meta.delta.simulated %} (simulated second delivery){% endif %}</h2>
+{% if meta.delta and meta.delta.simulated %}
+<p class="note">The second file is synthetic: the first file with a seeded subset of its banners changed, made by <code>sis synth</code> to test change detection. These changes did not happen.</p>
+{% endif %}
 <table>
-  <thead><tr><th>When</th><th>Change</th><th>Subject</th><th>From</th><th>To</th></tr></thead>
+  <thead><tr><th>When</th><th>Change</th><th>Severity</th><th>Subject</th><th>From</th><th>To</th></tr></thead>
   <tbody>
   {% for e in acc.events %}
     <tr><td>{{ e.detected_at.strftime("%Y-%m-%d") if e.detected_at else "" }}</td><td>{{ e.event_type }}</td>
+        <td class="num">{{ e.severity or "" }}</td>
         <td>{{ e.subject or "" }}</td><td>{{ e.from_value or "" }}</td><td>{{ e.to_value or "" }}</td></tr>
   {% endfor %}
   </tbody>
