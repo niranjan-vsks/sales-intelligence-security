@@ -12,6 +12,7 @@ depth and each one is independently skippable.
 | P4 | evaluation harness, baselines, ablations, CI threshold | Opus 5.5 | 3 am | no |
 | P3.1 | hotfix after P4's eval: hosting zones as operators, wider prerequisite, label scope | Opus 5.5 | 3 pm | no |
 | P5 | bundle export, FastAPI, minimal UI, Fly deploy, Logfire | Sonnet 5.5 | 3 pm to 4 am | no |
+| P5.1 | UI readability pass, overview dashboard, dark theme, Playwright walk | Sonnet 5.5 | 4 pm | no |
 | P6 | synthetic second file, delta, events, "Changes" in UI | Sonnet 5.5 | 4 | yes |
 | P7 | LLM industry classifier, labelled eval, cost | Sonnet 5.5 | 4 pm | yes |
 | P8 | report card, LLM explanations, faithfulness check, judge | Sonnet 5.5 | 5 am | yes |

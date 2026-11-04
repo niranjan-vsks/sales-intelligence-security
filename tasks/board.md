@@ -9,6 +9,7 @@
 | P4 | builder (Opus 5.5) | done | 2026-11-02 | 0f15f87, 109 of 109; segment-multiplier finding needs architect |
 | P3.1 | builder (Opus 5.5) | done | 2026-11-03 | b14fa63, 126 of 126; top-100 hosting 95 -> 57, target <10 not met |
 | P5 | builder (Opus 5.5) | done | 2026-11-03 | 003d6a5, 133 of 133; live https://sis-niranjan.fly.dev/, 7.73 USD/month; strix not run |
+| P5.1 | unclaimed | ready after P6 | | UI readability pass + overview dashboard; Sonnet with ui skills |
 | P6 | builder (Sonnet 5.5) | in progress | 2026-11-03 | claimed; parallel session deploys P5 in same tree |
 | P7 | unclaimed | optional | | builds the LLM gateway |
 | P8 | unclaimed | optional | | |
