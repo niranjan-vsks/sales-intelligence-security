@@ -46,6 +46,9 @@ ELIGIBLE: dict[str, str] = {
     "add_waf": f"{HTTP_BANNER} AND http_waf IS NULL",
     "add_vuln": "coalesce(len(cpe23), 0) > 0 AND NOT is_edge",
 }
+# These two change the entity, not one banner of it: remove_waf takes the WAF off every banner
+# of the chosen entity, add_vuln puts the CVE on every eligible banner of it.
+ENTITY_GRAIN = ("remove_waf", "add_vuln")
 UUID_NS = uuid.UUID("6f2d6c1e-4b0a-5d38-9c57-0a1b2c3d4e5f")
 CERT_TIME = "%Y%m%d%H%M%SZ"
 
@@ -58,6 +61,9 @@ class SynthResult(BaseModel):
     truth_path: str
     eligible: dict[str, int]
     selected: dict[str, int]
+    selected_banners: dict[str, int]
+    unit: dict[str, str]
+    drop_sole: dict[str, int]
     applied: dict[str, int]
     lines_in: int
     lines_out: int
@@ -85,10 +91,24 @@ def new_banner_port(seed: int, banner_id: str, port: int | None, ports: list[int
     return ports[(pick + 1) % len(ports)] if chosen == port else chosen
 
 
-def select(file_id: str, seed: int, cfg: delta_config.Synth) -> tuple[
-        dict[str, list[dict[str, Any]]], dict[str, int], dict[str, int]]:
-    """(items, eligible, selected). `items[ptype]` has 1 row per (banner, entity), banners in
-    md5 order of the seed. `eligible[ptype]` counts the banners left after the earlier types."""
+@dataclass(frozen=True)
+class Selection:
+    """What `select` chose. `eligible` and `selected` count `unit[ptype]` ("banners" or
+    "entities"); `selected_banners` is always banners, the number the stream must apply."""
+
+    items: dict[str, list[dict[str, Any]]]
+    eligible: dict[str, int]
+    selected: dict[str, int]
+    selected_banners: dict[str, int]
+    unit: dict[str, str]
+    drop_sole: dict[str, int]  # drop_banner: how many were sole on their ip:port, and available
+
+
+def select(file_id: str, seed: int, cfg: delta_config.Synth) -> Selection:
+    """Choose the perturbed banners. `items[ptype]` has 1 row per (banner, entity), banners in
+    md5 order of the seed. Banner-grain types take `percent` of the eligible banners left after
+    the earlier types; entity-grain types (ENTITY_GRAIN) take `percent` of the eligible entities
+    and then every eligible banner of each, so the entity's state really changes."""
     d = paths.file_dir(file_id)
     for name in ("banner_entity.parquet", "entities.parquet"):
         if not (d / name).exists():
@@ -102,25 +122,79 @@ def select(file_id: str, seed: int, cfg: delta_config.Synth) -> tuple[
         CREATE TEMP TABLE be_active AS
         SELECT DISTINCT be.banner_id, be.entity_id, e.key_kind, e.key_value
         FROM be JOIN ent e USING (entity_id) WHERE e.status = 'active'""")
+    # sole: no other banner of the same entity answers the banner's ip:port, for every entity
+    # it is attributed to, so dropping it removes the service (the diff's service_gone)
+    con.execute("""
+        CREATE TEMP TABLE sole AS
+        SELECT banner_id, bool_and(n = 1) AS sole FROM (
+            SELECT a.banner_id, count(*) OVER (
+                PARTITION BY a.entity_id, coalesce(x.ip_str, x.ipv6), x.port) AS n
+            FROM be_active a JOIN b x ON x.id = a.banner_id) GROUP BY banner_id""")
     con.execute(f"""
         CREATE TEMP TABLE cand AS
         SELECT b.id AS banner_id, coalesce(b.ip_str, b.ipv6) AS ip, b.port, b.module,
                b.http_status, b.http_waf, b.cert_expires, b.cert_expired, b.cpe23,
-               ({edge}) AS is_edge
-        FROM b WHERE b.id IN (SELECT banner_id FROM be_active)""")
+               ({edge}) AS is_edge, s.sole
+        FROM b JOIN sole s ON s.banner_id = b.id""")
     con.execute("CREATE TEMP TABLE chosen (ptype VARCHAR, banner_id VARCHAR)")
+    con.execute("CREATE TEMP TABLE chosen_ent (ptype VARCHAR, entity_id VARCHAR)")
     eligible: dict[str, int] = {}
     selected: dict[str, int] = {}
+    selected_banners: dict[str, int] = {}
+    unit: dict[str, str] = {}
+    drop_sole = {"selected": 0, "available": 0}
+    free = "banner_id NOT IN (SELECT banner_id FROM chosen)"
     for ptype in PERTURBATIONS:
         pct: float = getattr(cfg.percent, ptype)
-        where = (f"({ELIGIBLE[ptype]}) AND banner_id NOT IN (SELECT banner_id FROM chosen)")
-        n = int(con.execute(f"SELECT count(*) FROM cand WHERE {where}").fetchall()[0][0])
-        k = int(n * pct / 100.0 + 0.5)
-        con.execute(f"""
-            INSERT INTO chosen
-            SELECT '{ptype}', banner_id FROM cand WHERE {where}
-            ORDER BY md5(concat(?, ':{ptype}:', banner_id)), banner_id LIMIT {k}""", [str(seed)])
+        elig = f"({ELIGIBLE[ptype]}) AND {free}"
+        if ptype == "add_waf":  # not on an entity whose WAF remove_waf just took away
+            elig += (" AND banner_id NOT IN (SELECT a.banner_id FROM be_active a "
+                     "JOIN chosen_ent ce USING (entity_id) WHERE ce.ptype = 'remove_waf')")
+        if ptype in ENTITY_GRAIN:
+            unit[ptype] = "entities"
+            guard = ""
+            if ptype == "remove_waf":
+                # a WAF banner kept by another perturbation (a new_banner copy) would leave the
+                # entity protected; one the drop removed is gone either way
+                guard = ("AND a.entity_id NOT IN (SELECT a2.entity_id FROM be_active a2 "
+                         "JOIN cand c2 USING (banner_id) JOIN chosen ch USING (banner_id) "
+                         "WHERE c2.http_waf IS NOT NULL AND ch.ptype <> 'drop_banner')")
+            pool = (f"SELECT DISTINCT a.entity_id FROM cand c JOIN be_active a USING (banner_id) "
+                    f"WHERE {elig} {guard}")
+            n = int(con.execute(f"SELECT count(*) FROM ({pool})").fetchall()[0][0])
+            k = int(n * pct / 100.0 + 0.5)
+            con.execute(f"""
+                INSERT INTO chosen_ent
+                SELECT '{ptype}', entity_id FROM ({pool})
+                ORDER BY md5(concat(?, ':{ptype}:', entity_id)), entity_id LIMIT {k}""",
+                        [str(seed)])
+            con.execute(f"""
+                INSERT INTO chosen
+                SELECT DISTINCT '{ptype}', c.banner_id
+                FROM cand c JOIN be_active a USING (banner_id)
+                JOIN chosen_ent ce ON ce.entity_id = a.entity_id AND ce.ptype = '{ptype}'
+                WHERE {elig}""")
+        else:
+            unit[ptype] = "banners"
+            n = int(con.execute(f"SELECT count(*) FROM cand WHERE {elig}").fetchall()[0][0])
+            k = int(n * pct / 100.0 + 0.5)
+            # drop_banner prefers banners that are sole on their ip:port (see `sole`)
+            prefer = "NOT sole, " if ptype == "drop_banner" else ""
+            if ptype == "drop_banner":  # counted before the insert takes some of them
+                drop_sole["available"] = int(con.execute(
+                    f"SELECT count(*) FROM cand WHERE {elig} AND sole").fetchall()[0][0])
+            con.execute(f"""
+                INSERT INTO chosen
+                SELECT '{ptype}', banner_id FROM cand WHERE {elig}
+                ORDER BY {prefer}md5(concat(?, ':{ptype}:', banner_id)), banner_id LIMIT {k}""",
+                        [str(seed)])
+            if ptype == "drop_banner":
+                drop_sole["selected"] = int(con.execute(
+                    "SELECT count(*) FROM chosen JOIN cand USING (banner_id) "
+                    "WHERE ptype = 'drop_banner' AND sole").fetchall()[0][0])
         eligible[ptype], selected[ptype] = n, k
+        selected_banners[ptype] = int(con.execute(
+            f"SELECT count(*) FROM chosen WHERE ptype = '{ptype}'").fetchall()[0][0])
     rows = con.execute("""
         SELECT c.ptype, c.banner_id, a.entity_id, a.key_kind, a.key_value, k.ip, k.port, k.module
         FROM chosen c JOIN cand k USING (banner_id) JOIN be_active a USING (banner_id)
@@ -136,7 +210,7 @@ def select(file_id: str, seed: int, cfg: delta_config.Synth) -> tuple[
             item["new_id"] = new_banner_id(seed, banner_id)
             item["new_port"] = new_banner_port(seed, banner_id, port, cfg.new_ports)
         items[ptype].append(item)
-    return items, eligible, selected
+    return Selection(items, eligible, selected, selected_banners, unit, drop_sole)
 
 
 def actions_from(items: dict[str, list[dict[str, Any]]]) -> dict[str, Action]:
@@ -290,10 +364,12 @@ def synth(file_id: str, seed: int | None = None, raw: Path | None = None,
             return SynthResult(
                 seed=seed, source_file_id=file_id, synthetic_file_id=t["synthetic_file_id"],
                 path=str(out_path), truth_path=str(truth_path), eligible=t["eligible"],
-                selected=t["selected"], applied=t["applied"], lines_in=t["lines_in"],
-                lines_out=t["lines_out"], wall_seconds=0.0)
+                selected=t["selected"], selected_banners=t["selected_banners"],
+                unit=t["unit"], drop_sole=t["drop_sole"], applied=t["applied"],
+                lines_in=t["lines_in"], lines_out=t["lines_out"], wall_seconds=0.0)
     raw_path = find_raw(file_id, raw)
-    items, eligible, selected = select(file_id, seed, cfg)
+    sel = select(file_id, seed, cfg)
+    items = sel.items
     actions = actions_from(items)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -339,7 +415,9 @@ def synth(file_id: str, seed: int | None = None, raw: Path | None = None,
         "seed": seed, "source_file_id": file_id, "synthetic_file_id": synthetic_file_id,
         "created_at": datetime.now(UTC).isoformat(),
         "simulation": "second delivery manufactured by perturbing the first; not real data",
-        "params": cfg.model_dump(), "eligible": eligible, "selected": selected,
+        "params": cfg.model_dump(), "eligible": sel.eligible, "selected": sel.selected,
+        "selected_banners": sel.selected_banners, "unit": sel.unit,
+        "drop_sole": sel.drop_sole,
         "applied": applied, "lines_in": totals["lines_in"], "lines_out": totals["lines_out"],
         "passthrough": totals["passthrough"], "unshifted": totals["unshifted"],
         "items": items,
@@ -347,6 +425,8 @@ def synth(file_id: str, seed: int | None = None, raw: Path | None = None,
     write_truth(truth_path, truth)
     return SynthResult(
         seed=seed, source_file_id=file_id, synthetic_file_id=synthetic_file_id,
-        path=str(out_path), truth_path=str(truth_path), eligible=eligible, selected=selected,
-        applied=applied, lines_in=totals["lines_in"], lines_out=totals["lines_out"],
+        path=str(out_path), truth_path=str(truth_path), eligible=sel.eligible,
+        selected=sel.selected, selected_banners=sel.selected_banners, unit=sel.unit,
+        drop_sole=sel.drop_sole, applied=applied, lines_in=totals["lines_in"],
+        lines_out=totals["lines_out"],
         wall_seconds=round(time.time() - t0, 1))

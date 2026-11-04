@@ -107,14 +107,20 @@ def write_report(res: DiffResult, stats: list[TypeStats] | None, truth: dict[str
 
     if truth is not None and stats is not None:
         L += ["## Perturbations applied", "",
-              "Percent of the eligible banners of active entities, in this order; a banner takes "
-              "part in at most 1 perturbation.", "",
-              "| perturbation | percent | eligible banners | selected | applied | entities |",
-              "|---|---|---|---|---|---|"]
+              "Percent of the eligible units of active entities, in this order; a banner takes "
+              "part in at most 1 perturbation. `remove_waf` and `add_vuln` choose entities and "
+              "change every eligible banner of each, so the entity's state really changes; the "
+              "others choose banners.", "",
+              "| perturbation | percent | unit | eligible | selected | banners changed | "
+              "entities touched |", "|---|---|---|---|---|---|---|"]
         for s in stats:
             p = truth["params"]["percent"][s.ptype]
-            L.append(f"| {s.ptype} | {p} | {s.eligible:,} | {s.selected:,} | {s.applied:,} | "
-                     f"{s.perturbed_entities:,} |")
+            L.append(f"| {s.ptype} | {p} | {s.unit} | {s.eligible:,} | {s.selected:,} | "
+                     f"{s.applied:,} | {s.perturbed_entities:,} |")
+        sole = truth["drop_sole"]
+        L += ["", f"`drop_banner` prefers banners that are the only one on their entity's "
+              f"ip:port: {sole['selected']:,} of {truth['selected_banners']['drop_banner']:,} "
+              f"dropped banners were (sole banners available: {sole['available']:,}).", ""]
         L += ["", f"Lines read {truth['lines_in']:,}, written {truth['lines_out']:,}; "
               f"passed through unchanged (malformed) {truth['passthrough']:,}; "
               f"timestamp not shifted {truth['unshifted']:,}.", ""]

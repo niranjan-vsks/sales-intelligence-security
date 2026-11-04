@@ -73,8 +73,10 @@ MISS_CATEGORIES: dict[str, list[tuple[str, str]]] = {
 
 class TypeStats(BaseModel):
     ptype: str
+    unit: str  # what `eligible` and `selected` count: banners or entities
     eligible: int
     selected: int
+    selected_banners: int
     applied: int
     perturbed_entities: int
     detected_entities: int
@@ -167,7 +169,9 @@ def verify(from_file: str, to_file: str, truth: dict[str, Any]) -> list[TypeStat
         floor = recall_min.get(ptype)
         explained = sum(misses.values())
         out.append(TypeStats(
-            ptype=ptype, eligible=truth["eligible"][ptype], selected=truth["selected"][ptype],
+            ptype=ptype, unit=truth["unit"][ptype], eligible=truth["eligible"][ptype],
+            selected=truth["selected"][ptype],
+            selected_banners=truth["selected_banners"][ptype],
             applied=truth["applied"][ptype], perturbed_entities=n_pert,
             detected_entities=detected, recall=recall, recall_min=floor,
             passed=None if floor is None or recall is None else recall >= floor,

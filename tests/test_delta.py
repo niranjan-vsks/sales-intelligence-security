@@ -204,34 +204,95 @@ def banners(n_domains: int = 100) -> list[dict[str, Any]]:
 def test_synth_truth_counts(ops: Path) -> None:
     build(banners(), ops, file_id=FA)
     cfg = delta_config.load().synth
-    items, eligible, selected = synth_mod.select(FA, 42, cfg)
+    sel = synth_mod.select(FA, 42, cfg)
     for p in PERTURBATIONS:
-        want = getattr(cfg.percent, p) / 100 * eligible[p]
-        assert abs(selected[p] - want) <= 1, (p, selected[p], want)
-        assert len({r["banner_id"] for r in items[p]}) == selected[p]
-    assert selected["drop_banner"] == round(0.02 * 300) == 6  # 2% of all 300 banners
-    ids = [r["banner_id"] for p in PERTURBATIONS for r in items[p]]
+        want = getattr(cfg.percent, p) / 100 * sel.eligible[p]
+        assert abs(sel.selected[p] - want) <= 1, (p, sel.selected[p], want)
+        # the banners the stream will change; for entity-grain types that is more than `selected`
+        assert len({r["banner_id"] for r in sel.items[p]}) == sel.selected_banners[p]
+        if sel.unit[p] == "banners":
+            assert sel.selected_banners[p] == sel.selected[p]
+    assert sel.unit["remove_waf"] == sel.unit["add_vuln"] == "entities"
+    assert sel.selected["drop_banner"] == round(0.02 * 300) == 6  # 2% of all 300 banners
+    ids = [r["banner_id"] for p in PERTURBATIONS for r in sel.items[p]]
     assert len(ids) == len(set(ids))  # a banner takes part in 1 perturbation only
-    again, _, _ = synth_mod.select(FA, 42, cfg)
-    assert again == items  # the seed decides everything
-    other, _, _ = synth_mod.select(FA, 43, cfg)
-    assert other != items
+    again = synth_mod.select(FA, 42, cfg)
+    assert again == sel  # the seed decides everything
+    other = synth_mod.select(FA, 43, cfg)
+    assert other.items != sel.items
+
+
+def pcts(**kw: float) -> delta_config.Percent:
+    base = {p: 0.0 for p in PERTURBATIONS}
+    return delta_config.Percent(**{**base, **kw})
 
 
 def test_synth_eligibility(ops: Path) -> None:
     build(banners(), ops, file_id=FA)
     cfg = delta_config.load().synth
-    cfg = cfg.model_copy(update={"percent": delta_config.Percent(
-        drop_banner=0, new_banner=0, expire_cert=100, remove_waf=100, add_waf=100,
-        add_vuln=100)})
-    items, eligible, selected = synth_mod.select(FA, 1, cfg)
+    cfg = cfg.model_copy(update={"percent": pcts(
+        expire_cert=100, remove_waf=100, add_waf=100, add_vuln=100)})
+    sel = synth_mod.select(FA, 1, cfg)
+    items = sel.items
     by_id = {r["id"]: r for r in banners()}
     # edge banners (a W01 WAF) never take expire_cert or add_vuln: the scorer ignores them
     assert all(not by_id[r["banner_id"]].get("http_waf") for r in items["expire_cert"])
     assert all(not by_id[r["banner_id"]].get("http_waf") for r in items["add_vuln"])
     assert all(by_id[r["banner_id"]].get("http_waf") for r in items["remove_waf"])
     assert all(not by_id[r["banner_id"]].get("http_waf") for r in items["add_waf"])
-    assert eligible["add_waf"] == selected["add_waf"] > 0
+    assert sel.eligible["add_waf"] == sel.selected["add_waf"] > 0
+    # add_waf never lands on an entity whose WAF remove_waf took away (it would put it back)
+    stripped = {r["key_value"] for r in items["remove_waf"]}
+    assert stripped and not stripped & {r["key_value"] for r in items["add_waf"]}
+
+
+def test_entity_grain_takes_every_banner_of_the_entity(ops: Path) -> None:
+    rows = [row("multi.com", n, port=p, http_waf=WAF, cpe23=["cpe:2.3:a:x:y:1"])
+            for n, p in enumerate((443, 8443, 9443))]
+    rows += [row("single.com", http_waf=WAF)]
+    rows += [row(f"plain{i}.com", cpe23=["cpe:2.3:a:x:y:1"]) for i in range(4)]
+    build(rows, ops, file_id=FA)
+    cfg = delta_config.load().synth
+    sel = synth_mod.select(FA, 3, cfg.model_copy(update={"percent": pcts(remove_waf=100)}))
+    assert sel.selected["remove_waf"] == 2 and sel.eligible["remove_waf"] == 2
+    assert sel.selected_banners["remove_waf"] == 4
+    assert {r["banner_id"] for r in sel.items["remove_waf"]} == {
+        r["id"] for r in rows if r.get("http_waf")}
+    half = synth_mod.select(FA, 3, cfg.model_copy(update={"percent": pcts(remove_waf=50)}))
+    assert half.selected["remove_waf"] == 1  # one entity, and all of its banners
+    names = {r["key_value"] for r in half.items["remove_waf"]}
+    assert len(names) == 1
+    assert half.selected_banners["remove_waf"] == (3 if names == {"multi.com"} else 1)
+    vuln = synth_mod.select(FA, 3, cfg.model_copy(update={"percent": pcts(add_vuln=100)}))
+    assert vuln.selected["add_vuln"] == 4  # plain0..3: multi.com's CPE banners are edge
+    # multi.com's CPE banners carry the WAF, so they are edge banners and not eligible
+    assert not {r["banner_id"] for r in vuln.items["add_vuln"]} & {
+        r["id"] for r in rows if r.get("http_waf")}
+
+
+def test_remove_waf_skips_entities_whose_waf_a_copy_would_keep(ops: Path) -> None:
+    rows = [row("keep.com", n, port=p, http_waf=WAF) for n, p in enumerate((443, 8443))]
+    build(rows, ops, file_id=FA)
+    cfg = delta_config.load().synth
+    sel = synth_mod.select(FA, 3, cfg.model_copy(update={"percent": pcts(
+        new_banner=50, remove_waf=100)}))
+    assert sel.selected["new_banner"] == 1
+    assert sel.eligible["remove_waf"] == 0  # the copy of a WAF banner would keep the WAF
+
+
+def test_drop_prefers_banners_sole_on_their_ip_port(ops: Path) -> None:
+    twin = {"ip_str": "203.0.113.5", "port": 443}
+    rows = [row("dup.com", 0, **twin), row("dup.com", 1, module="http", **twin)]
+    rows += [row(f"solo{i}.com") for i in range(6)]
+    build(rows, ops, file_id=FA)
+    cfg = delta_config.load().synth
+    few = synth_mod.select(FA, 9, cfg.model_copy(update={"percent": pcts(drop_banner=50)}))
+    assert few.selected["drop_banner"] == 4
+    assert not {r["key_value"] for r in few.items["drop_banner"]} & {"dup.com"}
+    assert few.drop_sole == {"selected": 4, "available": 6}
+    every = synth_mod.select(FA, 9, cfg.model_copy(update={"percent": pcts(drop_banner=100)}))
+    assert every.selected["drop_banner"] == 8  # sole banners first, then the rest
+    assert every.drop_sole == {"selected": 6, "available": 6}
 
 
 def test_new_banner_port_differs_and_is_stable() -> None:
@@ -351,7 +412,7 @@ def test_end_to_end_small(tmp_path: Path, ops: Path, monkeypatch: pytest.MonkeyP
         update={"synth": big}))
     sm = synth_mod
     res = sm.synth(a.file_id, seed=5, raw=raw, workers=1, block_bytes=4096)
-    assert res.applied == res.selected
+    assert res.applied == res.selected_banners
     assert res.lines_out == res.lines_in - res.selected["drop_banner"] + res.selected["new_banner"]
     assert res.selected["drop_banner"] == 12 and res.selected["new_banner"] == 11
     # same seed, same bytes (so the same file_id); a rerun without --force reuses the file
@@ -371,7 +432,8 @@ def test_end_to_end_small(tmp_path: Path, ops: Path, monkeypatch: pytest.MonkeyP
     for p in PERTURBATIONS:
         assert by[p].applied == res.applied[p]
         assert by[p].unexplained == 0, by[p]
-    assert by["remove_waf"].recall is not None and by["remove_waf"].recall > 0
+    # entity-grain remove_waf and sole-preferring drops leave nothing to miss on this data
+    assert by["remove_waf"].recall == 1.0 and by["drop_banner"].recall == 1.0
     text = Path(out.report).read_text(encoding="utf-8")
     assert "simulated second delivery" in text and "Diff wall time" in text
     assert text.count("**unexplained**") == 6
