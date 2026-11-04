@@ -1,8 +1,8 @@
 # Deploy
 
-**Live URL: https://sis-niranjan.fly.dev/** (redeployed 2026-11-04 by P5.1, bundle
-20261102-0000-p6-1.1.0 with the simulated delta, image
-`registry.fly.io/sis-niranjan:20261102-0000-p6-1.1.0-p51`, code 390d5f7). First deployed
+**Live URL: https://sis-niranjan.fly.dev/** (redeployed 2026-11-04 by P5.2, bundle
+20261102-0000-p6-1.1.0 with the reworked simulated delta, 148,368 events, image
+`registry.fly.io/sis-niranjan:20261102-0000-p6-1.1.0-p52`). First deployed
 2026-11-03 with bundle 20261102-1135-1.1.0, image `20261102-1135-1.1.0-2`.
 
 Host: Fly.io, app `sis-niranjan`, 1 machine shared-cpu-1x with 1 GB RAM in fra, always on.
@@ -12,7 +12,7 @@ image storage are free; outbound data transfer is extra and not measured.
 
 ## What is deployed
 
-1 Docker image: the code, `config/`, `DESIGN.md` (rendered by the About page) and 1 serve bundle
+1 Docker image: the code, `config/`, `docs/ABOUT.md` (rendered by the About page) and 1 serve bundle
 baked into `/app/bundle`. No database, no object storage. The app opens the bundle's Parquet
 files read-only with DuckDB at boot (memory_limit 512 MB). There is no authentication: the link
 is the share mechanism, so anyone with the URL can read the ranking and post feedback.
@@ -129,3 +129,12 @@ deploy, so its `feedback.jsonl` (1 test line) was already gone. `flyctl deploy` 
 stopped machine without starting it; the first request started it (`auto_start_machines`), with
 `/api/health` taking 7.7 s on that cold start. Live smoke: `/`, `/accounts`, an account page and
 `/about` all 200 with the new copy; `flyctl status` 1 of 1 checks passing.
+
+## 7. Redeploy for P5.2 (About page), 2026-11-04
+
+Image `registry.fly.io/sis-niranjan:20261102-0000-p6-1.1.0-p52`, bundle 20261102-0000-p6-1.1.0 as
+re-exported by the P6 rework (148,368 events). Built as in section 5, from `git archive` of
+`git stash create` (the uncommitted change), outside OneDrive. The machine was stopped again, so
+there was no `feedback.jsonl` to copy out. Live smoke: `/api/health` 200 (7.7 s, cold start), `/`
+200 showing 148,368 changes, `/accounts` 200, an account page 200, `/about` 200 rendering
+`docs/ABOUT.md` ("About this tool") with the footer link; `flyctl status` 1 of 1 checks passing.

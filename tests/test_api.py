@@ -188,5 +188,6 @@ def test_pages(client: TestClient) -> None:
     assert not any(sid in readable for sid in BY_ID)  # signal ids only in the collapsed block
     assert "B_expired" in tech
     about = client.get("/about")
-    assert about.status_code == 200 and "How we know it works" in about.text
-    assert "Hosting and cost" not in about.text  # section 9 is not on the About page
+    assert about.status_code == 200 and "About this tool" in about.text
+    assert "The 4 segments" in about.text and "Hosting and cost" not in about.text  # docs/ABOUT.md
+    assert "github.com/niranjan-vsks/sales-intelligence-security" in about.text

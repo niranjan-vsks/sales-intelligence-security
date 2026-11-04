@@ -41,7 +41,7 @@ BundleDep = Annotated[Bundle, Depends(get_bundle)]
 
 PAGE_SIZE = 50
 MAX_PAGE_SIZE = 200
-ABOUT_SECTIONS = ("1", "5", "6", "7")  # DESIGN.md sections the About page renders
+ABOUT_DOC = paths.REPO_ROOT / "docs" / "ABOUT.md"  # what the About page renders
 HIST_BUCKETS = 10  # exposure histogram: [0, 10), [10, 20), ..., [90, 100]
 WHY_MAX = 5  # signals shown in the account page's Why panel
 REASONS_MAX = 8  # signals in the overview's "most common reasons"
@@ -315,21 +315,13 @@ def feedback_form(
     return HTMLResponse(f'<p class="done" role="status">{text} Thank you.</p>')
 
 
-def design_sections(path: Path, numbers: tuple[str, ...]) -> str:
-    """The `## N.` sections of DESIGN.md with the given numbers, as HTML."""
-    text = path.read_text(encoding="utf-8")
-    keep: list[str] = []
-    on = False
-    for line in text.splitlines():
-        if line.startswith("## "):
-            on = line[3:].split(".", 1)[0].strip() in numbers
-        if on:
-            keep.append(line)
-    return markdown.markdown("\n".join(keep), extensions=["tables", "fenced_code"])
+def render_markdown(path: Path) -> str:
+    """A markdown file as HTML."""
+    return markdown.markdown(path.read_text(encoding="utf-8"), extensions=["tables", "fenced_code"])
 
 
 @pages.get("/about", response_class=HTMLResponse)
 def about_page(request: Request, b: BundleDep) -> HTMLResponse:
-    body = design_sections(paths.REPO_ROOT / "DESIGN.md", ABOUT_SECTIONS)
+    body = render_markdown(ABOUT_DOC)
     return templates.TemplateResponse(request, "about.html", _ctx(
         request, b, body=body, nav="about"))

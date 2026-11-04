@@ -1,4 +1,4 @@
-# Tiered model gateway (DESIGN.md 7.0). No code names a model; a task names a tier.
+# Tiered model gateway (DESIGN.md 7.1). No code names a model; a task names a tier.
 # Model ids verified against https://openrouter.ai/api/v1/models on 2026-11-02.
 # USD per million tokens (prompt / completion) on that date are noted per model.
 # No free Qwen or DeepSeek route existed on that date, so the errand primary is a free

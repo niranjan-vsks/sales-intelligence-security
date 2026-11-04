@@ -1,4 +1,4 @@
-"""Typed loader for config/llm_tiers.yaml (DESIGN.md section 7.0)."""
+"""Typed loader for config/llm_tiers.yaml (DESIGN.md section 7.1)."""
 
 import math
 from pathlib import Path

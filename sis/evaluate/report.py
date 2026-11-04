@@ -188,8 +188,9 @@ def write_report(metrics: dict[str, Any], baselines: dict[str, Any], ablations: 
           "proxies held out from scoring. label_kev is downstream of the same version strings "
           "fact A reads, so a high score there partly proves we can read a version string. "
           "The tested labels (verified, heartbleed, opts_vulns, and their union "
-          "label_any_tested) are independent of the scoring inputs but number in the low "
-          "thousands of entities, so their intervals are wide. label_has_vendor is a sanity "
+          "label_any_tested) are independent of the scoring inputs but cover only "
+          f"{labels['label_any_tested']['n_pos']:,} entities, so their intervals are wide. "
+          "label_has_vendor is a sanity "
           "check, not a target. Neither family says anyone bought anything. The only true "
           "test is the sales team's reply rate after a month of use; evals/README.md "
           "describes where that 7th label goes.", ""]

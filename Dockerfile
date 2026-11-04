@@ -1,4 +1,4 @@
-# The app image: code, config, DESIGN.md (the About page) and 1 serve bundle.
+# The app image: code, config, docs/ABOUT.md (the About page) and 1 serve bundle.
 # The bundle lives under $SIS_DATA, outside the repo, so it comes in as a named build context:
 #   docker build --build-context bundle="$SIS_DATA/serve/<version>" -t sis .
 FROM python:3.12-slim
@@ -11,7 +11,7 @@ COPY pyproject.toml uv.lock ./
 RUN uv sync --frozen --no-dev --no-install-project
 COPY sis ./sis
 COPY config ./config
-COPY DESIGN.md ./
+COPY docs/ABOUT.md ./docs/
 RUN uv sync --frozen --no-dev
 
 COPY --from=bundle . /app/bundle

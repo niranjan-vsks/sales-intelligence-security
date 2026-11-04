@@ -1,8 +1,8 @@
-# Allow-list: the image needs the code, its config and DESIGN.md, nothing else from the repo.
+# Allow-list: the image needs the code, its config and docs/ABOUT.md, nothing else from the repo.
 *
 !pyproject.toml
 !uv.lock
 !sis/
 !config/
-!DESIGN.md
+!docs/ABOUT.md
 **/__pycache__
