@@ -42,11 +42,15 @@ Another session deploys P5 in the same tree: stage by explicit path only; do not
 - [ ] State resume point, board, lessons, handoff
 
 ## P5.1: UI readability pass and overview dashboard (builder, Opus 5.5, 2026-11-04)
-- [ ] tokens.css (both themes, OKLCH) + app.css (components); old CSS removed; palettes run through the dataviz validator
-- [ ] sis/api/labels.py: signal, fact, segment, event labels and sentences; test every catalogue id and event type has one
-- [ ] /api/stats: exposure_hist (10 counts) and signal_fire_counts, cached on app.state; shape tests
-- [ ] Templates: base (sticky header, nav, theme toggle, bundle), overview (/), accounts (/accounts), _rows, account, about
-- [ ] Tests updated for the route move (/ -> overview, list at /accounts)
-- [ ] Audit, mypy; Playwright walk 1280 and 390, dark and light; docs/ui/*.png; docs/UI_REPORT.md; console clean; Lighthouse a11y >= 90
-- [ ] Redeploy (feedback.jsonl copied out first) with the P6 bundle; live smoke; DESIGN.md 11 sentence
-- [ ] State resume point, board, handoff
+- [x] tokens.css (both themes, OKLCH) + app.css (components); old CSS removed; palettes run through the dataviz validator
+- [x] sis/api/labels.py: signal, fact, segment, event labels and sentences; test every catalogue id and event type has one
+- [x] /api/stats: exposure_hist (10 counts) and signal_fire_counts, cached on app.state; shape tests
+- [x] Templates: base (sticky header, nav, theme toggle, bundle), overview (/), accounts (/accounts), _rows, account, about
+- [x] Tests updated for the route move (/ -> overview, list at /accounts)
+- [x] Audit, mypy; Playwright walk 1280 and 390, dark and light; docs/ui/*.png; docs/UI_REPORT.md; console clean; Lighthouse a11y >= 90
+- [x] Redeploy (feedback.jsonl copied out first) with the P6 bundle; live smoke; DESIGN.md 11 sentence
+- [x] State resume point, board, handoff
+
+### Review (P5.1)
+- Done and verified: tests, ruff, mypy, local and live Playwright walks, Lighthouse and axe in both themes, live smoke.
+- Open: test_scoring::test_real_output_sanity fails while a concurrent P6 session's synthetic file 61eab78... sorts first under $SIS_DATA (not caused by P5.1).

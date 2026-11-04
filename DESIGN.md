@@ -536,6 +536,10 @@ designed to accept them as a 7th label without code changes.
   part. Not built.
 - UI polish: server-rendered tables and 1 detail page. Enough to find,
   filter, sort, open and read evidence. Not more.
+  Screenshots: docs/ui/ (listed in docs/UI_REPORT.md). The UI stays
+  minimal on purpose: 1 readability pass after the first live walk
+  (overview page, plain-language reasons, dark and light themes), no
+  framework and no build step.
 - Live scanning or web research on prospects: legal exposure and
   hallucination risk; the report card uses only our own evidence.
 - People data: none in the file.

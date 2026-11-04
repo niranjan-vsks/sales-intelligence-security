@@ -1,7 +1,9 @@
 # Deploy
 
-**Live URL: https://sis-niranjan.fly.dev/** (deployed 2026-11-03, bundle 20261102-1135-1.1.0,
-image `registry.fly.io/sis-niranjan:20261102-1135-1.1.0-2`).
+**Live URL: https://sis-niranjan.fly.dev/** (redeployed 2026-11-04 by P5.1, bundle
+20261102-0000-p6-1.1.0 with the simulated delta, image
+`registry.fly.io/sis-niranjan:20261102-0000-p6-1.1.0-p51`, code 390d5f7). First deployed
+2026-11-03 with bundle 20261102-1135-1.1.0, image `20261102-1135-1.1.0-2`.
 
 Host: Fly.io, app `sis-niranjan`, 1 machine shared-cpu-1x with 1 GB RAM in fra, always on.
 Cost: **7.73 USD a month** for that machine started in fra (6.70 USD in the cheapest regions,
@@ -95,3 +97,26 @@ secret: `flyctl secrets set LOGFIRE_TOKEN=...`) spans go to Logfire; without it 
 the console. No token is set on the deployed app, so tracing is console only: every request is
 a span (`instrument_fastapi`) and every DuckDB query a child span `query`, visible in
 `flyctl logs --app sis-niranjan`.
+
+## 5. Redeploy for P5.1, 2026-11-04
+
+- The machine was found stopped (clean SIGINT at 2026-11-03 20:20 UTC). A stop and start resets
+  the machine's filesystem, so `feedback.jsonl` (the 2 test lines from P5) was already gone and
+  there was nothing to copy out. The bundle's local `feedback.jsonl` from the P5.1 walk (5 test
+  clicks) was moved out of `$SIS_DATA/serve/20261102-0000-p6-1.1.0/` before the build so it is not
+  baked into the image.
+- `docker build` in the repo failed with `invalid file request config/blocked_tags.yaml`: OneDrive
+  marks the repo's files as reparse points and BuildKit refuses them. The image was built from a
+  clean export of the commit outside OneDrive instead:
+  `git archive <sha> | tar -x -C <dir outside OneDrive>`, then in that dir
+  `docker build --build-context bundle="$SIS_DATA/serve/20261102-0000-p6-1.1.0" -t sis .`
+  (1.49 GB). Push and `flyctl deploy --image ... --ha=false` as in section 3.
+- Live smoke over 1 kept-alive connection from the pipeline machine: `/api/health` 200
+  (bundle 20261102-0000-p6-1.1.0, 487,133 accounts), `/` 315 ms with 4 tiles, `/accounts` 316 ms,
+  an account page 494 ms, `/about` 257 ms, `/static/app.css` 265 ms (so most of each time is the
+  network round trip to fra). The first `/` after a boot takes about 2 to 3 s: it computes the
+  exposure histogram and the signal fire counts once and keeps them for the process lifetime.
+  Browser walk on the live URL: dark by default, toggle to light kept across pages, 2 filters and
+  htmx paging, evidence expanded, Mark as prospect confirmed in place, About; 0 console errors,
+  0 failed requests, no horizontal scroll at 390 px. `wc -l /app/bundle/feedback.jsonl` = 1 (the
+  walk's test click). `flyctl status`: 1 machine started, 1 of 1 checks passing.
