@@ -2,9 +2,9 @@
 
 Sales intelligence platform for a cybersecurity software vendor, built from
 a Shodan banner export. This is the architecture and the write-up the
-assignment asks for. Every number here comes from `findings/` (Stage 1,
-full-file profile) or will be filled in by the build card that measures
-it; such places are marked `[P<n> fills]`.
+assignment asks for. Every number here comes from `findings/` (the
+full-file profile done before any code) or from a build report under
+`docs/`, each of which names the script or command that produced it.
 
 Companion documents: DATA_MODEL.md (tables), cards/P0..P9 (build order),
 EXPLORATION.md and findings/ (how the data was understood first).
@@ -327,91 +327,72 @@ cannot merge.
 
 Scoring uses no LLM. Every signal is a deterministic predicate on
 structured fields, which makes the ranking reproducible, explainable per
-row, and free. The assignment asks us to prove any LLM right and to state
-its cost; the cleanest proof is not needing one where rules suffice.
+row, and free to run. The assignment asks us to prove any LLM right and
+to state its cost; the cleanest proof is not needing one where rules
+suffice. An LLM would have added cost, nondeterminism and an
+explainability gap to a step that regexes and provider tags already do
+with 100 percent reproducibility.
 
-2 places genuinely need reasoning over messy text, and both are built as
-bounded, cached, schema-validated, logged calls through 1 component:
+**As submitted, the product makes no LLM calls.** 2 uses were designed,
+specified as build cards and left unbuilt inside the 5 days, by choice:
+the ranking, its evaluation, the hosted app and the multi-file diff came
+first, because they are what the assignment grades. What exists in the
+repo is the model gateway configuration (`config/llm_tiers.yaml`, its
+validated loader `sis/llm/tiers_config.py`) and the 2 cards
+(cards/P7.md, cards/P8.md) with their validation protocols and cost
+accounting. They are described here so the reader can judge the design,
+with the status stated plainly.
 
-### 7.0 The tiered model gateway
+### 7.1 The tiered model gateway (configured, not exercised)
 
-No code names a model. Every LLM call names a task, and
+No code would name a model. Every LLM call names a task, and
 `config/llm_tiers.yaml` maps the task to a tier and the tier to a short
-ordered list of models reached through OpenRouter:
+ordered list of models reached through 1 OpenAI-compatible router:
 
-| Tier | Used for | Models (2 per tier, verified on build day) | Rate limit | Budget |
+| Tier | Intended for | Models (2 per tier, ids verified on OpenRouter on 2026-11-02) | Rate limit | Budget |
 |---|---|---|---|---|
-| reasoning | judging report cards | frontier class (Kimi K3 or Claude Sonnet class) | 20 rpm, 2 concurrent | 2.5 USD |
-| mid | writing report card explanations, driving the MCP agent | Sonnet or DeepSeek V4 class | 60 rpm, 4 concurrent | 4.0 USD |
-| errand | classifying 5,000 businesses | Haiku class or a free Qwen or DeepSeek route | 120 rpm, 8 concurrent | 3.5 USD |
+| reasoning | judging report cards | frontier class | 20 rpm, 2 concurrent | 2.5 USD |
+| mid | writing report card explanations | Sonnet or DeepSeek class | 60 rpm, 4 concurrent | 4.0 USD |
+| errand | classifying 5,000 businesses | Haiku class or a free route | 120 rpm, 8 concurrent | 3.5 USD |
 
-The gateway does 5 things that a bare API call does not: client-side
-rate limiting per tier; a hard budget per tier plus a reserve, totalling
-the 12 USD available for the whole assignment, where a projected overrun
-stops the run and asks for a top-up rather than shrinking the work; provider-side fallback to
-the tier's 2nd model when the 1st errors or is unavailable, using
-OpenRouter's model fallback list; 1-step escalation to the next tier when
-the output fails schema validation twice; and a log row per attempt with
-tier, model actually used, tokens, cost, latency and status. The P7 eval
-runs the classifier on every errand model and the mid primary and reports
-accuracy and cost side by side, which is the evidence that the errand
-tier is the right tier for that task.
+The gateway design adds 5 things a bare API call lacks: client-side rate
+limiting per tier; a hard budget per tier plus a reserve, where a
+projected overrun stops the run rather than shrinking it; provider-side
+fallback to the tier's 2nd model; 1-step escalation to the next tier
+when output fails schema validation twice; and a log row per attempt
+with tier, model used, tokens, cost, latency and status.
 
-Free routes are permitted. Their rate limits and data-use terms are
-recorded in the report; the inputs are public scan data.
-
-### 7.1 What does this business do (cards/P7.md)
+### 7.2 What does this business do (designed, cards/P7.md)
 
 The scan says a business is exposed but not what it is. The flattened
-data keeps `http_title`, `cert_subject_o`, `http_components`,
-`http_server`, hostnames, and the first 2,000 characters of each HTTP
-response (`data`), which includes the start of the page. A classifier
-reads those for 1 entity and returns `{is_business, industry (fixed
-taxonomy), description <= 160 chars, confidence}`.
+data keeps the page title, certificate organisation, detected web
+components, server header, hostnames and the first 2,000 characters of
+each HTTP response. A classifier on the errand tier would read those for
+the top 5,000 accounts by priority and return a fixed-taxonomy industry,
+a 1-line description and a confidence. Validation: 200 hand-labelled
+accounts from the same inputs, a 50-account relabel for label noise, a
+ship threshold of 0.80 industry accuracy, and the same labelled set run
+through every errand model and the mid primary so accuracy and cost per
+account are compared side by side before a tier is chosen.
 
-- Tier: errand. Runs on the top `CLASSIFY_TOP_N` entities by priority
-  (default 5,000; a dry-run projection above the tier budget stops the
-  run and requests a top-up, it never lowers N), not on 485,089.
-- Validation: 200 entities hand-labelled by the builder from the same
-  inputs (`evals/industry/labels.jsonl`). Reported: accuracy on industry,
-  precision and recall on `is_business`, and agreement on a 50-entity
-  re-label by a second pass 1 week later for label noise. Threshold to
-  ship: industry accuracy at or above 0.80 on the labelled set; below that
-  the field is shown as "unclassified".
-- Cost: every call logs input and output tokens and USD at the model's
-  list price into `llm_calls`. The write-up reports mean cost per entity
-  and total for the run `[P7 fills]`. Cache by `input_hash` so re-runs
-  cost 0.
+### 7.3 Report card explanations (designed, cards/P8.md)
 
-### 7.2 Report card explanations (cards/P8.md)
+When a salesperson marks an account as a prospect, a report card is
+rendered from our own findings and evidence; that part is deterministic.
+The LLM's bounded job would be 2 plain sentences per finding, "what it
+means" and "what to do", from the evidence JSON only. No web browsing, no
+scanning of the prospect: scanning a third party is legally grey for a
+security vendor, and open-ended research is where hallucination lives. A
+deterministic faithfulness check rejects any output naming a product, CVE,
+number or signal absent from the input; 50 cards judged on the reasoning
+tier against 30 human-scored cards for judge calibration; cost per card
+logged.
 
-When a salesperson marks a lead as a prospect, the app renders a report
-card from our own evidence. The deterministic part is the findings, the
-evidence rows and the peer comparison. The LLM's bounded job is 2 plain
-sentences per finding, "what it means" and "what to do", for a
-non-technical reader.
-
-- Input is only the entity's evidence JSON. No web browsing, no scanning
-  of the prospect, no outside sources. The write-up says why: scanning a
-  third party is legally grey for a security vendor, and open-ended
-  research is where hallucination lives.
-- Output is a pydantic schema. A deterministic faithfulness check rejects
-  any output that mentions a signal id, product name, CVE or number not
-  present in the input.
-- Tiers: generation on mid, judging on reasoning, and the config loader
-  asserts the 2 primaries are different model families.
-- Validation: 50 report cards judged on the reasoning tier on a 3-point
-  rubric (faithful, specific, readable), calibrated against 30 of the same
-  cards judged by the builder; judge agreement with human reported.
-- Cost per report card logged and reported `[P8 fills]`. Generated on
-  demand only, persisted, never regenerated for the same evidence hash.
-
-### 7.3 What was considered and rejected
+### 7.4 What was considered and rejected
 
 - LLM-written outreach emails: excluded by the assignment.
 - LLM-chosen weights or signals: no ground truth to validate against.
-- LLM parsing of banners into signals: regexes and provider tags already
-  do it deterministically with 100 percent reproducibility.
+- LLM parsing of banners into signals: deterministic rules already do it.
 
 ## 8. Scale: 1,000 files a month
 
@@ -471,7 +452,7 @@ month for the started machine in fra (6.70 USD in the cheapest regions),
 from https://docs.fly.io/about/pricing on 2026-11-03; the shared IPv4 and
 registry image storage are free, outbound data transfer is extra and not
 measured. No database service, no
-object storage, no secrets beyond the Logfire and Anthropic keys.
+object storage, no secrets (Logfire is optional and unset).
 
 Zero-cost alternative recorded in P5: Render free web service with
 spin-down after inactivity. Rejected as primary only because the first
@@ -575,4 +556,10 @@ designed to accept them as a 7th label without code changes.
   open item, not built.
 - 1 scan window: nothing in this submission demonstrates a real diff.
   P6 proves the diff on a synthetic second file built by perturbing the
-  real one with a seed, and the write-up says it is a simulation.
+  real one with a seed, and the UI and reports say it is a simulation.
+  Recall of the planted changes at entity grain: 3 of 5 change types meet
+  their bar; certificate expiry sits at 94.9 percent against a 95 percent
+  bar and added vulnerabilities at 73.6 percent, every miss in a named
+  category (docs/DELTA_REPORT_*.md).
+- The 2 LLM features (section 7) are designed and configured, not built.
+- The release security gate (strix) was not run before submission.
