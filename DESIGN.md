@@ -17,7 +17,7 @@ The assignment: rank the businesses most likely to buy cybersecurity
 software, from 1 raw file, and design for hundreds to thousands of such
 files a month.
 
-The file: 14,608,406 service banners from a Shodan scan, 16.4 GB zstd,
+The file: 14,608,406 service banners from a Shodan scan, 17.6 GB (16.4 GiB) zstd,
 122.8 GB decompressed, 1 scan window of 18.9 hours with 95.7 percent of
 rows in 1 hour. Not a company table. 62.4 percent of rows belong to 5
 network operators; Incapsula alone is 31.9 percent. Only 7.36 percent of
@@ -57,7 +57,7 @@ So the real tasks are, in order:
         |
         +--> [P6 delta]     entity_history + events across consecutive files
         |
-        +--> [P7 classify]  LLM industry/description for top-N, cached, costed
+        +--> [P7 classify]  LLM industry/description for top-N, cached, costed (not built)
         |
         v
  [export]     serve bundle (accounts, evidence, events, signals, bundle.json)
@@ -65,19 +65,20 @@ So the real tasks are, in order:
         v
  [P5 app]     FastAPI + DuckDB over the bundle, Jinja2/htmx UI, Logfire traces
         |
-        +--> [P8 report card]  on-demand LLM explanations over our own evidence, faithfulness-checked, costed
+        +--> [P8 report card]  on-demand LLM explanations over our own evidence, faithfulness-checked, costed (not built)
         |
-        +--> [P9 MCP server]   same read API as tools for an agent, trajectory evals
+        +--> [P9 MCP server]   same read API as tools for an agent, trajectory evals (not built)
 ```
 
-Offline versus live: layers 1 to 5 of DATA_MODEL.md are batch. The hosted
-app reads 1 bundle of a few hundred MB and nothing else. The 123 GB never
+Offline versus live: layers 1 to 5 of DATA_MODEL.md are batch (layer 5
+is not built). The hosted app reads 1 bundle of about 160 MB and nothing else. The 123 GB never
 leaves the pipeline machine or, in production, object storage.
 
 Stack: Python 3.12, DuckDB, pyarrow, pydantic v2, pydantic-settings,
 typer (CLI), FastAPI, Jinja2 + htmx (UI), logfire (tracing, falls back to
-console OpenTelemetry if no token), pytest, ruff, uv. LLM calls through the
-Anthropic SDK with structured output validated by pydantic.
+console OpenTelemetry if no token), pytest, ruff, uv. LLM calls (designed,
+not built) would go through the OpenAI SDK to OpenRouter, with structured
+output validated by pydantic.
 
 ## 3. Ingestion
 
@@ -86,13 +87,14 @@ month:
 
 - **Identity.** `file_id` = sha256 of the first 64 MiB, then the byte length.
   Computed before decompression, in seconds. A re-delivered file with the
-  same `file_id` is logged `duplicate` and skipped. A file with a new
-  `file_id` but identical banner ids (a renamed re-delivery) is detected at
-  P2 merge time: banner ids are globally unique, so the merge upserts and
-  the ingest report says "0 new banners".
+  same `file_id` is logged `duplicate` and skipped; a renamed file has the
+  same bytes, so the same `file_id`. A file with a new `file_id` but
+  identical banner ids (re-compressed or re-cut) is not detected (not
+  built): the merge keys on `entity_id`, not on banner ids.
 - **Streaming.** zstd is decompressed as a stream into worker processes
-  that each own a 60 MiB block of lines; nothing is held beyond that
-  block. Measured on a 16-core, 23 GB laptop with 11 workers: 14,608,407
+  that each own a 60 MiB block of lines; at most 2 blocks per worker are
+  in flight. Measured on a laptop with 16 logical CPUs (8 cores) and 23 GB
+  RAM, with 11 workers: 14,608,407
   lines in 712.6 seconds, 20,501 lines per second, 24.7 MB per second of
   compressed input, 2.27 GB of banner Parquet and 0.42 GB of vulns Parquet
   out. A second run of the same file prints `duplicate` and writes
@@ -102,8 +104,9 @@ month:
   a line that fails JSON parse or lacks `_shodan.id` is dropped and
   counted (the real file has exactly 1 such line); a file whose first 1,000
   lines contain more than 1 percent failures is quarantined before any
-  output is written; a file that is not zstd or not JSONL is rejected at
-  the magic-byte check.
+  output is written; a file that is not zstd is rejected at the
+  magic-byte check (a zstd file that is not JSONL fails the 1,000-line
+  check and is quarantined).
 - **Atomicity.** Output goes to `$SIS_DATA/<file_id>.tmp/` and is renamed
   to `$SIS_DATA/<file_id>/` only after row counts reconcile with lines
   read minus dropped. A crash leaves no partial file visible.
@@ -129,11 +132,11 @@ Specified in cards/P2.md. The rule, and why it fits this data:
 - Fallbacks recover some of the 92.6 percent: certificate subject names
   (populated on 6.7 percent of rows, 91 percent functionally consistent
   with `domains`) and `http_host` (29.5 percent) when it is a name. As
-  built: 481,186 domain entities, plus 12,643 from certificate names and
-  1,600 from Host headers, for 495,429 active entities and 532 blocked;
-  fallbacks attributed 38,433 more banners. 92.46 percent of banners
-  remain unattributed: 9.73 million are operator-only names and 3.78
-  million have no name at all.
+  built (after the P3.1 rerun): 472,508 domain entities, plus 12,983 from
+  certificate names and 1,642 from Host headers, for 487,133 active
+  entities and 489 blocked; fallbacks attributed 39,993 more banners.
+  92.94 percent of banners remain unattributed: 9.80 million are
+  operator-only names and 3.78 million have no name at all.
 - A known weakness, found in the eyeball check: a tenant behind a shared
   Incapsula edge is named correctly but its banners describe the edge,
   not the tenant. The scoring layer therefore treats "edge banners" (CDN
@@ -142,7 +145,8 @@ Specified in cards/P2.md. The rule, and why it fits this data:
 - Blocked, never scored: honeypot or scanner tags (250,530 rows), C2 or
   malware tags, operator domains. The `*-rat` probe modules are not
   detections (16 of 31,763 such rows on Google IPs carry any payload) and
-  are ignored.
+  never block an entity; no code filters them out, so where they attach
+  to an entity they count toward breadth and `C_any_service`.
 
 What is lost: entities that are only reachable through a CDN
 show up as the CDN. For those, the only recoverable fact is "this domain
@@ -161,7 +165,7 @@ would count the same fact up to 6 times.
 |---|---|---|---|
 | A | visibly old or vulnerable software | A_fingerprinted, A_inferred_cves, A_max_cvss, A_eol, A_os_leak, A_cpe_per_header | eol tag lifts r_vuln 25.8; cpe present lifts r_vuln 4.8; n_cpe/n_headers top decile lifts r_vuln 13.0 |
 | B | neglected certificates | B_self_signed, B_expired, B_legacy_tls, B_cert_age_days | self-signed tag lifts r_certexpired 36.4; old-for-peers cert lifts r_certexpired 88.4 |
-| C | exposed surface | C_admin_services, C_windows_internals, C_asset_tags, C_breadth_modules, C_breadth_ports, C_components_vs_peers, C_live_web | entity lifts r_vuln: smb 3.65, ssh 2.37; ntlm r_selfsigned 19.6; breadth top decile r_selfsigned 3.25 |
+| C | exposed surface | C_admin_services, C_windows_internals, C_asset_tags, C_breadth_modules, C_breadth_ports, C_components_vs_peers, C_live_web, C_any_service (gate only, weight 0) | entity lifts r_vuln: smb 3.65, ssh 2.37; ntlm r_selfsigned 19.6; breadth top decile r_selfsigned 3.25 |
 | D | protection already present | D_waf, D_security_appliance, D_edge_substitute, D_vpn, D_hardening_headers | waf present lifts r_vuln 0.18, r_eol 0.09 |
 
 ### 5.1 Peer groups
@@ -170,9 +174,10 @@ Entity-grain peer group = `country_code` x breadth bucket of `n_modules`
 (1, 2 to 3, 4 to 9, 10 or more). A group under 30 entities falls back to
 the breadth bucket alone, then to the whole population. Percent ranks of
 continuous signals are computed inside the peer group. Reason: the explorer
-showed `module x country` splits payload size, certificate age and
-vulnerability counts more than any other pair (findings/07_num_vs_cat.csv);
-at entity grain breadth stands in for module mix.
+showed `module` and `country` each split payload size and certificate age
+(findings/07_num_vs_cat.csv), and chose them as the 2 lowest-cardinality
+splitters (findings/07_clusters.md); `product`, not this pair, splits
+vulnerability counts. At entity grain breadth stands in for module mix.
 
 ### 5.2 Fact scores (each 0 to 1)
 
@@ -224,9 +229,11 @@ priority = exposure * { untouched: 1.0, partially_covered: 0.85,
                         displace: 0.6, low_surface: 0.5 }[segment]
 ```
 
-Why segments and not a penalty: a sales team runs different plays. From
-Stage 1, 131,104 entities are `untouched` with a live service and no
-protection of any kind; 83,779 have a security vendor already, and for
+Why segments and not a penalty: a sales team runs different plays. In
+Stage 1, 131,104 entities had a live service and no protection of any
+kind; as built (scoring 1.1.0, with `C_any_service` in the prerequisite)
+the `untouched` segment holds 300,849. 83,779 had a security vendor
+already in Stage 1 (77,530 `displace` as built), and for
 those the incumbent is named in the evidence. Both lists are first-class
 outputs.
 
@@ -239,18 +246,23 @@ catches us if a signal is wrong.
 
 ### 5.5 What the model deliberately does not use
 
-- `module` values as detections (they are probes).
+- `module` values as detections (they are probes), with 2 exceptions:
+  `D_vpn` (mapping W05) and `C_any_service` read the module name without
+  requiring a payload.
 - `n_vulns` straight from the banner row: P3 recomputes it from the vulns
-  table excluding `kev`, `verified` and `ransomware_campaign`, because
-  those are the evaluation labels.
+  table excluding rows flagged `kev` or `verified`, because those are the
+  evaluation labels.
 - `org`, `asn`, `isp`, geolocation beyond country: operator facts, not
   tenant facts. 28.6 percent of rows geolocate to 1 point.
-- Anything from the `*-rat` modules or from `data` free text beyond the
-  stored snippet.
+- `*-rat` modules as detections (their banners still count toward
+  breadth, `n_modules` and `C_any_service`), and anything from `data` free
+  text beyond the stored snippet.
 - Edge banners for facts A, B and C. A banner is an edge banner when
   `list_contains(tags, 'cdn')` or its `http_waf` matches mapping W01. Such
   a banner describes the CDN or WAF vendor's shared infrastructure, so it
-  feeds `D_waf`, `D_edge_substitute` and `C_live_web` only. Without this
+  feeds `D_waf`, `D_edge_substitute` and `C_live_web` only. It still
+  counts in the entity's `n_modules` and `country_code`, which set its
+  peer group (5.1). Without this
   rule a small tenant behind Incapsula inherits the edge's breadth and
   software fingerprints.
 
@@ -313,14 +325,16 @@ base rate.
 Limits: label_kev is downstream of the
 same version strings fact A reads, so a high score there partly proves we
 can read a version string. The tested labels are independent but number
-in the low thousands. Neither says anyone bought anything. The only true
+in the hundreds (681 entities for label_any_tested). Neither says anyone bought anything. The only true
 test is the sales team's reply rate after a month of use, and the design
 reserves a place for it (section 10).
 
-CI: `pytest -m eval` recomputes the metrics on a committed 50,000-entity
-fixture and fails if precision@1000 on label_any_tested falls below the
-committed value, so a scoring change that silently degrades the ranking
-cannot merge.
+CI: `pytest -m eval` recomputes precision@1000 from the priorities stored
+in a committed 50,000-entity fixture and fails if label_any_tested or
+label_kev falls below the committed threshold. The fixture holds scores,
+not scoring inputs, so a scoring change does not move the gate until
+`sis evaluate <file_id> --fixture` rewrites the fixture; the gate does
+not yet stop a degrading change from merging (not built).
 
 ## 7. LLM use: where, why, how validated, what it costs
 
@@ -332,10 +346,12 @@ suffice. An LLM would have added cost, nondeterminism and an
 explainability gap to a step that regexes and provider tags already do
 with 100 percent reproducibility.
 
-**As submitted, the product makes no LLM calls.** 2 uses were designed,
-specified as build cards and left unbuilt inside the 5 days, by choice:
-the ranking, its evaluation, the hosted app and the multi-file diff came
-first, because they are what the assignment grades. What exists in the
+**As submitted, the product makes no LLM calls.** 2 product uses were
+designed, specified as build cards and left unbuilt inside the 5 days, by
+choice: the ranking, its evaluation, the hosted app and the multi-file
+diff came first, because they are what the assignment grades. A 3rd LLM
+use, the eval agent for the P9 MCP server (cards/P9.md), is also designed
+and not built. What exists in the
 repo is the model gateway configuration (`config/llm_tiers.yaml`, its
 validated loader `sis/llm/tiers_config.py`) and the 2 cards
 (cards/P7.md, cards/P8.md) with their validation protocols and cost
@@ -350,7 +366,7 @@ ordered list of models reached through 1 OpenAI-compatible router:
 | Tier | Intended for | Models (2 per tier, ids verified on OpenRouter on 2026-11-02) | Rate limit | Budget |
 |---|---|---|---|---|
 | reasoning | judging report cards | frontier class | 20 rpm, 2 concurrent | 2.5 USD |
-| mid | writing report card explanations | Sonnet or DeepSeek class | 60 rpm, 4 concurrent | 4.0 USD |
+| mid | writing report card explanations | DeepSeek or Qwen flash class | 60 rpm, 4 concurrent | 4.0 USD |
 | errand | classifying 5,000 businesses | Haiku class or a free route | 120 rpm, 8 concurrent | 3.5 USD |
 
 The gateway design adds 5 things a bare API call lacks: client-side rate
@@ -381,8 +397,9 @@ The LLM's bounded job would be 2 plain sentences per finding, "what it
 means" and "what to do", from the evidence JSON only. No web browsing, no
 scanning of the prospect: scanning a third party is legally grey for a
 security vendor, and open-ended research is where hallucination lives. A
-deterministic faithfulness check rejects any output naming a product, CVE,
-number or signal absent from the input; 50 cards judged on the reasoning
+deterministic faithfulness check (as specified in cards/P8.md) rejects
+any output naming a CVE, a year, a number of 10 or more, or a capitalised
+name absent from the input; 50 cards judged on the reasoning
 tier against 30 human-scored cards for judge calibration; cost per card
 logged.
 
@@ -395,7 +412,8 @@ logged.
 ## 8. Scale: 1,000 files a month
 
 Measured on the laptop for 1 file: 712.6 seconds of ingest at 20,501
-lines per second, about 3.5 minutes of entity resolution, 2.7 GB of
+lines per second, about 3 minutes of entity resolution (173.8 s) and
+about 4 of scoring (249.4 s), 2.7 GB of
 Parquet out. So 1 laptop-class machine ingests about 120 such files a
 day, and 1,000 a month (33 a day) is within a single worker's capacity
 for the per-file stages. The design is per-file isolated through P3, so
@@ -406,7 +424,8 @@ are.
 What breaks first, and the next move for each:
 
 1. **Single machine throughput** is not the first break: 33 files a day
-   at 12 minutes each is about 7 machine-hours. It breaks when files
+   at about 19 minutes each (ingest, resolve and score) is about 10
+   machine-hours. It breaks when files
    cluster (a month's delivery landing in 1 day) or when the file size
    grows. Next move, needed anyway for isolation: files land in object
    storage (S3 or R2), a queue (SQS) hands 1 file to 1 worker, workers
@@ -415,7 +434,7 @@ What breaks first, and the next move for each:
 2. **Storage** is the first real break. 2.7 GB Parquet per file is 2.7
    TB a month of layer 1, and the 16 GB raw files are 16 TB a month.
    Next move: keep layer 1 in object storage with a 90-day lifecycle, keep
-   layers 2 and 3 (tens of MB per file) indefinitely, and the history in a
+   layers 2 and 3 (a few hundred MB per file) indefinitely, and the history in a
    warehouse (Snowflake or ClickHouse) rather than Parquet-on-disk.
 3. **Current-state merge.** Today it rebuilds `current/` from all per-file
    tables. Next move: merge is an upsert keyed by `entity_id` touching only
@@ -493,23 +512,26 @@ The human runs the acceptance tests before the next card starts.
 
 **What was automated.** Profiling (scripted, reproducible), ingestion
 verification (row count reconciliation), evaluation (pytest in CI with a
-threshold), LLM validation (labelled sets, judge calibration), model
-routing and cost control (the tiered gateway: rate limits, budgets,
-fallback, escalation, every call logged with tier, model, prompt version,
-tokens, USD).
+threshold). Designed in cards/P7.md and cards/P8.md, not built: LLM
+validation (labelled sets, judge calibration), model routing and cost
+control (the tiered gateway: rate limits, budgets, fallback, escalation,
+every call logged with tier, model, prompt version, tokens, USD).
 
 **What was not automated and why.** Choosing the 50-IP cutoff, the fact
 weights and the segment multipliers. These are judgement calls on a
 distribution with no outcome to fit; they are written down as settings
-with the reasoning, and the ablations show what each one does.
+with the reasoning. The ablations show what the weights and multipliers
+do; the cutoff's effect is shown by the explorer's table at 10, 50 and
+250 IPs (findings/06_relationships.md), not by an ablation.
 
 **Lessons file.** `tasks/lessons.md` records every correction made during
 the build, by whom, and the rule derived from it.
 
 **What a month of real use would add.** The UI has a 1-click "mark as
 prospect" and "mark as not a fit" per account. Those 2 buttons are the
-first true labels this system has. Section 6's metrics are
-designed to accept them as a 7th label without code changes.
+first true labels this system has. Section 6's metric functions take any
+label column, so the buttons become a 7th label with a small code change: 1 join
+in the label SQL and 1 entry in the label list (evals/README.md).
 
 ## 11. Deliberate cuts
 

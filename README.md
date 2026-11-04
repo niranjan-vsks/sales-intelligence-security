@@ -43,14 +43,14 @@ in 5 days for the Firmable take-home.
 | Score | 24 deterministic signals, 4 facts, peer-relative scoring, 4 sales segments, evidence per signal | `sis/signals`, `sis/scoring` |
 | Evaluate | held-out provider labels, precision at k, lift, rank-biserial, baselines, ablations, CI threshold | `sis/evaluate` |
 | Delta | diff between deliveries, events per account | `sis/delta` |
-| Serve | FastAPI + DuckDB over a 157 MB bundle; server-rendered pages | `sis/api` |
+| Serve | FastAPI + DuckDB over a 160 MB bundle; server-rendered pages | `sis/api` |
 
 No LLM runs in the product. The 2 LLM features that were designed are
 described in DESIGN.md section 7 with their status.
 
 ## Run it yourself
 
-Requires Python 3.12, [uv](https://docs.astral.sh/uv/), and `zstd` on PATH.
+Requires Python 3.12 or later and [uv](https://docs.astral.sh/uv/).
 Data lives outside the repo in `$SIS_DATA` (see `sis/config.py`; set it in
 `.env`).
 
@@ -67,7 +67,7 @@ uv run sis serve                        # http://localhost:8000
 Tests and checks:
 
 ```
-uv run ruff check . && uv run pytest -q -m "not llm"     # 168 tests
+uv run ruff check . && uv run pytest -q -m "not llm"     # 169 tests
 uv run mypy sis
 uv run pytest -q -m eval                                  # ranking-quality threshold on a committed fixture
 ```

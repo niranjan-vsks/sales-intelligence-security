@@ -14,7 +14,11 @@ Conventions:
   never inside the repo.
 - Every table has a `built_at TIMESTAMP` and a `pipeline_version VARCHAR`
   column, or a sidecar `_meta.json` with the same, so any row can be traced
-  to a code version.
+  to a code version. As built this holds only for the P2 and P3 per-file
+  tables (`resolve_meta.json`, `score_meta.json`) and the bundle
+  (`bundle.json`). banners and vulns trace through their `ingest_log` row
+  (`pipeline_version`, no `built_at`); `current/*.parquet`, `history/*` and
+  `eval/*` carry neither (not built).
 - IDs are deterministic. Re-running the same code on the same input yields
   byte-identical IDs. No autoincrement anywhere.
 - Timestamps are UTC.
@@ -66,7 +70,7 @@ Plus 1 new column added by P1: `file_id VARCHAR`.
 ### 1.2 `vulns` (per file)
 
 Path: `$SIS_DATA/<file_id>/vulns/part-*.parquet`
-Grain: 1 row per (banner, CVE). Key: (`banner_id`, `cve`).
+Grain: 1 row per (banner, CVE). Key: (`id`, `cve`).
 
 As built by P1 (the explorer's schema, unchanged on purpose):
 
@@ -81,14 +85,15 @@ epss                 DOUBLE
 ranking_epss         DOUBLE
 verified             BOOLEAN
 kev                  BOOLEAN   null when absent in source
-n_references         INTEGER
+n_references         BIGINT
 summary              VARCHAR   first 500 chars
 other_keys           VARCHAR   JSON of every other key; ransomware_campaign lives here:
                                json_extract_string(other_keys, '$.ransomware_campaign') -> 'Known' | 'Unknown' | null
 file_id              VARCHAR
 ```
 
-P3 and P4 read `ransomware_campaign` with that extraction. Join to
+P4 (the eval labels) reads `ransomware_campaign` with that extraction;
+P3 does not read it. Join to
 banners on `vulns.id = banners.id`.
 
 ### 1.3 `ingest_log` (append-only, all files)
@@ -98,12 +103,13 @@ it is tiny).
 
 ```
 file_id, original_name, byte_length, received_at, started_at, finished_at,
-status            VARCHAR   'ok' | 'failed' | 'duplicate' | 'quarantined'
+status            VARCHAR   'ok' | 'failed' | 'duplicate' | 'quarantined' | 'rejected' (not zstd)
 lines_read, rows_written, rows_dropped, vuln_rows_written  BIGINT
-dropped_reasons   VARCHAR   JSON: {"json_parse": n, "missing_id": n, "oversize": n}
+dropped_reasons   VARCHAR   JSON, sorted keys, from: blank, json_parse, missing_id,
+                            flatten_error, type_error, oversize
 wall_seconds      DOUBLE
 pipeline_version  VARCHAR
-error             VARCHAR   null unless failed
+error             VARCHAR   null unless failed, rejected or quarantined
 ```
 
 ---
@@ -121,7 +127,8 @@ banner_id      VARCHAR
 entity_id      VARCHAR   sha1 of (key_kind || ':' || key_value), hex, 40 chars
 key_kind       VARCHAR   'domain' | 'cert_cn' | 'http_host'
 key_value      VARCHAR   the normalised domain
-attribution    VARCHAR   'primary' | 'fallback'   (domain = primary; others = fallback)
+attribution    VARCHAR   'primary' | 'fallback'   (primary = from `domains`; fallback = from
+                                                   cert or Host, even when re-keyed to kind 'domain')
 file_id        VARCHAR
 ```
 
@@ -172,13 +179,16 @@ cloud_providers      VARCHAR[] distinct non-null
 first_seen_file      VARCHAR   file_id
 last_seen_file       VARCHAR   file_id
 status               VARCHAR   'active' | 'blocked'
-blocked_reason       VARCHAR   null | 'honeypot_or_scanner' | 'c2_or_malware' | 'operator_domain'
-peer_group           VARCHAR   country_code || '|' || breadth_bucket  (see P3)
+blocked_reason       VARCHAR   null | 'honeypot_or_scanner' | 'c2_or_malware'  (c2 wins when both match)
+peer_group           VARCHAR   null after P2; P3 fills it: country_code || '|' || bucket, else
+                               '*|' || bucket, else '*|*' when the group is under PEER_MIN_SIZE;
+                               null for blocked
 file_id              VARCHAR
 ```
 
 `status = 'blocked'` when any banner of the entity matches mapping B01 or
-B02 in findings/07_what_we_sell_map.csv, or the key is an operator domain.
+B02 in findings/07_what_we_sell_map.csv (tags in config/blocked_tags.yaml).
+Operator names never become entities (rule 6).
 Blocked entities are kept (so the diff layer can see them) but never
 scored or shown.
 
@@ -224,7 +234,7 @@ the entity's banners unless stated.
 | A_max_cvss | A | max max_cvss | n_vulns > 0 | C-02 |
 | A_eol | A | 0/1 | list_contains(tags, 'eol-product') or 'eol-os' | C-03 |
 | A_os_leak | A | 0/1 | os is not null | C-09 |
-| A_cpe_per_header | A | max over banners of len(cpe23) / greatest(len(http_header_names), 1) | http banners only | C-15 |
+| A_cpe_per_header | A | max over banners of len(cpe23) / greatest(len(http_header_names), 1) | http banners with len(cpe23) > 0 | C-15 |
 | B_self_signed | B | 0/1 | cert_self_signed or list_contains(tags, 'self-signed') | C-04 |
 | B_expired | B | 0/1 | cert_expired = true | C-04 |
 | B_legacy_tls | B | 0/1 | ssl_version in ('SSLv3', 'TLSv1.0') or ssl_versions contains 'SSLv3' or 'TLSv1' without a leading '-' | C-05 |
@@ -232,9 +242,9 @@ the entity's banners unless stated.
 | C_admin_services | C | count distinct module in (rdp, ssh, telnet, smb, ftp, vnc, x11, mysql, clickhouse-native, weblogic) with data_len > 0 and not tag cdn | mapping P02 | C-06 |
 | C_windows_internals | C | 0/1 | list_contains(blocks, 'ntlm') or os like 'Windows%' | C-07 |
 | C_asset_tags | C | count distinct of tags among (database, iot, ics, medical, devops, open-dir) | mapping P03 | C-08 |
-| C_breadth_modules | C | n_modules | always present | C-13 |
-| C_breadth_ports | C | n_ports | always present | C-13 |
-| C_components_vs_peers | C | max over http banners of len(http_components) | http banners | C-14 |
+| C_breadth_modules | C | count distinct module over non-edge banners (not `n_modules`, which counts every banner) | always present | C-13 |
+| C_breadth_ports | C | count distinct port over non-edge banners (not `n_ports`) | always present | C-13 |
+| C_components_vs_peers | C | max over http banners of len(http_components) | http banners with len(http_components) > 0 | C-14 |
 | C_live_web | C | 0/1 | mapping P01 | prerequisite |
 | C_any_service | C | 0/1 | any non-edge banner of the entity with data_len > 0, OR any non-edge banner with module not in ('auto') | DATA_MODEL 3.1 addition, P3.1 |
 | D_waf | D | 0/1 | mapping W01 | C-10 |
@@ -313,7 +323,9 @@ Grain: 1 row per detected change between consecutive files for an entity.
 event_id         VARCHAR   sha1(entity_id || event_type || from_file || to_file || subject)
 entity_id        VARCHAR
 event_type       VARCHAR   see list
-subject          VARCHAR   what changed: a signal_id, 'ip:port', a cve, a waf name
+subject          VARCHAR   what changed: a signal_id, 'ip:port', the entity key_value,
+                           'exposure' or 'segment' (a new CVE is subject A_inferred_cves;
+                           a WAF name goes in from_value / to_value)
 from_file, to_file VARCHAR
 from_value, to_value VARCHAR
 detected_at      TIMESTAMP
@@ -327,9 +339,13 @@ Event types: `entity_new`, `entity_gone`, `service_new`, `service_gone`,
 
 ---
 
-## 5. Layer 5: LLM enrichments (offline, on demand, P7 and P8)
+## 5. Layer 5: LLM enrichments (offline, on demand, P7 and P8) (not built)
 
-### 5.1 `entity_profile`
+Nothing writes these 3 tables yet: `sis classify` and `sis reportcard`
+are stubs. Only the `llm_calls` path helper and `config/llm_tiers.yaml`
+exist.
+
+### 5.1 `entity_profile` (not built)
 
 Path: `$SIS_DATA/current/entity_profile.parquet`
 Grain: 1 row per classified entity.
@@ -348,7 +364,7 @@ cost_usd          DOUBLE
 classified_at     TIMESTAMP
 ```
 
-### 5.2 `report_cards`
+### 5.2 `report_cards` (not built)
 
 Path: `$SIS_DATA/current/report_cards/<entity_id>.json`, also served by
 the API.
@@ -362,7 +378,7 @@ cost_usd, input_tokens, output_tokens
 faithfulness_check: { passed: bool, violations: [..] }
 ```
 
-### 5.3 `llm_calls` (append-only log)
+### 5.3 `llm_calls` (append-only log) (not built)
 
 Path: `$SIS_DATA/llm_calls.parquet`
 
@@ -384,7 +400,9 @@ The API never reads layers 1 to 4 directly. It reads 1 bundle:
 Path: `$SIS_DATA/serve/<bundle_version>/`
 
 ```
-accounts.parquet       1 row per active entity = entities + scores + entity_profile (left join)
+accounts.parquet       1 row per active entity = entities (less status, blocked_reason, file_id)
+                       + scores + entity_profile (left join: is_business, industry, description,
+                       confidence as industry_confidence) + max_event_severity
 evidence.parquet       as 3.2, active entities only
 events.parquet         as 4.2, last 2 files only
 signals.parquet        as 3.1, active entities only
@@ -392,14 +410,15 @@ bundle.json            { bundle_version, built_at, file_ids: [...], scoring_vers
                          n_accounts, n_evidence, pipeline_version }
 ```
 
-Served by DuckDB in-process inside the FastAPI app, read-only, from a local
-copy of the bundle pulled at boot. Expected size: on the order of 100s of
+Served by DuckDB in-process inside the FastAPI app, read-only, from the
+bundle baked into the Docker image at `/app/bundle`. Expected size: on the order of 100s of
 MB, dominated by evidence. The bundle is the only artefact deployed.
 
-Computed offline: everything in layers 1 to 5.
+Computed offline: everything in layers 1 to 4 (layer 5 is not built).
 Queried live: filtering, sorting, paging, and lookup over the bundle only.
 Generated on demand but persisted: report cards (P8), triggered from the UI,
-written back to the bundle directory and to layer 5.3.
+written back to the bundle directory and to layer 5.3 (not built). Today
+the UI writes back only `feedback.jsonl` in the bundle directory.
 
 ---
 
@@ -415,6 +434,7 @@ ablations.json       metric per fact removed
 baselines.json       random, breadth-only, cve-count-only
 ```
 
-The same metrics are produced by `pytest -m eval` in CI from a fixed
-sample bundle under `tests/fixtures/`, with thresholds that fail the build
-when precision@1000 on the fixture drops below the committed value.
+`pytest -m eval` in CI recomputes only precision@1000 for label_any_tested
+and label_kev, from the priorities stored in a fixed sample under
+`tests/fixtures/`, and fails the build when either drops below the
+committed threshold. The fixture holds scores, not scoring inputs.
