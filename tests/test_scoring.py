@@ -244,9 +244,13 @@ def test_merge_current(isolated: Path) -> None:
 
 def _real() -> Path | None:
     from sis.config import Settings
+    from sis.delta.truth import synthetic_file_ids
 
     root = Settings().SIS_DATA
+    synthetic = synthetic_file_ids() if root.exists() else set()  # P6's simulated second file
     for d in sorted(root.glob("*-*")) if root.exists() else []:
+        if d.name in synthetic:
+            continue
         if (d / "scores.parquet").exists() and (d / "score_meta.json").exists():
             return d
     return None

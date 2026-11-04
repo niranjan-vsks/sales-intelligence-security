@@ -566,3 +566,28 @@ def test_shared_banner_touches_entities_that_were_not_chosen(ops: Path) -> None:
     # the shared banner is attributed to both domains: 1 is the aim, the other is touched
     assert {k for k, _ in flags} == {"one.com", "two.com"}
     assert sorted(c for _, c in flags) == [False, True]
+
+
+def test_recall_counts_chosen_entities_and_reports_touched_apart(ops: Path) -> None:
+    from sis.delta.verify import verify
+
+    shared = {**row("one.com", 0, http_waf=WAF), "domains": ["one.com", "two.com"]}
+    kept = row("two.com", 1, port=8443, http_waf=WAF)
+    two_files(ops, [shared, kept, row("fill.com")],
+              [{**shared, "http_waf": None}, kept, row("fill.com")])
+    diff_mod.diff(FA, FB, detected_at=WHEN)
+    ids = {e["key_value"]: e["entity_id"] for e in
+           pq.read_table(paths.file_dir(FA) / "entities.parquet").to_pylist()}
+    item = {"banner_id": shared["id"], "ip": shared["ip_str"], "port": 443}
+    truth = {
+        "items": {**{p: [] for p in PERTURBATIONS}, "remove_waf": [
+            {**item, "entity_id": ids["one.com"], "chosen": True},
+            {**item, "entity_id": ids["two.com"], "chosen": False}]},
+        "eligible": {p: 0 for p in PERTURBATIONS}, "selected": {p: 0 for p in PERTURBATIONS},
+        "selected_banners": {p: 0 for p in PERTURBATIONS},
+        "applied": {p: 0 for p in PERTURBATIONS},
+        "unit": {p: "banners" for p in PERTURBATIONS}}
+    (s,) = [x for x in verify(FA, FB, truth) if x.ptype == "remove_waf"]
+    assert (s.perturbed_entities, s.detected_entities, s.recall) == (1, 1, 1.0)
+    assert (s.touched_entities, s.touched_detected, s.recall_touched) == (2, 1, 0.5)
+    assert s.unexplained == 0 and s.precision == 1.0
