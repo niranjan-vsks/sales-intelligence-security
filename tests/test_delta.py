@@ -263,6 +263,7 @@ def test_entity_grain_takes_every_banner_of_the_entity(ops: Path) -> None:
     names = {r["key_value"] for r in half.items["remove_waf"]}
     assert len(names) == 1
     assert half.selected_banners["remove_waf"] == (3 if names == {"multi.com"} else 1)
+    assert all(r["chosen"] for r in half.items["remove_waf"])  # no shared banners here
     vuln = synth_mod.select(FA, 3, cfg.model_copy(update={"percent": pcts(add_vuln=100)}))
     assert vuln.selected["add_vuln"] == 4  # plain0..3: multi.com's CPE banners are edge
     # multi.com's CPE banners carry the WAF, so they are edge banners and not eligible
@@ -434,6 +435,7 @@ def test_end_to_end_small(tmp_path: Path, ops: Path, monkeypatch: pytest.MonkeyP
         assert by[p].unexplained == 0, by[p]
     # entity-grain remove_waf and sole-preferring drops leave nothing to miss on this data
     assert by["remove_waf"].recall == 1.0 and by["drop_banner"].recall == 1.0
+    assert all(s.touched_entities >= s.perturbed_entities for s in out.stats)
     text = Path(out.report).read_text(encoding="utf-8")
     assert "simulated second delivery" in text and "Diff wall time" in text
     assert text.count("**unexplained**") == 6
@@ -472,12 +474,13 @@ def test_bundle_events_and_recent_change(tmp_path: Path, ops: Path) -> None:
         assert {i["display_name"] for i in items[:2]} == {"walled.com", "plain.com"}
         by = {i["display_name"]: i for i in items}
         page = c.get(f"/accounts/{by['walled.com']['entity_id']}")
-        assert "Changes (simulated second delivery)" in page.text
-        assert "protection_removed" in page.text
+        assert "Changes" in page.text and "Simulated second delivery" in page.text
+        assert "was removed" in page.text  # protection_removed, in words
         quiet = c.get(f"/accounts/{by['other.org']['entity_id']}")
         assert "Changes" not in quiet.text
-        home = c.get("/?segment=&sort=recent_change")
-        assert home.status_code == 200 and "severity 3" in home.text
+        home = c.get("/accounts?segment=&sort=recent_change")
+        assert home.status_code == 200
+        assert "Changed since the last delivery, high severity" in home.text
 
 
 # ---- guards found by mutation testing ---------------------------------------------------
@@ -548,3 +551,18 @@ def test_bundle_holds_the_latest_pair_only(ops: Path) -> None:
     assert len(diff_mod.read_events(FA, "filec")) > 0
     ev = pq.read_table(Path(res.path) / "events.parquet").to_pylist()
     assert {e["to_file"] for e in ev} == {FB}
+
+
+def test_shared_banner_touches_entities_that_were_not_chosen(ops: Path) -> None:
+    """A banner naming 2 customer domains belongs to both; only the entity the perturbation was
+    aimed at counts as chosen, so recall is not charged for the other one."""
+    shared = {**row("one.com", 0, http_waf=WAF), "domains": ["one.com", "two.com"]}
+    rows = [shared, row("two.com", 1, port=8443, http_waf=WAF), row("fill.com")]
+    build(rows, ops, file_id=FA)
+    cfg = delta_config.load().synth
+    sel = synth_mod.select(FA, 3, cfg.model_copy(update={"percent": pcts(remove_waf=50)}))
+    assert sel.selected["remove_waf"] == 1
+    flags = {(r["key_value"], r["chosen"]) for r in sel.items["remove_waf"]}
+    # the shared banner is attributed to both domains: 1 is the aim, the other is touched
+    assert {k for k, _ in flags} == {"one.com", "two.com"}
+    assert sorted(c for _, c in flags) == [False, True]

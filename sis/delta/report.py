@@ -112,11 +112,11 @@ def write_report(res: DiffResult, stats: list[TypeStats] | None, truth: dict[str
               "change every eligible banner of each, so the entity's state really changes; the "
               "others choose banners.", "",
               "| perturbation | percent | unit | eligible | selected | banners changed | "
-              "entities touched |", "|---|---|---|---|---|---|---|"]
+              "entities chosen | entities touched |", "|---|---|---|---|---|---|---|---|"]
         for s in stats:
             p = truth["params"]["percent"][s.ptype]
             L.append(f"| {s.ptype} | {p} | {s.unit} | {s.eligible:,} | {s.selected:,} | "
-                     f"{s.applied:,} | {s.perturbed_entities:,} |")
+                     f"{s.applied:,} | {s.perturbed_entities:,} | {s.touched_entities:,} |")
         sole = truth["drop_sole"]
         L += ["", f"`drop_banner` prefers banners that are the only one on their entity's "
               f"ip:port: {sole['selected']:,} of {truth['selected_banners']['drop_banner']:,} "
@@ -131,17 +131,22 @@ def write_report(res: DiffResult, stats: list[TypeStats] | None, truth: dict[str
 
     if stats is not None:
         L += ["## Precision and recall against the truth", "",
-              "Recall = perturbed entities with at least 1 matching event / perturbed entities. "
-              "Precision = matching events on perturbed entities / all matching events. "
+              "Raw recall = chosen entities with at least 1 matching event / chosen entities "
+              "(for banner-grain types, the entities of the changed banners). A changed banner "
+              "is attributed to every customer domain it names, so an entity-grain type also "
+              "touches entities it did not aim at; their recall is shown separately. "
+              "Precision = matching events on touched entities / all matching events. "
               "Detected by: " + "; ".join(
                   f"{p} -> " + "/".join(_det(p)) for p in PERTURBATIONS) + ".", "",
-              "| perturbation | entities | detected | recall | bar | precision | "
-              "recall excluding explained misses |", "|---|---|---|---|---|---|---|"]
+              "| perturbation | chosen entities | detected | raw recall | bar | "
+              "recall, all touched entities | precision | "
+              "recall excluding explained misses |", "|---|---|---|---|---|---|---|---|"]
         for s in stats:
             bar = "" if s.recall_min is None else (
                 f"{pct(s.recall_min)} {'met' if s.passed else 'NOT met'}")
             L.append(f"| {s.ptype} | {s.perturbed_entities:,} | {s.detected_entities:,} | "
-                     f"{pct(s.recall)} | {bar} | {pct(s.precision)} "
+                     f"{pct(s.recall)} | {bar} | {pct(s.recall_touched)} "
+                     f"({s.touched_detected:,} of {s.touched_entities:,}) | {pct(s.precision)} "
                      f"({s.events_on_perturbed:,} of {s.events_of_type:,}) | "
                      f"{pct(s.recall_detectable)} |")
         L += ["", "### Misses, by category", "",

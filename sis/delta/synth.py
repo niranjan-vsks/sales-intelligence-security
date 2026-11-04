@@ -196,16 +196,21 @@ def select(file_id: str, seed: int, cfg: delta_config.Synth) -> Selection:
         selected_banners[ptype] = int(con.execute(
             f"SELECT count(*) FROM chosen WHERE ptype = '{ptype}'").fetchall()[0][0])
     rows = con.execute("""
-        SELECT c.ptype, c.banner_id, a.entity_id, a.key_kind, a.key_value, k.ip, k.port, k.module
+        SELECT c.ptype, c.banner_id, a.entity_id, a.key_kind, a.key_value, k.ip, k.port, k.module,
+               ce.entity_id IS NOT NULL OR c.ptype NOT IN ('remove_waf', 'add_vuln') AS chosen
         FROM chosen c JOIN cand k USING (banner_id) JOIN be_active a USING (banner_id)
+        LEFT JOIN chosen_ent ce ON ce.ptype = c.ptype AND ce.entity_id = a.entity_id
         ORDER BY c.ptype, md5(concat(?, ':', c.ptype, ':', c.banner_id)), c.banner_id,
                  a.entity_id""", [str(seed)]).fetchall()
     con.close()
     items: dict[str, list[dict[str, Any]]] = {p: [] for p in PERTURBATIONS}
-    for ptype, banner_id, entity_id, key_kind, key_value, ip, port, module in rows:
+    for ptype, banner_id, entity_id, key_kind, key_value, ip, port, module, chosen in rows:
+        # chosen: the entity the perturbation was aimed at. An entity-grain type also touches
+        # every other entity a changed banner is attributed to (a shared edge banner names many
+        # customer domains); those rows are chosen = false.
         item: dict[str, Any] = {"banner_id": banner_id, "entity_id": entity_id,
                                 "key_kind": key_kind, "key_value": key_value, "ip": ip,
-                                "port": port, "module": module}
+                                "port": port, "module": module, "chosen": chosen}
         if ptype == "new_banner":
             item["new_id"] = new_banner_id(seed, banner_id)
             item["new_port"] = new_banner_port(seed, banner_id, port, cfg.new_ports)

@@ -78,9 +78,12 @@ class TypeStats(BaseModel):
     selected: int
     selected_banners: int
     applied: int
-    perturbed_entities: int
+    perturbed_entities: int  # the entities the perturbation was aimed at
+    touched_entities: int  # those plus every entity sharing a changed banner
+    touched_detected: int
     detected_entities: int
     recall: float | None
+    recall_touched: float | None
     recall_min: float | None
     passed: bool | None
     events_of_type: int
@@ -119,11 +122,12 @@ def verify(from_file: str, to_file: str, truth: dict[str, Any]) -> list[TypeStat
           ON be.banner_id = b.id
         WHERE b.http_waf IS NOT NULL""")
     rows = [{"ptype": p, "banner_id": r["banner_id"], "entity_id": r["entity_id"],
-             "ip": r["ip"], "port": r["port"], "new_port": r.get("new_port")}
+             "ip": r["ip"], "port": r["port"], "new_port": r.get("new_port"),
+             "chosen": r["chosen"]}
             for p in PERTURBATIONS for r in truth["items"][p]]
     schema = pa.schema([("ptype", pa.string()), ("banner_id", pa.string()),
                         ("entity_id", pa.string()), ("ip", pa.string()), ("port", pa.int64()),
-                        ("new_port", pa.int64())])
+                        ("new_port", pa.int64()), ("chosen", pa.bool_())])
     con.register("t_arrow", pa.Table.from_pylist(rows, schema=schema))
     con.execute("CREATE TEMP TABLE t AS SELECT * FROM t_arrow")
     _events_view(con, from_file, to_file)
@@ -136,8 +140,16 @@ def verify(from_file: str, to_file: str, truth: dict[str, Any]) -> list[TypeStat
             match += f" AND subject = {_lit(subject)}"
         con.execute(f"""
             CREATE OR REPLACE TEMP TABLE m_all AS
-            SELECT DISTINCT ptype, entity_id FROM t WHERE ptype = {_lit(ptype)}""")
+            SELECT DISTINCT ptype, entity_id FROM t
+            WHERE ptype = {_lit(ptype)} AND chosen""")
+        con.execute(f"""
+            CREATE OR REPLACE TEMP TABLE touched AS
+            SELECT DISTINCT entity_id FROM t WHERE ptype = {_lit(ptype)}""")
         n_pert = int(con.execute("SELECT count(*) FROM m_all").fetchall()[0][0])
+        n_touched = int(con.execute("SELECT count(*) FROM touched").fetchall()[0][0])
+        touched_detected = int(con.execute(
+            f"SELECT count(DISTINCT entity_id) FROM evs WHERE {match} "
+            "AND entity_id IN (SELECT entity_id FROM touched)").fetchall()[0][0])
         con.execute(f"""
             CREATE OR REPLACE TEMP TABLE m AS
             SELECT * FROM m_all a
@@ -155,14 +167,14 @@ def verify(from_file: str, to_file: str, truth: dict[str, Any]) -> list[TypeStat
             f"SELECT count(*) FROM evs WHERE {match}").fetchall()[0][0])
         n_on = int(con.execute(
             f"SELECT count(*) FROM evs WHERE {match} "
-            "AND entity_id IN (SELECT entity_id FROM m_all)").fetchall()[0][0])
+            "AND entity_id IN (SELECT entity_id FROM touched)").fetchall()[0][0])
         other_sources = dict(con.execute(f"""
             SELECT src, count(*) FROM (
                 SELECT e.event_id,
                        coalesce(string_agg(DISTINCT t.ptype, '+' ORDER BY t.ptype),
                                 'no perturbation') AS src
                 FROM evs e LEFT JOIN t ON t.entity_id = e.entity_id
-                WHERE {match} AND e.entity_id NOT IN (SELECT entity_id FROM m_all)
+                WHERE {match} AND e.entity_id NOT IN (SELECT entity_id FROM touched)
                 GROUP BY e.event_id) GROUP BY src ORDER BY 2 DESC, 1""").fetchall())
         detected = n_pert - n_miss
         recall = _ratio(detected, n_pert)
@@ -173,7 +185,9 @@ def verify(from_file: str, to_file: str, truth: dict[str, Any]) -> list[TypeStat
             selected=truth["selected"][ptype],
             selected_banners=truth["selected_banners"][ptype],
             applied=truth["applied"][ptype], perturbed_entities=n_pert,
-            detected_entities=detected, recall=recall, recall_min=floor,
+            touched_entities=n_touched, touched_detected=touched_detected,
+            detected_entities=detected, recall=recall,
+            recall_touched=_ratio(touched_detected, n_touched), recall_min=floor,
             passed=None if floor is None or recall is None else recall >= floor,
             events_of_type=n_of_type, events_on_perturbed=n_on,
             precision=_ratio(n_on, n_of_type), misses=misses,
