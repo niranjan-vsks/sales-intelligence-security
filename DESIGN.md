@@ -6,8 +6,8 @@ assignment asks for. Every number here comes from `findings/` (the
 full-file profile done before any code) or from a build report under
 `docs/`, each of which names the script or command that produced it.
 
-Companion documents: DATA_MODEL.md (tables), cards/P0..P9 (build order),
-EXPLORATION.md and findings/ (how the data was understood first).
+Companion documents: DATA_MODEL.md (tables) and findings/ (how the data
+was understood before any code was written).
 
 ---
 
@@ -82,7 +82,7 @@ output validated by pydantic.
 
 ## 3. Ingestion
 
-Specified in cards/P1.md. The properties that matter at 1,000 files a
+The properties that matter at 1,000 files a
 month:
 
 - **Identity.** `file_id` = sha256 of the first 64 MiB, then the byte length.
@@ -117,7 +117,7 @@ month:
 
 ## 4. Entity resolution
 
-Specified in cards/P2.md. The rule, and why it fits this data:
+The rule, and why it fits this data:
 
 - `org` and `asn` are determined by the IP (functional dependency 100
   percent in findings/06_relationships.md). They name the landlord. Using
@@ -156,7 +156,7 @@ reverse DNS or the certificate names it.
 
 ## 5. The signal and scoring model
 
-Specified in cards/P3.md. 17 candidates and 3 disqualifiers from Stage 1
+17 candidates and 3 disqualifiers from Stage 1
 collapse into 4 facts, because the correlation clusters (findings/
 07_clusters.md) show they encode 4 underlying things. Scoring 17 columns
 would count the same fact up to 6 times.
@@ -268,7 +268,7 @@ catches us if a signal is wrong.
 
 ## 6. How we know it works
 
-Specified in cards/P4.md. There is no purchase, contact or churn field in
+There is no purchase, contact or churn field in
 the file. We hold out the provider's tested or curated labels and ask
 whether the ranking is rich in them at the top:
 
@@ -298,7 +298,7 @@ ranking and a CVE-count-only ranking:
   reported side by side
 
 Measured on the first file at scoring_version 1.1.0 (P3.1,
-`docs/EVAL_REPORT_<file_id>.md` and `docs/P3_1_REPORT.md`), ranking by
+`docs/EVAL_REPORT_<file_id>.md`), ranking by
 `priority`, Wilson 95 percent intervals:
 
 | label | p@100 | p@1,000 | p@10,000 | lift@1,000 | rank-biserial |
@@ -350,11 +350,11 @@ with 100 percent reproducibility.
 designed, specified as build cards and left unbuilt inside the 5 days, by
 choice: the ranking, its evaluation, the hosted app and the multi-file
 diff came first, because they are what the assignment grades. A 3rd LLM
-use, the eval agent for the P9 MCP server (cards/P9.md), is also designed
+use, the eval agent for the P9 MCP server (phase P9), is also designed
 and not built. What exists in the
 repo is the model gateway configuration (`config/llm_tiers.yaml`, its
 validated loader `sis/llm/tiers_config.py`) and the 2 cards
-(cards/P7.md, cards/P8.md) with their validation protocols and cost
+(phases P7 and P8) with their validation protocols and cost
 accounting.
 
 ### 7.1 The tiered model gateway (configured, not exercised)
@@ -376,7 +376,7 @@ fallback to the tier's 2nd model; 1-step escalation to the next tier
 when output fails schema validation twice; and a log row per attempt
 with tier, model used, tokens, cost, latency and status.
 
-### 7.2 What does this business do (designed, cards/P7.md)
+### 7.2 What does this business do (designed, phase P7)
 
 The scan says a business is exposed but not what it is. The flattened
 data keeps the page title, certificate organisation, detected web
@@ -389,7 +389,7 @@ ship threshold of 0.80 industry accuracy, and the same labelled set run
 through every errand model and the mid primary so accuracy and cost per
 account are compared side by side before a tier is chosen.
 
-### 7.3 Report card explanations (designed, cards/P8.md)
+### 7.3 Report card explanations (designed, phase P8)
 
 When a salesperson marks an account as a prospect, a report card is
 rendered from our own findings and evidence; that part is deterministic.
@@ -397,7 +397,7 @@ The LLM's bounded job would be 2 plain sentences per finding, "what it
 means" and "what to do", from the evidence JSON only. No web browsing, no
 scanning of the prospect: scanning a third party is legally grey for a
 security vendor, and open-ended research is where hallucination lives. A
-deterministic faithfulness check (as specified in cards/P8.md) rejects
+deterministic faithfulness check  rejects
 any output naming a CVE, a year, a number of 10 or more, or a capitalised
 name absent from the input; 50 cards judged on the reasoning
 tier against 30 human-scored cards for judge calibration; cost per card
@@ -486,10 +486,10 @@ is how it was built.
 
 **3 roles, 3 kinds of session.**
 
-1. Architect (Claude Fable, this document's author). Wrote EXPLORATION.md
+1. Architect (Claude Fable, this document's author). Wrote the exploration plan
    before seeing any data, read only compact findings, wrote this design,
    DATA_MODEL.md and the cards. Wrote 0 lines of application code.
-2. Explorer (Claude Opus). Executed EXPLORATION.md against the full file.
+2. Explorer (Claude Opus). Executed the exploration plan against the full file.
    Every number in findings/ traces to a script in findings/queries/.
    Caught and documented 2 of its own errors before committing (a
    placeholder rule that mislabelled `na`, and a null-handling bug in the
@@ -512,7 +512,7 @@ The human runs the acceptance tests before the next card starts.
 
 **What was automated.** Profiling (scripted, reproducible), ingestion
 verification (row count reconciliation), evaluation (pytest in CI with a
-threshold). Designed in cards/P7.md and cards/P8.md, not built: LLM
+threshold). Designed as phases P7 and P8, not built: LLM
 validation (labelled sets, judge calibration), model routing and cost
 control (the tiered gateway: rate limits, budgets, fallback, escalation,
 every call logged with tier, model, prompt version, tokens, USD).
@@ -523,9 +523,6 @@ distribution with no outcome to fit; they are written down as settings
 with the reasoning. The ablations show what the weights and multipliers
 do; the cutoff's effect is shown by the explorer's table at 10, 50 and
 250 IPs (findings/06_relationships.md), not by an ablation.
-
-**Lessons file.** `tasks/lessons.md` records every correction made during
-the build, by whom, and the rule derived from it.
 
 **What a month of real use would add.** The UI has a 1-click "mark as
 prospect" and "mark as not a fit" per account. Those 2 buttons are the
@@ -539,7 +536,7 @@ in the label SQL and 1 entry in the label list (evals/README.md).
   part. Not built.
 - UI polish: server-rendered tables and 1 detail page. Enough to find,
   filter, sort, open and read evidence. Not more.
-  Screenshots: docs/ui/ (listed in docs/UI_REPORT.md). The UI stays
+  Screenshots: docs/ui/. The UI stays
   minimal on purpose: 1 readability pass after the first live walk
   (overview page, plain-language reasons, dark and light themes), no
   framework and no build step.

@@ -11,9 +11,7 @@ in 5 days for the Firmable take-home.
 - Full design: [DESIGN.md](DESIGN.md) (approach, key decisions, how it was
   measured, scale, cost, dev loop)
 - Tables: [DATA_MODEL.md](DATA_MODEL.md)
-- How the data was understood before any code: [EXPLORATION.md](EXPLORATION.md)
-  and [findings/REPORT.md](findings/REPORT.md)
-- Build order and the per-phase specs: [cards/README.md](cards/README.md)
+- How the data was understood before any code: [findings/REPORT.md](findings/REPORT.md)
 - Build reports with the measured numbers: [docs/](docs/)
 
 ## 2-minute tour of the app
@@ -90,5 +88,4 @@ An architect session wrote the exploration plan before seeing the data,
 an explorer session profiled the full file and wrote every number to
 `findings/` with the query that produced it, and builder sessions took 1
 spec card each with acceptance tests and a handoff report. The human ran
-the acceptance tests between cards. `tasks/state.md` is the build log;
-`tasks/lessons.md` the corrections. DESIGN.md section 10 has the detail.
+the acceptance tests between phases. DESIGN.md section 10 has the detail.

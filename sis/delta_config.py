@@ -1,4 +1,4 @@
-"""Typed loader for config/delta.yaml (cards/P6.md)."""
+"""Typed loader for config/delta.yaml (phase P6)."""
 
 from pathlib import Path
 

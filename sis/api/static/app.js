@@ -1,4 +1,4 @@
-// Theme toggle (cards/P5_1.md): dark by default, the choice kept in localStorage.
+// Theme toggle (phase P5.1): dark by default, the choice kept in localStorage.
 (function () {
   var root = document.documentElement;
   var btn = document.getElementById("theme-toggle");

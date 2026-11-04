@@ -70,7 +70,7 @@ link: Fly terminates TLS at its proxy and uvicorn did not trust the forwarded sc
 browser blocked the CSS as mixed content. The image now runs uvicorn with `--proxy-headers
 --forwarded-allow-ips *`, redeployed as tag `20261102-1135-1.1.0-2`.
 
-## 4. Live smoke, 2026-11-03 (cards/P5.md step 9)
+## 4. Live smoke, 2026-11-03 (phase P5 step 9)
 
 Measured from the pipeline machine (Europe) against https://sis-niranjan.fly.dev with a small
 httpx script, after the second deploy:

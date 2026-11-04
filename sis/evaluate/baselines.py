@@ -1,4 +1,4 @@
-"""Baselines the full model must beat (cards/P4.md step 4): random (5 seeded shuffles,
+"""Baselines the full model must beat (phase P4 step 4): random (5 seeded shuffles,
 averaged; its expected precision is the base rate), breadth_only (n_modules desc) and
 cve_count_only (A_inferred_cves desc, which already excludes the kev and verified rows)."""
 

@@ -1,4 +1,4 @@
--- Events between 2 files (DATA_MODEL.md 4.2, cards/P6.md step 3). Reads the temp tables diff.py
+-- Events between 2 files (DATA_MODEL.md 4.2, phase P6 step 3). Reads the temp tables diff.py
 -- builds for each side s in (a, b):
 --   act_s  active entities with their score: entity_id, key_kind, key_value, exposure, segment
 --   sig_s  present signals (value > 0): entity_id, signal_id, fact, value

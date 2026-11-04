@@ -1,4 +1,4 @@
-"""Score the diff against the truth file (cards/P6.md step 5).
+"""Score the diff against the truth file (phase P6 step 5).
 
 For each perturbation type: recall = perturbed entities with at least 1 matching event over
 perturbed entities; precision = matching events on perturbed entities over all matching events.

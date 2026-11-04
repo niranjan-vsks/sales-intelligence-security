@@ -1,8 +1,8 @@
--- cards/P4.md step 1: held-out labels at entity grain, from the full `v` and `b` (not
+-- phase P4 step 1: held-out labels at entity grain, from the full `v` and `b` (not
 -- vulns_clean), over every banner attributed to an active entity (primary or fallback).
 -- Needs views b, v, be, sig and table act (entity_id of every active entity).
 -- Edge banners (DESIGN.md 5.5) carry the CDN or WAF vendor's findings, not the tenant's, so the
--- vulnerability labels skip them, as facts A to C do (cards/P3_1.md defect 3). {edge} is the
+-- vulnerability labels skip them, as facts A to C do (phase P3.1 defect 3). {edge} is the
 -- same predicate the signals use (sis.signals.catalogue.edge_predicate).
 CREATE OR REPLACE TEMP TABLE pos_vulns AS
 SELECT id,

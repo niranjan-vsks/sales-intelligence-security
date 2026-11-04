@@ -1,4 +1,4 @@
-/* Components (cards/P5_1.md). Every colour comes from tokens.css. Type scale 12/14/16/20/28.
+/* Components (phase P5.1). Every colour comes from tokens.css. Type scale 12/14/16/20/28.
    Radius rule: panels 10px, inputs, buttons and bars 6px, badges and chips full pill. */
 
 *, *::before, *::after { box-sizing: border-box; }

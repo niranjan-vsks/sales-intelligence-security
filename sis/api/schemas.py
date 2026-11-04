@@ -1,4 +1,4 @@
-"""Response and request models of the JSON API (cards/P5.md)."""
+"""Response and request models of the JSON API (phase P5)."""
 
 from datetime import datetime
 from typing import Literal

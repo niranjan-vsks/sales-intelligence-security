@@ -1,4 +1,4 @@
-"""cards/P4.md acceptance tests, marked `eval`: metric arithmetic by hand, then the committed
+"""phase P4 acceptance tests, marked `eval`: metric arithmetic by hand, then the committed
 fixture against the committed thresholds (the CI step that blocks a degrading scoring change)."""
 
 import json

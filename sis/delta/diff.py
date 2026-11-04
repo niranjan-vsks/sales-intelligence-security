@@ -1,4 +1,4 @@
-"""Events between 2 consecutive files, and the entity history (DATA_MODEL.md 4, cards/P6.md).
+"""Events between 2 consecutive files, and the entity history (DATA_MODEL.md 4, phase P6).
 
 The grain is the entity: an event says what changed for 1 account between the 2 deliveries.
 Everything is a function of the 2 per-file table sets, so a rerun gives the same bytes: the
@@ -44,7 +44,7 @@ def _lit(value: str) -> str:
 
 
 def severity_sql(cfg: delta_config.Severity) -> str:
-    """The CASE expression of config/delta.yaml's severity rules (cards/P6.md step 3)."""
+    """The CASE expression of config/delta.yaml's severity rules (phase P6 step 3)."""
     admin = ", ".join(_lit(m) for m in ADMIN_MODULES)
     high = ", ".join(_lit(s) for s in cfg.high_signals)
     whens = [

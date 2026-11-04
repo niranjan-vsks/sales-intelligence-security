@@ -1,4 +1,4 @@
-"""Held-out labels per active entity (cards/P4.md step 1, DATA_MODEL.md section 7)."""
+"""Held-out labels per active entity (phase P4 step 1, DATA_MODEL.md section 7)."""
 
 from pathlib import Path
 

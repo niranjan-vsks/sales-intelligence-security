@@ -1,4 +1,4 @@
-"""Manufacture a second delivery by perturbing the real one in known ways (cards/P6.md step 1).
+"""Manufacture a second delivery by perturbing the real one in known ways (phase P6 step 1).
 
 The simulation, stated once: the second file is the first file's own raw lines with a seeded 7
 percent or so of its banners changed, every timestamp moved forward `shift_days`, and

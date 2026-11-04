@@ -117,7 +117,7 @@ def test_segments(isolated: Path) -> None:
 
 
 def test_any_service_is_a_gate_not_a_score(isolated: Path) -> None:
-    """cards/P3_1.md defect 2: a banner with a payload, or a probe other than 'auto', is
+    """phase P3.1 defect 2: a banner with a payload, or a probe other than 'auto', is
     something that answered; an empty 'auto' port or an edge banner is not."""
     rows = [
         {"domains": ["port.com"], "module": "auto", "port": 8443, "data_len": 0},
@@ -140,7 +140,7 @@ def test_any_service_is_a_gate_not_a_score(isolated: Path) -> None:
 
 
 def test_edge_only_entity(isolated: Path) -> None:
-    """cards/P3.md: an entity whose banners are all edge banners gets fact_a = fact_b = 0,
+    """phase P3: an entity whose banners are all edge banners gets fact_a = fact_b = 0,
     fact_c = 0 (C_live_web fires but has no weight in fact_c), fact_d = 1, segment displace."""
     edge = {"domains": ["tenant.com"], "module": "https", "port": 443, "http_status": 200,
             "http_waf": "Incapsula (Imperva Inc.)", "cpe23": ["cpe:2.3:a:imperva:x"],
@@ -240,7 +240,7 @@ def test_merge_current(isolated: Path) -> None:
     assert rows["a.com"]["rank_overall"] == 1  # untouched with os leak beats the rest
 
 
-# ---- sanity assertions on the real output (cards/P3.md step 13) ------------------------
+# ---- sanity assertions on the real output (phase P3 step 13) ------------------------
 
 def _real() -> Path | None:
     from sis.config import Settings

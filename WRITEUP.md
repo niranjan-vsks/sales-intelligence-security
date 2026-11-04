@@ -10,8 +10,7 @@ Full design: DESIGN.md. Demo guide: docs/DEMO_GUIDE.md.
 uncompressed, collected in 1 day. Not a company table. 62 percent of the
 rows belong to 5 network operators; Incapsula alone is 32 percent. Only
 7 percent of rows resolve to a business's own domain. I profiled the
-whole file before writing any application code (EXPLORATION.md,
-findings/REPORT.md), and that profile set the design.
+whole file before writing any application code (findings/REPORT.md), and that profile set the design.
 
 ## What I built
 
@@ -75,7 +74,7 @@ Builder sessions each took 1 spec card with acceptance tests and returned
 a fixed-format handoff. A non-author session reviewed entity resolution
 before scoring was built. A spec-to-code audit at the end checked 427
 claims in the documents against the code and corrected 65. The build log
-is tasks/state.md.
+was kept per phase.
 
 ## Limits, stated
 

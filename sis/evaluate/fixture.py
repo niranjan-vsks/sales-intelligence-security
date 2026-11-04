@@ -1,4 +1,4 @@
-"""The committed eval bundle and its thresholds (cards/P4.md step 7). Written only on
+"""The committed eval bundle and its thresholds (phase P4 step 7). Written only on
 `sis evaluate FILE_ID --fixture`, so a normal run never moves the CI bar."""
 
 import json

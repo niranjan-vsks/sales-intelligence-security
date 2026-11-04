@@ -1,4 +1,4 @@
-"""Typed loader for config/eval.yaml (cards/P4.md)."""
+"""Typed loader for config/eval.yaml (phase P4)."""
 
 from pathlib import Path
 

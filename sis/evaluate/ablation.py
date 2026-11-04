@@ -1,4 +1,4 @@
-"""Ablations (cards/P4.md step 5): rescore through the P3 scoring SQL with an in-memory
+"""Ablations (phase P4 step 5): rescore through the P3 scoring SQL with an in-memory
 override of config/scoring.yaml (the file is never edited), then the same metrics.
 
 no_A, no_B, no_C: that fact's exposure weight set to 0, the other 2 renormalised to sum to 1.

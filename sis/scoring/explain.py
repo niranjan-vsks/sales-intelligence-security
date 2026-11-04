@@ -1,4 +1,4 @@
-"""Why an entity scored what it did: per-signal contributions to exposure (cards/P3.md step 9).
+"""Why an entity scored what it did: per-signal contributions to exposure (phase P3 step 9).
 
 The same SQL that produces scores.top_signals (sql/02_facts.sql) runs over 1 entity's stored
 signals, so the explanation can never drift from the score."""

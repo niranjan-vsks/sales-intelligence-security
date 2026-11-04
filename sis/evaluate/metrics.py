@@ -1,4 +1,4 @@
-"""Ranking metrics against held-out labels (cards/P4.md steps 2 and 3, DESIGN.md section 6).
+"""Ranking metrics against held-out labels (phase P4 steps 2 and 3, DESIGN.md section 6).
 
 A ranking is a relation with `entity_id`, 1 numeric score column and boolean label columns.
 Rank order is score descending, ties by entity_id ascending, so precision@k is deterministic.
@@ -16,7 +16,7 @@ from sis import eval_config, paths
 
 LABELS = ("label_kev", "label_verified", "label_heartbleed", "label_opts_vulns",
           "label_any_tested", "label_has_vendor")
-INFO_LABELS = ("label_ransomware",)  # reported, never a target (cards/P4.md step 1)
+INFO_LABELS = ("label_ransomware",)  # reported, never a target (phase P4 step 1)
 ALL_LABELS = LABELS + INFO_LABELS
 
 
@@ -117,7 +117,7 @@ def label_counts(con: duckdb.DuckDBPyConnection, rel: str = "ev") -> dict[str, A
 
 
 def sanity(con: duckdb.DuckDBPyConnection, rel: str = "ev") -> dict[str, Any]:
-    """cards/P4.md step 6: label_has_vendor per segment (displace must be 1.0 by construction)
+    """phase P4 step 6: label_has_vendor per segment (displace must be 1.0 by construction)
     and the exposure quantiles of displace vs untouched."""
     rates = dict(con.execute(f"""
         SELECT segment, avg(label_has_vendor::INT) FROM {rel} GROUP BY 1 ORDER BY 1""").fetchall())

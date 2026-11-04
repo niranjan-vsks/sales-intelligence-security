@@ -1,4 +1,4 @@
-"""JSON endpoints under /api and the HTML pages (cards/P5.md steps 3 to 6, cards/P5_1.md)."""
+"""JSON endpoints under /api and the HTML pages (phase P5 steps 3 to 6, phase P5.1)."""
 
 import json
 from collections.abc import Sequence

@@ -73,7 +73,7 @@ def events_path() -> Path:
 
 
 def synth_dir() -> Path:
-    """Synthetic second deliveries and their truth files (cards/P6.md)."""
+    """Synthetic second deliveries and their truth files (phase P6)."""
     return data_root() / "synth"
 
 

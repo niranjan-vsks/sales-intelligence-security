@@ -1,4 +1,4 @@
-"""The web app over 1 serve bundle (cards/P5.md, DATA_MODEL.md 6).
+"""The web app over 1 serve bundle (phase P5, DATA_MODEL.md 6).
 
 1 in-memory DuckDB connection with a view per bundle file, opened in the lifespan and kept on
 app.state; requests are serialised through a lock, since concurrency is not a goal at this size.

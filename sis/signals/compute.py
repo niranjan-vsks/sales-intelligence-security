@@ -1,4 +1,4 @@
-"""Signals per (entity, signal), generated from the catalogue (DATA_MODEL.md 3.1, cards/P3.md)."""
+"""Signals per (entity, signal), generated from the catalogue (DATA_MODEL.md 3.1, phase P3)."""
 
 from pathlib import Path
 

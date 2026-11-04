@@ -1,4 +1,4 @@
-"""`sis evaluate FILE_ID`: labels, metrics, baselines, ablations, report (cards/P4.md)."""
+"""`sis evaluate FILE_ID`: labels, metrics, baselines, ablations, report (phase P4)."""
 
 import time
 from typing import Any

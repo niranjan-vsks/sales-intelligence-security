@@ -1,4 +1,4 @@
-/* Design tokens (cards/P5_1.md). Dark is the default; [data-theme="light"] redefines the same
+/* Design tokens (phase P5.1). Dark is the default; [data-theme="light"] redefines the same
    names. Segment and fact colours were checked with the dataviz palette validator against the
    surface of each theme: segments pass CVD and normal-vision separation in both themes (grey
    is grey on purpose); facts pass in dark and sit in the CVD warn band in light, which is legal

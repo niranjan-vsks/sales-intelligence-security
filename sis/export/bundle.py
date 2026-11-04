@@ -1,4 +1,4 @@
-"""The serve bundle (DATA_MODEL.md 6, cards/P5.md step 1): the only artefact the app reads."""
+"""The serve bundle (DATA_MODEL.md 6, phase P5 step 1): the only artefact the app reads."""
 
 import json
 from datetime import UTC, datetime
@@ -10,7 +10,7 @@ from pydantic import BaseModel
 from sis import PIPELINE_VERSION, db, paths, scoring_config
 from sis.delta.truth import synthetic_file_ids
 
-MAX_BUNDLE_MB = 800  # cards/P5.md: above this the card stops and reports
+MAX_BUNDLE_MB = 800  # phase P5: above this the card stops and reports
 
 EVENTS_SCHEMA = """
     event_id VARCHAR, entity_id VARCHAR, event_type VARCHAR, subject VARCHAR,

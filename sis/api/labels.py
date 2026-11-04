@@ -1,4 +1,4 @@
-"""Plain-language labels for the UI (cards/P5_1.md): signals, facts, segments, events.
+"""Plain-language labels for the UI (phase P5.1): signals, facts, segments, events.
 
 Signal ids never reach a page outside the "Technical details" block; every place a signal is
 named goes through `signal_short` (a few words) or `signal_sentence` (1 line with the value).

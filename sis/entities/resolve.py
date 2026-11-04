@@ -28,7 +28,7 @@ DERIVED_HEADER = "# derived from "
 
 
 class ResolveConfig(BaseModel):
-    """config/resolve.yaml: the operator rules of step 3 (cards/P3_1.md defect 1)."""
+    """config/resolve.yaml: the operator rules of step 3 (phase P3.1 defect 1)."""
 
     template_zone_patterns: list[str]
     template_label_pattern: str
