@@ -451,6 +451,15 @@ What breaks first, and the next move for each:
    layer (P6) keys on `entity_id` + `ip:port` and treats repeated
    observations as "still present", not "new".
 
+Measured for P6 on the real file and its simulated successor (487,133 and
+480,664 active entities, 84,313 events): the diff takes 31 to 37 seconds
+over 6 runs (31.2 s on the last), and writing the second synthetic
+delivery took 923 s, its ingest 751 s, resolve 139 s (file timestamps) and score
+213 s. The diff reads two files' entity, score, signal and evidence tables
+plus the banners' ip, port and module columns, so it scales with entities
+and attributed banners, not with the 14.6 million raw rows. Both output
+tables are byte-identical on a rerun.
+
 ## 9. Hosting and cost
 
 Deployed: 1 Fly.io machine (shared-cpu-1x, 1 GB RAM, region fra, always on)

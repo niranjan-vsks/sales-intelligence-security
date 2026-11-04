@@ -148,13 +148,23 @@ def write_report(res: DiffResult, stats: list[TypeStats] | None, truth: dict[str
             for name, n in s.misses.items():
                 L.append(f"| {s.ptype} | {name} | {n:,} |")
             L.append(f"| {s.ptype} | **unexplained** | {s.unexplained:,} |")
-        L += ["", "Precision is below 100% for 2 reasons that are not errors. The perturbations "
-              "have side effects the scorer sees: a banner that gains a WAF becomes an edge "
-              "banner and its software, certificate and service signals stop counting "
-              "(`signal_cleared`, exposure and segment events); one that loses it starts "
-              "counting. And dropping or adding banners moves an entity's IP coverage across "
-              "the roll-up cutoff, so entities appear and vanish (`entity_new`, `entity_gone`) "
-              "and take their services with them.", ""]
+        L += ["", "### Matching events outside a type's own perturbed entities", "",
+              "Why precision is below 100%: the other events of the same type, by what was "
+              "done to their entity. `no perturbation` means the entity was not touched by "
+              "any perturbation and the change comes from the 2 files alone (an entity's IP "
+              "coverage crossing the roll-up cutoff, or peer percentiles moving).", "",
+              "| event type(s) | perturbed entity of | events |", "|---|---|---|"]
+        for s in stats:
+            for src, n in s.other_sources.items():
+                L.append(f"| {'/'.join(_det(s.ptype))} | {src} | {n:,} |")
+        L += ["", "The perturbations also have side effects the scorer sees: a banner that "
+              "gains a WAF becomes an edge banner, so its software, certificate and service "
+              "signals "
+              "stop counting (`signal_cleared`, exposure and segment events) and so do "
+              "D_hardening_headers, D_security_appliance and D_vpn, which are not read on edge "
+              "banners (`protection_removed` on an `add_waf` entity); one that loses a WAF "
+              "starts counting. Dropped banners can remove an entity's only WAF banner "
+              "(`protection_removed` on a `drop_banner` entity).", ""]
 
     L += [f"## {N_EXAMPLES} example events", ""]
     for e in pick_examples(events):

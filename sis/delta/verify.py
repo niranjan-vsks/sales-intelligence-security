@@ -85,6 +85,7 @@ class TypeStats(BaseModel):
     events_on_perturbed: int
     precision: float | None
     misses: dict[str, int]
+    other_sources: dict[str, int]  # events outside this type's entities, by what perturbed them
     unexplained: int
     recall_detectable: float | None
 
@@ -153,6 +154,14 @@ def verify(from_file: str, to_file: str, truth: dict[str, Any]) -> list[TypeStat
         n_on = int(con.execute(
             f"SELECT count(*) FROM evs WHERE {match} "
             "AND entity_id IN (SELECT entity_id FROM m_all)").fetchall()[0][0])
+        other_sources = dict(con.execute(f"""
+            SELECT src, count(*) FROM (
+                SELECT e.event_id,
+                       coalesce(string_agg(DISTINCT t.ptype, '+' ORDER BY t.ptype),
+                                'no perturbation') AS src
+                FROM evs e LEFT JOIN t ON t.entity_id = e.entity_id
+                WHERE {match} AND e.entity_id NOT IN (SELECT entity_id FROM m_all)
+                GROUP BY e.event_id) GROUP BY src ORDER BY 2 DESC, 1""").fetchall())
         detected = n_pert - n_miss
         recall = _ratio(detected, n_pert)
         floor = recall_min.get(ptype)
@@ -163,7 +172,8 @@ def verify(from_file: str, to_file: str, truth: dict[str, Any]) -> list[TypeStat
             detected_entities=detected, recall=recall, recall_min=floor,
             passed=None if floor is None or recall is None else recall >= floor,
             events_of_type=n_of_type, events_on_perturbed=n_on,
-            precision=_ratio(n_on, n_of_type), misses=misses, unexplained=unexplained,
+            precision=_ratio(n_on, n_of_type), misses=misses,
+            other_sources=other_sources, unexplained=unexplained,
             recall_detectable=_ratio(detected, n_pert - explained)))
     con.close()
     return out
