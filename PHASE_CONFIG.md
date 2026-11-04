@@ -9,7 +9,7 @@ build           none                         # docker build -t sis .  valid from
 scope guard     none
 invariants      none                         # uv run pytest -q -m eval  valid from P4 onward
 
-board           tasks/board.md               # plan checklist: tasks/todo.md
+board           tasks/board.md
 state           tasks/state.md               # newest first; resume points live here
 lessons         tasks/lessons.md
 bugs            none

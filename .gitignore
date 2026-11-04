@@ -230,3 +230,10 @@ docs/*.pdf
 # pipeline data never lives in the repo
 sis_data/
 .playwright-mcp/
+
+# local-only: study material, session kickoffs, repo-local skills
+.claude/
+docs/PRIMER.md
+docs/NOTEBOOKLM_PROMPTS.md
+cards/SESSION_*.md
+tasks/todo.md
