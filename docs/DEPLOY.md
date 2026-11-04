@@ -120,3 +120,12 @@ a span (`instrument_fastapi`) and every DuckDB query a child span `query`, visib
   htmx paging, evidence expanded, Mark as prospect confirmed in place, About; 0 console errors,
   0 failed requests, no horizontal scroll at 390 px. `wc -l /app/bundle/feedback.jsonl` = 1 (the
   walk's test click). `flyctl status`: 1 machine started, 1 of 1 checks passing.
+
+## 6. Redeploy for P5.3 (copy pass), 2026-11-04
+
+Image `registry.fly.io/sis-niranjan:20261102-0000-p6-1.1.0-p53`, same bundle, built from
+`git archive a3ae270` as in section 5. The machine was stopped again (17:03 UTC) before the
+deploy, so its `feedback.jsonl` (1 test line) was already gone. `flyctl deploy` updated the
+stopped machine without starting it; the first request started it (`auto_start_machines`), with
+`/api/health` taking 7.7 s on that cold start. Live smoke: `/`, `/accounts`, an account page and
+`/about` all 200 with the new copy; `flyctl status` 1 of 1 checks passing.
