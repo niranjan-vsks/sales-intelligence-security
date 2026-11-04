@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+{% from "_macros.html" import seg_badge, xbar, n, pct with context %}
+{% block title %}Overview{% endblock %}
+{% block content %}
+{% set seg = s.segments %}
+{% set delta = meta.delta %}
+<div class="page-head">
+  <h1>Overview</h1>
+  <p class="lede">{{ n(total) }} accounts ranked by what anyone can see of them on the internet.</p>
+</div>
+
+<section class="tiles" aria-label="Key numbers">
+  <a class="tile tile-all" href="/accounts?segment=">
+    <span class="tile-head">
+      <span class="tile-ico" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 3 7.5l9 4.5 9-4.5z"/><path d="m3 12 9 4.5 9-4.5"/><path d="m3 16.5 9 4.5 9-4.5"/></svg></span>
+      <span class="tile-label">Active accounts</span>
+    </span>
+    <span class="tile-num">{{ n(total) }}</span>
+    <span class="tile-sub">Ranked in this delivery</span>
+  </a>
+  <a class="tile seg-untouched" href="/accounts?segment=untouched">
+    <span class="tile-head">
+      <span class="tile-ico" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="0.8" fill="currentColor"/></svg></span>
+      <span class="tile-label">Untouched</span>
+    </span>
+    <span class="tile-num">{{ n(seg.get("untouched", 0)) }}</span>
+    <span class="tile-sub">{{ pct(seg.get("untouched", 0), total) }} with no security product in sight</span>
+  </a>
+  <a class="tile seg-displace" href="/accounts?segment=displace">
+    <span class="tile-head">
+      <span class="tile-ico" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6z"/></svg></span>
+      <span class="tile-label">Has a vendor</span>
+    </span>
+    <span class="tile-num">{{ n(seg.get("displace", 0)) }}</span>
+    <span class="tile-sub">{{ pct(seg.get("displace", 0), total) }} of accounts, to displace</span>
+  </a>
+  <a class="tile tile-change" href="/accounts?segment=&amp;sort=recent_change">
+    <span class="tile-head">
+      <span class="tile-ico" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></span>
+      <span class="tile-label">Changes</span>
+      {% if delta and delta.simulated %}<span class="tag tile-tag">Simulated</span>{% endif %}
+    </span>
+    <span class="tile-num">{{ n(delta.n_events) if delta else "None" }}</span>
+    <span class="tile-sub">{% if delta %}Since last delivery, changed accounts first{% else %}No earlier delivery to compare{% endif %}</span>
+  </a>
+</section>
+
+<div class="grid-2">
+  <section class="panel" aria-labelledby="h-seg">
+    <h2 id="h-seg">Segments</h2>
+    <p class="panel-sub">Who already has a security vendor, judged from what answers on the internet.</p>
+    <div class="segbar">
+      {% for k in L.SEGMENTS %}{% set c = seg.get(k, 0) %}{% if c %}
+      <a class="segbar-part seg-{{ k }}" href="/accounts?segment={{ k }}" style="flex-grow: {{ c }}" title="{{ L.segment_name(k) }}: {{ n(c) }}" aria-label="{{ L.segment_name(k) }}: {{ n(c) }} accounts, {{ pct(c, total) }}"></a>
+      {% endif %}{% endfor %}
+    </div>
+    <ul class="legend">
+      {% for k, v in L.SEGMENTS.items() %}{% set c = seg.get(k, 0) %}
+      <li><a href="/accounts?segment={{ k }}">
+        <span class="sw seg-{{ k }}" aria-hidden="true"></span>
+        <span class="legend-name">{{ v[0] }}<span class="legend-sub">{{ v[1] }}</span></span>
+        <span class="num">{{ n(c) }}</span>
+        <span class="num muted">{{ pct(c, total) }}</span>
+      </a></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="panel" aria-labelledby="h-hist">
+    <h2 id="h-hist">Exposure</h2>
+    <p class="panel-sub">Accounts by exposure score, in 10-point buckets.</p>
+    {% set hist = s.exposure_hist %}{% set hmax = hist|max or 1 %}
+    <div class="hist">
+      <svg class="hist-svg" viewBox="0 0 500 160" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <defs><linearGradient id="hist-fill" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" class="hist-stop-top"/><stop offset="1" class="hist-stop-bot"/>
+        </linearGradient></defs>
+        <line x1="0" y1="85" x2="500" y2="85" class="grid"/>
+        <line x1="0" y1="159.5" x2="500" y2="159.5" class="axis"/>
+        {% for c in hist %}{% set h = (150 * c / hmax) if c else 0 %}
+        <rect x="{{ loop.index0 * 50 + 1 }}" y="{{ 160 - h }}" width="48" height="{{ h }}" rx="2" class="hist-bar"/>
+        {% endfor %}
+      </svg>
+      <div class="hist-hits">
+        {% for c in hist %}
+        <div class="hist-hit" tabindex="0" aria-label="Exposure {{ loop.index0 * 10 }} to {{ loop.index0 * 10 + 10 }}: {{ n(c) }} accounts">
+          <span class="tip"><strong>{{ n(c) }}</strong> accounts<br><span class="muted">exposure {{ loop.index0 * 10 }} to {{ loop.index0 * 10 + 10 }}</span></span>
+        </div>
+        {% endfor %}
+      </div>
+      <span class="hist-ylab">{{ n((hmax / 2)|round|int) }}</span>
+    </div>
+    <div class="hist-axis" aria-hidden="true"><span>0</span><span>50</span><span>100</span></div>
+    <table class="sr">
+      <caption>Accounts per exposure bucket</caption>
+      <tr><th scope="col">Exposure</th><th scope="col">Accounts</th></tr>
+      {% for c in hist %}<tr><td>{{ loop.index0 * 10 }} to {{ loop.index0 * 10 + 10 }}</td><td>{{ n(c) }}</td></tr>{% endfor %}
+    </table>
+  </section>
+</div>
+
+<div class="grid-2">
+  <section class="panel" aria-labelledby="h-cty">
+    <h2 id="h-cty">Top countries</h2>
+    <p class="panel-sub">Accounts by main country. Select one to list its accounts.</p>
+    {% set cmax = (countries|map(attribute=1)|max) if countries else 1 %}
+    <ul class="hbars">
+      {% for code, c in countries %}
+      <li><a href="/accounts?segment=&amp;country={{ code }}">
+        <span class="hbar-label">{{ code or "Unknown" }}</span>
+        <span class="hbar"><span class="hbar-fill" style="width: {{ (100 * c / cmax)|round(1) }}%"></span></span>
+        <span class="num">{{ n(c) }}</span>
+      </a></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="panel" aria-labelledby="h-why">
+    <h2 id="h-why">Most common reasons</h2>
+    <p class="panel-sub">Findings that raise exposure, by number of accounts showing them.</p>
+    {% set rmax = (reasons|map(attribute=1)|max) if reasons else 1 %}
+    <ul class="hbars hbars-wide">
+      {% for sid, c in reasons %}
+      <li><div class="hbar-row">
+        <span class="hbar-label">{{ L.signal_short(sid) }}</span>
+        <span class="hbar"><span class="hbar-fill hbar-fill-quiet" style="width: {{ (100 * c / rmax)|round(1) }}%"></span></span>
+        <span class="num">{{ n(c) }}</span>
+      </div></li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>
+
+<section class="panel" aria-labelledby="h-start">
+  <div class="panel-head">
+    <div>
+      <h2 id="h-start">Start here</h2>
+      <p class="panel-sub">The 10 untouched accounts with the highest priority.</p>
+    </div>
+    <a class="btn btn-quiet" href="/accounts?segment=untouched">All untouched accounts</a>
+  </div>
+  <ol class="start">
+    {% for a in start %}
+    <li><a class="start-item" href="/accounts/{{ a.entity_id }}">
+      <span class="start-rank num">{{ a.rank_overall }}</span>
+      <span class="start-main">
+        <span class="start-name">{{ a.display_name }}</span>
+        <span class="start-why">{% if a.top_signals %}{{ L.signal_short(a.top_signals[0]) }}{% endif %}{% if a.country_code %}<span class="muted"> · {{ a.country_code }}</span>{% endif %}</span>
+      </span>
+      {{ xbar(a.exposure) }}
+    </a></li>
+    {% else %}
+    <li class="empty">No untouched accounts in this bundle.</li>
+    {% endfor %}
+  </ol>
+</section>
+{% endblock %}

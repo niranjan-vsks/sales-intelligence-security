@@ -1,0 +1,18 @@
+{% macro seg_badge(segment) -%}
+<span class="badge seg-{{ segment }}"><span class="sw" aria-hidden="true"></span>{{ L.segment_name(segment) }}</span>
+{%- endmacro %}
+
+{% macro xbar(value, big=false) -%}
+<span class="xbar{% if big %} xbar-lg{% endif %}" role="img" aria-label="Exposure {{ '%.1f'|format(value) }} of 100">
+  <span class="xbar-fill" style="width: {{ [value, 0]|max|round(1) }}%"></span>
+  <span class="xbar-num">{{ "%.1f"|format(value) }}</span>
+</span>
+{%- endmacro %}
+
+{% macro sev_dot(sev) -%}
+<span class="sev sev-{{ sev }}" title="{{ L.SEVERITY.get(sev, '') }} severity"><span class="sev-dot" aria-hidden="true"></span><span class="sr">{{ L.SEVERITY.get(sev, '') }} severity</span></span>
+{%- endmacro %}
+
+{% macro n(x) -%}{{ "{:,}".format(x) }}{%- endmacro %}
+
+{% macro pct(x, total) -%}{{ "%.1f"|format(100 * x / total) if total else "0.0" }}%{%- endmacro %}

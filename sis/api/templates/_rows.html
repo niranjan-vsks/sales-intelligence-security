@@ -1,40 +1,51 @@
+{% from "_macros.html" import seg_badge, xbar, sev_dot, n with context %}
 {% set m = res.meta %}
 {% set last = ((m.total + m.page_size - 1) // m.page_size) or 1 %}
-<p class="count">{{ "{:,}".format(m.total) }} accounts · page {{ m.page }} of {{ "{:,}".format(last) }} · sorted by {{ m.sort }}</p>
-<table>
+{% set first_i = (m.page - 1) * m.page_size + 1 %}
+{% set last_i = [m.page * m.page_size, m.total]|min %}
+{% set show_industry = res.items|selectattr("industry")|list %}
+{% macro pager() -%}
+<div class="pager">
+  <p class="count">{% if m.total %}Showing <strong>{{ n(first_i) }}</strong> to <strong>{{ n(last_i) }}</strong> of <strong>{{ n(m.total) }}</strong>{% else %}No accounts{% endif %}</p>
+  <nav class="pager-nav" aria-label="Pages">
+    {% if m.page > 1 %}
+    <a class="btn btn-quiet" href="/accounts?{{ qs }}&amp;page={{ m.page - 1 }}" hx-get="/accounts?{{ qs }}&amp;page={{ m.page - 1 }}" hx-target="#rows" hx-push-url="true" rel="prev">Previous</a>
+    {% else %}<span class="btn btn-quiet" aria-disabled="true">Previous</span>{% endif %}
+    <span class="pager-pos">Page {{ n(m.page) }} of {{ n(last) }}</span>
+    {% if m.page < last %}
+    <a class="btn btn-quiet" href="/accounts?{{ qs }}&amp;page={{ m.page + 1 }}" hx-get="/accounts?{{ qs }}&amp;page={{ m.page + 1 }}" hx-target="#rows" hx-push-url="true" rel="next">Next</a>
+    {% else %}<span class="btn btn-quiet" aria-disabled="true">Next</span>{% endif %}
+  </nav>
+</div>
+{%- endmacro %}
+{{ pager() }}
+<div class="table-wrap">
+<table class="rows">
   <thead>
-    <tr><th>#</th><th>Name</th><th>Segment</th><th class="num">Exposure</th><th class="num">Priority</th>
-        <th>Country</th><th class="num">Banners</th><th>Top signal</th><th>Industry</th>
-        <th>Change</th></tr>
+    <tr><th scope="col">Account</th><th scope="col">Segment</th><th scope="col">Exposure</th>
+        <th scope="col" class="num">Priority</th><th scope="col">Top reason</th><th scope="col">Country</th>
+        <th scope="col" class="num">Services</th>{% if show_industry %}<th scope="col">Industry</th>{% endif %}
+        <th scope="col"><span class="sr">Changed</span></th></tr>
   </thead>
   <tbody>
   {% for a in res.items %}
     <tr>
-      <td class="num">{{ a.rank_overall }}</td>
-      <td><a href="/accounts/{{ a.entity_id }}">{{ a.display_name }}</a></td>
-      <td><span class="seg seg-{{ a.segment }}">{{ a.segment }}</span></td>
-      <td class="num">{{ "%.1f"|format(a.exposure) }}</td>
-      <td class="num">{{ "%.1f"|format(a.priority) }}</td>
-      <td>{{ a.country_code or "" }}</td>
-      <td class="num">{{ "{:,}".format(a.n_banners) }}</td>
-      <td>{% if a.top_signals %}{{ labels.get(a.top_signals[0], a.top_signals[0]) }}{% endif %}</td>
-      <td>{{ a.industry or "" }}</td>
-      <td>{% if a.max_event_severity %}<span class="sev sev-{{ a.max_event_severity }}">severity {{ a.max_event_severity }}</span>{% endif %}</td>
+      <td class="c-name"><span class="rank num">{{ a.rank_overall }}</span><a href="/accounts/{{ a.entity_id }}">{{ a.display_name }}</a></td>
+      <td class="c-seg">{{ seg_badge(a.segment) }}</td>
+      <td class="c-x">{{ xbar(a.exposure) }}</td>
+      <td class="num c-prio"><span class="cell-label">Priority </span>{{ "%.1f"|format(a.priority) }}</td>
+      <td class="c-why">{% if a.top_signals %}{{ L.signal_short(a.top_signals[0]) }}{% else %}<span class="muted">None</span>{% endif %}</td>
+      <td class="c-cty">{{ a.country_code or "" }}</td>
+      <td class="num c-svc"><span class="cell-label">Services </span>{{ n(a.n_banners) }}</td>
+      {% if show_industry %}<td class="c-ind">{{ a.industry or "" }}</td>{% endif %}
+      <td class="c-chg">{% if a.max_event_severity %}<span class="changed" title="Changed since the last delivery ({{ L.SEVERITY.get(a.max_event_severity, '')|lower }} severity)"><span class="sev-dot sev-{{ a.max_event_severity }}" aria-hidden="true"></span><span class="sr">Changed since the last delivery, {{ L.SEVERITY.get(a.max_event_severity, '')|lower }} severity</span></span>{% endif %}</td>
     </tr>
   {% else %}
-    <tr><td colspan="10">No accounts match these filters.</td></tr>
+    <tr class="empty-row"><td colspan="{{ 9 if show_industry else 8 }}">
+      <p class="empty"><strong>No accounts match these filters.</strong> Clear the search or tick more segments.</p>
+    </td></tr>
   {% endfor %}
   </tbody>
 </table>
-{% set base = "q=" ~ (form.q|urlencode) ~ "&segment=" ~ form.segment ~ "&country=" ~ (form.country|urlencode)
-   ~ "&industry=" ~ (form.industry|urlencode) ~ "&min_exposure=" ~ form.min_exposure ~ "&sort=" ~ form.sort %}
-<nav class="pager">
-  {% if m.page > 1 %}
-  <a href="/?{{ base }}&page={{ m.page - 1 }}" hx-get="/?{{ base }}&page={{ m.page - 1 }}"
-     hx-target="#rows" hx-push-url="true">Previous</a>
-  {% endif %}
-  {% if m.page < last %}
-  <a href="/?{{ base }}&page={{ m.page + 1 }}" hx-get="/?{{ base }}&page={{ m.page + 1 }}"
-     hx-target="#rows" hx-push-url="true">Next</a>
-  {% endif %}
-</nav>
+</div>
+{% if res.items %}{{ pager() }}{% endif %}

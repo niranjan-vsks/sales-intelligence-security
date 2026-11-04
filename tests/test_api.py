@@ -15,6 +15,7 @@ from sis.config import settings
 from sis.entities import resolve as resolve_mod
 from sis.export.bundle import export
 from sis.scoring import score as score_mod
+from sis.signals.catalogue import BY_ID
 
 WEB = {"module": "https", "port": 443, "http_status": 200}
 ROWS = [
@@ -139,24 +140,53 @@ def test_stats(client: TestClient) -> None:
     s = client.get("/api/stats").json()
     assert sum(s["segments"].values()) == 7 and s["countries_top20"]["DE"] == 2
     assert s["bundle"]["bundle_version"] == "test-1.1.0"
+    hist = s["exposure_hist"]
+    assert len(hist) == 10 and sum(hist) == 7 and all(isinstance(n, int) for n in hist)
+    items = client.get("/api/accounts?page_size=200").json()["items"]
+    assert hist[9] == sum(a["exposure"] >= 90 for a in items)
+    assert hist[0] == sum(a["exposure"] < 10 for a in items)
+    fires = s["signal_fire_counts"]
+    assert fires and set(fires) <= set(BY_ID)
+    assert all(1 <= n <= 7 for n in fires.values())
+    assert list(fires.values()) == sorted(fires.values(), reverse=True)
+    assert fires["C_admin_services"] == 1  # alpha.com's ssh
+    assert client.get("/api/stats").json() == s  # cached aggregates give the same answer
 
 
 def test_pages(client: TestClient) -> None:
     home = client.get("/")
-    assert home.status_code == 200 and "alpha.com" in home.text
-    assert "walled.com" not in home.text  # default segment filter: untouched
+    assert home.status_code == 200
+    for tile in ("Active accounts", "Untouched", "Has a vendor", "Changes",
+                 "No earlier delivery to compare"):  # the test bundle has no delta
+        assert tile in home.text
+    assert "alpha.com" in home.text  # "Start here": untouched accounts only
+    assert "walled.com" not in home.text
     assert "test-1.1.0" in home.text and "ROLLUP_MAX_IPS 50" in home.text
-    every = client.get("/?segment=&min_exposure=&q=")
+    listing = client.get("/accounts")
+    assert listing.status_code == 200 and "alpha.com" in listing.text
+    assert "walled.com" not in listing.text  # default segment filter: untouched
+    every = client.get("/accounts?segment=&min_exposure=&q=")
     assert every.status_code == 200 and "walled.com" in every.text
-    rows = client.get("/?segment=", headers={"HX-Request": "true"})
-    assert "<table>" in rows.text and "<form" not in rows.text  # the partial only
-    assert client.get("/?segment=nope").status_code == 422
+    two = client.get("/accounts?segment=&segment=displace&segment=partially_covered")
+    assert "walled.com" in two.text and "fronted.com" in two.text
+    assert "alpha.com" not in two.text  # chips: segments compose with OR
+    rows = client.get("/accounts?segment=", headers={"HX-Request": "true"})
+    assert "<table" in rows.text and "<form" not in rows.text  # the partial only
+    assert client.get("/accounts?segment=nope").status_code == 422
+    assert client.get("/accounts?min_exposure=101").status_code == 422
     eid = client.get("/api/accounts?q=walled").json()["items"][0]["entity_id"]
     page = client.get(f"/accounts/{eid}")
     assert page.status_code == 200
-    for section in ("Why", "Evidence", "Protection present", "Mark prospect", "Not a fit"):
+    for section in ("Why it ranks here", "The 4 facts", "Protection", "Mark as prospect",
+                    "Not a fit", "Technical details"):
         assert section in page.text
-    assert "Cloudflare (Cloudflare Inc.)" in page.text
+    assert "Behind Cloudflare (Cloudflare Inc.)" in page.text
+    alpha = client.get("/api/accounts?q=alpha").json()["items"][0]["entity_id"]
+    text = client.get(f"/accounts/{alpha}").text
+    assert "Show evidence" in text and "A TLS certificate has expired" in text
+    readable, _, tech = text.partition("Technical details")
+    assert not any(sid in readable for sid in BY_ID)  # signal ids only in the collapsed block
+    assert "B_expired" in tech
     about = client.get("/about")
     assert about.status_code == 200 and "How we know it works" in about.text
     assert "Hosting and cost" not in about.text  # section 9 is not on the About page

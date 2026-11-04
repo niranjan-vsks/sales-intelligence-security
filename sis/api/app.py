@@ -47,6 +47,7 @@ class Bundle:
                 f"CREATE VIEW {t} AS SELECT *{extra} FROM read_parquet('{path}')")
         self.lock = threading.RLock()  # reentrant: a caller may hold it across queries
         self.feedback_lock = threading.Lock()
+        self.cache: dict[str, Any] = {}  # bundle-wide aggregates, computed once per process
 
     def query(self, sql: str, params: Sequence[Any] = ()) -> list[dict[str, Any]]:
         """Rows as dicts. `params` are bound, never formatted into `sql`."""

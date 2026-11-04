@@ -1,28 +1,58 @@
 {% extends "base.html" %}
+{% block title %}Accounts{% endblock %}
 {% block content %}
-<h1>Accounts</h1>
-<form class="filters" method="get" action="/" hx-get="/" hx-target="#rows" hx-push-url="true">
-  <label>Name <input type="search" name="q" value="{{ form.q }}" placeholder="contains"></label>
-  <label>Segment
-    <select name="segment">
-      <option value="" {% if not form.segment %}selected{% endif %}>any</option>
-      {% for s in ["untouched", "partially_covered", "displace", "low_surface"] %}
-      <option value="{{ s }}" {% if form.segment == s %}selected{% endif %}>{{ s }}</option>
+<div class="page-head">
+  <h1>Accounts</h1>
+</div>
+<form class="filters" method="get" action="/accounts" hx-get="/accounts" hx-target="#rows"
+      hx-push-url="true" hx-trigger="submit, change, input changed delay:400ms from:#f-q"
+      aria-label="Filter accounts">
+  <div class="field field-q">
+    <label for="f-q">Search</label>
+    <span class="input-icon">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="f-q" type="search" name="q" value="{{ form.q }}" placeholder="Name contains" autocomplete="off">
+    </span>
+  </div>
+  <fieldset class="field chips">
+    <legend>Segment</legend>
+    <input type="hidden" name="segment" value="">
+    <div class="chip-row">
+    {% for k, v in L.SEGMENTS.items() %}
+    <label class="chip seg-{{ k }}">
+      <input type="checkbox" name="segment" value="{{ k }}" {% if k in form.segments %}checked{% endif %}>
+      <span class="sw" aria-hidden="true"></span>{{ v[2] }}<span class="chip-n">{{ "{:,}".format(seg_counts.get(k, 0)) }}</span>
+    </label>
+    {% endfor %}
+    </div>
+  </fieldset>
+  <div class="field">
+    <label for="f-country">Country</label>
+    <select id="f-country" name="country">
+      <option value="">Any</option>
+      {% for c in countries %}{% if c %}
+      <option value="{{ c }}" {% if form.country == c %}selected{% endif %}>{{ c }}</option>
+      {% endif %}{% endfor %}
+      {% if form.country and form.country not in countries %}
+      <option value="{{ form.country }}" selected>{{ form.country }}</option>
+      {% endif %}
+    </select>
+  </div>
+  <div class="field field-num">
+    <label for="f-min">Min exposure</label>
+    <input id="f-min" type="number" name="min_exposure" min="0" max="100" step="1" inputmode="numeric"
+           value="{{ form.min_exposure }}" placeholder="0">
+  </div>
+  <div class="field">
+    <label for="f-sort">Sort by</label>
+    <select id="f-sort" name="sort">
+      {% for k, v in sorts.items() %}
+      <option value="{{ k }}" {% if form.sort == k %}selected{% endif %}>{{ v }}</option>
       {% endfor %}
     </select>
-  </label>
-  <label>Country <input name="country" value="{{ form.country }}" size="3" placeholder="US"></label>
-  <label>Industry <input name="industry" value="{{ form.industry }}" size="12"></label>
-  <label>Min exposure <input type="number" name="min_exposure" min="0" max="100" step="1"
-         value="{{ form.min_exposure }}" size="4"></label>
-  <label>Sort
-    <select name="sort">
-      {% for s in ["priority", "exposure", "n_banners", "recent_change"] %}
-      <option value="{{ s }}" {% if form.sort == s %}selected{% endif %}>{{ s }}</option>
-      {% endfor %}
-    </select>
-  </label>
-  <button type="submit">Apply</button>
+  </div>
+  {% if form.industry %}<input type="hidden" name="industry" value="{{ form.industry }}">{% endif %}
+  <noscript><button type="submit" class="btn">Apply</button></noscript>
 </form>
-<div id="rows">{% include "_rows.html" %}</div>
+<div id="rows" aria-live="polite">{% include "_rows.html" %}</div>
 {% endblock %}

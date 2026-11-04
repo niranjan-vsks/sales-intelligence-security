@@ -40,3 +40,13 @@ Another session deploys P5 in the same tree: stage by explicit path only; do not
 - [ ] tests/test_delta.py (4 card tests + more), audit, mypy
 - [ ] Real run: synth seed 42 -> ingest -> resolve -> score -> delta; DELTA_REPORT; DESIGN 8 wall time
 - [ ] State resume point, board, lessons, handoff
+
+## P5.1: UI readability pass and overview dashboard (builder, Opus 5.5, 2026-11-04)
+- [ ] tokens.css (both themes, OKLCH) + app.css (components); old CSS removed; palettes run through the dataviz validator
+- [ ] sis/api/labels.py: signal, fact, segment, event labels and sentences; test every catalogue id and event type has one
+- [ ] /api/stats: exposure_hist (10 counts) and signal_fire_counts, cached on app.state; shape tests
+- [ ] Templates: base (sticky header, nav, theme toggle, bundle), overview (/), accounts (/accounts), _rows, account, about
+- [ ] Tests updated for the route move (/ -> overview, list at /accounts)
+- [ ] Audit, mypy; Playwright walk 1280 and 390, dark and light; docs/ui/*.png; docs/UI_REPORT.md; console clean; Lighthouse a11y >= 90
+- [ ] Redeploy (feedback.jsonl copied out first) with the P6 bundle; live smoke; DESIGN.md 11 sentence
+- [ ] State resume point, board, handoff

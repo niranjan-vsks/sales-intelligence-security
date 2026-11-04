@@ -1,0 +1,106 @@
+/* Design tokens (cards/P5_1.md). Dark is the default; [data-theme="light"] redefines the same
+   names. Segment and fact colours were checked with the dataviz palette validator against the
+   surface of each theme: segments pass CVD and normal-vision separation in both themes (grey
+   is grey on purpose); facts pass in dark and sit in the CVD warn band in light, which is legal
+   because every fact bar carries its name. */
+:root {
+  color-scheme: dark;
+  --bg: #141619;
+  --surface: #1c1f24;
+  --surface-2: #23272d;
+  --border: #2e333a;
+  --border-strong: #414750;
+  --text: #eceef1;
+  --text-2: #b9bfc8;
+  --text-3: #959ca6;
+  --accent: #3987e5;
+  --accent-text: #7fb2f2;
+  --accent-strong: #2b6ac0;
+  --accent-soft: rgb(57 135 229 / 0.14);
+  --on-accent: #ffffff;
+  --focus: #7fb2f2;
+
+  --seg-untouched: #3987e5;
+  --seg-partially_covered: #c98500;
+  --seg-displace: #9085e9;
+  --seg-low_surface: #656a72;
+
+  --fact-a: #d95926;
+  --fact-b: #199e70;
+  --fact-c: #c98500;
+  --fact-d: #9085e9;
+
+  --sev-3: #e66767;
+  --sev-2: #c98500;
+  --sev-1: #8a919b;
+  --ok: #3fb68b;
+
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, "Cascadia Mono", "SF Mono", Menlo, Consolas, monospace;
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-20: 20px;
+  --fs-28: 28px;
+
+  --r-sm: 6px;   /* inputs, buttons, bars */
+  --r-md: 10px;  /* panels */
+  --r-pill: 999px; /* badges and chips */
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.3);
+  /* depth: a lit top edge, a soft drop shadow, and a surface that is a touch lighter on top */
+  --hi: inset 0 1px 0 rgb(255 255 255 / 0.05);
+  --elev-1: 0 1px 2px rgb(0 0 0 / 0.35), 0 12px 32px -18px rgb(0 0 0 / 0.65);
+  --elev-2: 0 2px 6px rgb(0 0 0 / 0.35), 0 20px 44px -18px rgb(0 0 0 / 0.75);
+  --surface-grad: linear-gradient(180deg, #20242a 0%, #1c1f24 60%);
+  --bg-glow: radial-gradient(1100px 480px at 12% -12%, rgb(57 135 229 / 0.11), transparent 62%),
+             radial-gradient(800px 380px at 100% -8%, rgb(144 133 233 / 0.07), transparent 60%);
+  --glow-mix: 55%;  /* how strongly a hovered element's own colour glows */
+  --header-bg: rgb(20 22 25 / 0.78);
+  --t: 150ms ease-out;
+  --z-header: 10;
+  --max: 1200px;
+  --gutter: 16px;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --surface-2: #f0f2f5;
+  --border: #e0e3e8;
+  --border-strong: #c5cbd3;
+  --text: #15181d;
+  --text-2: #464d57;
+  --text-3: #5d6470;
+  --accent: #2a78d6;
+  --accent-text: #1c5fb3;
+  --accent-strong: #1f63b8;
+  --accent-soft: rgb(42 120 214 / 0.1);
+  --on-accent: #ffffff;
+  --focus: #1f63b8;
+
+  --seg-untouched: #2a78d6;
+  --seg-partially_covered: #b07400;
+  --seg-displace: #6250d6;
+  --seg-low_surface: #8b9099;
+
+  --fact-a: #c4521f;
+  --fact-b: #14875d;
+  --fact-c: #a86f00;
+  --fact-d: #6250d6;
+
+  --sev-3: #c93b3b;
+  --sev-2: #a86f00;
+  --sev-1: #7b828c;
+  --ok: #14875d;
+
+  --shadow: 0 1px 2px rgb(16 24 40 / 0.06);
+  --hi: inset 0 1px 0 rgb(255 255 255 / 0.9);
+  --elev-1: 0 1px 2px rgb(16 24 40 / 0.05), 0 10px 28px -16px rgb(16 24 40 / 0.2);
+  --elev-2: 0 2px 6px rgb(16 24 40 / 0.07), 0 18px 40px -16px rgb(16 24 40 / 0.28);
+  --surface-grad: linear-gradient(180deg, #ffffff 0%, #fbfcfd 100%);
+  --bg-glow: radial-gradient(1100px 480px at 12% -12%, rgb(42 120 214 / 0.08), transparent 62%),
+             radial-gradient(800px 380px at 100% -8%, rgb(98 80 214 / 0.05), transparent 60%);
+  --glow-mix: 35%;
+  --header-bg: rgb(245 246 248 / 0.82);
+}
