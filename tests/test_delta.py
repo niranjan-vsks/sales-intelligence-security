@@ -416,3 +416,73 @@ def test_bundle_events_and_recent_change(tmp_path: Path, ops: Path) -> None:
         assert "Changes" not in quiet.text
         home = c.get("/?segment=&sort=recent_change")
         assert home.status_code == 200 and "severity 3" in home.text
+
+
+# ---- guards found by mutation testing ---------------------------------------------------
+
+
+def test_added_protection_is_not_also_a_signal(ops: Path) -> None:
+    two_files(ops, [row("a.com"), row("b.com")], [row("a.com", http_waf=WAF), row("b.com")])
+    diff_mod.diff(FA, FB, detected_at=WHEN)
+    assert len(of_type("protection_added")) == 1
+    assert "D_waf" not in {e["subject"] for e in of_type("signal_appeared")}
+
+
+def test_exposure_threshold_is_inclusive() -> None:
+    from sis import db
+    from sis.sqlfiles import run_sql
+
+    con = db.connect()
+    for s, exp in (("a", (50.0, 50.0, 50.0)), ("b", (60.0, 59.9, 40.0))):
+        con.execute(f"""CREATE TEMP TABLE act_{s} AS SELECT * FROM (VALUES
+            ('e1', 'domain', 'one.com', {exp[0]}, 'untouched'),
+            ('e2', 'domain', 'two.com', {exp[1]}, 'untouched'),
+            ('e3', 'domain', 'three.com', {exp[2]}, 'untouched')
+            ) t(entity_id, key_kind, key_value, exposure, segment)""")
+        con.execute(f"CREATE TEMP TABLE sig_{s} (entity_id VARCHAR, signal_id VARCHAR, "
+                    "fact VARCHAR, value DOUBLE)")
+        con.execute(f"CREATE TEMP TABLE svc_{s} (entity_id VARCHAR, skey VARCHAR, "
+                    "module VARCHAR)")
+        con.execute(f"CREATE TEMP TABLE evd_{s} (entity_id VARCHAR, signal_id VARCHAR, "
+                    "v VARCHAR)")
+    run_sql(con, diff_mod.SQL_DIR / "01_events.sql",
+            fragments={"severity": diff_mod.severity_sql(delta_config.load().diff.severity)},
+            threshold=10.0, from_file="x", to_file="y", detected_at="2026-11-03 12:00:00")
+    got = dict(con.execute("SELECT entity_id, event_type FROM events").fetchall())
+    assert got == {"e1": "exposure_up", "e3": "exposure_down"}  # +10.0 counts, +9.9 does not
+
+
+def test_synthetic_file_does_not_write_operators(ops: Path, monkeypatch: pytest.MonkeyPatch,
+                                                 tmp_path: Path) -> None:
+    for fid in (FA, FB):
+        build(banners(5), ops, file_id=fid)
+    written: list[str] = []
+    monkeypatch.setattr(resolve_mod, "write_operator_file",
+                        lambda path, seed, derived, file_id, new: written.append(file_id))
+    write_truth(paths.synth_truth_path(1), {"seed": 1, "synthetic_file_id": FB})
+    resolve_mod.resolve(FB, operator_file=ops, write_report=False)
+    assert written == []
+    resolve_mod.resolve(FA, operator_file=ops, write_report=False)
+    assert written == [FA]
+
+
+def test_bundle_holds_the_latest_pair_only(ops: Path) -> None:
+    import shutil
+
+    from sis.export.bundle import export
+
+    a = [row("walled.com", http_waf=WAF), row("plain.com")]
+    two_files(ops, a, [row("walled.com"), row("plain.com")])
+    build([row("walled.com", http_waf=WAF), row("plain.com", cert_expired=True)], ops,
+          file_id="filec")
+    diff_mod.diff(FA, "filec", detected_at=datetime(2026, 11, 1))  # the older pair
+    diff_mod.diff(FA, FB, detected_at=WHEN)
+    cur = paths.current_dir()
+    cur.mkdir(parents=True)
+    for name in ("entities.parquet", "scores.parquet"):
+        shutil.copy(paths.file_dir(FA) / name, cur / name)
+    res = export("t-2")
+    assert res.n_events == len(events(FA, FB)) > 0
+    assert len(diff_mod.read_events(FA, "filec")) > 0
+    ev = pq.read_table(Path(res.path) / "events.parquet").to_pylist()
+    assert {e["to_file"] for e in ev} == {FB}
