@@ -174,7 +174,9 @@ def write_report(res: DiffResult, stats: list[TypeStats] | None, truth: dict[str
               "stop counting (`signal_cleared`, exposure and segment events) and so do "
               "D_hardening_headers, D_security_appliance and D_vpn, which are not read on edge "
               "banners (`protection_removed` on an `add_waf` entity); one that loses a WAF "
-              "starts counting. Dropped banners can remove an entity's only WAF banner "
+              "starts counting, so hardening headers or an appliance on it are read "
+              "(`protection_added` on a `remove_waf` entity). Dropped banners can remove an "
+              "entity's only WAF banner "
               "(`protection_removed` on a `drop_banner` entity).", ""]
 
     L += [f"## {N_EXAMPLES} example events", ""]

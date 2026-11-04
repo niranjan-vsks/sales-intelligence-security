@@ -452,13 +452,15 @@ What breaks first, and the next move for each:
    observations as "still present", not "new".
 
 Measured for P6 on the real file and its simulated successor (487,133 and
-480,664 active entities, 84,313 events): the diff takes 31 to 37 seconds
-over 6 runs (31.2 s on the last), and writing the second synthetic
-delivery took 923 s, its ingest 751 s, resolve 139 s (file timestamps) and score
-213 s. The diff reads two files' entity, score, signal and evidence tables
-plus the banners' ip, port and module columns, so it scales with entities
-and attributed banners, not with the 14.6 million raw rows. Both output
-tables are byte-identical on a rerun.
+476,560 active entities, 148,368 events): the diff takes 38 to 93 seconds
+over 4 runs (37.8, 43.1, 45.5 and 93.1 s; the slower ones while other
+processes were using the machine), and writing the second synthetic delivery took 762 s (1,782 s on
+a rerun under load), its ingest 786 s, resolve 193 s and score 267 s. The
+diff reads two files' entity, score, signal and evidence tables plus the
+banners' ip, port and module columns, so it scales with entities and
+attributed banners, not with the 14.6 million raw rows. Both output tables
+are byte-identical on a rerun, and rerunning the synth with the same seed
+gave the same file_id.
 
 ## 9. Hosting and cost
 
