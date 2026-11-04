@@ -25,7 +25,7 @@ in 5 days for the Firmable take-home.
    (Untouched is the first call list; Has a vendor is the displacement
    list), by country, by minimum exposure, or search a name.
 3. Open an account. The header gives the exposure score and rank; the 4
-   bars show which of the 4 facts drive it (old software, neglected
+   bars show which of the 4 facts drive it (visibly old software, neglected
    certificates, exposed surface, protection present); the Why panel
    gives the top reasons in plain words with the raw banner evidence
    collapsed under each.
@@ -75,7 +75,7 @@ uv run pytest -q -m eval                                  # ranking-quality thre
 Deploy: [docs/DEPLOY.md](docs/DEPLOY.md). Cost: 1 Fly.io machine, about
 7.73 USD a month.
 
-## Honest status
+## Status
 
 - Built and live: ingest, entity resolution, scoring, evaluation,
   multi-file delta, hosted app.

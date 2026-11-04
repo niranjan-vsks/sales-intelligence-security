@@ -90,11 +90,11 @@ FACTS: dict[str, tuple[str, str]] = {  # fact -> (name, what it means)
 
 SEGMENTS: dict[str, tuple[str, str, str]] = {  # segment -> (name, 1 line, chip name)
     "untouched": ("Untouched", "Exposed, with no security product in sight", "Untouched"),
-    "partially_covered": ("Partially covered", "A CDN edge in front, the rest open",
+    "partially_covered": ("Partially covered",
+                          "An edge platform, VPN or hardening headers, no security product",
                           "Partially covered"),
-    "displace": ("Has a vendor (displace)", "A security vendor is already in place",
-                 "Has a vendor"),
-    "low_surface": ("Low visible surface", "Too little visible to judge", "Low surface"),
+    "displace": ("Has a vendor", "A security vendor is already in place", "Has a vendor"),
+    "low_surface": ("Low visible surface", "Nothing of theirs answered the scan", "Low surface"),
 }
 
 SEVERITY = {3: "High", 2: "Medium", 1: "Low"}

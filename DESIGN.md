@@ -114,8 +114,7 @@ month:
 
 ## 4. Entity resolution
 
-Specified in cards/P2.md. The rule is simple and the write-up says why it
-is right for this data:
+Specified in cards/P2.md. The rule, and why it fits this data:
 
 - `org` and `asn` are determined by the IP (functional dependency 100
   percent in findings/06_relationships.md). They name the landlord. Using
@@ -141,11 +140,11 @@ is right for this data:
   tag or a W01 WAF name) as evidence of protection only, never of
   exposure (section 5.5).
 - Blocked, never scored: honeypot or scanner tags (250,530 rows), C2 or
-  malware tags, operator domains. The write-up states explicitly that the
-  `*-rat` probe modules are not detections (16 of 31,763 such rows on
-  Google IPs carry any payload) and are ignored.
+  malware tags, operator domains. The `*-rat` probe modules are not
+  detections (16 of 31,763 such rows on Google IPs carry any payload) and
+  are ignored.
 
-What is lost and said so: entities that are only reachable through a CDN
+What is lost: entities that are only reachable through a CDN
 show up as the CDN. For those, the only recoverable fact is "this domain
 is behind Incapsula or Cloudflare", which is itself the negative signal
 (section 5, fact D), and it is attributed to the customer domain when
@@ -297,7 +296,7 @@ Measured on the first file at scoring_version 1.1.0 (P3.1,
 
 At k = 1,000 on label_any_tested: random 0.12%, breadth_only 3.4%,
 cve_count_only 3.3%; ablations no_A 2.8%, no_B 2.3%, no_C 2.3%, no_D
-4.5%. In plain words: the top of the list is about 28 times richer in
+4.5%. The top of the list is about 28 times richer in
 tested vulnerabilities than chance. The full model now edges past
 breadth_only (3.9% against 3.4%), but the intervals overlap, so on
 precision@1,000 it still does not clearly beat it; it separates on
@@ -311,7 +310,7 @@ which is why they ranked high, and they were not prospects. Untouched
 only, p@1,000 on label_any_tested is 3.4% [2.4, 4.7] against a 0.19%
 base rate.
 
-The honest limits, stated in the write-up: label_kev is downstream of the
+Limits: label_kev is downstream of the
 same version strings fact A reads, so a high score there partly proves we
 can read a version string. The tested labels are independent but number
 in the low thousands. Neither says anyone bought anything. The only true
@@ -340,8 +339,7 @@ first, because they are what the assignment grades. What exists in the
 repo is the model gateway configuration (`config/llm_tiers.yaml`, its
 validated loader `sis/llm/tiers_config.py`) and the 2 cards
 (cards/P7.md, cards/P8.md) with their validation protocols and cost
-accounting. They are described here so the reader can judge the design,
-with the status stated plainly.
+accounting.
 
 ### 7.1 The tiered model gateway (configured, not exercised)
 
@@ -465,7 +463,7 @@ Parquet file plus DuckDB cannot do.
 ## 10. The dev loop
 
 The assignment says how we build is judged as much as what we ship. This
-is how it was built, honestly.
+is how it was built.
 
 **3 roles, 3 kinds of session.**
 
@@ -510,7 +508,7 @@ the build, by whom, and the rule derived from it.
 
 **What a month of real use would add.** The UI has a 1-click "mark as
 prospect" and "mark as not a fit" per account. Those 2 buttons are the
-first true labels this system will ever have. Section 6's metrics are
+first true labels this system has. Section 6's metrics are
 designed to accept them as a 7th label without code changes.
 
 ## 11. Deliberate cuts
@@ -535,8 +533,7 @@ designed to accept them as a 7th label without code changes.
 - Fact A is partly circular with label_kev. Reported with ablations and
   with the tested labels alongside.
 - Entities behind a CDN are under-observed, so `low_surface` may hide real
-  exposure we cannot see. The segment is named for what we can see, and
-  the write-up says so.
+  exposure we cannot see. The segment is named for what we can see.
 - Hosting providers at the top, found by the evaluation and fixed in
   P3.1. At scoring 1.0.0, 95 of the top 100 by priority were hosting or
   network operators (OVH per-/24 reverse-DNS zones such as

@@ -58,7 +58,7 @@ def test_event_sentences() -> None:
     assert ev("protection_removed", "D_hardening_headers", "strict-transport-security", None) \
         == "Hardening headers removed (HSTS)"
     assert ev("segment_changed", "segment", "untouched", "displace") == \
-        "Moved from Untouched to Has a vendor (displace)"
+        "Moved from Untouched to Has a vendor"
     assert ev("cert_expired_since", "B_expired", None, "2026-11-15") == \
         "A TLS certificate expired since the last delivery"
     assert ev("service_new", "1.2.3.4:22", None, "ssh") == "New ssh service answering"
