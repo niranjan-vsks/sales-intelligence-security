@@ -7,7 +7,8 @@ ranked list of 487,133 named businesses, each with a security exposure
 score, a sales segment, and the verbatim evidence behind the score. Built
 in 5 days for the Firmable take-home.
 
-- Write-up: [DESIGN.md](DESIGN.md) (approach, key decisions, how it was
+- Short write-up: [WRITEUP.md](WRITEUP.md). Demo guide: [docs/DEMO_GUIDE.md](docs/DEMO_GUIDE.md)
+- Full design: [DESIGN.md](DESIGN.md) (approach, key decisions, how it was
   measured, scale, cost, dev loop)
 - Tables: [DATA_MODEL.md](DATA_MODEL.md)
 - How the data was understood before any code: [EXPLORATION.md](EXPLORATION.md)
